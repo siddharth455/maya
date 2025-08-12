@@ -91,92 +91,196 @@
         </div>
     </div>
 </div>
-<div class="container mt-4">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <p>EXCELLENCE & INNOVATION</p>
-            <h1 style="font-size: 40px; color: green; font-weight: bold;">Why Choose Maya Devi University?</h1>
-            <p style="font-size: 20px;">
-                Discover a world of opportunities where excellence meets innovation and tradition meets the future.
-            </p>
-        </div>
-        <div class="col-lg-12">
-            <div class="container py-5">
-                <div class="row text-center">
+<div class="container py-5">
+  <!-- Heading Section -->
+  <div class="row mb-5 text-center">
+    <div class="col-lg-12">
+      <p class="text-uppercase text-muted fw-semibold mb-2">Excellence & Innovation</p>
+      <h1 class="fw-bold mb-3" style="
+    font-size: 40px; 
+    background: linear-gradient(90deg, #00B894, #28a745, #006400); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;">
+  Why Choose Maya Devi University?
+</h1>
 
-                    <!-- Top Placements -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card border-0 shadow h-100">
-                            <div class="card-body">
-                                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
-                                    🎓
-                                </div>
-                                <h3 class="card-title fw-semibold">Top Placements & Global Opportunities</h3>
-                                <p>
-                                Our world-class faculty and cutting-edge programs empower students to excel in their fields, with a curriculum designed to foster critical thinking and global perspectives.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- State-of-the-art Infrastructure -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card border-0 shadow h-100">
-                            <div class="card-body">
-                                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
-                                    🏢
-                                </div>
-                                <h3 class="card-title fw-semibold">State-of-the-art Infrastructure</h3>
-                                <p>
-                                Join a diverse, inclusive community where lifelong friendships are formed, and students thrive in a supportive environment filled with clubs, events, and mentorship.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card border-0 shadow h-100">
-                            <div class="card-body">
-                                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
-                                    🌍
-                                </div>
-                                <h3 class="card-title fw-semibold">International Collaborations</h3>
-                                <p>
-                                Engage in groundbreaking research with state-of-the-art facilities, collaborating on projects that address global challenges and shape the future.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <p class="fs-5 text-secondary">
+        Discover a world of opportunities where excellence meets innovation and tradition meets the future.
+      </p>
     </div>
-</div><q>a</q>
-<div class="about-us pt-130 pb-130">
+  </div>
+
+  <!-- Features Section -->
+  <div class="row g-4 text-center">
+    <!-- Feature 1 -->
+    <div class="col-md-4">
+      <div class="card border-0 shadow h-100 p-4 hover-shadow">
+        <div class="icon-circle mb-3 mx-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 16 16">
+            <path d="M8 0a5 5 0 0 1 5 5v.5H3V5a5 5 0 0 1 5-5zM1 6h14a1 1 0 0 1 1 1v1.5H0V7a1 1 0 0 1 1-1zm-1 4.5h16V15a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1v-4.5z"/>
+          </svg>
+        </div>
+        <h4 class="fw-semibold mb-2">Top Placements & Global Opportunities</h4>
+        <p class="text-muted fs-6">
+          Our world-class faculty and cutting-edge programs prepare students for successful careers with global exposure.
+        </p>
+      </div>
+    </div>
+
+    <!-- Feature 2 -->
+    <div class="col-md-4">
+      <div class="card border-0 shadow h-100 p-4 hover-shadow">
+        <div class="icon-circle mb-3 mx-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 16 16">
+            <path d="M0 3a1 1 0 0 1 1-1h5.5v1.5H1v10h14v-10h-5.5V2H15a1 1 0 0 1 1 1v12H0V3z"/>
+            <path d="M7.5 0h1v5h-1V0z"/>
+          </svg>
+        </div>
+        <h4 class="fw-semibold mb-2">State-of-the-art Infrastructure</h4>
+        <p class="text-muted fs-6">
+          Experience modern labs, digital classrooms, and world-class facilities designed to inspire innovation.
+        </p>
+      </div>
+    </div>
+
+    <!-- Feature 3 -->
+    <div class="col-md-4">
+      <div class="card border-0 shadow h-100 p-4 hover-shadow">
+        <div class="icon-circle mb-3 mx-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 0 8 8A8.009 8.009 0 0 0 8 0zM6.406 12.416a5.5 5.5 0 0 1 0-8.832l.708.708a4.5 4.5 0 0 0 0 7.416l-.708.708zm3.188 0l-.708-.708a4.5 4.5 0 0 0 0-7.416l.708-.708a5.5 5.5 0 0 1 0 8.832z"/>
+          </svg>
+        </div>
+        <h4 class="fw-semibold mb-2">International Collaborations</h4>
+        <p class="text-muted fs-6">
+          Collaborate with top global institutions through exchange programs and research initiatives.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Extra Styles -->
+<style>
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #00B894, #00CFFF);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hover-shadow:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+</style>
+
+<div class="about-us pb-4">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6">
-                <div class="about-content">
-                    <div class="section-title section-title-green mb-30">
-                        <h2>About <span>Us</span></h2>
-                        <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
-                    </div>
-                    <p>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam, quis nostrud exer citation ullamco laboris nisi ut perspiciatis unde omnis iste natus error sit voluptate.</p>
-                    <div class="about-btn mt-45">
-                        <a class="default-btn" href="about-us.php">ABOUT US</a>
-                    </div>
+        <div class="section-title-3 section-shape-hm2-1 text-center mb-100">
+            <h2 style="font-size: 40px; color: green; font-weight: bold;">Discover Our Campus</h2>
+            <style>
+                .gradient {
+                    font-size: 36px;
+                    font-weight: 800;
+                    background: linear-gradient(90deg, #00B894, #00CFFF, #0077B6);
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    color: transparent;
+                    letter-spacing: 0.2px;
+                }
+            </style>
+
+            <p style="font-size: 18px;" class="fs-5 text-muted">Take a breathtaking aerial tour of our state-of-the-art campus, where innovation meets inspiration amidst lush greenery and modern architecture.</p>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-7 col-md-12">
+                <div class="about-img about-img-2 mr-70">
+                    <iframe width="610" height="420" src="https://www.youtube.com/embed/Gm-KE2N_5ws?si=GhYhUb3BJcIAEJJ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6">
-                <div class="about-img default-overlay">
-                    <img src="assets/img/banner/banner-1.jpg" alt="">
-                    <a class="video-btn video-popup" href="https://www.youtube.com/watch?v=sv5hK4crIRc">
-                        <img class="animated" src="assets/img/icon-img/video.png" alt="">
-                    </a>
+            <div class="col-lg-5 col-md-12">
+                <div class="about-content-2 pr-70">
+                    <p style="font-size: 17px;" class="fs-5 text-muted">Maya Devi University hosts a diverse spectrum of schools and programs, ranging from Engineering, Agriculture, and Pharmacy to Management, Pharmacy, Tourism, Animation, Commerce, and Applied Sciences — all under one campus ecosystem
+                        mdu.maya.edu.in
+                        admission.maya.edu.in
+                        .
+
+                        Notably, its School of Engineering emphasizes hands-on, industry-aligned education. Departments like Computer Science, Mechanical, and Civil boast state-of-the-art labs, Centers of Excellence, and opportunities for live projects and internships
+                        mdu.maya.edu.in
+                        .</p>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="container py-5">
+                    <div class="row text-center">
+
+                        <!-- Top Placements -->
+                        <div class="col-md-4">
+                            <div class="card border-0 shadow h-100 p-4">
+                                <div class="card-body">
+                                    <h3 class="card-title fw-semibold text-success">Modern Facilities</h3>
+                                    <p style="font-size: 13px;" class="fs-5 text-muted">
+                                        State-of-the-art laboratories, libraries, and learning spaces designed for the future.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 shadow h-100 p-4">
+                                <div class="card-body">
+                                    <h3 class="card-title fw-semibold text-success">Green Campus</h3>
+                                    <p style="font-size: 13px;" class="fs-5 text-muted">
+                                        Sustainability at the core with lush gardens, solar power, and eco-friendly architecture.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 shadow h-100 p-4">
+                                <div class="card-body">
+                                    <h3 class="card-title fw-semibold text-success">Student Life</h3>
+                                    <p style="font-size: 13px;" class="fs-5 text-muted">
+                                        Vibrant community spaces that foster collaboration, creativity, and personal growth.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<div class="container mb-4">
+  <div class="row align-items-center">
+    <!-- Left Side - Image -->
+    <div class="col-lg-6 text-center">
+      <img src="assets/uploads/herosectionimg1.jpeg" alt="Logo" class="img-fluid rounded-lg shadow-sm p-2 bg-light" style="max-height: 500px;">
+    </div>
+
+    <!-- Right Side - Text -->
+    <div class="col-lg-6">
+      <h1 class="fw-bold text-success mb-3">
+        Experience Excellence at the Best University in Dehradun – Maya Devi University
+      </h1>
+      <p class="fs-5 text-muted">
+        At <strong>Maya Devi University</strong>, recognized as the best university in Dehradun, 
+        we offer a transformative learning experience that goes beyond traditional education. 
+        Our innovative approach is built around the <strong>8 Abilities</strong> – a comprehensive framework 
+        designed to develop well-rounded, future-ready individuals equipped with the skills 
+        to excel in their careers and make a lasting impact in the world.
+      </p>
+      <a href="#learn-more" class="btn btn-success btn-lg mt-3">Learn More</a>
+    </div>
+  </div>
+</div>
+
 <div class="course-area bg-img pt-130 pb-10" style="background-image:url(assets/uploads/bg-1.webp);">
     <div class="container">
         <div class="section-title mb-75">
