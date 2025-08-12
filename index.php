@@ -117,7 +117,7 @@
         </div>
     </div>
 </div>
-<div class="course-area bg-img pt-130 pb-10" style="background-image:url(assets/img/bg/bg-1.jpg);">
+<div class="course-area bg-img pt-130 pb-10" style="background-image:url(assets/uploads/bg-1.webp);">
     <div class="container">
         <div class="section-title mb-75">
             <h2> <span>Our</span> Courses</h2>
