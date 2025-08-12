@@ -1,7 +1,7 @@
 <?php require "common/header.php" ?>
 <div class="slider-area">
     <div class="slider-active owl-carousel">
-        <div class="single-slider slider-height-1 bg-img" style="background-image:url('https://picsum.photos/id/870/200/300?grayscale&blur=2');">
+        <div class="single-slider slider-height-1 bg-img" style="background-image:url('assets/uploads/banner-1.webp');">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9 col-md-7 col-12 col-sm-12">
@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div class="slider-single-img slider-animated-1">
-                    <img class="animated" src="assets/img/slider/single-slide-1.png" alt="">
+                    <img class="animated" src="assets/uploads/banner-2.webp" alt="">
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
                     </div>
                 </div>
                 <div class="slider-single-img slider-animated-1">
-                    <img class="animated" src="assets/img/slider/single-slide-1.png" alt="">
+                    <img class="animated" src="assets/uploads/banner-2.webp" alt="">
                 </div>
             </div>
         </div>
@@ -45,46 +45,46 @@
     <div class="container-fluid">
         <div class="row no-gutters choose-negative-mrg">
             <div class="col-lg-3 col-md-6">
-                <div class="single-choose-us choose-bg-light-blue">
+                <div class="single-choose-us choose-bg-blue">
                     <div class="choose-img">
                         <img class="animated" src="assets/img/icon-img/service-1.png" alt="">
                     </div>
                     <div class="choose-content">
                         <h3>Scholarship Facility</h3>
-                        <p>magna aliqua. Ut enim ad minim veniam conse ctetur adipisicing elit, sed do exercitation. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-choose-us choose-bg-yellow">
-                    <div class="choose-img">
-                        <img class="animated" src="assets/img/icon-img/service-2.png" alt="">
-                    </div>
-                    <div class="choose-content">
-                        <h3>Scholarship Facility</h3>
-                        <p>magna aliqua. Ut enim ad minim veniam conse ctetur adipisicing elit, sed do exercitation. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="single-choose-us choose-bg-blue">
-                    <div class="choose-img">
-                        <img class="animated" src="assets/img/icon-img/service-3.png" alt="">
-                    </div>
-                    <div class="choose-content">
-                        <h3>Scholarship Facility</h3>
-                        <p>magna aliqua. Ut enim ad minim veniam conse ctetur adipisicing elit, sed do exercitation. </p>
+                        <p>Empowering dreams through financial support — turning potential into success. </p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="single-choose-us choose-bg-green">
                     <div class="choose-img">
-                        <img class="animated" src="assets/img/icon-img/service-4.png" alt="">
+                        <img class="animated" src="assets/img/icon-img/service-2.png" alt="">
                     </div>
                     <div class="choose-content">
-                        <h3>Scholarship Facility</h3>
-                        <p>magna aliqua. Ut enim ad minim veniam conse ctetur adipisicing elit, sed do exercitation. </p>
+                        <h3>Doctoral Program</h3>
+                        <p>Advancing knowledge, shaping futures, and leading the way in research and innovation. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-choose-us choose-bg-blue">
+                    <div class="choose-img">
+                        <img class="animated" src="assets/uploads/p-icon.jpg" style="height: 74px; width:70px" alt="">
+                    </div>
+                    <div class="choose-content">
+                        <h3>Career Placement</h3>
+                        <p>Connecting talent with the right opportunities for a future-ready career. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-choose-us choose-bg-green">
+                    <div class="choose-img">
+                        <img class="animated" src="assets/uploads/s-icon.webp" style="height: 74px; width:70px" alt="">
+                    </div>
+                    <div class="choose-content">
+                        <h3>Bright Futures</h3>
+                        <p>Empowering young minds for a lifetime of growth and success.</p>
                     </div>
                 </div>
             </div>
@@ -281,10 +281,7 @@
   </div>
 </div>
 
-
-
-
-<div class="course-area bg-img pt-130 pb-10" style="background-image:url(assets/img/bg/bg-1.jpg);">
+<div class="course-area bg-img pt-130 pb-10" style="background-image:url(assets/uploads/bg-1.webp);">
     <div class="container">
         <div class="section-title mb-75">
             <h2> <span>Our</span> Courses</h2>
@@ -293,12 +290,60 @@
         <div class="course-slider-active nav-style-1 owl-carousel">
             <div class="single-course">
                 <div class="course-img">
-                    <a href="course-details.php"><img class="animated" src="assets/img/course/course-1.jpg" alt=""></a>
-                    <span>Addmission Going On</span>
+                    <a href="course-details.php"><img class="animated" src="assets/uploads/b-tech-AI.jpeg" alt=""></a>
+                    
                 </div>
                 <div class="course-content">
-                    <h4><a href="course-details.php">Apparel Manufacturing</a></h4>
-                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                    <h4><a href="course-details.php">B.tech With Specialization in AI & ML</a></h4>
+                    <p>Focused program in AI and Machine Learning, covering neural networks and intelligent systems.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="b.tech-AI-ML.php">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.php"><img class="animated" src="assets/uploads/b.tech-cyber.webp" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.php">B.tech With Specialization in Cyber Security</a></h4>
+                    <p>Specialized program in cyber security and digital forensics with IBM, focusing on threat detection and mitigation.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="b.tech-cyber_security.php">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.php"><img class="animated" src="assets/uploads/b.tech-cs.webp" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.php">B.Tech. Computer Science & Engineering</a></h4>
+                    <p>Core program in computer science, covering programming, algorithms, and system design.</p>
                 </div>
                 <div class="course-position-content">
                     <div class="credit-duration-wrap">
@@ -318,11 +363,12 @@
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="course-details.php"><img class="animated" src="assets/img/course/course-2.jpg" alt=""></a>
+                    <a href="course-details.php"><img class="animated" src="assets/uploads/b.tech-ds.jpg" alt=""></a>
+                    
                 </div>
                 <div class="course-content">
-                    <h4><a href="course-details.php">Grphic Design & Multimedia</a></h4>
-                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                    <h4><a href="course-details.php">B.tech With Specialization in Data Science</a></h4>
+                    <p>Focused program on data science with IBM, covering data analysis, visualization, and predictive modeling.</p>
                 </div>
                 <div class="course-position-content">
                     <div class="credit-duration-wrap">
@@ -340,82 +386,32 @@
                     </div>
                 </div>
             </div>
-            <div class="single-course">
-                <div class="course-img">
-                    <a href="course-details.php"><img class="animated" src="assets/img/course/course-3.jpg" alt=""></a>
-                </div>
-                <div class="course-content">
-                    <h4><a href="course-details.php">Computer Engineering</a></h4>
-                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
-                </div>
-                <div class="course-position-content">
-                    <div class="credit-duration-wrap">
-                        <div class="sin-credit-duration">
-                            <i class="fa fa-diamond"></i>
-                            <span>Credits : 125</span>
-                        </div>
-                        <div class="sin-credit-duration">
-                            <i class="fa fa-clock-o"></i>
-                            <span>Duration : 4yrs</span>
-                        </div>
-                    </div>
-                    <div class="course-btn">
-                        <a class="default-btn" href="#">APPLY NOW</a>
-                    </div>
-                </div>
-            </div>
-            <div class="single-course">
-                <div class="course-img">
-                    <a href="course-details.php"><img class="animated" src="assets/img/course/course-4.jpg" alt=""></a>
-                    <span>Post Graduation Course</span>
-                </div>
-                <div class="course-content">
-                    <h4><a href="course-details.php">Fashion & Technology</a></h4>
-                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
-                </div>
-                <div class="course-position-content">
-                    <div class="credit-duration-wrap">
-                        <div class="sin-credit-duration">
-                            <i class="fa fa-diamond"></i>
-                            <span>Credits : 125</span>
-                        </div>
-                        <div class="sin-credit-duration">
-                            <i class="fa fa-clock-o"></i>
-                            <span>Duration : 4yrs</span>
-                        </div>
-                    </div>
-                    <div class="course-btn">
-                        <a class="default-btn" href="#">APPLY NOW</a>
-                    </div>
-                </div>
-            </div>
-            <div class="single-course">
-                <div class="course-img">
-                    <a href="course-details.php"><img class="animated" src="assets/img/course/course-2.jpg" alt=""></a>
-                </div>
-                <div class="course-content">
-                    <h4><a href="course-details.php">Apparel Manufacturing</a></h4>
-                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
-                </div>
-                <div class="course-position-content">
-                    <div class="credit-duration-wrap">
-                        <div class="sin-credit-duration">
-                            <i class="fa fa-diamond"></i>
-                            <span>Credits : 125</span>
-                        </div>
-                        <div class="sin-credit-duration">
-                            <i class="fa fa-clock-o"></i>
-                            <span>Duration : 4yrs</span>
-                        </div>
-                    </div>
-                    <div class="course-btn">
-                        <a class="default-btn" href="#">APPLY NOW</a>
-                    </div>
-                </div>
-            </div>
+           
         </div>
+        <div class="course-button">
+        <a href="https://example.com" class="button-link">View More Courses</a>
+    </div>
     </div>
 </div>
+<style>
+    .course-button{
+        margin: 10px auto;
+        text-align: center;
+    }
+a.button-link {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #00a651;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.button-link:hover {
+    background-color: #0056b3;
+}
+</style>
 <div class="achievement-area pt-130 pb-115">
     <div class="container">
         <div class="section-title mb-75">
