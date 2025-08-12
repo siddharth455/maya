@@ -1,7 +1,7 @@
 <?php require "common/header.php" ?>
 <div class="slider-area">
     <div class="slider-active owl-carousel">
-        <div class="single-slider slider-height-1 bg-img" style="background-image:url(assets/img/slider/slider-1.jpg);">
+        <div class="single-slider slider-height-1 bg-img" style="background-image:url('https://picsum.photos/id/870/200/300?grayscale&blur=2');">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9 col-md-7 col-12 col-sm-12">
@@ -91,6 +91,66 @@
         </div>
     </div>
 </div>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <p>EXCELLENCE & INNOVATION</p>
+            <h1 style="font-size: 40px; color: green; font-weight: bold;">Why Choose Maya Devi University?</h1>
+            <p style="font-size: 20px;">
+                Discover a world of opportunities where excellence meets innovation and tradition meets the future.
+            </p>
+        </div>
+        <div class="col-lg-12">
+            <div class="container py-5">
+                <div class="row text-center">
+
+                    <!-- Top Placements -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 shadow h-100">
+                            <div class="card-body">
+                                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
+                                    🎓
+                                </div>
+                                <h3 class="card-title fw-semibold">Top Placements & Global Opportunities</h3>
+                                <p>
+                                Our world-class faculty and cutting-edge programs empower students to excel in their fields, with a curriculum designed to foster critical thinking and global perspectives.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- State-of-the-art Infrastructure -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 shadow h-100">
+                            <div class="card-body">
+                                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
+                                    🏢
+                                </div>
+                                <h3 class="card-title fw-semibold">State-of-the-art Infrastructure</h3>
+                                <p>
+                                Join a diverse, inclusive community where lifelong friendships are formed, and students thrive in a supportive environment filled with clubs, events, and mentorship.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 shadow h-100">
+                            <div class="card-body">
+                                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
+                                    🌍
+                                </div>
+                                <h3 class="card-title fw-semibold">International Collaborations</h3>
+                                <p>
+                                Engage in groundbreaking research with state-of-the-art facilities, collaborating on projects that address global challenges and shape the future.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><q>a</q>
 <div class="about-us pt-130 pb-130">
     <div class="container">
         <div class="row">
@@ -100,7 +160,7 @@
                         <h2>About <span>Us</span></h2>
                         <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
                     </div>
-                    <p>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven  iam, quis nostrud exer citation ullamco laboris nisi ut perspiciatis unde omnis iste natus error sit voluptate.</p>
+                    <p>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam, quis nostrud exer citation ullamco laboris nisi ut perspiciatis unde omnis iste natus error sit voluptate.</p>
                     <div class="about-btn mt-45">
                         <a class="default-btn" href="about-us.php">ABOUT US</a>
                     </div>
@@ -307,101 +367,101 @@
                     <div class="testi-big-img">
                         <img alt="" src="assets/img/testimonial/testi-b1.jpg">
                     </div>
-                   <div class="row g-0">
-                       <div class="ms-auto col-lg-6 col-md-12">
-                           <div class="testi-content bg-img default-overlay" style="background-image:url(assets/img/bg/testi.png);">
+                    <div class="row g-0">
+                        <div class="ms-auto col-lg-6 col-md-12">
+                            <div class="testi-content bg-img default-overlay" style="background-image:url(assets/img/bg/testi.png);">
                                 <div class="quote-style quote-left">
-                                   <i class="fa fa-quote-left"></i>
+                                    <i class="fa fa-quote-left"></i>
                                 </div>
-                               <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua. Ut enim  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit </p>
+                                <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua. Ut enim fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit </p>
                                 <div class="testi-info">
-                                   <h5>AYESHA HOQUE</h5>
-                                   <span>Students Of AMMT Department</span>
+                                    <h5>AYESHA HOQUE</h5>
+                                    <span>Students Of AMMT Department</span>
                                 </div>
                                 <div class="quote-style quote-right">
-                                   <i class="fa fa-quote-right"></i>
+                                    <i class="fa fa-quote-right"></i>
                                 </div>
                                 <div class="testi-arrow">
                                     <img alt="" src="assets/img/icon-img/testi-icon.png">
                                 </div>
-                           </div>
-                       </div>
-                   </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="testi-content-wrap">
-                   <div class="testi-big-img">
+                    <div class="testi-big-img">
                         <img alt="" src="assets/img/testimonial/testi-b3.jpg">
                     </div>
-                   <div class="row g-0">
+                    <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
-                           <div class="testi-content bg-img default-overlay" style="background-image:url(assets/img/bg/testi.png);">
+                            <div class="testi-content bg-img default-overlay" style="background-image:url(assets/img/bg/testi.png);">
                                 <div class="quote-style quote-left">
-                                   <i class="fa fa-quote-left"></i>
+                                    <i class="fa fa-quote-left"></i>
                                 </div>
-                               <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua. Ut enim  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis</p>
+                                <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua. Ut enim fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis</p>
                                 <div class="testi-info">
-                                   <h5>Tayeb Rayed</h5>
-                                   <span>Students Of AMMT Department</span>
+                                    <h5>Tayeb Rayed</h5>
+                                    <span>Students Of AMMT Department</span>
                                 </div>
                                 <div class="quote-style quote-right">
-                                   <i class="fa fa-quote-right"></i>
+                                    <i class="fa fa-quote-right"></i>
                                 </div>
                                 <div class="testi-arrow">
                                     <img alt="" src="assets/img/icon-img/testi-icon.png">
                                 </div>
-                           </div>
-                       </div>
-                   </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="testi-content-wrap">
                     <div class="testi-big-img">
                         <img alt="" src="assets/img/testimonial/testi-b2.jpg">
                     </div>
-                   <div class="row g-0">
+                    <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
-                           <div class="testi-content bg-img default-overlay" style="background-image:url(assets/img/bg/testi.png);">
+                            <div class="testi-content bg-img default-overlay" style="background-image:url(assets/img/bg/testi.png);">
                                 <div class="quote-style quote-left">
-                                   <i class="fa fa-quote-left"></i>
+                                    <i class="fa fa-quote-left"></i>
                                 </div>
-                               <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua. Ut enim  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui. Sed ut perspiciatis unde omnis iste natus error sit </p>
+                                <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua. Ut enim fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui. Sed ut perspiciatis unde omnis iste natus error sit </p>
                                 <div class="testi-info">
-                                   <h5>Robiul siddikee</h5>
-                                   <span>Students Of AMMT Department</span>
+                                    <h5>Robiul siddikee</h5>
+                                    <span>Students Of AMMT Department</span>
                                 </div>
                                 <div class="quote-style quote-right">
-                                   <i class="fa fa-quote-right"></i>
+                                    <i class="fa fa-quote-right"></i>
                                 </div>
                                 <div class="testi-arrow">
                                     <img alt="" src="assets/img/icon-img/testi-icon.png">
                                 </div>
-                           </div>
+                            </div>
                         </div>
-                   </div>
+                    </div>
                 </div>
                 <div class="testi-content-wrap">
-                   <div class="testi-big-img">
+                    <div class="testi-big-img">
                         <img alt="" src="assets/img/testimonial/testi-b2.jpg">
                     </div>
                     <div class="row g-0">
-                       <div class="ms-auto col-lg-6 col-md-12">
-                           <div class="testi-content bg-img default-overlay" style="background-image:url(assets/img/bg/testi.png);">
+                        <div class="ms-auto col-lg-6 col-md-12">
+                            <div class="testi-content bg-img default-overlay" style="background-image:url(assets/img/bg/testi.png);">
                                 <div class="quote-style quote-left">
-                                   <i class="fa fa-quote-left"></i>
+                                    <i class="fa fa-quote-left"></i>
                                 </div>
-                               <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua. Ut enim  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit </p>
+                                <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua. Ut enim fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit </p>
                                 <div class="testi-info">
-                                   <h5>Modhu Dada</h5>
-                                   <span>Students Of AMMT Department</span>
+                                    <h5>Modhu Dada</h5>
+                                    <span>Students Of AMMT Department</span>
                                 </div>
                                 <div class="quote-style quote-right">
-                                   <i class="fa fa-quote-right"></i>
+                                    <i class="fa fa-quote-right"></i>
                                 </div>
                                 <div class="testi-arrow">
                                     <img alt="" src="assets/img/icon-img/testi-icon.png">
                                 </div>
-                           </div>
-                       </div>
-                   </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="testimonial-image-slider">
@@ -428,7 +488,7 @@
     <div class="container">
         <div class="section-title-2 mb-75 white-text">
             <h2>Register <span>Now</span></h2>
-            <p>Winter Admission Is Going On. We are announcing  Special discount for winter batch 2019.</p>
+            <p>Winter Admission Is Going On. We are announcing Special discount for winter batch 2019.</p>
         </div>
         <div class="register-wrap">
             <div id="register-3" class="mouse-bg">
@@ -827,4 +887,4 @@
         </div>
     </div>
 </div>
-<?php require "common/footer.php"?>
+<?php require "common/footer.php" ?>
