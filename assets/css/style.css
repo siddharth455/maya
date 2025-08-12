@@ -1787,9 +1787,7 @@ textarea:focus {
   display: none;
 }
 
-.logo {
-  margin-top: 31px;
-}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .logo {
     margin-top: 0px;
@@ -1918,7 +1916,7 @@ textarea:focus {
   background-color: #fff;
   display: block;
   left: 0;
-  padding: 33px 30px 30px 0;
+  padding: 43px 0px 30px 0;
   position: absolute;
   text-align: left;
   top: 100%;
@@ -1937,9 +1935,9 @@ textarea:focus {
 .main-menu nav ul li.mega-menu-position ul.mega-menu > li {
   display: inline-block;
   float: left;
-  padding-left: 60px;
+  padding-left: 20px;
   margin-left: 0;
-  width: 25%;
+  width: 30%;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-menu nav ul li.mega-menu-position ul.mega-menu > li {
@@ -3489,14 +3487,18 @@ textarea:focus {
   }
 }
 /* about us page */
+.breadcrumb-area{
+  height: 600px;
+}
 .breadcrumb-top {
   position: relative;
+  height: 600px;
   z-index: 9;
 }
 .breadcrumb-top h2 {
   font-weight: bold;
   font-size: 48px;
-  margin: 0 0 22px;
+  margin: 200px 0 22px;
   color: #fff;
   z-index: 9;
   position: relative;
@@ -3517,6 +3519,10 @@ textarea:focus {
   width: 40%;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .breadcrumb-top{
+    height: 400px;
+    width: 600px;
+  }
   .breadcrumb-top p {
     width: 73%;
   }
