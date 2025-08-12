@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Glaxdu - Education Bootstrap 5 Template</title>
+    <title>Maya Devi University</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/uploads/logo/favicon-CqYW0pAm.ico">
     
     <!-- CSS
 	============================================ -->
@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Modernizer JS -->
     <script src="assets/js/vendor/modernizr-3.11.7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 </head>
 
 <body>
@@ -33,16 +35,16 @@
                 <div class="col-lg-6 col-md-7 col-12 col-sm-8">
                     <div class="header-contact">
                         <ul>
-                            <li><i class="fa fa-phone"></i> +98 558 547 589</li>
-                            <li><i class="fa fa-envelope-o"></i><a href="#">education@email.com</a></li>
+                            <li><i class="fa fa-phone"></i> 0135-2658602</li>
+                            <li><i class="fa fa-envelope-o"></i><a href="#">info@maya.edu.in</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-5 col-12 col-sm-4">
                     <div class="login-register">
                         <ul>
-                            <li><a href="login-register.php">Login</a></li>
-                            <li><a href="login-register.php">Register</a></li>
+                            <li><a href="login-register.php">Contact us</a></li>
+                            <li><a href="login-register.php">University Recognition</a></li>
                         </ul>
                     </div>
                 </div>
@@ -55,7 +57,7 @@
                 <div class="col-lg-2 col-md-6 col-4">
                     <div class="logo">
                         <a href="index.php">
-                            <img alt="" src="assets/img/logo/logo.png">
+                            <img alt="" src="assets/uploads/logo/maya-comp-D8ouvxDP.png">
                         </a>
                     </div>
                 </div>
@@ -72,52 +74,36 @@
                                         </ul>
                                     </li>
                                     <li><a href="about-us.php"> ABOUT  </a></li>
-                                    <li class="mega-menu-position top-hover"><a href="shop.php"> SHOP <i class="fa fa-angle-down"></i> </a>
+                                    <li class="mega-menu-position top-hover"><a href="shop.php"> Our Schools <i class="fa fa-angle-down"></i> </a>
                                         <ul class="mega-menu">
                                             <li>
                                                 <ul>
-                                                    <li class="mega-menu-title"><a href="#">Categories 01</a></li>
-                                                    <li><a href="shop.php">bag</a></li>
-                                                    <li><a href="shop.php">Pen</a></li>
-                                                    <li><a href="shop.php">Erasers</a></li>
-                                                    <li><a href="shop.php">Glue sticks</a></li>
-                                                    <li><a href="shop.php">Lunchbox </a></li>
-                                                    <li><a href="shop.php">Pencil box </a></li>
+                                                    <li><a href="shop.php">School of Computer Engineering & Applications</a></li>
+                                                    <li><a href="shop.php">School of Engineering</a></li>
+                                                    <li><a href="shop.php">School of Pharmacy</a></li>
+                                                    <li><a href="shop.php">School of Commerce & Management</a></li>
+                                                    <li><a href="shop.php">School of Hotel Management & Tourism</a></li>
+                                                    <li><a href="shop.php">School of Life & Applied Science</a></li>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <ul>
-                                                    <li class="mega-menu-title"><a href="#">Categories 02</a></li>
-                                                    <li><a href="shop.php">bag</a></li>
-                                                    <li><a href="shop.php">Pen</a></li>
-                                                    <li><a href="shop.php">Erasers</a></li>
-                                                    <li><a href="shop.php">Glue sticks</a></li>
-                                                    <li><a href="shop.php">Lunchbox </a></li>
-                                                    <li><a href="shop.php">Pencil box </a></li>
+                                                    <li><a href="shop.php">School of Education</a></li>
+                                                    <li><a href="shop.php">School of Agriculture & Technology</a></li>
+                                                    <li><a href="shop.php">School of Nursing</a></li>
+                                                    <li><a href="shop.php">School of Health Sciences</a></li>
+                                                    <li><a href="shop.php">School of Paramedical Sciences</a></li>
+                                                    <li><a href="shop.php">School of Arts & Humanities</a></li>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <ul>
-                                                    <li class="mega-menu-title"><a href="#">Categories 03</a></li>
-                                                    <li><a href="shop.php">bag</a></li>
-                                                    <li><a href="shop.php">Pen</a></li>
-                                                    <li><a href="shop.php">Erasers</a></li>
-                                                    <li><a href="shop.php">Glue sticks</a></li>
-                                                    <li><a href="shop.php">Lunchbox </a></li>
-                                                    <li><a href="shop.php">Pencil box </a></li>
+                                                    <li><a href="shop.php">School of Law & Legal Studies</a></li>
+                                                    <li><a href="shop.php">School of Skill Development & Vocational Studies</a></li>
+                                                    <li><a href="shop.php">Ashtvakra School of Rehabilitation</a></li>
                                                 </ul>
                                             </li>
-                                            <li>
-                                                <ul>
-                                                    <li class="mega-menu-title"><a href="#">Categories 04</a></li>
-                                                    <li><a href="shop.php">bag</a></li>
-                                                    <li><a href="shop.php">Pen</a></li>
-                                                    <li><a href="shop.php">Erasers</a></li>
-                                                    <li><a href="shop.php">Glue sticks</a></li>
-                                                    <li><a href="shop.php">Lunchbox </a></li>
-                                                    <li><a href="shop.php">Pencil box </a></li>
-                                                </ul>
-                                            </li>
+                                           
                                         </ul>
                                     </li>
                                     <li><a href="#"> PAGES <i class="fa fa-angle-down"></i> </a>
@@ -145,65 +131,7 @@
                                 </ul>
                             </nav>
                         </div>
-                        <div class="cart-search-wrap">
-                            <div class="cart-wrap">
-                                <button class="icon-cart">
-                                    <i class="fa fa-cart-plus"></i>
-                                    <span class="count-style">02</span>
-                                </button>
-                                <div class="shopping-cart-content">
-                                    <ul>
-                                        <li class="single-shopping-cart">
-                                            <div class="shopping-cart-img">
-                                                <a href="#"><img alt="" src="assets/img/cart/cart-1.png"></a>
-                                            </div>
-                                            <div class="shopping-cart-title">
-                                                <h4><a href="#">Color Box </a></h4>
-                                                <h6>Qty: 02</h6>
-                                                <span>$260.00</span>
-                                            </div>
-                                            <div class="shopping-cart-delete">
-                                                <a href="#"><i class="fa fa-times-circle"></i></a>
-                                            </div>
-                                        </li>
-                                        <li class="single-shopping-cart">
-                                            <div class="shopping-cart-img">
-                                                <a href="#"><img alt="" src="assets/img/cart/cart-2.png"></a>
-                                            </div>
-                                            <div class="shopping-cart-title">
-                                                <h4><a href="#">Color Box </a></h4>
-                                                <h6>Qty: 02</h6>
-                                                <span>$260.00</span>
-                                            </div>
-                                            <div class="shopping-cart-delete">
-                                                <a href="#"><i class="fa fa-times-circle"></i></a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="shopping-cart-total">
-                                        <h4>Shipping : <span>$20.00</span></h4>
-                                        <h4>Total : <span class="shop-total">$260.00</span></h4>
-                                    </div>
-                                    <div class="shopping-cart-btn">
-                                        <a class="default-btn btn-hover" href="cart.php">view cart</a>
-                                        <a class="default-btn btn-hover" href="checkout.php">checkout</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="header-search">
-                                <button class="search-toggle">
-                                    <i class="fa fa-search"></i>
-                                </button>
-                                <div class="search-content">
-                                    <form action="#">
-                                        <input type="text" placeholder="Search">
-                                        <button>
-                                            <i class="fa fa-search"></i>
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>

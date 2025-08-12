@@ -6,9 +6,12 @@
             align-items: center;
             display: flex;
             justify-content: center;
-            min-height: 84px;
+            height: 184px;
             img {
-                width: auto;
+                
+                width: 150px;
+                height: 100px;
+                object-fit: contain;
             }
         }
     }
