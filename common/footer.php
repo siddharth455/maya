@@ -1,5 +1,5 @@
 <footer class="footer-area">
-    <div class="footer-top bg-img default-overlay pt-130 pb-80" style="background-image:url(assets/img/bg/bg-4.jpg);">
+    <div class="footer-top bg-img default-overlay pt-130 pb-80" style="background-image:url(assets/uploads/footer-bg.webp);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -8,19 +8,19 @@
                             <h4>ABOUT US</h4>
                         </div>
                         <div class="footer-about">
-                            <p>Ugiat nulla pariatur. Edeserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natu</p>
+                            <p>Maya Devi University, Dehradun, offers quality education, modern facilities, and expert guidance, empowering students for success in academics, careers, and life.</p>
                             <div class="f-contact-info">
                                 <div class="single-f-contact-info">
                                     <i class="fa fa-home"></i>
-                                    <span>Uttara, Dhaka, Bangladesh</span>
+                                    <span>Selaqui, Pharma City, Dehradun, Uttarakhand-248011</span>
                                 </div>
                                 <div class="single-f-contact-info">
                                     <i class="fa fa-envelope-o"></i>
-                                    <span><a href="#">education@email.com</a></span>
+                                    <span><a href="#">info@maya.edu.in</a></span>
                                 </div>
                                 <div class="single-f-contact-info">
                                     <i class="fa fa-phone"></i>
-                                    <span> +98 558 547 589</span>
+                                    <span> 0135-2698602</span>
                                 </div>
                             </div>
                         </div>
@@ -34,8 +34,8 @@
                         <div class="footer-list">
                             <ul>
                                 <li><a href="index.php">Home</a></li>
-                                <li><a href="about-us.php">About Us</a></li>
-                                <li><a href="course.php">Courses</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Courses</a></li>
                                 <li><a href="#">Admission</a></li>
                                 <li><a href="#">Terms & Conditions</a></li>
                             </ul>
@@ -106,7 +106,7 @@
                     <div class="copyright">
                         <p>
                             Copyright ©
-                            <a href="#">GLAXDU</a>
+                            <a href="#">Maya Devi University</a>
                             . All Right Reserved.
                         </p>
                     </div>
@@ -121,10 +121,8 @@
                         </div>
                         <div class="footer-social">
                             <ul>
-                                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a class="youtube" href="#"><i class="fa fa-youtube-play"></i></a></li>
-                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a class="facebook" href="https://www.facebook.com/maya.ddun/?_rdr"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="instagram" href="https://www.instagram.com/mayadeviuniversity"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>

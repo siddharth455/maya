@@ -409,7 +409,7 @@ a.button-link:hover {
     <div class="container">
         <div class="section-title mb-75">
             <h2>Our <span>Achievement</span></h2>
-            <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+            <p>Our achievements reflect our commitment to excellence, showcasing the hard work,<br> innovation, and dedication that define Maya Devi University.</p>
         </div>
         <div class="row">
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
