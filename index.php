@@ -1044,12 +1044,12 @@ a.button-link:hover {
             <div class="col-lg-3 col-md-6">
                 <div class="single-blog mb-30">
                     <div class="blog-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/blog-1.jpg" alt=""></a>
+                        <a href="#"><img src="assets/img/blog/homepageblog6.webp" alt=""></a>
                     </div>
                     <div class="blog-content-wrap">
                         <span>Education</span>
                         <div class="blog-content">
-                            <h4><a href="blog-details.php">Testing is a great thing.</a></h4>
+                            <h4><a href="#">Testing is a great thing.</a></h4>
                             <p>doloremque laudan tium, totam ersps uns iste natus</p>
                             <div class="blog-meta">
                                 <ul>
@@ -1067,12 +1067,12 @@ a.button-link:hover {
             <div class="col-lg-3 col-md-6">
                 <div class="single-blog mb-30">
                     <div class="blog-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/blog-2.jpg" alt=""></a>
+                        <a href="#"><img src="assets/img/blog/homepageblog7.webp" alt="logo" height="180"></a>
                     </div>
                     <div class="blog-content-wrap">
                         <span>Education</span>
                         <div class="blog-content">
-                            <h4><a href="blog-details.php">A variation of the ordinary.</a></h4>
+                            <h4><a href="#">A variation of the ordinary.</a></h4>
                             <p>doloremque laudan tium, totam ersps uns iste natus</p>
                             <div class="blog-meta">
                                 <ul>
@@ -1090,12 +1090,12 @@ a.button-link:hover {
             <div class="col-lg-3 col-md-6">
                 <div class="single-blog mb-30">
                     <div class="blog-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/blog-3.jpg" alt=""></a>
+                        <a href="#"><img src="assets/img/blog/homepageblog8.webp" alt="logo" height="180"></a>
                     </div>
                     <div class="blog-content-wrap">
                         <span>Education</span>
                         <div class="blog-content">
-                            <h4><a href="blog-details.php">In publishing and graphic.</a></h4>
+                            <h4><a href="#">In publishing and graphic.</a></h4>
                             <p>doloremque laudan tium, totam ersps uns iste natus</p>
                             <div class="blog-meta">
                                 <ul>
@@ -1113,12 +1113,12 @@ a.button-link:hover {
             <div class="col-lg-3 col-md-6">
                 <div class="single-blog mb-30">
                     <div class="blog-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/blog-4.jpg" alt=""></a>
+                        <a href="#"><img src="assets/img/blog/homepageblog9.webp" alt=""></a>
                     </div>
                     <div class="blog-content-wrap">
                         <span>Education</span>
                         <div class="blog-content">
-                            <h4><a href="blog-details.php">Learn English in ease.</a></h4>
+                            <h4><a href="#">Learn English in ease.</a></h4>
                             <p>doloremque laudan tium, totam ersps uns iste natus</p>
                             <div class="blog-meta">
                                 <ul>
