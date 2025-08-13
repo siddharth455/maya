@@ -198,6 +198,7 @@
             <p style="font-size: 18px;" class="fs-5 text-muted">Take a breathtaking aerial tour of our state-of-the-art campus, where innovation meets inspiration amidst lush greenery and modern architecture.</p>
         </div>
         <div class="row align-items-center">
+suraj
         <div class="col-lg-7 col-md-12 col-sm-6">
     <div class="about-img about-img-2 mr-70 col-12" 
          style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
@@ -211,20 +212,17 @@
         </iframe>
     </div>
 </div>
-
-<div class="col-lg-5 col-md-12">
-    <div class="about-content-2 pr-70">
-        <p style="font-size: 17px;" class="fs-5 text-muted">
-            Maya Devi University hosts a diverse spectrum of schools and programs, ranging from Engineering, Agriculture, and Pharmacy to Management, Pharmacy, Tourism, Animation, Commerce, and Applied Sciences — all under one campus ecosystem
-            mdu.maya.edu.in admission.maya.edu.in
-            .
-            <br><br>
-            Notably, its School of Engineering emphasizes hands-on, industry-aligned education. Departments like Computer Science, Mechanical, and Civil boast state-of-the-art labs, Centers of Excellence, and opportunities for live projects and internships
-            mdu.maya.edu.in.
-        </p>
-    </div>
-</div>
-
+            <div class="col-lg-7 col-md-12">
+                <div class="about-img about-img-2 mr-70">
+                    <iframe width="610" height="420" src="https://www.youtube.com/embed/Gm-KE2N_5ws?si=GhYhUb3BJcIAEJJ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <div class="about-content-2 ">
+                    <p style="font-size: 17px;" class="fs-5 text-muted">Maya Devi University, Dehradun, is a premier institution dedicated to delivering world-class education and fostering holistic development. Nestled in the scenic foothills of Uttarakhand, the university offers a dynamic learning environment supported by modern infrastructure, experienced faculty, and industry-aligned programs. With a focus on academic excellence, research, and innovation, Maya Devi University prepares students to excel in their chosen fields while nurturing values, leadership skills, and a global perspective. Our commitment is to shape future-ready professionals who can contribute meaningfully to society and thrive in an ever-changing world.</p>
+                </div>
+            </div>
+ main
             <div class="col-lg-12">
                 <div class="container py-5">
                     <div class="row text-center">
@@ -291,20 +289,20 @@
   </div>
 </div>
 
-<div class="course-area bg-img pt-130 pb-10" style="background-image:url(assets/uploads/bg-1.webp);">
+<div class="course-area bg-img pt-70 pb-10" style="background-image:url(assets/uploads/bg-1.webp);">
     <div class="container">
-        <div class="section-title mb-75">
+        <div class="section-title mb-55">
             <h2> <span>Our</span> Courses</h2>
             <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
         </div>
         <div class="course-slider-active nav-style-1 owl-carousel">
             <div class="single-course">
                 <div class="course-img">
-                    <a href="course-details.php"><img class="animated" src="assets/uploads/b-tech-AI.jpeg" alt=""></a>
+                    <a href="b.tech-AI-ML.php"><img class="animated" src="assets/uploads/b-tech-AI.jpeg" alt=""></a>
                     
                 </div>
                 <div class="course-content">
-                    <h4><a href="course-details.php">B.tech With Specialization in AI & ML</a></h4>
+                    <h4><a href="b.tech-AI-ML.php">B.tech With Specialization in AI & ML</a></h4>
                     <p>Focused program in AI and Machine Learning, covering neural networks and intelligent systems.</p>
                 </div>
                 <div class="course-position-content">
@@ -325,10 +323,10 @@
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="course-details.php"><img class="animated" src="assets/uploads/b.tech-cyber.webp" alt=""></a>
+                    <a href="b.tech-cyber_security.php"><img class="animated" src="assets/uploads/b.tech-cyber.webp" alt=""></a>
                 </div>
                 <div class="course-content">
-                    <h4><a href="course-details.php">B.tech With Specialization in Cyber Security</a></h4>
+                    <h4><a href="b.tech-cyber_security.php">B.tech With Specialization in Cyber Security</a></h4>
                     <p>Specialized program in cyber security and digital forensics with IBM, focusing on threat detection and mitigation.</p>
                 </div>
                 <div class="course-position-content">
@@ -349,10 +347,10 @@
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="course-details.php"><img class="animated" src="assets/uploads/b.tech-cs.webp" alt=""></a>
+                    <a href="b.tech-CSE.php"><img class="animated" src="assets/uploads/b.tech-cs.webp" alt=""></a>
                 </div>
                 <div class="course-content">
-                    <h4><a href="course-details.php">B.Tech. Computer Science & Engineering</a></h4>
+                    <h4><a href="b.tech-CSE.php">B.Tech. Computer Science & Engineering</a></h4>
                     <p>Core program in computer science, covering programming, algorithms, and system design.</p>
                 </div>
                 <div class="course-position-content">
@@ -367,17 +365,17 @@
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="#">APPLY NOW</a>
+                        <a class="default-btn" href="b.tech-CSE.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="course-details.php"><img class="animated" src="assets/uploads/b.tech-ds.jpg" alt=""></a>
+                    <a href="b.tech-data_science.php"><img class="animated" src="assets/uploads/b.tech-ds.jpg" alt=""></a>
                     
                 </div>
                 <div class="course-content">
-                    <h4><a href="course-details.php">B.tech With Specialization in Data Science</a></h4>
+                    <h4><a href="b.tech-data_science.php">B.tech With Specialization in Data Science</a></h4>
                     <p>Focused program on data science with IBM, covering data analysis, visualization, and predictive modeling.</p>
                 </div>
                 <div class="course-position-content">
@@ -392,7 +390,7 @@
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="#">APPLY NOW</a>
+                        <a class="default-btn" href="b.tech-data_science.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
@@ -422,7 +420,7 @@ a.button-link:hover {
     background-color: #0056b3;
 }
 </style>
-<div class="achievement-area pt-130 pb-115">
+<div class="achievement-area pt-100 pb-60">
     <div class="container">
         <div class="section-title mb-75">
             <h2>Our <span>Achievement</span></h2>
@@ -435,7 +433,7 @@ a.button-link:hover {
                         <img src="assets/img/icon-img/achieve-1.png" alt="">
                     </div>
                     <div class="count-content">
-                        <h2 class="count">890</h2>
+                        <h2 class="count">1890</h2>
                         <span>STUDENTS</span>
                     </div>
                 </div>
@@ -446,7 +444,7 @@ a.button-link:hover {
                         <img src="assets/img/icon-img/achieve-2.png" alt="">
                     </div>
                     <div class="count-content">
-                        <h2 class="count">670</h2>
+                        <h2 class="count">1250</h2>
                         <span>GRADUATE</span>
                     </div>
                 </div>
@@ -457,7 +455,7 @@ a.button-link:hover {
                         <img src="assets/img/icon-img/achieve-3.png" alt="">
                     </div>
                     <div class="count-content">
-                        <h2 class="count">160</h2>
+                        <h2 class="count">750</h2>
                         <span>AWARD WINNING</span>
                     </div>
                 </div>
@@ -468,7 +466,7 @@ a.button-link:hover {
                         <img src="assets/img/icon-img/achieve-4.png" alt="">
                     </div>
                     <div class="count-content">
-                        <h2 class="count">200</h2>
+                        <h2 class="count">250</h2>
                         <span>FACULTIES</span>
                     </div>
                 </div>
@@ -478,7 +476,7 @@ a.button-link:hover {
             <div class="testimonial-text-slider">
                 <div class="testi-content-wrap">
                     <div class="testi-big-img">
-                        <img alt="" src="assets/img/testimonial/testi-b1.jpg">
+                        <img alt="" src="assets/uploads/st-1.jpg">
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
@@ -486,10 +484,10 @@ a.button-link:hover {
                                 <div class="quote-style quote-left">
                                     <i class="fa fa-quote-left"></i>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua. Ut enim fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit </p>
+                                <p>Studying at Maya Devi University has been a truly transformative journey. The dedicated faculty, advanced infrastructure, and practical learning approach have shaped my skills and confidence. The university’s focus on both academics and industry exposure has prepared me to face real-world challenges and excel in my chosen career path.</p>
                                 <div class="testi-info">
-                                    <h5>AYESHA HOQUE</h5>
-                                    <span>Students Of AMMT Department</span>
+                                    <h5>Arti Sharma</h5>
+                                    <span>School of Computer Engineering & Application</span>
                                 </div>
                                 <div class="quote-style quote-right">
                                     <i class="fa fa-quote-right"></i>
@@ -503,7 +501,7 @@ a.button-link:hover {
                 </div>
                 <div class="testi-content-wrap">
                     <div class="testi-big-img">
-                        <img alt="" src="assets/img/testimonial/testi-b3.jpg">
+                        <img alt="" src="assets/uploads/st-2.jpg">
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
@@ -511,10 +509,10 @@ a.button-link:hover {
                                 <div class="quote-style quote-left">
                                     <i class="fa fa-quote-left"></i>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua. Ut enim fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis</p>
+                                <p>My experience at Maya Devi University has been nothing short of exceptional. The supportive mentors, innovative teaching methods, and ample opportunities for growth have helped me discover my true potential. From academic excellence to personality development, the university has guided me every step of the way toward a successful future.</p>
                                 <div class="testi-info">
-                                    <h5>Tayeb Rayed</h5>
-                                    <span>Students Of AMMT Department</span>
+                                    <h5>Maya Dechen</h5>
+                                    <span>School of Engineering</span>
                                 </div>
                                 <div class="quote-style quote-right">
                                     <i class="fa fa-quote-right"></i>
@@ -528,7 +526,7 @@ a.button-link:hover {
                 </div>
                 <div class="testi-content-wrap">
                     <div class="testi-big-img">
-                        <img alt="" src="assets/img/testimonial/testi-b2.jpg">
+                        <img alt="" src="assets/uploads/st-3.jpg">
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
@@ -536,10 +534,10 @@ a.button-link:hover {
                                 <div class="quote-style quote-left">
                                     <i class="fa fa-quote-left"></i>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua. Ut enim fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui. Sed ut perspiciatis unde omnis iste natus error sit </p>
+                                <p>Maya Devi University has provided me with the perfect balance of academic learning and practical exposure. The modern infrastructure, industry-focused curriculum, and guidance from experienced faculty have shaped my skills and boosted my confidence. I am proud to be a part of an institution that truly prepares its students for global opportunities.</p>
                                 <div class="testi-info">
-                                    <h5>Robiul siddikee</h5>
-                                    <span>Students Of AMMT Department</span>
+                                    <h5>Rohit Pandey</h5>
+                                    <span>School of Commerce & Management</span>
                                 </div>
                                 <div class="quote-style quote-right">
                                     <i class="fa fa-quote-right"></i>
@@ -553,7 +551,7 @@ a.button-link:hover {
                 </div>
                 <div class="testi-content-wrap">
                     <div class="testi-big-img">
-                        <img alt="" src="assets/img/testimonial/testi-b2.jpg">
+                        <img alt="" src="assets/uploads/st-4.jpg">
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
@@ -561,10 +559,10 @@ a.button-link:hover {
                                 <div class="quote-style quote-left">
                                     <i class="fa fa-quote-left"></i>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, sed do eiusm od tempor incidi dunt ut labore et dolore magna aliqua. Ut enim fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit </p>
+                                <p>My journey at Maya Devi University has been nothing short of transformative. The supportive faculty, engaging classes, and ample opportunities for personal growth have helped me discover my true potential. The exposure to real-world projects and industry interactions has made me confident to step into my professional career with strong skills and determination.</p>
                                 <div class="testi-info">
-                                    <h5>Modhu Dada</h5>
-                                    <span>Students Of AMMT Department</span>
+                                    <h5>Ruchika Tiwari</h5>
+                                    <span>School of Pharmacy</span>
                                 </div>
                                 <div class="quote-style quote-right">
                                     <i class="fa fa-quote-right"></i>
@@ -579,16 +577,16 @@ a.button-link:hover {
             </div>
             <div class="testimonial-image-slider">
                 <div class="sin-testi-image">
-                    <img src="assets/img/testimonial/testi-s2.jpg" alt="">
+                    <img src="assets/uploads/st-1.jpg" alt="">
                 </div>
                 <div class="sin-testi-image">
-                    <img src="assets/img/testimonial/testi-s1.jpg" alt="">
+                    <img src="assets/uploads/st-2.jpg" alt="">
                 </div>
                 <div class="sin-testi-image">
-                    <img src="assets/img/testimonial/testi-s3.jpg" alt="">
+                    <img src="assets/uploads/st-3.jpg" alt="">
                 </div>
                 <div class="sin-testi-image">
-                    <img src="assets/img/testimonial/testi-s3.jpg" alt="">
+                    <img src="assets/uploads/st-4.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -597,7 +595,70 @@ a.button-link:hover {
         </div>
     </div>
 </div>
-<div class="register-area bg-img pt-130 pb-130" style="background-image:url(assets/img/bg/bg-2.jpg);">
+
+<section>
+<div class="container py-2">
+    <div class="row align-items-center">
+        
+        <!-- Left Side: Content -->
+        <div class="col-md-6 mb-4">
+            <h1 class="fw-bold" style="color:#00a651;">Best University in Dehradun – Why Maya Devi University Stands Out?</h1>
+            <p class="text-muted fs-5">
+                At Maya Devi University, Dehradun, we deliver world-class education 
+                through experienced faculty, modern infrastructure, and global exposure. 
+                Our focus on academic excellence and holistic development empowers students 
+                to thrive in their careers and contribute positively to society.
+            </p>
+            <p class="text-muted fs-5">Discover a transformative educational journey at Maya Devi University, recognized as the best university in Dehradun for academic excellence and career-focused programs. Nestled in the heart of Dehradun, our university offers world-class faculty, state-of-the-art infrastructure, and industry-aligned courses to shape future leaders. Whether you aspire for a career in engineering, management, science, or the arts, Maya Devi University provides the perfect launchpad for your success. Join us and unlock endless opportunities for a brighter future!</p>
+        </div>
+
+        <!-- Right Side: Cards -->
+        <div class="col-md-6">
+            <div class="row g-3">
+                
+                <div class="col-6">
+                    <div class="p-3 text-white rounded text-center h-100" style="background-color:#00a651;">
+                        <img src="assets/uploads/world-edu.png" alt="Icon" class="mb-2" style="width: 60px;">
+                        <h4 class="fw-bold text-warning">World-Class Education</h4>
+                        <p class="text-white">Cutting-edge curriculum designed to meet global academic standards.</p>
+                    </div>
+                </div>
+                
+                <div class="col-6">
+                    <div class="p-3 text-white rounded text-center h-100" style="background-color:#00a651;">
+                        <img src="assets/uploads/e-faculty.jpg" alt="Icon" class="mb-2" style="width: 60px;">
+                        <h4 class="fw-bold text-warning">Expert Faculty</h4>
+                        <p class="text-white">Learn from experienced professors and industry leaders.</p>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="p-3 text-white rounded text-center h-100" style="background-color:#00a651;">
+                        <img src="assets/uploads/m-infra.png" alt="Icon" class="mb-2" style="width: 60px;">
+                        <h4 class="fw-bold text-warning">Modern Infrastructure</h4>
+                        <p class="text-white ">State-of-the-art labs, classrooms, and research facilities.</p>
+                    </div>
+                </div>
+                
+                <div class="col-6">
+                    <div class="p-3 text-white rounded text-center h-100" style="background-color:#00a651;">
+                        <img src="assets/uploads/global.png" alt="Icon" class="mb-2" style="width: 60px;">
+                        <h4 class="fw-bold text-warning">Global Opportunities</h4>
+                        <p class="text-white">Collaborations and internships with international institutions.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="course-button pb-30">
+        <a href="https://admission.maya.edu.in/" class="button-link">Apply Now</a>
+    </div>
+</section>
+
+<!-- <div class="register-area bg-img pt-130 pb-130" style="background-image:url(assets/img/bg/bg-2.jpg);">
     <div class="container">
         <div class="section-title-2 mb-75 white-text">
             <h2>Register <span>Now</span></h2>
@@ -655,36 +716,29 @@ a.button-link:hover {
     </div>
     <div id="register-1" class="mouse-bg"></div>
     <div id="register-2" class="mouse-bg"></div>
-</div>
-<div class="teacher-area pt-130 pb-100">
+</div> -->
+<div class="teacher-area pt-90">
     <div class="container">
         <div class="section-title mb-75">
-            <h2>Best <span>Teacher</span></h2>
-            <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+            <h2>Career-Ready <span>Placements</span></h2>
+            <p>Maya Devi University takes pride in its strong placement record, connecting students with leading companies and organizations across diverse industries. With dedicated training programs, expert mentorship, and industry tie-ups, the university ensures graduates are job-ready and confident to excel in their careers. Our placement cell works tirelessly to secure opportunities with top recruiters, empowering students to achieve professional success.</p>
         </div>
         <div class="custom-row">
             <div class="custom-col-5">
                 <div class="single-teacher mb-30">
                     <div class="teacher-img">
-                        <img src="assets/img/teacher/teacher-1.jpg" alt="">
+                        <img src="assets/uploads/testimoni-1.jpeg" alt="">
                     </div>
                     <div class="teacher-content-visible">
-                        <h4>Robi Khan</h4>
-                        <h5>Lecturer</h5>
+                        <h4>Arti Sharma</h4>
+                        <h5>Data Analysis</h5>
                     </div>
                     <div class="teacher-content-wrap">
                         <div class="teacher-content">
-                            <h4>Fawd Khan</h4>
-                            <h5>Lecturer</h5>
-                            <p>Tempor incididunt magna aliqua.</p>
-                            <div class="teacher-social">
-                                <ul>
-                                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="youtube-play" href="#"><i class="fa fa-youtube-play"></i></a></li>
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                            </div>
+                            <p>Arti Sharma</p>
+                            <p>Data Analysis</p>
+                            <h4>Concentrix</h4>
+                           <h4>12 LPA</h4>
                         </div>
                     </div>
                 </div>
@@ -692,25 +746,19 @@ a.button-link:hover {
             <div class="custom-col-5">
                 <div class="single-teacher mb-30">
                     <div class="teacher-img">
-                        <img src="assets/img/teacher/teacher-2.jpg" alt="">
+                        <img src="assets/uploads/testimoni-2.jpeg" alt="">
                     </div>
                     <div class="teacher-content-visible">
-                        <h4>Jui Khan</h4>
-                        <h5>Lecturer</h5>
+                        <h4>Maya Dechen</h4>
+                        <h5>Web Developer</h5>
                     </div>
                     <div class="teacher-content-wrap">
                         <div class="teacher-content">
-                            <h4>Fawd Khan</h4>
-                            <h5>Lecturer</h5>
-                            <p>Tempor incididunt magna aliqua.</p>
-                            <div class="teacher-social">
-                                <ul>
-                                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="youtube-play" href="#"><i class="fa fa-youtube-play"></i></a></li>
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                            </div>
+                            <p>Maya Dechen</p>
+                            <p>Web Developer</p>
+                            <h4>TCS</h4>
+                            <h4>8 LPA</h4>
+                            
                         </div>
                     </div>
                 </div>
@@ -718,25 +766,18 @@ a.button-link:hover {
             <div class="custom-col-5">
                 <div class="single-teacher mb-30">
                     <div class="teacher-img">
-                        <img src="assets/img/teacher/teacher-3.jpg" alt="">
+                        <img src="assets/uploads/testimoni-3.jpeg" alt="">
                     </div>
                     <div class="teacher-content-visible">
-                        <h4>Fawd Khan</h4>
-                        <h5>Lecturer</h5>
+                        <h4>Ruchika Tiwari</h4>
+                        <h5>Quality Analyst</h5>
                     </div>
                     <div class="teacher-content-wrap">
                         <div class="teacher-content">
-                            <h4>Fawd Khan</h4>
-                            <h5>Lecturer</h5>
-                            <p>Tempor incididunt magna aliqua.</p>
-                            <div class="teacher-social">
-                                <ul>
-                                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="youtube-play" href="#"><i class="fa fa-youtube-play"></i></a></li>
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                            </div>
+                            <p>Ruchika Tiwari</p>
+                            <p>Quality Analyst</p>
+                            <h4>Mankind Pharmacy</h4>
+                            <h4>11 LPA</h4>
                         </div>
                     </div>
                 </div>
@@ -744,25 +785,18 @@ a.button-link:hover {
             <div class="custom-col-5">
                 <div class="single-teacher mb-30">
                     <div class="teacher-img">
-                        <img src="assets/img/teacher/teacher-4.jpg" alt="">
+                        <img src="assets/uploads/testimoni-4.jpeg" alt="">
                     </div>
                     <div class="teacher-content-visible">
-                        <h4>Fawd Khan</h4>
-                        <h5>Lecturer</h5>
+                        <h4>Rohit Pandey</h4>
+                        <h5>Project Manager</h5>
                     </div>
                     <div class="teacher-content-wrap">
                         <div class="teacher-content">
-                            <h4>Fawd Khan</h4>
-                            <h5>Lecturer</h5>
-                            <p>Tempor incididunt magna aliqua.</p>
-                            <div class="teacher-social">
-                                <ul>
-                                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="youtube-play" href="#"><i class="fa fa-youtube-play"></i></a></li>
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                            </div>
+                            <p>Rohit Pandey</p>
+                            <p>Project Manager</p>
+                            <h4>IBM</h4>
+                          <h4>16 LPA</h4>
                         </div>
                     </div>
                 </div>
@@ -770,25 +804,18 @@ a.button-link:hover {
             <div class="custom-col-5">
                 <div class="single-teacher mb-30">
                     <div class="teacher-img">
-                        <img src="assets/img/teacher/teacher-5.jpg" alt="">
+                        <img src="assets/uploads/testimoni-5.jpg" alt="">
                     </div>
                     <div class="teacher-content-visible">
-                        <h4>Jui Khan</h4>
-                        <h5>Lecturer</h5>
+                        <h4>Jiya Rawat</h4>
+                        <h5>Business Analyst</h5>
                     </div>
                     <div class="teacher-content-wrap">
                         <div class="teacher-content">
-                            <h4>Fawd Khan</h4>
-                            <h5>Lecturer</h5>
-                            <p>Tempor incididunt magna aliqua.</p>
-                            <div class="teacher-social">
-                                <ul>
-                                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="youtube-play" href="#"><i class="fa fa-youtube-play"></i></a></li>
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                            </div>
+                            <p>Jiya Rawat</p>
+                            <p>Business Analyst</p>
+                            <h4>Tech Mahindra</h4>
+                           <h4>9 LPA</h4>
                         </div>
                     </div>
                 </div>
@@ -796,7 +823,75 @@ a.button-link:hover {
         </div>
     </div>
 </div>
-<div class="blog-event-area pt-130 pb-115">
+ suraj
+<div class="brand-logo-area" style="padding:45px 0 90px;">
+    <div class="container">
+        <h1 style="text-align:center;font-size:38px;margin:30px;color:#00a651;"><strong>Industry Partner</strong></h1>
+
+        <div class="logo-slider">
+            <div class="logo-track">
+                <img src="assets/img/brand-logo/1.webp" alt="">
+                <img src="assets/img/brand-logo/2.webp" alt="">
+                <img src="assets/img/brand-logo/3.webp" alt="">
+                <img src="assets/img/brand-logo/4.webp" alt="">
+                <img src="assets/img/brand-logo/5.webp" alt="">
+                <img src="assets/img/brand-logo/6.webp" alt="">
+                <img src="assets/img/brand-logo/7.webp" alt="">
+                <img src="assets/img/brand-logo/8.webp" alt="">
+                <img src="assets/img/brand-logo/9.webp" alt="">
+                <img src="assets/img/brand-logo/10.webp" alt="">
+                <img src="assets/img/brand-logo/11.webp" alt="">
+                <img src="assets/img/brand-logo/12.webp" alt="">
+                <img src="assets/img/brand-logo/13.webp" alt="">
+                <img src="assets/img/brand-logo/14.webp" alt="">
+                <!-- Duplicate for infinite scroll effect -->
+                <img src="assets/img/brand-logo/1.webp" alt="">
+                <img src="assets/img/brand-logo/2.webp" alt="">
+                <img src="assets/img/brand-logo/3.webp" alt="">
+                <img src="assets/img/brand-logo/4.webp" alt="">
+                <img src="assets/img/brand-logo/5.webp" alt="">
+                <img src="assets/img/brand-logo/6.webp" alt="">
+                <img src="assets/img/brand-logo/7.webp" alt="">
+                <img src="assets/img/brand-logo/8.webp" alt="">
+                <img src="assets/img/brand-logo/9.webp" alt="">
+                <img src="assets/img/brand-logo/10.webp" alt="">
+                <img src="assets/img/brand-logo/11.webp" alt="">
+                <img src="assets/img/brand-logo/12.webp" alt="">
+                <img src="assets/img/brand-logo/13.webp" alt="">
+                <img src="assets/img/brand-logo/14.webp" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.logo-slider {
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.logo-track {
+    display: inline-flex;
+    animation: scroll 30s linear infinite;
+}
+
+.logo-track img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    margin: 0 15px;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+</style>
+
+<div class="event-area bg-img default-overlay pt-130 pb-130" style="background-image:url(assets/img/bg/bg-3.jpg);">
+ main
     <div class="container">
         <div class="row">
             <div class="col-lg-6">

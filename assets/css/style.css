@@ -4627,6 +4627,7 @@ textarea:focus {
 }
 .single-teacher .teacher-content-wrap .teacher-content {
   padding: 42px 33px;
+  margin-top: 60px;
 }
 .single-teacher .teacher-content-wrap .teacher-content h4 {
   color: #fff;
