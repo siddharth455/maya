@@ -198,6 +198,20 @@
             <p style="font-size: 18px;" class="fs-5 text-muted">Take a breathtaking aerial tour of our state-of-the-art campus, where innovation meets inspiration amidst lush greenery and modern architecture.</p>
         </div>
         <div class="row align-items-center">
+suraj
+        <div class="col-lg-7 col-md-12 col-sm-6">
+    <div class="about-img about-img-2 mr-70 col-12" 
+         style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+        <iframe src="https://www.youtube.com/embed/Gm-KE2N_5ws?si=GhYhUb3BJcIAEJJ9"
+            title="YouTube video player" 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</div>
             <div class="col-lg-7 col-md-12">
                 <div class="about-img about-img-2 mr-70">
                     <iframe width="610" height="420" src="https://www.youtube.com/embed/Gm-KE2N_5ws?si=GhYhUb3BJcIAEJJ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -208,6 +222,7 @@
                     <p style="font-size: 17px;" class="fs-5 text-muted">Maya Devi University, Dehradun, is a premier institution dedicated to delivering world-class education and fostering holistic development. Nestled in the scenic foothills of Uttarakhand, the university offers a dynamic learning environment supported by modern infrastructure, experienced faculty, and industry-aligned programs. With a focus on academic excellence, research, and innovation, Maya Devi University prepares students to excel in their chosen fields while nurturing values, leadership skills, and a global perspective. Our commitment is to shape future-ready professionals who can contribute meaningfully to society and thrive in an ever-changing world.</p>
                 </div>
             </div>
+ main
             <div class="col-lg-12">
                 <div class="container py-5">
                     <div class="row text-center">
@@ -808,6 +823,7 @@ a.button-link:hover {
         </div>
     </div>
 </div>
+ suraj
 <div class="brand-logo-area" style="padding:45px 0 90px;">
     <div class="container">
         <h1 style="text-align:center;font-size:38px;margin:30px;color:#00a651;"><strong>Industry Partner</strong></h1>
@@ -875,100 +891,130 @@ a.button-link:hover {
 </style>
 
 <div class="event-area bg-img default-overlay pt-130 pb-130" style="background-image:url(assets/img/bg/bg-3.jpg);">
+ main
     <div class="container">
-        <div class="section-title mb-75">
-            <h2><span>Our</span> Event</h2>
-            <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
-        </div>
-        <div class="event-active owl-carousel nav-style-1">
-            <div class="single-event event-white-bg">
-                <div class="event-img">
-                    <a href="event-details.php"><img src="assets/img/event/event-1.jpg" alt=""></a>
-                    <div class="event-date-wrap">
-                        <span class="event-date">1st</span>
-                        <span>Dec</span>
-                    </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-title-3 mb-45 mrg-bottom-small">
+                    <h2>Our <span>Blog</span></h2>
+                    <p>Hempor incididunt ut labore et dolore mm, <br> itation ullamco laboris nisi ut aliquip. </p>
                 </div>
-                <div class="event-content">
-                    <h3><a href="event-details.php">Aempor incididunt ut labore ejam.</a></h3>
-                    <p>Pvolupttem accusantium doloremque laudantium, totam erspiciatis unde omnis iste natus error .</p>
-                    <div class="event-meta-wrap">
-                        <div class="event-meta">
-                            <i class="fa fa-location-arrow"></i>
-                            <span>Mascot Plaza ,Uttara</span>
+                <div class="blog-active">
+                    <div class="single-blog">
+                        <div class="blog-img">
+                            <a href="blog-details.php"><img src="assets/img/blog/homepageblog1.gif" alt="Logo"></a>
                         </div>
-                        <div class="event-meta">
-                            <i class="fa fa-clock-o"></i>
-                            <span>11:00 am</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single-event event-white-bg">
-                <div class="event-img">
-                    <a href="event-details.php"><img src="assets/img/event/event-2.jpg" alt=""></a>
-                    <div class="event-date-wrap">
-                        <span class="event-date">10th</span>
-                        <span>Dec</span>
-                    </div>
-                </div>
-                <div class="event-content">
-                    <h3><a href="event-details.php">Global Conference on Business.</a></h3>
-                    <p>Pvolupttem accusantium doloremque laudantium, totam erspiciatis unde omnis iste natus error .</p>
-                    <div class="event-meta-wrap">
-                        <div class="event-meta">
-                            <i class="fa fa-location-arrow"></i>
-                            <span>Shubastu ,Dadda</span>
-                        </div>
-                        <div class="event-meta">
-                            <i class="fa fa-clock-o"></i>
-                            <span>08:30 am</span>
+                        <div class="blog-content-wrap">
+                            <span>Education</span>
+                            <div class="blog-content">
+                                <h4><a href="blog-details.php">Testing is a great thing.</a></h4>
+                                <p>doloremque laudan tium, totam ersps uns iste natus</p>
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Adrin Azra</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 22</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> Jun, 24th 2018</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="single-event event-white-bg">
-                <div class="event-img">
-                    <a href="event-details.php"><img src="assets/img/event/event-3.jpg" alt=""></a>
-                    <div class="event-date-wrap">
-                        <span class="event-date">1st</span>
-                        <span>Dec</span>
-                    </div>
-                </div>
-                <div class="event-content">
-                    <h3><a href="event-details.php">Academic Conference Maui.</a></h3>
-                    <p>Pvolupttem accusantium doloremque laudantium, totam erspiciatis unde omnis iste natus error .</p>
-                    <div class="event-meta-wrap">
-                        <div class="event-meta">
-                            <i class="fa fa-location-arrow"></i>
-                            <span>Banasree ,Rampura</span>
+                    <div class="single-blog">
+                        <div class="blog-img">
+                            <a href="blog-details.php"><img src="assets/img/blog/homepageblog2.gif" alt="Logo" height="205"></a>
                         </div>
-                        <div class="event-meta">
-                            <i class="fa fa-clock-o"></i>
-                            <span>10:00 am</span>
+                        <div class="blog-content-wrap">
+                            <span>Education</span>
+                            <div class="blog-content">
+                                <h4><a href="blog-details.php">Learn English in ease.</a></h4>
+                                <p>doloremque laudan tium, totam ersps uns iste natus</p>
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Tayeb Jon</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 12</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> Feb, 10th 2017</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-blog">
+                        <div class="blog-img">
+                            <a href="blog-details.php"><img src="assets/img/blog/homepageblog3.gif" alt="Logo" height="205"></a>
+                        </div>
+                        <div class="blog-content-wrap">
+                            <span>Education</span>
+                            <div class="blog-content">
+                                <h4><a href="blog-details.php">In publishing and graphic.</a></h4>
+                                <p>doloremque laudan tium, totam ersps uns iste natus</p>
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Md Tamim</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 20</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> Oct, 26th 2017</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="single-event event-white-bg">
-                <div class="event-img">
-                    <a href="event-details.php"><img src="assets/img/event/event-2.jpg" alt=""></a>
-                    <div class="event-date-wrap">
-                        <span class="event-date">1st</span>
-                        <span>Dec</span>
-                    </div>
+            <div class="col-lg-6">
+                <div class="section-title-3 mb-45 ml-70">
+                    <h2><span>Up Coming</span> Event</h2>
+                    <p>Hempor incididunt ut labore et dolore mm, <br> itation ullamco laboris nisi ut aliquip. </p>
                 </div>
-                <div class="event-content">
-                    <h3><a href="event-details.php">Social Sciences & Education.</a></h3>
-                    <p>Pvolupttem accusantium doloremque laudantium, totam erspiciatis unde omnis iste natus error .</p>
-                    <div class="event-meta-wrap">
-                        <div class="event-meta">
-                            <i class="fa fa-location-arrow"></i>
-                            <span>Shubastu ,Badda</span>
+                <div class="event-active-2 ml-70">
+                    <div class="single-event single-event-2">
+                        <div class="event-img">
+                            <a href="event-details.php"><img src="assets/img/blog/homepageblog3.gif" alt="Logo"></a>
+                            <div class="event-date-wrap">
+                                <span class="event-date">1st</span>
+                                <span>Dec</span>
+                            </div>
                         </div>
-                        <div class="event-meta">
-                            <i class="fa fa-clock-o"></i>
-                            <span>10:30 am</span>
+                        <div class="event-content">
+                            <h3><a href="event-details.php">Aempor incididunt ut labore ejam.</a></h3>
+                            <p>Pvolupttem accusantium doloremque laudantium, totam erspiciatis unde omnis iste natus error .</p>
+                            <div class="event-meta-wrap">
+                                <div class="event-meta">
+                                    <i class="fa fa-location-arrow"></i>
+                                    <span>Mascot Plaza ,Uttara</span>
+                                </div>
+                                <div class="event-meta">
+                                    <i class="fa fa-clock-o"></i>
+                                    <span>10:30 am</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-event single-event-2">
+                        <div class="event-img">
+                            <a href="event-details.php"><img src="assets/img/event/event-4.jpg" alt=""></a>
+                            <div class="event-date-wrap">
+                                <span class="event-date">1st</span>
+                                <span>Dec</span>
+                            </div>
+                        </div>
+                        <div class="event-content">
+                            <h3><a href="event-details.php">Social Sciences & Education.</a></h3>
+                            <p>Pvolupttem accusantium doloremque laudantium, totam erspiciatis unde omnis iste natus error .</p>
+                            <div class="event-meta-wrap">
+                                <div class="event-meta">
+                                    <i class="fa fa-location-arrow"></i>
+                                    <span>Shuvastu ,Badda</span>
+                                </div>
+                                <div class="event-meta">
+                                    <i class="fa fa-clock-o"></i>
+                                    <span>10:30 am</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
