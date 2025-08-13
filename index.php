@@ -903,24 +903,24 @@ a.button-link:hover {
 }
 </style>
 
-<div class="event-area bg-img default-overlay pt-130 pb-130" style="background-image:url(assets/img/bg/bg-3.jpg);">
+<div class="event-area bg-img default-overlay pt-10 pb-10" >
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
                 <div class="section-title-3 mb-45 mrg-bottom-small">
                     <h2>Our <span>Blog</span></h2>
-                    <p>Hempor incididunt ut labore et dolore mm, <br> itation ullamco laboris nisi ut aliquip. </p>
+                    <p>Insights and updates from Maya Devi University.</p>
                 </div>
                 <div class="blog-active">
                     <div class="single-blog">
                         <div class="blog-img">
-                            <a href="blog-details.php"><img src="assets/img/blog/homepageblog1.gif" alt="Logo"></a>
+                            <a href="#"><img src="assets/img/blog/homepageblog1.gif" alt="Logo"></a>
                         </div>
                         <div class="blog-content-wrap">
                             <span>Education</span>
                             <div class="blog-content">
-                                <h4><a href="blog-details.php">Testing is a great thing.</a></h4>
-                                <p>doloremque laudan tium, totam ersps uns iste natus</p>
+                                <h4><a href="#">Best Engineering college in Dehradun</a></h4>
+                                <p>Top engineering college in Dehradun, shaping future innovators.</p>
                                 <div class="blog-meta">
                                     <ul>
                                         <li><a href="#"><i class="fa fa-user"></i> Adrin Azra</a></li>
@@ -935,13 +935,13 @@ a.button-link:hover {
                     </div>
                     <div class="single-blog">
                         <div class="blog-img">
-                            <a href="blog-details.php"><img src="assets/img/blog/homepageblog2.gif" alt="Logo" height="205"></a>
+                            <a href="#"><img src="assets/img/blog/homepageblog2.gif" alt="Logo" height="205"></a>
                         </div>
                         <div class="blog-content-wrap">
                             <span>Education</span>
                             <div class="blog-content">
-                                <h4><a href="blog-details.php">Learn English in ease.</a></h4>
-                                <p>doloremque laudan tium, totam ersps uns iste natus</p>
+                                <h4><a href="#">Best Pharmacy college in Dehradun</a></h4>
+                                <p>Top Pharmacy college in Dehradun, shaping future innovators.</p>
                                 <div class="blog-meta">
                                     <ul>
                                         <li><a href="#"><i class="fa fa-user"></i> Tayeb Jon</a></li>
@@ -956,13 +956,13 @@ a.button-link:hover {
                     </div>
                     <div class="single-blog">
                         <div class="blog-img">
-                            <a href="blog-details.php"><img src="assets/img/blog/homepageblog3.gif" alt="Logo" height="205"></a>
+                            <a href="#"><img src="assets/img/blog/homepageblog3.gif" alt="Logo" height="205"></a>
                         </div>
                         <div class="blog-content-wrap">
                             <span>Education</span>
                             <div class="blog-content">
-                                <h4><a href="blog-details.php">In publishing and graphic.</a></h4>
-                                <p>doloremque laudan tium, totam ersps uns iste natus</p>
+                                <h4><a href="#">Best Agriculture college in Dehradun</a></h4>
+                                <p>Top Agriculture college in Dehradun, shaping future innovators.</p>
                                 <div class="blog-meta">
                                     <ul>
                                         <li><a href="#"><i class="fa fa-user"></i> Md Tamim</a></li>
@@ -980,24 +980,24 @@ a.button-link:hover {
             <div class="col-lg-6">
                 <div class="section-title-3 mb-45 ml-70">
                     <h2><span>Up Coming</span> Event</h2>
-                    <p>Hempor incididunt ut labore et dolore mm, <br> itation ullamco laboris nisi ut aliquip. </p>
+                    <p>Stay informed about upcoming events and activities at Maya Devi University.</p>
                 </div>
                 <div class="event-active-2 ml-70">
                     <div class="single-event single-event-2">
                         <div class="event-img">
-                            <a href="event-details.php"><img src="assets/img/blog/homepageblog3.gif" alt="Logo"></a>
+                            <a href="#"><img src="assets/img/blog/homepageblog3.gif" alt="Logo"></a>
                             <div class="event-date-wrap">
-                                <span class="event-date">1st</span>
-                                <span>Dec</span>
+                                <span class="event-date">15th</span>
+                                <span>Aug</span>
                             </div>
                         </div>
                         <div class="event-content">
-                            <h3><a href="event-details.php">Aempor incididunt ut labore ejam.</a></h3>
-                            <p>Pvolupttem accusantium doloremque laudantium, totam erspiciatis unde omnis iste natus error .</p>
+                            <h3><a href="event-details.php">Independence Day</a></h3>
+                            <p>Celebrate Independence Day with pride at Maya Devi University.</p>
                             <div class="event-meta-wrap">
                                 <div class="event-meta">
                                     <i class="fa fa-location-arrow"></i>
-                                    <span>Mascot Plaza ,Uttara</span>
+                                    <span>Maya Devi University</span>
                                 </div>
                                 <div class="event-meta">
                                     <i class="fa fa-clock-o"></i>
@@ -1008,14 +1008,14 @@ a.button-link:hover {
                     </div>
                     <div class="single-event single-event-2">
                         <div class="event-img">
-                            <a href="event-details.php"><img src="assets/img/event/event-4.jpg" alt=""></a>
+                            <a href="#"><img src="assets/img/event/event-4.jpg" alt=""></a>
                             <div class="event-date-wrap">
                                 <span class="event-date">1st</span>
                                 <span>Dec</span>
                             </div>
                         </div>
                         <div class="event-content">
-                            <h3><a href="event-details.php">Social Sciences & Education.</a></h3>
+                            <h3><a href="#">Social Sciences & Education.</a></h3>
                             <p>Pvolupttem accusantium doloremque laudantium, totam erspiciatis unde omnis iste natus error .</p>
                             <div class="event-meta-wrap">
                                 <div class="event-meta">
