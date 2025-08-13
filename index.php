@@ -181,7 +181,9 @@
 
 <div class="about-us pb-4">
     <div class="container">
-        <div class="section-title-3 section-shape-hm2-1 text-center mb-100">
+        
+        <!-- Section Title -->
+        <div class="section-title-3 section-shape-hm2-1 text-center mb-5">
             <h2 style="font-size: 40px; color: green; font-weight: bold;">Discover Our Campus</h2>
             <style>
                 .gradient {
@@ -194,76 +196,88 @@
                     letter-spacing: 0.2px;
                 }
             </style>
-
-            <p style="font-size: 18px;" class="fs-5 text-muted">Take a breathtaking aerial tour of our state-of-the-art campus, where innovation meets inspiration amidst lush greenery and modern architecture.</p>
+            <p style="font-size: 18px;" class="fs-5 text-muted">
+                Take a breathtaking aerial tour of our state-of-the-art campus, where innovation meets inspiration amidst lush greenery and modern architecture.
+            </p>
         </div>
-        <div class="row align-items-center">
-suraj
-        <div class="col-lg-7 col-md-12 col-sm-6">
-    <div class="about-img about-img-2 mr-70 col-12" 
-         style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-        <iframe src="https://www.youtube.com/embed/Gm-KE2N_5ws?si=GhYhUb3BJcIAEJJ9"
-            title="YouTube video player" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen>
-        </iframe>
-    </div>
-</div>
-            <div class="col-lg-7 col-md-12">
-                <div class="about-img about-img-2 mr-70">
-                    <iframe width="610" height="420" src="https://www.youtube.com/embed/Gm-KE2N_5ws?si=GhYhUb3BJcIAEJJ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-12">
-                <div class="about-content-2 ">
-                    <p style="font-size: 17px;" class="fs-5 text-muted">Maya Devi University, Dehradun, is a premier institution dedicated to delivering world-class education and fostering holistic development. Nestled in the scenic foothills of Uttarakhand, the university offers a dynamic learning environment supported by modern infrastructure, experienced faculty, and industry-aligned programs. With a focus on academic excellence, research, and innovation, Maya Devi University prepares students to excel in their chosen fields while nurturing values, leadership skills, and a global perspective. Our commitment is to shape future-ready professionals who can contribute meaningfully to society and thrive in an ever-changing world.</p>
-                </div>
-            </div>
- main
-            <div class="col-lg-12">
-                <div class="container py-5">
-                    <div class="row text-center">
 
-                        <!-- Top Placements -->
-                        <div class="col-md-4">
-                            <div class="card border-0 shadow h-100 p-4">
-                                <div class="card-body">
-                                    <h3 class="card-title fw-semibold text-success">Modern Facilities</h3>
-                                    <p style="font-size: 13px;" class="fs-5 text-muted">
-                                        State-of-the-art laboratories, libraries, and learning spaces designed for the future.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card border-0 shadow h-100 p-4">
-                                <div class="card-body">
-                                    <h3 class="card-title fw-semibold text-success">Green Campus</h3>
-                                    <p style="font-size: 13px;" class="fs-5 text-muted">
-                                        Sustainability at the core with lush gardens, solar power, and eco-friendly architecture.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card border-0 shadow h-100 p-4">
-                                <div class="card-body">
-                                    <h3 class="card-title fw-semibold text-success">Student Life</h3>
-                                    <p style="font-size: 13px;" class="fs-5 text-muted">
-                                        Vibrant community spaces that foster collaboration, creativity, and personal growth.
-                                    </p>
-                                </div>
+        <!-- Video & Text -->
+        <div class="row align-items-center">
+            <div class="col-lg-7 col-md-12 col-sm-12">
+                <div class="about-img about-img-2 mr-70" 
+                     style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+                    <iframe src="https://www.youtube.com/embed/Gm-KE2N_5ws?si=GhYhUb3BJcIAEJJ9"
+                        title="YouTube video player"
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-12">
+                <div class="about-content-2">
+                    <p style="font-size: 17px;" class="fs-5 text-muted">
+                        Maya Devi University, Dehradun, is a premier institution dedicated to delivering world-class education and fostering holistic development. 
+                        Nestled in the scenic foothills of Uttarakhand, the university offers a dynamic learning environment supported by modern infrastructure, 
+                        experienced faculty, and industry-aligned programs. With a focus on academic excellence, research, and innovation, Maya Devi University 
+                        prepares students to excel in their chosen fields while nurturing values, leadership skills, and a global perspective. Our commitment 
+                        is to shape future-ready professionals who can contribute meaningfully to society and thrive in an ever-changing world.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="col-lg-12 mt-5">
+            <div class="container py-4">
+                <div class="row text-center">
+
+                    <!-- Modern Facilities -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 shadow h-100 p-4">
+                            <div class="card-body">
+                                <h3 class="card-title fw-semibold text-success">Modern Facilities</h3>
+                                <p style="font-size: 13px;" class="fs-5 text-muted">
+                                    State-of-the-art laboratories, libraries, and learning spaces designed for the future.
+                                </p>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Green Campus -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 shadow h-100 p-4">
+                            <div class="card-body">
+                                <h3 class="card-title fw-semibold text-success">Green Campus</h3>
+                                <p style="font-size: 13px;" class="fs-5 text-muted">
+                                    Sustainability at the core with lush gardens, solar power, and eco-friendly architecture.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Student Life -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 shadow h-100 p-4">
+                            <div class="card-body">
+                                <h3 class="card-title fw-semibold text-success">Student Life</h3>
+                                <p style="font-size: 13px;" class="fs-5 text-muted">
+                                    Vibrant community spaces that foster collaboration, creativity, and personal growth.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
+
     </div>
 </div>
+
 
 <div class="container mb-4">
   <div class="row align-items-center">
@@ -823,7 +837,6 @@ a.button-link:hover {
         </div>
     </div>
 </div>
- suraj
 <div class="brand-logo-area" style="padding:45px 0 90px;">
     <div class="container">
         <h1 style="text-align:center;font-size:38px;margin:30px;color:#00a651;"><strong>Industry Partner</strong></h1>
@@ -891,7 +904,6 @@ a.button-link:hover {
 </style>
 
 <div class="event-area bg-img default-overlay pt-130 pb-130" style="background-image:url(assets/img/bg/bg-3.jpg);">
- main
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
