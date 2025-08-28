@@ -1,150 +1,6 @@
 <?php require "common/header.php"?>
-  <style>
-    .hero-section {
-      background: url('assets/uploads/home-banner.webp') center/cover no-repeat;
-      height: 70vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      text-align: center;
-      position: relative;
-    }
-    .hero-section::after {
-      content: "";
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0,0,0,0.2);
-    }
-    .hero-content {
-      position: relative;
-      z-index: 2;
-    }
-    .section-title {
-      font-weight: 700;
-      position: relative;
-    }
-    .achievement-card {
-      background: #f9f9f9;
-      border-radius: 12px;
-      padding: 25px;
-      text-align: center;
-      transition: all .3s ease;
-    }
-    .achievement-card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-    }
-    .testimonial {
-      background: #f1f6ff;
-      padding: 20px;
-      border-radius: 12px;
-      margin-bottom: 20px;
-    }
-    .img-container {
-  max-width: 400px;      /* max size on large screens */
-  width: 100%;           /* shrink for smaller screens */
-  aspect-ratio: 4/3;     /* maintains 400x300 proportion */
-  margin: auto;
-}
-
-.responsive-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-.clubs-section {
-  background: #f9fafc;
-}
-
-.section-title {
-  font-weight: 700;
-  color: #124734;
-}
-
-.club-card {
-  background: #fff;
-  border-radius: 14px;
-  padding: 25px;
-  text-align: center;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.club-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-}
-
-.club-icon {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.club-title {
-  font-weight: 600;
-  color: #222;
-  margin-bottom: 8px;
-}
-
-.club-desc {
-  font-size: 0.9rem;
-  color: #555;
-}
-.why-choose-us {
-  background: linear-gradient(135deg, #f9fdfc, #f0f6f5);
-}
-
-.section-title {
-  font-weight: 700;
-  color: #124734;
-}
-
-.feature-box {
-  background: #fff;
-  border-radius: 14px;
-  padding: 25px;
-  display: flex;
-  align-items: flex-start;
-  gap: 15px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.07);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-.feature-box h5{
-    font-weight: bold;
-}
-.feature-box:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-}
-
-.feature-icon {
-  font-size: 2rem;
-  color: #124734;
-  flex-shrink: 0;
-}
-
-.btn-success {
-  background: #124734;
-  border: none;
-  padding: 12px 25px;
-  border-radius: 10px;
-  font-size: 1.1rem;
-  transition: 0.3s;
-}
-
-.btn-success:hover {
-  background: #0d3426;
-}
-
-  </style>
-</head>
-<body>
-
   <!-- Hero Section -->
-  <section class="hero-section">
+  <section class="hero-section" style="background: url('assets/uploads/home-banner.webp') center/cover no-repeat; height:70vh;">
   <div class="hero-content">
       <h3 class="display-5 fw-bold text-white">School of Engineering</h3>
       <p class="lead text-white">Shaping Tomorrow's Leaders at Maya Devi University</p>
@@ -192,7 +48,7 @@
       <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f0f8ff;">
         <i class="fa fa-users fa-2x text-success mb-3"></i>
         <h3 class="fw-bold">
-          <span class="counter" data-target="8">0</span>+
+          <span class="counter" data-target="10">0</span>+
         </h3>
         <p class="mb-0">Programs Offered</p>
       </div>
@@ -413,17 +269,17 @@ document.addEventListener("DOMContentLoaded", () => {
   <section class="container">
     <div class="row align-items-center">
       <div class="col-md-4">
-        <img src="assets/uploads/rb-singh.png" class="img-fluid " alt="Dean">
+        <img src="assets/uploads/khoob-singh.webp" class="img-fluid " alt="Dean">
       </div>
       <div class="col-md-8">
       <div class="section-title  pb-20">
         <h2>Dean's <span>Welcome Note</span></h2>
       </div>
       <p>Welcome Students!</p>
-        <p>At the School of Computer Science and Applications, Maya Devi University, we believe in shaping not only skilled professionals but also responsible leaders of tomorrow. Our focus goes beyond technical expertise—we nurture creativity, critical thinking, innovation, and values that empower you to succeed in today’s fast-changing digital world.</p>
-        <p>Here, you will find a vibrant academic environment with opportunities to explore, learn, and grow—whether your dream is to be a software engineer, researcher, entrepreneur, or a socially conscious tech leader. Together, let’s create technology that not only advances industries but also makes the world a better place.</p>
-        <h5 class="fw-bold mt-3">- Prof. Dr. R B Singh</h5>
-        <h5 class="fw-bold">Dean, School of Computer Science and Applications<br>
+        <p>Our School of Engineering has grown abundantly in recent past. It continues to sustain its growth. The peoples reading this newsletter will realize the tremendous changes that are happening in the campus. This newsletter is presenting the glimpse of the growth of the Institution on many fronts. The highly qualified and dedicated teachers of the staff have always stood shoulder to shoulder with the management and carried out their duties with high level of commitments.</p>
+        <p>Let's give our best and make this institution a modern sanctuary of learning through our diligence, devotion and dedication. I congratulate all the contributors and the editorial board for bringing out such a beautiful newsletter.</p>
+        <h5 class="fw-bold mt-3">- Prof.(Dr.) Khoob Singh</h5>
+        <h5 class="fw-bold">Dean, School of Engineering<br>
         Maya Devi University</h5>
       </div>
       </div>
@@ -432,62 +288,63 @@ document.addEventListener("DOMContentLoaded", () => {
 <!-- clubs section -->
 <section class="clubs-section py-5">
   <div class="container">
-  <div class="section-title  pb-50">
-    <h2>Clubs <span>& Societies 🎓 </span></h2>
-  </div>
+    <div class="section-title pb-50">
+      <h2>Opportunities <span>& Pathways 🎓</span></h2>
+    </div>
     <div class="row g-4">
       
       <div class="col-md-4 col-sm-6">
         <div class="club-card">
-          <div class="club-icon">🤖</div>
-          <h5 class="club-title">AI & Robotics Society</h5>
-          <p class="club-desc">Innovating with artificial intelligence and robotics through projects and workshops.</p>
+          <div class="club-icon">📚</div>
+          <h5 class="club-title">Higher Studies</h5>
+          <p class="club-desc">Students can pursue M. Tech, M.S and PhD Programs in India and Abroad.</p>
         </div>
       </div>
       
       <div class="col-md-4 col-sm-6">
         <div class="club-card">
-          <div class="club-icon">🛡️</div>
-          <h5 class="club-title">CyberSec Club</h5>
-          <p class="club-desc">Learn, practice, and explore ethical hacking & cybersecurity challenges.</p>
+          <div class="club-icon">💡</div>
+          <h5 class="club-title">Innovation & Incubation</h5>
+          <p class="club-desc">Innovation incubators and accelerators to support creative ideas and projects.</p>
         </div>
       </div>
       
       <div class="col-md-4 col-sm-6">
         <div class="club-card">
-          <div class="club-icon">💻</div>
-          <h5 class="club-title">Web & App Developers Hub</h5>
-          <p class="club-desc">A community for passionate coders building modern apps & web solutions.</p>
+          <div class="club-icon">🏢</div>
+          <h5 class="club-title">Jobs in PSUs</h5>
+          <p class="club-desc">Opportunities in PSUs such as BHEL, NTPC, ISRO, and DRDO.</p>
         </div>
       </div>
 
       <div class="col-md-4 col-sm-6">
         <div class="club-card">
-          <div class="club-icon">🌍</div>
-          <h5 class="club-title">Tech4Good Society</h5>
-          <p class="club-desc">Using technology to solve social issues & create meaningful change.</p>
+          <div class="club-icon">📊</div>
+          <h5 class="club-title">Management Careers</h5>
+          <p class="club-desc">Pursue an MBA for leadership and managerial roles across industries.</p>
         </div>
       </div>
       
       <div class="col-md-4 col-sm-6">
         <div class="club-card">
-          <div class="club-icon">🎤</div>
-          <h5 class="club-title">TechTalks & Toastmasters</h5>
-          <p class="club-desc">Sharpen your speaking, debating, and presentation skills with peers.</p>
+          <div class="club-icon">🔬</div>
+          <h5 class="club-title">Research Scientist</h5>
+          <p class="club-desc">Work as a research scientist in reputed R&D centers.</p>
         </div>
       </div>
       
       <div class="col-md-4 col-sm-6">
         <div class="club-card">
-          <div class="club-icon">🎮</div>
-          <h5 class="club-title">Game Dev & AR/VR Club</h5>
-          <p class="club-desc">Explore immersive worlds with AR/VR projects and gaming innovations.</p>
+          <div class="club-icon">🚀</div>
+          <h5 class="club-title">Entrepreneurship</h5>
+          <p class="club-desc">Launching technology ventures and startups to drive innovation.</p>
         </div>
       </div>
       
     </div>
   </div>
 </section>
+
 
   <!-- clubs section ends -->
   <!-- Why Choose Us -->
@@ -499,9 +356,9 @@ document.addEventListener("DOMContentLoaded", () => {
         <h2>Why <span>Choose Us 🌟 ?</span></h2>
         </div>
         <p class="text-muted">
-        Choosing the right place to pursue your education is a life-changing decision—one that shapes not just your academic journey but also your personal and professional future. At the School of Computer Applications, Maya Devi University, we go beyond conventional learning by offering an ecosystem of innovation, creativity, and global opportunities.
+        Choosing the right place to pursue your education is a life-changing decision—one that shapes not only your academic journey but also your personal and professional future. At our institution, we go beyond conventional learning by offering an ecosystem of innovation, creativity, and global opportunities.
         </p>
-        <p class="text-muted">Our focus is on preparing students to thrive in a fast-evolving digital world where adaptability, critical thinking, and ethical leadership matter as much as technical expertise. With state-of-the-art infrastructure, hands-on industry exposure, and mentorship from accomplished faculty, we ensure that every learner is equipped to transform ideas into impactful realities.</p>
+        <p class="text-muted">Our focus is on preparing students to thrive in a fast-evolving world where adaptability, critical thinking, and ethical leadership matter as much as subject expertise. With state-of-the-art infrastructure, hands-on industry exposure, and mentorship from accomplished faculty, we ensure that every learner is equipped to transform ideas into impactful realities.</p>
         <a href="https://admission.maya.edu.in/" class="btn btn-success btn-lg mt-3">Apply Now →</a>
       </div>
       <div class="col-lg-5 text-center">
@@ -514,73 +371,73 @@ document.addEventListener("DOMContentLoaded", () => {
 
     <!-- Feature Points -->
     <div class="row gy-4">
-      <div class="col-md-6">
-        <div class="feature-box">
-          <span class="feature-icon">🚀</span>
-          <h5>Excellence in Education & Innovation</h5>
-          <p>
-            We offer a future-ready curriculum blending theory with hands-on practice in 
-            AI, cybersecurity, data science, and cloud computing—ensuring students graduate 
-            with cutting-edge skills.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="feature-box">
-          <span class="feature-icon">⚖️</span>
-          <h5>Ethics Meets Technology</h5>
-          <p>
-            Beyond technical expertise, we emphasize building responsible leaders who 
-            innovate with integrity, guided by strong ethical values and social responsibility.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="feature-box">
-          <span class="feature-icon">🌍</span>
-          <h5>Global Readiness</h5>
-          <p>
-            International collaborations, industry exposure, and real-world projects prepare 
-            our students for a connected, global workforce and professional agility.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="feature-box">
-          <span class="feature-icon">🔬</span>
-          <h5>Research & Creativity</h5>
-          <p>
-            Opportunities for research, innovation, and product development encourage 
-            exploration, experimentation, and creative problem-solving in every discipline.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="feature-box">
-          <span class="feature-icon">🤝</span>
-          <h5>Supportive, Inclusive Environment</h5>
-          <p>
-            A diverse, inclusive learning culture where every student is heard, supported, 
-            and mentored—personally, academically, and professionally.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="feature-box">
-          <span class="feature-icon">📚</span>
-          <h5>Commitment to Lifelong Learning</h5>
-          <p>
-            Education here goes beyond degrees—it builds a mindset of curiosity, 
-            critical thinking, and continuous growth for life.
-          </p>
-        </div>
-      </div>
+  <div class="col-md-6">
+    <div class="feature-box">
+      <span class="feature-icon">🚀</span>
+      <h5>Excellence in Education & Innovation</h5>
+      <p>
+        We provide a future-ready curriculum that balances theory with practical learning, 
+        ensuring students graduate with strong knowledge and essential skills for success.
+      </p>
     </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="feature-box">
+      <span class="feature-icon">⚖️</span>
+      <h5>Ethics Meets Knowledge</h5>
+      <p>
+        Beyond academics, we emphasize building responsible individuals who act with integrity, 
+        guided by strong values and social responsibility.
+      </p>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="feature-box">
+      <span class="feature-icon">🌍</span>
+      <h5>Global Readiness</h5>
+      <p>
+        Exposure to diverse ideas, collaborations, and real-world experiences prepares 
+        students to thrive in a connected and dynamic global environment.
+      </p>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="feature-box">
+      <span class="feature-icon">🔬</span>
+      <h5>Research & Creativity</h5>
+      <p>
+        We encourage curiosity, exploration, and innovative thinking, nurturing a spirit of 
+        discovery and creative problem-solving across all disciplines.
+      </p>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="feature-box">
+      <span class="feature-icon">🤝</span>
+      <h5>Supportive, Inclusive Environment</h5>
+      <p>
+        A welcoming and inclusive culture where every student is supported, mentored, 
+        and empowered to grow personally, academically, and professionally.
+      </p>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="feature-box">
+      <span class="feature-icon">📚</span>
+      <h5>Commitment to Lifelong Learning</h5>
+      <p>
+        Education here inspires curiosity, critical thinking, and a passion for continuous 
+        growth—preparing students for success throughout life.
+      </p>
+    </div>
+  </div>
+</div>
+
   </div>
 </section>
 
@@ -663,23 +520,4 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 </script>
-
-<style>
-  .testimonial-img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;   /* keeps faces inside circle */
-    border-radius: 50%;  /* makes it circular */
-    border: 3px solid #0a683a; /* green border highlight */
-  }
-  .testimonial {
-    min-height: 300px;
-  }
-</style>
-
-
-  
-
-</body>
-</html>
 <?php require "common/footer.php"?>
