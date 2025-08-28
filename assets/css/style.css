@@ -7778,8 +7778,6 @@ textarea:focus {
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
 }
 @media only screen and (max-width: 767px) {
   .contact-map #map {

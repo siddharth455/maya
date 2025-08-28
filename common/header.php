@@ -44,8 +44,8 @@
                 <div class="col-lg-6 col-md-5 col-12 col-sm-4">
                     <div class="login-register">
                         <ul>
-                            <li><a href="login-register.php">Contact us</a></li>
-                            <li><a href="login-register.php">University Recognition</a></li>
+                            <li><a href="contact.php">Contact us</a></li>
+                            <li><a href="university-recognition.php">University Recognition</a></li>
                         </ul>
                     </div>
                 </div>
@@ -68,18 +68,14 @@
                             <nav>
                                 <ul>
                                     <li><a href="index.php"> HOME </a>
-                                        <ul class="submenu">
-                                            <li><a href="index.php">home version 1</a></li>
-                                            <li><a href="index-2.php">home version 2</a></li>
-                                            <li><a href="index-3.php">home version 3</a></li>
-                                        </ul>
+                                       
                                     </li>
                                     <li><a href="about-us.php"> ABOUT  </a></li>
                                     <li class="mega-menu-position top-hover"><a href="shop.php"> Our Schools <i class="fa fa-angle-down"></i> </a>
                                         <ul class="mega-menu">
                                             <li>
                                                 <ul>
-                                                    <li><a href="shop.php">School of Computer Engineering & Applications</a></li>
+                                                    <li><a href="best-computer-engineering-college-in-dehradun-uttarakhand.php">School of Computer Engineering & Applications</a></li>
                                                     <li><a href="shop.php">School of Engineering</a></li>
                                                     <li><a href="shop.php">School of Pharmacy</a></li>
                                                     <li><a href="shop.php">School of Commerce & Management</a></li>
@@ -141,57 +137,41 @@
                     <nav id="mobile-menu-active">
                         <ul class="menu-overflow">
                             <li><a href="index.php">HOME</a>
-                                <ul>
-                                    <li><a href="index.php">home version 1</a></li>
-                                    <li><a href="index-2.php">home version 2</a></li>
-                                    <li><a href="index-3.php">home version 3</a></li>
-                                </ul>
+                               
                             </li>
                             <li><a href="about-us.php">About</a></li>
-                            <li><a href="shop.php">Shop</a>
-                                <ul>
-                                    <li><a href="#">Categories 01</a>
-                                        <ul>
-                                            <li><a href="shop.php">bag</a></li>
-                                            <li><a href="shop.php">Pen</a></li>
-                                            <li><a href="shop.php">Erasers</a></li>
-                                            <li><a href="shop.php">Glue sticks</a></li>
-                                            <li><a href="shop.php">Lunchbox </a></li>
-                                            <li><a href="shop.php">Pencil box </a></li>
+                            <li class="mega-menu-position top-hover"><a href="shop.php"> Our Schools <i class="fa fa-angle-down"></i> </a>
+                                        <ul class="mega-menu">
+                                            <li>
+                                                <ul>
+                                                    <li><a href="best-computer-engineering-college-in-dehradun-uttarakhand.php">School of Computer Engineering & Applications</a></li>
+                                                    <li><a href="shop.php">School of Engineering</a></li>
+                                                    <li><a href="shop.php">School of Pharmacy</a></li>
+                                                    <li><a href="shop.php">School of Commerce & Management</a></li>
+                                                    <li><a href="shop.php">School of Hotel Management & Tourism</a></li>
+                                                    <li><a href="shop.php">School of Life & Applied Science</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <ul>
+                                                    <li><a href="shop.php">School of Education</a></li>
+                                                    <li><a href="shop.php">School of Agriculture & Technology</a></li>
+                                                    <li><a href="shop.php">School of Nursing</a></li>
+                                                    <li><a href="shop.php">School of Health Sciences</a></li>
+                                                    <li><a href="shop.php">School of Paramedical Sciences</a></li>
+                                                    <li><a href="shop.php">School of Arts & Humanities</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <ul>
+                                                    <li><a href="shop.php">School of Law & Legal Studies</a></li>
+                                                    <li><a href="shop.php">School of Skill Development & Vocational Studies</a></li>
+                                                    <li><a href="shop.php">Ashtvakra School of Rehabilitation</a></li>
+                                                </ul>
+                                            </li>
+                                           
                                         </ul>
                                     </li>
-                                    <li><a href="#">Categories 02</a>
-                                        <ul>
-                                            <li><a href="shop.php">bag</a></li>
-                                            <li><a href="shop.php">Pen</a></li>
-                                            <li><a href="shop.php">Erasers</a></li>
-                                            <li><a href="shop.php">Glue sticks</a></li>
-                                            <li><a href="shop.php">Lunchbox </a></li>
-                                            <li><a href="shop.php">Pencil box </a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Categories 03</a>
-                                        <ul>
-                                            <li><a href="shop.php">bag</a></li>
-                                            <li><a href="shop.php">Pen</a></li>
-                                            <li><a href="shop.php">Erasers</a></li>
-                                            <li><a href="shop.php">Glue sticks</a></li>
-                                            <li><a href="shop.php">Lunchbox </a></li>
-                                            <li><a href="shop.php">Pencil box </a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Categories 04</a>
-                                        <ul>
-                                            <li><a href="shop.php">bag</a></li>
-                                            <li><a href="shop.php">Pen</a></li>
-                                            <li><a href="shop.php">Erasers</a></li>
-                                            <li><a href="shop.php">Glue sticks</a></li>
-                                            <li><a href="shop.php">Lunchbox </a></li>
-                                            <li><a href="shop.php">Pencil box </a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
                             <li><a href="#">Pages</a>
                                 <ul>
                                     <li><a href="course.php">course page</a></li>
