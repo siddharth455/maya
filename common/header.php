@@ -76,7 +76,7 @@
                                             <li>
                                                 <ul>
                                                     <li><a href="best-computer-engineering-college-in-dehradun-uttarakhand.php">School of Computer Engineering & Applications</a></li>
-                                                    <li><a href="shop.php">School of Engineering</a></li>
+                                                    <li><a href="best-engineering-college-in-dehradun-Uttarakhand.php">School of Engineering</a></li>
                                                     <li><a href="shop.php">School of Pharmacy</a></li>
                                                     <li><a href="shop.php">School of Commerce & Management</a></li>
                                                     <li><a href="shop.php">School of Hotel Management & Tourism</a></li>
