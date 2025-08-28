@@ -16,7 +16,7 @@
           The government recognition letter is an official document verifying the legal status of Maya Devi University.
           </p>
           <div class="text-center mt-3">
-            <a href="documents/uttarakhand-govt-letter.pdf" class="btn btn-success btn-sm" download>
+            <a href="assets/uploads/pdf/Uttarakhand_Government_Letter.pdf" class="btn btn-success btn-sm" download>
               <i class="fas fa-download"></i> Download Document
             </a>
           </div>
@@ -51,7 +51,7 @@
           The University Grants Commission (UGC) recognition document confirms Maya Devi University's compliance with national higher education standards.
           </p>
           <div class="text-center mt-3">
-            <a href="documents/ugc-recognition.pdf" class="btn btn-success btn-sm" download>
+            <a href="assets/uploads/pdf/UGC_Recognition_Document.pdf" class="btn btn-success btn-sm" download>
               <i class="fas fa-download"></i> Download Document
             </a>
           </div>
@@ -85,7 +85,7 @@
           The Pharmacy Council of India (PCI) recognition document confirms Maya Devi University's compliance with national pharmacy education standards.
           </p>
           <div class="text-center mt-3">
-            <a href="documents/pci-recognition.pdf" class="btn btn-success btn-sm" download>
+            <a href="assets/uploads/pdf/PCI_Recognition_Document.pdf" class="btn btn-success btn-sm" download>
               <i class="fas fa-download"></i> Download Document
             </a>
           </div>
@@ -119,7 +119,7 @@
           The National Council for Teacher Education (NCTE) recognition document confirms Maya Devi University's compliance with national education standards.
           </p>
           <div class="text-center mt-3">
-            <a href="documents/ncte-recognition.pdf" class="btn btn-success btn-sm" download>
+            <a href="assets/uploads/pdf/NCTE_Recognition_Document.pdf" class="btn btn-success btn-sm" download>
               <i class="fas fa-download"></i> Download Document
             </a>
           </div>
@@ -153,7 +153,7 @@
           Download our official Bar Council of India recognition certificate
           </p>
           <div class="text-center mt-3">
-            <a href="documents/bar-council-recognition.pdf" class="btn btn-success btn-sm" download>
+            <a href="assets/uploads/pdf/Maya_Devi_University_Bar_Council_Recognition.pdf" class="btn btn-success btn-sm" download>
               <i class="fas fa-download"></i> Download Document
             </a>
           </div>
