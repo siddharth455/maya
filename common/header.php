@@ -73,7 +73,7 @@
 
                                         </li>
                                         <li><a href="about-us.php"> ABOUT </a></li>
-                                        <li class="mega-menu-position top-hover"><a href="shop.php"> Our Schools <i class="fa fa-angle-down"></i> </a>
+                                        <li class="mega-menu-position top-hover"><a href="#"> Our Schools <i class="fa fa-angle-down"></i> </a>
                                             <ul class="mega-menu">
                                                 <li>
                                                     <ul>
@@ -116,11 +116,11 @@
                                                 <li><a href="refund-policy.php">Refund Policy</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="course.php"> COURSES / PROGRAMMES</a></li>
-                                        <li><a href="blog.php"> BLOG </a>
+                                        <li><a href="#"> COURSES / PROGRAMMES</a></li>
+                                        <li><a href="#"> BLOG </a>
                                             <ul class="submenu">
-                                                <li><a href="blog.php">blog</a></li>
-                                                <li><a href="blog-details.php">blog details</a></li>
+                                                <li><a href="#">blog</a></li>
+                                                <li><a href="#">blog details</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="contact.php"> CONTACT </a></li>
@@ -170,10 +170,11 @@
                                 </li>
 
                                 <li><a href="about-us.php">About us</a></li>
-                                <li><a href="blog.php">Blog</a>
+                                <li><a href="#">Courses</a></li>
+                                <li><a href="#">Blog</a>
                                     <ul>
-                                        <li><a href="blog.php">blog</a></li>
-                                        <li><a href="blog-details.php">blog details</a></li>
+                                        <li><a href="#">blog</a></li>
+                                        <li><a href="#">blog details</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="contact.php">Contact</a></li>

@@ -443,7 +443,7 @@ a.button-link:hover {
         <div class="row">
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-one">
-                    <div class="count-img">
+                    <div class="count-img">1
                         <img src="assets/img/icon-img/achieve-1.png" alt="">
                     </div>
                     <div class="count-content">
@@ -494,7 +494,7 @@ a.button-link:hover {
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
-                            <div class="testi-content bg-img default-overlay" style="background-image:url(assets/img/bg/testi.png);">
+                            <div class="testi-content bg-img default-overlay" style="background-image:url(assets/uploads/testi-bg.webp);">
                                 <div class="quote-style quote-left">
                                     <i class="fa fa-quote-left"></i>
                                 </div>
@@ -519,7 +519,7 @@ a.button-link:hover {
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
-                            <div class="testi-content bg-img default-overlay" style="background-image:url(assets/img/bg/testi.png);">
+                            <div class="testi-content bg-img default-overlay" style="background-image:url(assets/uploads/testi-bg.webp);">
                                 <div class="quote-style quote-left">
                                     <i class="fa fa-quote-left"></i>
                                 </div>
@@ -544,7 +544,7 @@ a.button-link:hover {
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
-                            <div class="testi-content bg-img default-overlay" style="background-image:url(assets/img/bg/testi.png);">
+                            <div class="testi-content bg-img default-overlay" style="background-image:url(assets/uploads/testi-bg.webp);">
                                 <div class="quote-style quote-left">
                                     <i class="fa fa-quote-left"></i>
                                 </div>
@@ -569,7 +569,7 @@ a.button-link:hover {
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
-                            <div class="testi-content bg-img default-overlay" style="background-image:url(assets/img/bg/testi.png);">
+                            <div class="testi-content bg-img default-overlay" style="background-image:url(assets/uploads/testi-bg.webp);">
                                 <div class="quote-style quote-left">
                                     <i class="fa fa-quote-left"></i>
                                 </div>
