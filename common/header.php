@@ -113,7 +113,6 @@
                                                 <li><a href="campus-life.php">Campus Life</a></li>
                                                 <li><a href="assets/uploads/pdf/List_of_Holidays_2025.pdf" download="List_of_Holidays_2025.pdf">List of Holidays</a></li>
                                                 <li><a href="assets/uploads/pdf/Academic_Calender_Even_Sem_2024-25.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calender Even Sem 2024-25</a></li>
-                                                <li><a href="single-product.php">Quick Enquiry Form</a></li>
                                                 <li><a href="refund-policy.php">Refund Policy</a></li>
                                             </ul>
                                         </li>
@@ -166,7 +165,6 @@
                                         <li><a href="campus-life.php">Campus Life</a></li>
                                         <li><a href="assets/uploads/pdf/List_of_Holidays_2025.pdf" download="List_of_Holidays_2025.pdf">List of Holidays</a></li>
                                         <li><a href="assets/uploads/pdf/Academic_Calender_Even_Sem_2024-25.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calender Even Sem 2024-25</a></li>
-                                        <li><a href="single-product.php">Quick Enquiry Form</a></li>
                                         <li><a href="refund-policy.php">Refund Policy</a></li>
                                     </ul>
                                 </li>

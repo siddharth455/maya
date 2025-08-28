@@ -1,7 +1,7 @@
 <?php require "common/header.php"?>
   <!-- Hero Section -->
-  <section class="hero-section">
   <section class="hero-section" style="background: url('assets/uploads/home-banner.webp') center/cover no-repeat; height:70vh;">
+  <div class="hero-content">
       <h3 class="display-5 fw-bold text-white">School of Management and Commerce</h3>
       <p class="lead text-white">Empowering future business leaders with comprehensive management education<br> and practical skills. Join us in shaping the future of business and commerce.</p>
       <a href="https://admission.maya.edu.in/" class="btn btn-primary">Apply Now</a>

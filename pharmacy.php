@@ -1,13 +1,12 @@
 <?php require "common/header.php"?>
   <!-- Hero Section -->
-  <section class="hero-section">
   <section class="hero-section" style="background: url('assets/uploads/home-banner.webp') center/cover no-repeat; height:70vh;">
+  <div class="hero-content">
       <h3 class="display-5 fw-bold text-white">School of Pharmacy</h3>
       <p class="lead text-white">Shaping Tomorrow's Leaders at Maya Devi University</p>
       <a href="https://admission.maya.edu.in/" class="btn btn-primary">Apply Now</a>
     </div>
   </section>
-
   <!-- About Section -->
 <section class="container py-5">
 <div class="section-title  pb-20">
