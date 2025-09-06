@@ -265,26 +265,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
     </div>
 </div>
-  <!-- Dean's Message -->
-  <section class="container">
-    <div class="row align-items-center">
-      <div class="col-md-4">
-        <img src="assets/uploads/shivani.webp" class="img-fluid " alt="Dean">
-      </div>
-      <div class="col-md-8">
-      <div class="section-title  pb-20">
-        <h2>Dean's <span>Welcome Note</span></h2>
-      </div>
-      <p>Welcome Students!</p>
-        <p>It is with great pride and enthusiasm that I welcome you to the School of Life and Applied Sciences at Maya Devi University comprising the departments of Physics, Chemistry, Mathematics, Botany, and Zoology. Our school is a dynamic center for scientific learning and innovation.</p>
-        <p>At the School of Applied Sciences, we prepare students not just for examinations, but for real-world challenges—equipping them with the skills, knowledge, and values needed to thrive in academia, research, and industry at both national and global levels.</p>
-        <h5 class="fw-bold mt-3">- Prof. (Dr.) Shivani Guleria</h5>
-        <h5 class="fw-bold">Dean, School of Life and Applied Sciences<br>
-        Maya Devi University</h5>
-      </div>
-      </div>
-    </div>
-  </section>
+  
   <!-- global opportunities start  -->
   <section class="global-opportunities  pt-40">
     <div class="container">

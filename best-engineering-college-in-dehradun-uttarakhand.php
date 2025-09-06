@@ -265,26 +265,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
     </div>
 </div>
-  <!-- Dean's Message -->
-  <section class="container">
-    <div class="row align-items-center">
-      <div class="col-md-4">
-        <img src="assets/uploads/khoob-singh.webp" class="img-fluid " alt="Dean">
-      </div>
-      <div class="col-md-8">
-      <div class="section-title  pb-20">
-        <h2>Dean's <span>Welcome Note</span></h2>
-      </div>
-      <p>Welcome Students!</p>
-        <p>Our School of Engineering has grown abundantly in recent past. It continues to sustain its growth. The peoples reading this newsletter will realize the tremendous changes that are happening in the campus. This newsletter is presenting the glimpse of the growth of the Institution on many fronts. The highly qualified and dedicated teachers of the staff have always stood shoulder to shoulder with the management and carried out their duties with high level of commitments.</p>
-        <p>Let's give our best and make this institution a modern sanctuary of learning through our diligence, devotion and dedication. I congratulate all the contributors and the editorial board for bringing out such a beautiful newsletter.</p>
-        <h5 class="fw-bold mt-3">- Prof.(Dr.) Khoob Singh</h5>
-        <h5 class="fw-bold">Dean, School of Engineering<br>
-        Maya Devi University</h5>
-      </div>
-      </div>
-    </div>
-  </section>
+ 
 <!-- clubs section -->
 <section class="clubs-section py-5">
   <div class="container">

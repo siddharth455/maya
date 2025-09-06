@@ -1,6 +1,6 @@
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
-    <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/b-tech-cs.jpeg);">
+    <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/bca-banner.webp);">
         <div class="container">
             <h2>Bachelor of Computer Applications (BCA)</h2>
             <p>As the IT industry continues its exponential expansion, the demand for skilled computer professionals increases daily—creating abundant opportunities for aspiring programmers and software developers. Maya Devi University (formerly Maya Group of Colleges), nestled in the scenic Himalayan foothills of Dehradun, addresses this demand with its three-year Bachelor of Computer Applications (BCA) program.</p>

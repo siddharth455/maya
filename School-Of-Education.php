@@ -265,26 +265,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
     </div>
 </div>
-  <!-- Dean's Message -->
-  <section class="container">
-    <div class="row align-items-center">
-      <div class="col-md-4">
-        <img src="assets/uploads/Sita.jpg" class="img-fluid " alt="Dean">
-      </div>
-      <div class="col-md-8">
-      <div class="section-title  pb-20">
-        <h2>Dean's <span>Welcome Note</span></h2>
-      </div>
-      <p>Welcome Students!</p>
-        <p>The School of Education of Maya Devi University, Dehradun has been a fascinating journey defined by our students' dedication and tenacity. B.Ed. students consistently post boundaries in the rich capacity of diverse learning experience embracing challenges with the spirit that aligns with our university ethos.</p>
-        <p>It gives me great pleasure to recognize our students' extraordinary accomplishments in navigating academia, Co-curricular and the arts with grace. The academic structure, which emphasizes language acquisition, merges effortlessly with a commitment to promoting selfconfidence and adaptability-qualities critical for success in our ever-changing global context.</p>
-        <h5 class="fw-bold mt-3">- Dr. Sita Juyal</h5>
-        <h5 class="fw-bold">Dean, School of Education (B.Ed.)<br>
-        Maya Devi University</h5>
-      </div>
-      </div>
-    </div>
-  </section>
+  
   <!-- Why Choose Us -->
   <section class="why-choose-us py-5">
   <div class="container">

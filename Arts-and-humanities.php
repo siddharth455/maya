@@ -266,26 +266,7 @@ document.addEventListener("DOMContentLoaded", () => {
     </div>
 </div>
  
- <!-- Dean's Message -->
- <section class="container">
-    <div class="row align-items-center">
-      <div class="col-md-4">
-        <img src="assets/uploads/jaya.jpg" class="img-fluid " alt="Dean">
-      </div>
-      <div class="col-md-8">
-      <div class="section-title  pb-20">
-        <h2>Dean's <span>Welcome Note</span></h2>
-      </div>
-      <p>Welcome Students!</p>
-        <p>Welcome to the Faculty of Arts and Social Sciences at Maya Devi University-a place where tradition meets transformation and learning goes beyond the classroom. Our faculty is home to a vibrant community of scholars and students committed to the pursuit of knowledge, critical inquiry, and social relevance. We offer a diverse academic landscape through our departments each discipline fosters independent thinking, research aptitude, and a deep understanding of human society, language, and behavior. We emphasize not only academic excellence but also personal growth, ethical values, and civic responsibility.</p>
-        <p>Our mission is to prepare students to face global and local challenges with confidence, compassion, and a well-rounded perspective. With a dedicated faculty, innovative pedagogy, and a student-centered environment, we aim to nurture intellectual curiosity and lifelong learning.</p>
-        <h5 class="fw-bold mt-3">- Dr. Jaya Dwivedi</h5>
-        <h5 class="fw-bold">Dean, School of Arts and Humanities<br>
-        Maya Devi University</h5>
-      </div>
-      </div>
-    </div>
-  </section>
+ 
 <!-- clubs section -->
 <section class="clubs-section py-5">
   <div class="container">

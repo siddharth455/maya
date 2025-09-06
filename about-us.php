@@ -347,16 +347,141 @@
             </div>
             <div class="col-lg-4 col-md-12">
                 <div class="about-img">
-                    <img src="assets/uploads/about-st.webp" alt="">
+                    <img src="assets/uploads/about-boy.png" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 
+<!-- Leadership Section -->
+<div class="achievement-area pb-90 pt-50">
+  <div class="container">
+    <div class="section-title mb-75">
+      <h2>Our <span>Leadership</span></h2>
+      <p> At our core, we believe leadership is about more than authority—it’s about vision, responsibility, and inspiration. 
+        True leaders empower teams, nurture innovation, and turn challenges into stepping stones for success. Through strong leadership, 
+        we strive to guide growth, create impact, and shape a brighter future for individuals and communities alike. </p>
+    </div>
 
+    <!-- Swiper -->
+    <div class="swiper leadership-slider">
+      <div class="swiper-wrapper">
+        
+        <!-- President -->
+        <div class="swiper-slide">
+          <div class="testi-content-wrap">
+            <div class="testi-big-img">
+              <img alt="" src="assets/uploads/president.png">
+            </div>
+            <div class="row g-0">
+              <div class="ms-auto col-lg-6 col-md-6">
+                <div class="testi-content bg-img default-overlay" style="background-image:url(assets/uploads/testi-bg.webp);">
+                  <div class="quote-style quote-left"><i class="fa fa-quote-left"></i></div>
+                  <p> Maya Devi University is committed to academic excellence, research, and inclusive values. Since its inception in 2010, 
+                    the university has evolved significantly, establishing itself as a leading institution in North India. With over 11,000 alumni, 
+                    it emphasizes practical, research-driven education that promotes independent thinking and problem-solving.
+                    Students are encouraged to pursue self-sufficient learning grounded in scientific and philosophical knowledge. 
+                    The university fosters creativity through academic curiosity, aiming to develop future researchers and entrepreneurs.
+                  </p>
+                  <div class="testi-info">
+                    <h5>Manohar Lal Juyal</h5>
+                    <span>President, Maya Devi University</span>
+                  </div>
+                  <div class="quote-style quote-right"><i class="fa fa-quote-right"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-<div class="teacher-area pt-130 pb-100">
+        <!-- Vice President -->
+        <div class="swiper-slide">
+          <div class="testi-content-wrap">
+            <div class="testi-big-img">
+              <img alt="" src="assets/uploads/vc.png">
+            </div>
+            <div class="row g-0">
+              <div class="ms-auto col-lg-6 col-md-6">
+                <div class="testi-content bg-img default-overlay" style="background-image:url(assets/uploads/testi-bg.webp);">
+                  <div class="quote-style quote-left"><i class="fa fa-quote-left"></i></div>
+                  <p> I am grateful to the divine and to Shri Manohar Lal Juyal, President of Maya Devi University, for the opportunity 
+                    to serve as the first Vice President of University. Our faculty and staff are deeply committed to supporting students 
+                    in their academic, professional, cultural, and spiritual journeys. At Maya Devi University, students experience a thoughtful 
+                    and inclusive environment designed to help them grow into principled leaders and engaged citizens.
+                 </p>
+                  <div class="testi-info">
+                    <h5>Dr. Tripti Juyal Semwal</h5>
+                    <span>Vice President, Maya Devi University</span>
+                  </div>
+                  <div class="quote-style quote-right"><i class="fa fa-quote-right"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vice Chancellor -->
+        <div class="swiper-slide">
+          <div class="testi-content-wrap">
+            <div class="testi-big-img">
+              <img alt="" src="assets/uploads/vice.png">
+            </div>
+            <div class="row g-0">
+              <div class="ms-auto col-lg-6 col-md-6">
+                <div class="testi-content bg-img default-overlay" style="background-image:url(assets/uploads/testi-bg.webp);">
+                  <div class="quote-style quote-left"><i class="fa fa-quote-left"></i></div>
+                  <p> I am honored to serve as the founding Vice Chancellor of Maya Devi University, sharing a vision aligned with our President 
+                    to place national interest, character-building, and innovation at the forefront. Our goal is to nurture future technocrats, 
+                    researchers, and entrepreneurs who are driven by knowledge, values, and societal responsibility.
+                    We empower students to explore disciplines like technology, arts, and philosophy while promoting harmony between traditional 
+                    values and modern advancements. The university is advancing in fields like AI, data science, drones, and applied sciences, 
+                    with a focus on real-world applications in agriculture, hospitality, and entrepreneurship.
+                  </p>
+                  <div class="testi-info">
+                    <h5>Prof. (Dr.) Ashish Semwal</h5>
+                    <span>Vice Chancellor, Maya Devi University</span>
+                  </div>
+                  <div class="quote-style quote-right"><i class="fa fa-quote-right"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Swiper CSS & JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper = new Swiper(".leadership-slider", {
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+  });
+</script>
+
+<div class="teacher-area">
     <div class="container">
         <div class="section-title mb-75">
             <h2>Best <span>Teacher</span></h2>
@@ -496,111 +621,6 @@
         </div>
     </div>
 </div>
-
-<div class="achievement-area">
-    <div class="container">
-        <div class="section-title mb-75">
-            <h2>Our <span>Leadership</span></h2>
-            <p>At our core, we believe leadership is about more than authority—it’s about vision, responsibility, and inspiration. True leaders empower teams, nurture innovation, and turn challenges into stepping stones for success. Through strong leadership, we strive to guide growth, create impact, and shape a brighter future for individuals and communities alike. </p>
-        </div>
-        <div class="testimonial-slider-wrap mt-45">
-            <div class="testimonial-text-slider">
-                <div class="testi-content-wrap">
-                    <div class="testi-big-img">
-                        <img alt="" src="assets/uploads/president.png">
-                    </div>
-                   <div class="row g-0">
-                       <div class="ms-auto col-lg-6 col-md-6">
-                           <div class="testi-content bg-img default-overlay" style="background-image:url(assets/uploads/testi-bg.webp);">
-                                <div class="quote-style quote-left">
-                                   <i class="fa fa-quote-left"></i>
-                                </div>
-                               <p>Maya Devi University is committed to academic excellence, research, and inclusive values. Since its inception in 2010, the university has evolved significantly, establishing itself as a leading institution in North India. With over 11,000 alumni, it emphasizes practical, research-driven education that promotes independent thinking and problem-solving.
-Students are encouraged to pursue self-sufficient learning grounded in scientific and philosophical knowledge. The university fosters creativity through academic curiosity, aiming to develop future researchers and entrepreneurs.</p>
-                                <div class="testi-info">
-                                   <h5>Manohar Lal Juyal</h5>
-                                   <span>President, Maya Devi University</span>
-                                </div>
-                                <div class="quote-style quote-right">
-                                   <i class="fa fa-quote-right"></i>
-                                </div>
-                                <div class="testi-arrow">
-                                    <img alt="" src="assets/img/icon-img/testi-icon.png">
-                                </div>
-                           </div>
-                       </div>
-                   </div>
-                </div>
-                <div class="testi-content-wrap">
-                   <div class="testi-big-img">
-                        <img alt="" src="assets/uploads/vc.png">
-                    </div>
-                   <div class="row g-0">
-                        <div class="ms-auto col-lg-6 col-md-6">
-                           <div class="testi-content bg-img default-overlay" style="background-image:url(assets/uploads/testi-bg.webp);">
-                                <div class="quote-style quote-left">
-                                   <i class="fa fa-quote-left"></i>
-                                </div>
-                               <p>I am grateful to the divine and to Shri Manohar Lal Juyal, President of Maya Devi University, for the opportunity to serve as the first Vice President of University.
-Our faculty and staff are deeply committed to supporting students in their academic, professional, cultural, and spiritual journeys. At Maya Devi University, students experience a thoughtful and inclusive environment designed to help them grow into principled leaders and engaged citizens.</p>
-                                <div class="testi-info">
-                                   <h5>Dr. Tripti Juyal Semwal</h5>
-                                   <span>Vice President, Maya Devi University</span>
-                                </div>
-                                <div class="quote-style quote-right">
-                                   <i class="fa fa-quote-right"></i>
-                                </div>
-                                <div class="testi-arrow">
-                                    <img alt="" src="assets/img/icon-img/testi-icon.png">
-                                </div>
-                           </div>
-                       </div>
-                   </div>
-                </div>
-                <div class="testi-content-wrap">
-                    <div class="testi-big-img">
-                        <img alt="" src="assets/uploads/vice.png">
-                    </div>
-                   <div class="row g-0">
-                        <div class="ms-auto col-lg-6 col-md-6">
-                           <div class="testi-content bg-img default-overlay" style="background-image:url(assets/uploads/testi-bg.webp);">
-                                <div class="quote-style quote-left">
-                                   <i class="fa fa-quote-left"></i>
-                                </div>
-                               <p>I am honored to serve as the founding Vice Chancellor of Maya Devi University, sharing a vision aligned with our President to place national interest, character-building, and innovation at the forefront. Our goal is to nurture future technocrats, researchers, and entrepreneurs who are driven by knowledge, values, and societal responsibility.
-We empower students to explore disciplines like technology, arts, and philosophy while promoting harmony between traditional values and modern advancements. The university is advancing in fields like AI, data science, drones, and applied sciences, with a focus on real-world applications in agriculture, hospitality, and entrepreneurship. </p>
-                                <div class="testi-info">
-                                   <h5>Prof. (Dr.) Ashish Semwal</h5>
-                                   <span>Vice Chancellor, Maya Devi University</span>
-                                </div>
-                                <div class="quote-style quote-right">
-                                   <i class="fa fa-quote-right"></i>
-                                </div>
-                                <div class="testi-arrow">
-                                    <img alt="" src="assets/img/icon-img/testi-icon.png">
-                                </div>
-                           </div>
-                        </div>
-                   </div>
-                </div>
-                
-            </div>
-            <div class="testimonial-image-slider">
-            <div class="sin-testi-image">
-                    <img src="assets/uploads/president.png" alt="">
-                </div>
-                <div class="sin-testi-image">
-                    <img src="assets/uploads/vc.png" alt="">
-                </div>
-                <div class="sin-testi-image">
-                    <img src="assets/uploads/vice.png" alt="">
-                </div>
-                
-            </div>
-        </div>
-      
-    </div>
-</div>
 <div class="brand-logo-area ">
     <div class="container">
         <div class="brand-logo-active owl-carousel">
@@ -627,7 +647,7 @@ We empower students to explore disciplines like technology, arts, and philosophy
             </div>
         </div>
     </div>
-    <div class="teacher-area pt-90">
+    <div class="teacher-area ">
     <div class="container">
         <div class="section-title mb-75">
             <h2>Career-Ready <span>Placements</span></h2>

@@ -32,7 +32,7 @@
 
 <body>
     <header class="header-area">
-        <div class="header-top bg-img" style="background-image:url(assets/img/icon-img/header-shape.png);">
+        <div class="header-top bg-img">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-7 col-12 col-sm-8">

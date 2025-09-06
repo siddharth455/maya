@@ -264,26 +264,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
     </div>
 </div>
-  <!-- Dean's Message -->
-  <section class="container">
-    <div class="row align-items-center">
-      <div class="col-md-4">
-        <img src="assets/uploads/vikram-singh.jpg" class="img-fluid " alt="Dean">
-      </div>
-      <div class="col-md-8">
-      <div class="section-title  pb-20">
-        <h2>Dean's <span>Welcome Note</span></h2>
-      </div>
-      <p>Welcome Students!</p>
-        <p>Welcome to the School of Pharmacy at Maya Devi University. Our mission is to educate and train the next generation of pharmacy professionals who will lead innovation in pharmaceutical care and research.Our curriculum integrates theoretical knowledge with practical experience, preparing students to excel in diverse healthcare settings. We emphasize evidence-based practice, critical thinking, and ethical conduct while fostering a collaborative learning environment.</p>
-        <p>The faculty at our School of Pharmacy brings together academic excellence and industry experience to provide students with a comprehensive education that meets the evolving needs of the pharmaceutical and healthcare sectors.</p>
-        <h5 class="fw-bold mt-3">- Dr. Vikram Singh</h5>
-        <h5 class="fw-bold">Dean, School of Pharmacy<br>
-        Maya Devi University</h5>
-      </div>
-      </div>
-    </div>
-  </section>
+ 
 <!-- clubs section -->
 <section class="clubs-section py-5">
   <div class="container">

@@ -266,26 +266,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
     </div>
 </div>
-  <!-- Dean's Message -->
-  <section class="container">
-    <div class="row align-items-center">
-      <div class="col-md-4">
-        <img src="assets/uploads/Deepa.jpg" class="img-fluid " alt="Dean">
-      </div>
-      <div class="col-md-8">
-      <div class="section-title  pb-20">
-        <h2>Dean's <span>Welcome Note</span></h2>
-      </div>
-      <p>Welcome Students!</p>
-        <p>As the hospitality industry evolves rapidly, our school stands at the forefront of educational innovation. We offer a unique blend of theoretical knowledge and practical exposure through our industry-integrated curriculum designed by leading experts in the field.</p>
-        <p>Our strength lies in three core pillars: hands-on industry experience, personalized mentoring, and a global perspective. With state-of-the-art facilities and experienced faculty, we transform passionate students into industry-ready professionals who lead rather than follow.</p>
-        <h5 class="fw-bold mt-3">- Deepa Chawla</h5>
-        <h5 class="fw-bold">Principal, School of Hotel Management & Tourism<br>
-        Maya Devi University</h5>
-      </div>
-      </div>
-    </div>
-  </section>
+  
 <!-- clubs section -->
 <section class="clubs-section py-5">
   <div class="container">

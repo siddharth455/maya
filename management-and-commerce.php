@@ -265,26 +265,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
     </div>
 </div>
-  <!-- Dean's Message -->
-  <section class="container">
-    <div class="row align-items-center">
-      <div class="col-md-4">
-        <img src="assets/uploads/vikram-singh.jpg" class="img-fluid " alt="Dean">
-      </div>
-      <div class="col-md-8">
-      <div class="section-title  pb-20">
-        <h2>Dean's <span>Welcome Note</span></h2>
-      </div>
-      <p>Welcome Students!</p>
-        <p>At the School of Management & Commerce, we offer a dynamic learning environment that combines theoretical knowledge with practical insights. Our programs, including MBA, BBA, B.Com and M.Com, are designed to equip students with the critical thinking, leadership, and technical skills needed to excel in today's competitive global market. We emphasize innovation, research, and real-world applications to ensure that our graduates are prepared to lead organizations, drive business strategies, and contribute meaningfully to society.</p>
-        <p>The School of Management & Commerce takes pride in its holistic approach to education, where we focus on the personal growth of each student, enhancing their leadership qualities, communication skills, and ethical standards. Our vision is to produce graduates who are not only competent professionals but also responsible global citizens.</p>
-        <h5 class="fw-bold mt-3">- Dr. Parikshit Kala</h5>
-        <h5 class="fw-bold">Dean, School of Management & Commerce<br>
-        Maya Devi University</h5>
-      </div>
-      </div>
-    </div>
-  </section>
+ 
 <!-- clubs section -->
 <section class="clubs-section py-5">
   <div class="container">

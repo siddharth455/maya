@@ -137,17 +137,17 @@ document.addEventListener("DOMContentLoaded", () => {
     <div class="container">
         <div class="section-title mb-75 course-mrg-small">
             <h2>Our <span>Programs</span></h2>
-            <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+            <p>We offer diverse, industry-focused courses that combine knowledge and<br> practical skills to prepare students for future success. </p>
         </div>
         <div class="course-slider-active-3">
             <div class="single-course">
                 <div class="course-img">
-                    <a href="course-details.php"><img class="animated" src="assets/img/course/course-1.jpg" alt=""></a>
-                    <span>Addmission Going On</span>
+                    <a href="bachelor-of-computer-application.php"><img class="animated" src="assets/uploads/bca.jpg" alt=""></a>
+                    
                 </div>
                 <div class="course-content">
-                    <h4><a href="course-details.php">Apparel Manufacturing</a></h4>
-                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                    <h4><a href="bachelor-of-computer-application.php">Bachelor of Computer Application</a></h4>
+                    <p>Empowering future innovators with technology, coding skills, and digital excellence.</p>
                 </div>
                 <div class="course-position-content">
                     <div class="credit-duration-wrap">
@@ -157,21 +157,21 @@ document.addEventListener("DOMContentLoaded", () => {
                         </div>
                         <div class="sin-credit-duration">
                             <i class="fa fa-clock-o"></i>
-                            <span>Duration : 4yrs</span>
+                            <span>Duration : 3yrs</span>
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="#">APPLY NOW</a>
+                        <a class="default-btn" href="bachelor-of-computer-application.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="course-details.php"><img class="animated" src="assets/img/course/course-2.jpg" alt=""></a>
+              <a href="bachelor-of-computer-application-AI-&-ML.php"><img class="animated" src="assets/uploads/aiml.jpg" alt=""></a>
                 </div>
                 <div class="course-content">
-                    <h4><a href="course-details.php">Grphic Design & Multimedia</a></h4>
-                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                    <h4><a href="bachelor-of-computer-application-AI-&-ML.php">Bachelor of Computer Application in AI & ML</a></h4>
+                    <p>Shaping tech leaders with expertise in Artificial Intelligence and Machine Learning.</p>
                 </div>
                 <div class="course-position-content">
                     <div class="credit-duration-wrap">
@@ -181,21 +181,21 @@ document.addEventListener("DOMContentLoaded", () => {
                         </div>
                         <div class="sin-credit-duration">
                             <i class="fa fa-clock-o"></i>
-                            <span>Duration : 4yrs</span>
+                            <span>Duration : 3yrs</span>
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="#">APPLY NOW</a>
+                        <a class="default-btn" href="bachelor-of-computer-application-AI-&-ML.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="course-details.php"><img class="animated" src="assets/img/course/course-3.jpg" alt=""></a>
+                    <a href="bachelor-of-computer-application-Data-Science.php"><img class="animated" src="assets/uploads/data-science.webp" alt=""></a>
                 </div>
                 <div class="course-content">
-                    <h4><a href="course-details.php">Computer  Engineering</a></h4>
-                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                    <h4><a href="bachelor-of-computer-application-Data-Science.php">Bachelor of Computer Application in Data Science</a></h4>
+                    <p>Shaping future tech & data leaders with expertise in Analytics and Data Science for future world.</p>
                 </div>
                 <div class="course-position-content">
                     <div class="credit-duration-wrap">
@@ -205,11 +205,11 @@ document.addEventListener("DOMContentLoaded", () => {
                         </div>
                         <div class="sin-credit-duration">
                             <i class="fa fa-clock-o"></i>
-                            <span>Duration : 4yrs</span>
+                            <span>Duration : 3yrs</span>
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="#">APPLY NOW</a>
+                        <a class="default-btn" href="bachelor-of-computer-application-Data-Science.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
@@ -265,26 +265,6 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
     </div>
 </div>
-  <!-- Dean's Message -->
-  <section class="container">
-    <div class="row align-items-center">
-      <div class="col-md-4">
-        <img src="assets/uploads/rb-singh.png" class="img-fluid " alt="Dean">
-      </div>
-      <div class="col-md-8">
-      <div class="section-title  pb-20">
-        <h2>Dean's <span>Welcome Note</span></h2>
-      </div>
-      <p>Welcome Students!</p>
-        <p>At the School of Computer Science and Applications, Maya Devi University, we believe in shaping not only skilled professionals but also responsible leaders of tomorrow. Our focus goes beyond technical expertise—we nurture creativity, critical thinking, innovation, and values that empower you to succeed in today’s fast-changing digital world.</p>
-        <p>Here, you will find a vibrant academic environment with opportunities to explore, learn, and grow—whether your dream is to be a software engineer, researcher, entrepreneur, or a socially conscious tech leader. Together, let’s create technology that not only advances industries but also makes the world a better place.</p>
-        <h5 class="fw-bold mt-3">- Prof. Dr. R B Singh</h5>
-        <h5 class="fw-bold">Dean, School of Computer Science and Applications<br>
-        Maya Devi University</h5>
-      </div>
-      </div>
-    </div>
-  </section>
 <!-- clubs section -->
 <section class="clubs-section py-5">
   <div class="container">

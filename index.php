@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div class="slider-single-img slider-animated-1">
-                    <img class="animated" src="assets/uploads/banner-2.webp" alt="">
+                    <img class="animated" src="assets/uploads/banner-girl.png" alt="">
                 </div>
             </div>
         </div>
@@ -307,7 +307,7 @@
     <div class="container">
         <div class="section-title mb-55">
             <h2> <span>Our</span> Courses</h2>
-            <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+            <p>We offer diverse, industry-focused courses that combine knowledge and<br> practical skills to prepare students for future success.</p>
         </div>
         <div class="course-slider-active nav-style-1 owl-carousel">
             <div class="single-course">
@@ -731,112 +731,7 @@ a.button-link:hover {
     <div id="register-1" class="mouse-bg"></div>
     <div id="register-2" class="mouse-bg"></div>
 </div> -->
-<div class="teacher-area pt-90">
-    <div class="container">
-        <div class="section-title mb-75">
-            <h2>Career-Ready <span>Placements</span></h2>
-            <p>Maya Devi University takes pride in its strong placement record, connecting students with leading companies and organizations across diverse industries. With dedicated training programs, expert mentorship, and industry tie-ups, the university ensures graduates are job-ready and confident to excel in their careers. Our placement cell works tirelessly to secure opportunities with top recruiters, empowering students to achieve professional success.</p>
-        </div>
-        <div class="custom-row">
-            <div class="custom-col-5">
-                <div class="single-teacher mb-30">
-                    <div class="teacher-img">
-                        <img src="assets/uploads/testimoni-1.jpeg" alt="">
-                    </div>
-                    <div class="teacher-content-visible">
-                        <h4>Arti Sharma</h4>
-                        <h5>Data Analysis</h5>
-                    </div>
-                    <div class="teacher-content-wrap">
-                        <div class="teacher-content">
-                            <p>Arti Sharma</p>
-                            <p>Data Analysis</p>
-                            <h4>Concentrix</h4>
-                           <h4>12 LPA</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="custom-col-5">
-                <div class="single-teacher mb-30">
-                    <div class="teacher-img">
-                        <img src="assets/uploads/testimoni-2.jpeg" alt="">
-                    </div>
-                    <div class="teacher-content-visible">
-                        <h4>Maya Dechen</h4>
-                        <h5>Web Developer</h5>
-                    </div>
-                    <div class="teacher-content-wrap">
-                        <div class="teacher-content">
-                            <p>Maya Dechen</p>
-                            <p>Web Developer</p>
-                            <h4>TCS</h4>
-                            <h4>8 LPA</h4>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="custom-col-5">
-                <div class="single-teacher mb-30">
-                    <div class="teacher-img">
-                        <img src="assets/uploads/testimoni-3.jpeg" alt="">
-                    </div>
-                    <div class="teacher-content-visible">
-                        <h4>Ruchika Tiwari</h4>
-                        <h5>Quality Analyst</h5>
-                    </div>
-                    <div class="teacher-content-wrap">
-                        <div class="teacher-content">
-                            <p>Ruchika Tiwari</p>
-                            <p>Quality Analyst</p>
-                            <h4>Mankind Pharmacy</h4>
-                            <h4>11 LPA</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="custom-col-5">
-                <div class="single-teacher mb-30">
-                    <div class="teacher-img">
-                        <img src="assets/uploads/testimoni-4.jpeg" alt="">
-                    </div>
-                    <div class="teacher-content-visible">
-                        <h4>Rohit Pandey</h4>
-                        <h5>Project Manager</h5>
-                    </div>
-                    <div class="teacher-content-wrap">
-                        <div class="teacher-content">
-                            <p>Rohit Pandey</p>
-                            <p>Project Manager</p>
-                            <h4>IBM</h4>
-                          <h4>16 LPA</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="custom-col-5">
-                <div class="single-teacher mb-30">
-                    <div class="teacher-img">
-                        <img src="assets/uploads/testimoni-5.jpg" alt="">
-                    </div>
-                    <div class="teacher-content-visible">
-                        <h4>Jiya Rawat</h4>
-                        <h5>Business Analyst</h5>
-                    </div>
-                    <div class="teacher-content-wrap">
-                        <div class="teacher-content">
-                            <p>Jiya Rawat</p>
-                            <p>Business Analyst</p>
-                            <h4>Tech Mahindra</h4>
-                           <h4>9 LPA</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<?php require "placement.php" ?>
 <div class="brand-logo-area" style="padding:45px 0 90px;">
     <div class="container">
         <h1 style="text-align:center;font-size:38px;margin:30px;color:#00a651;"><strong>Industry Partner</strong></h1>

@@ -265,26 +265,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
     </div>
 </div>
-  <!-- Dean's Message -->
-  <section class="container">
-    <div class="row align-items-center">
-      <div class="col-md-4">
-        <img src="assets/uploads/himanshu.webp" class="img-fluid " alt="Dean">
-      </div>
-      <div class="col-md-8">
-      <div class="section-title  pb-20">
-        <h2>Dean's <span>Welcome Note</span></h2>
-      </div>
-      <p>Welcome Students!</p>
-        <p>Welcome to another exciting chapter in your academic journey here at the School of Agriculture and Technology. Whether you are just beginning or continuing your studies, know that you are part of a vibrant and growing community dedicated to innovation, sustainability and the betterment of our world through agricultural science.</p>
-        <p>Our school is a hub of knowledge, discovery, and impact. We offer a wide array of programs and courses designed to give you a strong foundation in both traditional and modern agricultural sciences. I encourage each of you to make the most of the opportunities here: engage in research, connect with our dedicated faculty, participate in internships, and collaborate with your peers. Together, we can advance solutions that make a real difference in communities locally and globally.</p>
-        <h5 class="fw-bold mt-3">- Prof. (Dr.) Himanshu Saini</h5>
-        <h5 class="fw-bold">Dean, School of Agriculture & Technology<br>
-        Maya Devi University</h5>
-      </div>
-      </div>
-    </div>
-  </section>
+
 <!-- clubs section -->
 <section class="career-options-section py-5">
   <div class="container">
