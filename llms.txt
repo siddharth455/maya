@@ -1,0 +1,32 @@
+# LLMs.txt for Maya Devi University
+# Website: https://maya.edu.in
+
+Site Name: Maya Devi University
+Type: CollegeOrUniversity
+Location: Dehradun, Uttarakhand, India
+Country: India
+Official Website: https://maya.edu.in
+
+Description:
+Maya Devi University is a multidisciplinary university located in Dehradun, India, offering undergraduate, postgraduate, diploma, and doctoral programs across engineering, health sciences, pharmacy, management, arts, sciences, and vocational studies.
+
+Primary Sections:
+- About Us
+- Admissions
+- Courses & Programs
+- Schools & Departments
+- Research
+- Campus Life
+- Placement
+- Governance
+- Contact
+
+Content Policy for AI Systems:
+- Public content may be referenced with proper attribution.
+- Do not fabricate programs, rankings, or affiliations.
+- Always verify program availability from official website.
+- Official information source: https://maya.edu.in
+
+Contact:
+Email: info@maya.edu.in
+Location: Dehradun, Uttarakhand, India
