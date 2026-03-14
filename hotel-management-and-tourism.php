@@ -140,7 +140,54 @@ document.addEventListener("DOMContentLoaded", () => {
 <!-- Courses Section -->
 <div class="course-area bg-light pt-60 pb-60">
   <div class="container">
+<div class="section-title text-center mb-50">
+      <h2>Certification <span>Programs</span></h2>
+      <p>Skill-focused certification programs designed for careers in hotel management.</p>
+    </div>
 
+    <div class="row">
+
+      <!-- Diploma Bakery & Confectionery -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="certification-in-hotel-management.php">
+              <img src="assets/uploads/hm.webp" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>Certification in Hotel Management</h4>
+            <p>Focuses on operations, administration, marketing basics, and hospitality service.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>1 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="certification-in-hotel-management.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Diploma Food Production -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="Advanced-certification-in-hotel-management.php">
+              <img src="assets/uploads/bhmct-le.webp" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>Advance Certification in Hotel Management</h4>
+            <p>The (ACHM) is an extensive One-year Certification program aimed at equipping students for fulfilling careers in the hospitality sector.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>2 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="Advanced-certification-in-hotel-management.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
     <!-- ================= DIPLOMA PROGRAMS ================= -->
     <div class="section-title text-center mb-50">
       <h2>Diploma <span>Programs</span></h2>
@@ -219,26 +266,6 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       </div>
 
-      <!-- BHM Lateral Entry -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="bhm-lateral-entry-colleges-in-dehradun-uttarakhand.php">
-              <img src="assets/uploads/hm.webp" alt="">
-            </a>
-          </div>
-          <div class="course-body">
-            <h4>Bachelor of Hotel Management (Lateral Entry)</h4>
-            <p>Designed for advanced entry students with focus on hospitality and food production.</p>
-            <div class="course-meta">
-              <span>Credits: 125</span>
-              <span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="bhm-lateral-entry-colleges-in-dehradun-uttarakhand.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
       <!-- BHMCT -->
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
@@ -255,26 +282,6 @@ document.addEventListener("DOMContentLoaded", () => {
               <span>4 Years</span>
             </div>
             <a class="default-btn btn-block" href="BHMCT-colleges-in-dehradun-uttarakhand.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BHMCT LE -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="BHMCT-lateral-entry-colleges-in-dehradun-uttarakhand.php">
-              <img src="assets/uploads/bhmct-le.webp" alt="">
-            </a>
-          </div>
-          <div class="course-body">
-            <h4>BHMCT (Lateral Entry)</h4>
-            <p>Advanced-entry program focusing on catering operations and hospitality management.</p>
-            <div class="course-meta">
-              <span>Credits: 125</span>
-              <span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="BHMCT-lateral-entry-colleges-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div>
@@ -309,8 +316,26 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       </div>
 
-    </div>
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="master-of-hotel-management-and-tourism.php">
+              <img src="assets/uploads/mhmt.png" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>Master of Hotel Management and Tourism</h4>
+            <p>The MHMT program is tailored to empower students with advanced expertise required for managerial roles in the hospitality sector.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>2 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="master-of-hotel-management-and-tourism.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
 
+</div>
   </div>
 </div>
 

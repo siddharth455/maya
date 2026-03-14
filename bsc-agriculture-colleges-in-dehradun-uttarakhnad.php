@@ -114,7 +114,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
-                                            <span>Duration : 3yrs</span>
+                                            <span>Duration : 4yrs</span>
                                         </div>
                                     </div>
                                     <div class="course-btn">

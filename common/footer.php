@@ -240,7 +240,7 @@
  <div class="floating-contact">
 
     <!-- Call Button -->
-    <a href="tel:+919101352698602" class="phone-icon">
+    <a href="tel:+917351441144" class="phone-icon">
         <i class="fas fa-phone"></i>
     </a>
 
@@ -251,7 +251,7 @@
 
 </div>
 
-<script src="https://extraaedgeresources.blob.core.windows.net/documents/mdud/Chatbot/js/chat.js"></script>
+<!-- <script src="https://extraaedgeresources.blob.core.windows.net/documents/mdud/Chatbot/js/chat.js"></script> -->
 
 <style>
 
@@ -292,7 +292,7 @@
 
 /* Phone */
 .phone-icon{
-    background: #ff6b00;
+    background: #307ad5;
 }
 
 /* Mobile */

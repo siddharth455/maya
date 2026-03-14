@@ -164,18 +164,38 @@ ICAR.”
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="bsc-agriculture-colleges-in-dehradun-uttarakhnad.php">
+            <a href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php">
               <img src="assets/uploads/agri.webp" alt="">
             </a>
           </div>
           <div class="course-body">
-            <h4>B.Sc. in Agriculture</h4>
+            <h4>B.Sc. in Agriculture (Hons.)</h4>
             <p>Focuses on crop production, soil management, and modern farming techniques for careers in agriculture and agribusiness.</p>
             <div class="course-meta">
               <span>Credits: 125</span>
               <span>4 Years</span>
             </div>
-            <a class="default-btn btn-block" href="bsc-agriculture-colleges-in-dehradun-uttarakhnad.php">Apply Now</a>
+            <a class="default-btn btn-block" href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- B.Sc Horticulture -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="bsc-horticulture-colleges-in-dehradun-uttarakhand.php">
+              <img src="assets/uploads/horticulture-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>B.Sc. in Horticulture (Hons.)</h4>
+            <p>Focuses on modern horticulture techniques, nursery management, landscape design, and post-harvest management</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>4 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="bsc-horticulture-colleges-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div>
@@ -213,9 +233,29 @@ ICAR.”
             <p>Emphasizes advanced food processing, quality assurance, research, and production skills.</p>
             <div class="course-meta">
               <span>Credits: 125</span>
-              <span>3 Years</span>
+              <span>4 Years</span>
             </div>
             <a class="default-btn btn-block" href="food-technology.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+       <!-- B.tech Food Technology -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="b-tech-food-technology.php">
+              <img src="assets/uploads/food-technology.jpg" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>B.tech Food Technology</h4>
+            <p>Emphasizes advanced food processing laboratories, pilot plants, and industry-based projects enhances technical, analytical, and managerial competencies.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>4 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="b-tech-food-technology.php">Apply Now</a>
           </div>
         </div>
       </div>

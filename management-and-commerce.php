@@ -249,6 +249,66 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       </div>
 
+      <!-- Logistic Management -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="bachelor-of-business-administration.php">
+              <img src="assets/uploads/bba-5.jpg" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>BBA Logistic Management</h4>
+            <p>Develops expertise in Supply chain, Transportation, operations management, etc.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>3 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="bachelor-of-business-administration.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Business Analytics -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="bachelor-of-business-administration.php">
+              <img src="assets/uploads/bba-6.jpg" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>BBA Business Analytics</h4>
+            <p>Develops expertise in Business intelligence, Industry-focused analytical applications, etc.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>3 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="bachelor-of-business-administration.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Travel & Tourism Management  -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="bachelor-of-business-administration.php">
+              <img src="assets/uploads/bba-7.jpg" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>BBA Travel & Tourism Management</h4>
+            <p>Develops expertise in Tourism, tour management, Destination marketing, hospitality, etc.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>3 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="bachelor-of-business-administration.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
       <!-- B.Com Finance -->
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">

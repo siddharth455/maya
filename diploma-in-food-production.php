@@ -76,7 +76,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Duration</h4>
-                                        <span><i class="fa fa-clock-o"></i> 2years</span>
+                                        <span><i class="fa fa-clock-o"></i> 1.5years</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Credits</h4>
@@ -84,7 +84,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Total Semester</h4>
-                                        <span><i class="fa fa-book"></i> 4</span>
+                                        <span><i class="fa fa-book"></i> 3</span>
                                     </div>
                                 </div>
 

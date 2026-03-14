@@ -1,21 +1,21 @@
 <?php
-$page_title = "Diploma in Confectionery in Dehradun | Maya Devi University";
-$page_description = "Enroll in Diploma in Confectionery at Maya Devi University, Dehradun with practical bakery training and professional culinary skills.";
-$canonical_url = "https://maya.edu.in/diploma-in-confectionary.php";
+$page_title = "Master of Hotel Management and Tourism in Dehradun | Maya Devi University";
+$page_description = "Join Master of Hotel Management and Tourism at Maya Devi University, Dehradun with global hospitality training and industry exposure.";
+$canonical_url = "https://maya.edu.in/master-of-hotel-management-and-tourism.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
-    <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/bakery.webp);">
+    <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/mhmt.png);">
         <div class="container">
-            <h2>Diploma in Bakery and Confectionery</h2>
-            <p>This program combines theoretical learning with practical experience, ensuring that students are well-equipped to pursue a variety of careers in the dynamic world of bakery and confectionary.</p>
+            <h2>Master of Hotel Management and Tourism</h2>
+            <p>The Master of Hotel Management and Tourism program is tailored to empower students with advanced expertise required for managerial roles in the hospitality sector.</p>
         </div>
     </div>
     <div class="breadcrumb-bottom">
         <div class="container">
             <ul>
-                <li><a href="index.php">Home</a> <span><i class="fa fa-angle-double-right"></i>Diploma in Bakery & Confectionary</span></li>
+                <li><a href="index.php">Home</a> <span><i class="fa fa-angle-double-right"></i>MHMT</span></li>
             </ul>
         </div>
     </div>
@@ -26,7 +26,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/bakery.webp" alt="">
+                        <img src="assets/uploads/mhmt.png" alt="">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -35,10 +35,9 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="tab-pane active mt-5" id="course-details-1">
                             <div class="over-view-content">
                                 <h4>COURSE DETAILS</h4>
-                                <h5>Course Name : Diploma in Bakery and Confectionery</h5>
-                                <p>The Diploma in Bakery & Confectionary is an extensive 2 year program aimed at equipping students for fulfilling careers in the hospitality sectors. The Diploma in Bakery and Confectionary program is a comprehensive and hands-on course designed to provide students with the skills and knowledge necessary to excel in the baking and pastry arts industry. </p> 
-                                <p>Hands-on bakery training and confectionery labs enhance creative and technical skills in baking, pastry, and dessert preparation. The program emphasizes precision, hygiene standards, and artistic presentation. Practical sessions and internships with renowned hotels, bakeries, and patisseries provide real-world experience. Graduates are prepared for roles as bakers, pastry chefs, and confectionery specialists in hotels, cafés, and bakery establishments.</p>
-
+                                <h5>Course Name : Master of Hotel Management and Tourism (MHMT)</h5>
+                               <p>The Master of Hotel Management and Tourism (MHM) program provides advanced knowledge and specialized expertise in hotel management, tourism operations, and hospitality leadership. The program focuses on key areas such as hospitality operations, tourism management, strategic marketing, financial management, and human resource development within the hospitality sector. Students develop strong analytical, managerial, and leadership skills while studying subjects including hospitality management principles, food and beverage management, accommodation management, tourism planning, event management, and guest relationship management.</p>
+<p>Hands-on training through hotel operations practice, hospitality laboratories, and industry-oriented projects enhances managerial, service, and technical competencies. The program emphasizes professionalism, strategic decision-making, research skills, and global hospitality standards. Practical sessions, industry internships, and research activities prepare graduates for leadership roles such as hotel managers, front office managers, food and beverage directors, tourism consultants, and hospitality leaders in hotels, resorts, tourism organizations, and international hospitality brands.</p>
                                 <div class="over-view-list">
                                     <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
@@ -47,7 +46,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>10+2 with any stream</p>
+                                            <p>A Bachelor’s degree in Hotel Management or a related field</p>
                                         </div>
                                     </div>
                                     <div class="sin-over-view-list">
@@ -55,7 +54,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Minimum 45% marks for General category</p>
+                                            <p>Minimum 50% marks for General category</p>
                                         </div>
                                     </div>
                                     <div class="sin-over-view-list">
@@ -63,7 +62,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Minimum 40% marks for SC/ST category</p>
+                                            <p>Minimum 45% marks for SC/ST category</p>
                                         </div>
                                     </div>
                                 </div>
@@ -76,7 +75,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Duration</h4>
-                                        <span><i class="fa fa-clock-o"></i> 1.5 years</span>
+                                        <span><i class="fa fa-clock-o"></i> 2years</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Credits</h4>
@@ -84,7 +83,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Total Semester</h4>
-                                        <span><i class="fa fa-book"></i> 3</span>
+                                        <span><i class="fa fa-book"></i> 4</span>
                                     </div>
                                 </div>
 
@@ -99,13 +98,13 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
                         </div>
                         <div class="related-slider-active">
-                            <div class="single-course">
+                        <div class="single-course">
                                 <div class="course-img">
-                                    <a href="diploma-in-food-production.php"><img class="animated" src="assets/uploads/dhm.webp" alt=""></a>
+                                    <a href="bhm-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/hm-le.webp" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                    <h4><a href="diploma-in-food-production.php">Diploma in Food Production</a></h4>
-                                    <p>The Diploma in Food Production is a two-year program focusing on culinary techniques, kitchen operations, food preparation, and professional cookery standards.</p>
+                                    <h4><a href="bhm-colleges-in-dehradun-uttarakhand.php">Bachelor in Hotel Management</a></h4>
+                                    <p>The Bachelor in Hotel Management focuses on hospitality, catering, and management skills for the hotel and tourism industry.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
@@ -115,11 +114,11 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
-                                            <span>Duration : 2yrs</span>
+                                            <span>Duration : 3yrs</span>
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="diploma-in-food-production.php">APPLY NOW</a>
+                                        <a class="default-btn" href="bhm-colleges-in-dehradun-uttarakhand.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>
@@ -149,11 +148,11 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bhm-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/hm-le.webp" alt=""></a>
+                                    <a href="diploma-in-confectionary.php"><img class="animated" src="assets/uploads/bakery.webp" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                    <h4><a href="bhm-colleges-in-dehradun-uttarakhand.php">Bachelor in Hotel Management</a></h4>
-                                    <p>The Bachelor in Hotel Management focuses on hospitality, catering, and management skills for the hotel and tourism industry.</p>
+                                    <h4><a href="diploma-in-confectionary.php">Diploma in Bakery & Confectionary</a></h4>
+                                    <p>The Diploma in Bakery and Confectionery program is a two-year course focusing on baking techniques, pastry arts, confectionery production, and dessert presentation.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
@@ -163,11 +162,11 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
-                                            <span>Duration : 3yrs</span>
+                                            <span>Duration : 2yrs</span>
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="bhm-colleges-in-dehradun-uttarakhand.php">APPLY NOW</a>
+                                        <a class="default-btn" href="diploma-in-confectionary.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>
@@ -184,7 +183,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sidebar-title mb-15">
                             <h4>About Us</h4>
                         </div>
-                        <p>Maya Devi University’s Diploma in Bakery and Confectionery program provides comprehensive knowledge and hands-on training in baking techniques, pastry arts, and confectionery production. Graduates are prepared for careers as bakers, pastry chefs, and dessert specialists, contributing to creativity and quality in hotels, bakeries, patisseries, and catering establishments.</p>
+                       <p>Maya Devi University’s Master of Hotel Management and Tourism (MHMT) program provides advanced knowledge and practical training in hotel operations, tourism management, hospitality leadership, and customer service. The program is designed to develop strong managerial, analytical, and strategic skills required in the global hospitality and tourism industry. Graduates are prepared for leadership roles such as hotel managers, tourism managers, food and beverage directors, and hospitality professionals, contributing to excellence and efficiency in hotels, resorts, restaurants, and tourism organizations.</p>
                     </div>
 
                     <div class="sidebar-category mb-40">
@@ -207,134 +206,145 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                         <div class="over-view-list">
 
-                            <div class="sin-over-view-list">
+                           <div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Develop advanced knowledge of hospitality management, tourism operations, and strategic planning within the global hospitality industry.</p>
+    </div>
+</div>
 
-                                <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
-                                </div>
-                                <div class="course-list-content">
-                                    <p>Baking Fundamentals</p>
-                                </div>
-                            </div>
-                            <div class="sin-over-view-list">
-                                <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
-                                </div>
-                                <div class="course-list-content">
-                                    <p>Pastry Arts</p>
-                                </div>
-                            </div>
-                            <div class="sin-over-view-list">
-                                <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
-                                </div>
-                                <div class="course-list-content">
-                                    <p>Confectionary</p>
-                                </div>
-                            </div>
-                            <div class="sin-over-view-list">
-                                <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
-                                </div>
-                                <div class="course-list-content">
-                                    <p>Cake Decoration</p>
-                                </div>
-                            </div>
-                            <div class="sin-over-view-list">
-                                <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
-                                </div>
-                                <div class="course-list-content">
-                                    <p>Bakery Management</p>
-                                </div>
-                            </div>
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Apply managerial and operational strategies in hotel management, food & beverage operations, accommodation management, and tourism services.</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Demonstrate leadership, decision-making, and team management skills required to lead departments within hospitality and tourism organizations.</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Analyze hospitality and tourism business environments to identify opportunities, manage resources, and support entrepreneurial initiatives.</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Understand global tourism trends and apply international hospitality standards to manage diverse guests and international clientele.</p>
+    </div>
+</div>
                         </div>
                     </div>
                     <div class="over-view-list">
                         <div class="sidebar-title mb-40">
                             <h4>Career Prospects</h4>
                         </div>
-                        <div class="sin-over-view-list">
+                       <div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Hotel & Resort Management</p>
+    </div>
+</div>
 
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Hotel Industry</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Catering Service</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Management</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Cruise Industry</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Retail Management</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Event Management Companies</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Pastry Chef</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Bakery Manager</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Cake Decorator</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Confectionary Artist</p>
-                            </div>
-                        </div>
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Tourism & Travel Management</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Food & Beverage Management</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Cruise Line Hospitality</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Airline & Airport Hospitality</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Event & Convention Management</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Hotel Manager</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Front Office Manager</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Hospitality Operations Manager</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Tourism Consultant</p>
+    </div>
+</div>
 
                     </div>
 

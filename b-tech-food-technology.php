@@ -1,21 +1,21 @@
 <?php
-$page_title = "Diploma in Confectionery in Dehradun | Maya Devi University";
-$page_description = "Enroll in Diploma in Confectionery at Maya Devi University, Dehradun with practical bakery training and professional culinary skills.";
-$canonical_url = "https://maya.edu.in/diploma-in-confectionary.php";
+$page_title = "Best B.tech Food Technology College in Dehradun | Maya Devi University";
+$page_description = "Looking for the best B.tech Food Technology college in Dehradun? Maya Devi University offers practical field training and modern agricultural labs.";
+$canonical_url = "https://maya.edu.in/b-tech-food-technology.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
-    <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/bakery.webp);">
+    <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/food-technology.jpg);">
         <div class="container">
-            <h2>Diploma in Bakery and Confectionery</h2>
-            <p>This program combines theoretical learning with practical experience, ensuring that students are well-equipped to pursue a variety of careers in the dynamic world of bakery and confectionary.</p>
+            <h2>B.tech Food Technology</h2>
+            <p>The program focuses on modern food processing techniques, quality control, food safety standards, packaging technology, and post-harvest management to prepare students for successful careers in the food processing and food technology industry.</p>
         </div>
     </div>
     <div class="breadcrumb-bottom">
         <div class="container">
             <ul>
-                <li><a href="index.php">Home</a> <span><i class="fa fa-angle-double-right"></i>Diploma in Bakery & Confectionary</span></li>
+                <li><a href="index.php">Home</a> <span><i class="fa fa-angle-double-right"></i>B.tech Food</span></li>
             </ul>
         </div>
     </div>
@@ -26,7 +26,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/bakery.webp" alt="">
+                        <img src="assets/uploads/food-technology.jpg" alt="">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -35,10 +35,9 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="tab-pane active mt-5" id="course-details-1">
                             <div class="over-view-content">
                                 <h4>COURSE DETAILS</h4>
-                                <h5>Course Name : Diploma in Bakery and Confectionery</h5>
-                                <p>The Diploma in Bakery & Confectionary is an extensive 2 year program aimed at equipping students for fulfilling careers in the hospitality sectors. The Diploma in Bakery and Confectionary program is a comprehensive and hands-on course designed to provide students with the skills and knowledge necessary to excel in the baking and pastry arts industry. </p> 
-                                <p>Hands-on bakery training and confectionery labs enhance creative and technical skills in baking, pastry, and dessert preparation. The program emphasizes precision, hygiene standards, and artistic presentation. Practical sessions and internships with renowned hotels, bakeries, and patisseries provide real-world experience. Graduates are prepared for roles as bakers, pastry chefs, and confectionery specialists in hotels, cafés, and bakery establishments.</p>
-
+                                <h5>Course Name : B.tech Food Technology</h5>
+                                <p>The B.Tech Food Technology program provides comprehensive knowledge and practical expertise in various aspects of food science and technology, including food processing, food chemistry, food microbiology, food preservation, quality control, and packaging technology. Students gain both theoretical understanding and hands-on skills essential for careers in the food processing industry, food manufacturing, quality assurance, and food research.</p>
+                                <p>Practical training in food processing laboratories, pilot plants, and industry-based projects enhances technical, analytical, and managerial competencies. The program emphasizes food safety standards, modern processing technologies, product development, and scientific approaches to food production. Internships and industry training with leading food processing companies prepare graduates for roles such as food technologists, quality assurance managers, food safety officers, product development specialists, and researchers in the food and beverage industry.</p>
                                 <div class="over-view-list">
                                     <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
@@ -47,7 +46,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>10+2 with any stream</p>
+                                            <p>10+2 passed with PCB/PCM.</p>
                                         </div>
                                     </div>
                                     <div class="sin-over-view-list">
@@ -55,7 +54,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Minimum 45% marks for General category</p>
+                                            <p>Minimum 50% marks for General category</p>
                                         </div>
                                     </div>
                                     <div class="sin-over-view-list">
@@ -63,7 +62,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Minimum 40% marks for SC/ST category</p>
+                                            <p>Minimum 45% marks for SC/ST category</p>
                                         </div>
                                     </div>
                                 </div>
@@ -76,7 +75,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Duration</h4>
-                                        <span><i class="fa fa-clock-o"></i> 1.5 years</span>
+                                        <span><i class="fa fa-clock-o"></i> 4years</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Credits</h4>
@@ -84,7 +83,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Total Semester</h4>
-                                        <span><i class="fa fa-book"></i> 3</span>
+                                        <span><i class="fa fa-book"></i> 8</span>
                                     </div>
                                 </div>
 
@@ -101,11 +100,59 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="diploma-in-food-production.php"><img class="animated" src="assets/uploads/dhm.webp" alt=""></a>
+                                    <a href="food-technology.php"><img class="animated" src="assets/uploads/food.webp" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                    <h4><a href="diploma-in-food-production.php">Diploma in Food Production</a></h4>
-                                    <p>The Diploma in Food Production is a two-year program focusing on culinary techniques, kitchen operations, food preparation, and professional cookery standards.</p>
+                                    <h4><a href="food-technology.php">Bachelor in Food Technology</a></h4>
+                                    <p>The Bachelor of Food Technology program focuses on food processing, preservation, quality control, and production skills for the food industry.</p>
+                                </div>
+                                <div class="course-position-content">
+                                    <div class="credit-duration-wrap">
+                                        <div class="sin-credit-duration">
+                                            <i class="fa fa-diamond"></i>
+                                            <span>Credits : 125</span>
+                                        </div>
+                                        <div class="sin-credit-duration">
+                                            <i class="fa fa-clock-o"></i>
+                                            <span>Duration : 3yrs</span>
+                                        </div>
+                                    </div>
+                                    <div class="course-btn">
+                                        <a class="default-btn" href="food-technology.php">APPLY NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-course">
+                                <div class="course-img">
+                                    <a href="food-technology.php"><img class="animated" src="assets/uploads/food.webp" alt=""></a>
+                                </div>
+                                <div class="course-content">
+                                    <h4><a href="food-technology.php">Bachelor in Food Technology (Hons.)</a></h4>
+                                    <p>The Bachelor of Food Technology (Hons.) program emphasizes advanced food processing, quality assurance, research, and production skills for the food industry.</p>
+                                </div>
+                                <div class="course-position-content">
+                                    <div class="credit-duration-wrap">
+                                        <div class="sin-credit-duration">
+                                            <i class="fa fa-diamond"></i>
+                                            <span>Credits : 125</span>
+                                        </div>
+                                        <div class="sin-credit-duration">
+                                            <i class="fa fa-clock-o"></i>
+                                            <span>Duration : 4yrs</span>
+                                        </div>
+                                    </div>
+                                    <div class="course-btn">
+                                        <a class="default-btn" href="food-technology.php">APPLY NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-course">
+                                <div class="course-img">
+                                    <a href="master-in-agriculture.php"><img class="animated" src="assets/uploads/agriculture.webp" alt=""></a>
+                                </div>
+                                <div class="course-content">
+                                    <h4><a href="master-in-agriculture.php">Master in agriculture</a></h4>
+                                    <p>The Master in Agriculture program offers advanced training in crop production, soil management, and sustainable farming, preparing graduates for research and leadership roles in agriculture.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
@@ -119,55 +166,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="diploma-in-food-production.php">APPLY NOW</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-course">
-                                <div class="course-img">
-                                    <a href="bhm-lateral-entry-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/hm.webp" alt=""></a>
-                                </div>
-                                <div class="course-content">
-                                <h4><a href="bhm-lateral-entry-colleges-in-dehradun-uttarakhand.php">Bachelor of Hotel Management (LE)</a></h4>
-                                <p>The Bachelor of Hotel Management (Lateral Entry) program focuses on hospitality, food production, and management skills.</p>
-                                </div>
-                                <div class="course-position-content">
-                                    <div class="credit-duration-wrap">
-                                        <div class="sin-credit-duration">
-                                            <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
-                                        </div>
-                                        <div class="sin-credit-duration">
-                                            <i class="fa fa-clock-o"></i>
-                                            <span>Duration : 3yrs</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-btn">
-                                        <a class="default-btn" href="bhm-lateral-entry-colleges-in-dehradun-uttarakhand.php">APPLY NOW</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-course">
-                                <div class="course-img">
-                                    <a href="bhm-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/hm-le.webp" alt=""></a>
-                                </div>
-                                <div class="course-content">
-                                    <h4><a href="bhm-colleges-in-dehradun-uttarakhand.php">Bachelor in Hotel Management</a></h4>
-                                    <p>The Bachelor in Hotel Management focuses on hospitality, catering, and management skills for the hotel and tourism industry.</p>
-                                </div>
-                                <div class="course-position-content">
-                                    <div class="credit-duration-wrap">
-                                        <div class="sin-credit-duration">
-                                            <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
-                                        </div>
-                                        <div class="sin-credit-duration">
-                                            <i class="fa fa-clock-o"></i>
-                                            <span>Duration : 3yrs</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-btn">
-                                        <a class="default-btn" href="bhm-colleges-in-dehradun-uttarakhand.php">APPLY NOW</a>
+                                        <a class="default-btn" href="master-in-agriculture.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>
@@ -184,7 +183,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sidebar-title mb-15">
                             <h4>About Us</h4>
                         </div>
-                        <p>Maya Devi University’s Diploma in Bakery and Confectionery program provides comprehensive knowledge and hands-on training in baking techniques, pastry arts, and confectionery production. Graduates are prepared for careers as bakers, pastry chefs, and dessert specialists, contributing to creativity and quality in hotels, bakeries, patisseries, and catering establishments.</p>
+                        <p>Maya Devi University’s B.Tech Food Technology program provides comprehensive knowledge and hands-on training in food science and technology, including food processing, food safety, quality control, food preservation, and packaging technology. Graduates are prepared for careers as food technologists, quality assurance managers, food safety officers, product development specialists, and researchers, contributing to innovation and efficiency in the food processing and food manufacturing industries.</p>
                     </div>
 
                     <div class="sidebar-category mb-40">
@@ -208,134 +207,99 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="over-view-list">
 
                             <div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Develop a strong foundation in food science, food chemistry, food microbiology, food processing, and food preservation techniques.</p>
+    </div>
+</div>
 
-                                <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
-                                </div>
-                                <div class="course-list-content">
-                                    <p>Baking Fundamentals</p>
-                                </div>
-                            </div>
-                            <div class="sin-over-view-list">
-                                <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
-                                </div>
-                                <div class="course-list-content">
-                                    <p>Pastry Arts</p>
-                                </div>
-                            </div>
-                            <div class="sin-over-view-list">
-                                <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
-                                </div>
-                                <div class="course-list-content">
-                                    <p>Confectionary</p>
-                                </div>
-                            </div>
-                            <div class="sin-over-view-list">
-                                <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
-                                </div>
-                                <div class="course-list-content">
-                                    <p>Cake Decoration</p>
-                                </div>
-                            </div>
-                            <div class="sin-over-view-list">
-                                <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
-                                </div>
-                                <div class="course-list-content">
-                                    <p>Bakery Management</p>
-                                </div>
-                            </div>
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Gain hands-on training through food processing laboratories, pilot plants, and industrial practices to understand modern food production technologies.</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Promote innovative and sustainable food processing techniques to improve food quality, safety, shelf life, and nutritional value.</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Prepare students for careers in food processing industries, quality assurance, food safety management, product development, and research organizations.</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Develop leadership, teamwork, and communication skills required to work with food industries, research institutions, and regulatory agencies.</p>
+    </div>
+</div>
                         </div>
                     </div>
                     <div class="over-view-list">
                         <div class="sidebar-title mb-40">
                             <h4>Career Prospects</h4>
                         </div>
-                        <div class="sin-over-view-list">
+                       <div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Food Processing Industries</p>
+    </div>
+</div>
 
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Hotel Industry</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Catering Service</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Management</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Cruise Industry</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Retail Management</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Event Management Companies</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Pastry Chef</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Bakery Manager</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Cake Decorator</p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
-                            </div>
-                            <div class="course-list-content">
-                                <p>Confectionary Artist</p>
-                            </div>
-                        </div>
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Food Manufacturing Companies</p>
+    </div>
+</div>
 
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Research and Higher Education</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Food Quality Assurance & Safety Management</p>
+    </div>
+</div>
+
+<div class="sin-over-view-list">
+    <div class="course-list-icon">
+        <i class="fa fa-check"></i> .
+    </div>
+    <div class="course-list-content">
+        <p>Food Product Development & Consultancy</p>
+    </div>
+</div>
                     </div>
 
                 </div>

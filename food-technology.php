@@ -74,7 +74,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Duration</h4>
-                                        <span><i class="fa fa-clock-o"></i> 3years</span>
+                                        <span><i class="fa fa-clock-o"></i> 4years</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Credits</h4>
@@ -99,10 +99,10 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-agriculture-colleges-in-dehradun-uttarakhnad.php"><img class="animated" src="assets/uploads/agri.webp" alt=""></a>
+                                    <a href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/agri.webp" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                    <h4><a href="bsc-agriculture-colleges-in-dehradun-uttarakhnad.php">B.Sc in Agriculture</a></h4>
+                                    <h4><a href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php">B.Sc in Agriculture</a></h4>
                                     <p>The Bachelor of Science in Agriculture program focuses on crop production, soil management, and modern farming techniques for a career in agriculture and agribusiness.</p>
                                 </div>
                                 <div class="course-position-content">

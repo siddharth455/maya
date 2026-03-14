@@ -114,7 +114,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Agriculture & Technology</h2>
       <ul class="courses-list">
-        <li><a href="bsc-agriculture-colleges-in-dehradun-uttarakhnad.php">B.Sc - Agriculture (Hons.)</a></li>
+        <li><a href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php">B.Sc - Agriculture (Hons.)</a></li>
         <li><a href="food-technology.php">B.Tech - Food Technology</a></li>
         <li><a href="food-technology.php">B.Tech - Food Technology (Hons.)</a></li>
       </ul>
