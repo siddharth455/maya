@@ -37,7 +37,7 @@
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>10+2 with  Physics, Chemistry, Biology from a recognized board</p>
@@ -45,7 +45,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>The minimum age requirement is 17 years on or before 31st December of the admission year.</p>
@@ -53,7 +53,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must have interest in crime investigation, laboratory science, criminology, and analytical research.</p>
@@ -202,7 +202,7 @@
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>The B.Sc. Forensic Science (Hons.) program at Maya Devi University provides interdisciplinary training in forensic biology, chemistry, toxicology, and crime scene investigation with strong practical laboratory exposure. It emphasizes hands-on skills, internships, and legal forensic procedures to prepare students for careers in forensic laboratories, law enforcement, and research sectors.</p>
@@ -217,7 +217,7 @@
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Graduates can work as forensic scientists, crime scene investigators, forensic analysts, or forensic accountants and pathologists in laboratories, law enforcement, and government agencies. They may also pursue roles in legal consulting, research, media reporting, and quality control within forensic science sectors.</p>

@@ -42,7 +42,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>10+2 in any stream from any recognized board.</p>
@@ -50,7 +50,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 45% marks for General category</p>
@@ -58,7 +58,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 40% marks for SC/ST category</p>
@@ -208,7 +208,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Proficiency in the Hindi language, literature, and cultural contexts, including the ability to analyze and interpret Hindi texts.</p>
@@ -217,7 +217,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                              <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>The ability to promote the appreciation and study of Hindi literature and culture in diverse settings.</p>
@@ -225,7 +225,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Strong command over teaching methods for different educational levels</p>
@@ -240,7 +240,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>School Teacher</p>
@@ -248,7 +248,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>College/University Professor</p>
@@ -256,7 +256,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Language Educator (Online or Offline)</p>
@@ -264,7 +264,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Curriculum Developer</p>

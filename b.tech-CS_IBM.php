@@ -46,7 +46,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must have passed 10+2 (Class 12th) or equivalent examination from a recognized board.</p>
@@ -54,7 +54,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Mathematics</p>
@@ -62,7 +62,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Physics </p>
@@ -70,7 +70,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Chemistry or Computer Science / Information Technology (optional) </p>
@@ -78,7 +78,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Mode: Full-time </p>
@@ -253,7 +253,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Industry-integrated curriculum powered by IBM
@@ -263,7 +263,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Hands-on learning through labs, projects, and case studies
@@ -273,7 +273,7 @@ Opportunities for IBM skill certifications</p>
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Internship and industry interaction support
@@ -290,7 +290,7 @@ Honors degree with strong computer science fundamentals</p>
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Software Engineer / Developer</p>
@@ -298,7 +298,7 @@ Honors degree with strong computer science fundamentals</p>
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Artificial Intelligence Engineer</p>
@@ -306,7 +306,7 @@ Honors degree with strong computer science fundamentals</p>
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Data Scientist / Data Analyst </p>
@@ -314,7 +314,7 @@ Honors degree with strong computer science fundamentals</p>
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>AI Research Scientist </p>
@@ -322,7 +322,7 @@ Honors degree with strong computer science fundamentals</p>
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Computer Vision Engineer </p>
@@ -330,7 +330,7 @@ Honors degree with strong computer science fundamentals</p>
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Natural Language Processing (NLP) Engineer </p>
@@ -338,7 +338,7 @@ Honors degree with strong computer science fundamentals</p>
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Big Data Engineer </p>
@@ -347,7 +347,7 @@ Honors degree with strong computer science fundamentals</p>
 
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Deep Learning Specialist </p>
@@ -355,7 +355,7 @@ Honors degree with strong computer science fundamentals</p>
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Business Intelligence Analyst </p>
@@ -363,7 +363,7 @@ Honors degree with strong computer science fundamentals</p>
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Software Developer (AI/ML-based systems) </p>

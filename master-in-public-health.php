@@ -44,7 +44,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates requires passing 10+2 from a recognised board with minimum marks often 50%.</p>
@@ -198,7 +198,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>The Master of Public Health (MPH) programme equips students with the knowledge and skills to improve community health through disease prevention, health promotion, research, and policy development. The course emphasizes epidemiology, biostatistics, health systems, environmental health, and program management. Graduates are prepared for roles in government health departments, national and international health agencies, research organizations, and non-governmental organizations, as well as for advanced academic and research careers.</p>
@@ -213,7 +213,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Public health officer, program manager, epidemiologist, health policy analyst, research associate, monitoring and evaluation officer, health educator, and consultant in government health programs, NGOs, international organizations (WHO, UNICEF), research institutes, and public health agencies.</p>

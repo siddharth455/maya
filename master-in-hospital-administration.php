@@ -45,7 +45,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates requires passing 10+2 from a recognised board with minimum marks often 50%.</p>
@@ -199,7 +199,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>The Master of Hospital Administration (MHA) programme provides advanced knowledge and managerial skills required for the effective planning, organization, and management of healthcare institutions. The course focuses on leadership, strategic planning, quality management, healthcare finance, and hospital operations. Graduates are prepared for mid-level and senior administrative roles in hospitals, healthcare organizations, insurance companies, and consultancy firms, as well as for research and doctoral studies.</p>
@@ -215,7 +215,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Hospital administrator, operations manager, quality manager, department manager, healthcare consultant, hospital project manager, insurance manager, and senior administrative roles in corporate hospitals, healthcare chains, consultancy firms, and government health institutions.</p>

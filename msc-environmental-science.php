@@ -37,7 +37,7 @@
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>B.Sc. degree in any relevant science discipline (such as CBZ/PCM/Agriculture/Biotechnology) with a minimum of 50% aggregate marks from a recognized university. For B.Sc. Hons duration of M.Sc. will be one year.</p>
@@ -45,7 +45,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must have strong interest in ecology, sustainability, climate science, and environmental research.</p>
@@ -53,7 +53,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>No upper age limit; applicants must follow university-specific admission rules.</p>
@@ -203,7 +203,7 @@
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>M.Sc. Environmental Science (E.V.S) focuses on advanced study of ecosystems, pollution, and sustainable resource management.</p>
@@ -218,7 +218,7 @@
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Further studies such as Ph.D. and research. Environmental Analyst / Consultant, Sustainability Officer, Conservation Scientist, Climate Change Analyst, Ecologist, Environmental Educator, NGO Program Officer, Pollution Control Board Officer, GIS & Remote Sensing Assistant, Environmental Auditor etc.</p>

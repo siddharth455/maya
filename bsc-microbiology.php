@@ -42,7 +42,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>10+2 with Biology and Chemistry from a recognized board with a minimum of 45% aggregate marks.</p>
@@ -50,7 +50,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>The minimum age requirement is 17 years on or before 31st December of the admission year.</p>
@@ -58,7 +58,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must have keen interest in microorganisms, laboratory science, biotechnology, and research.</p>
@@ -208,7 +208,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Comprehensive study of microorganisms and their roles in health, industry, and environment.</p>
@@ -216,7 +216,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Hands-on laboratory training in culturing, staining, microscopy, biochemical tests, and microbial analysis.</p>
@@ -224,7 +224,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Skill development in diagnostic techniques, research methods, molecular biology tools, and industrial microbiology.</p>
@@ -232,7 +232,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Prepares students for healthcare, biotech industries, pharmaceuticals, research labs, and advanced studies..</p>
@@ -247,7 +247,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Microbiologist / Research Assistant – Work in research labs, biotech companies, hospitals, and universities.</p>
@@ -255,7 +255,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Clinical / Medical Lab Technician – Opportunities in diagnostic laboratories, hospitals, and pathology centers.</p>
@@ -263,7 +263,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Quality Control / Assurance Officer – Roles in pharmaceuticals, food industries, cosmetics, and biotech firms.</p>
@@ -271,7 +271,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Industrial Microbiologist – Work in fermentation industries, dairy plants, breweries, and food processing units.</p>
@@ -279,7 +279,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Public Health & Environmental Microbiology Roles – Work in water testing labs, environmental agencies, and sanitation projects.</p>
@@ -287,7 +287,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Higher Studies & Specializations – M.Sc. Microbiology, Biotechnology, Genetics, Immunology, Virology, Biochemistry, Molecular Biology, and Ph.D. programs.</p>

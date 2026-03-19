@@ -43,7 +43,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
                                        
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates requires passing 10+2 with Physics, Chemistry, Biology and English from a recognised board with minimum marks often 50% in PCB.</p>
@@ -195,7 +195,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
                                        
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>The Bachelor of Physiotherapy (BPT) programme equips students with the knowledge and practical skills to assess, treat, and rehabilitate movement-related disorders. The course emphasizes hands-on clinical training, patient-centred care, and professional ethics. Graduates are prepared for clinical practice, higher studies, and diverse roles in the healthcare sector.</p>
@@ -210,7 +210,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
                                        
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>BPT graduates can work as Physiotherapists in hospitals, rehabilitation centres, sports clinics, and community health settings. They can specialise in areas like orthopaedics, neurology, or sports physiotherapy, and also pursue higher studies, research, teaching, or private practice.</p>

@@ -43,7 +43,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>10+2 with any stream</p>
@@ -51,7 +51,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 45% marks for General category</p>
@@ -59,7 +59,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 40% marks for SC/ST category</p>
@@ -208,7 +208,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
                            <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Front Office Operations</p>
@@ -217,7 +217,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Food & Beverage Service</p>
@@ -226,7 +226,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Housekeeping Management</p>
@@ -235,7 +235,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Hospitality Customer Service</p>
@@ -244,7 +244,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Hotel Operations & Management</p>
@@ -258,7 +258,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                         <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Hotel Industry</p>
@@ -267,7 +267,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Front Office Executive</p>
@@ -276,7 +276,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Food & Beverage Supervisor</p>
@@ -285,7 +285,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Housekeeping Supervisor</p>
@@ -294,7 +294,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Restaurant Management</p>
@@ -303,7 +303,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Cruise Line Hospitality</p>
@@ -312,7 +312,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Event Management Companies</p>
@@ -321,7 +321,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Resort & Tourism Industry</p>
@@ -330,7 +330,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Airline & Airport Hospitality</p>
@@ -339,7 +339,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Hotel Management Trainee</p>

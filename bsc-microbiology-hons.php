@@ -37,7 +37,7 @@
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>10+2 with  Physics, Chemistry, Biology from a recognized board</p>
@@ -45,7 +45,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>The minimum age requirement is 17 years on or before 31st December of the admission year.</p>
@@ -53,7 +53,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must have strong interest in microorganisms, laboratory research, biotechnology, and scientific investigation.</p>
@@ -202,7 +202,7 @@
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>The B.Sc. Microbiology program at Maya Devi University provides comprehensive theoretical knowledge and hands-on laboratory training focused on microorganisms including bacteria, viruses, fungi, and algae. The curriculum emphasizes practical skills, research orientation, and industry-relevant exposure to prepare students for careers in clinical, industrial, and research microbiology sectors.</p>
@@ -217,7 +217,7 @@
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Graduates of B.Sc. Microbiology can pursue careers in clinical diagnostics, pharmaceutical and biotechnology industries, food and environmental microbiology laboratories, and research institutes. They may also continue higher studies such as M.Sc., PhD, or professional programs leading to roles in academia, healthcare research, quality control, and industrial microbiology.</p>

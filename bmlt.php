@@ -44,7 +44,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates requires passing 10+2 with Physics, Chemistry, Biology and English from a recognised board with minimum marks Minimum marks often 50% in PCB.</p>
@@ -190,7 +190,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>The BMLT programme trains students in medical laboratory sciences, combining theoretical knowledge with hands-on practical training in diagnostic techniques, pathology, microbiology, biochemistry, and clinical laboratory procedures. The course emphasizes accuracy, laboratory safety, patient care, and professional ethics, preparing students to work effectively in modern healthcare settings.</p>
@@ -205,7 +205,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Graduates can work as Medical Laboratory Technologists in hospitals, diagnostic and research laboratories, blood banks, and pharmaceutical companies. They can specialise in areas such as clinical biochemistry, microbiology, pathology, or molecular diagnostics, or pursue higher studies and research in medical laboratory sciences.</p>

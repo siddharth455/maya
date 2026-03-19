@@ -36,7 +36,7 @@
                                     <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>10+2 with  Physics, Chemistry, Biology (PCB) or Physics, Chemistry, Maths (PCM) from a recognized board</p>
@@ -44,7 +44,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>The minimum age requirement is 17 years on or before 31st December of the admission year.</p>
@@ -52,7 +52,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must have interest and aptitude in environment, ecology, sustainability, and scientific research.</p>
@@ -200,7 +200,7 @@
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>State-of-the-art laboratories which are well-stocked and equipped with the latest technology, CBCS and OBE model, Advanced curriculum designed by Core Academia & Renowned Industry Experts, Workshops and guest lectures for students, allowing them to engage and learn directly from industry professionals, Hands-on learning opportunities and commitment to interdisciplinary collaboration.</p>
@@ -215,7 +215,7 @@
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>State-of-the-art laboratories which are well-stocked and equipped with the latest technology, CBCS and OBE model, Advanced curriculum designed by Core Academia & Renowned Industry Experts, Workshops and guest lectures for students, allowing them to engage and learn directly from industry professionals, Hands-on learning opportunities and commitment to interdisciplinary collaboration.	"Student can pursue higher studies M.Sc., CSIR-NET / GATE / UPSC / State Services Exams MBA in Environmental Management Certification in Climate Science, EIA, or GIS"</p>

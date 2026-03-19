@@ -43,7 +43,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>You should have passed higher secondary (10+2) with PCB (Physics, Chemistry, Biology) from a recognized board or equivalent.</p>
@@ -51,7 +51,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum marks threshold is typically ~50% in 10+2.</p>
@@ -59,7 +59,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Admission may also depend on the institute’s discretion — some institutes may conduct entrance tests or screening.</p>
@@ -208,7 +208,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Comprehensive understanding of disabilities — including physical/locomotor, sensory (hearing, vision), speech & hearing, cognitive/learning disabilities, multiple disabilities. This enables recognition and basic evaluation of diverse disabilities.</p>
@@ -216,7 +216,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Rehabilitation and therapy skills — training in therapeutic techniques, functional training, use of assistive devices/appliances, mobility support, posture management, activities of daily living (ADL) support, remedial interventions for physical/sensory impairments.</p>
@@ -224,7 +224,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Speech, hearing and sensory- disability support — modules dealing with speech & hearing impairment, support for sensory disabilities, enabling the therapist to assist for communication, hearing, sensory-related rehabilitation (if included by institute) as part of integrated training. </p>
@@ -232,7 +232,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Community-based rehabilitation (CBR) and social integration skills — training to work at community and grassroots level, collaborate with families, support social inclusion, work with NGOs or community-rehabilitation programs, create individual rehabilitation plans, follow-up, referral and support network coordination.</p>
@@ -240,7 +240,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Interpersonal, soft skills, counselling & support skills — since rehabilitation often involves working with persons with disabilities (PWDs), families, community workers; the course stresses development of empathy, ethical attitude, communication, counselling, interpersonal skills, and human values.</p>
@@ -248,7 +248,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Flexibility across disability domains — as the curriculum is broad and covers multiple types of disabilities (physical, sensory, cognitive, multiple), a DRT graduate is equipped to assist a wide variety of persons with different needs rather than a narrow specialization.</p>
@@ -256,7 +256,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Ability to serve as first-level rehabilitation / referral personnel — at district / community level, support rehabilitation systems, basic assessment, referrals, record-keeping, report writing, follow-up, assisting senior rehabilitation professionals.</p>
@@ -271,7 +271,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Rehabilitation Therapist / Therapy Assistant / Rehabilitation Support Worker — working in hospitals, rehabilitation centres, physiotherapy/occupational therapy departments, disability-rehabilitation units.</p>
@@ -279,7 +279,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Community Rehabilitation Worker / Grassroots-level Therapist — working with NGOs, community-based rehabilitation (CBR) programs, government schemes, disability-support organisations, rural health support, old-age homes, special homes.</p>
@@ -287,7 +287,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Support in Special Schools / Special Needs Institutions — helping children or adults with physical, sensory, or multiple disabilities; helping with mobility, daily-living activities, therapy, assistive aids, speech/hearing support (if trained).</p>

@@ -46,7 +46,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
                                        
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates with at least 50% marks either in the bachelor's degree and/or master's degree in sciences/social sciences/Humanities or with 50% marks in Bachelor's Degree in Engineering and Technology or any other qualification equivalent there to, of this or any other University deemed university recognized by UGC, may be admitted for the degree of Bachelor of Education of this University. Relaxation in percentage of marks (5%) in admission shall be given to SC/ST/OBC category students as per NCTE/ State Government/ University norms.</p>
@@ -54,7 +54,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>No candidate shall be admitted to the B.Ed. course of this college of the University unless he /she has appeared in the Entrance Test to be conducted by the University or Academic merit as decided by the University.</p>
@@ -124,7 +124,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                   
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                         <p>Enable them to face the challenging of social, political and technological issues</p>
@@ -132,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Contribute to the community service program</p>
@@ -140,7 +140,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Seek better employment and generate resources for the economy.</p>
@@ -156,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
                                        
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>After B.Ed. become a teacher at secondary or senior secondary level by clearing exams like CTET or State TET.</p>
@@ -164,7 +164,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Apply for Kendriya Vidyalayas, Navodaya Vidyalayas, Army Public Schools, and other reputed institutions.</p>
@@ -172,7 +172,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Start own coaching institute, tuition center, combining teaching skills with entrepreneurship.</p>
@@ -180,7 +180,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>With experience, a principal or vice-principal in schools and take up leadership roles in educational institutions.</p>

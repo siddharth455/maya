@@ -43,7 +43,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>A Bachelor’s degree in Hotel Management or a related field</p>
@@ -51,7 +51,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 50% marks for General category</p>
@@ -59,7 +59,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 45% marks for SC/ST category</p>
@@ -208,7 +208,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
                            <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Develop advanced knowledge of hospitality management, tourism operations, and strategic planning within the global hospitality industry.</p>
@@ -217,7 +217,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Apply managerial and operational strategies in hotel management, food & beverage operations, accommodation management, and tourism services.</p>
@@ -226,7 +226,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Demonstrate leadership, decision-making, and team management skills required to lead departments within hospitality and tourism organizations.</p>
@@ -235,7 +235,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Analyze hospitality and tourism business environments to identify opportunities, manage resources, and support entrepreneurial initiatives.</p>
@@ -244,7 +244,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Understand global tourism trends and apply international hospitality standards to manage diverse guests and international clientele.</p>
@@ -258,7 +258,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                        <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Hotel & Resort Management</p>
@@ -267,7 +267,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Tourism & Travel Management</p>
@@ -276,7 +276,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Food & Beverage Management</p>
@@ -285,7 +285,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Cruise Line Hospitality</p>
@@ -294,7 +294,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Airline & Airport Hospitality</p>
@@ -303,7 +303,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Event & Convention Management</p>
@@ -312,7 +312,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Hotel Manager</p>
@@ -321,7 +321,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Front Office Manager</p>
@@ -330,7 +330,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Hospitality Operations Manager</p>
@@ -339,7 +339,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Tourism Consultant</p>

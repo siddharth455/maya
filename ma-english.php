@@ -42,7 +42,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Graduation with English or equivalent degree. Minimum 55% marks in aggregate for genreal category and 45% marks in aggregate in case of SC/ST category. </p>
@@ -50,7 +50,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 45% marks for General category</p>
@@ -58,7 +58,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 40% marks for SC/ST category</p>
@@ -208,7 +208,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>M.A. in English focuses on advanced specialization in areas such as literary theory, comparative literature, cultural studies, linguistics, postcolonial studies, and contemporary literary discourses, often centering on an original research dissertation. It cultivates a strong research mindset, immerses students in seminar discussions, critical debates, and scholarly writing, and serves as a gateway to Ph.D. programs and advanced academic or research-oriented careers in universities, publishing, media, policy research, and cultural institutions.</p>
@@ -224,7 +224,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>M.A. in English unlocks diverse and prestigious career opportunities as a lecturer or teacher (government/private sector), researcher, editor, content strategist, or communication specialist in media, publishing, civil services, and corporate sectors. It serves as a strong foundation and gateway to a Ph.D., while providing a decisive edge for advanced roles in academia, research, policy-making, publishing, and cultural institutions.</p>

@@ -42,7 +42,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Graduation with English or equivalent degree. Minimum 55% marks in aggregate for genreal category and 45% marks in aggregate in case of SC/ST category. </p>
@@ -50,7 +50,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 45% marks for General category</p>
@@ -58,7 +58,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 40% marks for SC/ST category</p>
@@ -207,7 +207,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                    <p>M.A. in Fine Arts focuses on advanced specialization in areas such as painting, sculpture, printmaking, applied arts, visual communication, art history, and contemporary art practices, often culminating in a major studio project or research dissertation. It cultivates creative excellence, critical thinking, and conceptual development, immersing students in studio critiques, exhibitions, seminars, and scholarly discussions. The program serves as a gateway to Ph.D. studies and advanced careers in academia, professional art practice, galleries, museums, cultural institutions, design industries, and creative entrepreneurship.</p>
@@ -223,7 +223,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                <p>M.A. in Fine Arts unlocks diverse and prestigious career opportunities as a lecturer or teacher (government/private sector), professional artist, art curator, art director, designer, illustrator, visual communication specialist, or creative entrepreneur in educational institutions, galleries, museums, design studios, media houses, and cultural organizations. It serves as a strong foundation and gateway to a Ph.D., while providing a decisive edge for advanced roles in academia, professional art practice, cultural management, art criticism, and creative industries.</p>

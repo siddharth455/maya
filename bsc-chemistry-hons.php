@@ -37,7 +37,7 @@
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>10+2 or equivalent with Physics and Mathematics alongwith Chemistry/ Comp.Sci. from a recognized board.</p>
@@ -45,7 +45,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>The minimum age requirement is 17 years on or before 31st December of the admission year.</p>
@@ -53,7 +53,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must have strong interest and aptitude in chemical sciences, laboratory techniques, and analytical reasoning.</p>
@@ -202,7 +202,7 @@
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>B.Sc. Chemistry is a four-year undergraduate program that focuses on Organic, Inorganic, and Physical Chemistry with both theoretical and practical laboratory training.</p>
@@ -217,7 +217,7 @@
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>After B.Sc. Chemistry, students can pursue higher studies (M.Sc./PhD) or work in fields like pharmaceuticals, chemical industries, research labs, quality control, and teaching.</p>

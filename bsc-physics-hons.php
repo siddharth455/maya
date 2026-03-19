@@ -36,7 +36,7 @@
                                     <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>10+2 or equivalent with Physics and Mathematics alongwith Chemistry/ Comp.Sci./ Electronics from a recognized board.</p>
@@ -44,7 +44,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum age limit is 17 years on or before 31st December of the admission year.</p>
@@ -52,7 +52,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must possess strong analytical, mathematical, and scientific interest, along with logical reasoning ability.</p>
@@ -202,7 +202,7 @@
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Specialized curriculum with deeper theoretical and research-oriented learning in physics.</p>
@@ -210,7 +210,7 @@
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>State-of-the-art laboratories and hands-on training with modern scientific instruments.</p>
@@ -218,7 +218,7 @@
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Skill development in research methodology, data analytics, programming, and instrumentation.</p>
@@ -226,7 +226,7 @@
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Designed to prepare students for competitive exams, higher research degrees, and advanced technical careers worldwide.</p>
@@ -241,7 +241,7 @@
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Research Scientist / Research Associate – Opportunities in ISRO, DRDO, BARC, CSIR, PRL, and global research institutions.</p>
@@ -249,7 +249,7 @@
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Physicist / Laboratory Specialist – Roles in scientific labs, observatories, testing centers, and research facilities.</p>
@@ -257,7 +257,7 @@
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Data Scientist / Analyst / Computing Professional – Employment in AI, ML, analytics, and tech industries.</p>
@@ -265,7 +265,7 @@
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Academic & Teaching Roles – Schools, colleges, coaching, or university-level teaching (with advanced qualification).</p>
@@ -273,7 +273,7 @@
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Competitive & Government Exams – UPSC, SSC, State PSC, DRDO, BARC, ISRO recruitment, and technical services.</p>

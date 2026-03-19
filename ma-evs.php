@@ -42,7 +42,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Graduation with English or equivalent degree.</p>
@@ -50,7 +50,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 55% marks for General category</p>
@@ -58,7 +58,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 45% marks for SC/ST category</p>
@@ -207,7 +207,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                    <p>M.A. in Environmental Science focuses on advanced specialization in areas such as climate change studies, environmental impact assessment, biodiversity conservation, environmental policy and governance, sustainable development, natural resource management, and ecological research, often centering on an original research dissertation or field-based project. It cultivates a strong scientific and research mindset, immerses students in seminars, field investigations, laboratory analysis, policy discussions, and academic writing, and serves as a gateway to Ph.D. programs and advanced careers in academia, environmental agencies, government departments, international organizations, research institutions, and sustainability-focused think tanks.</p>
@@ -223,7 +223,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>M.A. in Environmental Science unlocks diverse and prestigious career opportunities as a lecturer or teacher (government/private sector), environmental consultant, sustainability analyst, climate change specialist, conservation officer, environmental policy researcher, or civil services professional in government departments, environmental agencies, research institutions, NGOs, corporate sustainability divisions, and international organizations. It serves as a strong foundation and gateway to a Ph.D., while providing a decisive edge for advanced roles in academia, environmental research, policy-making, natural resource management, climate governance, and sustainable development planning institutions.</p>

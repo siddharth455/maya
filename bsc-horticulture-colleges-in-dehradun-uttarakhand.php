@@ -43,7 +43,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>10+2 passed with PCB/PCM.</p>
@@ -51,7 +51,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 50% marks for General category</p>
@@ -59,7 +59,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 45% marks for SC/ST category</p>
@@ -208,7 +208,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
                             <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Develop a strong foundation in horticultural science including fruit production, vegetable cultivation, floriculture, plant propagation, and soil management.</p>
@@ -217,7 +217,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Gain hands-on training through fieldwork, nursery management, and laboratory practices to understand modern horticulture techniques.</p>
@@ -226,7 +226,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Promote sustainable horticultural practices, climate-resilient crop production, and innovative technologies to improve productivity and environmental balance.</p>
@@ -235,7 +235,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Prepare students for careers in horticulture, agribusiness, landscape design, nursery management, research, and government agricultural services.</p>
@@ -244,7 +244,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Develop leadership, teamwork, and communication skills necessary for working with farmers, agricultural organizations, and horticulture industries.</p>
@@ -258,7 +258,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                        <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Government Horticulture Departments</p>
@@ -267,7 +267,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Horticulture & Agribusiness Companies</p>
@@ -276,7 +276,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Research and Higher Education</p>
@@ -285,7 +285,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Nursery Management & Floriculture Industry</p>
@@ -294,7 +294,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Agricultural Extension & Consultancy Services</p>

@@ -37,7 +37,7 @@
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Bachelor's degree in Physics or Physics as a major/ core subject (such as B.Sc. Physics/ B.Sc. (PCM)/ B.Sc. (Physical Sciences)) from a recognized University.</p>
@@ -45,7 +45,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must demonstrate strong aptitude in mathematics, analytical reasoning, and advanced physics concepts.</p>
@@ -53,7 +53,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>No upper age limit; however, applicants must meet university-specific admission guidelines.</p>
@@ -203,7 +203,7 @@
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Advanced study of quantum mechanics, electromagnetism, condensed matter physics, and nuclear physics.</p>
@@ -211,7 +211,7 @@
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Hands-on training in research methodologies, scientific computing, laboratory instrumentation, and simulation tools.</p>
@@ -219,7 +219,7 @@
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Skill development in data analysis, mathematical modeling, experiment design, and academic research.</p>
@@ -227,7 +227,7 @@
                             </div>
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Opportunities for research projects, internships, seminars, workshops, and higher studies (Ph.D.).</p>
@@ -242,7 +242,7 @@
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Research Scientist / Research Associate – Work in research labs (ISRO, DRDO, CSIR, BARC, PRL, IISER).</p>
@@ -250,7 +250,7 @@
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Physicist / Scientific Officer – Roles in government scientific organizations and nuclear research centers.</p>
@@ -258,7 +258,7 @@
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Nursing Educator - Teach nursing students in educational institutions.</p>
@@ -266,7 +266,7 @@
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Data Scientist / Analyst – Opportunities in IT companies, analytics firms, and financial sectors due to strong analytical skills.</p>
@@ -274,7 +274,7 @@
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Academic & Teaching Careers – Lecturer or professor roles in colleges and universities (after NET/Ph.D.).</p>
@@ -282,7 +282,7 @@
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Electronics & Instrumentation Specialist – Work in industries involving measurement, testing, and automation.</p>

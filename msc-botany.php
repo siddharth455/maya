@@ -37,7 +37,7 @@
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>B.Sc. degree in any relevant science discipline CBZ with a minimum of 50% aggregate marks from a recognized university. For B.Sc. Hons duration of M.Sc. will be one year.</p>
@@ -45,7 +45,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must have strong interest in plant sciences, research, biodiversity, and laboratory work.</p>
@@ -53,7 +53,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>No upper age limit; students must meet university-specific admission guidelines.</p>
@@ -202,7 +202,7 @@
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>M.Sc. Botany focuses on advanced study of plant biology, including physiology, genetics, ecology, and taxonomy.</p>
@@ -217,7 +217,7 @@
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p></p>
@@ -225,7 +225,7 @@
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Agriculture / Horticulture Officer – Government roles in agriculture departments, nurseries, and farm development.</p>
@@ -233,7 +233,7 @@
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Plant Biotechnologist / Lab Technologist – Opportunities in biotech firms, pharmaceuticals, seed companies, and food industries.</p>
@@ -241,7 +241,7 @@
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Ecologist / Environmental Consultant – Work in environmental agencies, conservation projects, and NGOs.</p>
@@ -249,7 +249,7 @@
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Teaching & Academic Careers – Lecturer roles in colleges and universities (with NET/Ph.D.).</p>
@@ -257,7 +257,7 @@
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Higher Studies & Specializations – Ph.D., M.Phil., Plant Biotechnology, Genetics, Ecology, Forestry, Microbiology, and more.</p>

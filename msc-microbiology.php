@@ -43,7 +43,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must hold a Bachelor’s degree in Microbiology, Biotechnology, Life Sciences, or any related biological science discipline from a recognized university, typically with at least 50% aggregate marks.</p>
@@ -194,7 +194,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Focuses on advanced microbial genetics, industrial and medical microbiology, molecular techniques, and hands-on laboratory training for research and biotechnology careers.</p>
@@ -209,7 +209,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Career opportunities include research labs, pharmaceutical and biotechnology industries, clinical diagnostics, environmental monitoring, and academic research/PhD pathways.</p>

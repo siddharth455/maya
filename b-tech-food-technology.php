@@ -43,7 +43,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>10+2 passed with PCB/PCM.</p>
@@ -51,7 +51,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 50% marks for General category</p>
@@ -59,7 +59,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 45% marks for SC/ST category</p>
@@ -208,7 +208,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
                             <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Develop a strong foundation in food science, food chemistry, food microbiology, food processing, and food preservation techniques.</p>
@@ -217,7 +217,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Gain hands-on training through food processing laboratories, pilot plants, and industrial practices to understand modern food production technologies.</p>
@@ -226,7 +226,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Promote innovative and sustainable food processing techniques to improve food quality, safety, shelf life, and nutritional value.</p>
@@ -235,7 +235,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Prepare students for careers in food processing industries, quality assurance, food safety management, product development, and research organizations.</p>
@@ -244,7 +244,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Develop leadership, teamwork, and communication skills required to work with food industries, research institutions, and regulatory agencies.</p>
@@ -258,7 +258,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                        <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Food Processing Industries</p>
@@ -267,7 +267,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Food Manufacturing Companies</p>
@@ -276,7 +276,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Research and Higher Education</p>
@@ -285,7 +285,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Food Quality Assurance & Safety Management</p>
@@ -294,7 +294,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <div class="sin-over-view-list">
     <div class="course-list-icon">
-        <i class="fa fa-check"></i> .
+        <i class="fa fa-check"></i>
     </div>
     <div class="course-list-content">
         <p>Food Product Development & Consultancy</p>

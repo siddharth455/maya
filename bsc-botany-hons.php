@@ -37,7 +37,7 @@
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>10+2 with Biology, Chemistry, Physics from a recognized board</p>
@@ -45,7 +45,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>The minimum required age is 17 years on or before 31st December of the admission year.</p>
@@ -53,7 +53,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must demonstrate interest and aptitude in plant science, ecology, biotechnology, and research-oriented studies.</p>
@@ -199,7 +199,7 @@
                         <div class="over-view-list">
                             <div class="sin-over-view-list">
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Renowned Domain Specific & Highly Rich Experienced Faculty, Centre of Excellence in Specific Domain & Technology for Experiential Learning, 360° Advance Course Curriculum designed by Core Academia & Renowned Industry Experts, LMS based Pedagogy and Innovative Class Room Teaching Methodology, One – to – One Progress Monitoring & Mentoring Methodology throughout the course, Choice Based Credit System (CBCS) Based Assessments and Evaluation.</p>
@@ -214,7 +214,7 @@
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Further specialization through an M.Sc. in Botany, Biotechnology, or Forestry enhances opportunities in research, academia, and environmental consultancy. Various opportunities in research, agriculture, pharmaceuticals, and environmental management. Key career options include botanist, nursery manager, field botanist, or lab technician.</p>

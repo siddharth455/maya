@@ -43,7 +43,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
                                        
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidate shall have Passed B. Tech Examination in Civil Engineering with at least 50% in case of general category and 40% in case of reserved category from recognized board.</p>
@@ -56,7 +56,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     
                                     <div class="single-course-summary">
                                         <h4>Total Students</h4>
-                                        <span><i class="fa fa-user"></i> 60</span>
+                                        <span><i class="fa fa-user"></i> 30</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Duration</h4>
@@ -64,7 +64,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Credits</h4>
-                                        <span><i class="fa fa-diamond"></i> 125</span>
+                                        <span><i class="fa fa-diamond"></i> 89</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Total Semester</h4>
@@ -85,53 +85,29 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-civil-engineering.php"><img class="animated" src="assets/uploads/civil.webp" alt=""></a>
+                                    <a href="mechanical-engineering-le.php"><img class="animated" src="assets/uploads/mechanical-le.webp" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                <h4><a href="b.tech-civil-engineering.php">B.tech Civil Engineering</a></h4>
-                                <p>The B.Tech Civil Engineering program is a four-year course training students in civil engineering, structural design, and professional engineering skills.</p>
+                                <h4><a href="mechanical-engineering-le.php">B.tech Mechanical Engineering (Lateral Entry)</a></h4>
+                                <p>The B.Tech Mechanical Engineering (Lateral Entry) program is a three-year course focusing on mechanical systems, design, and advanced engineering skills.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 176</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
-                                            <span>Duration : 4yrs</span>
+                                            <span>Duration : 3yrs</span>
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="b.tech-civil-engineering.php">APPLY NOW</a>
+                                        <a class="default-btn" href="mechanical-engineering-le.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="single-course">
-                                <div class="course-img">
-                                    <a href="b.tech-civil-engineering-le.php"><img class="animated" src="assets/uploads/civil-le.webp" alt=""></a>
-                                </div>
-                                <div class="course-content">
-                                    <h4><a href="b.tech-civil-engineering-le.php">B.tech Civil Engineering (Lateral Entry)</a></h4>
-                                    <p>The B.Tech Civil Engineering (Lateral Entry) is a four-year program focusing on structural design, analysis, and construction skills.</p>
-                                </div>
-                                <div class="course-position-content">
-                                    <div class="credit-duration-wrap">
-                                        <div class="sin-credit-duration">
-                                            <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
-                                        </div>
-                                        <div class="sin-credit-duration">
-                                            <i class="fa fa-clock-o"></i>
-                                            <span>Duration : 4yrs</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-btn">
-                                        <a class="default-btn" href="b.tech-civil-engineering-le.php">APPLY NOW</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-course">
+                             <div class="single-course">
                                 <div class="course-img">
                                     <a href="b.tech-mechatronics-and-robotics.php"><img class="animated" src="assets/uploads/robots.jpeg" alt=""></a>
                                 </div>
@@ -144,7 +120,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 176</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -153,6 +129,30 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="course-btn">
                                         <a class="default-btn" href="b.tech-mechatronics-and-robotics.php">APPLY NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="single-course">
+                                <div class="course-img">
+                                    <a href="b-tech-civil-structural-engineering.php"><img class="animated" src="assets/uploads/b.tech-civil.jpg" alt=""></a>
+                                </div>
+                                <div class="course-content">
+                                <h4><a href="b-tech-civil-structural-engineering.php">B.tech Civil Engineering (Structural Engineering)</a></h4>
+                                <p>The B.Tech Civil Engineering (Structural Engineering) is a four-year program focusing on structural design, analysis, and construction skills.</p>
+                                </div>
+                                <div class="course-position-content">
+                                    <div class="credit-duration-wrap">
+                                        <div class="sin-credit-duration">
+                                            <i class="fa fa-diamond"></i>
+                                            <span>Credits : 176</span>
+                                        </div>
+                                        <div class="sin-credit-duration">
+                                            <i class="fa fa-clock-o"></i>
+                                            <span>Duration : 4yrs</span>
+                                        </div>
+                                    </div>
+                                    <div class="course-btn">
+                                        <a class="default-btn" href="b-tech-civil-structural-engineering.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>
@@ -196,7 +196,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
                                        
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Apply the knowledge of basic sciences and engineering.</p>
@@ -204,7 +204,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Analyze the complex engineering problems and give solutions.</p>
@@ -212,7 +212,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Identify the Civil engineering problems and solutions.</p>
@@ -220,7 +220,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Apply Modern tool usage.</p>
@@ -228,7 +228,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Individual and team work.</p>
@@ -236,7 +236,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Environment and sustainability.</p>
@@ -244,7 +244,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>The engineer and society responsibilities.</p>
@@ -260,7 +260,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
                                        
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Structural Engineer – Design and analyze buildings, bridges, towers, and industrial structures</p>
@@ -268,7 +268,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Construction Project Manager – Oversee execution of structural elements in infrastructure and high-rise projects.</p>
@@ -276,7 +276,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Air Quality Expert – Monitor and manage air pollution in industrial and urban settings.</p>
@@ -284,7 +284,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Transportation Planner – Plan urban transportation networks, optimize routes, and manage congestion.</p>
@@ -292,7 +292,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Government Environmental Engineer – Work in regulatory agencies like CPCB, SPCBs, or municipal bodies.</p>
@@ -300,7 +300,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Environmental Consultant – Provide solutions for pollution control, waste management, and environmental compliance.</p>

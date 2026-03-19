@@ -37,7 +37,7 @@
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>10+2 with Physics, Chemistry and Biology from a recognized board.</p>
@@ -45,7 +45,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>The minimum age should be 17 years on or before 31st December of the year of admission.</p>
@@ -53,7 +53,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must have studied Chemistry, Botany, and Zoology-related subjects at the higher secondary level.</p>
@@ -200,7 +200,7 @@
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Renowned Domain Specific & Highly Rich Experienced Faculty, Centre of Excellence in Specific Domain & Technology for Experiential Learning, 360° Advance Course Curriculum designed by Core Academia & Renowned Industry Experts, LMS based Pedagogy and Innovative Class Room Teaching Methodology, One – to – One Progress Monitoring & Mentoring Methodology throughout the course, Choice Based Credit System (CBCS) Based Assessments and Evaluation.</p>
@@ -214,7 +214,7 @@
                         </div>
                         <div class="sin-over-view-list">
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>It offers diverse career prospects in research labs, pharmaceutical and food industries, environmental agencies, healthcare support roles, conservation organizations, and education after required training. Graduates can also pursue higher studies such as M.Sc., Ph.D., biotechnology, microbiology, environmental science, medicine, pharmacy, or public health, which greatly expand career options. Overall, it provides a solid science foundation for jobs in biological and chemical fields and for advanced academic or professional pathways.</p>

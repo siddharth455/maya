@@ -42,7 +42,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Graduation with Journalism and Mass Communication or equivalent degree.</p>
@@ -50,7 +50,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 55% marks for General category</p>
@@ -58,7 +58,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 45% marks for SC/ST category</p>
@@ -207,7 +207,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                    <p>M.A. in Journalism &amp; Mass Communication focuses on advanced specialization in areas such as investigative journalism, digital media, broadcast journalism, advertising and public relations, media management, film studies, and communication research, often centering on an original research dissertation or major media project. It cultivates a strong research and professional mindset, immerses students in newsroom simulations, media production, critical debates, and academic writing, and serves as a gateway to Ph.D. programs and advanced careers in academia, media organizations, government communication departments, international agencies, research institutions, and policy think tanks.</p>
@@ -223,7 +223,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                <p>M.A. in Journalism &amp; Mass Communication unlocks diverse and prestigious career opportunities as a lecturer or teacher (government/private sector), journalist, news anchor, content creator, media analyst, public relations officer, communication strategist, or civil services professional in media houses, government departments, corporate sectors, advertising agencies, and international organizations. It serves as a strong foundation and gateway to a Ph.D., while providing a decisive edge for advanced roles in academia, media research, corporate communication, public policy advocacy, digital media management, and strategic communication leadership.</p>

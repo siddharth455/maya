@@ -44,7 +44,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Admission to the BMRIT course requires passing 10+2 with Physics, Chemistry, Biology/Maths and English from a recognised board with minimum marks Minimum marks often 50% in PCB for general category</p>
@@ -190,7 +190,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>It is an undergraduate allied healthcare degree focused on medical imaging and radiological sciences.The course provides theoretical knowledge and hands-on clinical training in imaging modalities such as X-ray, CT, MRI, ultrasound, and fluoroscopy.</p>
@@ -205,7 +205,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>The BMRIT programme opens up exciting career opportunities in the fast-growing field of medical imaging. After graduation, students can work as Radiology or Imaging Technologists in hospitals, diagnostic centres, trauma and emergency units, cancer centres, and super-specialty clinics. Graduates gain hands-on experience with advanced imaging technologies such as X-ray, CT, MRI, and ultrasound, making them highly employable in both government and private healthcare sectors.</p>

@@ -44,7 +44,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Graduation with English or equivalent degree.</p>
@@ -52,7 +52,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 55% marks for General category</p>
@@ -60,7 +60,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 45% marks for SC/ST category</p>
@@ -209,7 +209,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                    <p>M.A. in Economics focuses on advanced specialization in areas such as econometrics, development economics, international economics, public finance, financial economics, and policy analysis, often centering on an original research dissertation. It cultivates a strong research mindset, immerses students in seminars, data-driven analysis, policy debates, and academic writing, and serves as a gateway to Ph.D. programs and advanced careers in academia, government agencies, financial institutions, international organizations, research bodies, and policy think tanks.</p>
@@ -225,7 +225,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>M.A. in Economics unlocks diverse and prestigious career opportunities as a lecturer or teacher (government/private sector), economic analyst, policy researcher, financial consultant, data analyst, or civil services professional in government departments, financial institutions, corporate sectors, and international organizations. It serves as a strong foundation and gateway to a Ph.D., while providing a decisive edge for advanced roles in academia, economic research, public policy, banking, finance, and development planning institutions.</p>

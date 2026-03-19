@@ -37,7 +37,7 @@
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>10+2 or equivalent with Physics, Chemistry and Mathematics (PCM) from a recognized board.</p>
@@ -45,7 +45,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>The minimum age requirement is generally 17 years on or before 31st December of the year in which admission is sought. (Age criteria may vary by institution.)</p>
@@ -53,7 +53,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must have studied Physics, Chemistry, and Mathematics as compulsory subjects in their higher secondary education.</p>
@@ -201,7 +201,7 @@
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>Renowned Domain Specific & Highly Rich Experienced Faculty, Centre of Excellence in Specific Domain & Technology for Experiential Learning, 360° Advance Course Curriculum designed by Core Academia & Renowned Industry Experts, LMS based Pedagogy and Innovative Class Room Teaching Methodology, One – to – One Progress Monitoring & Mentoring Methodology throughout the course, Choice Based Credit System (CBCS) Based Assessments and Evaluation.</p>
@@ -216,7 +216,7 @@
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>It offers flexible career paths in higher studies (M.Sc. / Ph.D.), IT and data fields, teaching and government exams. with added skills, students can enter amalytics, software or AI-related roles. they are also eligible for competitive exams like UPSC, SSC, Bamking, GATE and defence services.</p>

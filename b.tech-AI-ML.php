@@ -47,7 +47,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     <div class="sin-over-view-list">
                                        
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must have passed 10+2 (Class 12th) or equivalent examination from a recognized board.</p>
@@ -55,7 +55,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Mathematics</p>
@@ -63,7 +63,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Physics </p>
@@ -71,7 +71,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Chemistry or Computer Science / Information Technology (optional) </p>
@@ -79,7 +79,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Mode: Full-time </p>
@@ -254,7 +254,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     <div class="sin-over-view-list">
                                        
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Industry-Aligned Curriculum</p>
@@ -262,7 +262,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Cloud Computing</p>
@@ -270,7 +270,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Software Development </p>
@@ -286,7 +286,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     <div class="sin-over-view-list">
                                        
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Machine Learning Engineer</p>
@@ -294,7 +294,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Artificial Intelligence Engineer</p>
@@ -302,7 +302,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Data Scientist / Data Analyst </p>
@@ -310,7 +310,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>AI Research Scientist </p>
@@ -318,7 +318,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Computer Vision Engineer </p>
@@ -326,7 +326,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Natural Language Processing (NLP) Engineer </p>
@@ -334,7 +334,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Big Data Engineer </p>
@@ -343,7 +343,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                    
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Deep Learning Specialist </p>
@@ -351,7 +351,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Business Intelligence Analyst </p>
@@ -359,7 +359,7 @@ This program nurtures critical thinking, analytical skills, and ethical awarenes
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Software Developer (AI/ML-based systems) </p>

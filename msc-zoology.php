@@ -36,7 +36,7 @@
                                     <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>B.Sc. degree in any relevant science discipline CBZ with a minimum of 50% aggregate marks from a recognized university. For B.Sc. Hons duration of M.Sc. will be one year.</p>
@@ -44,7 +44,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must have strong interest in animal biology, research, ecology, and laboratory work.</p>
@@ -52,7 +52,7 @@
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>No upper age limit; admission rules follow university-specific guidelines.</p>
@@ -201,7 +201,7 @@
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>M.Sc. Zoology focuses on advanced study of animal biology with strong theoretical, practical, and research-based training.</p>
@@ -216,7 +216,7 @@
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>work as zoologists, lecturers, lab researchers, wildlife biologists, or pursue a Ph.D. for advanced scientific careers.</p>

@@ -43,7 +43,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
+                                            <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
                                             <p>Candidates must have a Bachelor’s degree in Forensic Science or any relevant science discipline such as Chemistry, Biotechnology, Microbiology, Zoology, Botany, or Life Sciences from a recognized university, generally with a minimum of 50% aggregate marks.</p>
@@ -193,7 +193,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="sin-over-view-list">
 
                                 <div class="course-list-icon">
-                                    <i class="fa fa-check"></i> .
+                                    <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
                                     <p>It emphasizes research, fieldwork, and practical skills for careers in environmental protection, conservation, and policy-making.</p>
@@ -208,7 +208,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sin-over-view-list">
 
                             <div class="course-list-icon">
-                                <i class="fa fa-check"></i> .
+                                <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
                                 <p>Career prospects involve forensic laboratories, crime investigation agencies, cybersecurity and forensic auditing units, legal consultancy, and government forensic departments.</p>
