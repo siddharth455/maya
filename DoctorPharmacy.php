@@ -4,7 +4,7 @@ $page_description = "Study Doctor of Pharmacy (Pharm.D) at Maya Devi University,
 $canonical_url = "https://maya.edu.in/DoctorPharmacy.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
-<?php require "common/header.php"?>
+<?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/pharm-d.webp);">
         <div class="container">
@@ -34,36 +34,27 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                     <div class="tab-content jump">
                         <div class="tab-pane active mt-5" id="course-details-1">
                             <div class="over-view-content">
-                                <h4>COURSE  DETAILS</h4>
-                            <h5>Course Name : Doctor of Pharmacy (Pharm.D)</h5>
-                            <p>The Doctor of Pharmacy (Pharm D) program at Maya Devi University is crafted to prepare students for advanced roles in clinical and hospital pharmacy, patient care, and the evolving global healthcare system. The program integrates clinical practice with pharmaceutical sciences to develop competent healthcare professionals.</p>
-                            <p>A Pharm D equips students with expertise in pharmacotherapeutics, clinical research, and patient-centered care. Core subjects such as Clinical Pharmacology, Pharmacotherapeutics, Hospital Pharmacy, Clinical Toxicology, and Pharmacy Practice form the foundation of the curriculum, enabling graduates to contribute effectively to patient safety and healthcare outcomes.</p>
+                                <h4>COURSE DETAILS</h4>
+                                <h5>Course Name : Doctor of Pharmacy (Pharm.D)</h5>
+                                <p>The Doctor of Pharmacy (Pharm D) program at Maya Devi University is crafted to prepare students for advanced roles in clinical and hospital pharmacy, patient care, and the evolving global healthcare system. The program integrates clinical practice with pharmaceutical sciences to develop competent healthcare professionals.</p>
+                                <p>A Pharm D equips students with expertise in pharmacotherapeutics, clinical research, and patient-centered care. Core subjects such as Clinical Pharmacology, Pharmacotherapeutics, Hospital Pharmacy, Clinical Toxicology, and Pharmacy Practice form the foundation of the curriculum, enabling graduates to contribute effectively to patient safety and healthcare outcomes.</p>
 
 
                                 <div class="over-view-list">
-                                <h2>Eligibility Criteria</h2>
+                                    <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
-                                       
+
                                         <div class="course-list-icon">
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>10+2 with Physics, Chemistry, and Biology (PCB) or Mathematics (PCM) from a recognized board</p>
+                                            <p> 10+2 with PCB/ PCM from a recognised board</p>
                                         </div>
                                     </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Minimum 50% marks (or as per university requirements)</p>
-                                        </div>
-                                    </div>
-                                  
                                 </div>
                                 <h2>More Details</h2>
                                 <div class="course-summary-wrap mt-4">
-                                    
+
                                     <div class="single-course-summary">
                                         <h4>Total Students</h4>
                                         <span><i class="fa fa-user"></i> 60</span>
@@ -74,20 +65,20 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Credits</h4>
-                                        <span><i class="fa fa-diamond"></i> 125</span>
+                                        <span><i class="fa fa-diamond"></i> 173 hrs</span>
                                     </div>
-                                   
+
                                 </div>
-                                
+
                             </div>
                         </div>
-                       
+
                     </div>
-                    
+
                     <div class="related-course pt-70">
                         <div class="related-title mb-45 mrg-bottom-small">
                             <h3>Related Course</h3>
-                           
+
                         </div>
                         <div class="related-slider-active">
                             <div class="single-course">
@@ -95,8 +86,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <a href="bachelor-pharmacy-lateral-entry.php"><img class="animated" src="assets/uploads/pharmacy-le.jpg" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                <h4><a href="bachelor-pharmacy-lateral-entry.php">Bachelor of pharmacy (Lateral Entry)</a></h4>
-                                <p>The B.Pharm Lateral Entry program is a three-year course focusing on pharmaceutical sciences, drug development, and pharmacy practice.</p>
+                                    <h4><a href="bachelor-pharmacy-lateral-entry.php">Bachelor of pharmacy (Lateral Entry)</a></h4>
+                                    <p>The B.Pharm Lateral Entry program is a three-year course focusing on pharmaceutical sciences, drug development, and pharmacy practice.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
@@ -119,8 +110,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <a href="best-d-pharma-college-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/d.pharmacy.jpeg" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                <h4><a href="best-d-pharma-college-in-dehradun-uttarakhand.php">Diploma in Pharmacy</a></h4>
-                                <p>The Diploma in Pharmacy program trains students in pharmaceutical sciences, drug formulation, and practical pharmacy skills.</p>
+                                    <h4><a href="best-d-pharma-college-in-dehradun-uttarakhand.php">Diploma in Pharmacy</a></h4>
+                                    <p>The Diploma in Pharmacy program trains students in pharmaceutical sciences, drug formulation, and practical pharmacy skills.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
@@ -143,8 +134,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <a href="master-pharmacy-pharmaceutics.php"><img class="animated" src="assets/uploads/mpharm.jpg" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                <h4><a href="master-pharmacy-pharmaceutics.php">Master in Pharmacy</a></h4>
-                                <p>The M.Pharm program offers advanced training in pharmaceutical sciences and drug development for careers in pharmacy and research.</p>
+                                    <h4><a href="master-pharmacy-pharmaceutics.php">Master in Pharmacy</a></h4>
+                                    <p>The M.Pharm program offers advanced training in pharmaceutical sciences and drug development for careers in pharmacy and research.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
@@ -165,12 +156,11 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                     </div>
                 </div>
-                
             </div>
-            
+
             <div class="col-xl-3 col-lg-4">
                 <div class="sidebar-style sidebar-res-mrg-none">
-                   
+
                     <div class="sidebar-about mb-40">
                         <div class="sidebar-title mb-15">
                             <h4>About Us</h4>
@@ -178,7 +168,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <p>Maya Devi University’s Doctor of Pharmacy (Pharm D) program provides advanced knowledge and hands-on clinical training in pharmacology, therapeutics, and patient care. Graduates are prepared for careers in clinical and hospital pharmacy, healthcare management, pharmacovigilance, and clinical research, contributing to safe and effective medication use and improved healthcare outcomes.</p>
 
                     </div>
-                    
+
                     <div class="sidebar-category mb-40">
                         <div class="sidebar-title mb-40">
                             <h4>School Category</h4>
@@ -198,90 +188,32 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <h4>Key Features</h4>
                         </div>
                         <div class="over-view-list">
-                               
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Assess patient health problems, review prescriptions, and provide safe, effective, and appropriate medication therapy, actively participating in ward rounds and therapeutic decision-making.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Understand and apply ethical principles and legal standards governing pharmacy practice, respecting patient confidentiality and informed consent in clinical settings.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Communicate effectively with doctors, patients, and other healthcare professionals, providing patient counseling and medication use education in understandable terms.</p>
-                                        </div>
-                                    </div>
+
+                            <div class="sin-over-view-list">
+
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i> .
                                 </div>
+                                <div class="course-list-content">
+                                    <p>Professional Doctorate, Patient Centered approach, Licensure Oriented degree,Research & Evidence based degree</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="over-view-list">
-                    <div class="sidebar-title mb-40">
+                        <div class="sidebar-title mb-40">
                             <h4>Career Prospects</h4>
                         </div>
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Clinical Pharmacist</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Community Pharmacist</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Hospital/Health System Pharmacist</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Pharmaceutical Industry (e.g., regulatory affairs, R&D, marketing)</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Academia and Research</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Government and Regulatory Agencies</p>
-                                        </div>
-                                    </div>
-                                   
-                                </div>
-                   
+                        <div class="sin-over-view-list">
+
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i> .
+                            </div>
+                            <div class="course-list-content">
+                                <p>Hospital Pharmacist, Regulatory & Govt. Roles, Academia & Research</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -338,33 +270,38 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     </div>
 </div>
 
-<?php require "common/footer.php"?>
+<?php require "common/footer.php" ?>
 <style>
     .single-brand-logo img {
-    width: 150px;
-    height: 100px;
-    object-fit: contain;
-    display: block;
-    margin: auto;
-}
-
-    </style>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        width: 150px;
+        height: 100px;
+        object-fit: contain;
+        display: block;
+        margin: auto;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script>
-    $(document).ready(function(){
-      $('.brand-logo-active').owlCarousel({
-        loop: true,
-        margin: 20,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true,
-        smartSpeed: 800,
-        responsive: {
-          0: { items: 2 },
-          600: { items: 4 },
-          1000: { items: 6 }
-        }
-      });
+    $(document).ready(function() {
+        $('.brand-logo-active').owlCarousel({
+            loop: true,
+            margin: 20,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            smartSpeed: 800,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 4
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        });
     });
 </script>

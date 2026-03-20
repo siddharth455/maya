@@ -4,7 +4,7 @@ $page_description = "Maya Devi University is one of the best D.Pharm colleges in
 $canonical_url = "https://maya.edu.in/best-d-pharma-college-in-dehradun-uttarakhand.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
-<?php require "common/header.php"?>
+<?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/d.pharmacy.jpeg);">
         <div class="container">
@@ -34,15 +34,15 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                     <div class="tab-content jump">
                         <div class="tab-pane active mt-5" id="course-details-1">
                             <div class="over-view-content">
-                                <h4>COURSE  DETAILS</h4>
-                            <h5>Course Name : Diploma in Pharmacy</h5>
-                            <p>Our Diploma in Pharmacy program at Maya Devi University is designed to meet the growing needs of the healthcare and pharmaceutical sector. Students gain knowledge and practical skills in pharmaceutical sciences, drug formulation, and patient care.</p>
-<p>A Diploma in Pharmacy provides a strong foundation for careers in community and hospital pharmacies, pharmaceutical companies, and healthcare organizations. Core subjects such as Pharmacology, Pharmaceutics, Pharmaceutical Chemistry, and Pharmacognosy form the backbone of the program and prepare students for professional practice in pharmacy.</p>
+                                <h4>COURSE DETAILS</h4>
+                                <h5>Course Name : Diploma in Pharmacy</h5>
+                                <p>Our Diploma in Pharmacy program at Maya Devi University is designed to meet the growing needs of the healthcare and pharmaceutical sector. Students gain knowledge and practical skills in pharmaceutical sciences, drug formulation, and patient care.</p>
+                                <p>A Diploma in Pharmacy provides a strong foundation for careers in community and hospital pharmacies, pharmaceutical companies, and healthcare organizations. Core subjects such as Pharmacology, Pharmaceutics, Pharmaceutical Chemistry, and Pharmacognosy form the backbone of the program and prepare students for professional practice in pharmacy.</p>
 
                                 <div class="over-view-list">
-                                <h2>Eligibility Criteria</h2>
+                                    <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
-                                       
+
                                         <div class="course-list-icon">
                                             <i class="fa fa-check"></i> .
                                         </div>
@@ -55,7 +55,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>10+2 with Physics and Chemistry.</p>
+                                            <p>10+2 with PCB/PCM from a recognised board</p>
                                         </div>
                                     </div>
                                     <div class="sin-over-view-list">
@@ -85,7 +85,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 </div>
                                 <h2>More Details</h2>
                                 <div class="course-summary-wrap mt-4">
-                                    
+
                                     <div class="single-course-summary">
                                         <h4>Approved seats –for session 2026-2027 </h4>
                                         <span><i class="fa fa-user"></i> 60</span>
@@ -95,16 +95,16 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         <span><i class="fa fa-clock-o"></i> 2years/4sem</span>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
-                       
+
                     </div>
-                    
+
                     <div class="related-course pt-70">
                         <div class="related-title mb-45 mrg-bottom-small">
                             <h3>Related Course</h3>
-                           
+
                         </div>
                         <div class="related-slider-active">
                             <div class="single-course">
@@ -112,8 +112,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <a href="best-b-pharma-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/pharmacy.webp" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                <h4><a href="best-b-pharma-colleges-in-dehradun-uttarakhand.php">Bachelor in pharmacy</a></h4>
-                                <p>The B.Pharm program provides in-depth knowledge of pharmaceutical sciences, drug development, and professional pharmacy practice.</p>
+                                    <h4><a href="best-b-pharma-colleges-in-dehradun-uttarakhand.php">Bachelor in pharmacy</a></h4>
+                                    <p>The B.Pharm program provides in-depth knowledge of pharmaceutical sciences, drug development, and professional pharmacy practice.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
@@ -136,8 +136,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <a href="bachelor-pharmacy-lateral-entry.php"><img class="animated" src="assets/uploads/pharmacy-le.jpg" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                <h4><a href="bachelor-pharmacy-lateral-entry.php">Bachelor of pharmacy (Lateral Entry)</a></h4>
-                                <p>The B.Pharm Lateral Entry program is a three-year course focusing on pharmaceutical sciences, drug development, and pharmacy practice.</p>
+                                    <h4><a href="bachelor-pharmacy-lateral-entry.php">Bachelor of pharmacy (Lateral Entry)</a></h4>
+                                    <p>The B.Pharm Lateral Entry program is a three-year course focusing on pharmaceutical sciences, drug development, and pharmacy practice.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
@@ -155,16 +155,16 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
-                
+
             </div>
-            
+
             <div class="col-xl-3 col-lg-4">
                 <div class="sidebar-style sidebar-res-mrg-none">
-                   
+
                     <div class="sidebar-about mb-40">
                         <div class="sidebar-title mb-15">
                             <h4>About Us</h4>
@@ -172,7 +172,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <p>Maya Devi University’s Diploma in Pharmacy program provides comprehensive knowledge and practical training in pharmacology, pharmaceutical chemistry, and drug formulation. Diploma Holders are prepared for careers in community and hospital pharmacies, pharmaceutical research, and healthcare management, contributing to safe and effective medication use and healthcare innovation.</p>
 
                     </div>
-                    
+
                     <div class="sidebar-category mb-40">
                         <div class="sidebar-title mb-40">
                             <h4>School Category</h4>
@@ -192,105 +192,32 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <h4>Key Features</h4>
                         </div>
                         <div class="over-view-list">
-                               
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Develop and Acquire Knowledge, Skill, and Attitude with Practice-Based Pharmacy Education.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Evaluate Social Health and Safety Understanding Healthcare Responsibilities.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Comprehend Professional Pharmacy Solutions in Societal Contexts.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Apply Pharmaceutical Ethics in Professional Development.</p>
-                                        </div>
-                                    </div>
+
+                            <div class="sin-over-view-list">
+
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i> .
                                 </div>
+                                <div class="course-list-content">
+                                    <p>Minimum Qualification to become a registered Pharmacist, Practice Oriented Curriculum, Mandatory Practical training (app.500 hrs) in hospital or Pharmacy</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="over-view-list">
-                    <div class="sidebar-title mb-40">
+                        <div class="sidebar-title mb-40">
                             <h4>Career Prospects</h4>
                         </div>
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Retail Pharmacist</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Hospital Pharmacist</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Medical Representative</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Pharmaceutical Company Worker</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Quality Control/Assurance Assistant</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Drug Inspector (with further studies)</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i> .
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Pharmacy Store Ownership</p>
-                                        </div>
-                                    </div>
-                                </div>
-                   
+                        <div class="sin-over-view-list">
+
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i> .
+                            </div>
+                            <div class="course-list-content">
+                                <p>Retail Pharmacist, Hospital Pharmacist, Defense Services, Pharmaceutical Manufacturing</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -347,33 +274,38 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     </div>
 </div>
 
-<?php require "common/footer.php"?>
+<?php require "common/footer.php" ?>
 <style>
     .single-brand-logo img {
-    width: 150px;
-    height: 100px;
-    object-fit: contain;
-    display: block;
-    margin: auto;
-}
-
-    </style>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        width: 150px;
+        height: 100px;
+        object-fit: contain;
+        display: block;
+        margin: auto;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script>
-    $(document).ready(function(){
-      $('.brand-logo-active').owlCarousel({
-        loop: true,
-        margin: 20,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true,
-        smartSpeed: 800,
-        responsive: {
-          0: { items: 2 },
-          600: { items: 4 },
-          1000: { items: 6 }
-        }
-      });
+    $(document).ready(function() {
+        $('.brand-logo-active').owlCarousel({
+            loop: true,
+            margin: 20,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            smartSpeed: 800,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 4
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        });
     });
 </script>
