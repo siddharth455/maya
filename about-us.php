@@ -90,7 +90,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-one count-white">
                     <div class="count-img">
-                        <img src="assets/img/icon-img/funfact-1.png" loading="lazy" alt="">
+                        <img src="assets/img/icon-img/funfact-1.png" loading="lazy" alt="AWARD">
                     </div>
                     <div class="count-content">
                         <h2 class="count">750</h2>
@@ -101,7 +101,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-two count-white">
                     <div class="count-img">
-                        <img src="assets/img/icon-img/funfact-2.png" alt="">
+                        <img src="assets/img/icon-img/funfact-2.png" alt="GRADUATE">
                     </div>
                     <div class="count-content">
                         <h2 class="count">1250</h2>
@@ -112,7 +112,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-three count-white">
                     <div class="count-img">
-                        <img src="assets/img/icon-img/funfact-1.png" alt="">
+                        <img src="assets/img/icon-img/funfact-1.png" alt="STUDENTS">
                     </div>
                     <div class="count-content">
                         <h2 class="count">1890</h2>
@@ -123,7 +123,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-four count-white">
                     <div class="count-img">
-                        <img src="assets/img/icon-img/funfact-2.png" alt="">
+                        <img src="assets/img/icon-img/funfact-2.png" alt="FACULTIES">
                     </div>
                     <div class="count-content">
                         <h2 class="count">250</h2>
@@ -348,7 +348,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="col-lg-6 col-md-6">
                             <div class="single-about-chose-us mb-95">
                                 <div class="about-choose-img">
-                                    <img src="assets/img/icon-img/service-9.png" alt="">
+                                    <img src="assets/img/icon-img/service-9.png" alt="Scholarship">
                                 </div>
                                 <div class="about-choose-content text-light-blue">
                                     <h3>Scholarship Facility</h3>
@@ -359,7 +359,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="col-lg-6 col-md-6">
                             <div class="single-about-chose-us mb-95 about-negative-mrg">
                                 <div class="about-choose-img">
-                                    <img src="assets/img/icon-img/service-10.png" alt="">
+                                    <img src="assets/img/icon-img/service-10.png" alt="Teacher">
                                 </div>
                                 <div class="about-choose-content text-yellow">
                                     <h3>Best Teacher </h3>
@@ -370,7 +370,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="col-lg-6 col-md-6">
                             <div class="single-about-chose-us mb-95">
                                 <div class="about-choose-img">
-                                    <img src="assets/img/icon-img/service-11.png" alt="">
+                                    <img src="assets/img/icon-img/service-11.png" alt="Library">
                                 </div>
                                 <div class="about-choose-content text-blue">
                                     <h3>Library & Book Store</h3>
@@ -381,7 +381,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="col-lg-6 col-md-6">
                             <div class="single-about-chose-us mb-95 about-negative-mrg">
                                 <div class="about-choose-img">
-                                    <img src="assets/img/icon-img/service-12.png" alt="">
+                                    <img src="assets/img/icon-img/service-12.png" alt="Excellence">
                                 </div>
                                 <div class="about-choose-content text-green">
                                     <h3>15 Years Of Experience</h3>
@@ -394,7 +394,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             </div>
             <!-- <div class="col-lg-4 col-md-12">
                 <div class="about-img">
-                    <img src="assets/uploads/about-boy.png" alt="">
+                    <img src="assets/uploads/about-boy.png" alt="boy">
                 </div>
             </div> -->
         </div>
@@ -695,25 +695,25 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="container">
         <div class="brand-logo-active owl-carousel">
             <div class="single-brand-logo">
-                <a href="#"><img src="assets/img/brand-logo/1.png" alt=""></a>
+                <a href="#"><img src="assets/img/brand-logo/1.png" alt="brand-logo"></a>
             </div>
             <div class="single-brand-logo">
-                <a href="#"><img src="assets/img/brand-logo/2.png" alt=""></a>
+                <a href="#"><img src="assets/img/brand-logo/2.png" alt="brand-logo"></a>
             </div>
             <div class="single-brand-logo">
-                <a href="#"><img src="assets/img/brand-logo/3.png" alt=""></a>
+                <a href="#"><img src="assets/img/brand-logo/3.png" alt="brand-logo"></a>
             </div>
             <div class="single-brand-logo">
-                <a href="#"><img src="assets/img/brand-logo/4.png" alt=""></a>
+                <a href="#"><img src="assets/img/brand-logo/4.png" alt="brand-logo"></a>
             </div>
             <div class="single-brand-logo">
-                <a href="#"><img src="assets/img/brand-logo/5.png" alt=""></a>
+                <a href="#"><img src="assets/img/brand-logo/5.png" alt="brand-logo"></a>
             </div>
             <div class="single-brand-logo">
-                <a href="#"><img src="assets/img/brand-logo/6.png" alt=""></a>
+                <a href="#"><img src="assets/img/brand-logo/6.png" alt="brand-logo"></a>
             </div>
             <div class="single-brand-logo">
-                <a href="#"><img src="assets/img/brand-logo/2.png" alt=""></a>
+                <a href="#"><img src="assets/img/brand-logo/2.png" alt="brand-logo"></a>
             </div>
         </div>
     </div>
@@ -726,35 +726,35 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
         <div class="logo-slider">
             <div class="logo-track">
-                <img src="assets/img/brand-logo/1.webp" alt="">
-                <img src="assets/img/brand-logo/2.webp" alt="">
-                <img src="assets/img/brand-logo/3.webp" alt="">
-                <img src="assets/img/brand-logo/4.webp" alt="">
-                <img src="assets/img/brand-logo/5.webp" alt="">
-                <img src="assets/img/brand-logo/6.webp" alt="">
-                <img src="assets/img/brand-logo/7.webp" alt="">
-                <img src="assets/img/brand-logo/8.webp" alt="">
-                <img src="assets/img/brand-logo/9.webp" alt="">
-                <img src="assets/img/brand-logo/10.webp" alt="">
-                <img src="assets/img/brand-logo/11.webp" alt="">
-                <img src="assets/img/brand-logo/12.webp" alt="">
-                <img src="assets/img/brand-logo/13.webp" alt="">
-                <img src="assets/img/brand-logo/14.webp" alt="">
+                <img src="assets/img/brand-logo/1.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/2.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/3.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/4.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/5.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/6.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/7.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/8.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/9.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/10.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/11.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/12.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/13.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/14.webp" alt="brand-logo">
                 <!-- Duplicate for infinite scroll effect -->
-                <img src="assets/img/brand-logo/1.webp" alt="">
-                <img src="assets/img/brand-logo/2.webp" alt="">
-                <img src="assets/img/brand-logo/3.webp" alt="">
-                <img src="assets/img/brand-logo/4.webp" alt="">
-                <img src="assets/img/brand-logo/5.webp" alt="">
-                <img src="assets/img/brand-logo/6.webp" alt="">
-                <img src="assets/img/brand-logo/7.webp" alt="">
-                <img src="assets/img/brand-logo/8.webp" alt="">
-                <img src="assets/img/brand-logo/9.webp" alt="">
-                <img src="assets/img/brand-logo/10.webp" alt="">
-                <img src="assets/img/brand-logo/11.webp" alt="">
-                <img src="assets/img/brand-logo/12.webp" alt="">
-                <img src="assets/img/brand-logo/13.webp" alt="">
-                <img src="assets/img/brand-logo/14.webp" alt="">
+                <img src="assets/img/brand-logo/1.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/2.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/3.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/4.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/5.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/6.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/7.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/8.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/9.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/10.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/11.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/12.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/13.webp" alt="brand-logo">
+                <img src="assets/img/brand-logo/14.webp" alt="brand-logo">
             </div>
         </div>
     </div>

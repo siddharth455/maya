@@ -26,7 +26,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/computer.webp" alt="">
+                        <img src="assets/uploads/computer.webp" alt="banner">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -47,24 +47,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Candidate must have passed 10+2 (Class 12th) or equivalent examination from a recognized board.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Mandatory subjects at 10+2 level: Mathematics, Physics, Chemistry or Computer Science / Information Technology</p>
-                                        </div>
-                                    </div>
-                                   
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Mode: Full-time </p>
+                                             <p>Candidates to have passed 10+2 with Physics, Mathematics, and Chemistry/Biotechnology/Technical Vocational subjects, securing a minimum of 45-55% aggregate marks.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -73,7 +56,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     
                                     <div class="single-course-summary">
                                         <h4>Total Students</h4>
-                                        <span><i class="fa fa-user"></i> 50</span>
+                                        <span><i class="fa fa-user"></i> 120</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Duration</h4>
@@ -81,7 +64,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Credits</h4>
-                                        <span><i class="fa fa-diamond"></i> 125</span>
+                                        <span><i class="fa fa-diamond"></i> 177</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Total Semester</h4>
@@ -102,7 +85,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-AI-ML.php"><img class="animated" src="assets/uploads/ai.jpeg" alt=""></a>
+                                    <a href="b.tech-AI-ML.php"><img class="animated" src="assets/uploads/ai.jpeg" alt="Course Image"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.tech-AI-ML.php">B.Tech. Computer Science & Engineering (AI & ML)</a></h4>
@@ -112,7 +95,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 177</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -126,7 +109,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-data_science.php"><img class="animated" src="assets/uploads/data-science.webp" alt=""></a>
+                                    <a href="b.tech-data_science.php"><img class="animated" src="assets/uploads/data-science.webp" alt="Course Image"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.tech-data_science.php">B.Tech. Computer Science & Engineering (Data Science)</a></h4>
@@ -136,7 +119,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 177</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -150,7 +133,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-cyber_security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt=""></a>
+                                    <a href="b.tech-cyber_security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt="Course Image"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.tech-cyber_security.php">B.Tech. Computer Science & Engineering (Cyber Security & Forensics)</a></h4>
@@ -160,7 +143,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 177</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -174,7 +157,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-LE.php"><img class="animated" src="assets/uploads/b-tech-le.webp" alt=""></a>
+                                    <a href="b.tech-LE.php"><img class="animated" src="assets/uploads/b-tech-le.webp" alt="Course Image"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.tech-LE.php">B.Tech. Computer Science & Engineering (LE)</a></h4>
@@ -184,7 +167,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 127</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -232,99 +215,106 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <h4>Key Features</h4>
                         </div>
                         <div class="over-view-list">
-                               
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Programming Fundamentals</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Database Management</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Operating Systems</p>
-                                        </div>
-                                    </div>
-                                  
+
+                            <div class="sin-over-view-list">
+
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
                                 </div>
+                                <div class="course-list-content">
+                                    <p>Industry-integrated curriculum powered by IBM
+                                        Specialization in emerging technologies (AI, Data Science, Cloud, Cyber Security, IoT)</p>
+                                </div>
+                            </div>
+                            <div class="sin-over-view-list">
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="course-list-content">
+                                    <p>Hands-on learning through labs, projects, and case studies
+                                        Access to IBM digital tools, platforms, and learning resources</p>
+                                </div>
+                            </div>
+                            <div class="sin-over-view-list">
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="course-list-content">
+                                    <p>Opportunities for IBM skill certifications</p>
+                                </div>
+                            </div>
+                            <div class="sin-over-view-list">
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="course-list-content">
+                                    <p>Internship and industry interaction support</p>
+                                </div>
+                            </div>
+                            <div class="sin-over-view-list">
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="course-list-content">
+                                    <p>Honors degree with strong computer science fundamentals</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="over-view-list">
-                    <div class="sidebar-title mb-40">
+                        <div class="sidebar-title mb-40">
                             <h4>Career Prospects</h4>
                         </div>
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Software Development and Engineering</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Data Science and Analytics</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Artificial Intelligence (AI) and Machine Learning (ML) </p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Cloud Computing and DevOps </p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Cybersecurity</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Emerging Technologies and Innovation</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Academia and Research</p>
-                                        </div>
-                                    </div>
-                                </div>
-                   
-                </div>
+                        <div class="sin-over-view-list">
+
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Software Engineer / Developer</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>AI / Machine Learning Engineer</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Data Scientist / Data Analyst </p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Cloud Engineer</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Cyber Security Analyst</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>IoT / Blockchain Developer</p>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
@@ -335,46 +325,46 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <h2 class="text-center mt-3 mb-3">Industry Partner</h2>
         <div class="brand-logo-active owl-carousel">
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/1.webp" alt="">
+                <img src="assets/img/brand-logo/1.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/2.webp" alt="">
+                <img src="assets/img/brand-logo/2.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/3.webp" alt="">
+                <img src="assets/img/brand-logo/3.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/4.webp" alt="">
+                <img src="assets/img/brand-logo/4.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/5.webp" alt="">
+                <img src="assets/img/brand-logo/5.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/6.webp" alt="">
+                <img src="assets/img/brand-logo/6.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/7.webp" alt="">
+                <img src="assets/img/brand-logo/7.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/8.webp" alt="">
+                <img src="assets/img/brand-logo/8.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/9.webp" alt="">
+                <img src="assets/img/brand-logo/9.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/10.webp" alt="">
+                <img src="assets/img/brand-logo/10.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/11.webp" alt="">
+                <img src="assets/img/brand-logo/11.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/12.webp" alt="">
+                <img src="assets/img/brand-logo/12.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/13.webp" alt="">
+                <img src="assets/img/brand-logo/13.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/14.webp" alt="">
+                <img src="assets/img/brand-logo/14.webp" alt="brand-logo">
             </div>
         </div>
     </div>

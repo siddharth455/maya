@@ -215,7 +215,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-lg-3 col-md-6">
                 <div class="single-choose-us choose-bg-blue">
                     <div class="choose-img">
-                        <img class="animated" src="assets/img/icon-img/service-1.png" alt="">
+                        <img class="animated" src="assets/img/icon-img/service-1.png" alt="Scholarship">
                     </div>
                     <div class="choose-content">
                         <h3>Scholarship Facility</h3>
@@ -226,7 +226,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-lg-3 col-md-6">
                 <div class="single-choose-us choose-bg-green">
                     <div class="choose-img">
-                        <img class="animated" src="assets/img/icon-img/service-2.png" alt="">
+                        <img class="animated" src="assets/img/icon-img/service-2.png" alt="Doctoral">
                     </div>
                     <div class="choose-content">
                         <h3>Doctoral Program</h3>
@@ -237,7 +237,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-lg-3 col-md-6">
                 <div class="single-choose-us choose-bg-blue">
                     <div class="choose-img">
-                        <img class="animated" src="assets/uploads/p-icon.jpg" style="height: 74px; width:70px" alt="">
+                        <img class="animated" src="assets/uploads/p-icon.jpg" style="height: 74px; width:70px" alt="Placement">
                     </div>
                     <div class="choose-content">
                         <h3>Career Placement</h3>
@@ -248,7 +248,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-lg-3 col-md-6">
                 <div class="single-choose-us choose-bg-green">
                     <div class="choose-img">
-                        <img class="animated" src="assets/uploads/s-icon.webp" style="height: 74px; width:70px" alt="">
+                        <img class="animated" src="assets/uploads/s-icon.webp" style="height: 74px; width:70px" alt="Empowering">
                     </div>
                     <div class="choose-content">
                         <h3>Bright Futures</h3>
@@ -1305,7 +1305,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
         <div class="course-slider-active nav-style-1 owl-carousel">
             <div class="single-course">
                 <div class="course-img">
-                    <a href="best-d-pharma-college-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/d.pharmacy.jpeg" alt=""></a>
+                    <a href="best-d-pharma-college-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/d.pharmacy.jpeg" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="best-d-pharma-college-in-dehradun-uttarakhand.php">Diploma in Pharmacy</a></h4>
@@ -1329,7 +1329,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="diploma-in-confectionary.php"><img class="animated" src="assets/uploads/bakery.webp" alt=""></a>
+                    <a href="diploma-in-confectionary.php"><img class="animated" src="assets/uploads/bakery.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="diploma-in-confectionary.php">Diploma in Bakery & Confectionary</a></h4>
@@ -1353,7 +1353,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="diploma-in-food-production.php"><img class="animated" src="assets/uploads/dhm.webp" alt=""></a>
+                    <a href="diploma-in-food-production.php"><img class="animated" src="assets/uploads/dhm.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="diploma-in-food-production.php">Diploma in Food Production</a></h4>
@@ -1377,7 +1377,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="gnm.php"><img class="animated" src="assets/uploads/gnm.webp" alt=""></a>
+                    <a href="gnm.php"><img class="animated" src="assets/uploads/gnm.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="gnm.php">General Nursing and Midwifery (GNM)</a></h4>
@@ -1408,7 +1408,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
         <div class="course-slider-active nav-style-1 owl-carousel">
             <div class="single-course">
                 <div class="course-img">
-                    <a href="b.tech-AI-ML.php"><img class="animated" src="assets/uploads/ai.jpeg" alt=""></a>
+                    <a href="b.tech-AI-ML.php"><img class="animated" src="assets/uploads/ai.jpeg" alt="Course image"></a>
 
                 </div>
                 <div class="course-content">
@@ -1433,7 +1433,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="b.tech-cyber_security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt=""></a>
+                    <a href="b.tech-cyber_security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="b.tech-cyber_security.php">B.tech With Specialization in Cyber Security</a></h4>
@@ -1457,7 +1457,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="b.tech-CSE.php"><img class="animated" src="assets/uploads/computer.webp" alt=""></a>
+                    <a href="b.tech-CSE.php"><img class="animated" src="assets/uploads/computer.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="b.tech-CSE.php">B.Tech. Computer Science & Engineering</a></h4>
@@ -1481,7 +1481,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="b.tech-data_science.php"><img class="animated" src="assets/uploads/data-science.webp" alt=""></a>
+                    <a href="b.tech-data_science.php"><img class="animated" src="assets/uploads/data-science.webp" alt="Course image"></a>
 
                 </div>
                 <div class="course-content">
@@ -1512,7 +1512,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
         <div class="course-slider-active nav-style-1 owl-carousel">
             <div class="single-course">
                 <div class="course-img">
-                    <a href="m.tech-structural-engineering.php"><img class="animated" src="assets/uploads/b.tech-civil.jpg" alt=""></a>
+                    <a href="m.tech-structural-engineering.php"><img class="animated" src="assets/uploads/b.tech-civil.jpg" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="m.tech-mechanical-engineering.php">M.Tech in Structural Engineering</a></h4>
@@ -1536,7 +1536,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="m.tech-mechanical-engineering.php"><img class="animated" src="assets/uploads/mtech-mechanical.webp" alt=""></a>
+                    <a href="m.tech-mechanical-engineering.php"><img class="animated" src="assets/uploads/mtech-mechanical.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="m.tech-mechanical-engineering.php">M.Tech in Mechanical Engineering</a></h4>
@@ -1560,7 +1560,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="master-in-agriculture.php"><img class="animated" src="assets/uploads/agriculture.webp" alt=""></a>
+                    <a href="master-in-agriculture.php"><img class="animated" src="assets/uploads/agriculture.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="master-in-agriculture.php">Master in agriculture</a></h4>
@@ -1584,7 +1584,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="genetics-and-plant-breeding.php"><img class="animated" src="assets/uploads/genetics.webp" alt=""></a>
+                    <a href="genetics-and-plant-breeding.php"><img class="animated" src="assets/uploads/genetics.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="genetics-and-plant-breeding.php">M.Sc. in Genetics and Plant Breeding</a></h4>
@@ -1666,25 +1666,25 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                 <div class="feature-grid">
 
                     <div class="feature-card">
-                        <img src="assets/uploads/world-edu.png" alt="">
+                        <img src="assets/uploads/world-edu.png" alt="Education">
                         <h4>World-Class Education</h4>
                         <p>Cutting-edge curriculum aligned with global standards.</p>
                     </div>
 
                     <div class="feature-card">
-                        <img src="assets/uploads/e-faculty.jpg" alt="">
+                        <img src="assets/uploads/e-faculty.jpg" alt="Faculty">
                         <h4>Expert Faculty</h4>
                         <p>Learn from experienced academicians and professionals.</p>
                     </div>
 
                     <div class="feature-card">
-                        <img src="assets/uploads/m-infra.png" alt="">
+                        <img src="assets/uploads/m-infra.png" alt="Infrastructure">
                         <h4>Modern Infrastructure</h4>
                         <p>Advanced labs, smart classrooms, and research centers.</p>
                     </div>
 
                     <div class="feature-card">
-                        <img src="assets/uploads/global.png" alt="">
+                        <img src="assets/uploads/global.png" alt="Opportunities">
                         <h4>Global Opportunities</h4>
                         <p>International exposure, internships & collaborations.</p>
                     </div>
@@ -2003,7 +2003,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-one">
                     <div class="count-img">
-                        <img src="assets/img/icon-img/achieve-1.png" alt="">
+                        <img src="assets/img/icon-img/achieve-1.png" alt="STUDENTS">
                     </div>
                     <div class="count-content">
                         <h2 class="count">1890</h2>
@@ -2014,7 +2014,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-two">
                     <div class="count-img">
-                        <img src="assets/img/icon-img/achieve-2.png" alt="">
+                        <img src="assets/img/icon-img/achieve-2.png" alt="GRADUATE">
                     </div>
                     <div class="count-content">
                         <h2 class="count">1250</h2>
@@ -2025,7 +2025,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-three">
                     <div class="count-img">
-                        <img src="assets/img/icon-img/achieve-3.png" alt="">
+                        <img src="assets/img/icon-img/achieve-3.png" alt="AWARD">
                     </div>
                     <div class="count-content">
                         <h2 class="count">750</h2>
@@ -2036,7 +2036,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-four">
                     <div class="count-img">
-                        <img src="assets/img/icon-img/achieve-4.png" alt="">
+                        <img src="assets/img/icon-img/achieve-4.png" alt="FACULTIES">
                     </div>
                     <div class="count-content">
                         <h2 class="count">250</h2>
@@ -2049,7 +2049,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="testimonial-text-slider">
                 <div class="testi-content-wrap">
                     <div class="testi-big-img">
-                        <img alt="" src="assets/uploads/bba-2.jpeg">
+                        <img alt="Maya Devi University" src="assets/uploads/bba-2.jpeg">
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
@@ -2066,7 +2066,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                                     <i class="fa fa-quote-right"></i>
                                 </div>
                                 <div class="testi-arrow">
-                                    <img alt="" src="assets/img/icon-img/testi-icon.png">
+                                    <img alt="testimoni" src="assets/img/icon-img/testi-icon.png">
                                 </div>
                             </div>
                         </div>
@@ -2074,7 +2074,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                 </div>
                 <div class="testi-content-wrap">
                     <div class="testi-big-img">
-                        <img alt="" src="assets/uploads/testimoni-2.jpeg">
+                        <img alt="testimoni" src="assets/uploads/testimoni-2.jpeg">
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
@@ -2091,7 +2091,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                                     <i class="fa fa-quote-right"></i>
                                 </div>
                                 <div class="testi-arrow">
-                                    <img alt="" src="assets/img/icon-img/testi-icon.png">
+                                    <img alt="testimoni" src="assets/img/icon-img/testi-icon.png">
                                 </div>
                             </div>
                         </div>
@@ -2099,7 +2099,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                 </div>
                 <div class="testi-content-wrap">
                     <div class="testi-big-img">
-                        <img alt="" src="assets/uploads/st-3.jpg">
+                        <img alt="testimoni" src="assets/uploads/st-3.jpg">
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
@@ -2116,7 +2116,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                                     <i class="fa fa-quote-right"></i>
                                 </div>
                                 <div class="testi-arrow">
-                                    <img alt="" src="assets/img/icon-img/testi-icon.png">
+                                    <img alt="testimoni" src="assets/img/icon-img/testi-icon.png">
                                 </div>
                             </div>
                         </div>
@@ -2124,7 +2124,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                 </div>
                 <div class="testi-content-wrap">
                     <div class="testi-big-img">
-                        <img alt="" src="assets/uploads/girl-3.jpeg">
+                        <img alt="testimoni" src="assets/uploads/girl-3.jpeg">
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
@@ -2141,7 +2141,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                                     <i class="fa fa-quote-right"></i>
                                 </div>
                                 <div class="testi-arrow">
-                                    <img alt="" src="assets/img/icon-img/testi-icon.png">
+                                    <img alt="testimoni" src="assets/img/icon-img/testi-icon.png">
                                 </div>
                             </div>
                         </div>
@@ -2150,21 +2150,21 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="testimonial-image-slider">
                 <div class="sin-testi-image">
-                    <img src="assets/uploads/bba-2.jpeg" alt="">
+                    <img src="assets/uploads/bba-2.jpeg" alt="testimoni">
                 </div>
                 <div class="sin-testi-image">
-                    <img src="assets/uploads/testimoni-2.jpeg" alt="">
+                    <img src="assets/uploads/testimoni-2.jpeg" alt="testimoni">
                 </div>
                 <div class="sin-testi-image">
-                    <img src="assets/uploads/st-3.jpg" alt="">
+                    <img src="assets/uploads/st-3.jpg" alt="testimoni">
                 </div>
                 <div class="sin-testi-image">
-                    <img src="assets/uploads/girl-3.jpeg" alt="">
+                    <img src="assets/uploads/girl-3.jpeg" alt="testimoni">
                 </div>
             </div>
         </div>
         <div class="testimonial-text-img">
-            <img alt="" src="assets/img/icon-img/testi-text.png">
+            <img alt="testimoni" src="assets/img/icon-img/testi-text.png">
         </div>
     </div>
 </div>
@@ -2175,14 +2175,14 @@ $dataFile = __DIR__ . "/admin/data/blogs.json";
 $blogs = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
 
 // Get latest 3 blogs for homepage carousel
-$latestBlogs = array_slice(array_reverse($blogs, true), 0, 3, true);
+$latestBlogs = array_slice(array_reverse($blogs, true), 0, 4, true);
 ?>
 
 <div class="event-area bg-img default-overlay pt-10 pb-10">
     <div class="container">
         <div class="row">
             <!-- Blog Section -->
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <div class="section-title-3 mb-45 mrg-bottom-small">
                     <h2>Our <span>Blog</span></h2>
                     <p>Insights and updates from Maya Devi University.</p>
@@ -2222,61 +2222,6 @@ $latestBlogs = array_slice(array_reverse($blogs, true), 0, 3, true);
                     <?php else: ?>
                         <p>No blogs available</p>
                     <?php endif; ?>
-                </div>
-            </div>
-
-            <!-- Upcoming Events Section (unchanged) -->
-            <div class="col-lg-6">
-                <div class="section-title-3 mb-45 ml-70">
-                    <h2>Upcoming <span>Event</span></h2>
-                </div>
-                <div class="event-active-2 ml-70">
-                    <div class="single-event single-event-2">
-                        <div class="event-img">
-                            <a href="#"><img src="assets/uploads/holi.jpeg" alt="Logo"></a>
-                            <div class="event-date-wrap">
-                                <span class="event-date">02</span>
-                                <span>March</span>
-                            </div>
-                        </div>
-                        <div class="event-content">
-                            <h3><a href="#">hotel Management Celebrating Holi by Making Gujiya</a></h3>
-                            <p>The Hotel Management department celebrated Holi by organizing a traditional Gujiya-making activity, promoting cultural values, creativity, and culinary skills among students. Students actively participated in preparing and presenting Gujiya, gaining hands-on experience in traditional festive cuisine. The celebration fostered teamwork, joy, and festive spirit while enhancing practical learning in food preparation and hospitality.</p>
-                            <div class="event-meta-wrap">
-                                <div class="event-meta">
-                                    <i class="fa fa-location-arrow"></i>
-                                    <span>Maya Devi University</span>
-                                </div>
-                                <div class="event-meta">
-                                    <i class="fa fa-clock-o"></i>
-                                    <span>11:00 AM</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="single-event single-event-2">
-                        <div class="event-img">
-                            <a href="#"><img src="assets/img/event/event-4.jpg" alt=""></a>
-                            <div class="event-date-wrap">
-                                <span class="event-date">1st</span>
-                                <span>Dec</span>
-                            </div>
-                        </div>
-                        <div class="event-content">
-                            <h3><a href="#">Social Sciences & Education.</a></h3>
-                            <p>Pvolupttem accusantium doloremque laudantium, totam erspiciatis unde omnis iste natus error .</p>
-                            <div class="event-meta-wrap">
-                                <div class="event-meta">
-                                    <i class="fa fa-location-arrow"></i>
-                                    <span>Shuvastu ,Badda</span>
-                                </div>
-                                <div class="event-meta">
-                                    <i class="fa fa-clock-o"></i>
-                                    <span>10:30 am</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>

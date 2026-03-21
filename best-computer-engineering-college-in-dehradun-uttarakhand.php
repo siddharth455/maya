@@ -147,26 +147,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         <div class="row">
 
-            <!-- BCA -->
-            <div class="col-lg-3 col-md-6 mb-30">
-                <div class="course-card">
-                    <div class="course-img">
-                        <a href="bachelor-of-computer-application.php">
-                            <img src="assets/uploads/bca.webp" alt="">
-                        </a>
-                    </div>
-                    <div class="course-body">
-                        <h4><a href="bachelor-of-computer-application.php">Bachelor of Computer Application</a></h4>
-                        <p>Empowering future innovators with technology, coding skills, and digital excellence.</p>
-                        <div class="course-meta">
-                            <span>Credits: 125</span>
-                            <span>3 Years</span>
-                        </div>
-                        <a class="default-btn btn-block" href="bachelor-of-computer-application.php">Apply Now</a>
-                    </div>
-                </div>
-            </div>
-
             <!-- BCA AI & ML -->
             <div class="col-lg-3 col-md-6 mb-30">
                 <div class="course-card">
@@ -179,7 +159,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="bachelor-of-computer-application-AI-&-ML.php">BCA in AI & ML</a></h4>
                         <p>Shaping tech leaders with expertise in Artificial Intelligence and Machine Learning.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 120</span>
                             <span>3 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="bachelor-of-computer-application-AI-&-ML.php">Apply Now</a>
@@ -199,7 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="bachelor-of-computer-application-Data-Science.php">BCA in Data Science</a></h4>
                         <p>Shaping future tech & data leaders with expertise in Analytics and Data Science.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 120</span>
                             <span>3 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="bachelor-of-computer-application-Data-Science.php">Apply Now</a>
@@ -219,7 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="bachelor-of-computer-application-cyber-security.php">BCA in Cyber Security</a></h4>
                         <p>An undergraduate program focused on computer applications and digital security.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 120</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="bachelor-of-computer-application-cyber-security.php">Apply Now</a>
@@ -239,7 +219,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="bachelor-of-science-in-information-technology.php">B.Sc Information Technology</a></h4>
                         <p>An undergraduate program focused on information technology and its applications.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 120</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="bachelor-of-science-in-information-technology.php">Apply Now</a>
@@ -259,7 +239,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="bachelor-of-science-in-computer-science.php">B.Sc Computer Science</a></h4>
                         <p>An undergraduate program focused on information technology and its applications.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 120</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="bachelor-of-science-in-computer-science.php">Apply Now</a>
@@ -279,7 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="b.tech-LE.php">B.Tech (Lateral Entry)</a></h4>
                         <p>An undergraduate program focused on information technology and its applications.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 127</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="b.tech-LE.php">Apply Now</a>
@@ -299,7 +279,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="b.tech-CSE.php">B.Tech Computer Science Engineering</a></h4>
                         <p>An undergraduate program focused on information technology and its applications.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 177</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="b.tech-CSE.php">Apply Now</a>
@@ -319,7 +299,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="b.tech-AI-ML.php">B.Tech AI & ML</a></h4>
                         <p>An undergraduate program focused on information technology and its applications.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 177</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="b.tech-AI-ML.php">Apply Now</a>
@@ -339,7 +319,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="b.tech-data_science.php">B.Tech Data Science</a></h4>
                         <p>An undergraduate program focused on information technology and its applications.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 177</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="b.tech-data_science.php">Apply Now</a>
@@ -359,7 +339,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="b.tech-cyber_security.php">B.Tech Cyber Security</a></h4>
                         <p>An undergraduate program focused on information technology and its applications.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 177</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="b.tech-cyber_security.php">Apply Now</a>
@@ -379,7 +359,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="b.tech-CS_IBM.php">B.Tech CSE with IBM</a></h4>
                         <p>An undergraduate program focused on information technology and its applications.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 177</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="b.tech-CS_IBM.php">Apply Now</a>
@@ -388,7 +368,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
 
             <!-- EVT -->
-            <div class="col-lg-3 col-md-6 mb-30">
+            <!-- <div class="col-lg-3 col-md-6 mb-30">
                 <div class="course-card">
                     <div class="course-img">
                         <a href="b.tech-EVT.php">
@@ -405,10 +385,10 @@ document.addEventListener("DOMContentLoaded", () => {
                         <a class="default-btn btn-block" href="b.tech-EVT.php">Apply Now</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- HFCT -->
-            <div class="col-lg-3 col-md-6 mb-30">
+            <!-- <div class="col-lg-3 col-md-6 mb-30">
                 <div class="course-card">
                     <div class="course-img">
                         <a href="B.Tech-HFCT.php">
@@ -425,7 +405,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <a class="default-btn btn-block" href="B.Tech-HFCT.php">Apply Now</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </div>
@@ -452,7 +432,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="mca-aiml.php">MCA AI & ML</a></h4>
                         <p>An undergraduate program focused on information technology and its applications.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 88</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="mca-aiml.php">Apply Now</a>
@@ -472,7 +452,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="mca-data-science.php">MCA Data Science</a></h4>
                         <p>An undergraduate program focused on information technology and its applications.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 88</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="mca-data-science.php">Apply Now</a>
@@ -492,7 +472,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="mca-cyber-security.php">MCA Cyber Security</a></h4>
                         <p>An undergraduate program focused on information technology and its applications.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 88</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="mca-cyber-security.php">Apply Now</a>
@@ -500,7 +480,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 mb-30">
+            <!-- <div class="col-lg-3 col-md-6 mb-30">
                 <div class="course-card">
                     <div class="course-img">
                         <a href="mtech-cse.php">
@@ -512,13 +492,13 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="mtech-cse.php">M.Tech CSE</a></h4>
                         <p>An undergraduate program focused on information technology and its applications.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 88</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="mtech-cse.php">Apply Now</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="col-lg-3 col-md-6 mb-30">
                 <div class="course-card">
@@ -532,7 +512,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="mtech-specializations-cse-AI-ML.php">M.Tech CSE (AI/DS/Cyber)</a></h4>
                         <p>An undergraduate program focused on information technology and its applications.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 88</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="mtech-specializations-cse-AI-ML.php">Apply Now</a>
@@ -552,7 +532,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="msc-computer-science.php">M.Sc Computer Science</a></h4>
                         <p>An undergraduate program focused on information technology and its applications.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 88</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="msc-computer-science.php">Apply Now</a>
@@ -572,7 +552,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h4><a href="mca.php">MCA</a></h4>
                         <p>An undergraduate program focused on information technology and its applications.</p>
                         <div class="course-meta">
-                            <span>Credits: 125</span>
+                            <span>Credits: 88</span>
                             <span>4 Years</span>
                         </div>
                         <a class="default-btn btn-block" href="mca.php">Apply Now</a>
@@ -843,6 +823,127 @@ document.addEventListener("DOMContentLoaded", () => {
 
   </div>
 </section>
+<?php
+// Load blogs
+$dataFile = __DIR__ . "/admin/data/blogs.json";
+$blogs = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
+
+// SET DEPARTMENT TAG
+$dept = "CSE"; // change dynamically if needed
+
+// FILTER BLOGS BY TAG
+$filteredBlogs = [];
+foreach ($blogs as $id => $b) {
+    if (!empty($b['tags']) && in_array($dept, $b['tags'])) {
+        $filteredBlogs[$id] = $b;
+    }
+}
+
+// LATEST BLOGS (limit 8 for slider)
+$latestBlogs = array_slice(array_reverse($filteredBlogs, true), 0, 10, true);
+?>
+
+<?php if (!empty($latestBlogs)): ?>  <!-- 🔥 MAIN CONDITION -->
+
+<div class="event-area bg-img default-overlay pt-10 pb-10">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-12">
+                <div class="section-title-3 mb-45 mrg-bottom-small">
+                    <h2>Our <span>Blog</span></h2>
+                    <p>Insights and updates from Maya Devi University.</p>
+                </div>
+
+                <div class="blog-active">
+                    
+                    <?php foreach ($latestBlogs as $id => $b):
+                        $img = $b['image'] ?? 'assets/img/blog/default.jpg';
+                        $title = $b['title'] ?? '';
+                        $excerpt = substr(strip_tags($b['content']), 0, 80) . '...';
+                        $author = $b['author'] ?? 'Admin';
+                        $date = $b['date'] ?? '';
+                        $tags = $b['tags'] ?? [];
+                    ?>
+                        <div class="single-blog">
+                            <div class="blog-img" style="height:200px; overflow:hidden;">
+                                <a href="blog-single.php?id=<?= $id ?>">
+                                    <img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;">
+                                </a>
+                            </div>
+
+                            <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                                <?php if (!empty($tags)) echo "<span>" . htmlspecialchars($tags[0]) . "</span>"; ?>
+
+                                <div class="blog-content" style="flex-grow:1;">
+                                    <h4>
+                                        <a href="blog-single.php?id=<?= $id ?>"><?= $title ?></a>
+                                    </h4>
+                                    <p><?= $excerpt ?></p>
+
+                                    <div class="blog-meta">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-user"></i> <?= $author ?></a></li>
+                                            <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="blog-date">
+                                    <a href="#"><i class="fa fa-calendar-o"></i> <?= $date ?></a>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<?php endif; ?>  <!-- 🔥 END CONDITION -->
+
+<style>
+.blog-active .single-blog {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    margin: 10px;
+    height: 100%;
+}
+
+.blog-active .blog-img {
+    flex: 0 0 200px;
+    overflow: hidden;
+}
+
+.blog-active .blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-active .blog-content-wrap {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 15px;
+}
+
+.blog-active .blog-content {
+    flex: 1;
+}
+.blog-active::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+</style>
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

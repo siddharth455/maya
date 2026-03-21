@@ -204,7 +204,7 @@ $blogsPage = array_slice(array_reverse($filteredBlogs, true), $offset, $perPage,
     padding: 5px;
 }
 .single-blog .blog-content {
-    flex-grow: 1;
+    flex-grow: 2;
 }
 .pro-pagination-style {
     margin-top: 40px;

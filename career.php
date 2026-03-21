@@ -179,7 +179,14 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
           </div>
 
         </div>
+        <!-- Honeypot -->
+<input type="text" name="website" style="display:none;">
 
+<!-- Time check -->
+<input type="hidden" name="form_time" value="<?php echo time(); ?>">
+
+<!-- Google reCAPTCHA -->
+<div class="g-recaptcha mt-2" data-sitekey="6LdCDZIsAAAAAPWaiOOjGFhF3DOJ9Pqv7vneg5kS"></div>
         <div class="submit-box">
           <button type="submit">Submit Application</button>
         </div>
@@ -189,7 +196,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     </div>
   </div>
 </section>
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <?php require "common/footer.php" ?>
 
 <style>

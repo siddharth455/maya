@@ -165,7 +165,7 @@ ICAR.”
         <div class="course-card">
           <div class="course-img">
             <a href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php">
-              <img src="assets/uploads/agri.webp" alt="">
+              <img src="assets/uploads/agri.webp" alt="Course Image">
             </a>
           </div>
           <div class="course-body">
@@ -185,7 +185,7 @@ ICAR.”
         <div class="course-card">
           <div class="course-img">
             <a href="bsc-horticulture-colleges-in-dehradun-uttarakhand.php">
-              <img src="assets/uploads/horticulture-1.jpg" alt="">
+              <img src="assets/uploads/horticulture-1.jpg" alt="Course Image">
             </a>
           </div>
           <div class="course-body">
@@ -205,7 +205,7 @@ ICAR.”
         <div class="course-card">
           <div class="course-img">
             <a href="food-technology.php">
-              <img src="assets/uploads/food.webp" alt="">
+              <img src="assets/uploads/food.webp" alt="Course Image">
             </a>
           </div>
           <div class="course-body">
@@ -225,7 +225,7 @@ ICAR.”
         <div class="course-card">
           <div class="course-img">
             <a href="food-technology.php">
-              <img src="assets/uploads/food.webp" alt="">
+              <img src="assets/uploads/food.webp" alt="Course Image">
             </a>
           </div>
           <div class="course-body">
@@ -245,7 +245,7 @@ ICAR.”
         <div class="course-card">
           <div class="course-img">
             <a href="b-tech-food-technology.php">
-              <img src="assets/uploads/food-technology.jpg" alt="">
+              <img src="assets/uploads/food-technology.jpg" alt="Course Image">
             </a>
           </div>
           <div class="course-body">
@@ -275,7 +275,7 @@ ICAR.”
         <div class="course-card">
           <div class="course-img">
             <a href="master-in-agriculture.php">
-              <img src="assets/uploads/agriculture.webp" alt="">
+              <img src="assets/uploads/agriculture.webp" alt="Course Image">
             </a>
           </div>
           <div class="course-body">
@@ -295,7 +295,7 @@ ICAR.”
         <div class="course-card">
           <div class="course-img">
             <a href="horticulture-colleges-in-dehradun-uttarakhand.php">
-              <img src="assets/uploads/horticulture.webp" alt="">
+              <img src="assets/uploads/horticulture.webp" alt="Course Image">
             </a>
           </div>
           <div class="course-body">
@@ -315,7 +315,7 @@ ICAR.”
         <div class="course-card">
           <div class="course-img">
             <a href="genetics-and-plant-breeding.php">
-              <img src="assets/uploads/genetics.webp" alt="">
+              <img src="assets/uploads/genetics.webp" alt="Course Image">
             </a>
           </div>
           <div class="course-body">
@@ -335,7 +335,7 @@ ICAR.”
         <div class="course-card">
           <div class="course-img">
             <a href="master-in-food-technology.php">
-              <img src="assets/uploads/food-2.webp" alt="">
+              <img src="assets/uploads/food-2.webp" alt="Course Image">
             </a>
           </div>
           <div class="course-body">
@@ -756,6 +756,127 @@ ICAR.”
 
   </div>
 </section>
+<?php
+// Load blogs
+$dataFile = __DIR__ . "/admin/data/blogs.json";
+$blogs = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
+
+// SET DEPARTMENT TAG
+$dept = "Agriculture"; // change dynamically if needed
+
+// FILTER BLOGS BY TAG
+$filteredBlogs = [];
+foreach ($blogs as $id => $b) {
+    if (!empty($b['tags']) && in_array($dept, $b['tags'])) {
+        $filteredBlogs[$id] = $b;
+    }
+}
+
+// LATEST BLOGS (limit 8 for slider)
+$latestBlogs = array_slice(array_reverse($filteredBlogs, true), 0, 10, true);
+?>
+
+<?php if (!empty($latestBlogs)): ?>  <!-- 🔥 MAIN CONDITION -->
+
+<div class="event-area bg-img default-overlay pt-10 pb-10">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-12">
+                <div class="section-title-3 mb-45 mrg-bottom-small">
+                    <h2>Our <span>Blog</span></h2>
+                    <p>Insights and updates from Maya Devi University.</p>
+                </div>
+
+                <div class="blog-active">
+                    
+                    <?php foreach ($latestBlogs as $id => $b):
+                        $img = $b['image'] ?? 'assets/img/blog/default.jpg';
+                        $title = $b['title'] ?? '';
+                        $excerpt = substr(strip_tags($b['content']), 0, 80) . '...';
+                        $author = $b['author'] ?? 'Admin';
+                        $date = $b['date'] ?? '';
+                        $tags = $b['tags'] ?? [];
+                    ?>
+                        <div class="single-blog">
+                            <div class="blog-img" style="height:200px; overflow:hidden;">
+                                <a href="blog-single.php?id=<?= $id ?>">
+                                    <img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;">
+                                </a>
+                            </div>
+
+                            <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                                <?php if (!empty($tags)) echo "<span>" . htmlspecialchars($tags[0]) . "</span>"; ?>
+
+                                <div class="blog-content" style="flex-grow:1;">
+                                    <h4>
+                                        <a href="blog-single.php?id=<?= $id ?>"><?= $title ?></a>
+                                    </h4>
+                                    <p><?= $excerpt ?></p>
+
+                                    <div class="blog-meta">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-user"></i> <?= $author ?></a></li>
+                                            <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="blog-date">
+                                    <a href="#"><i class="fa fa-calendar-o"></i> <?= $date ?></a>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<?php endif; ?>  <!-- 🔥 END CONDITION -->
+
+<style>
+.blog-active .single-blog {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    margin: 10px;
+    height: 100%;
+}
+
+.blog-active .blog-img {
+    flex: 0 0 200px;
+    overflow: hidden;
+}
+
+.blog-active .blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-active .blog-content-wrap {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 15px;
+}
+
+.blog-active .blog-content {
+    flex: 1;
+}
+.blog-active::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+</style>
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

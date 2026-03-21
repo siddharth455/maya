@@ -398,7 +398,7 @@
     /* Product img slider */
     $('.blog-active').slick({
         infinite: true,
-        slidesToShow: 2,
+        slidesToShow: 4,
         slidesToScroll: 1,
         prevArrow: '<span class="b-navigation b-navigation-prev "><i class="fa fa-angle-left"></i></span>',
         nextArrow: '<span class="b-navigation b-navigation-next active"><i class="fa fa-angle-right"></i></span>',

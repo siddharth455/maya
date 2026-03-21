@@ -8,8 +8,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/ibm.webp);">
         <div class="container">
-            <h2>B.Tech CS with IBM Associated Programs</h2>
-            <p>Industry-integrated undergraduate programs designed to equip students with cutting-edge technical knowledge and practical skills, enabling hands-on experience in AI tools, frameworks, and methodologies.</p>
+            <h2>B.Tech CS with IBM Associated Programs with Specialization</h2>
+           <p>Industry-integrated undergraduate programs in B.Tech Computer Science with IBM-associated specializations in Artificial Intelligence & Machine Learning, Data Science, and Cyber Security are designed to equip students with cutting-edge technical knowledge and practical skills.</p>
         </div>
     </div>
     <div class="breadcrumb-bottom">
@@ -26,7 +26,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/ibm.webp" alt="">
+                        <img src="assets/uploads/ibm.webp" alt="banner">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -35,12 +35,12 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="tab-pane active mt-5" id="course-details-1">
                             <div class="over-view-content">
                                 <h4>COURSE DETAILS</h4>
-                                <h5>Course Name : B.Tech CS with IBM Associated Programs</h5>
-                                <p>The B.Tech in Computer Science with specialization in Artificial Intelligence & Machine Learning (AI & ML), offered in collaboration with IBM, is an industry-integrated undergraduate program designed to equip students with cutting-edge technical knowledge and practical skills. This program bridges academic learning with real-world application through IBM's global expertise, enabling students to gain hands-on experience in AI tools, frameworks, and methodologies.</p>
-                                <p>With a curriculum that includes machine learning algorithms, neural networks, natural language processing, deep learning, and data science, the program prepares students for high-impact careers in AI-driven industries. Through IBM's mentorship, certifications, and project-based learning, students graduate with both a strong academic foundation and industry-readiness.
+                            <h5>Course Name : B.Tech CS with IBM Associated Programs (AI/ML, Data Science, Cyber Security)</h5>
+                                <p>The B.Tech in Computer Science with IBM-associated specializations in Artificial Intelligence & Machine Learning (AI & ML), Data Science, and Cyber Security is an industry-integrated undergraduate program designed to equip students with advanced technical knowledge and practical skills. This program bridges academic learning with real-world application through IBM’s global expertise, enabling students to gain hands-on experience with industry-standard tools, platforms, and methodologies.</p>
 
-                                    This forward-thinking program is ideal for aspiring technologists who want to drive innovation in sectors such as healthcare, finance, robotics, cyber security, and more—by leveraging the transformative power of artificial intelligence.</p>
+<p>The curriculum covers key areas such as machine learning, deep learning, neural networks, natural language processing, big data analytics, cloud computing, network security, cryptography, and ethical hacking. With IBM’s mentorship, certifications, and project-based learning approach, students develop both strong academic foundations and industry-ready capabilities.</p>
 
+<p>This forward-looking program is ideal for aspiring professionals who aim to drive innovation across sectors such as healthcare, finance, automation, cyber security, and data-driven enterprises—leveraging the power of advanced computing technologies and intelligent systems.</p>
                                 <div class="over-view-list">
                                     <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
@@ -49,39 +49,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Candidates must have passed 10+2 (Class 12th) or equivalent examination from a recognized board.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Mathematics</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Physics </p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Chemistry or Computer Science / Information Technology (optional) </p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Mode: Full-time </p>
+                                            <p>Candidates to have passed 10+2 with Physics, Mathematics, and Chemistry/Biotechnology/Technical Vocational subjects, securing a minimum of 45-55% aggregate marks.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -119,7 +87,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-AI-ML.php"><img class="animated" src="assets/uploads/ai.jpeg" alt=""></a>
+                                    <a href="b.tech-AI-ML.php"><img class="animated" src="assets/uploads/ai.jpeg" alt="Course Image"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.tech-AI-ML.php">B.Tech. Computer Science & Engineering (AI & ML)</a></h4>
@@ -129,7 +97,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 177</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -143,7 +111,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-data_science.php"><img class="animated" src="assets/uploads/data-science.webp" alt=""></a>
+                                    <a href="b.tech-data_science.php"><img class="animated" src="assets/uploads/data-science.webp" alt="Course Image"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.tech-data_science.php">B.Tech. Computer Science & Engineering (Data Science)</a></h4>
@@ -153,7 +121,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 177</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -167,7 +135,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-cyber_security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt=""></a>
+                                    <a href="b.tech-cyber_security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt="Course Image"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.tech-cyber_security.php">B.Tech. Computer Science & Engineering (Cyber Security & Forensics)</a></h4>
@@ -177,7 +145,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 177</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -191,7 +159,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-LE.php"><img class="animated" src="assets/uploads/b-tech-le.webp" alt=""></a>
+                                    <a href="b.tech-LE.php"><img class="animated" src="assets/uploads/b-tech-le.webp" alt="Course Image"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.tech-LE.php">B.Tech. Computer Science & Engineering (LE)</a></h4>
@@ -201,7 +169,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 127</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -226,8 +194,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sidebar-title mb-15">
                             <h4>About Us</h4>
                         </div>
-                        <p>Maya Devi University’s B.Tech in Computer Science equips students with strong technical skills in programming, software development, and emerging technologies. Supported by modern labs and expert faculty, the program blends theory with practical projects and industry exposure. Graduates are prepared for careers in software engineering, data science, AI, and other fast-growing technology domains worldwide.</p>
-
+                        <p>Maya Devi University’s B.Tech in Computer Science with IBM-associated specializations in Artificial Intelligence & Machine Learning, Data Science, and Cyber Security equips students with strong technical skills in programming, software development, and next-generation technologies. The program is designed to align academic learning with industry requirements through collaboration with IBM.</p>
                     </div>
 
                     <div class="sidebar-category mb-40">
@@ -257,8 +224,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 </div>
                                 <div class="course-list-content">
                                     <p>Industry-integrated curriculum powered by IBM
-                                        Specialization in emerging technologies (AI, Data Science, Cloud, Cyber Security, IoT)
-                                    </p>
+                                        Specialization in emerging technologies (AI, Data Science, Cloud, Cyber Security, IoT)</p>
                                 </div>
                             </div>
                             <div class="sin-over-view-list">
@@ -267,8 +233,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 </div>
                                 <div class="course-list-content">
                                     <p>Hands-on learning through labs, projects, and case studies
-Access to IBM digital tools, platforms, and learning resources
-Opportunities for IBM skill certifications</p>
+                                        Access to IBM digital tools, platforms, and learning resources</p>
                                 </div>
                             </div>
                             <div class="sin-over-view-list">
@@ -276,11 +241,25 @@ Opportunities for IBM skill certifications</p>
                                     <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
-                                    <p>Internship and industry interaction support
-Honors degree with strong computer science fundamentals</p>
+                                    <p>Opportunities for IBM skill certifications</p>
                                 </div>
                             </div>
-
+                            <div class="sin-over-view-list">
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="course-list-content">
+                                    <p>Internship and industry interaction support</p>
+                                </div>
+                            </div>
+                            <div class="sin-over-view-list">
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="course-list-content">
+                                    <p>Honors degree with strong computer science fundamentals</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="over-view-list">
@@ -301,7 +280,7 @@ Honors degree with strong computer science fundamentals</p>
                                 <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
-                                <p>Artificial Intelligence Engineer</p>
+                                <p>AI / Machine Learning Engineer</p>
                             </div>
                         </div>
                         <div class="sin-over-view-list">
@@ -317,7 +296,7 @@ Honors degree with strong computer science fundamentals</p>
                                 <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
-                                <p>AI Research Scientist </p>
+                                <p>Cloud Engineer</p>
                             </div>
                         </div>
                         <div class="sin-over-view-list">
@@ -325,7 +304,7 @@ Honors degree with strong computer science fundamentals</p>
                                 <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
-                                <p>Computer Vision Engineer </p>
+                                <p>Cyber Security Analyst</p>
                             </div>
                         </div>
                         <div class="sin-over-view-list">
@@ -333,40 +312,7 @@ Honors degree with strong computer science fundamentals</p>
                                 <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
-                                <p>Natural Language Processing (NLP) Engineer </p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i>
-                            </div>
-                            <div class="course-list-content">
-                                <p>Big Data Engineer </p>
-                            </div>
-                        </div>
-
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i>
-                            </div>
-                            <div class="course-list-content">
-                                <p>Deep Learning Specialist </p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i>
-                            </div>
-                            <div class="course-list-content">
-                                <p>Business Intelligence Analyst </p>
-                            </div>
-                        </div>
-                        <div class="sin-over-view-list">
-                            <div class="course-list-icon">
-                                <i class="fa fa-check"></i>
-                            </div>
-                            <div class="course-list-content">
-                                <p>Software Developer (AI/ML-based systems) </p>
+                                <p>IoT / Blockchain Developer</p>
                             </div>
                         </div>
                     </div>
@@ -382,46 +328,46 @@ Honors degree with strong computer science fundamentals</p>
         <h2 class="text-center mt-3 mb-3">Industry Partner</h2>
         <div class="brand-logo-active owl-carousel">
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/1.webp" alt="">
+                <img src="assets/img/brand-logo/1.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/2.webp" alt="">
+                <img src="assets/img/brand-logo/2.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/3.webp" alt="">
+                <img src="assets/img/brand-logo/3.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/4.webp" alt="">
+                <img src="assets/img/brand-logo/4.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/5.webp" alt="">
+                <img src="assets/img/brand-logo/5.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/6.webp" alt="">
+                <img src="assets/img/brand-logo/6.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/7.webp" alt="">
+                <img src="assets/img/brand-logo/7.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/8.webp" alt="">
+                <img src="assets/img/brand-logo/8.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/9.webp" alt="">
+                <img src="assets/img/brand-logo/9.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/10.webp" alt="">
+                <img src="assets/img/brand-logo/10.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/11.webp" alt="">
+                <img src="assets/img/brand-logo/11.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/12.webp" alt="">
+                <img src="assets/img/brand-logo/12.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/13.webp" alt="">
+                <img src="assets/img/brand-logo/13.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/14.webp" alt="">
+                <img src="assets/img/brand-logo/14.webp" alt="brand-logo">
             </div>
         </div>
     </div>

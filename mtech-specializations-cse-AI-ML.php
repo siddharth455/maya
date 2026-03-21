@@ -4,12 +4,12 @@ $page_description = "Enroll in M.Tech CSE with AI & ML specialization at Maya De
 $canonical_url = "https://maya.edu.in/mtech-specializations-cse-AI-ML.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
-<?php require "common/header.php"?>
+<?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/mtech-cse.webp);">
         <div class="container">
             <h2>M.Tech CSE Specializations</h2>
-            <p>The Bachelor of Technology in Computer Science and Engineering (B.Tech CSE) Lateral Entry is a comprehensive undergraduate program designed to provide students with both a strong theoretical foundation and practical skills necessary to thrive in the fast-evolving world of computing and technology.</p>
+            <p>The Master of Technology in Computer Science and Engineering (M.Tech CSE) with specializations in Artificial Intelligence & Machine Learning, Data Science, and Cyber Security is an advanced postgraduate program designed to equip students with in-depth theoretical knowledge and cutting-edge practical skills.</p>
         </div>
     </div>
     <div class="breadcrumb-bottom">
@@ -34,63 +34,55 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                     <div class="tab-content jump">
                         <div class="tab-pane active mt-5" id="course-details-1">
                             <div class="over-view-content">
-                                <h4>COURSE  DETAILS</h4>
-                                <h5>Course Name : B.Tech CSE with Specialization AI & ML</h5>
-                                <p>The Bachelor of Technology (B.Tech) in Computer Science with a Specialization in Artificial Intelligence & Machine Learning (AI & ML) is a cutting-edge undergraduate program designed to equip students with a strong foundation in core computer science principles, while providing in-depth knowledge and practical skills in AI and ML technologies. This specialization emphasizes areas such as data science, deep learning, neural networks, natural language processing, computer vision, and intelligent systems.</p>
-                                <p>The curriculum blends theoretical concepts with hands-on learning, encouraging innovation, research, and real-world problem solving. Graduates of this program are prepared to contribute to transformative technological advancements across industries such as healthcare, finance, robotics, and automation.</p>
-                                <p>This program nurtures critical thinking, analytical skills, and ethical awareness—empowering students to lead the future of intelligent systems and machine learning applications.</p>
+                                <h4>COURSE DETAILS</h4>
+                                <h5>Course Name : M.Tech CSE with Specialization AI/ML, Data Science & Cyber Security</h5>
+                                <p>The Master of Technology (M.Tech) in Computer Science and Engineering with specializations in Artificial Intelligence & Machine Learning (AI & ML), Data Science, and Cyber Security is an advanced postgraduate program designed to provide students with a strong foundation in core computing principles while delivering in-depth expertise in emerging and high-demand domains. These specializations focus on areas such as advanced data analytics, deep learning, neural networks, big data technologies, network security, cryptography, ethical hacking, and intelligent systems.</p>
 
+<p>The curriculum integrates rigorous theoretical knowledge with extensive hands-on experience, promoting research, innovation, and real-world problem solving. Students engage with contemporary tools, frameworks, and technologies to address complex challenges across industries such as healthcare, finance, cybersecurity, e-commerce, and automation.</p>
+
+<p>This program fosters advanced analytical thinking, research-oriented learning, and ethical responsibility—empowering graduates to become leaders, innovators, and specialists in the fields of artificial intelligence, data science, and cyber security.</p>
                                 <div class="over-view-list">
-                                <h2>Eligibility Criteria</h2>
+                                    <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
-                                       
+
                                         <div class="course-list-icon">
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Polytechnic (Computer Science / Information Technology)</p>
-                                        </div>
-                                    </div>
-                                   
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Mode: Full-time </p>
+                                            <p>Pass with 55% aggregate marks in B.Tech. (any stream) or MCA or M.Sc. (Information Technology or Computer Science) or equivalent</p>
                                         </div>
                                     </div>
                                 </div>
                                 <h2>More Details</h2>
                                 <div class="course-summary-wrap mt-4">
-                                    
+
                                     <div class="single-course-summary">
                                         <h4>Total Students</h4>
                                         <span><i class="fa fa-user"></i> 60</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Duration</h4>
-                                        <span><i class="fa fa-clock-o"></i> 3yrs</span>
+                                        <span><i class="fa fa-clock-o"></i> 2yrs</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Credits</h4>
-                                        <span><i class="fa fa-diamond"></i> 125</span>
+                                        <span><i class="fa fa-diamond"></i> 88</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Total Semester</h4>
-                                        <span><i class="fa fa-book"></i> 6</span>
+                                        <span><i class="fa fa-book"></i> 4</span>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
-                       
+
                     </div>
-                    
+
                     <div class="related-course pt-70">
                         <div class="related-title mb-45 mrg-bottom-small">
                             <h3>Related Course</h3>
-                           
+
                         </div>
                         <div class="related-slider-active">
                             <div class="single-course">
@@ -105,7 +97,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 177</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -129,7 +121,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 177</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -153,7 +145,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 177</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -177,7 +169,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 177</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -192,20 +184,19 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                     </div>
                 </div>
-                
+
             </div>
-            
+
             <div class="col-xl-3 col-lg-4">
                 <div class="sidebar-style sidebar-res-mrg-none">
-                   
+
                     <div class="sidebar-about mb-40">
                         <div class="sidebar-title mb-15">
                             <h4>About Us</h4>
                         </div>
-                        <p>Maya Devi University’s B.Tech in Computer Science equips students with strong technical skills in programming, software development, and emerging technologies. Supported by modern labs and expert faculty, the program blends theory with practical projects and industry exposure. Graduates are prepared for careers in software engineering, data science, AI, and other fast-growing technology domains worldwide.</p>
-                       
+                        <p>Maya Devi University’s M.Tech in Computer Science and Engineering with specializations in Artificial Intelligence & Machine Learning, Data Science, and Cyber Security equips students with advanced technical expertise in modern computing technologies. Supported by state-of-the-art laboratories, research-driven learning, and experienced faculty, the program emphasizes both theoretical depth and practical application in specialized domains.</p>
                     </div>
-                    
+
                     <div class="sidebar-category mb-40">
                         <div class="sidebar-title mb-40">
                             <h4>School Category</h4>
@@ -225,123 +216,82 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <h4>Key Features</h4>
                         </div>
                         <div class="over-view-list">
-                               
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Advanced Programming</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>System Architecture</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Software Design </p>
-                                        </div>
-                                    </div>
-                                  
+
+                            <div class="sin-over-view-list">
+
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
                                 </div>
+                                <div class="course-list-content">
+                                    <p>Advanced specialization in Computer Science & Engineering
+                                        Industry-oriented curriculum with research focus
+                                        Exposure to emerging technologies (AI, ML, Data Science, IoT, Cyber Security)</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="over-view-list">
-                    <div class="sidebar-title mb-40">
+                        <div class="sidebar-title mb-40">
                             <h4>Career Prospects</h4>
                         </div>
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Machine Learning Engineer</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Artificial Intelligence Engineer</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Data Scientist / Data Analyst </p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>AI Research Scientist </p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Computer Vision Engineer </p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Natural Language Processing (NLP) Engineer </p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Big Data Engineer </p>
-                                        </div>
-                                    </div>
-                                   
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Deep Learning Specialist </p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Business Intelligence Analyst </p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Software Developer (AI/ML-based systems) </p>
-                                        </div>
-                                    </div>
-                                </div>
-                   
+                        <div class="sin-over-view-list">
+
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Software Engineer / Senior Developer</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Data Scientist / AI–ML Engineer</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Cyber Security Analyst</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Cloud & DevOps Engineer</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Research Scholar / Ph.D. Aspirant</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Academician (Assistant Professor)</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Technical Consultant / System Architect</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -353,78 +303,83 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <h2 class="text-center mt-3 mb-3">Industry Partner</h2>
         <div class="brand-logo-active owl-carousel">
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/1.webp" alt="">
+                <img src="assets/img/brand-logo/1.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/2.webp" alt="">
+                <img src="assets/img/brand-logo/2.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/3.webp" alt="">
+                <img src="assets/img/brand-logo/3.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/4.webp" alt="">
+                <img src="assets/img/brand-logo/4.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/5.webp" alt="">
+                <img src="assets/img/brand-logo/5.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/6.webp" alt="">
+                <img src="assets/img/brand-logo/6.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/7.webp" alt="">
+                <img src="assets/img/brand-logo/7.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/8.webp" alt="">
+                <img src="assets/img/brand-logo/8.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/9.webp" alt="">
+                <img src="assets/img/brand-logo/9.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/10.webp" alt="">
+                <img src="assets/img/brand-logo/10.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/11.webp" alt="">
+                <img src="assets/img/brand-logo/11.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/12.webp" alt="">
+                <img src="assets/img/brand-logo/12.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/13.webp" alt="">
+                <img src="assets/img/brand-logo/13.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/14.webp" alt="">
+                <img src="assets/img/brand-logo/14.webp" alt="brand-logo">
             </div>
         </div>
     </div>
 </div>
 
-<?php require "common/footer.php"?>
+<?php require "common/footer.php" ?>
 <style>
     .single-brand-logo img {
-    width: 150px;
-    height: 100px;
-    object-fit: contain;
-    display: block;
-    margin: auto;
-}
-
-    </style>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        width: 150px;
+        height: 100px;
+        object-fit: contain;
+        display: block;
+        margin: auto;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script>
-    $(document).ready(function(){
-      $('.brand-logo-active').owlCarousel({
-        loop: true,
-        margin: 20,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true,
-        smartSpeed: 800,
-        responsive: {
-          0: { items: 2 },
-          600: { items: 4 },
-          1000: { items: 6 }
-        }
-      });
+    $(document).ready(function() {
+        $('.brand-logo-active').owlCarousel({
+            loop: true,
+            margin: 20,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            smartSpeed: 800,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 4
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        });
     });
 </script>

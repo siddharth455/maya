@@ -4,7 +4,7 @@ $page_description = "Enroll in B.Sc Computer Science at Maya Devi University, De
 $canonical_url = "https://maya.edu.in/bachelor-of-science-in-computer-science.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
-<?php require "common/header.php"?>
+<?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/cs.webp);">
         <div class="container">
@@ -34,43 +34,27 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                     <div class="tab-content jump">
                         <div class="tab-pane active mt-5" id="course-details-1">
                             <div class="over-view-content">
-                                <h4>COURSE  DETAILS</h4>
-                            <h5>Course Name : BSc in Computer Science (CS)</h5>
+                                <h4>COURSE DETAILS</h4>
+                                <h5>Course Name : BSc in Computer Science (CS)</h5>
                                 <p>This program equips students with essential skills in programming, algorithms, software development, and computer architecture, preparing them for the dynamic world of computing and technology.</p>
                                 <p>Graduates with this specialization are prepared for diverse roles in software development, system analysis, programming, and research, making them valuable contributors in IT companies, software firms, research labs, and beyond.</p>
                                 <p>Through a combination of theoretical knowledge and practical training, students learn to develop software solutions, manage computer systems, and understand complex computational problems. The curriculum also covers areas such as database management, operating systems, networking, and cybersecurity, giving students a comprehensive understanding of computer science and its applications.</p>
 
                                 <div class="over-view-list">
-                                <h2>Eligibility Criteria</h2>
+                                    <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
-                                       
+
                                         <div class="course-list-icon">
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Candidate must have completed 10+2 (Class 12th) or equivalent examination from a recognized board.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Typically, students from Science stream (with Mathematics/Computer Science) are preferred.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Some colleges also accept students from Commerce or Arts streams, depending on the institution's policies. </p>
+                                            <p>Pass with 50% aggregate marks in 10+2 (with English) or equivalent.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <h2>More Details</h2>
                                 <div class="course-summary-wrap mt-4">
-                                    
+
                                     <div class="single-course-summary">
                                         <h4>Total Students</h4>
                                         <span><i class="fa fa-user"></i> 60</span>
@@ -81,26 +65,26 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Credits</h4>
-                                        <span><i class="fa fa-diamond"></i> 125</span>
+                                        <span><i class="fa fa-diamond"></i> 120</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Total Semester</h4>
                                         <span><i class="fa fa-book"></i> 6</span>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
-                       
+
                     </div>
-                    
+
                     <div class="related-course pt-70">
                         <div class="related-title mb-45 mrg-bottom-small">
                             <h3>Related Course</h3>
-                           
+
                         </div>
                         <div class="related-slider-active">
-                        <div class="single-course">
+                            <div class="single-course">
                                 <div class="course-img">
                                     <a href="bachelor-of-computer-application-AI-&-ML.php"><img class="animated" src="assets/uploads/ai.jpeg" alt=""></a>
                                 </div>
@@ -112,7 +96,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 120</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -136,7 +120,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 120</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -160,7 +144,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 120</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -177,14 +161,14 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <a href="bachelor-of-science-in-information-technology.php"><img class="animated" src="assets/uploads/it.webp" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                            <h4><a href="bachelor-of-science-in-information-technology.php">B.Sc. Information technology</a></h4>
+                                    <h4><a href="bachelor-of-science-in-information-technology.php">B.Sc. Information technology</a></h4>
                                     <p>Program focusing on IT infrastructure, networking, and software applications.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 120</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -196,24 +180,24 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                 </div>
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>
-                
+
             </div>
-            
+
             <div class="col-xl-3 col-lg-4">
                 <div class="sidebar-style sidebar-res-mrg-none">
-                   
+
                     <div class="sidebar-about mb-40">
                         <div class="sidebar-title mb-15">
                             <h4>About Us</h4>
                         </div>
                         <p>Maya Devi University’s B.Sc. Computer Science program equips students with strong technical skills in computing, programming, software development, and emerging technologies. Supported by modern labs and expert faculty, the program blends theoretical learning with practical projects and industry exposure. Graduates are prepared for careers in software engineering, data science, AI, and other fast-growing technology domains worldwide.</p>
-                       
+
                     </div>
-                    
+
                     <div class="sidebar-category mb-40">
                         <div class="sidebar-title mb-40">
                             <h4>School Category</h4>
@@ -233,98 +217,76 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <h4>Key Features</h4>
                         </div>
                         <div class="over-view-list">
-                               
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Programming Languages</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Data Structures</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Algorithms</p>
-                                        </div>
-                                    </div>
-                                  
+
+                            <div class="sin-over-view-list">
+
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
                                 </div>
+                                <div class="course-list-content">
+                                    <p>Strong foundation in Computer Applications and IT
+                                        Industry-oriented curriculum with practical exposure
+                                        Focus on programming, databases, web, and emerging technologies.</p>
+                                </div>
+                            </div>
+                            <div class="sin-over-view-list">
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="course-list-content">
+                                    <p>Enhances problem-solving and analytical skills
+                                        Prepares students for higher studies and IT careers.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="over-view-list">
-                    <div class="sidebar-title mb-40">
+                        <div class="sidebar-title mb-40">
                             <h4>Career Prospects</h4>
                         </div>
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Software Developer / Engineer</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>System Analyst</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Web Developer</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Database Developer / Administrator</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Network Administrator</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Quality Assurance Tester</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Research Assistant</p>
-                                        </div>
-                                    </div>
-                                </div>
-                   
+                        <div class="sin-over-view-list">
+
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Software Developer / Programmer</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Web Designer / Web Developer</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Database Administrator</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>System Analyst / IT Support Executive</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Opportunities in IT firms, startups, and government sectors</p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -336,78 +298,83 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <h2 class="text-center mt-3 mb-3">Industry Partner</h2>
         <div class="brand-logo-active owl-carousel">
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/1.webp" alt="">
+                <img src="assets/img/brand-logo/1.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/2.webp" alt="">
+                <img src="assets/img/brand-logo/2.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/3.webp" alt="">
+                <img src="assets/img/brand-logo/3.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/4.webp" alt="">
+                <img src="assets/img/brand-logo/4.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/5.webp" alt="">
+                <img src="assets/img/brand-logo/5.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/6.webp" alt="">
+                <img src="assets/img/brand-logo/6.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/7.webp" alt="">
+                <img src="assets/img/brand-logo/7.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/8.webp" alt="">
+                <img src="assets/img/brand-logo/8.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/9.webp" alt="">
+                <img src="assets/img/brand-logo/9.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/10.webp" alt="">
+                <img src="assets/img/brand-logo/10.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/11.webp" alt="">
+                <img src="assets/img/brand-logo/11.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/12.webp" alt="">
+                <img src="assets/img/brand-logo/12.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/13.webp" alt="">
+                <img src="assets/img/brand-logo/13.webp" alt="brand-logo">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/14.webp" alt="">
+                <img src="assets/img/brand-logo/14.webp" alt="brand-logo">
             </div>
         </div>
     </div>
 </div>
 
-<?php require "common/footer.php"?>
+<?php require "common/footer.php" ?>
 <style>
     .single-brand-logo img {
-    width: 150px;
-    height: 100px;
-    object-fit: contain;
-    display: block;
-    margin: auto;
-}
-
-    </style>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        width: 150px;
+        height: 100px;
+        object-fit: contain;
+        display: block;
+        margin: auto;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script>
-    $(document).ready(function(){
-      $('.brand-logo-active').owlCarousel({
-        loop: true,
-        margin: 20,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true,
-        smartSpeed: 800,
-        responsive: {
-          0: { items: 2 },
-          600: { items: 4 },
-          1000: { items: 6 }
-        }
-      });
+    $(document).ready(function() {
+        $('.brand-logo-active').owlCarousel({
+            loop: true,
+            margin: 20,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            smartSpeed: 800,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 4
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        });
     });
 </script>
