@@ -4,7 +4,7 @@ $page_description = "Maya Devi University is among the best B.Pharm colleges in 
 $canonical_url = "https://maya.edu.in/best-b-pharma-colleges-in-dehradun-uttarakhand.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
-<?php require "common/header.php"?>
+<?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/pharmacy.webp);">
         <div class="container">
@@ -34,16 +34,16 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                     <div class="tab-content jump">
                         <div class="tab-pane active mt-5" id="course-details-1">
                             <div class="over-view-content">
-                                <h4>COURSE  DETAILS</h4>
-                            <h5>Course Name : Bachelor in Pharmacy</h5>
-                            <p>Our Bachelor in Pharmacy (B.Pharm) program at Maya Devi University is designed to meet the evolving needs of the healthcare and pharmaceutical industry. Students gain in-depth knowledge and practical skills in pharmacy, drug development, and patient care.</p>
-<p>A B.Pharm provides a strong foundation for careers in community and hospital pharmacies, pharmaceutical research and development, regulatory affairs, and healthcare organizations. Core subjects such as Pharmacology, Pharmaceutics, Pharmaceutical Chemistry, Pharmacognosy, and Clinical Pharmacy form the backbone of the program and prepare students for professional practice in pharmacy.</p>
+                                <h4>COURSE DETAILS</h4>
+                                <h5>Course Name : Bachelor in Pharmacy</h5>
+                                <p>Our Bachelor in Pharmacy (B.Pharm) program at Maya Devi University is designed to meet the evolving needs of the healthcare and pharmaceutical industry. Students gain in-depth knowledge and practical skills in pharmacy, drug development, and patient care.</p>
+                                <p>A B.Pharm provides a strong foundation for careers in community and hospital pharmacies, pharmaceutical research and development, regulatory affairs, and healthcare organizations. Core subjects such as Pharmacology, Pharmaceutics, Pharmaceutical Chemistry, Pharmacognosy, and Clinical Pharmacy form the backbone of the program and prepare students for professional practice in pharmacy.</p>
 
 
                                 <div class="over-view-list">
-                                <h2>Eligibility Criteria</h2>
+                                    <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
-                                       
+
                                         <div class="course-list-icon">
                                             <i class="fa fa-check"></i>
                                         </div>
@@ -56,7 +56,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
-                                            <p>10+2 with Physics and Chemistry.</p>
+                                            <p>10+2 with PCB/PCM from a recognised board with english as compulsory subject</p>
                                         </div>
                                     </div>
                                     <div class="sin-over-view-list">
@@ -86,7 +86,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 </div>
                                 <h2>More Details</h2>
                                 <div class="course-summary-wrap mt-4">
-                                    
+
                                     <div class="single-course-summary">
                                         <h4>Approved Seats- 2026-27</h4>
                                         <span><i class="fa fa-user"></i> 100</span>
@@ -95,18 +95,18 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         <h4>Program Duration</h4>
                                         <span><i class="fa fa-clock-o"></i> 4years/8semester</span>
                                     </div>
-                                    
+
                                 </div>
-                                
+
                             </div>
                         </div>
-                       
+
                     </div>
-                    
+
                     <div class="related-course pt-70">
                         <div class="related-title mb-45 mrg-bottom-small">
                             <h3>Related Course</h3>
-                           
+
                         </div>
                         <div class="related-slider-active">
                             <div class="single-course">
@@ -114,8 +114,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <a href="bachelor-pharmacy-lateral-entry.php"><img class="animated" src="assets/uploads/pharmacy-le.jpg" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                <h4><a href="bachelor-pharmacy-lateral-entry.php">Bachelor of pharmacy (Lateral Entry)</a></h4>
-                                <p>The B.Pharm Lateral Entry program is a three-year course focusing on pharmaceutical sciences, drug development, and pharmacy practice.</p>
+                                    <h4><a href="bachelor-pharmacy-lateral-entry.php">Bachelor of pharmacy (Lateral Entry)</a></h4>
+                                    <p>The B.Pharm Lateral Entry program is a three-year course focusing on pharmaceutical sciences, drug development, and pharmacy practice.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
@@ -138,8 +138,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <a href="best-d-pharma-college-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/d.pharmacy.jpeg" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                <h4><a href="best-d-pharma-college-in-dehradun-uttarakhand.php">Diploma in Pharmacy</a></h4>
-                                <p>The Diploma in Pharmacy program trains students in pharmaceutical sciences, drug formulation, and practical pharmacy skills.</p>
+                                    <h4><a href="best-d-pharma-college-in-dehradun-uttarakhand.php">Diploma in Pharmacy</a></h4>
+                                    <p>The Diploma in Pharmacy program trains students in pharmaceutical sciences, drug formulation, and practical pharmacy skills.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
@@ -162,8 +162,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <a href="master-pharmacy-pharmaceutics.php"><img class="animated" src="assets/uploads/mpharm.jpg" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                <h4><a href="master-pharmacy-pharmaceutics.php">Master in Pharmacy</a></h4>
-                                <p>The M.Pharm program offers advanced training in pharmaceutical sciences and drug development for careers in pharmacy and research.</p>
+                                    <h4><a href="master-pharmacy-pharmaceutics.php">Master in Pharmacy</a></h4>
+                                    <p>The M.Pharm program offers advanced training in pharmaceutical sciences and drug development for careers in pharmacy and research.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
@@ -184,12 +184,12 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                     </div>
                 </div>
-                
+
             </div>
-            
+
             <div class="col-xl-3 col-lg-4">
                 <div class="sidebar-style sidebar-res-mrg-none">
-                   
+
                     <div class="sidebar-about mb-40">
                         <div class="sidebar-title mb-15">
                             <h4>About Us</h4>
@@ -197,7 +197,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <p>Maya Devi University’s Bachelor in Pharmacy (B.Pharm) program provides in-depth knowledge and practical training in pharmacology, pharmaceutical chemistry, pharmaceutics, and clinical pharmacy. Graduates are prepared for careers in community & hospital pharmacies, pharmaceutical Research & Development, regulatory affairs and health care management contributing to safe & effective use of medication & pharmaceutical innovation.</p>
 
                     </div>
-                    
+
                     <div class="sidebar-category mb-40">
                         <div class="sidebar-title mb-40">
                             <h4>School Category</h4>
@@ -246,7 +246,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 </div>
                     </div>
                     <div class="over-view-list">
-                    <div class="sidebar-title mb-40">
+                        <div class="sidebar-title mb-40">
                             <h4>Career Prospects</h4>
                         </div>
                                     <div class="sin-over-view-list">
@@ -318,7 +318,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="container">
         <h2 class="text-center mt-3 mb-3">Industry Partner</h2>
         <div class="brand-logo-active owl-carousel">
-           
+
             <div class="single-brand-logo">
                 <img src="assets/img/brand-logo/15.webp" alt="">
             </div>
@@ -349,7 +349,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="single-brand-logo">
                 <img src="assets/img/brand-logo/11.webp" alt="">
             </div>
-             <div class="single-brand-logo">
+            <div class="single-brand-logo">
                 <img src="assets/img/brand-logo/1.webp" alt="">
             </div>
             <div class="single-brand-logo">
@@ -362,33 +362,38 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     </div>
 </div>
 
-<?php require "common/footer.php"?>
+<?php require "common/footer.php" ?>
 <style>
     .single-brand-logo img {
-    width: 150px;
-    height: 100px;
-    object-fit: contain;
-    display: block;
-    margin: auto;
-}
-
-    </style>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        width: 150px;
+        height: 100px;
+        object-fit: contain;
+        display: block;
+        margin: auto;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script>
-    $(document).ready(function(){
-      $('.brand-logo-active').owlCarousel({
-        loop: true,
-        margin: 20,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true,
-        smartSpeed: 800,
-        responsive: {
-          0: { items: 2 },
-          600: { items: 4 },
-          1000: { items: 6 }
-        }
-      });
+    $(document).ready(function() {
+        $('.brand-logo-active').owlCarousel({
+            loop: true,
+            margin: 20,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            smartSpeed: 800,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 4
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        });
     });
 </script>

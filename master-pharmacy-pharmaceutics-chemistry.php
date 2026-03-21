@@ -4,7 +4,7 @@ $page_description = "Study M.Pharm Pharmaceutics Chemistry at Maya Devi Universi
 $canonical_url = "https://maya.edu.in/master-pharmacy-pharmaceutics-chemistry.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
-<?php require "common/header.php"?>
+<?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/pharmacy.webp);">
         <div class="container">
@@ -34,20 +34,20 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                     <div class="tab-content jump">
                         <div class="tab-pane active mt-5" id="course-details-1">
                             <div class="over-view-content">
-                                <h4>COURSE  DETAILS</h4>
-                            <h5>Course Name : M.Pharm – Pharmaceutical Chemistry</h5>
-                            <p>M.Pharm Pharmaceutical Chemistry focuses on the advanced study of drug design, synthesis, and structural modification of pharmaceutical compounds. The course emphasizes medicinal chemistry, advanced organic synthesis, and structure–activity relationship (SAR) studies, enabling students to understand how chemical structure influences biological activity.</p>
-<p>The program also covers spectral characterization techniques, modern analytical tools, and research methodology, along with a research project/dissertation, preparing graduates for careers in pharmaceutical R&D, quality control, academia, and regulatory research.</p>
+                                <h4>COURSE DETAILS</h4>
+                                <h5>Course Name : M.Pharm – Pharmaceutical Chemistry</h5>
+                                <p>M.Pharm Pharmaceutical Chemistry focuses on the advanced study of drug design, synthesis, and structural modification of pharmaceutical compounds. The course emphasizes medicinal chemistry, advanced organic synthesis, and structure–activity relationship (SAR) studies, enabling students to understand how chemical structure influences biological activity.</p>
+                                <p>The program also covers spectral characterization techniques, modern analytical tools, and research methodology, along with a research project/dissertation, preparing graduates for careers in pharmaceutical R&D, quality control, academia, and regulatory research.</p>
 
                                 <div class="over-view-list">
-                                <h2>Eligibility Criteria</h2>
+                                    <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
-                                       
+
                                         <div class="course-list-icon">
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
-                                            <p>B.Pharm with minimum 55% marks for General category.</p>
+                                            <p>Pass in Bachelor in Pharmacy from a PCI approved institution with minimum 55% marks</p>
                                         </div>
                                     </div>
                                     <div class="sin-over-view-list">
@@ -58,11 +58,11 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                             <p>Minimum 45% marks for SC/ST category.</p>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                                 <h2>More Details</h2>
                                 <div class="course-summary-wrap mt-4">
-                                    
+
                                     <div class="single-course-summary">
                                         <h4>Approved seats –for session 2026-2027 </h4>
                                         <span><i class="fa fa-user"></i> 15</span>
@@ -73,23 +73,23 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Credits</h4>
-                                        <span><i class="fa fa-diamond"></i> 125</span>
+                                        <span><i class="fa fa-diamond"></i> Minimum 95 Maximum 100</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Total Semester</h4>
                                         <span><i class="fa fa-book"></i> 4</span>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
-                       
+
                     </div>
-                    
+
                     <div class="related-course pt-70">
                         <div class="related-title mb-45 mrg-bottom-small">
                             <h3>Related Course</h3>
-                           
+
                         </div>
                         <div class="related-slider-active">
                             <div class="single-course">
@@ -97,8 +97,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <a href="bachelor-pharmacy-lateral-entry.php"><img class="animated" src="assets/uploads/pharmacy-le.jpg" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                <h4><a href="bachelor-pharmacy-lateral-entry.php">Bachelor of pharmacy (Lateral Entry)</a></h4>
-                                <p>The B.Pharm Lateral Entry program is a three-year course focusing on pharmaceutical sciences, drug development, and pharmacy practice.</p>
+                                    <h4><a href="bachelor-pharmacy-lateral-entry.php">Bachelor of pharmacy (Lateral Entry)</a></h4>
+                                    <p>The B.Pharm Lateral Entry program is a three-year course focusing on pharmaceutical sciences, drug development, and pharmacy practice.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
@@ -121,8 +121,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <a href="master-pharmacy-pharmacology.php"><img class="animated" src="assets/uploads/pharma-cology.jpg" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                <h4><a href="master-pharmacy-pharmacology.php">M.pharm - Pharmacology</a></h4>
-                                <p>The M.Pharm in Pharmacology trains students in drug studies, pharmacological research, and clinical evaluation for careers in pharmacy and healthcare.</p>
+                                    <h4><a href="master-pharmacy-pharmacology.php">M.pharm - Pharmacology</a></h4>
+                                    <p>The M.Pharm in Pharmacology trains students in drug studies, pharmacological research, and clinical evaluation for careers in pharmacy and healthcare.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
@@ -145,8 +145,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <a href="master-pharmacy-pharmaceutics.php"><img class="animated" src="assets/uploads/mpharm.jpg" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                <h4><a href="master-pharmacy-pharmaceutics.php">Master in Pharmacy</a></h4>
-                                <p>The M.Pharm program offers advanced training in pharmaceutical sciences and drug development for careers in pharmacy and research.</p>
+                                    <h4><a href="master-pharmacy-pharmaceutics.php">Master in Pharmacy</a></h4>
+                                    <p>The M.Pharm program offers advanced training in pharmaceutical sciences and drug development for careers in pharmacy and research.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
@@ -167,19 +167,19 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         </div>
                     </div>
                 </div>
-                
+
             </div>
-            
+
             <div class="col-xl-3 col-lg-4">
                 <div class="sidebar-style sidebar-res-mrg-none">
-                   
+
                     <div class="sidebar-about mb-40">
                         <div class="sidebar-title mb-15">
                             <h4>About Us</h4>
                         </div>
                         <p>Maya Devi University’s M.Pharm in Pharmaceutical Chemistry program provides advanced knowledge and practical training in drug design, synthesis, analysis, and evaluation. Graduates are prepared for careers in pharmaceutical research, drug development, regulatory affairs, and academia, contributing to innovation and excellence in pharmaceutical sciences.</p>
                     </div>
-                    
+
                     <div class="sidebar-category mb-40">
                         <div class="sidebar-title mb-40">
                             <h4>School Category</h4>
@@ -244,7 +244,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 </div>
                     </div>
                     <div class="over-view-list">
-                    <div class="sidebar-title mb-40">
+                        <div class="sidebar-title mb-40">
                             <h4>Career Prospects</h4>
                         </div>
                                     <div class="sin-over-view-list">
@@ -316,7 +316,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="container">
         <h2 class="text-center mt-3 mb-3">Industry Partner</h2>
         <div class="brand-logo-active owl-carousel">
-           
+
             <div class="single-brand-logo">
                 <img src="assets/img/brand-logo/15.webp" alt="">
             </div>
@@ -347,7 +347,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="single-brand-logo">
                 <img src="assets/img/brand-logo/11.webp" alt="">
             </div>
-             <div class="single-brand-logo">
+            <div class="single-brand-logo">
                 <img src="assets/img/brand-logo/1.webp" alt="">
             </div>
             <div class="single-brand-logo">
@@ -360,33 +360,38 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     </div>
 </div>
 
-<?php require "common/footer.php"?>
+<?php require "common/footer.php" ?>
 <style>
     .single-brand-logo img {
-    width: 150px;
-    height: 100px;
-    object-fit: contain;
-    display: block;
-    margin: auto;
-}
-
-    </style>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        width: 150px;
+        height: 100px;
+        object-fit: contain;
+        display: block;
+        margin: auto;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script>
-    $(document).ready(function(){
-      $('.brand-logo-active').owlCarousel({
-        loop: true,
-        margin: 20,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true,
-        smartSpeed: 800,
-        responsive: {
-          0: { items: 2 },
-          600: { items: 4 },
-          1000: { items: 6 }
-        }
-      });
+    $(document).ready(function() {
+        $('.brand-logo-active').owlCarousel({
+            loop: true,
+            margin: 20,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            smartSpeed: 800,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 4
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        });
     });
 </script>

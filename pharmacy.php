@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>Diploma in Pharmacy</h4>
             <p>The Diploma in Pharmacy program trains students in pharmaceutical sciences, drug formulation, and practical pharmacy skills.</p>
             <div class="course-meta">
-              <span>Credits: 125</span>
+              <span>Credits: Not Applicable</span>
               <span>2 Years</span>
             </div>
             <a class="default-btn btn-block" href="best-d-pharma-college-in-dehradun-uttarakhand.php">Apply Now</a>
@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>Bachelor of Pharmacy</h4>
             <p>The B.Pharm program provides in-depth knowledge of pharmaceutical sciences, drug development, and professional pharmacy practice.</p>
             <div class="course-meta">
-              <span>Credits: 125</span>
+              <span>Credits:  211 - Applicable for students studied Remedial Mathematics 212-Applicable for students Studied Remedial Biology</span>
               <span>4 Years</span>
             </div>
             <a class="default-btn btn-block" href="best-b-pharma-colleges-in-dehradun-uttarakhand.php">Apply Now</a>
@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>B.Pharm (Lateral Entry)</h4>
             <p>The B.Pharm Lateral Entry program focuses on pharmaceutical sciences, drug development, and pharmacy practice.</p>
             <div class="course-meta">
-              <span>Credits: 125</span>
+              <span>Credits: 158</span>
               <span>3 Years</span>
             </div>
             <a class="default-btn btn-block" href="bachelor-pharmacy-lateral-entry.php">Apply Now</a>
@@ -235,7 +235,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>Master of Pharmacy</h4>
             <p>The M.Pharm program offers advanced training in pharmaceutical sciences and drug development.</p>
             <div class="course-meta">
-              <span>Credits: 125</span>
+              <span>Credits: Minimum 95  Maximum 100</span>
               <span>2 Years</span>
             </div>
             <a class="default-btn btn-block" href="master-pharmacy-pharmaceutics.php">Apply Now</a>
@@ -254,7 +254,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>M.Pharm – Pharmacology</h4>
             <p>Training in drug studies, pharmacological research, and clinical evaluation.</p>
             <div class="course-meta">
-              <span>Credits: 125</span>
+              <span>Credits: Minimum 95  Maximum 100</span>
               <span>2 Years</span>
             </div>
             <a class="default-btn btn-block" href="master-pharmacy-pharmacology.php">Apply Now</a>
@@ -273,7 +273,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>M.Pharm – Pharmaceutical Chemistry</h4>
             <p>Focuses on the design, synthesis, and analysis of drugs for R&D careers.</p>
             <div class="course-meta">
-              <span>Credits: 125</span>
+              <span>Credits: Minimum 95  Maximum 100</span>
               <span>2 Years</span>
             </div>
             <a class="default-btn btn-block" href="master-pharmacy-pharmaceutics-chemistry.php">Apply Now</a>
@@ -302,7 +302,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>Doctor of Pharmacy (Pharm D)</h4>
             <p>The Pharm D program focuses on clinical practice and patient care, preparing students for healthcare careers.</p>
             <div class="course-meta">
-              <span>Credits: 125</span>
+              <span>Credits: 173 hrs</span>
               <span>6 Years</span>
             </div>
             <a class="default-btn btn-block" href="DoctorPharmacy.php">Apply Now</a>
