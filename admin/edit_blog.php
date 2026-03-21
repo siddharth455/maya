@@ -16,10 +16,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $blogs[$id]['author'] = trim($_POST['author']);
     $blogs[$id]['date'] = trim($_POST['date']) ?: date('Y-m-d');
     $blogs[$id]['content'] = trim($_POST['content']);
-    $tagsInput = $_POST['tags'] ?? '';
-    $blogs[$id]['tags'] = array_filter(array_map('trim', explode(',', $tagsInput)));
 
-    // ✅ TOC checkbox
+    // ✅ UPDATED TAG HANDLING
+    $blogs[$id]['tags'] = $_POST['tags'] ?? [];
+
+    // TOC checkbox
     $blogs[$id]['show_toc'] = isset($_POST['enable_toc']);
 
     // Image upload
@@ -32,95 +33,92 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 
-    // Save updated blogs to JSON
+    // Save updated blogs
     $result = file_put_contents($dataFile, json_encode($blogs, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
     if (!$result) die("Error: Could not update blog. Check file permissions.");
 
     header("Location: admin.php");
     exit();
 }
+
+// existing tags for pre-select
+$currentTags = $blogs[$id]['tags'] ?? [];
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
     <title>Edit Blog Post</title>
-    <script src="https://cdn.jsdelivr.net/npm/tinymce@6.8.3/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tinymce@6.8.3/tinymce.min.js"></script>
+
     <style>
-        body { font-family: Arial, sans-serif; padding: 20px; background: #f4f6f8; }
-        .container { background: #fff; padding: 25px; max-width: 1100px; margin: 20px auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-        h2 { text-align: center; margin-bottom: 20px; }
-        input, textarea { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; }
-        label { font-weight: 600; display: block; margin-bottom: 5px; }
-        button { padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 1rem; }
-        button:hover { background: #1e7e34; }
-        .logout { float: right; background-color: #dc3545; color: white; padding: 8px 12px; text-decoration: none; border-radius: 6px; font-size: 0.9rem; }
-        .logout:hover { background-color: #c82333; }
+        body { font-family: Arial; padding: 20px; background: #f4f6f8; }
+        .container { background: #fff; padding: 25px; max-width: 1100px; margin: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        input, textarea, select { width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 6px; }
+        label { font-weight: 600; }
+        button { padding: 10px 20px; background: #28a745; color: #fff; border: none; border-radius: 6px; }
         img { border-radius: 6px; margin-top: 10px; }
-        .toc-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            padding-bottom: 15px;
-        }
-        .toc-item input[type="checkbox"] {
-            margin: 0;
-            width: 16px;
-            height: 16px;
-        }
-        .toc-item label {
-            margin: 0;
-            cursor: pointer;
-        }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <a class="logout" href="logout.php">Logout</a>
-        <h2>Edit Blog Post</h2>
-        <form method="post" enctype="multipart/form-data">
-            <label>Title</label>
-            <input type="text" name="title" value="<?= htmlspecialchars($blogs[$id]['title']) ?>" required>
+<div class="container">
+    <h2>Edit Blog Post</h2>
 
-            <label>Author</label>
-            <input type="text" name="author" value="<?= htmlspecialchars($blogs[$id]['author'] ?? '') ?>">
+    <form method="post" enctype="multipart/form-data">
 
-            <label>Date</label>
-            <input type="date" name="date" value="<?= htmlspecialchars($blogs[$id]['date'] ?? '') ?>">
+        <label>Title</label>
+        <input type="text" name="title" value="<?= htmlspecialchars($blogs[$id]['title']) ?>" required>
 
-            <label>Tags (comma separated)</label>
-            <input type="text" name="tags" value="<?= htmlspecialchars(implode(', ', $blogs[$id]['tags'] ?? [])) ?>">
+        <label>Author</label>
+        <input type="text" name="author" value="<?= htmlspecialchars($blogs[$id]['author'] ?? '') ?>">
 
-            <label>Content</label>
-            <textarea name="content" id="editor"><?= htmlspecialchars($blogs[$id]['content']) ?></textarea>
+        <label>Date</label>
+        <input type="date" name="date" value="<?= htmlspecialchars($blogs[$id]['date'] ?? '') ?>">
 
-            <label>Current Image</label><br>
-            <?php if (!empty($blogs[$id]['image'])): ?>
-                <img src="<?= $blogs[$id]['image'] ?>" alt="Blog Image" width="200"><br>
-            <?php else: ?>
-                <p>No image uploaded.</p>
-            <?php endif; ?>
+        <!-- ✅ TAG DROPDOWN WITH PRESELECT -->
+        <label>Tags</label>
+        <select name="tags[]" multiple size="6" required>
+            <?php
+            $allTags = [
+                "CSE","Engineering","Pharmacy","Commerce","HM",
+                "Life & Applied","Education","Agriculture","Nursing",
+                "Health Sciences","Paramedical","Arts","Law","Vocational","Ashtvakra"
+            ];
 
-            <label>Replace Image</label>
-            <input type="file" name="image">
+            foreach ($allTags as $tag) {
+                $selected = in_array($tag, $currentTags) ? 'selected' : '';
+                echo "<option value='$tag' $selected>" . ucfirst($tag) . "</option>";
+            }
+            ?>
+        </select>
 
-            <!-- TOC checkbox -->
-            <div class="toc-item">
-                <input type="checkbox" id="toc1" name="enable_toc" <?= !empty($blogs[$id]['show_toc']) ? 'checked' : '' ?> />
-                <label for="toc1">Show Table of Contents</label>
-            </div>
+        <label>Content</label>
+        <textarea name="content" id="editor"><?= htmlspecialchars($blogs[$id]['content']) ?></textarea>
 
-            <button type="submit">Update Blog Post</button>
-        </form>
-    </div>
+        <label>Current Image</label><br>
+        <?php if (!empty($blogs[$id]['image'])): ?>
+            <img src="<?= $blogs[$id]['image'] ?>" width="200"><br>
+        <?php endif; ?>
 
-    <script>
-        tinymce.init({
-            selector: '#editor',
-            plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount toc',
-            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media | align lineheight | numlist bullist checklist | emoticons charmap | table | toc | removeformat',
-            height: 300
-        });
-    </script>
+        <label>Replace Image</label>
+        <input type="file" name="image">
+
+        <div>
+            <input type="checkbox" name="enable_toc" <?= !empty($blogs[$id]['show_toc']) ? 'checked' : '' ?>>
+            Show Table of Contents
+        </div>
+
+        <button type="submit">Update Blog</button>
+    </form>
+</div>
+
+<script>
+tinymce.init({
+    selector: '#editor',
+    height: 300
+});
+</script>
+
 </body>
 </html>

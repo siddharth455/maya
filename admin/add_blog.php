@@ -8,10 +8,11 @@ error_reporting(E_ALL);
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title = trim($_POST['title']);
     $author = trim($_POST['author']);
-    $date = trim($_POST['date']) ?: date('Y-m-d'); // default to today
+    $date = trim($_POST['date']) ?: date('Y-m-d');
     $content = trim($_POST['content']);
-    $tagsInput = $_POST['tags'] ?? '';
-    $tagsArray = array_filter(array_map('trim', explode(',', $tagsInput)));
+
+    // ✅ NEW: get tags from dropdown
+    $tagsArray = $_POST['tags'] ?? [];
 
     // TOC checkbox
     $enableTOC = isset($_POST['enable_toc']);
@@ -30,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Load existing blogs
-    $dataFile = __DIR__ . '/data/blogs.json'; // correct path
+    $dataFile = __DIR__ . '/data/blogs.json';
     $blogs = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
 
     // Generate unique ID
@@ -53,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         die("Error: Could not save blog. Check file permissions.");
     }
 
-    // Redirect to admin dashboard
+    // Redirect
     header("Location: admin.php");
     exit();
 }
@@ -64,74 +65,99 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <title>Add New Blog Post</title>
     <script src="https://cdn.jsdelivr.net/npm/tinymce@6.8.3/tinymce.min.js" referrerpolicy="origin"></script>
+
     <style>
         body { font-family: Arial, sans-serif; padding: 20px; background: #f4f6f8; }
         .container { background: #fff; padding: 25px; max-width: 1100px; margin: 20px auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
         h2 { text-align: center; margin-bottom: 20px; }
-        input, textarea { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; }
+        input, textarea, select { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; }
         label { font-weight: 600; display: block; margin-bottom: 5px; }
         button { padding: 10px 20px; background: #007BFF; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 1rem; }
         button:hover { background: #0056b3; }
         .logout { float: right; background-color: #dc3545; color: white; padding: 8px 12px; text-decoration: none; border-radius: 6px; font-size: 0.9rem; }
         .logout:hover { background-color: #c82333; }
+
         .toc-item {
             display: flex;
             align-items: center;
             gap: 8px;
             padding-bottom: 15px;
         }
+
         .toc-item input[type="checkbox"] {
             margin: 0;
             width: 16px;
             height: 16px;
         }
+
         .toc-item label {
             margin: 0;
             cursor: pointer;
         }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <a class="logout" href="logout.php">Logout</a>
-        <h2>Add New Blog Post</h2>
-        <form method="post" enctype="multipart/form-data">
-            <label>Title</label>
-            <input type="text" name="title" required>
+<div class="container">
+    <a class="logout" href="logout.php">Logout</a>
+    <h2>Add New Blog Post</h2>
 
-            <label>Author</label>
-            <input type="text" name="author">
+    <form method="post" enctype="multipart/form-data">
 
-            <label>Date</label>
-            <input type="date" name="date">
+        <label>Title</label>
+        <input type="text" name="title" required>
 
-            <label>Tags (comma separated)</label>
-            <input type="text" name="tags" placeholder="e.g. Education, Scholarships">
+        <label>Author</label>
+        <input type="text" name="author">
 
-            <label>Content</label>
-            <textarea name="content" id="editor"></textarea>
+        <label>Date</label>
+        <input type="date" name="date">
 
-            <label>Upload Image</label>
-            <input type="file" name="image">
+        <!-- ✅ TAG DROPDOWN -->
+        <label>Tags (Select Department)</label>
+        <select name="tags[]" multiple required size="6">
+            <option value="CSE">CSE</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Pharmacy">Pharmacy</option>
+            <option value="Commerce">Commerce</option>
+            <option value="HM">HM</option>
+            <option value="Life & Applied">Life & Applied</option>
+            <option value="Education">Education</option>
+            <option value="Agriculture">Agriculture</option>
+            <option value="Nursing">Nursing</option>
+            <option value="Health Sciences">Health Sciences</option>
+            <option value="Paramedical">Paramedical</option>
+            <option value="Arts">Arts</option>
+            <option value="Law">Law</option>
+            <option value="Vocational">Vocational</option>
+            <option value="Ashtvakra">Ashtvakra</option>
+        </select>
 
-            <div class="toc-item">
-                <input type="checkbox" id="toc1" name="enable_toc" />
-                <label for="toc1">Show Table of Contents</label>
-            </div>
+        <label>Content</label>
+        <textarea name="content" id="editor"></textarea>
 
-            <button type="submit">Add Post</button>
-        </form>
-    </div>
+        <label>Upload Image</label>
+        <input type="file" name="image">
 
-    <script>
-        tinymce.init({
-            selector: '#editor',
-            plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount toc',
-            toolbar: 'undo redo | blocks | bold italic underline | link image media | align lineheight | numlist bullist checklist | table | removeformat',
-            height: 400,
-            toc_depth: 3,
-            toc_header: 'Table of Contents'
-        });
-    </script>
+        <div class="toc-item">
+            <input type="checkbox" id="toc1" name="enable_toc" />
+            <label for="toc1">Show Table of Contents</label>
+        </div>
+
+        <button type="submit">Add Post</button>
+    </form>
+</div>
+
+<script>
+tinymce.init({
+    selector: '#editor',
+    plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount toc',
+    toolbar: 'undo redo | blocks | bold italic underline | link image media | align lineheight | numlist bullist checklist | table | removeformat',
+    height: 400,
+    toc_depth: 3,
+    toc_header: 'Table of Contents'
+});
+</script>
+
 </body>
 </html>

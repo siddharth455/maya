@@ -82,8 +82,8 @@ $blogsPage = array_slice(array_reverse($filteredBlogs, true), $offset, $perPage,
                                 $date = $b['date'] ?? '';
                                 $tags = $b['tags'] ?? [];
                             ?>
-                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 d-flex">
-                                <div class="single-blog mb-30 d-flex flex-column" style="flex:1;">
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 d-flex mb-3">
+                                <div class="single-blog  d-flex flex-column" style="flex:1;">
                                     <div class="blog-img">
                                         <a href="blog-single.php?id=<?=$id?>"><img src="<?=$img?>" alt="<?=$title?>"></a>
                                     </div>
