@@ -43,7 +43,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
+                                            <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
                                             <p>Pass in Bachelor in Pharmacy from a PCI approved institution with minimum 55% marks</p>
@@ -51,7 +51,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
+                                            <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 45% marks for SC/ST category.</p>
@@ -191,98 +191,32 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <h4>Key Features</h4>
                         </div>
                         <div class="over-view-list">
-                               
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Equip students with in-depth theoretical and practical knowledge.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Foster the ability to design, conduct, and analyze independent research in the field of pharmaceutics.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Encourage critical analysis and problem-solving capabilities to address real-world challenges in drug formulation and development.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Prepare students for interdisciplinary collaboration and instill the habit of lifelong learning to adapt to advancements in pharmaceutical sciences.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Promote adherence to ethical standards, good laboratory practices (GLP), and regulatory guidelines, ensuring responsible professional conduct.</p>
-                                        </div>
-                                    </div>
+
+                            <div class="sin-over-view-list">
+
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i> .
                                 </div>
+                                <div class="course-list-content">
+                                    <p>Specialised Pharmaceutical Knowledge, Research-Oriented Training, Industry Exposure, Regulatory & Quality Standard Knowledge.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="over-view-list">
                         <div class="sidebar-title mb-40">
                             <h4>Career Prospects</h4>
                         </div>
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Pharmaceutical Industry (formulation R&D, production, quality assurance)</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Regulatory Affairs</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Academia and Research</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Clinical Research Organizations (CROs)</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Further study (Ph.D. in Pharmaceutics or related areas)</p>
-                                        </div>
-                                    </div>
-                                  
-                                </div>
-                   
+                        <div class="sin-over-view-list">
+
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i> .
+                            </div>
+                            <div class="course-list-content">
+                                <p>Pharmaceutical industry, Regulatory Affairs, Clinical Reserach, Academia & Teaching, Govt. & Public Sector, Higher Studies & Research</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

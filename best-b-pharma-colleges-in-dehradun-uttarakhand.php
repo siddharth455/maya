@@ -45,7 +45,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
+                                            <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
                                             <p><strong>Minimum age:</strong> 17 years as of 31st December.</p>
@@ -53,7 +53,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
+                                            <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
                                             <p>10+2 with PCB/PCM from a recognised board with english as compulsory subject</p>
@@ -61,7 +61,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
+                                            <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
                                             <p>Mathematics or Biology from recognized board.</p>
@@ -69,7 +69,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
+                                            <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
                                             <p><strong>General Category:</strong> Minimum 50% marks.</p>
@@ -77,7 +77,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
+                                            <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
                                             <p> <strong>SC/ST Category:</strong> Minimum 45% marks.</p>
@@ -217,97 +217,32 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <h4>Key Features</h4>
                         </div>
                         <div class="over-view-list">
-                               
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Students will possess the knowledge and understanding of the Basic and Core Aspects of the Pharmacy Profession, including Biomedical sciences, Industrial and Manufacturing practices.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>They will develop Leadership skills and Planning abilities that will aid in their Professional Practices.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>They will acquire Advanced knowledge in all subject areas, including Analytical Chemistry, Medicinal chemistry, Industrial Pharmacy, Drug Design, Research Methodologies, and Regulatory Sciences through Training, Experimentation, and Outcome-Based Learning Approaches.</p>
-                                        </div>
-                                    </div>
+
+                            <div class="sin-over-view-list">
+
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i> .
                                 </div>
+                                <div class="course-list-content">
+                                    <p>Practical Training , Industrial Exposure, Regulatory Knowledge, Research Orientation, Skill Development</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="over-view-list">
                         <div class="sidebar-title mb-40">
                             <h4>Career Prospects</h4>
                         </div>
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Higher Education & Specialization such as M.Pharm (Master of Pharmacy), MBA in Healthcare/Pharma Management, Pharm.D (Post Baccalaureate)</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Pharmacist (Community or Hospital)</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Pharmaceutical Industry</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Clinical Research & Pharmacovigilance</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Marketing & Sales (Medical Representative)</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Drug Inspector / Government Analyst</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Entrepreneurship</p>
-                                        </div>
-                                    </div>
-                                </div>
-                   
+                        <div class="sin-over-view-list">
+
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i> .
+                            </div>
+                            <div class="course-list-content">
+                                <p>Pharmaceutical industry, Sales, Marketing and Medical Representative,Drug Inspector, Higher Studies (M.Pharm, MBA, Pharm D)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

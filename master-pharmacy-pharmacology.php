@@ -43,7 +43,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <div class="sin-over-view-list">
 
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
+                                            <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
                                             <p>Pass in Bachelor in Pharmacy from a PCI approved institution with minimum 55% marks</p>
@@ -51,7 +51,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                     <div class="sin-over-view-list">
                                         <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
+                                            <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
                                             <p>Minimum 45% marks for SC/ST category.</p>
@@ -190,104 +190,32 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <h4>Key Features</h4>
                         </div>
                         <div class="over-view-list">
-                               
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Demonstrate comprehensive understanding of drug action, mechanisms, pharmacokinetics, toxicology, and clinical pharmacology.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Apply pharmacological principles to the evaluation of drug safety, efficacy, and therapeutic potential in human and animal studies.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Formulate research questions, plan and execute experiments, analyze data using statistical and scientific tools, and contribute to new knowledge in the field.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Monitor, assess, and report adverse drug reactions, and contribute to post-marketing surveillance and drug safety regulations.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Work collaboratively in interdisciplinary teams and exhibit leadership in laboratory, clinical, or organizational settings.</p>
-                                        </div>
-                                    </div>
+
+                            <div class="sin-over-view-list">
+
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i> .
                                 </div>
+                                <div class="course-list-content">
+                                    <p>Specialised Pharmaceutical Knowledge, Research-Oriented Training, Industry Exposure, Regulatory & Quality Standard Knowledge.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="over-view-list">
                         <div class="sidebar-title mb-40">
                             <h4>Career Prospects</h4>
                         </div>
-                                    <div class="sin-over-view-list">
-                                       
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Clinical Research Associate (CRA)</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Pharmacovigilance / Drug Safety Officer</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Preclinical Research Scientist</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Regulatory Affairs Specialist</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Toxicologist</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Medical Science Liaison (MSL) / Medical Advisor</p>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="sin-over-view-list">
+
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i> .
+                            </div>
+                            <div class="course-list-content">
+                                <p>Pharmaceutical industry, Regulatory Affairs, Clinical Reserach, Academia & Teaching, Govt. & Public Sector, Higher Studies & Research</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
