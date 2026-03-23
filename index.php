@@ -2187,42 +2187,62 @@ $latestBlogs = array_slice(array_reverse($blogs, true), 0, 4, true);
                     <h2>Our <span>Blog</span></h2>
                     <p>Insights and updates from Maya Devi University.</p>
                 </div>
+
                 <div class="blog-active">
                     <?php if (!empty($latestBlogs)): ?>
                         <?php foreach ($latestBlogs as $id => $b):
+                            
                             $img = $b['image'] ?? 'assets/img/blog/default.jpg';
                             $title = $b['title'] ?? '';
                             $excerpt = substr(strip_tags($b['content']), 0, 80) . '...';
                             $author = $b['author'] ?? 'Admin';
                             $date = $b['date'] ?? '';
                             $tags = $b['tags'] ?? [];
+
+                            // ✅ SLUG FIX (IMPORTANT)
+                            $slugText = $b['slug'] ?? $title;
+                            $slugText = strtolower($slugText);
+                            $slug = preg_replace('/[^a-z0-9]+/', '-', $slugText);
+                            $slug = trim($slug, '-');
+
                         ?>
-                            <div class="single-blog">
-                                <div class="blog-img" style="height:200px; overflow:hidden;">
-                                    <a href="blog-single.php?id=<?= $id ?>"><img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;"></a>
+                        
+                        <div class="single-blog">
+                            <div class="blog-img" style="height:200px; overflow:hidden;">
+                                <a href="blog/<?= $slug ?>">
+                                    <img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;">
+                                </a>
+                            </div>
+
+                            <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                                <?php if (!empty($tags)) echo "<span>" . htmlspecialchars($tags[0]) . "</span>"; ?>
+
+                                <div class="blog-content" style="flex-grow:1;">
+                                    <h4>
+                                        <a href="blog/<?= $slug ?>"><?= $title ?></a>
+                                    </h4>
+                                    <p><?= $excerpt ?></p>
+
+                                    <div class="blog-meta">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-user"></i> <?= $author ?></a></li>
+                                            <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
-                                    <?php if (!empty($tags)) echo "<span>" . htmlspecialchars($tags[0]) . "</span>"; ?>
-                                    <div class="blog-content" style="flex-grow:1;">
-                                        <h4><a href="blog-single.php?id=<?= $id ?>"><?= $title ?></a></h4>
-                                        <p><?= $excerpt ?></p>
-                                        <div class="blog-meta">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-user"></i> <?= $author ?></a></li>
-                                                <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="blog-date">
-                                        <a href="#"><i class="fa fa-calendar-o"></i> <?= $date ?></a>
-                                    </div>
+
+                                <div class="blog-date">
+                                    <a href="#"><i class="fa fa-calendar-o"></i> <?= $date ?></a>
                                 </div>
                             </div>
+                        </div>
+
                         <?php endforeach; ?>
                     <?php else: ?>
                         <p>No blogs available</p>
                     <?php endif; ?>
                 </div>
+
             </div>
         </div>
     </div>
@@ -2275,41 +2295,58 @@ $latestBlogs = array_slice(array_reverse($blogs, true), 0, 4, true);
         </div>
         <div class="row">
             <?php
-            // Load events from JSON
+            // Load events
             $dataFile = __DIR__ . '/admin/data/events.json';
             $events = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
 
-            // Sort by date (latest first) but keep original keys intact
+            // ✅ SLUG FUNCTION (ADDED)
+            if (!function_exists('createSlug')) {
+                function createSlug($text) {
+                    $text = strtolower($text);
+                    $text = preg_replace('/[^a-z0-9]+/', '-', $text);
+                    return trim($text, '-');
+                }
+            }
+
+            // Sort by date
             if (!empty($events)) {
                 uasort($events, function ($a, $b) {
                     return strtotime($b['date']) - strtotime($a['date']);
                 });
             }
 
-            // Show only latest 4 events (preserve keys)
+            // Latest 4
             $latestEvents = array_slice($events, 0, 4, true);
 
             foreach ($latestEvents as $eventId => $event):
                 $date = strtotime($event['date']);
                 $formattedDate = date("M, jS Y", $date);
+
+                // ✅ CREATE SLUG
+                $slug = createSlug($event['slug'] ?? $event['title']);
             ?>
                 <div class="col-lg-3 col-md-6 d-flex">
                     <div class="single-blog mb-30 flex-fill">
                         <div class="blog-img">
-                            <!-- link to correct event -->
-                            <a href="event-details.php?id=<?php echo urlencode($eventId); ?>">
+                            
+                            <!-- ✅ UPDATED LINK -->
+                            <a href="event/<?= $slug ?>">
                                 <img src="<?php echo 'admin/' . htmlspecialchars($event['image']); ?>"
                                     alt="<?php echo htmlspecialchars($event['title']); ?>"
                                     style="height:180px; width:100%; object-fit:cover;">
                             </a>
+
                         </div>
                         <div class="blog-content-wrap">
                             <span>Education</span>
                             <div class="blog-content">
                                 <h4 class="event-title">
-                                    <a href="event-details.php?id=<?php echo urlencode($eventId); ?>">
+                                    
+                                    <!-- ✅ UPDATED LINK -->
+                                    <a href="event/<?= $slug ?>">
                                         <?php echo htmlspecialchars($event['title']); ?>
                                     </a>
+
                                 </h4>
                                 <p class="event-snippet">
                                     <?php

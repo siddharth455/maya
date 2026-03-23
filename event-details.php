@@ -4,37 +4,43 @@ $page_description = "Explore latest events, seminars, workshops, and academic ac
 $canonical_url = "https://maya.edu.in/event-details.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
-<?php require "common/header.php"; ?>
 
 <?php
-// Load events
+// Load events FIRST (IMPORTANT)
 $dataFile = __DIR__ . '/admin/data/events.json';
 $events = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
 
-// Get event ID
-$id = $_GET['id'] ?? null;
+// ✅ SLUG FUNCTION (ADDED)
+function createSlug($text) {
+    $text = strtolower($text);
+    $text = preg_replace('/[^a-z0-9]+/', '-', $text);
+    return trim($text, '-');
+}
+
+// ✅ GET BY SLUG (REPLACED ID LOGIC)
+$slug = $_GET['slug'] ?? '';
 $event = null;
 
-if ($id !== null && !empty($events)) {
-    $keys = array_keys($events);
-
-    // Case 1: numeric index (?id=0)
-    if (is_numeric($id) && isset($keys[$id])) {
-        $event = $events[$keys[$id]];
-    }
-    // Case 2: hashed id (?id=6879d2056305f)
-    elseif (isset($events[$id])) {
-        $event = $events[$id];
+foreach ($events as $key => $e) {
+    $checkSlug = createSlug($e['slug'] ?? $e['title']);
+    if ($checkSlug === createSlug($slug)) {
+        $event = $e;
+        break;
     }
 }
 
-// More events (excluding the current one)
+// More events (excluding current)
 $moreEvents = [];
 foreach ($events as $key => $e) {
     if ($event && $event['title'] === $e['title']) continue;
     $moreEvents[$key] = $e;
 }
 ?>
+<?php
+$base_path = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\') . '/';
+?>
+<base href="<?= $base_path ?>">
+<?php require "common/header.php"; ?>
 
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95"
@@ -110,25 +116,34 @@ foreach ($events as $key => $e) {
                                 <?php 
                                 $count = 0;
                                 foreach ($moreEvents as $key => $ev): 
-                                    if ($count++ >= 4) break; // limit to 4 events
+                                    if ($count++ >= 4) break;
+
                                     $evDate = strtotime($ev['date']);
                                     $evDay = date("jS", $evDate);
                                     $evMonth = date("M", $evDate);
                                     $evTime = date("h:i a", $evDate);
-                                    // Shorten content to 6–7 words
+
                                     $shortDesc = strip_tags($ev['content']);
                                     $words = explode(" ", $shortDesc);
                                     $shortText = implode(" ", array_slice($words, 0, 7)) . "...";
+
+                                    // ✅ SLUG FOR SIDEBAR
+                                    $evSlug = createSlug($ev['slug'] ?? $ev['title']);
                                 ?>
                                     <div class="event-card">
-                                        <a href="event-detail.php?id=<?php echo urlencode($key); ?>">
+                                        <!-- ✅ UPDATED LINK -->
+                                        <a href="event/<?= $evSlug ?>">
                                             <div class="event-card-img">
                                                 <img src="<?php echo 'admin/' . htmlspecialchars($ev['image']); ?>" 
                                                      alt="<?php echo htmlspecialchars($ev['title']); ?>">
                                             </div>
                                             <div class="event-card-body">
                                                 <h5><?php echo htmlspecialchars($ev['title']); ?></h5>
-                                                <p class="event-card-date"><i class="fa fa-calendar"></i> <?php echo "$evDay $evMonth"; ?> &nbsp; <i class="fa fa-clock-o"></i> <?php echo $evTime; ?></p>
+                                                <p class="event-card-date">
+                                                    <i class="fa fa-calendar"></i> <?php echo "$evDay $evMonth"; ?>
+                                                    &nbsp;
+                                                    <i class="fa fa-clock-o"></i> <?php echo $evTime; ?>
+                                                </p>
                                                 <p class="event-card-desc"><?php echo htmlspecialchars($shortText); ?></p>
                                             </div>
                                         </a>
@@ -254,5 +269,8 @@ foreach ($events as $key => $e) {
     line-height: 1.5;
 }
 </style>
-
+<?php
+$base_path = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\') . '/';
+?>
+<base href="<?= $base_path ?>">
 <?php require "common/footer.php"; ?>

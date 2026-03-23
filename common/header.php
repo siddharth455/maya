@@ -62,6 +62,16 @@
 </head>
 
 <body>
+    <?php
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
+$host = $_SERVER['HTTP_HOST'];
+
+// Detect project folder (for localhost)
+$projectFolder = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
+
+// Final base URL
+$base_url = $protocol . $host . $projectFolder;
+?>
     <header class="header-area">
         <div class="header-top bg-img">
             <div class="container">

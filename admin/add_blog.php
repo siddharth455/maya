@@ -5,14 +5,24 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
+/* ✅ NEW: SLUG FUNCTION */
+function createSlug($text) {
+    $text = strtolower($text);
+    $text = preg_replace('/[^a-z0-9]+/', '-', $text);
+    return trim($text, '-');
+}
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title = trim($_POST['title']);
     $author = trim($_POST['author']);
     $date = trim($_POST['date']) ?: date('Y-m-d');
     $content = trim($_POST['content']);
 
-    // ✅ NEW: get tags from dropdown
+    // ✅ Tags from dropdown
     $tagsArray = $_POST['tags'] ?? [];
+
+    // ✅ CREATE SLUG
+    $slug = createSlug($title);
 
     // TOC checkbox
     $enableTOC = isset($_POST['enable_toc']);
@@ -37,9 +47,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Generate unique ID
     $id = uniqid();
 
-    // Add new blog
+    // ✅ Add new blog WITH SLUG
     $blogs[$id] = [
         'title' => $title,
+        'slug' => $slug, // 🔥 NEW FIELD
         'author' => $author,
         'date' => $date,
         'content' => $content,
@@ -64,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html>
 <head>
     <title>Add New Blog Post</title>
-    <script src="https://cdn.jsdelivr.net/npm/tinymce@6.8.3/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tinymce@6.8.3/tinymce.min.js"></script>
 
     <style>
         body { font-family: Arial, sans-serif; padding: 20px; background: #f4f6f8; }
@@ -113,7 +124,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <label>Date</label>
         <input type="date" name="date">
 
-        <!-- ✅ TAG DROPDOWN -->
+        <!-- TAG DROPDOWN -->
         <label>Tags (Select Department)</label>
         <select name="tags[]" multiple required size="6">
             <option value="CSE">CSE</option>
@@ -153,9 +164,7 @@ tinymce.init({
     selector: '#editor',
     plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount toc',
     toolbar: 'undo redo | blocks | bold italic underline | link image media | align lineheight | numlist bullist checklist | table | removeformat',
-    height: 400,
-    toc_depth: 3,
-    toc_header: 'Table of Contents'
+    height: 400
 });
 </script>
 

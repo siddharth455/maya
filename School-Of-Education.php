@@ -358,43 +358,49 @@ $latestBlogs = array_slice(array_reverse($filteredBlogs, true), 0, 10, true);
                 <div class="blog-active">
                     
                     <?php foreach ($latestBlogs as $id => $b):
-                        $img = $b['image'] ?? 'assets/img/blog/default.jpg';
-                        $title = $b['title'] ?? '';
-                        $excerpt = substr(strip_tags($b['content']), 0, 80) . '...';
-                        $author = $b['author'] ?? 'Admin';
-                        $date = $b['date'] ?? '';
-                        $tags = $b['tags'] ?? [];
-                    ?>
-                        <div class="single-blog">
-                            <div class="blog-img" style="height:200px; overflow:hidden;">
-                                <a href="blog-single.php?id=<?= $id ?>">
-                                    <img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;">
-                                </a>
-                            </div>
+    $img = $b['image'] ?? 'assets/img/blog/default.jpg';
+    $title = $b['title'] ?? '';
+    $excerpt = substr(strip_tags($b['content']), 0, 80) . '...';
+    $author = $b['author'] ?? 'Admin';
+    $date = $b['date'] ?? '';
+    $tags = $b['tags'] ?? [];
 
-                            <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
-                                <?php if (!empty($tags)) echo "<span>" . htmlspecialchars($tags[0]) . "</span>"; ?>
+    // ✅ SLUG
+   $slugText = $b['slug'] ?? $title;
+$slugText = strtolower($slugText);
+$slug = preg_replace('/[^a-z0-9]+/', '-', $slugText);
+$slug = trim($slug, '-');
+?>
+    <div class="single-blog">
+        <div class="blog-img" style="height:200px; overflow:hidden;">
+            <a href="blog/<?= $slug ?>">
+                <img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;">
+            </a>
+        </div>
 
-                                <div class="blog-content" style="flex-grow:1;">
-                                    <h4>
-                                        <a href="blog-single.php?id=<?= $id ?>"><?= $title ?></a>
-                                    </h4>
-                                    <p><?= $excerpt ?></p>
+        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+            <?php if (!empty($tags)) echo "<span>" . htmlspecialchars($tags[0]) . "</span>"; ?>
 
-                                    <div class="blog-meta">
-                                        <ul>
-                                            <li><a href="#"><i class="fa fa-user"></i> <?= $author ?></a></li>
-                                            <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+            <div class="blog-content" style="flex-grow:1;">
+                <h4>
+                    <a href="blog/<?= $slug ?>"><?= $title ?></a>
+                </h4>
+                <p><?= $excerpt ?></p>
 
-                                <div class="blog-date">
-                                    <a href="#"><i class="fa fa-calendar-o"></i> <?= $date ?></a>
-                                </div>
-                            </div>
-                        </div>
-                    <?php endforeach; ?>
+                <div class="blog-meta">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-user"></i> <?= $author ?></a></li>
+                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="blog-date">
+                <a href="#"><i class="fa fa-calendar-o"></i> <?= $date ?></a>
+            </div>
+        </div>
+    </div>
+<?php endforeach; ?>
 
                 </div>
             </div>

@@ -26,7 +26,6 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="container">
         <div class="row">
             <?php
-            // ✅ Correct path to events.json inside admin/data
             $dataFile = __DIR__ . '/admin/data/events.json';
 
             if (file_exists($dataFile)) {
@@ -34,19 +33,25 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
                 if (!empty($events)) {
                     foreach ($events as $id => $event) {
-                        // Handle date formatting
+
                         $day   = !empty($event['date']) ? date("jS", strtotime($event['date'])) : '';
                         $month = !empty($event['date']) ? date("M", strtotime($event['date'])) : '';
                         $time  = !empty($event['date']) ? date("h:i a", strtotime($event['date'])) : '';
 
-                        // ✅ Fix image path (prepend admin/)
                         $image = !empty($event['image']) ? 'admin/' . $event['image'] : 'assets/img/event/default.jpg';
+
+                        // ✅ ONLY ADDITION (SLUG)
+                        $slugText = $event['slug'] ?? $event['title'];
+                        $slugText = strtolower($slugText);
+                        $slug = preg_replace('/[^a-z0-9]+/', '-', $slugText);
+                        $slug = trim($slug, '-');
                         ?>
-                        
+
                         <div class="col-lg-4 col-md-6">
                             <div class="single-event mb-30 event-gray-bg">
                                 <div class="event-img">
-                                    <a href="event-details.php?id=<?php echo $id; ?>">
+                                    <!-- ✅ UPDATED LINK -->
+                                    <a href="event/<?= $slug ?>">
                                         <img src="<?php echo htmlspecialchars($image); ?>" alt="">
                                     </a>
                                     <div class="event-date-wrap">
@@ -56,7 +61,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 </div>
                                 <div class="event-content">
                                     <h3>
-                                        <a href="event-details.php?id=<?php echo $id; ?>">
+                                        <!-- ✅ UPDATED LINK -->
+                                        <a href="event/<?= $slug ?>">
                                             <?php echo htmlspecialchars($event['title']); ?>
                                         </a>
                                     </h3>

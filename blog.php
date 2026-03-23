@@ -11,6 +11,13 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 $dataFile = __DIR__ . "/admin/data/blogs.json";
 $blogs = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
 
+// ✅ ADD THIS HERE (ONLY ONCE)
+function createSlug($text) {
+    $text = strtolower($text);
+    $text = preg_replace('/[^a-z0-9]+/', '-', $text);
+    return trim($text, '-');
+}
+
 // Collect categories
 $allCategories = [];
 foreach($blogs as $b) {
@@ -75,36 +82,48 @@ $blogsPage = array_slice(array_reverse($filteredBlogs, true), $offset, $perPage,
                     <div class="row">
                         <?php if(!empty($blogsPage)): ?>
                             <?php foreach($blogsPage as $id => $b):
-                                $img = $b['image'] ?? 'assets/img/blog/default.jpg';
-                                $title = $b['title'] ?? '';
-                                $excerpt = substr(strip_tags($b['content']),0,100).'...';
-                                $author = $b['author'] ?? 'Admin';
-                                $date = $b['date'] ?? '';
-                                $tags = $b['tags'] ?? [];
-                            ?>
-                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 d-flex mb-3">
-                                <div class="single-blog  d-flex flex-column" style="flex:1;">
-                                    <div class="blog-img">
-                                        <a href="blog-single.php?id=<?=$id?>"><img src="<?=$img?>" alt="<?=$title?>"></a>
-                                    </div>
-                                    <div class="blog-content-wrap d-flex flex-column flex-grow-1">
-                                        <?php if(!empty($tags)) echo "<span>".htmlspecialchars($tags[0])."</span>"; ?>
-                                        <div class="blog-content flex-grow-1">
-                                            <h4><a href="blog-single.php?id=<?=$id?>"><?=$title?></a></h4>
-                                            <p><?=$excerpt?></p>
-                                        </div>
-                                        <div class="blog-meta d-flex justify-content-between align-items-center mt-auto">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-user"></i> <?=$author?></a></li>
-                                            </ul>
-                                            <div class="blog-date">
-                                                <a href="#"><i class="fa fa-calendar-o"></i> <?=$date?></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <?php endforeach; ?>
+    $img = $b['image'] ?? 'assets/img/blog/default.jpg';
+    $title = $b['title'] ?? '';
+    $excerpt = substr(strip_tags($b['content']),0,100).'...';
+    $author = $b['author'] ?? 'Admin';
+    $date = $b['date'] ?? '';
+    $tags = $b['tags'] ?? [];
+
+    // ✅ SLUG
+    $slug = createSlug($b['slug'] ?? $title);
+?>
+<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 d-flex mb-3">
+    <div class="single-blog d-flex flex-column" style="flex:1;">
+        
+        <div class="blog-img">
+            <a href="<?= $base_url ?>blog/<?=$slug?>">
+                <img src="<?=$img?>" alt="<?=$title?>">
+            </a>
+        </div>
+
+        <div class="blog-content-wrap d-flex flex-column flex-grow-1">
+            <?php if(!empty($tags)) echo "<span>".htmlspecialchars($tags[0])."</span>"; ?>
+
+            <div class="blog-content flex-grow-1">
+                <h4>
+                    <a href="<?= $base_url ?>blog/<?=$slug?>"><?=$title?></a>
+                </h4>
+                <p><?=$excerpt?></p>
+            </div>
+
+            <div class="blog-meta d-flex justify-content-between align-items-center mt-auto">
+                <ul>
+                    <li><a href="#"><i class="fa fa-user"></i> <?=$author?></a></li>
+                </ul>
+                <div class="blog-date">
+                    <a href="#"><i class="fa fa-calendar-o"></i> <?=$date?></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<?php endforeach; ?>
                         <?php else: ?>
                             <p>No blogs found.</p>
                         <?php endif; ?>

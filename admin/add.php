@@ -1,6 +1,14 @@
 <?php require 'auth.php'; ?>
 
 <?php
+
+// ✅ ADD THIS FUNCTION (ONLY NEW ADDITION)
+function createSlug($text) {
+    $text = strtolower($text);
+    $text = preg_replace('/[^a-z0-9]+/', '-', $text);
+    return trim($text, '-');
+}
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title = $_POST['title'];
     $author = $_POST['author'];
@@ -22,8 +30,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $events = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
 
     $id = uniqid();
+
+    // ✅ ADD THIS LINE
+    $slug = createSlug($title);
+
     $events[$id] = [
         'title' => $title,
+        'slug' => $slug, // ✅ NEW (IMPORTANT)
         'author' => $author,
         'date' => $date,
         'content' => $content,
@@ -70,8 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <input type="file" name="image">
 
         <div class="checkbox-group">
-   
-</div>
+        </div>
 
         <button type="submit">Add Post</button>
     </form>
@@ -86,6 +98,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </script>
 </body>
 </html>
+
 <style>
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -99,7 +112,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     .container {
         background: #fff;
         padding: 25px 30px;
-        max-width: 700px; /* 👈 reduced width */
+        max-width: 700px;
         margin: 0 auto;
         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         border-radius: 8px;
@@ -170,4 +183,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 </style>
-
