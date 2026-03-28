@@ -27,6 +27,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       Our programs are designed to deliver a dynamic and practical learning experience, integrating strong theoretical foundations with real-world business exposure. Supported by modern infrastructure, industry collaborations, and research-driven teaching, students develop critical management skills, entrepreneurial thinking, and strategic problem-solving abilities.
       </p>
       <p>Through case studies, internships, global perspectives, industrial visits, and an emphasis on sustainability and inclusivity, the School empowers students to address real-world business challenges with confidence.</p>
+      <a class="default-btn btn-block" href="assets/uploads/fee/MDU — School of Commerce & Management.pdf">Download fee structure</a>
     </div>
   <!-- About Section -->
     <!-- Right Image -->
@@ -383,7 +384,7 @@ document.addEventListener("DOMContentLoaded", () => {
   <div class="course-card">
     <div class="course-img">
       <a href="best-masters-of-business-administration-Agri-Business-Management-college-in-dehradun.php">
-        <img src="assets/uploads/mba-agri.svg" alt="MBA Agri Business Management">
+        <img src="assets/uploads/Agribusiness-Management.jpg" alt="MBA Agri Business Management">
       </a>
     </div>
     <div class="course-body">

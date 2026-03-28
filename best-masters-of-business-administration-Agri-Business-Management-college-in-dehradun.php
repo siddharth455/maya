@@ -6,7 +6,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
-    <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/mba-agri.svg);">
+    <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/Agribusiness-Management.jpg);">
         <div class="container">
             <h2>Masters of Business Administration - Agri Business Management</h2>
             <p>The Master of Business Administration (MBA) in Agri Business Management is a two-year postgraduate program designed to develop advanced skills in Agri Business Management, leadership, and organizational development.</p>
@@ -26,7 +26,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/mba-agri.svg" alt="">
+                        <img src="assets/uploads/Agribusiness-Management.jpg" alt="">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>

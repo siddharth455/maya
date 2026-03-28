@@ -27,6 +27,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         With a team of highly qualified and experienced faculty, the school emphasizes both theoretical knowledge and practical skills through laboratory-based learning and project work. Students benefit from modern infrastructure, including well-equipped labs, digital resources, and a rich academic environment.
       </p>
       <p>The school encourages innovation, interdisciplinary learning, and career readiness, supported by an active placement cell. Through academic rigor, research initiatives, and industry engagement, the School of Applied Sciences plays a vital role in preparing students for impactful careers in science and technology.</p>
+      <a class="default-btn btn-block" href="assets/uploads/fee/MDU — School of Life & Applied Science.pdf">Download fee structure</a>
     </div>
     <!-- About Section -->
     <!-- Right Image -->

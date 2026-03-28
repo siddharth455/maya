@@ -27,6 +27,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         Our programs are designed to meet the evolving needs of the healthcare industry, ensuring students are well-prepared for impactful careers.With a strong emphasis on practical learning, interdisciplinary collaboration, and community engagement, the department offers a nurturing environment where students can thrive both academically and professionally.
       </p>
       <p>Our faculty comprises experienced clinicians and researchers who mentor students to become compassionate, competent, and globally competitive healthcare providers.</p>
+      <a class="default-btn btn-block" href="assets/uploads/fee/MDU — School of Health Sciences.pdf">Download fee structure</a>
     </div>
     <!-- About Section -->
     <!-- Right Image -->

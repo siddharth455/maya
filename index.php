@@ -67,32 +67,7 @@ url('assets/uploads/home-banner-1.jpeg');">
             </div>
         </div>
 
-        <div class="single-slider slider-height-1 bg-img" style="background-image:
-linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),
-url('assets/uploads/banner-3.jpeg');">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-9 col-md-7 col-12">
-                        <div class="slider-content slider-animated-1 pt-230">
-                            <h1 class="animated"></h1>
-                            <p class="animated">
-
-                            </p>
-
-                            <div class="slider-btn">
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-5 col-12">
-                        <!-- <div class="slider-single-img slider-animated-1">
-                            <img class="animated" src="assets/uploads/banner-girl.png" alt="">
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-        </div>
+       
 
         <div class="single-slider slider-height-1 bg-img" style="background-image:
 linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
@@ -1930,7 +1905,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
         <div class="col-md-4">
             <div class="card border-0 shadow h-100 p-4 hover-shadow">
                 <div class="icon-circle mb-3 mx-auto">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 16 16">
+                    <svg xmlns="https://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 16 16">
                         <path d="M8 0a5 5 0 0 1 5 5v.5H3V5a5 5 0 0 1 5-5zM1 6h14a1 1 0 0 1 1 1v1.5H0V7a1 1 0 0 1 1-1zm-1 4.5h16V15a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1v-4.5z" />
                     </svg>
                 </div>
@@ -1945,7 +1920,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
         <div class="col-md-4">
             <div class="card border-0 shadow h-100 p-4 hover-shadow">
                 <div class="icon-circle mb-3 mx-auto">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 16 16">
+                    <svg xmlns="https://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 16 16">
                         <path d="M0 3a1 1 0 0 1 1-1h5.5v1.5H1v10h14v-10h-5.5V2H15a1 1 0 0 1 1 1v12H0V3z" />
                         <path d="M7.5 0h1v5h-1V0z" />
                     </svg>
@@ -1961,7 +1936,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
         <div class="col-md-4">
             <div class="card border-0 shadow h-100 p-4 hover-shadow">
                 <div class="icon-circle mb-3 mx-auto">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 16 16">
+                    <svg xmlns="https://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 16 16">
                         <path d="M8 0a8 8 0 1 0 8 8A8.009 8.009 0 0 0 8 0zM6.406 12.416a5.5 5.5 0 0 1 0-8.832l.708.708a4.5 4.5 0 0 0 0 7.416l-.708.708zm3.188 0l-.708-.708a4.5 4.5 0 0 0 0-7.416l.708-.708a5.5 5.5 0 0 1 0 8.832z" />
                     </svg>
                 </div>

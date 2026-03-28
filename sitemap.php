@@ -14,7 +14,7 @@ $exclude = [
 ];
 
 echo '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL;
-echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . PHP_EOL;
+echo '<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">' . PHP_EOL;
 
 // Homepage
 echo "  <url>" . PHP_EOL;

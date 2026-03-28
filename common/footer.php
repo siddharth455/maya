@@ -8,7 +8,7 @@
               <h4>ABOUT US</h4>
             </div>
             <div class="footer-about">
-              <p>Maya Devi University, Dehradun, offers quality education, modern facilities, and expert guidance, empowering students for success in academics, careers, and life.</p>
+              <p>Maya Devi University, Dehradun is a recognized educational institution. It offers quality education, modern facilities, and expert guidance, empowering students for success in academics, careers, and life.</p>
               <div class="f-contact-info">
                 <div class="single-f-contact-info">
                   <i class="fa fa-home"></i>
@@ -37,7 +37,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about-us.php">About Us</a></li>
                 <li><a href="https://admissions.maya.edu.in">Admission</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="refund-policy.php">Refund Policy</a></li>
                 <li><a href="blog.php">Blogs</a></li>
                 <li><a href="https://samadhaan.ugc.ac.in/">UGC Samadhan</a></li>
                 <li><a href="career.php">Careers</a></li>
@@ -100,8 +100,8 @@
           <div class="footer-menu-social">
             <div class="footer-menu">
               <ul>
-                <li><a href="#">Privacy & Policy</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                <li><a href="terms-condition.php">Terms & Conditions</a></li>
               </ul>
             </div>
             <div class="footer-social">

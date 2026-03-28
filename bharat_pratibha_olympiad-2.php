@@ -818,7 +818,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <body>
     <header class="header">
         <div class="logo-container">
-            <svg class="logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <svg class="logo" viewBox="0 0 200 200" xmlns="https://www.w3.org/2000/svg">
                 <!-- Outer circle with tricolor -->
                 <circle cx="100" cy="100" r="95" fill="none" stroke="#FF9933" stroke-width="10"/>
                 <circle cx="100" cy="100" r="85" fill="white"/>

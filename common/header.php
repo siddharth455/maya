@@ -63,7 +63,7 @@
 
 <body>
     <?php
-$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "https://";
 $host = $_SERVER['HTTP_HOST'];
 
 // Detect project folder (for localhost)

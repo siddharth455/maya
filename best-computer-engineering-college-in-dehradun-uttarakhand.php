@@ -27,6 +27,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       Our programs are designed to foster a dynamic learning environment that promotes innovation, critical thinking, and lifelong learning. We seamlessly integrate emerging technologies with core human values to ensure our graduates are not only proficient in cutting-edge tools but also driven by integrity, compassion, and a commitment to social good.
       </p>
       <p>Through a global perspective, hands-on experiences, and a focus on sustainability and inclusivity, the School prepares students to address real-world challenges and shape a better, tech-enabled future for all.</p>
+      <a class="default-btn btn-block" href="assets/uploads/fee/MDU — School of Computer Engineering & Applications.pdf">Download fee structure</a>
     </div>
   <!-- About Section -->
     <!-- Right Image -->
@@ -426,7 +427,6 @@ document.addEventListener("DOMContentLoaded", () => {
                         <a href="mca-aiml.php">
                             <img src="assets/uploads/aiml-2.webp" alt="">
                         </a>
-                        <span class="badge-pg">PG</span>
                     </div>
                     <div class="course-body">
                         <h4><a href="mca-aiml.php">MCA AI & ML</a></h4>
@@ -446,7 +446,6 @@ document.addEventListener("DOMContentLoaded", () => {
                         <a href="mca-data-science.php">
                             <img src="assets/uploads/mca-data.webp" alt="">
                         </a>
-                        <span class="badge-pg">PG</span>
                     </div>
                     <div class="course-body">
                         <h4><a href="mca-data-science.php">MCA Data Science</a></h4>
@@ -466,7 +465,6 @@ document.addEventListener("DOMContentLoaded", () => {
                         <a href="mca-cyber-security.php">
                             <img src="assets/uploads/mca-cyber.webp" alt="">
                         </a>
-                        <span class="badge-pg">PG</span>
                     </div>
                     <div class="course-body">
                         <h4><a href="mca-cyber-security.php">MCA Cyber Security</a></h4>
@@ -506,7 +504,6 @@ document.addEventListener("DOMContentLoaded", () => {
                         <a href="mtech-specializations-cse-AI-ML.php">
                             <img src="assets/uploads/mtech-cse.webp" alt="">
                         </a>
-                        <span class="badge-pg">PG</span>
                     </div>
                     <div class="course-body">
                         <h4><a href="mtech-specializations-cse-AI-ML.php">M.Tech CSE (AI/DS/Cyber)</a></h4>
@@ -526,7 +523,6 @@ document.addEventListener("DOMContentLoaded", () => {
                         <a href="msc-computer-science.php">
                             <img src="assets/uploads/computer.webp" alt="">
                         </a>
-                        <span class="badge-pg">PG</span>
                     </div>
                     <div class="course-body">
                         <h4><a href="msc-computer-science.php">M.Sc Computer Science</a></h4>
@@ -546,7 +542,6 @@ document.addEventListener("DOMContentLoaded", () => {
                         <a href="mca.php">
                             <img src="assets/uploads/mca.webp" alt="">
                         </a>
-                        <span class="badge-pg">PG</span>
                     </div>
                     <div class="course-body">
                         <h4><a href="mca.php">MCA</a></h4>

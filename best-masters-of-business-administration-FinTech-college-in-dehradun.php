@@ -93,7 +93,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="best-masters-of-business-administration-Agri-Business-Management-college-in-dehradun.php"><img class="animated" src="assets/uploads/mba-agri.svg" alt=""></a>
+                                    <a href="best-masters-of-business-administration-Agri-Business-Management-college-in-dehradun.php"><img class="animated" src="assets/uploads/Agribusiness-Management.jpg" alt=""></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="best-masters-of-business-administration-Agri-Business-Management-college-in-dehradun.php">Masters of Business Administration - Agri Business Management</a></h4>

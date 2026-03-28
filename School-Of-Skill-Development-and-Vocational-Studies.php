@@ -27,6 +27,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         The School of Skill Development and Vocational Studies is committed to empowering individuals with practical, industry-relevant skills. Established with a vision to bridge the gap between education and employability, the school offers a diverse range of programs that focus on hands-on training, real-world application, and lifelong learning.
       </p>
       <p>To become a leading institution in skill-based education, fostering innovation, entrepreneurship, and global employability through excellence in vocational training.</p>
+      <a class="default-btn btn-block" href="assets/uploads/fee/MDU — School of Skill Development & Vocational Studies.pdf">Download fee structure</a>
     </div>
     <!-- About Section -->
     <!-- Right Image -->

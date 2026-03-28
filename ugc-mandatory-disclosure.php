@@ -27,7 +27,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
           <td rowspan="8">1</td>
           <td rowspan="8"><strong>About HEI</strong></td>
           <td>About Us – Overview</td>
-          <td><a href="about-us.php" target="_blank">http://maya.edu.in/about-us</a></td>
+          <td><a href="about-us.php" target="_blank">https://maya.edu.in/about-us</a></td>
         </tr>
         <tr>
           <td>Act and Statutes or MoA</td>
