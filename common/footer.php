@@ -251,7 +251,7 @@
 
 </div>
 
-<!-- <script src="https://extraaedgeresources.blob.core.windows.net/documents/mdud/Chatbot/js/chat.js"></script> -->
+<script src="https://extraaedgeresources.blob.core.windows.net/documents/mdud/Chatbot/js/chat.js"></script>
 
 <style>
 
@@ -675,7 +675,9 @@
 ============================================ -->
 
 <!-- jQuery JS -->
-<script src="assets/js/vendor/jquery-v2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"></script>
+
 <!-- Popper JS -->
 <script src="assets/js/popper.min.js"></script>
 <!-- Bootstrap JS -->

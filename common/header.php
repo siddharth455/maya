@@ -160,7 +160,7 @@ $base_url = $protocol . $host . $projectFolder;
                                         <li><a href="#"> ADMISSION <i class="fa fa-angle-down"></i> </a>
                                             <ul class="submenu">
                                                 <li><a href="assets/uploads/pdf/MDU_COMBINED_Brochure.pdf" download="MDU_COMBINED_Brochure.pdf">MDU Brocure</a></li>
-                                                <li><a href="assets/uploads/pdf/MDU_Fee_Structure.pdf" download="MDU_Fee_Structure.pdf">Fee Structure (2025-26)</a></li>
+                                                <!-- <li><a href="assets/uploads/pdf/MDU_Fee_Structure.pdf" download="MDU_Fee_Structure.pdf">Fee Structure (2025-26)</a></li> -->
                                                 <li><a href="https://admissions.maya.edu.in" target="_blank">Apply Now</a></li>
                                                 <li><a href="campus-life.php">Campus Life</a></li>
                                                 <li><a href="assets/uploads/pdf/List_of_Holidays_2026.pdf" download="List_of_Holidays_2025.pdf">List of Holidays</a></li>
