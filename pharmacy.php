@@ -26,7 +26,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       It has well equipped laboratories namely Pharmaceutics lab, Pharma-chemistry lab, Human Anatomy and Physiology lab, Pharmacognosy lab, Pharmacology lab, Microbiology lab, Central Instrumentation Lab, Pharmacy Practice lab, Machine Room, Museum.
       </p>
       <p>It also has well equipped class rooms with seminar corridor, library with latest text books and Pharmaceutical journals, boys' common room, girls' common room, faculty rooms hostel and transport facilities.</p>
-      <a class="default-btn btn-block" href="assets/uploads/fee/MDU — School of Pharmacy.pdf">Download fee structure</a>
+      <a class="default-btn btn-block" href="assets/uploads/fee/Pharmacy_m.pdf">Download fee structure</a>
     </div>
   <!-- About Section -->
     <!-- Right Image -->

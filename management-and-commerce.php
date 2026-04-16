@@ -27,7 +27,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       Our programs are designed to deliver a dynamic and practical learning experience, integrating strong theoretical foundations with real-world business exposure. Supported by modern infrastructure, industry collaborations, and research-driven teaching, students develop critical management skills, entrepreneurial thinking, and strategic problem-solving abilities.
       </p>
       <p>Through case studies, internships, global perspectives, industrial visits, and an emphasis on sustainability and inclusivity, the School empowers students to address real-world business challenges with confidence.</p>
-      <a class="default-btn btn-block" href="assets/uploads/fee/MDU — School of Commerce & Management.pdf">Download fee structure</a>
+      <a class="default-btn btn-block" href="assets/uploads/fee/Commerce_Management_m.pdf">Download fee structure</a>
     </div>
   <!-- About Section -->
     <!-- Right Image -->

@@ -29,7 +29,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         Each department is committed to academic excellence, creative exploration and social relevance, preparing students for dynamic careers and meaningful societal contributions. The faculty's mission is to foster intellectual curiosity, critical thinking, cultural appreciation, and ethical leadership through an inclusive and holistic educational approach.
       </p>
       <p>With a strong emphasis on interdisciplinary learning, the programs aim to develop students' analytical abilities, communication skills, and understanding of both human behavior and societal structures.</p>
-      <a class="default-btn btn-block" href="assets/uploads/fee/MDU — School of Arts & Humanities.pdf">Download fee structure</a>
+      <a class="default-btn btn-block" href="assets/uploads/fee/Arts_Humanities_m.pdf">Download fee structure</a>
     </div>
     <!-- About Section -->
     <!-- Right Image -->

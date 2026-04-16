@@ -97,16 +97,16 @@ $base_url = $protocol . $host . $projectFolder;
             </div>
         </div>
         <div class="header-bottom sticky-bar clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2 col-md-6 col-4">
+            <div class="container-fluid px-lg-5 px-3">
+                <div class="row align-items-center flex-lg-nowrap">
+                    <div class="col-lg-auto col-md-6 col-4">
                         <div class="logo">
                             <a href="index.php">
                                 <img alt="" src="assets/uploads/logo/logo-2.png">
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-10 col-md-6 col-8">
+                    <div class="col-lg col-md-6 col-8">
                         <div class="menu-cart-wrap">
                             <div class="main-menu">
                                 <nav>
@@ -122,7 +122,7 @@ $base_url = $protocol . $host . $projectFolder;
                                                 <li><a href="offices-services.php">Offices & Services</a></li>
                                                  <li><a href="leadership.php">Leadership</a></li>
                                                 <li><a href="vision-mission.php">Vision and Mission</a></li>
-                                                <li><a href="approval-accredetion-membership-ranking.php">Approval, Accredetions & Ranking</a></li>
+                                                <li><a href="approval-accredetion-membership-ranking.php">Approval, Accredetions<br> & Ranking</a></li>
                                             </ul>
                                         </li>
                                         <li class="mega-menu-position top-hover"><a href="#"> OUR SCHOOLS <i class="fa fa-angle-down"></i> </a>
@@ -160,11 +160,11 @@ $base_url = $protocol . $host . $projectFolder;
                                         <li><a href="#"> ADMISSION <i class="fa fa-angle-down"></i> </a>
                                             <ul class="submenu">
                                                 <li><a href="assets/uploads/pdf/MDU_COMBINED_Brochure.pdf" download="MDU_COMBINED_Brochure.pdf">MDU Brocure</a></li>
-                                                <!-- <li><a href="assets/uploads/pdf/MDU_Fee_Structure.pdf" download="MDU_Fee_Structure.pdf">Fee Structure (2025-26)</a></li> -->
+                                                <li><a href="fee-structure.php">Fee Structure</a></li>
                                                 <li><a href="https://admissions.maya.edu.in" target="_blank">Apply Now</a></li>
                                                 <li><a href="campus-life.php">Campus Life</a></li>
                                                 <li><a href="assets/uploads/pdf/List_of_Holidays_2026.pdf" download="List_of_Holidays_2025.pdf">List of Holidays</a></li>
-                                                <li><a href="assets/uploads/pdf/Academic-Calender_2025-26.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calender Even Sem 2024-25</a></li>
+                                                <li><a href="assets/uploads/pdf/Academic-Calender_2025-26.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calender<br> Even Sem 2024-25</a></li>
                                                 <li><a href="refund-policy.php">Refund Policy</a></li>
                                             </ul>
                                         </li>

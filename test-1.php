@@ -27,7 +27,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       Our programs are designed to foster a dynamic learning environment that promotes innovation, critical thinking, and lifelong learning. We seamlessly integrate emerging technologies with core human values to ensure our graduates are not only proficient in cutting-edge tools but also driven by integrity, compassion, and a commitment to social good.
       </p>
       <p>Through a global perspective, hands-on experiences, and a focus on sustainability and inclusivity, the School prepares students to address real-world challenges and shape a better, tech-enabled future for all.</p>
-      <a class="default-btn btn-block" href="assets/uploads/fee/Computer_Engineering_Applications_m.pdf">Download fee structure</a>
+      <a class="default-btn btn-block" href="assets/uploads/fee/MDU — School of Computer Engineering & Applications.pdf">Download fee structure</a>
     </div>
   <!-- About Section -->
     <!-- Right Image -->
@@ -137,6 +137,418 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
+<!-- IBM Section Styles -->
+<style>
+  /* ── IBM Section ── */
+  @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+
+  .ibm-section {
+    position: relative;
+    overflow: hidden;
+    padding: 90px 0 100px;
+    background: #0a0f2e;
+    font-family: 'Sora', sans-serif;
+  }
+
+  /* Animated background mesh */
+  .ibm-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 60% 50% at 20% 30%, rgba(15, 98, 254, 0.28) 0%, transparent 70%),
+      radial-gradient(ellipse 50% 60% at 80% 70%, rgba(0, 163, 163, 0.22) 0%, transparent 70%),
+      radial-gradient(ellipse 40% 40% at 50% 10%, rgba(17, 35, 79, 0.6) 0%, transparent 80%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Floating grid lines */
+  .ibm-section::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(15, 98, 254, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(15, 98, 254, 0.06) 1px, transparent 1px);
+    background-size: 48px 48px;
+    pointer-events: none;
+    z-index: 0;
+    animation: gridShift 20s linear infinite;
+  }
+
+  @keyframes gridShift {
+    0%   { background-position: 0 0; }
+    100% { background-position: 48px 48px; }
+  }
+
+  .ibm-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 28px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ── Header ── */
+  .ibm-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 18px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .ibm-header.ibm-visible { opacity: 1; transform: translateY(0); }
+
+  .ibm-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(15, 98, 254, 0.18);
+    border: 1px solid rgba(15, 98, 254, 0.45);
+    color: #fff;
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 999px;
+  }
+  .ibm-badge::before {
+    content: '';
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: #fff;
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(15,98,254,0.7); }
+    50%       { box-shadow: 0 0 0 6px rgba(15,98,254,0); }
+  }
+
+  .ibm-eyebrow {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    font-weight: 600;
+    color: #00a651;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  .ibm-title {
+    font-size: clamp(28px, 4.5vw, 52px);
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.1;
+    margin: 0 0 16px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease 0.1s, transform 0.7s ease 0.1s;
+  }
+  .ibm-title.ibm-visible { opacity: 1; transform: translateY(0); }
+  .ibm-title span { color: #0f62fe; }
+
+  .ibm-subtitle {
+    font-size: 16px;
+    color: rgba(255,255,255,0.65);
+    max-width: 580px;
+    line-height: 1.7;
+    margin: 0 0 48px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.7s ease 0.2s, transform 0.7s ease 0.2s;
+  }
+  .ibm-subtitle.ibm-visible { opacity: 1; transform: translateY(0); }
+
+  /* ── Chips ── */
+  .ibm-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 52px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.7s ease 0.3s, transform 0.7s ease 0.3s;
+  }
+  .ibm-chips.ibm-visible { opacity: 1; transform: translateY(0); }
+
+  .ibm-chip {
+    padding: 9px 16px;
+    border-radius: 999px;
+    background: rgba(15, 98, 254, 0.12);
+    border: 1px solid rgba(15, 98, 254, 0.35);
+    color: #93c5fd;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    transition: background 0.25s, border-color 0.25s, color 0.25s, transform 0.2s;
+  }
+  .ibm-chip:hover {
+    background: rgba(15, 98, 254, 0.28);
+    border-color: rgba(15, 98, 254, 0.7);
+    color: #fff;
+    transform: translateY(-2px);
+  }
+
+  /* ── Grid Cards ── */
+  .ibm-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-bottom: 28px;
+  }
+
+  .ibm-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    padding: 28px 24px;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s, border-color 0.3s, transform 0.3s;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease, transform 0.6s ease, background 0.3s, border-color 0.3s;
+  }
+  .ibm-card.ibm-visible { opacity: 1; transform: translateY(0); }
+  .ibm-card:nth-child(1) { transition-delay: 0.05s; }
+  .ibm-card:nth-child(2) { transition-delay: 0.15s; }
+  .ibm-card:nth-child(3) { transition-delay: 0.25s; }
+
+  .ibm-card:hover {
+    background: rgba(15, 98, 254, 0.1);
+    border-color: rgba(15, 98, 254, 0.4);
+    transform: translateY(-6px);
+  }
+
+  /* Glowing top accent */
+  .ibm-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #0f62fe, #00a3a3, transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .ibm-card:hover::before { opacity: 1; }
+
+  .ibm-card-icon {
+    width: 44px; height: 44px;
+    border-radius: 12px;
+    background: rgba(15, 98, 254, 0.15);
+    border: 1px solid rgba(15, 98, 254, 0.3);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .ibm-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 10px;
+  }
+
+  .ibm-card p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.55);
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  /* ── IBM Note ── */
+  .ibm-note {
+    background: rgba(0, 163, 163, 0.07);
+    border: 1px solid rgba(0, 163, 163, 0.25);
+    border-left: 3px solid #00a3a3;
+    border-radius: 16px;
+    padding: 22px 26px;
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+    margin-bottom: 44px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.7s ease 0.35s, transform 0.7s ease 0.35s;
+  }
+  .ibm-note.ibm-visible { opacity: 1; transform: translateY(0); }
+
+  .ibm-note-icon {
+    font-size: 26px; flex-shrink: 0; margin-top: 2px;
+  }
+
+  .ibm-note strong {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #67e8f9;
+    margin-bottom: 6px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .ibm-note p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  /* ── CTA ── */
+  .ibm-cta-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.7s ease 0.45s, transform 0.7s ease 0.45s;
+  }
+  .ibm-cta-row.ibm-visible { opacity: 1; transform: translateY(0); }
+
+  .ibm-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #0f62fe, #004ec1);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: 12px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 8px 24px rgba(15,98,254,0.4);
+  }
+  .ibm-cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 32px rgba(15,98,254,0.55);
+    color: #fff;
+    text-decoration: none;
+  }
+  .ibm-cta-btn::after {
+    content: '→';
+    font-size: 16px;
+    transition: transform 0.2s;
+  }
+  .ibm-cta-btn:hover::after { transform: translateX(4px); }
+
+  .ibm-cta-link {
+    color: rgba(255,255,255,0.5);
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    transition: color 0.2s;
+  }
+  .ibm-cta-link:hover { color: #fff; }
+
+  /* ── Responsive ── */
+  @media (max-width: 800px) {
+    .ibm-grid { grid-template-columns: 1fr; }
+    .ibm-section { padding: 60px 0 70px; }
+  }
+
+  @media (max-width: 600px) {
+    .ibm-title { font-size: 26px; }
+    .ibm-note { flex-direction: column; gap: 10px; }
+  }
+</style>
+
+<!-- IBM Partnership Section -->
+<section class="ibm-section">
+  <div class="ibm-container">
+
+    <!-- Header -->
+    <div class="ibm-header ibm-animate">
+      <span class="ibm-badge">Partnership</span>
+      <span class="ibm-eyebrow">MDU × IBM</span>
+    </div>
+
+    <h2 class="ibm-title ibm-animate">
+      Engineering that feels<br><span>ready for the next decade.</span>
+    </h2>
+
+    <p class="ibm-subtitle ibm-animate">
+      The integrated B.Tech CSE pathway and IBM-linked technical learning create a stronger route to specialization and employability — built for what industry actually demands.
+    </p>
+
+    <!-- Program Chips -->
+    <div class="ibm-chips ibm-animate">
+      <span class="ibm-chip">Integrated B.Tech CSE with IBM</span>
+      <span class="ibm-chip">Data Science</span>
+      <span class="ibm-chip">AI Python Programming</span>
+      <span class="ibm-chip">Advanced AI for IT Students</span>
+      <span class="ibm-chip">Cybersecurity</span>
+      <span class="ibm-chip">Robotics & AI</span>
+    </div>
+
+    <!-- 3-Column Grid -->
+    <div class="ibm-grid">
+      <div class="ibm-card ibm-animate">
+        <div class="ibm-card-icon">🚀</div>
+        <h3>Future Skills</h3>
+        <p>Move beyond theory with future-tech language, real project exposure, and stronger market positioning from day one.</p>
+      </div>
+      <div class="ibm-card ibm-animate">
+        <div class="ibm-card-icon">💼</div>
+        <h3>Career Value</h3>
+        <p>Choose a premium engineering pathway with clearer long-term relevance — designed with industry outcomes in mind.</p>
+      </div>
+      <div class="ibm-card ibm-animate">
+        <div class="ibm-card-icon">🔷</div>
+        <h3>IBM Advantage</h3>
+        <p>Build an engineering profile that combines degree depth with industry-facing readiness, backed by IBM's global credibility.</p>
+      </div>
+    </div>
+
+    <!-- IBM Note -->
+    <div class="ibm-note ibm-animate">
+      <span class="ibm-note-icon">🔹</span>
+      <div>
+        <strong>About IBM</strong>
+        <p>IBM is a globally recognized technology company known for innovation in artificial intelligence, analytics, enterprise technology, and digital transformation. That association adds stronger credibility and modern relevance to the student journey at MDU.</p>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="ibm-cta-row ibm-animate">
+      <a href="b.tech-CS_IBM.php" class="ibm-cta-btn">Explore B.Tech CSE with IBM</a>
+      <a href="assets/uploads/fee/MDU — School of Computer Engineering & Applications.pdf" class="ibm-cta-link">Download fee structure ↗</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- IBM Section Animation Script -->
+<script>
+(function () {
+  const animItems = document.querySelectorAll('.ibm-animate');
+  if (!animItems.length) return;
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('ibm-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.18 }
+  );
+
+  animItems.forEach((el) => observer.observe(el));
+})();
+</script>
 <!-- Courses Section -->
 <div class="course-area bg-light pt-60 pb-60">
     <div class="container">

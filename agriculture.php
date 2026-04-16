@@ -37,7 +37,7 @@ compulsory experiential components such as Rural Agricultural Work Experience (R
 Student READY programme, in-plant training, and research projects, as prescribed by
 ICAR.”
 </p>
-<a class="default-btn btn-block" href="assets/uploads/fee/MDU — School of Agriculture & Technology.pdf">Download fee structure</a>
+<a class="default-btn btn-block" href="assets/uploads/fee/Agriculture_Technology_m.pdf">Download fee structure</a>
     </div>
     <!-- About Section -->
     <!-- Right Image -->

@@ -27,6 +27,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       At our School of Nursing, our mission is to provide unparalleled education and hands-on training for students aiming to succeed in the dynamic and ever-evolving healthcare sector.Equipped with state-of-the-art infrastructure, a comprehensive and industry-relevant curriculum, immersive learning experiences, and a supportive learning environment, we strive to foster the holistic development of every student.
       </p>
       <p>Our goal is to empower individuals with the confidence and competence needed to excel across a wide spectrum of career opportunities in the healthcare domain.We are dedicated to offering a multifaceted and integrated educational experience, consistently updating our curriculum to reflect the latest trends, innovations, and demands of the global healthcare industry.</p>
+      <a class="default-btn btn-block" href="assets/uploads/fee/Nursing_m.pdf">Download fee structure</a>
     </div>
   <!-- About Section -->
     <!-- Right Image -->

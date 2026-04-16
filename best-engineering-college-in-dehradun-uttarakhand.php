@@ -27,7 +27,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       Our programs are crafted to provide a dynamic and immersive learning experience, blending strong fundamentals with exposure to emerging technologies. With state-of-the-art infrastructure, research-driven teaching, and industry collaboration, students gain the technical expertise, creativity, and problem-solving mindset required to excel in a rapidly evolving world.
       </p>
       <p>Through global perspectives, hands-on projects, industrial visits, and a focus on sustainability and inclusivity, the School equips students to tackle real-world challenges with confidence. By fostering innovation, critical thinking, and holistic development, we prepare engineers who are ready to shape a better, future-ready world through technology.</p>
-      <a class="default-btn btn-block" href="assets/uploads/fee/MDU — School of Engineering.pdf">Download fee structure</a>
+      <a class="default-btn btn-block" href="assets/uploads/fee/Engineering_m.pdf">Download fee structure</a>
     </div>
   <!-- About Section -->
     <!-- Right Image -->

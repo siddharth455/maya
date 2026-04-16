@@ -27,7 +27,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       Our mission is to cultivate critical thinking, ethical values, and a deep understanding of the law to empower students to become agents of change in society.In an increasingly interconnected world, the School of Law & Legal Studies ensures that students gain a global perspective in their legal education.
       </p>
       <p>Maya Devi University has established multiple international collaborations and exchange programs that directly benefit law students, including international collaborations, exchange programs, global internships, and a curriculum with global perspective.</p>
-      <a class="default-btn btn-block" href="assets/uploads/fee/MDU — School of Law & Legal Studies.pdf">Download fee structure</a>
+      <a class="default-btn btn-block" href="assets/uploads/fee/Law_Legal_Studies_m.pdf">Download fee structure</a>
     </div>
   <!-- About Section -->
     <!-- Right Image -->

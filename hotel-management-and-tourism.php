@@ -28,7 +28,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       </p>
       <p>We are dedicated to offering a multifaceted and integrated educational experience, consistently updating our curriculum to reflect the latest trends, innovations, and demands of the global hospitality industry.
       Join us at SOHM—where your journey to a successful career in the Hospitality and Tourism industry begins</p>
-      <a class="default-btn btn-block" href="assets/uploads/fee/MDU — School of Hotel Management & Tourism.pdf">Download fee structure</a>
+      <a class="default-btn btn-block" href="assets/uploads/fee/Hotel_Management_Tourism_m.pdf">Download fee structure</a>
     </div>
   <!-- About Section -->
     <!-- Right Image -->

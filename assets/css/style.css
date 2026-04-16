@@ -2075,9 +2075,10 @@ textarea:focus {
     margin-top: 0px;
   }
 }
-@media only screen and (max-width: 767px) {
-  .logo {
-    margin-top: 0px;
+@media only screen and (max-width: 1440px) {
+  .logo img {
+    max-width: 250px;
+    height: auto;
   }
 }
 
@@ -2106,9 +2107,25 @@ textarea:focus {
   margin-left: 20px;
   position: relative;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1250px) {
   .main-menu nav ul li {
-    margin-left: 15px;
+    margin-left: 8px;
+  }
+  .main-menu nav ul li a {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 1251px) and (max-width: 1440px) {
+  .main-menu nav ul li {
+    margin-left: 14px;
+  }
+  .main-menu nav ul li a {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+  .main-menu nav ul li {
+    margin-left: 16px;
   }
 }
 .main-menu nav ul li ul.submenu {
@@ -2172,7 +2189,7 @@ textarea:focus {
           transform: rotateX(0deg);
   visibility: visible;
 }
-> .main-menu nav ul li:first-child {
+.main-menu nav ul li:first-child {
   margin-left: 0px;
 }
 .main-menu nav ul li:hover a {
@@ -2183,6 +2200,7 @@ textarea:focus {
   color: #333;
   display: inline-block;
   line-height: 87px;
+  white-space: nowrap;
 }
 .main-menu nav ul li a i {
   color: #00a651;
@@ -2219,9 +2237,10 @@ textarea:focus {
   margin-left: 0;
   width: 30%;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1366px) {
   .main-menu nav ul li.mega-menu-position ul.mega-menu > li {
-    padding-left: 30px;
+    padding-left: 15px;
+    width: 32%;
   }
 }
 .main-menu nav ul li.mega-menu-position ul.mega-menu > li ul li.mega-menu-title {
