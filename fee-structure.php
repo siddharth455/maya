@@ -13,7 +13,7 @@ $departments = [
     [
         'id'       => 'csea',
         'icon'     => 'bi-cpu-fill',
-        'label'    => 'Computer Engineering & Applications',
+        'label'    => 'School of Computer Engineering & Applications',
         'color'    => 'green',
         'schools'  => [
             ['name' => 'School of Computer Engineering & Applications', 'pdf' => 'assets/uploads/fee/Computer_Engineering_Applications_m.pdf'],
@@ -22,7 +22,7 @@ $departments = [
     [
         'id'       => 'engg',
         'icon'     => 'bi-gear-fill',
-        'label'    => 'Engineering',
+        'label'    => 'School of Engineering',
         'color'    => 'blue',
         'schools'  => [
             ['name' => 'School of Engineering', 'pdf' => 'assets/uploads/fee/Engineering_m.pdf'],
@@ -31,7 +31,7 @@ $departments = [
     [
         'id'       => 'pharma',
         'icon'     => 'bi-capsule-pill',
-        'label'    => 'Pharmacy',
+        'label'    => 'School of Pharmacy',
         'color'    => 'green',
         'schools'  => [
             ['name' => 'School of Pharmacy', 'pdf' => 'assets/uploads/fee/Pharmacy_m.pdf'],
@@ -40,7 +40,7 @@ $departments = [
     [
         'id'       => 'commerce',
         'icon'     => 'bi-currency-rupee',
-        'label'    => 'Commerce & Management',
+        'label'    => 'School of Commerce & Management',
         'color'    => 'blue',
         'schools'  => [
             ['name' => 'School of Commerce & Management', 'pdf' => 'assets/uploads/fee/Commerce_Management_m.pdf'],
@@ -49,7 +49,7 @@ $departments = [
     [
         'id'       => 'hotel',
         'icon'     => 'bi-building-fill',
-        'label'    => 'Hotel Management & Tourism',
+        'label'    => 'School of Hotel Management & Tourism',
         'color'    => 'green',
         'schools'  => [
             ['name' => 'School of Hotel Management & Tourism', 'pdf' => 'assets/uploads/fee/Hotel_Management_Tourism_m.pdf'],
@@ -58,7 +58,7 @@ $departments = [
     [
         'id'       => 'lifesci',
         'icon'     => 'bi-flower1',
-        'label'    => 'Life & Applied Science',
+        'label'    => 'School of Life & Applied Science',
         'color'    => 'blue',
         'schools'  => [
             ['name' => 'School of Life & Applied Science', 'pdf' => 'assets/uploads/fee/Life_Applied_Sciences_m.pdf'],
@@ -67,7 +67,7 @@ $departments = [
     [
         'id'       => 'agri',
         'icon'     => 'bi-tree-fill',
-        'label'    => 'Agriculture & Technology',
+        'label'    => 'School of Agriculture & Technology',
         'color'    => 'blue',
         'schools'  => [
             ['name' => 'School of Agriculture & Technology', 'pdf' => 'assets/uploads/fee/Agriculture_Technology_m.pdf'],
@@ -76,7 +76,7 @@ $departments = [
     [
         'id'       => 'nursing',
         'icon'     => 'bi-heart-pulse-fill',
-        'label'    => 'Nursing',
+        'label'    => 'School of Nursing',
         'color'    => 'green',
         'schools'  => [
             ['name' => 'School of Nursing', 'pdf' => 'assets/uploads/fee/Nursing_m.pdf'],
@@ -85,25 +85,16 @@ $departments = [
     [
         'id'       => 'health',
         'icon'     => 'bi-hospital-fill',
-        'label'    => 'Health Sciences',
+        'label'    => 'School of Health Sciences',
         'color'    => 'blue',
         'schools'  => [
             ['name' => 'School of Health Sciences', 'pdf' => 'assets/uploads/fee/Health_Sciences_m.pdf'],
         ],
     ],
-    // [
-    //     'id'       => 'paramedical',
-    //     'icon'     => 'bi-bandaid-fill',
-    //     'label'    => 'Paramedical Sciences',
-    //     'color'    => 'green',
-    //     'schools'  => [
-    //         ['name' => 'School of Paramedical Sciences', 'pdf' => 'assets/uploads/fee'],
-    //     ],
-    // ],
     [
         'id'       => 'arts',
         'icon'     => 'bi-palette-fill',
-        'label'    => 'Arts & Humanities',
+        'label'    => 'School of Arts & Humanities',
         'color'    => 'blue',
         'schools'  => [
             ['name' => 'School of Arts & Humanities', 'pdf' => 'assets/uploads/fee/Arts_Humanities_m.pdf'],
@@ -112,7 +103,7 @@ $departments = [
     [
         'id'       => 'law',
         'icon'     => 'bi-bank2',
-        'label'    => 'Law & Legal Studies',
+        'label'    => 'School of Law & Legal Studies',
         'color'    => 'green',
         'schools'  => [
             ['name' => 'School of Law & Legal Studies', 'pdf' => 'assets/uploads/fee/Law_Legal_Studies_m.pdf'],
@@ -121,30 +112,14 @@ $departments = [
     [
         'id'       => 'skill',
         'icon'     => 'bi-tools',
-        'label'    => 'Skill Development & Vocational Studies',
+        'label'    => 'School of Skill Development & Vocational Studies',
         'color'    => 'blue',
         'schools'  => [
             ['name' => 'School of Skill Development & Vocational Studies', 'pdf' => 'assets/uploads/fee/Skill_Development_Vocational_Studies_m.pdf'],
         ],
     ],
-    // [
-    //     'id'       => 'rehab',
-    //     'icon'     => 'bi-person-wheelchair',
-    //     'label'    => 'Rehabilitation',
-    //     'color'    => 'green',
-    //     'schools'  => [
-    //         ['name' => 'Ashtvakra School of Rehabilitation', 'pdf' => 'assets/uploads/fee'],
-    //     ],
-    // ],
 ];
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fee Structure | University</title>
-
 <!-- Bootstrap 5 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 <!-- Bootstrap Icons -->
@@ -466,6 +441,7 @@ body {
     padding: 24px 28px 20px;
     border-bottom: 1.5px solid var(--gray-100);
     position: relative;
+    gap: 10px !important;
     overflow: hidden;
 }
 .panel-header::before {
@@ -707,14 +683,68 @@ body {
 .dept-pane.active  { animation: fadeSlide .25s ease; }
 .school-pane.active { animation: fadeSlide .2s ease; }
 
+/* Label enhancement */
+.dept-nav-btn .btn-label {
+    line-height: 1.3;
+    display: block;
+}
+
+/* Scroll enhancement for long names */
+.school-tabs-wrap {
+    background: #fafafa;
+    border-bottom: 2px solid var(--gray-100);
+}
+.school-tab-btn {
+    font-size: .82rem;
+    padding: 12px 20px;
+    letter-spacing: 0.01em;
+}
+
+/* Spinner & Loading */
+.pdf-loader {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    z-index: 5;
+    gap: 15px;
+    transition: opacity .4s ease, visibility .4s ease;
+}
+.pdf-loader p {
+    font-size: .85rem;
+    color: var(--gray-600);
+    font-weight: 500;
+    margin: 0;
+}
+.pdf-embed-container[data-loaded="true"] .pdf-loader {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.pdf-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
 /* Highlight searched items */
 .dept-nav-btn.search-hidden { display: none; }
 .dept-mobile-pill.search-hidden { display: none; }
-</style>
-</head>
-<body>
 
-<?php /* include('header.php'); */ ?>
+@media (max-width: 767px) {
+    .dept-mobile-pill {
+        padding: 10px 18px;
+        font-size: .85rem;
+    }
+    .panel-header h2 { font-size: 1.15rem; }
+}
+</style>
+<!-- Page Content -->
 
 <!-- ===== HERO ===== -->
 <section class="fee-hero">
@@ -801,7 +831,7 @@ body {
                     <div class="panel-header <?= $dept['color'] ?>-header">
                         <div class="ph-icon"><i class="bi <?= $dept['icon'] ?>"></i></div>
                         <h2><?= $dept['label'] ?> — Fee Structure</h2>
-                        <p><?= count($dept['schools']) ?> school<?= count($dept['schools'])>1?'s':'' ?> &nbsp;·&nbsp; Academic Year 2024–25</p>
+                        <p><?= count($dept['schools']) ?> school<?= count($dept['schools'])>1?'s':'' ?> &nbsp;·&nbsp; Academic Year 2026–27</p>
                     </div>
 
                     <!-- School Sub-Tabs -->
@@ -842,10 +872,16 @@ body {
                             </div>
 
                             <!-- PDF Embed -->
-                            <div class="pdf-embed-container">
-                                <embed src="<?= $school['pdf'] ?>#toolbar=1&navpanes=0&scrollbar=1&view=FitH"
-                                       type="application/pdf"
-                                       onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+                            <div class="pdf-embed-container" data-loaded="false">
+                                <!-- Loading Spinner -->
+                                <div class="pdf-loader">
+                                    <div class="spinner-border text-primary" style="width: 2rem; height: 2rem;" role="status"></div>
+                                    <p>Loading Fee Structure...</p>
+                                </div>
+                                
+                                <iframe data-src="<?= $school['pdf'] ?>#toolbar=1&navpanes=0&scrollbar=1&view=FitH"
+                                        class="pdf-frame"></iframe>
+
                                 <!-- Fallback if embed not supported -->
                                 <div class="pdf-fallback">
                                     <i class="bi bi-file-earmark-pdf"></i>
@@ -908,6 +944,34 @@ body {
 
 <script>
 (function () {
+    /* -------  PDF loading logic  ------- */
+    function loadPdf(paneId) {
+        const pane = document.getElementById(paneId);
+        if (!pane) return;
+        
+        const container = pane.querySelector('.pdf-embed-container');
+        const frame = pane.querySelector('.pdf-frame');
+        
+        if (frame && !frame.src) {
+            // Set loading state
+            container.setAttribute('data-loaded', 'false');
+            
+            // Set src from data-src
+            const source = frame.getAttribute('data-src');
+            frame.src = source;
+            
+            // Handle load completion
+            frame.onload = () => {
+                container.setAttribute('data-loaded', 'true');
+            };
+            
+            // Fallback for cases where onload might not fire or takes too long
+            setTimeout(() => {
+                container.setAttribute('data-loaded', 'true');
+            }, 8000); 
+        }
+    }
+
     /* -------  Department switching  ------- */
     function activateDept(id, color) {
         // Sidebar
@@ -918,11 +982,19 @@ body {
         document.querySelectorAll('.dept-mobile-pill').forEach(p => {
             p.className = 'dept-mobile-pill';
             if (p.dataset.target === id) p.classList.add('active-' + color);
+            // Ensure the active pill is visible in the scroll
+            if (p.dataset.target === id) p.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
         });
         // Content panes
         document.querySelectorAll('.dept-pane').forEach(p => {
             p.classList.toggle('active', p.id === 'pane-' + id);
         });
+        
+        // Load the PDF for the active school in this dept
+        const activeSchoolPane = document.querySelector(`#pane-${id} .school-pane.active`);
+        if (activeSchoolPane) {
+            loadPdf(activeSchoolPane.id);
+        }
     }
 
     document.querySelectorAll('.dept-nav-btn').forEach(btn => {
@@ -944,7 +1016,14 @@ body {
             btn.classList.add('active', color + '-tab');
             // Panes
             panel.querySelectorAll('.school-pane').forEach(p => p.classList.remove('active'));
-            document.getElementById(btn.dataset.school).classList.add('active');
+            const targetPaneId = btn.dataset.school;
+            document.getElementById(targetPaneId).classList.add('active');
+            
+            // Load PDF on click
+            loadPdf(targetPaneId);
+            
+            // Scroll tab into view
+            btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
         });
     });
 
@@ -959,7 +1038,7 @@ body {
 
         let visible = 0;
         document.querySelectorAll('.dept-nav-btn').forEach(btn => {
-            const label = btn.dataset.label || '';
+            const label = btn.dataset.label || (btn.querySelector('.btn-label').textContent || '').toLowerCase();
             const hide  = q && !label.includes(q);
             btn.classList.toggle('search-hidden', hide);
             if (!hide) visible++;
@@ -984,16 +1063,14 @@ body {
         searchInput.focus();
     });
 
-    /* -------  PDF embed fallback  ------- */
-    document.querySelectorAll('.pdf-embed-container embed').forEach(embed => {
-        embed.addEventListener('error', function () {
-            this.style.display = 'none';
-            this.nextElementSibling.style.display = 'flex';
-        });
+    /* -------  Initial Load  ------- */
+    window.addEventListener('load', () => {
+        const firstPane = document.querySelector('.school-pane.active');
+        if (firstPane) {
+            loadPdf(firstPane.id);
+        }
     });
 
 })();
 </script>
 <?php require "common/footer.php"?>
-</body>
-</html>

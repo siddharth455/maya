@@ -193,7 +193,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="course-body">
             <h4>B.Tech Civil (Lateral Entry)</h4>
             <p>Focused on structural design, analysis, and construction skills.</p>
-            <div class="course-meta"><span>Credits: 132</span><span>4 Years</span></div>
+            <div class="course-meta"><span>Credits: 132</span><span>3 Years</span></div>
             <a class="default-btn btn-block" href="b.tech-civil-engineering-le.php">Apply Now</a>
           </div>
         </div>
@@ -329,7 +329,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="course-body">
             <h4>B.Tech ECE (Lateral Entry)</h4>
             <p>Electronics and networking systems for communication.</p>
-            <div class="course-meta"><span>Credits: 132</span><span>4 Years</span></div>
+            <div class="course-meta"><span>Credits: 132</span><span>3 Years</span></div>
             <a class="default-btn btn-block" href="b.tech-electronics-and-communication-engineering-le.php">Apply Now</a>
           </div>
         </div>

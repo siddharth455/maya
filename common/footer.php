@@ -251,7 +251,7 @@
 
 </div>
 
-<script src="https://extraaedgeresources.blob.core.windows.net/documents/mdud/Chatbot/js/chat.js"></script>
+<!-- <script src="https://extraaedgeresources.blob.core.windows.net/documents/mdud/Chatbot/js/chat.js"></script> -->
 
 <style>
 

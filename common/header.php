@@ -45,6 +45,7 @@
     <script src="assets/js/vendor/modernizr-3.11.7.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -58,10 +59,35 @@
  }
 }
 </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QVTKG6K0PZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-QVTKG6K0PZ');
+</script>
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '244750689907885');
+  fbq('track', 'PageView');
+  </script>
 </head>
 
 <body>
+    <!-- Meta Pixel noscript -->
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=244750689907885&ev=PageView&noscript=1"/>
+  </noscript>
     <?php
 $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "https://";
 $host = $_SERVER['HTTP_HOST'];
@@ -129,7 +155,8 @@ $base_url = $protocol . $host . $projectFolder;
                                             <ul class="mega-menu">
                                                 <li>
                                                     <ul>
-                                                        <li><a href="best-computer-engineering-college-in-dehradun-uttarakhand.php">School of Computer Engineering & Applications</a></li>
+                                                        <li><a href=""></a></li>
+                                                        <li><a href="best-computer-engineering-college-in-dehradun-uttarakhand.php">School of Computer Engineering &<br> Applications</a></li>
                                                         <li><a href="best-engineering-college-in-dehradun-uttarakhand.php">School of Engineering</a></li>
                                                         <li><a href="pharmacy.php">School of Pharmacy</a></li>
                                                         <li><a href="management-and-commerce.php">School of Commerce & Management</a></li>
@@ -139,6 +166,7 @@ $base_url = $protocol . $host . $projectFolder;
                                                 </li>
                                                 <li>
                                                     <ul>
+                                                        <li><a href=""></a></li>
                                                         <li><a href="School-Of-Education.php">School of Education</a></li>
                                                         <li><a href="agriculture.php">School of Agriculture & Technology</a></li>
                                                         <li><a href="Nursing.php">School of Nursing</a></li>
@@ -149,6 +177,7 @@ $base_url = $protocol . $host . $projectFolder;
                                                 </li>
                                                 <li>
                                                     <ul>
+                                                        <li><a href=""></a></li>
                                                         <li><a href="School-Of-LegalStudies.php">School of Law & Legal Studies</a></li>
                                                         <li><a href="School-Of-Skill-Development-and-Vocational-Studies.php">School of Skill Development & Vocational Studies</a></li>
                                                         <li><a href="School-Of-Rehabilitation-Sciences.php">Ashtvakra School of Rehabilitation</a></li>
@@ -237,7 +266,7 @@ $base_url = $protocol . $host . $projectFolder;
                                 <li><a href="#"> ADMISSION <i class="fa fa-angle-down"></i> </a>
                                     <ul class="submenu">
                                         <li><a href="assets/uploads/pdf/MDU_COMBINED_Brochure.pdf" download="MDU_COMBINED_Brochure.pdf">MDU Brocure</a></li>
-                                        <li><a href="assets/uploads/pdf/MDU_Fee_Structure.pdf" download="MDU_Fee_Structure.pdf">Fee Structure (2025-26)</a></li>
+                                        <li><a href="fee-structure.php">Fee Structure</a></li>
                                         <li><a href="https://admissions.maya.edu.in" target="_blank">Apply Now</a></li>
                                         <li><a href="campus-life.php">Campus Life</a></li>
                                         <li><a href="assets/uploads/pdf/List_of_Holidays_2025.pdf" download="List_of_Holidays_2025.pdf">List of Holidays</a></li>

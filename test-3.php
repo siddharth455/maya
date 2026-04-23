@@ -1,1053 +1,1071 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Best Computer Engineering College in Dehradun | Maya Devi University</title>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --navy: #0a1628;
-    --navy-mid: #11234f;
-    --blue-ibm: #0f62fe;
-    --teal: #00a3a3;
-    --gold: #d8a52d;
-    --white: #ffffff;
-    --off-white: #f0f4ff;
-    --text-muted: #8899bb;
-    --card-bg: rgba(17,35,79,0.5);
-    --glass: rgba(15,98,254,0.08);
-    --border: rgba(15,98,254,0.2);
-  }
-
-  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-
-  html { scroll-behavior: smooth; }
-
-  body {
-    background: var(--navy);
-    color: var(--white);
-    overflow-x: hidden;
-  }
-
-
-  /* ── GRID NOISE BACKGROUND ── */
-  body::before {
-    content: '';
-    position: fixed; inset: 0;
-    background-image:
-      linear-gradient(rgba(15,98,254,0.03) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(15,98,254,0.03) 1px, transparent 1px);
-    background-size: 60px 60px;
-    pointer-events: none; z-index: 0;
-  }
-
-  /* ── HERO ── */
-  .hero {
-    min-height: 100vh;
-    display: flex; align-items: center; justify-content: center;
-    position: relative;
-    background: linear-gradient(135deg, #0a1628 0%, #0d1f4a 50%, #081630 100%);
-    overflow: hidden;
-  }
-  .hero::after {
-    content: '';
-    position: absolute; inset: 0;
-    background: radial-gradient(ellipse 80% 60% at 60% 50%, rgba(15,98,254,0.12) 0%, transparent 70%),
-                radial-gradient(ellipse 50% 40% at 20% 80%, rgba(0,163,163,0.08) 0%, transparent 60%);
-  }
-  .hero-orb {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(80px);
-    animation: orb-float 8s ease-in-out infinite;
-  }
-  .hero-orb-1 { width: 500px; height: 500px; background: rgba(15,98,254,0.15); top: -100px; right: -100px; animation-delay: 0s; }
-  .hero-orb-2 { width: 300px; height: 300px; background: rgba(0,163,163,0.1); bottom: 50px; left: 100px; animation-delay: 3s; }
-  .hero-orb-3 { width: 200px; height: 200px; background: rgba(216,165,45,0.08); top: 200px; left: 300px; animation-delay: 5s; }
-  @keyframes orb-float {
-    0%,100% { transform: translateY(0) scale(1); }
-    50% { transform: translateY(-30px) scale(1.05); }
-  }
-  .hero-content {
-    position: relative; z-index: 2;
-    max-width: 1000px; width: 90%;
-    text-align: center;
-  }
-  .hero-badge {
-    display: inline-flex; align-items: center; gap: 8px;
-    background: rgba(15,98,254,0.15);
-    border: 1px solid rgba(15,98,254,0.4);
-    border-radius: 100px;
-    padding: 8px 20px;
-    font-size: 13px; font-weight: 500; letter-spacing: 0.5px;
-    color: #7eb3ff;
-    margin-bottom: 32px;
-    animation: fade-up 0.8s ease both;
-  }
-  .hero-badge span { width: 6px; height: 6px; background: var(--blue-ibm); border-radius: 50%; animation: pulse-dot 2s ease-in-out infinite; }
-  @keyframes pulse-dot { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.5;transform:scale(1.4)} }
-  .hero h1 {
-    font-size: clamp(2.8rem, 7vw, 5rem);
-    font-weight: 800;
-    line-height: 1.08;
-    letter-spacing: -1.5px;
-    margin-bottom: 24px;
-    animation: fade-up 0.8s 0.15s ease both;
-  }
-  .hero h1 em { font-style: normal; color: var(--blue-ibm) !important; }
-  .hero h1 span { color: var(--teal); }
-  .hero-sub {
-    font-size: 1.15rem; font-weight: 300; color: var(--text-muted);
-    line-height: 1.7; max-width: 640px; margin: 0 auto 40px;
-    animation: fade-up 0.8s 0.3s ease both;
-  }
-  .hero-cta-group {
-    display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
-    animation: fade-up 0.8s 0.45s ease both;
-  }
-  .btn-primary {
-    padding: 14px 32px;
-    background: linear-gradient(135deg, var(--blue-ibm), #0050d8);
-    color: #fff; font-family: 'Syne', sans-serif; font-weight: 600;
-    border: none; border-radius: 6px; cursor: pointer;
-    font-size: 0.95rem; letter-spacing: 0.3px;
-    transition: all 0.3s ease;
-    text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
-    box-shadow: 0 8px 30px rgba(15,98,254,0.3);
-  }
-  .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 16px 40px rgba(15,98,254,0.5); }
-  .btn-outline {
-    padding: 14px 32px;
-    background: transparent; color: var(--white);
-    border: 1px solid var(--border);
-    border-radius: 6px; cursor: pointer;
-    font-family: 'Syne', sans-serif; font-weight: 600; font-size: 0.95rem;
-    transition: all 0.3s ease; text-decoration: none;
-    display: inline-flex; align-items: center; gap: 8px;
-  }
-  .btn-outline:hover { background: var(--glass); border-color: var(--blue-ibm); transform: translateY(-3px); }
-
-  /* ── SCROLL ANIMATION BASE ── */
-  .reveal {
-    opacity: 0; transform: translateY(48px);
-    transition: opacity 0.7s cubic-bezier(.22,1,.36,1), transform 0.7s cubic-bezier(.22,1,.36,1);
-  }
-  .reveal.visible { opacity: 1; transform: translateY(0); }
-  .reveal-left { opacity: 0; transform: translateX(-48px); transition: opacity 0.7s cubic-bezier(.22,1,.36,1), transform 0.7s cubic-bezier(.22,1,.36,1); }
-  .reveal-left.visible { opacity: 1; transform: translateX(0); }
-  .reveal-right { opacity: 0; transform: translateX(48px); transition: opacity 0.7s cubic-bezier(.22,1,.36,1), transform 0.7s cubic-bezier(.22,1,.36,1); }
-  .reveal-right.visible { opacity: 1; transform: translateX(0); }
-  .reveal-scale { opacity: 0; transform: scale(0.88); transition: opacity 0.7s cubic-bezier(.22,1,.36,1), transform 0.7s cubic-bezier(.22,1,.36,1); }
-  .reveal-scale.visible { opacity: 1; transform: scale(1); }
-  .delay-1 { transition-delay: 0.1s; }
-  .delay-2 { transition-delay: 0.2s; }
-  .delay-3 { transition-delay: 0.3s; }
-  .delay-4 { transition-delay: 0.4s; }
-  .delay-5 { transition-delay: 0.5s; }
-  .delay-6 { transition-delay: 0.6s; }
-
-  @keyframes fade-up {
-    from { opacity:0; transform:translateY(30px); }
-    to { opacity:1; transform:translateY(0); }
-  }
-
-  /* ── SECTION BASE ── */
-  section { position: relative; z-index: 1; }
-  .section-inner { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
-  .section-pad { padding: 100px 0; }
-
-  .section-label {
-    font-size: 11px; font-weight: 700; letter-spacing: 3px;
-    text-transform: uppercase; color: var(--blue-ibm);
-    margin-bottom: 16px;
-    display: flex; align-items: center; gap: 10px;
-  }
-  .section-label::before { content: ''; width: 24px; height: 2px; background: var(--blue-ibm); display: block; }
-
-  .section-title {
-    font-size: clamp(2rem, 4vw, 3rem);
-    font-weight: 800; line-height: 1.1; letter-spacing: -1px;
-    margin-bottom: 16px;
-  }
-  .section-title em { font-style: normal; color: var(--blue-ibm); }
-  .section-title span { color: var(--teal); }
-
-  .divider {
-    height: 1px;
-    background: linear-gradient(90deg, transparent, var(--border), transparent);
-  }
-
-  /* ── ABOUT ── */
-  .about-grid {
-    display: grid; grid-template-columns: 1fr 1fr;
-    gap: 80px; align-items: center;
-  }
-  .about-text p {
-    color: var(--text-muted); line-height: 1.8; font-size: 1.02rem;
-    margin-bottom: 20px;
-  }
-  .about-visual {
-    position: relative;
-  }
-  .about-img-wrap {
-    position: relative;
-    border-radius: 16px; overflow: hidden;
-    box-shadow: 0 30px 80px rgba(0,0,0,0.5);
-  }
-  .about-img-wrap img { width: 100%; display: block; }
-  .about-img-wrap::before {
-    content: '';
-    position: absolute; inset: 0;
-    background: linear-gradient(to bottom, transparent 60%, rgba(10,22,40,0.8));
-    z-index: 1;
-  }
-  .about-badge-float {
-    position: absolute; bottom: 24px; left: 24px; z-index: 2;
-    background: rgba(15,98,254,0.9);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    padding: 16px 20px;
-  }
-  .about-badge-float strong { display: block; font-family: 'Syne', sans-serif; font-size: 1.8rem; font-weight: 800; }
-  .about-badge-float span { font-size: 0.8rem; color: rgba(255,255,255,0.75); }
-  .about-corner-tag {
-    position: absolute; top: -16px; right: -16px;
-    background: linear-gradient(135deg, var(--gold), #c8941d);
-    color: #1a0f00; font-family: 'Syne', sans-serif; font-weight: 700;
-    font-size: 0.72rem; letter-spacing: 1.5px;
-    padding: 10px 18px; border-radius: 8px;
-    text-transform: uppercase;
-  }
-
-  /* ── STATS ── */
-  .stats-section {
-    background: linear-gradient(135deg, rgba(15,98,254,0.06), rgba(0,163,163,0.04));
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-  }
-  .stats-grid {
-    display: grid; grid-template-columns: repeat(4, 1fr);
-    gap: 0;
-  }
-  .stat-item {
-    padding: 56px 40px; text-align: center;
-    border-right: 1px solid var(--border);
-    position: relative; overflow: hidden;
-    transition: background 0.3s ease;
-  }
-  .stat-item:last-child { border-right: none; }
-  .stat-item::before {
-    content: '';
-    position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);
-    width: 0; height: 2px; background: var(--blue-ibm);
-    transition: width 0.5s ease;
-  }
-  .stat-item:hover { background: rgba(15,98,254,0.06); }
-  .stat-item:hover::before { width: 100%; }
-  .stat-icon { font-size: 2rem; margin-bottom: 16px; display: block; }
-  .stat-num {
-    font-family: 'Syne', sans-serif; font-size: 3.5rem; font-weight: 800;
-    line-height: 1; color: var(--white);
-    background: linear-gradient(135deg, #fff 40%, #7eb3ff);
-    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-  }
-  .stat-suffix { color: var(--blue-ibm); }
-  .stat-label { font-size: 0.88rem; color: var(--text-muted); margin-top: 8px; letter-spacing: 0.3px; }
-
-  /* ── COURSES TABS ── */
-  .course-tabs {
-    display: flex; gap: 4px;
-    background: rgba(255,255,255,0.04);
-    border: 1px solid var(--border);
-    border-radius: 10px; padding: 4px;
-    margin-bottom: 48px; width: fit-content;
-  }
-  .tab-btn {
-    padding: 10px 28px;
-    background: transparent; color: var(--text-muted);
-    border: none; border-radius: 7px; cursor: pointer;
-    font-family: 'Syne', sans-serif; font-weight: 600; font-size: 0.9rem;
-    transition: all 0.3s ease;
-  }
-  .tab-btn.active {
-    background: var(--blue-ibm); color: #fff;
-    box-shadow: 0 4px 20px rgba(15,98,254,0.4);
-  }
-  .tab-content { display: none; }
-  .tab-content.active { display: grid; }
-
-  /* ── COURSE CARDS ── */
-  .courses-grid {
-    grid-template-columns: repeat(4, 1fr); gap: 20px;
-  }
-  .pg-grid { grid-template-columns: repeat(3, 1fr); gap: 20px; }
-
-  .course-card {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 16px; overflow: hidden;
-    transition: all 0.4s cubic-bezier(.22,1,.36,1);
-    cursor: pointer;
-    position: relative;
-  }
-  .course-card::before {
-    content: '';
-    position: absolute; inset: 0;
-    background: linear-gradient(135deg, rgba(15,98,254,0.15), transparent);
-    opacity: 0; transition: opacity 0.3s ease;
-    pointer-events: none;
-  }
-  .course-card:hover { transform: translateY(-8px) scale(1.01); border-color: rgba(15,98,254,0.5); box-shadow: 0 24px 60px rgba(0,0,0,0.4), 0 0 0 1px rgba(15,98,254,0.3); }
-  .course-card:hover::before { opacity: 1; }
-  .course-img { height: 160px; overflow: hidden; }
-  .course-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
-  .course-card:hover .course-img img { transform: scale(1.08); }
-  .course-body { padding: 20px; }
-  .course-tag {
-    display: inline-block;
-    font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
-    color: var(--teal); margin-bottom: 10px;
-  }
-  .course-body h4 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; line-height: 1.3; }
-  .course-body p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px; }
-  .course-meta {
-    display: flex; justify-content: space-between;
-    font-size: 0.78rem; color: var(--text-muted);
-    margin-bottom: 16px; padding: 10px 0; border-top: 1px solid var(--border);
-  }
-  .course-meta span { display: flex; align-items: center; gap: 4px; }
-  .course-cta {
-    display: block; width: 100%; padding: 10px;
-    background: linear-gradient(135deg, var(--blue-ibm), #0050d8);
-    color: #fff; border: none; border-radius: 6px; cursor: pointer;
-    font-family: 'Syne', sans-serif; font-weight: 600; font-size: 0.85rem;
-    text-align: center; text-decoration: none;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(15,98,254,0.3);
-  }
-  .course-cta:hover { box-shadow: 0 8px 25px rgba(15,98,254,0.5); }
-
-  /* ── IBM SECTION ── */
-  .ibm-section {
-    background: linear-gradient(135deg, #0a1628 0%, #0d1f4a 60%, #061228 100%);
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-    overflow: hidden; position: relative;
-  }
-  .ibm-section::before {
-    content: '';
-    position: absolute; top: -200px; right: -200px;
-    width: 600px; height: 600px;
-    background: radial-gradient(circle, rgba(15,98,254,0.12) 0%, transparent 70%);
-    pointer-events: none;
-  }
-  .ibm-grid {
-    display: grid; grid-template-columns: 1fr 1fr;
-    gap: 80px; align-items: center;
-  }
-  .ibm-badge-strip {
-    display: flex; align-items: center; gap: 14px; margin-bottom: 28px;
-  }
-  .ibm-logo-badge {
-    background: #fff; padding: 8px 18px; border-radius: 8px;
-    font-family: 'Syne', sans-serif; font-size: 1.5rem; font-weight: 800;
-    color: #0f62fe; letter-spacing: -0.5px;
-  }
-  .ibm-x { font-size: 1.2rem; color: var(--text-muted); font-weight: 300; }
-  .mdu-text { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1rem; color: var(--white); }
-  .ibm-heading {
-    font-size: clamp(2rem, 3.5vw, 2.8rem); font-weight: 800;
-    line-height: 1.1; letter-spacing: -1px; margin-bottom: 20px;
-  }
-  .ibm-heading em { font-style: normal; color: var(--gold); }
-  .ibm-desc { color: var(--text-muted); line-height: 1.8; margin-bottom: 32px; font-size: 1rem; }
-  .ibm-chips {
-    display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 36px;
-  }
-  .ibm-chip {
-    padding: 8px 16px;
-    background: rgba(15,98,254,0.12); border: 1px solid rgba(15,98,254,0.25);
-    border-radius: 100px; font-size: 12px; font-weight: 500; color: #7eb3ff;
-    transition: all 0.3s ease;
-  }
-  .ibm-chip:hover { background: rgba(15,98,254,0.25); border-color: var(--blue-ibm); transform: translateY(-2px); }
-  .ibm-features-grid {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
-  }
-  .ibm-feat {
-    background: rgba(15,98,254,0.06);
-    border: 1px solid var(--border);
-    border-radius: 12px; padding: 24px;
-    transition: all 0.3s ease;
-  }
-  .ibm-feat:hover { background: rgba(15,98,254,0.12); transform: translateY(-4px); }
-  .ibm-feat-icon { font-size: 1.6rem; margin-bottom: 12px; }
-  .ibm-feat h5 { font-size: 0.95rem; font-weight: 700; margin-bottom: 8px; }
-  .ibm-feat p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; }
-
-  /* ── CLUBS ── */
-  .clubs-grid {
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
-  }
-  .club-card {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 16px; padding: 32px;
-    transition: all 0.4s cubic-bezier(.22,1,.36,1);
-    position: relative; overflow: hidden;
-  }
-  .club-card::after {
-    content: '';
-    position: absolute; bottom: 0; left: 0; right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, var(--blue-ibm), var(--teal));
-    transform: scaleX(0); transition: transform 0.4s ease;
-    transform-origin: left;
-  }
-  .club-card:hover { transform: translateY(-6px); border-color: rgba(15,98,254,0.4); box-shadow: 0 20px 50px rgba(0,0,0,0.4); }
-  .club-card:hover::after { transform: scaleX(1); }
-  .club-icon { font-size: 2.4rem; margin-bottom: 16px; display: block; }
-  .club-card h5 { font-size: 1.05rem; font-weight: 700; margin-bottom: 10px; }
-  .club-card p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.7; }
-
-  /* ── WHY CHOOSE ── */
-  .why-section {
-    background: radial-gradient(ellipse 100% 80% at 50% 50%, rgba(15,98,254,0.04) 0%, transparent 70%);
-  }
-  .why-grid {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;
-  }
-  .why-features { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-  .why-feat {
-    background: var(--card-bg); border: 1px solid var(--border);
-    border-radius: 14px; padding: 24px;
-    transition: all 0.4s ease;
-    position: relative; overflow: hidden;
-  }
-  .why-feat::before {
-    content: '';
-    position: absolute; top: 0; left: 0; width: 3px; height: 0;
-    background: linear-gradient(to bottom, var(--blue-ibm), var(--teal));
-    transition: height 0.5s ease;
-  }
-  .why-feat:hover { transform: translateX(6px); }
-  .why-feat:hover::before { height: 100%; }
-  .why-feat-icon { font-size: 1.8rem; margin-bottom: 12px; }
-  .why-feat h5 { font-size: 0.95rem; font-weight: 700; margin-bottom: 8px; }
-  .why-feat p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; }
-  .why-visual { position: relative; }
-  .why-img-wrap { border-radius: 20px; overflow: hidden; box-shadow: 0 40px 80px rgba(0,0,0,0.5); }
-  .why-img-wrap img { width: 100%; display: block; }
-  .why-float-card {
-    position: absolute; bottom: -20px; right: -20px;
-    background: linear-gradient(135deg, var(--navy-mid), #0d1f4a);
-    border: 1px solid var(--border); border-radius: 14px;
-    padding: 20px 24px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
-  }
-  .why-float-card strong { display: block; font-family: 'Syne', sans-serif; font-size: 2rem; font-weight: 800; color: var(--gold); }
-  .why-float-card span { font-size: 0.8rem; color: var(--text-muted); }
-
-  /* ── TESTIMONIALS ── */
-  .testimonials-section { background: linear-gradient(135deg, rgba(0,163,163,0.03), transparent); }
-  .testimonials-track {
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
-  }
-  .testi-card {
-    background: var(--card-bg); border: 1px solid var(--border);
-    border-radius: 20px; padding: 32px;
-    transition: all 0.4s ease; position: relative;
-  }
-  .testi-card::before {
-    content: '"';
-    position: absolute; top: 16px; right: 24px;
-    font-family: 'Syne', sans-serif; font-size: 5rem; font-weight: 800;
-    color: rgba(15,98,254,0.15); line-height: 1;
-  }
-  .testi-card:hover { transform: translateY(-6px); box-shadow: 0 24px 60px rgba(0,0,0,0.4); border-color: rgba(15,98,254,0.3); }
-  .testi-avatar {
-    width: 56px; height: 56px; border-radius: 50%;
-    object-fit: cover; margin-bottom: 20px;
-    border: 2px solid var(--blue-ibm);
-  }
-  .testi-text { font-size: 0.92rem; color: var(--off-white); line-height: 1.75; margin-bottom: 20px; font-style: italic; }
-  .testi-name { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.95rem; }
-  .testi-prog { font-size: 0.8rem; color: var(--text-muted); margin-top: 2px; }
-  .testi-stars { color: var(--gold); font-size: 0.85rem; margin-bottom: 12px; letter-spacing: 2px; }
-
-  /* ── CTA BANNER ── */
-  .cta-banner {
-    background: linear-gradient(135deg, var(--blue-ibm) 0%, #0050d8 50%, #003bb5 100%);
-    position: relative; overflow: hidden;
-  }
-  .cta-banner::before {
-    content: '';
-    position: absolute; inset: 0;
-    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  }
-  .cta-inner {
-    display: flex; align-items: center; justify-content: space-between;
-    flex-wrap: wrap; gap: 32px;
-    max-width: 1200px; margin: 0 auto; padding: 80px 40px;
-    position: relative; z-index: 1;
-  }
-  .cta-text h2 { font-size: clamp(1.8rem, 3vw, 2.4rem); font-weight: 800; margin-bottom: 12px; }
-  .cta-text p { color: rgba(255,255,255,0.8); font-size: 1rem; max-width: 500px; line-height: 1.6; }
-  .btn-white {
-    padding: 16px 40px; background: #fff; color: var(--blue-ibm);
-    border: none; border-radius: 6px; cursor: pointer;
-    font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1rem;
-    transition: all 0.3s ease; text-decoration: none;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.2); white-space: nowrap;
-  }
-  .btn-white:hover { transform: translateY(-3px); box-shadow: 0 16px 40px rgba(0,0,0,0.3); }
-
-  /* ── COUNTER ANIMATION ── */
-  .counter-num { transition: all 0.3s ease; }
-
-  /* ── FLOATING NAV ── */
-  .floating-nav {
-    position: fixed; top: 24px; left: 50%; transform: translateX(-50%);
-    z-index: 100;
-    background: rgba(10,22,40,0.85);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 12px 32px;
-    display: flex; align-items: center; gap: 40px;
-    opacity: 0; animation: nav-in 0.6s 0.8s ease both;
-    box-shadow: 0 8px 40px rgba(0,0,0,0.3);
-  }
-  @keyframes nav-in { from{opacity:0;transform:translateX(-50%) translateY(-20px)} to{opacity:1;transform:translateX(-50%) translateY(0)} }
-  .nav-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1rem; letter-spacing: -0.3px; }
-  .nav-links { display: flex; gap: 28px; }
-  .nav-links a {
-    font-size: 0.85rem; font-weight: 500; color: var(--text-muted);
-    text-decoration: none; transition: color 0.3s ease; letter-spacing: 0.3px;
-  }
-  .nav-links a:hover { color: var(--white); }
-  .nav-cta {
-    padding: 8px 20px; background: var(--blue-ibm);
-    color: #fff; border: none; border-radius: 6px;
-    font-family: 'Syne', sans-serif; font-weight: 600; font-size: 0.82rem;
-    cursor: pointer; transition: all 0.3s ease; text-decoration: none;
-  }
-  .nav-cta:hover { background: #0050d8; }
-
-  /* ── RESPONSIVE ── */
-  @media (max-width: 1024px) {
-    .about-grid, .ibm-grid, .why-grid { grid-template-columns: 1fr; gap: 48px; }
-    .stats-grid { grid-template-columns: repeat(2, 1fr); }
-    .stat-item { border-bottom: 1px solid var(--border); }
-    .courses-grid { grid-template-columns: repeat(2, 1fr); }
-    .pg-grid { grid-template-columns: repeat(2, 1fr); }
-    .floating-nav { display: none; }
-  }
-  @media (max-width: 768px) {
-    .section-inner { padding: 0 20px; }
-    .section-pad { padding: 70px 0; }
-    .clubs-grid, .testimonials-track { grid-template-columns: 1fr; }
-    .courses-grid, .pg-grid { grid-template-columns: 1fr; }
-    .why-features { grid-template-columns: 1fr; }
-    .ibm-features-grid { grid-template-columns: 1fr; }
-    .course-tabs { flex-direction: column; width: 100%; }
-  }
-</style>
-</head>
-<body>
-
+<?php
+$page_title = "Management & Commerce Programs in Dehradun | Maya Devi University";
+$page_description = "Explore Management and Commerce programs at Maya Devi University, Dehradun with industry-focused curriculum and placement support.";
+$canonical_url = "https://maya.edu.in/management-and-commerce.php";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+?>
 <?php require "common/header.php"?>
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-orb hero-orb-1"></div>
-  <div class="hero-orb hero-orb-2"></div>
-  <div class="hero-orb hero-orb-3"></div>
+  <!-- Hero Section -->
+  <section class="hero-section" style="background: url('assets/uploads/scm.jpg') center/cover no-repeat; height:70vh;">
   <div class="hero-content">
-    <div class="hero-badge"><span></span> Dehradun's Premier Tech University</div>
-    <h1>Engineering that<br>feels <em>ready</em> for<br>the <span>next decade.</span></h1>
-    <p class="hero-sub">The School of Computer Applications at Maya Devi University blends academic excellence with ethical responsibility—preparing globally ready digital leaders.</p>
-    <div class="hero-cta-group">
-      <a href="https://admissions.maya.edu.in" class="btn-primary">Apply Now →</a>
-      <a href="#courses" class="btn-outline">Explore Programs</a>
+      
     </div>
+  </section>
+
+  <!-- About Section -->
+<section class="container py-5">
+<div class="section-title  pb-20">
+    <h2>School <span>Overview</h2>
+    </div>
+  <div class="row">
+    <!-- Left Text -->
+    <div class="col-md-7">
+      <p>
+      The School of Commerce and Management at Maya Devi University is dedicated to shaping future leaders by blending academic excellence with innovation, ethics, and social responsibility. With a vision to be a center of excellence in business education, the School prepares students to become competent professionals and visionary leaders—capable of making impactful decisions that drive economic growth and societal progress.
+      </p>
+      <p>
+      Our programs are designed to deliver a dynamic and practical learning experience, integrating strong theoretical foundations with real-world business exposure. Supported by modern infrastructure, industry collaborations, and research-driven teaching, students develop critical management skills, entrepreneurial thinking, and strategic problem-solving abilities.
+      </p>
+      <p>Through case studies, internships, global perspectives, industrial visits, and an emphasis on sustainability and inclusivity, the School empowers students to address real-world business challenges with confidence.</p>
+      <a class="default-btn btn-block" href="assets/uploads/fee/Commerce_Management_m.pdf">Download fee structure</a>
+    </div>
+  <!-- About Section -->
+    <!-- Right Image -->
+    <div class="col-md-5 text-center">
+  <div class="img-container">
+    <img src="assets/uploads/e-school.webp" 
+         alt="School of Engineering" 
+         class="responsive-img">
+  </div>
+</div>
+
+</section>
+
+  <!-- Achievements Section -->
+  <section class="container" id="achievements">
+  <div class="section-title pb-20">
+    <h2>Our <span>Achievements</span></h2>
+  </div>
+  <div class="row g-4 text-center mt-4">
+    
+    <!-- Card 1 -->
+    <div class="col-md-3 col-6">
+      <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f0f8ff;">
+        <i class="fa fa-users fa-2x text-success mb-3"></i>
+        <h3 class="fw-bold">
+          <span class="counter" data-target="20">0</span>+
+        </h3>
+        <p class="mb-0">Programs Offered</p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-3 col-6">
+      <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f6fffa;">
+        <i class="fa fa-certificate fa-2x text-success mb-3"></i>
+        <h3 class="fw-bold">
+          <span class="counter" data-target="600">0</span>+
+        </h3>
+        <p class="mb-0">Students Placed</p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-3 col-6">
+      <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f9f8ff;">
+        <i class="fa fa-briefcase fa-2x text-success mb-3"></i>
+        <h3 class="fw-bold">
+          <span class="counter" data-target="22">0</span>+
+        </h3>
+        <p class="mb-0">Highest Package (LPA)</p>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-md-3 col-6">
+      <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#fff8f2;">
+        <i class="fa fa-globe fa-2x text-success mb-3"></i>
+        <h3 class="fw-bold">
+          <span class="counter" data-target="75">0</span>+
+        </h3>
+        <p class="mb-0">Industry Partners</p>
+      </div>
+    </div>
+    
   </div>
 </section>
 
-<!-- ABOUT -->
-<section id="about" class="section-pad">
-  <div class="section-inner">
-    <div class="about-grid">
-      <div class="about-text reveal-left">
-        <div class="section-label">School Overview</div>
-        <h2 class="section-title">Where Innovation<br>Meets <em>Purpose</em></h2>
-        <p>The School of Computer Applications at Maya Devi University is dedicated to shaping the future of technology by blending academic excellence with ethical responsibility. Anchored in a vision to be a leading center of innovation and knowledge.</p>
-        <p>Our programs foster a dynamic learning environment promoting innovation, critical thinking, and lifelong learning. We seamlessly integrate emerging technologies with core human values.</p>
-        <p>Through global perspectives, hands-on experiences, and a focus on sustainability and inclusivity, the School prepares students to address real-world challenges.</p>
-        <br>
-        <a href="assets/uploads/fee/MDU — School of Computer Engineering & Applications.pdf" class="btn-outline">Download Fee Structure ↓</a>
-      </div>
-      <div class="about-visual reveal-right">
-        <div class="about-img-wrap">
-          <img src="https://maya.edu.in/assets/uploads/engineering.webp" alt="School of Engineering" onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#0d1f4a,#0a1628)';this.parentElement.style.height='400px'">
-          <div class="about-badge-float">
-            <strong>2024</strong>
-            <span>Established</span>
+<!-- Counter Script -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const counters = document.querySelectorAll(".counter");
+  const duration = 1000; // total animation time (ms)
+
+  const animateCounter = (counter) => {
+    const target = +counter.getAttribute("data-target");
+    const start = 0;
+    const startTime = performance.now();
+
+    const updateCount = (currentTime) => {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      counter.innerText = Math.floor(progress * target);
+
+      if (progress < 1) {
+        requestAnimationFrame(updateCount);
+      } else {
+        counter.innerText = target; // ensure exact number at end
+      }
+    };
+
+    requestAnimationFrame(updateCount);
+  };
+
+  // Animate only when section is visible
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  counters.forEach(counter => {
+    observer.observe(counter);
+  });
+});
+</script>
+
+<!-- Courses Section -->
+<div class="course-area bg-light pt-60 pb-60">
+  <div class="container">
+
+    <!-- ================= UNDERGRADUATE PROGRAMS ================= -->
+    <div class="section-title text-center mb-50">
+      <h2>Undergraduate <span>Programs</span></h2>
+      <p>Industry-focused undergraduate programs in business, management, and commerce.</p>
+    </div>
+
+    <div class="row">
+
+      <!-- BBA HR -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="bachelor-of-business-administration.php">
+              <img src="assets/uploads/bba.jpg" alt="">
+            </a>
           </div>
-        </div>
-        <div class="about-corner-tag">Top Ranked</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="divider"></div>
-
-<!-- STATS -->
-<section class="stats-section">
-  <div class="stats-grid">
-    <div class="stat-item reveal delay-1">
-      <span class="stat-icon">🎓</span>
-      <div class="stat-num"><span class="counter-num" data-target="8">0</span><span class="stat-suffix">+</span></div>
-      <div class="stat-label">Programs Offered</div>
-    </div>
-    <div class="stat-item reveal delay-2">
-      <span class="stat-icon">🏆</span>
-      <div class="stat-num"><span class="counter-num" data-target="1000">0</span><span class="stat-suffix">+</span></div>
-      <div class="stat-label">Students Placed</div>
-    </div>
-    <div class="stat-item reveal delay-3">
-      <span class="stat-icon">💼</span>
-      <div class="stat-num"><span class="counter-num" data-target="48">0</span><span class="stat-suffix"> LPA</span></div>
-      <div class="stat-label">Highest Package</div>
-    </div>
-    <div class="stat-item reveal delay-4">
-      <span class="stat-icon">🌐</span>
-      <div class="stat-num"><span class="counter-num" data-target="100">0</span><span class="stat-suffix">+</span></div>
-      <div class="stat-label">Industry Partners</div>
-    </div>
-  </div>
-</section>
-
-<!-- COURSES -->
-<section id="courses" class="section-pad">
-  <div class="section-inner">
-    <div class="reveal" style="margin-bottom:48px;">
-      <div class="section-label">Academic Programs</div>
-      <h2 class="section-title">Industry-Focused<br><em>Degrees</em> That Matter</h2>
-    </div>
-    <div class="reveal delay-2">
-      <div class="course-tabs">
-        <button class="tab-btn active" onclick="switchTab('ug', this)">Undergraduate</button>
-        <button class="tab-btn" onclick="switchTab('pg', this)">Postgraduate</button>
-      </div>
-    </div>
-
-    <!-- UG COURSES -->
-    <div id="tab-ug" class="tab-content active courses-grid">
-      <div class="course-card reveal delay-1">
-        <div class="course-img"><img src="https://maya.edu.in/assets/uploads/ai.jpeg" alt="BCA AI ML" onerror="this.style.background='linear-gradient(135deg,#0f62fe22,#0a162800)';this.src=''"></div>
-        <div class="course-body">
-          <span class="course-tag">BCA</span>
-          <h4>BCA in AI & Machine Learning</h4>
-          <p>Shaping tech leaders with expertise in Artificial Intelligence and Machine Learning.</p>
-          <div class="course-meta"><span>⚡ 120 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-computer-application-AI-&-ML.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card reveal delay-2">
-        <div class="course-img"><img src="https://maya.edu.in/assets/uploads/data-science.webp" alt="BCA Data Science" onerror="this.style.background='linear-gradient(135deg,#0a3a3a,#0a1628)';this.src=''"></div>
-        <div class="course-body">
-          <span class="course-tag">BCA</span>
-          <h4>BCA in Data Science</h4>
-          <p>Future tech & data leaders with expertise in Analytics and Data Science.</p>
-          <div class="course-meta"><span>⚡ 120 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-computer-application-Data-Science.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card reveal delay-3">
-        <div class="course-img"><img src="https://maya.edu.in/assets/uploads/cyber-security.webp" alt="BCA Cyber Security" onerror="this.style.background='linear-gradient(135deg,#2a0a3a,#0a1628)';this.src=''"></div>
-        <div class="course-body">
-          <span class="course-tag">BCA</span>
-          <h4>BCA in Cyber Security</h4>
-          <p>An undergraduate program focused on computer applications and digital security.</p>
-          <div class="course-meta"><span>⚡ 120 Credits</span><span>📅 4 Years</span></div>
-          <a href="bachelor-of-computer-application-cyber-security.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card reveal delay-4">
-        <div class="course-img"><img src="https://maya.edu.in/assets/uploads/it.webp" alt="BSc IT" onerror="this.style.background='linear-gradient(135deg,#0a2a0a,#0a1628)';this.src=''"></div>
-        <div class="course-body">
-          <span class="course-tag">B.Sc</span>
-          <h4>B.Sc Information Technology</h4>
-          <p>An undergraduate program focused on information technology and its applications.</p>
-          <div class="course-meta"><span>⚡ 120 Credits</span><span>📅 4 Years</span></div>
-          <a href="bachelor-of-science-in-information-technology.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card reveal delay-1">
-        <div class="course-img"><img src="https://maya.edu.in/assets/uploads/computer.webp" alt="BTech CSE" onerror="this.style.background='linear-gradient(135deg,#0f62fe22,#0a1628)';this.src=''"></div>
-        <div class="course-body">
-          <span class="course-tag">B.Tech</span>
-          <h4>B.Tech Computer Science Engineering</h4>
-          <p>An undergraduate program focused on information technology and its applications.</p>
-          <div class="course-meta"><span>⚡ 177 Credits</span><span>📅 4 Years</span></div>
-          <a href="b.tech-CSE.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card reveal delay-2">
-        <div class="course-img"><img src="https://maya.edu.in/assets/uploads/ai.jpeg" alt="BTech AI ML" onerror="this.style.background='linear-gradient(135deg,#0f62fe22,#0a1628)';this.src=''"></div>
-        <div class="course-body">
-          <span class="course-tag">B.Tech</span>
-          <h4>B.Tech AI & ML</h4>
-          <p>An undergraduate program focused on artificial intelligence and machine learning.</p>
-          <div class="course-meta"><span>⚡ 177 Credits</span><span>📅 4 Years</span></div>
-          <a href="b.tech-AI-ML.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card reveal delay-3">
-        <div class="course-img"><img src="https://maya.edu.in/assets/uploads/ibm.webp" alt="BTech IBM" onerror="this.style.background='linear-gradient(135deg,#0f62fe33,#0a1628)';this.src=''"></div>
-        <div class="course-body">
-          <span class="course-tag">B.Tech × IBM</span>
-          <h4>B.Tech CSE with IBM</h4>
-          <p>An undergraduate program combining CS fundamentals with IBM industry training.</p>
-          <div class="course-meta"><span>⚡ 177 Credits</span><span>📅 4 Years</span></div>
-          <a href="b.tech-CS_IBM.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card reveal delay-4">
-        <div class="course-img"><img src="https://maya.edu.in/assets/uploads/cyber-security.webp" alt="BTech Cyber" onerror="this.style.background='linear-gradient(135deg,#2a0a3a,#0a1628)';this.src=''"></div>
-        <div class="course-body">
-          <span class="course-tag">B.Tech</span>
-          <h4>B.Tech Cyber Security</h4>
-          <p>An undergraduate program focused on digital security and cyber defence.</p>
-          <div class="course-meta"><span>⚡ 177 Credits</span><span>📅 4 Years</span></div>
-          <a href="b.tech-cyber_security.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- PG COURSES -->
-    <div id="tab-pg" class="tab-content pg-grid">
-      <div class="course-card reveal delay-1">
-        <div class="course-img"><img src="https://maya.edu.in/assets/uploads/aiml-2.webp" alt="MCA AI ML" onerror="this.style.background='linear-gradient(135deg,#0f62fe22,#0a1628)';this.src=''"></div>
-        <div class="course-body">
-          <span class="course-tag">MCA</span>
-          <h4>MCA AI & Machine Learning</h4>
-          <p>Advanced program in artificial intelligence and machine learning applications.</p>
-          <div class="course-meta"><span>⚡ 88 Credits</span><span>📅 2 Years</span></div>
-          <a href="mca-aiml.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card reveal delay-2">
-        <div class="course-img"><img src="https://maya.edu.in/assets/uploads/mca-data.webp" alt="MCA Data Science" onerror="this.style.background='linear-gradient(135deg,#0a3a3a,#0a1628)';this.src=''"></div>
-        <div class="course-body">
-          <span class="course-tag">MCA</span>
-          <h4>MCA Data Science</h4>
-          <p>Advanced program focused on data analytics, visualization, and big data.</p>
-          <div class="course-meta"><span>⚡ 88 Credits</span><span>📅 2 Years</span></div>
-          <a href="mca-data-science.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card reveal delay-3">
-        <div class="course-img"><img src="https://maya.edu.in/assets/uploads/mca-cyber.webp" alt="MCA Cyber" onerror="this.style.background='linear-gradient(135deg,#2a0a3a,#0a1628)';this.src=''"></div>
-        <div class="course-body">
-          <span class="course-tag">MCA</span>
-          <h4>MCA Cyber Security</h4>
-          <p>Advanced program focused on information security and ethical hacking.</p>
-          <div class="course-meta"><span>⚡ 88 Credits</span><span>📅 2 Years</span></div>
-          <a href="mca-cyber-security.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card reveal delay-4">
-        <div class="course-img"><img src="https://maya.edu.in/assets/uploads/mtech-cse.webp" alt="MTech CSE" onerror="this.style.background='linear-gradient(135deg,#0f62fe22,#0a1628)';this.src=''"></div>
-        <div class="course-body">
-          <span class="course-tag">M.Tech</span>
-          <h4>M.Tech CSE (AI/DS/Cyber)</h4>
-          <p>Advanced engineering with specializations in AI, Data Science, and Cybersecurity.</p>
-          <div class="course-meta"><span>⚡ 88 Credits</span><span>📅 2 Years</span></div>
-          <a href="mtech-specializations-cse-AI-ML.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card reveal delay-5">
-        <div class="course-img"><img src="https://maya.edu.in/assets/uploads/computer.webp" alt="MSc CS" onerror="this.style.background='linear-gradient(135deg,#0a2a0a,#0a1628)';this.src=''"></div>
-        <div class="course-body">
-          <span class="course-tag">M.Sc</span>
-          <h4>M.Sc Computer Science</h4>
-          <p>An advanced program focused on computer science theory and applications.</p>
-          <div class="course-meta"><span>⚡ 88 Credits</span><span>📅 2 Years</span></div>
-          <a href="msc-computer-science.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card reveal delay-6">
-        <div class="course-img"><img src="https://maya.edu.in/assets/uploads/mca.webp" alt="MCA" onerror="this.style.background='linear-gradient(135deg,#0a1a2a,#0a1628)';this.src=''"></div>
-        <div class="course-body">
-          <span class="course-tag">MCA</span>
-          <h4>MCA — Master of Computer Applications</h4>
-          <p>An advanced program focused on computer applications and management.</p>
-          <div class="course-meta"><span>⚡ 88 Credits</span><span>📅 2 Years</span></div>
-          <a href="mca.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="divider"></div>
-
-<!-- IBM SECTION -->
-<section id="ibm" class="ibm-section section-pad">
-  <div class="section-inner">
-    <div class="ibm-grid">
-      <div class="reveal-left">
-        <div class="ibm-badge-strip">
-          <div class="ibm-logo-badge">IBM</div>
-          <span class="ibm-x">×</span>
-          <span class="mdu-text">Maya Devi University</span>
-        </div>
-        <h2 class="ibm-heading">Engineering that feels<br>ready for the <em>next decade.</em></h2>
-        <p class="ibm-desc">The integrated B.Tech CSE pathway and IBM-linked technical learning create a stronger route to specialization and employability. Build an engineering profile that combines degree depth with industry-facing readiness.</p>
-        <div class="ibm-chips">
-          <span class="ibm-chip">Integrated B.Tech CSE with IBM</span>
-          <span class="ibm-chip">Data Science</span>
-          <span class="ibm-chip">AI Python Programming</span>
-          <span class="ibm-chip">Advanced AI for IT Students</span>
-          <span class="ibm-chip">Cybersecurity</span>
-          <span class="ibm-chip">Robotics & AI</span>
-        </div>
-        <a href="b.tech-CS_IBM.php" class="btn-primary">Explore IBM Program →</a>
-      </div>
-      <div class="ibm-features-grid reveal-right">
-        <div class="ibm-feat">
-          <div class="ibm-feat-icon">🚀</div>
-          <h5>Future Skills</h5>
-          <p>Move beyond theory with future-tech language, project exposure, and stronger market positioning.</p>
-        </div>
-        <div class="ibm-feat">
-          <div class="ibm-feat-icon">💎</div>
-          <h5>Career Value</h5>
-          <p>Choose a more premium engineering pathway with clearer long-term career relevance.</p>
-        </div>
-        <div class="ibm-feat">
-          <div class="ibm-feat-icon">🏢</div>
-          <h5>IBM Advantage</h5>
-          <p>Build an engineering profile that combines degree depth with industry-facing readiness.</p>
-        </div>
-        <div class="ibm-feat">
-          <div class="ibm-feat-icon">🌍</div>
-          <h5>Global Recognition</h5>
-          <p>IBM is globally recognized in AI, analytics, and digital transformation—adding premium credibility.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="divider"></div>
-
-<!-- CLUBS -->
-<section id="clubs" class="section-pad">
-  <div class="section-inner">
-    <div class="reveal" style="margin-bottom:48px;">
-      <div class="section-label">Student Life</div>
-      <h2 class="section-title">Clubs & <span>Societies</span></h2>
-    </div>
-    <div class="clubs-grid">
-      <div class="club-card reveal delay-1">
-        <span class="club-icon">🤖</span>
-        <h5>AI & Robotics Society</h5>
-        <p>Innovating with artificial intelligence and robotics through hands-on projects, workshops, and hackathons.</p>
-      </div>
-      <div class="club-card reveal delay-2">
-        <span class="club-icon">🛡️</span>
-        <h5>CyberSec Club</h5>
-        <p>Learn, practice, and explore ethical hacking & cybersecurity challenges in a safe, mentored environment.</p>
-      </div>
-      <div class="club-card reveal delay-3">
-        <span class="club-icon">💻</span>
-        <h5>Web & App Developers Hub</h5>
-        <p>A community for passionate coders building modern apps & web solutions that solve real problems.</p>
-      </div>
-      <div class="club-card reveal delay-4">
-        <span class="club-icon">🌍</span>
-        <h5>Tech4Good Society</h5>
-        <p>Using technology to solve social issues & create meaningful, sustainable change in the community.</p>
-      </div>
-      <div class="club-card reveal delay-5">
-        <span class="club-icon">🎤</span>
-        <h5>TechTalks & Toastmasters</h5>
-        <p>Sharpen your speaking, debating, and presentation skills alongside your technical peers.</p>
-      </div>
-      <div class="club-card reveal delay-6">
-        <span class="club-icon">🎮</span>
-        <h5>Game Dev & AR/VR Club</h5>
-        <p>Explore immersive worlds with AR/VR projects, game design, and interactive media innovations.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="divider"></div>
-
-<!-- WHY CHOOSE US -->
-<section class="section-pad why-section">
-  <div class="section-inner">
-    <div class="why-grid">
-      <div>
-        <div class="reveal">
-          <div class="section-label">Why MDU</div>
-          <h2 class="section-title">Why <em>Choose</em><br>Us?</h2>
-          <p style="color:var(--text-muted);line-height:1.8;margin-bottom:40px;font-size:1rem;">At the School of Computer Applications, Maya Devi University, we go beyond conventional learning—offering an ecosystem of innovation, creativity, and global opportunities.</p>
-        </div>
-        <div class="why-features">
-          <div class="why-feat reveal delay-1">
-            <div class="why-feat-icon">🚀</div>
-            <h5>Education & Innovation</h5>
-            <p>Future-ready curriculum blending theory with hands-on practice in AI, cybersecurity, data science, and cloud.</p>
-          </div>
-          <div class="why-feat reveal delay-2">
-            <div class="why-feat-icon">⚖️</div>
-            <h5>Ethics Meets Tech</h5>
-            <p>Building responsible leaders who innovate with integrity and social responsibility.</p>
-          </div>
-          <div class="why-feat reveal delay-3">
-            <div class="why-feat-icon">🌍</div>
-            <h5>Global Readiness</h5>
-            <p>International collaborations and real-world projects prepare students for a connected global workforce.</p>
-          </div>
-          <div class="why-feat reveal delay-4">
-            <div class="why-feat-icon">📚</div>
-            <h5>Lifelong Learning</h5>
-            <p>Education that goes beyond degrees—building curiosity, critical thinking, and continuous growth.</p>
+          <div class="course-body">
+            <h4>BBA Human Resource</h4>
+            <p>BBA in Human Resource Management trains students in recruitment, employee relations, training, and leadership skills.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>3 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="bachelor-of-business-administration.php">Apply Now</a>
           </div>
         </div>
       </div>
-      <div class="why-visual reveal-right">
-        <div class="why-img-wrap">
-          <img src="https://maya.edu.in/assets/uploads/computer.jpg" alt="Why Choose MDU" onerror="this.style.background='linear-gradient(135deg,#0d1f4a,#0a1628)';this.style.height='400px';this.src=''">
+
+      <!-- BBA Finance -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="bachelor-of-business-administration.php">
+              <img src="assets/uploads/bba-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>BBA FinTech</h4>
+            <p>Focuses on financial planning, investment analysis, budgeting, and corporate decision-making.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>3 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="bachelor-of-business-administration.php">Apply Now</a>
+          </div>
         </div>
-        <div class="why-float-card">
-          <strong>48 LPA</strong>
-          <span>Highest Package</span>
+      </div>
+
+      <!-- BBA Marketing -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="bachelor-of-business-administration.php">
+              <img src="assets/uploads/bba-2.jpeg" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>BBA Marketing Management</h4>
+            <p>Develops expertise in market research, branding, sales strategies, and digital marketing.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>3 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="bachelor-of-business-administration.php">Apply Now</a>
+          </div>
         </div>
       </div>
+
+      <!-- BBA Digital -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="bachelor-of-business-administration.php">
+              <img src="assets/uploads/bba-3.jpeg" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>BBA Digital Marketing</h4>
+            <p>Trains students in SEO, social media marketing, content creation, and digital branding.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>3 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="bachelor-of-business-administration.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- BBA Aviation -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="bachelor-of-business-administration.php">
+              <img src="assets/uploads/aviation.webp" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>BBA Aviation Management</h4>
+            <p>Prepares students for airline operations, airport management, and aviation business roles.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>3 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="bachelor-of-business-administration.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Logistic Management -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="bachelor-of-business-administration.php">
+              <img src="assets/uploads/bba-5.jpg" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>BBA Logistic Management</h4>
+            <p>Develops expertise in Supply chain, Transportation, operations management, etc.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>3 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="bachelor-of-business-administration.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Business Analytics -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="bachelor-of-business-administration.php">
+              <img src="assets/uploads/bba-6.jpg" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>BBA Business Analytics</h4>
+            <p>Develops expertise in Business intelligence, Industry-focused analytical applications, etc.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>3 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="bachelor-of-business-administration.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Travel & Tourism Management  -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="bachelor-of-business-administration.php">
+              <img src="assets/uploads/bba-7.jpg" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>BBA Travel & Tourism Management</h4>
+            <p>Develops expertise in Tourism, tour management, Destination marketing, hospitality, etc.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>3 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="bachelor-of-business-administration.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- B.Com Finance -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="bachelor-of-commerce.php">
+              <img src="assets/uploads/bcom.jpg" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>B.Com (Hons) – Finance</h4>
+            <p>Develops expertise in financial analysis, investments, accounting, and corporate finance.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>3 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="bachelor-of-commerce.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- B.Com Tax -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="bachelor-of-commerce.php">
+              <img src="assets/uploads/tax.webp" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>B.Com (Hons) – Taxation</h4>
+            <p>Focuses on tax planning, compliance, auditing, and financial reporting.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>3 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="bachelor-of-commerce.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- B.Com Accounting -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="bachelor-of-commerce.php">
+              <img src="assets/uploads/accounting.jpg" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>B.Com (Hons) – Accounting</h4>
+            <p>Builds skills in bookkeeping, auditing, financial reporting, and corporate accounting.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>3 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="bachelor-of-commerce.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ================= DOCTORAL PROGRAM ================= -->
+    <div class="section-title text-center mb-50 mt-40">
+      <h2>Masters <span>Program</span></h2>
+      <p>Advanced doctoral research programs focused on academic and professional excellence.</p>
+    </div>
+
+    <div class="row">
+
+     <div class="col-lg-3 col-md-6 mb-30">
+  <div class="course-card">
+    <div class="course-img">
+      <a href="best-masters-of-business-administration-Agri-Business-Management-college-in-dehradun.php">
+        <img src="assets/uploads/Agribusiness-Management.jpg" alt="MBA Agri Business Management">
+      </a>
+    </div>
+    <div class="course-body">
+      <h4>MBA – Agri Business Management</h4>
+      <p>Two-year postgraduate program focused on agribusiness operations, agricultural marketing, rural finance, and supply chain management.</p>
+      <div class="course-meta">
+        <span>Credits: 80</span>
+        <span>2 Years</span>
+      </div>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-Agri-Business-Management-college-in-dehradun.php">Apply Now</a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-md-6 mb-30">
+  <div class="course-card">
+    <div class="course-img">
+      <a href="best-masters-of-business-administration-Business-Analytics-college-in-dehradun.php">
+        <img src="assets/uploads/mba-business.jpg" alt="MBA Business Analytics">
+      </a>
+    </div>
+    <div class="course-body">
+      <h4>MBA – Business Analytics</h4>
+      <p>Two-year postgraduate program focused on data analysis, predictive modeling, and data-driven strategic decision-making.</p>
+      <div class="course-meta">
+        <span>Credits: 80</span>
+        <span>2 Years</span>
+      </div>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-Business-Analytics-college-in-dehradun.php">Apply Now</a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-md-6 mb-30">
+  <div class="course-card">
+    <div class="course-img">
+      <a href="best-masters-of-business-administration-Digital-Marketing-college-in-dehradun.php">
+        <img src="assets/uploads/mba-digital.jpg" alt="MBA Digital Marketing">
+      </a>
+    </div>
+    <div class="course-body">
+      <h4>MBA – Digital Marketing</h4>
+      <p>Two-year postgraduate program focused on digital strategy, SEO, social media marketing, and online brand management.</p>
+      <div class="course-meta">
+        <span>Credits: 80</span>
+        <span>2 Years</span>
+      </div>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-Digital-Marketing-college-in-dehradun.php">Apply Now</a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-md-6 mb-30">
+  <div class="course-card">
+    <div class="course-img">
+      <a href="best-masters-of-business-administration-FinTech-college-in-dehradun.php">
+        <img src="assets/uploads/mba-fintech.webp" alt="MBA FinTech">
+      </a>
+    </div>
+    <div class="course-body">
+      <h4>MBA – FinTech</h4>
+      <p>Two-year postgraduate program focused on digital banking, blockchain, financial analytics, and financial technology innovation.</p>
+      <div class="course-meta">
+        <span>Credits: 80</span>
+        <span>2 Years</span>
+      </div>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-FinTech-college-in-dehradun.php">Apply Now</a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-md-6 mb-30">
+  <div class="course-card">
+    <div class="course-img">
+      <a href="best-masters-of-business-administration-human-resource-college-in-dehradun.php">
+        <img src="assets/uploads/mba-hr.jpg" alt="MBA Human Resource Management">
+      </a>
+    </div>
+    <div class="course-body">
+      <h4>MBA – Human Resource Management</h4>
+      <p>Two-year postgraduate program focused on talent management, organizational behavior, and strategic HR practices.</p>
+      <div class="course-meta">
+        <span>Credits: 80</span>
+        <span>2 Years</span>
+      </div>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-human-resource-college-in-dehradun.php">Apply Now</a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-md-6 mb-30">
+  <div class="course-card">
+    <div class="course-img">
+      <a href="best-masters-of-business-administration-Logistic-Management-college-in-dehradun.php">
+        <img src="assets/uploads/mba-logistic.jpg" alt="MBA Logistic Management">
+      </a>
+    </div>
+    <div class="course-body">
+      <h4>MBA – Logistic Management</h4>
+      <p>Two-year postgraduate program focused on supply chain management, transportation planning, and logistics operations.</p>
+      <div class="course-meta">
+        <span>Credits: 80</span>
+        <span>2 Years</span>
+      </div>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-Logistic-Management-college-in-dehradun.php">Apply Now</a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-md-6 mb-30">
+  <div class="course-card">
+    <div class="course-img">
+      <a href="best-masters-of-business-administration-marketing-management-college-in-dehradun.php">
+        <img src="assets/uploads/mba-marketing.webp" alt="MBA Marketing Management">
+      </a>
+    </div>
+    <div class="course-body">
+      <h4>MBA – Marketing Management</h4>
+      <p>Two-year postgraduate program focused on consumer behavior, branding, market research, and strategic marketing.</p>
+      <div class="course-meta">
+        <span>Credits: 80</span>
+        <span>2 Years</span>
+      </div>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-marketing-management-college-in-dehradun.php">Apply Now</a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-md-6 mb-30">
+  <div class="course-card">
+    <div class="course-img">
+      <a href="best-masters-of-business-administration-Pharmaceutical-Management-college-in-dehradun.php">
+        <img src="assets/uploads/mba-pharma.jpg" alt="MBA Pharmaceutical Management">
+      </a>
+    </div>
+    <div class="course-body">
+      <h4>MBA – Pharmaceutical Management</h4>
+      <p>Two-year postgraduate program focused on pharmaceutical marketing, healthcare management, and regulatory affairs.</p>
+      <div class="course-meta">
+        <span>Credits: 80</span>
+        <span>2 Years</span>
+      </div>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-Pharmaceutical-Management-college-in-dehradun.php">Apply Now</a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-md-6 mb-30">
+  <div class="course-card">
+    <div class="course-img">
+      <a href="best-masters-of-business-administration-Sports-Management-college-in-dehradun.php">
+        <img src="assets/uploads/mba-sports.png" alt="MBA Sports Management">
+      </a>
+    </div>
+    <div class="course-body">
+      <h4>MBA – Sports Management</h4>
+      <p>Two-year postgraduate program focused on sports marketing, event management, sports finance, and athlete management.</p>
+      <div class="course-meta">
+        <span>Credits: 80</span>
+        <span>2 Years</span>
+      </div>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-Sports-Management-college-in-dehradun.php">Apply Now</a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-md-6 mb-30">
+  <div class="course-card">
+    <div class="course-img">
+      <a href="best-masters-of-business-administration-travel-and-tourism-college-in-dehradun.php">
+        <img src="assets/uploads/mba-travel.jpg" alt="MBA Travel and Tourism">
+      </a>
+    </div>
+    <div class="course-body">
+      <h4>MBA – Travel & Tourism</h4>
+      <p>Two-year postgraduate program focused on tourism management, hospitality operations, and destination marketing.</p>
+      <div class="course-meta">
+        <span>Credits: 80</span>
+        <span>2 Years</span>
+      </div>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-travel-and-tourism-college-in-dehradun.php">Apply Now</a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-md-6 mb-30">
+  <div class="course-card">
+    <div class="course-img">
+      <a href="best-master-of-commerce-college-in-dehradun.php">
+        <img src="assets/uploads/m-com.jpg" alt="Mcom">
+      </a>
+    </div>
+    <div class="course-body">
+      <h4>Masters of Commerce (M.Com)</h4>
+      <p>Two-year postgraduate program focused on advanced studies in commerce, finance, accounting, and business management.</p>
+      <div class="course-meta">
+        <span>Credits: 96</span>
+        <span>2 Years</span>
+      </div>
+      <a class="default-btn btn-block" href="best-master-of-commerce-college-in-dehradun.php">Apply Now</a>
+    </div>
+  </div>
+</div>
+    </div>
+
+    <div class="section-title text-center mb-50 mt-40">
+      <h2>Doctoral <span>Program</span></h2>
+      <p>Advanced doctoral research programs focused on academic and professional excellence.</p>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="best-university-for-phd-in-dehradun-uttarakhand.php">
+              <img src="assets/uploads/phd.webp" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>Ph.D Program</h4>
+            <p>Full-time doctoral research program focused on advanced study and original research.</p>
+            <div class="course-meta">
+              <span>Credits: 125</span>
+              <span>2 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="best-university-for-phd-in-dehradun-uttarakhand.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<style>
+  .course-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.course-card:hover {
+    transform: translateY(-6px);
+}
+
+.course-img img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.course-body {
+    padding: 20px;
+}
+
+.course-body h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.course-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 15px 0;
+    color: #666;
+}
+
+.badge-pg {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #ff5a5f;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+  </style>
+<!-- clubs section -->
+<section class="clubs-section py-5">
+  <div class="container">
+    <div class="section-title pb-50">
+      <h2>Career <span>Prospects 🚀</span></h2>
+    </div>
+    <div class="row g-4">
+      
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+        <div class="club-card h-100 d-flex flex-column text-center p-3">
+          <div class="club-icon mb-2">📊</div>
+          <h5 class="club-title">Business Analyst</h5>
+          <p class="club-desc flex-grow-1">Analyze data and trends to provide insights for strategic decision-making.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+        <div class="club-card h-100 d-flex flex-column text-center p-3">
+          <div class="club-icon mb-2">📈</div>
+          <h5 class="club-title">Marketing Manager</h5>
+          <p class="club-desc flex-grow-1">Design and implement marketing campaigns to promote products and services.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+        <div class="club-card h-100 d-flex flex-column text-center p-3">
+          <div class="club-icon mb-2">💼</div>
+          <h5 class="club-title">Financial Consultant</h5>
+          <p class="club-desc flex-grow-1">Guide clients on investments, savings, and financial planning.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+        <div class="club-card h-100 d-flex flex-column text-center p-3">
+          <div class="club-icon mb-2">🤝</div>
+          <h5 class="club-title">HR Manager</h5>
+          <p class="club-desc flex-grow-1">Manage recruitment, training, and employee relations in organizations.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+        <div class="club-card h-100 d-flex flex-column text-center p-3">
+          <div class="club-icon mb-2">🏦</div>
+          <h5 class="club-title">Investment Banker</h5>
+          <p class="club-desc flex-grow-1">Assist businesses with raising capital and managing mergers & acquisitions.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+        <div class="club-card h-100 d-flex flex-column text-center p-3">
+          <div class="club-icon mb-2">🧩</div>
+          <h5 class="club-title">Management Consultant</h5>
+          <p class="club-desc flex-grow-1">Advise companies on improving efficiency and solving business challenges.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+        <div class="club-card h-100 d-flex flex-column text-center p-3">
+          <div class="club-icon mb-2">🌐</div>
+          <h5 class="club-title">Digital Marketing Specialist</h5>
+          <p class="club-desc flex-grow-1">Drive online presence through SEO, social media, and digital campaigns.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+        <div class="club-card h-100 d-flex flex-column text-center p-3">
+          <div class="club-icon mb-2">📢</div>
+          <h5 class="club-title">Business Development Manager</h5>
+          <p class="club-desc flex-grow-1">Identify new opportunities and build partnerships to expand business growth.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+        <div class="club-card h-100 d-flex flex-column text-center p-3">
+          <div class="club-icon mb-2">🎯</div>
+          <h5 class="club-title">Corporate Strategist</h5>
+          <p class="club-desc flex-grow-1">Formulate strategies to help companies achieve long-term goals.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+        <div class="club-card h-100 d-flex flex-column text-center p-3">
+          <div class="club-icon mb-2">🚀</div>
+          <h5 class="club-title">Entrepreneur</h5>
+          <p class="club-desc flex-grow-1">Launch and manage innovative ventures to create business value.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+        <div class="club-card h-100 d-flex flex-column text-center p-3">
+          <div class="club-icon mb-2">⚙️</div>
+          <h5 class="club-title">Operations Manager</h5>
+          <p class="club-desc flex-grow-1">Oversee daily operations ensuring efficiency and productivity.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+        <div class="club-card h-100 d-flex flex-column text-center p-3">
+          <div class="club-icon mb-2">📂</div>
+          <h5 class="club-title">Project Manager</h5>
+          <p class="club-desc flex-grow-1">Plan, execute, and deliver projects while managing resources and timelines.</p>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
 
-<div class="divider"></div>
 
-<!-- TESTIMONIALS -->
-<section class="section-pad testimonials-section">
-  <div class="section-inner">
-    <div class="reveal" style="margin-bottom:48px;">
-      <div class="section-label">Student Stories</div>
-      <h2 class="section-title">What Our <em>Alumni</em> Say</h2>
-    </div>
-    <div class="testimonials-track">
-      <div class="testi-card reveal delay-1">
-        <div class="testi-stars">★★★★★</div>
-        <img src="https://maya.edu.in/assets/uploads/testimoni-1.jpeg" alt="Riya Sharma" class="testi-avatar" onerror="this.style.display='none'">
-        <p class="testi-text">"The School of Engineering provided me with excellent opportunities to learn, explore, and innovate. I secured a placement at Microsoft with a 42 LPA package!"</p>
-        <div class="testi-name">Riya Sharma</div>
-        <div class="testi-prog">B.Tech CSE — Microsoft</div>
+
+  <!-- clubs section ends -->
+  <!-- Why Choose Us -->
+  <section class="why-choose-us py-5">
+  <div class="container">
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-7">
+        <div class="section-title pb-20">
+        <h2>Why <span>Choose Us 🌟 ?</span></h2>
+        </div>
+        <p class="text-muted">
+        Choosing the right place to pursue your education is a life-changing decision—one that shapes not only your academic journey but also your personal and professional future. At our institution, we go beyond conventional learning by offering an ecosystem of innovation, creativity, and global opportunities.
+        </p>
+        <p class="text-muted">Our focus is on preparing students to thrive in a fast-evolving world where adaptability, critical thinking, and ethical leadership matter as much as subject expertise. With state-of-the-art infrastructure, hands-on industry exposure, and mentorship from accomplished faculty, we ensure that every learner is equipped to transform ideas into impactful realities.</p>
+        <a href="https://admissions.maya.edu.in" class="btn btn-success btn-lg mt-3">Apply Now →</a>
       </div>
-      <div class="testi-card reveal delay-2">
-        <div class="testi-stars">★★★★★</div>
-        <img src="https://maya.edu.in/assets/uploads/testimoni-2.jpeg" alt="Arjun Verma" class="testi-avatar" onerror="this.style.display='none'">
-        <p class="testi-text">"State-of-the-art labs and practical exposure gave me an edge in the industry. Truly grateful for the faculty and support at MDU."</p>
-        <div class="testi-name">Arjun Verma</div>
-        <div class="testi-prog">B.Tech Mechanical</div>
-      </div>
-      <div class="testi-card reveal delay-3">
-        <div class="testi-stars">★★★★★</div>
-        <img src="https://maya.edu.in/assets/uploads/testimoni-3.jpeg" alt="Sneha Gupta" class="testi-avatar" onerror="this.style.display='none'">
-        <p class="testi-text">"Amazing mentors and inclusive culture. I gained not only knowledge but also confidence to excel in my career in tech."</p>
-        <div class="testi-name">Sneha Gupta</div>
-        <div class="testi-prog">MCA — Product Manager</div>
+      <div class="col-lg-5 text-center">
+        <img src="assets/uploads/computer.jpg" 
+             alt="Why Choose Us" 
+             class="img-fluid rounded shadow" 
+             style="max-height:380px; object-fit:cover; width:100%;">
       </div>
     </div>
+
+    <!-- Feature Points -->
+    <div class="row gy-4">
+  <div class="col-md-6">
+    <div class="feature-box">
+      <span class="feature-icon">🚀</span>
+      <h5>Excellence in Education & Innovation</h5>
+      <p>
+        We provide a future-ready curriculum that balances theory with practical learning, 
+        ensuring students graduate with strong knowledge and essential skills for success.
+      </p>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="feature-box">
+      <span class="feature-icon">⚖️</span>
+      <h5>Ethics Meets Knowledge</h5>
+      <p>
+        Beyond academics, we emphasize building responsible individuals who act with integrity, 
+        guided by strong values and social responsibility.
+      </p>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="feature-box">
+      <span class="feature-icon">🌍</span>
+      <h5>Global Readiness</h5>
+      <p>
+        Exposure to diverse ideas, collaborations, and real-world experiences prepares 
+        students to thrive in a connected and dynamic global environment.
+      </p>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="feature-box">
+      <span class="feature-icon">🔬</span>
+      <h5>Research & Creativity</h5>
+      <p>
+        We encourage curiosity, exploration, and innovative thinking, nurturing a spirit of 
+        discovery and creative problem-solving across all disciplines.
+      </p>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="feature-box">
+      <span class="feature-icon">🤝</span>
+      <h5>Supportive, Inclusive Environment</h5>
+      <p>
+        A welcoming and inclusive culture where every student is supported, mentored, 
+        and empowered to grow personally, academically, and professionally.
+      </p>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="feature-box">
+      <span class="feature-icon">📚</span>
+      <h5>Commitment to Lifelong Learning</h5>
+      <p>
+        Education here inspires curiosity, critical thinking, and a passion for continuous 
+        growth—preparing students for success throughout life.
+      </p>
+    </div>
+  </div>
+</div>
+
   </div>
 </section>
 
-<!-- CTA BANNER -->
-<section class="cta-banner">
-  <div class="cta-inner">
-    <div class="cta-text reveal-left">
-      <h2>Ready to Shape Your Future?</h2>
-      <p>Join thousands of students who've launched transformative careers through MDU's industry-aligned programs. Applications are open for 2025–26.</p>
+  <!-- Student Testimonials -->
+  <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+<section class="container py-5">
+    <div class="section-title pb-20">
+  <h2>Student <span>Testimonials</span></h2>
+  </div>
+  <!-- Swiper Slider -->
+  <div class="swiper testimonial-slider">
+    <div class="swiper-wrapper">
+
+      <!-- Testimonial 1 -->
+      <div class="swiper-slide">
+        <div class="testimonial text-center p-4 shadow-sm rounded bg-white">
+          <img src="assets/uploads/testimoni-1.jpeg" alt="Riya Sharma" class="testimonial-img mb-3">
+          <p>"The School of Engineering provided me with excellent opportunities to learn, explore, and innovate. I secured a placement at Microsoft with 42 LPA package!"</p>
+          <h6 class="mt-2">- Riya Sharma (CSE)</h6>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="swiper-slide">
+        <div class="testimonial text-center p-4 shadow-sm rounded bg-white">
+          <img src="assets/uploads/testimoni-2.jpeg" alt="Arjun Verma" class="testimonial-img mb-3">
+          <p>"State-of-the-art labs and practical exposure gave me an edge in the industry. Truly grateful for the faculty and support at MDU."</p>
+          <h6 class="mt-2">- Arjun Verma (Mechanical)</h6>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="swiper-slide">
+        <div class="testimonial text-center p-4 shadow-sm rounded bg-white">
+          <img src="assets/uploads/testimoni-3.jpeg" alt="Student" class="testimonial-img mb-3">
+          <p>"Amazing mentors and inclusive culture. I gained not only knowledge but also confidence to excel in my career."</p>
+          <h6 class="mt-2">- Sneha Gupta (MCA)</h6>
+        </div>
+      </div>
+
+      <!-- Testimonial 4 -->
+      <div class="swiper-slide">
+        <div class="testimonial text-center p-4 shadow-sm rounded bg-white">
+          <img src="assets/uploads/testimoni-4.jpeg" alt="Arjun Verma" class="testimonial-img mb-3">
+          <p>"State-of-the-art labs and practical exposure gave me an edge in the industry. Truly grateful for the faculty and support at MDU."</p>
+          <h6 class="mt-2">- Arjun Verma (Mechanical)</h6>
+        </div>
+      </div>
+
     </div>
-    <a href="https://admissions.maya.edu.in" class="btn-white reveal-right">Apply Now →</a>
+
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+
   </div>
 </section>
+<?php
+// Load blogs
+$dataFile = __DIR__ . "/admin/data/blogs.json";
+$blogs = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
+
+// SET DEPARTMENT TAG
+$dept = "Commerce"; // change dynamically if needed
+
+// FILTER BLOGS BY TAG
+$filteredBlogs = [];
+foreach ($blogs as $id => $b) {
+    if (!empty($b['tags']) && in_array($dept, $b['tags'])) {
+        $filteredBlogs[$id] = $b;
+    }
+}
+
+// LATEST BLOGS (limit 8 for slider)
+$latestBlogs = array_slice(array_reverse($filteredBlogs, true), 0, 10, true);
+?>
+
+<?php if (!empty($latestBlogs)): ?>  <!-- 🔥 MAIN CONDITION -->
+
+<div class="event-area bg-img default-overlay pt-10 pb-10">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-12">
+                <div class="section-title-3 mb-45 mrg-bottom-small">
+                    <h2>Our <span>Blog</span></h2>
+                    <p>Insights and updates from Maya Devi University.</p>
+                </div>
+
+                <div class="blog-active">
+                    
+                    <?php foreach ($latestBlogs as $id => $b):
+    $img = $b['image'] ?? 'assets/img/blog/default.jpg';
+    $title = $b['title'] ?? '';
+    $excerpt = substr(strip_tags($b['content']), 0, 80) . '...';
+    $author = $b['author'] ?? 'Admin';
+    $date = $b['date'] ?? '';
+    $tags = $b['tags'] ?? [];
+
+    // ✅ SLUG
+   $slugText = $b['slug'] ?? $title;
+$slugText = strtolower($slugText);
+$slug = preg_replace('/[^a-z0-9]+/', '-', $slugText);
+$slug = trim($slug, '-');
+?>
+    <div class="single-blog">
+        <div class="blog-img" style="height:200px; overflow:hidden;">
+            <a href="blog/<?= $slug ?>">
+                <img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;">
+            </a>
+        </div>
+
+        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+            <?php if (!empty($tags)) echo "<span>" . htmlspecialchars($tags[0]) . "</span>"; ?>
+
+            <div class="blog-content" style="flex-grow:1;">
+                <h4>
+                    <a href="blog/<?= $slug ?>"><?= $title ?></a>
+                </h4>
+                <p><?= $excerpt ?></p>
+
+                <div class="blog-meta">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-user"></i> <?= $author ?></a></li>
+                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="blog-date">
+                <a href="#"><i class="fa fa-calendar-o"></i> <?= $date ?></a>
+            </div>
+        </div>
+    </div>
+<?php endforeach; ?>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<?php endif; ?>  <!-- 🔥 END CONDITION -->
+
+<style>
+.blog-active .single-blog {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    margin: 10px;
+    height: 100%;
+}
+
+.blog-active .blog-img {
+    flex: 0 0 200px;
+    overflow: hidden;
+}
+
+.blog-active .blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-active .blog-content-wrap {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 15px;
+}
+
+.blog-active .blog-content {
+    flex: 1;
+}
+.blog-active::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+</style>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script>
-  // ── SCROLL REVEAL ENGINE (fires on every scroll, both directions) ──
-  const revealAll = () => {
-    const all = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale');
-    all.forEach(el => {
-      const rect = el.getBoundingClientRect();
-      const inView = rect.top < window.innerHeight * 0.88 && rect.bottom > window.innerHeight * 0.12;
-      if (inView) {
-        el.classList.add('visible');
-      } else {
-        el.classList.remove('visible'); // re-animate on scroll back up
-      }
-    });
-  };
-  window.addEventListener('scroll', revealAll, { passive: true });
-  window.addEventListener('resize', revealAll);
-  revealAll(); // initial
-
-  // ── COUNTER ──
-  let countersStarted = false;
-  const runCounters = () => {
-    const counters = document.querySelectorAll('.counter-num');
-    counters.forEach(counter => {
-      const target = +counter.getAttribute('data-target');
-      const duration = 1800;
-      const startTime = performance.now();
-      const update = (t) => {
-        const elapsed = t - startTime;
-        const progress = Math.min(elapsed / duration, 1);
-        const eased = 1 - Math.pow(1 - progress, 3);
-        counter.textContent = Math.floor(eased * target);
-        if (progress < 1) requestAnimationFrame(update);
-        else counter.textContent = target;
-      };
-      requestAnimationFrame(update);
-    });
-  };
-
-  const statsObs = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting && !countersStarted) {
-        countersStarted = true;
-        runCounters();
-      }
-    });
-  }, { threshold: 0.3 });
-  const statsSection = document.querySelector('.stats-section');
-  if (statsSection) statsObs.observe(statsSection);
-
-  // ── TAB SWITCH ──
-  function switchTab(id, btn) {
-    document.querySelectorAll('.tab-content').forEach(t => {
-      t.classList.remove('active');
-      t.style.display = 'none';
-    });
-    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    const target = document.getElementById('tab-' + id);
-    target.classList.add('active');
-    target.style.display = 'grid';
-    // re-trigger reveal for newly shown cards
-    setTimeout(revealAll, 50);
+ var swiper = new Swiper(".testimonial-slider", {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  loop: true,
+  autoplay: {
+    delay: 4000,   // 4 seconds per slide
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    768: { slidesPerView: 2 }, // Tablet
+    1024: { slidesPerView: 3 } // Desktop
   }
-  // init UG tab display
-  document.getElementById('tab-ug').style.display = 'grid';
-  document.getElementById('tab-pg').style.display = 'none';
+});
+
 </script>
 <?php require "common/footer.php"?>
-</body>
-</html>
