@@ -5,1048 +5,2160 @@ $canonical_url = "https://maya.edu.in/Arts-and-humanities.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
 <?php require "common/header.php" ?>
-<!-- Hero Section -->
-<section class="hero-section" style="background: url('assets/uploads/home-banner.webp') center/cover no-repeat; height:70vh;">
-  <div class="hero-content">
-    <h3 class="display-5 fw-bold text-white">School of Arts and Humanities</h3>
-    <p class="lead text-white">Shaping Tomorrow's Leaders at Maya Devi University</p>
-    <a href="https://admissions.maya.edu.in" class="btn btn-primary">Apply Now</a>
-  </div>
-</section>
-
-<!-- About Section -->
-<section class="container py-5">
-  <div class="section-title  pb-20">
-    <h2>School <span>Overview</h2>
-  </div>
-  <div class="row">
-    <!-- Left Text -->
-    <div class="col-md-7">
-      <p>
-        The Faculty of Arts, Humanities, and Social Sciences at Maya Devi University is a multidisciplinary academic hub offering diverse programs such as B.A. in Humanities, M.Sc. in Clinical Psychology, and M.A. in Fine Arts. The faculty houses key departments including Hindi Literature, English Literature, Psychology, Political Science, Geography and Sociology.
-      </p>
-      <p>
-        Each department is committed to academic excellence, creative exploration and social relevance, preparing students for dynamic careers and meaningful societal contributions. The faculty's mission is to foster intellectual curiosity, critical thinking, cultural appreciation, and ethical leadership through an inclusive and holistic educational approach.
-      </p>
-      <p>With a strong emphasis on interdisciplinary learning, the programs aim to develop students' analytical abilities, communication skills, and understanding of both human behavior and societal structures.</p>
-      <a class="default-btn btn-block" href="assets/uploads/fee/Arts_Humanities_m.pdf">Download fee structure</a>
-    </div>
-    <!-- About Section -->
-    <!-- Right Image -->
-    <div class="col-md-5 text-center">
-      <div class="img-container">
-        <img src="assets/uploads/arts.webp"
-          alt="School of Engineering"
-          class="responsive-img">
-      </div>
-    </div>
-
-</section>
-
-<!-- Achievements Section -->
-<section class="container" id="achievements">
-  <div class="section-title pb-20">
-    <h2>Our <span>Achievements</span></h2>
-  </div>
-  <div class="row g-4 text-center mt-4">
-
-    <!-- Card 1 -->
-    <div class="col-md-3 col-6">
-      <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f0f8ff;">
-        <i class="fa fa-users fa-2x text-success mb-3"></i>
-        <h3 class="fw-bold">
-          <span class="counter" data-target="27">0</span>+
-        </h3>
-        <p class="mb-0">Programs Offered</p>
-      </div>
-    </div>
-
-    <!-- Card 2 -->
-    <div class="col-md-3 col-6">
-      <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f6fffa;">
-        <i class="fa fa-certificate fa-2x text-success mb-3"></i>
-        <h3 class="fw-bold">
-          <span class="counter" data-target="1000">0</span>+
-        </h3>
-        <p class="mb-0">Students Placed</p>
-      </div>
-    </div>
-
-    <!-- Card 3 -->
-    <div class="col-md-3 col-6">
-      <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f9f8ff;">
-        <i class="fa fa-briefcase fa-2x text-success mb-3"></i>
-        <h3 class="fw-bold">
-          <span class="counter" data-target="12">0</span>+
-        </h3>
-        <p class="mb-0">Highest Package (LPA)</p>
-      </div>
-    </div>
-
-    <!-- Card 4 -->
-    <div class="col-md-3 col-6">
-      <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#fff8f2;">
-        <i class="fa fa-globe fa-2x text-success mb-3"></i>
-        <h3 class="fw-bold">
-          <span class="counter" data-target="100">0</span>+
-        </h3>
-        <p class="mb-0">Industry Partners</p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- Counter Script -->
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const counters = document.querySelectorAll(".counter");
-    const duration = 1000; // total animation time (ms)
-
-    const animateCounter = (counter) => {
-      const target = +counter.getAttribute("data-target");
-      const start = 0;
-      const startTime = performance.now();
-
-      const updateCount = (currentTime) => {
-        const elapsed = currentTime - startTime;
-        const progress = Math.min(elapsed / duration, 1);
-        counter.innerText = Math.floor(progress * target);
-
-        if (progress < 1) {
-          requestAnimationFrame(updateCount);
-        } else {
-          counter.innerText = target; // ensure exact number at end
-        }
-      };
-
-      requestAnimationFrame(updateCount);
-    };
-
-    // Animate only when section is visible
-    const observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          animateCounter(entry.target);
-          observer.unobserve(entry.target);
-        }
-      });
-    }, {
-      threshold: 0.5
-    });
-
-    counters.forEach(counter => {
-      observer.observe(counter);
-    });
-  });
-</script>
-
-<!-- Courses Section -->
-<div class="course-area bg-light pt-60 pb-60">
-  <div class="container">
-
-    <!-- ================= UNDERGRADUATE PROGRAMS ================= -->
-    <div class="section-title text-center mb-50">
-      <h2>Undergraduate <span>Programs</span></h2>
-      <p>Comprehensive undergraduate programs in arts, humanities, and social sciences.</p>
-    </div>
-
-    <div class="row">
-
-      <!-- BA Psychology -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-psychology.php"><img src="assets/uploads/ba-1.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Psychology</h4>
-            <p>Develops skills in mental health understanding, assessment, and emotional well-being support.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-psychology.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Clinical Psychology -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-clinical-psychology.php"><img src="assets/uploads/ba-2.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Clinical Psychology</h4>
-            <p>Focuses on mental health assessment and therapeutic techniques.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-clinical-psychology.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Hindi Literature -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-hindi-literature.php"><img src="assets/uploads/ba-3.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Hindi Literature</h4>
-            <p>Prepares students for careers in education, writing, and cultural studies.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-hindi-literature.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Sociology -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-sociology.php"><img src="assets/uploads/ba-4.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Sociology</h4>
-            <p>Analyzes social structures, culture, and community dynamics.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-sociology.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA English Literature -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-english-literature.php"><img src="assets/uploads/ba-3.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA English Literature</h4>
-            <p>In-depth study of English literature across six semesters.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-english-literature.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Economics -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-economics.php"><img src="assets/uploads/ba-6.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Economics</h4>
-            <p>Foundations of economic theory and applied economics.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-economics.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Yoga -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-yoga.php"><img src="assets/uploads/ba-7.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Yoga</h4>
-            <p>Combines traditional yoga practices with modern wellness studies.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-yoga.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Geography -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-geography.php"><img src="assets/uploads/ba-9.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Geography</h4>
-            <p>Study of physical, human, and environmental geography.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-geography.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Journalism -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-journalism-and-mass-communication.php"><img src="assets/uploads/ba-12.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Journalism & Mass Communication</h4>
-            <p>Professional training in media, journalism, and communication.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-journalism-and-mass-communication.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Fine Arts -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-fine-arts.php"><img src="assets/uploads/ba-10.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Fine Arts</h4>
-            <p>Creative education in visual and applied arts.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-fine-arts.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Maths -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-mathematics.php"><img src="assets/uploads/ba-11.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Mathematics</h4>
-            <p>Study of mathematical concepts and analytical reasoning.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-mathematics.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Political Science -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-political-science.php"><img src="assets/uploads/ba-5.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Political Science</h4>
-            <p>Study of political systems, governance, and public policy.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-political-science.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA History -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-history.php"><img src="assets/uploads/ba-8.jpg" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA History</h4>
-            <p>Exploration of historical events, civilizations, and cultures.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-history.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- ================= POSTGRADUATE PROGRAMS ================= -->
-    <div class="section-title text-center mb-50 mt-40">
-      <h2>Postgraduate <span>Programs</span></h2>
-      <p>Advanced postgraduate programs for academic and professional specialization.</p>
-    </div>
-
-    <div class="row">
-
-      <!-- MA Clinical Psychology -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-clinical-psychology.php"><img src="assets/uploads/ma-3.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Clinical Psychology</h4>
-            <p>Advanced training in clinical assessment and therapeutic practices.</p>
-            <div class="course-meta">
-              <span>Credits: 125</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-clinical-psychology.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- MA Psychology -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-psychology.php"><img src="assets/uploads/ma-2.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Psychology</h4>
-            <p>In-depth study of psychological theories and research methods.</p>
-            <div class="course-meta">
-              <span>Credits: 125</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-psychology.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- MA Sociology -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-sociology.php"><img src="assets/uploads/ma-6.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Sociology</h4>
-            <p>Advanced sociological theory and research training.</p>
-            <div class="course-meta">
-              <span>Credits: 125</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-sociology.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- MA Hindi -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-hindi-literature.php"><img src="assets/uploads/ma-5.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Hindi Literature</h4>
-            <p>Advanced literary studies and research in Hindi literature.</p>
-            <div class="course-meta">
-              <span>Credits: 125</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-hindi-literature.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- MA Political Science -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-political-science.php"><img src="assets/uploads/ma-1.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Political Science</h4>
-            <p>Advanced political theory and governance studies.</p>
-            <div class="course-meta">
-              <span>Credits: 125</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-political-science.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- MA Yoga -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-yoga.php"><img src="assets/uploads/ba-7.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Yoga</h4>
-            <p>Advanced yogic studies and wellness education.</p>
-            <div class="course-meta">
-              <span>Credits: 125</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-yoga.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-evs.php"><img src="assets/uploads/ma-11.jpg" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Environmental Science</h4>
-            <p>Advanced Environmental studies and nature education.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-evs.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-journalism-and-mass-communication.php"><img src="assets/uploads/ma-10.jpg" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Journalism & Mass Communication</h4>
-            <p>Advanced Journalism studies and communication education.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-journalism-and-mass-communication.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-fine-arts.php"><img src="assets/uploads/ma-9.jpeg" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Fine Arts</h4>
-            <p>Advanced Fine Arts studies and wellness education.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-fine-arts.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-economics.php"><img src="assets/uploads/ma-8.jpg" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Economics</h4>
-            <p>Advanced Economic studies and wellness education.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-economics.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-english.php"><img src="assets/uploads/ma-7.jpg" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA English</h4>
-            <p>Advanced English Literature studies and wellness education.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-english.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-maths.php"><img src="assets/uploads/ba-11.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Mathematics</h4>
-            <p>Advanced Mathematics studies and wellness education.</p>
-            <div class="course-meta">
-              <span>Credits: 88/44</span><span>1/2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-maths.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- ================= DOCTORAL PROGRAM ================= -->
-    <div class="section-title text-center mb-50 mt-40">
-      <h2>Doctoral <span>Program</span></h2>
-      <p>Research-focused doctoral program for advanced academic contribution.</p>
-    </div>
-
-    <div class="row">
-
-      <!-- PhD -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="best-university-for-phd-in-dehradun-uttarakhand.php">
-              <img src="assets/uploads/phd.webp" alt="Course Image">
-            </a>
-          </div>
-          <div class="course-body">
-            <h4>PhD Program</h4>
-            <p>Doctoral research program focused on original research and academic excellence.</p>
-            <div class="course-meta">
-              <span>Credits: 125</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="best-university-for-phd-in-dehradun-uttarakhand.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-</div>
-
-
-
-<!-- clubs section -->
-<section class="clubs-section py-5">
-  <div class="container">
-    <div class="section-title pb-50">
-      <h2>Clubs <span>& Societies 🎓</span></h2>
-    </div>
-
-    <!-- Student Clubs -->
-    <h3 class="group-title mb-3"><strong>Student Clubs</strong></h3>
-    <div class="row g-4">
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">✍️</div>
-          <h5 class="club-title">Creative Writing Club / Literary Society</h5>
-          <p class="club-desc">Encourages writing, poetry, and literary expression.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">🗣️</div>
-          <h5 class="club-title">Debating and Oratory Society</h5>
-          <p class="club-desc">Promotes debating, public speaking, and critical thinking skills.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">📚</div>
-          <h5 class="club-title">Book Club</h5>
-          <p class="club-desc">A community for book enthusiasts and reading circles.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">🌍</div>
-          <h5 class="club-title">Language Clubs</h5>
-          <p class="club-desc">Celebrates learning and practicing different languages.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">🎭</div>
-          <h5 class="club-title">Drama and Theatre Club</h5>
-          <p class="club-desc">Brings stage performances and creative storytelling to life.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">🎶</div>
-          <h5 class="club-title">Music and Fine Arts Society</h5>
-          <p class="club-desc">Encourages music, painting, and artistic expression.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">🎬</div>
-          <h5 class="club-title">Film and Media Club</h5>
-          <p class="club-desc">Explores cinema, photography, and digital storytelling.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">📰</div>
-          <h5 class="club-title">Student Magazine / Newsletter Team</h5>
-          <p class="club-desc">Publishes creative and informative student content.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">🤝</div>
-          <h5 class="club-title">Community Engagement Club</h5>
-          <p class="club-desc">Works on social service and community development initiatives.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Societies -->
-    <h3 class="group-title mt-5 mb-3"><strong>Societies</strong></h3>
-    <div class="row g-4">
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">🎨</div>
-          <h5 class="club-title">Cultural Heritage Society</h5>
-          <p class="club-desc">Preserves and promotes diverse cultural traditions.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">💡</div>
-          <h5 class="club-title">Philosophy Forum / Thinkers' Circle</h5>
-          <p class="club-desc">Encourages philosophical discussions and critical ideas.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">🏛️</div>
-          <h5 class="club-title">History and Heritage Club</h5>
-          <p class="club-desc">Explores history and promotes heritage awareness.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">⚖️</div>
-          <h5 class="club-title">Social Justice / Human Rights Society</h5>
-          <p class="club-desc">Advocates equality, justice, and human rights awareness.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">🎓</div>
-          <h5 class="club-title">Alumni and Career Cell</h5>
-          <p class="club-desc">Strengthens alumni connections and career support networks.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- clubs section ends -->
-<!-- Why Choose Us -->
-<section class="why-choose-us py-5">
-  <div class="container">
-    <div class="row align-items-center mb-5">
-      <div class="col-lg-7">
-        <div class="section-title pb-20">
-          <h2>Why <span>Choose Us 🌟 ?</span></h2>
-        </div>
-        <p class="text-muted">
-          Choosing the right place to pursue your education is a life-changing decision—one that shapes not just your academic journey but also your personal and professional future. At the School of Computer Applications, Maya Devi University, we go beyond conventional learning by offering an ecosystem of innovation, creativity, and global opportunities.
-        </p>
-        <p class="text-muted">Our focus is on preparing students to thrive in a fast-evolving digital world where adaptability, critical thinking, and ethical leadership matter as much as technical expertise. With state-of-the-art infrastructure, hands-on industry exposure, and mentorship from accomplished faculty, we ensure that every learner is equipped to transform ideas into impactful realities.</p>
-        <a href="https://admissions.maya.edu.in" class="btn btn-success btn-lg mt-3">Apply Now →</a>
-      </div>
-      <div class="col-lg-5 text-center">
-        <img src="assets/uploads/computer.jpg"
-          alt="Why Choose Us"
-          class="img-fluid rounded shadow"
-          style="max-height:380px; object-fit:cover; width:100%;">
-      </div>
-    </div>
-
-    <!-- Feature Points -->
-    <div class="row gy-4">
-      <div class="col-md-6">
-        <div class="feature-box">
-          <span class="feature-icon">🚀</span>
-          <h5>Excellence in Education & Innovation</h5>
-          <p>
-            We offer a future-ready curriculum blending theory with hands-on practice in
-            AI, cybersecurity, data science, and cloud computing—ensuring students graduate
-            with cutting-edge skills.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="feature-box">
-          <span class="feature-icon">⚖️</span>
-          <h5>Ethics Meets Technology</h5>
-          <p>
-            Beyond technical expertise, we emphasize building responsible leaders who
-            innovate with integrity, guided by strong ethical values and social responsibility.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="feature-box">
-          <span class="feature-icon">🌍</span>
-          <h5>Global Readiness</h5>
-          <p>
-            International collaborations, industry exposure, and real-world projects prepare
-            our students for a connected, global workforce and professional agility.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="feature-box">
-          <span class="feature-icon">🔬</span>
-          <h5>Research & Creativity</h5>
-          <p>
-            Opportunities for research, innovation, and product development encourage
-            exploration, experimentation, and creative problem-solving in every discipline.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="feature-box">
-          <span class="feature-icon">🤝</span>
-          <h5>Supportive, Inclusive Environment</h5>
-          <p>
-            A diverse, inclusive learning culture where every student is heard, supported,
-            and mentored—personally, academically, and professionally.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="feature-box">
-          <span class="feature-icon">📚</span>
-          <h5>Commitment to Lifelong Learning</h5>
-          <p>
-            Education here goes beyond degrees—it builds a mindset of curiosity,
-            critical thinking, and continuous growth for life.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Student Testimonials -->
-<!-- Swiper CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-<section class="container py-5">
-  <div class="section-title pb-20">
-    <h2>Student <span>Testimonials</span></h2>
-  </div>
-  <!-- Swiper Slider -->
-  <div class="swiper testimonial-slider">
-    <div class="swiper-wrapper">
-
-      <!-- Testimonial 1 -->
-      <div class="swiper-slide">
-        <div class="testimonial text-center p-4 shadow-sm rounded bg-white">
-          <img src="assets/uploads/testimoni-1.jpeg" alt="Riya Sharma" class="testimonial-img mb-3">
-          <p>"The School of Engineering provided me with excellent opportunities to learn, explore, and innovate. I secured a placement at Microsoft with 42 LPA package!"</p>
-          <h6 class="mt-2">- Riya Sharma (CSE)</h6>
-        </div>
-      </div>
-
-      <!-- Testimonial 2 -->
-      <div class="swiper-slide">
-        <div class="testimonial text-center p-4 shadow-sm rounded bg-white">
-          <img src="assets/uploads/testimoni-2.jpeg" alt="Arjun Verma" class="testimonial-img mb-3">
-          <p>"State-of-the-art labs and practical exposure gave me an edge in the industry. Truly grateful for the faculty and support at MDU."</p>
-          <h6 class="mt-2">- Arjun Verma (Mechanical)</h6>
-        </div>
-      </div>
-
-      <!-- Testimonial 3 -->
-      <div class="swiper-slide">
-        <div class="testimonial text-center p-4 shadow-sm rounded bg-white">
-          <img src="assets/uploads/testimoni-3.jpeg" alt="Student" class="testimonial-img mb-3">
-          <p>"Amazing mentors and inclusive culture. I gained not only knowledge but also confidence to excel in my career."</p>
-          <h6 class="mt-2">- Sneha Gupta (MCA)</h6>
-        </div>
-      </div>
-
-      <!-- Testimonial 4 -->
-      <div class="swiper-slide">
-        <div class="testimonial text-center p-4 shadow-sm rounded bg-white">
-          <img src="assets/uploads/testimoni-4.jpeg" alt="Arjun Verma" class="testimonial-img mb-3">
-          <p>"State-of-the-art labs and practical exposure gave me an edge in the industry. Truly grateful for the faculty and support at MDU."</p>
-          <h6 class="mt-2">- Arjun Verma (Mechanical)</h6>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Pagination -->
-    <div class="swiper-pagination"></div>
-
-  </div>
-</section>
-<?php
-// Load blogs
-$dataFile = __DIR__ . "/admin/data/blogs.json";
-$blogs = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
-
-// SET DEPARTMENT TAG
-$dept = "Arts"; // change dynamically if needed
-
-// FILTER BLOGS BY TAG
-$filteredBlogs = [];
-foreach ($blogs as $id => $b) {
-    if (!empty($b['tags']) && in_array($dept, $b['tags'])) {
-        $filteredBlogs[$id] = $b;
-    }
-}
-
-// LATEST BLOGS (limit 8 for slider)
-$latestBlogs = array_slice(array_reverse($filteredBlogs, true), 0, 10, true);
-?>
-<?php if (!empty($latestBlogs)): ?>  <!-- 🔥 MAIN CONDITION -->
-
-<div class="event-area bg-img default-overlay pt-10 pb-10">
-    <div class="container">
-        <div class="row">
-            
-            <div class="col-lg-12">
-                <div class="section-title-3 mb-45 mrg-bottom-small">
-                    <h2>Our <span>Blog</span></h2>
-                    <p>Insights and updates from Maya Devi University.</p>
-                </div>
-
-                <div class="blog-active">
-                    
-                    <?php foreach ($latestBlogs as $id => $b):
-    $img = $b['image'] ?? 'assets/img/blog/default.jpg';
-    $title = $b['title'] ?? '';
-    $excerpt = substr(strip_tags($b['content']), 0, 80) . '...';
-    $author = $b['author'] ?? 'Admin';
-    $date = $b['date'] ?? '';
-    $tags = $b['tags'] ?? [];
-
-    // ✅ SLUG
-   $slugText = $b['slug'] ?? $title;
-$slugText = strtolower($slugText);
-$slug = preg_replace('/[^a-z0-9]+/', '-', $slugText);
-$slug = trim($slug, '-');
-?>
-    <div class="single-blog">
-        <div class="blog-img" style="height:200px; overflow:hidden;">
-            <a href="blog/<?= $slug ?>">
-                <img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;">
-            </a>
-        </div>
-
-        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
-            <?php if (!empty($tags)) echo "<span>" . htmlspecialchars($tags[0]) . "</span>"; ?>
-
-            <div class="blog-content" style="flex-grow:1;">
-                <h4>
-                    <a href="blog/<?= $slug ?>"><?= $title ?></a>
-                </h4>
-                <p><?= $excerpt ?></p>
-
-                <div class="blog-meta">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-user"></i> <?= $author ?></a></li>
-                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="blog-date">
-                <a href="#"><i class="fa fa-calendar-o"></i> <?= $date ?></a>
-            </div>
-        </div>
-    </div>
-<?php endforeach; ?>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-<?php endif; ?>  <!-- 🔥 END CONDITION -->
-
 <style>
-.blog-active .single-blog {
+  :root {
+    --navy: #0a1628;
+    --navy-mid: #11234f;
+    --blue-ibm: #0f62fe;
+    --teal: #00a3a3;
+    --gold: #d8a52d;
+    --emerald: #00875a;
+    --white: #ffffff;
+    --off-white: #f0f4ff;
+    --text-muted: #8899bb;
+    --card-bg: rgba(17, 35, 79, 0.5);
+    --glass: rgba(15, 98, 254, 0.08);
+    --border: rgba(15, 98, 254, 0.2);
+  }
+
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  main {
+    background: var(--navy);
+    color: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    overflow-x: hidden;
+  }
+
+  main::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(15, 98, 254, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(15, 98, 254, 0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    border: 1px solid #eee;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: linear-gradient(135deg, #0a1628 0%, #0d1f4a 50%, #081630 100%);
+    overflow: hidden;
+    padding: 20px;
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 80% 60% at 60% 50%, rgba(15, 98, 254, 0.12) 0%, transparent 70%),
+      radial-gradient(ellipse 50% 40% at 20% 80%, rgba(0, 163, 163, 0.08) 0%, transparent 60%);
+  }
+
+  .hero-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    animation: orb-float 8s ease-in-out infinite;
+  }
+
+  .hero-orb-1 {
+    width: 500px;
+    height: 500px;
+    background: rgba(0, 135, 90, 0.12);
+    top: -100px;
+    right: -100px;
+    animation-delay: 0s;
+  }
+
+  .hero-orb-2 {
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 163, 163, 0.1);
+    bottom: 50px;
+    left: 100px;
+    animation-delay: 3s;
+  }
+
+  .hero-orb-3 {
+    width: 200px;
+    height: 200px;
+    background: rgba(216, 165, 45, 0.1);
+    top: 200px;
+    left: 300px;
+    animation-delay: 5s;
+  }
+
+  @keyframes orb-float {
+
+    0%,
+    100% {
+      transform: translateY(0) scale(1);
+    }
+
+    50% {
+      transform: translateY(-30px) scale(1.05);
+    }
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1000px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(0, 135, 90, 0.15);
+    border: 1px solid rgba(0, 135, 90, 0.4);
+    border-radius: 100px;
+    padding: 8px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #5ecfb1;
+    margin-bottom: 32px;
+    animation: fade-up 0.8s ease both;
+  }
+
+  .hero-badge span {
+    width: 6px;
+    height: 6px;
+    background: var(--emerald);
+    border-radius: 50%;
+    animation: pulse-dot 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse-dot {
+
+    0%,
+    100% {
+      opacity: 1;
+      transform: scale(1)
+    }
+
+    50% {
+      opacity: 0.5;
+      transform: scale(1.4)
+    }
+  }
+
+  .hero h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(2.2rem, 8vw, 4rem);
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+    animation: fade-up 0.8s 0.15s ease both;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  .hero h1 em {
+    font-style: normal;
+    color: var(--gold);
+  }
+
+  .hero h1 span {
+    color: var(--teal);
+  }
+
+  .hero-sub {
+    font-size: 1.15rem;
+    font-weight: 300;
+    color: var(--text-muted);
+    line-height: 1.7;
+    max-width: 640px;
+    margin: 0 auto 40px;
+    animation: fade-up 0.8s 0.3s ease both;
+  }
+
+  .hero-cta-group {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: fade-up 0.8s 0.45s ease both;
+  }
+
+  .btn-primary {
+    padding: 14px 32px;
+    background: linear-gradient(135deg, var(--emerald), #006644);
+    color: #fff;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    letter-spacing: 0.3px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 8px 30px rgba(0, 135, 90, 0.3);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 40px rgba(0, 135, 90, 0.5);
+  }
+
+  .btn-outline {
+    padding: 14px 32px;
+    background: transparent;
+    color: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .btn-outline:hover {
+    background: var(--glass);
+    border-color: var(--emerald);
+    transform: translateY(-3px);
+  }
+
+  /* ── ANIMATIONS ── */
+  .reveal {
+    opacity: 0;
+    transform: translateY(48px);
+    transition: opacity 0.7s cubic-bezier(.22, 1, .36, 1), transform 0.7s cubic-bezier(.22, 1, .36, 1);
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .reveal-left {
+    opacity: 0;
+    transform: translateX(-48px);
+    transition: opacity 0.7s cubic-bezier(.22, 1, .36, 1), transform 0.7s cubic-bezier(.22, 1, .36, 1);
+  }
+
+  .reveal-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .reveal-right {
+    opacity: 0;
+    transform: translateX(48px);
+    transition: opacity 0.7s cubic-bezier(.22, 1, .36, 1), transform 0.7s cubic-bezier(.22, 1, .36, 1);
+  }
+
+  .reveal-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .delay-1 {
+    transition-delay: 0.1s;
+  }
+
+  .delay-2 {
+    transition-delay: 0.2s;
+  }
+
+  .delay-3 {
+    transition-delay: 0.3s;
+  }
+
+  .delay-4 {
+    transition-delay: 0.4s;
+  }
+
+  .delay-5 {
+    transition-delay: 0.5s;
+  }
+
+  .delay-6 {
+    transition-delay: 0.6s;
+  }
+
+  /* ── LAYOUT ── */
+  section {
+    position: relative;
+    z-index: 1;
+  }
+
+  .section-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+
+  .section-pad {
+    padding: 100px 0;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--emerald);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section-label::before {
+    content: '';
+    width: 24px;
+    height: 2px;
+    background: var(--emerald);
+    display: block;
+  }
+
+  .section-maya {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+
+  .section-maya em {
+    font-style: normal;
+    color: var(--gold);
+  }
+
+  .section-maya span {
+    color: var(--teal);
+  }
+
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border), transparent);
+  }
+
+  /* ── ABOUT ── */
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+
+  .about-text p {
+    color: var(--text-muted);
+    line-height: 1.8;
+    font-size: 1.02rem;
+    margin-bottom: 20px;
+  }
+
+  .about-img-wrap {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
+  }
+
+  .about-img-wrap img {
+    width: 100%;
+    display: block;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .about-img-wrap::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, transparent 60%, rgba(10, 22, 40, 0.8));
+    z-index: 1;
+  }
+
+  .about-badge-float {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    z-index: 2;
+    background: rgba(0, 135, 90, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 16px 20px;
+  }
+
+  .about-badge-float strong {
+    display: block;
+    font-family: 'Syne', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+
+  .about-badge-float span {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .about-corner-tag {
+    position: absolute;
+    top: -16px;
+    right: -16px;
+    background: linear-gradient(135deg, var(--gold), #c8941d);
+    color: #1a0f00;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+    padding: 10px 18px;
     border-radius: 8px;
-    overflow: hidden;
-    background: #fff;
-    margin: 10px;
-    height: 100%;
-}
+    text-transform: uppercase;
+  }
 
-.blog-active .blog-img {
-    flex: 0 0 200px;
-    overflow: hidden;
-}
+  /* ── STATS ── */
+  .stats-section {
+    background: linear-gradient(135deg, rgba(0, 135, 90, 0.06), rgba(0, 163, 163, 0.04));
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
 
-.blog-active .blog-img img {
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+  }
+
+  .stat-item {
+    padding: 56px 40px;
+    text-align: center;
+    border-right: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease;
+  }
+
+  .stat-item:last-child {
+    border-right: none;
+  }
+
+  .stat-item::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background: var(--emerald);
+    transition: width 0.5s ease;
+  }
+
+  .stat-item:hover {
+    background: rgba(0, 135, 90, 0.06);
+  }
+
+  .stat-item:hover::before {
+    width: 100%;
+  }
+
+  .stat-icon {
+    font-size: 2rem;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .stat-num {
+    font-family: 'Syne', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1;
+    background: linear-gradient(135deg, #fff 40%, #5ecfb1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .stat-suffix {
+    color: var(--emerald);
+  }
+
+  .stat-label {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    margin-top: 8px;
+    letter-spacing: 0.3px;
+  }
+
+  /* ── COURSE TABS ── */
+  .course-tabs {
+    display: flex;
+    gap: 4px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 4px;
+    margin-bottom: 48px;
+    width: fit-content;
+  }
+
+  .tab-btn {
+    padding: 10px 28px;
+    background: transparent;
+    color: var(--text-muted);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+  }
+
+  .tab-btn.active {
+    background: var(--emerald);
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 135, 90, 0.4);
+  }
+
+  .tab-content {
+    display: none;
+  }
+
+  .tab-content.active {
+    display: grid;
+  }
+
+  .courses-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .pg-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .phd-grid {
+    grid-template-columns: repeat(1, 320px);
+    gap: 20px;
+  }
+
+  /* ── COURSE CARDS ── */
+  .course-card-maya {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(.22, 1, .36, 1);
+    cursor: pointer;
+    position: relative;
+  }
+
+  .course-card-maya::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(0, 135, 90, 0.15), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .course-card-maya:hover {
+    transform: translateY(-8px) scale(1.01);
+    border-color: rgba(0, 135, 90, 0.5);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(0, 135, 90, 0.3);
+  }
+
+  .course-card-maya:hover::before {
+    opacity: 1;
+  }
+
+  .course-img-maya {
+    height: 160px;
+    overflow: hidden;
+  }
+
+  .course-img-maya img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+    transition: transform 0.5s ease;
+  }
 
-.blog-active .blog-content-wrap {
+  .course-card-maya:hover .course-img-maya img {
+    transform: scale(1.08);
+  }
+
+  .course-main-maya {
+    padding: 20px;
+  }
+
+  .course-tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--teal);
+    margin-bottom: 10px;
+  }
+
+  .course-main-maya h4 {
+    font-family: 'Syne', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 1.3;
+    color: #fff;
+  }
+
+  .course-main-maya p {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .course-meta-maya {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+    padding: 10px 0;
+    border-top: 1px solid var(--border);
+  }
+
+  .course-cta {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, var(--emerald), #006644);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 135, 90, 0.3);
+  }
+
+  .course-cta:hover {
+    box-shadow: 0 8px 25px rgba(0, 135, 90, 0.5);
+  }
+
+  /* ── IBM SECTION ── */
+  .ibm-section {
+    background: linear-gradient(135deg, #0a1628 0%, #0d1f4a 60%, #061228 100%);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .ibm-section::before {
+    content: '';
+    position: absolute;
+    top: -200px;
+    right: -200px;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(15, 98, 254, 0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .ibm-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+
+  .ibm-badge-strip {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+
+  .ibm-logo-badge {
+    background: #fff;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-family: 'Syne', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #0f62fe;
+    letter-spacing: -0.5px;
+  }
+
+  .ibm-x {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    font-weight: 300;
+  }
+
+  .mdu-text {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--white);
+  }
+
+  .ibm-heading {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(2rem, 3.5vw, 2.8rem);
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+  }
+
+  .ibm-heading em {
+    font-style: normal;
+    color: var(--gold);
+  }
+
+  .ibm-desc {
+    color: var(--text-muted);
+    line-height: 1.8;
+    margin-bottom: 32px;
+    font-size: 1rem;
+  }
+
+  .ibm-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 36px;
+  }
+
+  .ibm-chip {
+    padding: 8px 16px;
+    background: rgba(15, 98, 254, 0.12);
+    border: 1px solid rgba(15, 98, 254, 0.25);
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #7eb3ff;
+    transition: all 0.3s ease;
+  }
+
+  .ibm-chip:hover {
+    background: rgba(15, 98, 254, 0.25);
+    border-color: var(--blue-ibm);
+    transform: translateY(-2px);
+  }
+
+  .ibm-about-note {
+    background: rgba(15, 98, 254, 0.06);
+    border: 1px solid rgba(15, 98, 254, 0.2);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 32px;
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+  }
+
+  .ibm-about-note strong {
+    color: #fff;
+    display: block;
+    margin-bottom: 6px;
+    font-family: 'Syne', sans-serif;
+  }
+
+  .ibm-features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .ibm-feat {
+    background: rgba(15, 98, 254, 0.06);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.3s ease;
+  }
+
+  .ibm-feat:hover {
+    background: rgba(15, 98, 254, 0.12);
+    transform: translateY(-4px);
+  }
+
+  .ibm-feat-icon {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+  }
+
+  .ibm-feat h5 {
+    font-family: 'Syne', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #fff;
+  }
+
+  .ibm-feat p {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  .btn-ibm {
+    padding: 14px 32px;
+    background: linear-gradient(135deg, var(--blue-ibm), #0050d8);
+    color: #fff;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    letter-spacing: 0.3px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 8px 30px rgba(15, 98, 254, 0.3);
+  }
+
+  .btn-ibm:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 40px rgba(15, 98, 254, 0.5);
+  }
+
+  /* ── CLUBS ── */
+  .clubs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .club-card-maya {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 32px;
+    transition: all 0.4s cubic-bezier(.22, 1, .36, 1);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .club-card-maya::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--emerald), var(--teal));
+    transform: scaleX(0);
+    transition: transform 0.4s ease;
+    transform-origin: left;
+  }
+
+  .club-card-maya:hover {
+    transform: translateY(-6px);
+    border-color: rgba(0, 135, 90, 0.4);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  }
+
+  .club-card-maya:hover::after {
+    transform: scaleX(1);
+  }
+
+  .club-icon {
+    font-size: 2.4rem;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .club-card-maya h5 {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .club-card-maya p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+  }
+
+
+  /* ── WHY CHOOSE ── */
+  .why-section {
+    background: radial-gradient(ellipse 100% 80% at 50% 50%, rgba(0, 135, 90, 0.04) 0%, transparent 70%);
+  }
+
+  .why-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+
+  .why-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .why-feat {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .why-feat::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 0;
+    background: linear-gradient(to bottom, var(--emerald), var(--teal));
+    transition: height 0.5s ease;
+  }
+
+  .why-feat:hover {
+    transform: translateX(6px);
+  }
+
+  .why-feat:hover::before {
+    height: 100%;
+  }
+
+  .why-feat-icon {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+  }
+
+  .why-feat h5 {
+    font-family: 'Syne', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #fff;
+  }
+
+  .why-feat p {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  .why-visual {
+    position: relative;
+  }
+
+  .why-img-wrap {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.5);
+  }
+
+  .why-img-wrap img {
+    width: 100%;
+    display: block;
+    height: 420px;
+    object-fit: cover;
+  }
+
+  .why-float-card {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background: linear-gradient(135deg, var(--navy-mid), #0d1f4a);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 24px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  }
+
+  .why-float-card strong {
+    display: block;
+    font-family: 'Syne', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--gold);
+  }
+
+  .why-float-card span {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+
+  /* ── TESTIMONIALS ── */
+  .testimonials-section {
+    background: linear-gradient(135deg, rgba(0, 163, 163, 0.03), transparent);
+  }
+
+  .testi-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 32px;
+    transition: all 0.4s ease;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testi-card::before {
+    content: '"';
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    font-family: 'Syne', sans-serif;
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgba(0, 135, 90, 0.15);
+    line-height: 1;
+  }
+
+  .testi-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4);
+    border-color: rgba(0, 135, 90, 0.3);
+  }
+
+  .testi-avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 2px solid var(--emerald);
+    flex-shrink: 0;
+  }
+
+  .testi-text {
+    font-size: 0.92rem;
+    color: var(--off-white);
+    line-height: 1.75;
+    margin-bottom: 20px;
+    font-style: italic;
+    flex: 1;
+  }
+
+  .testi-name {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+
+  .testi-prog {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 2px;
+  }
+
+  .testi-stars {
+    color: var(--gold);
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+  }
+
+  .swiper-slide {
+    height: auto !important;
+    display: flex !important;
+  }
+
+  .swiper-slide .testi-card {
+    height: 100% !important;
+    flex: 1;
+  }
+
+  /* ── BLOG ── */
+  .blog-section {
+    background: linear-gradient(135deg, #0a1628 0%, #0d1f4a 60%, #061228 100%);
+  }
+
+  .single-blog {
+    background: var(--navy);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border) !important;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    height: 100%;
+  }
+
+  .blog-img {
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .blog-content-wrap {
     display: flex;
     flex-direction: column;
     flex: 1;
     padding: 15px;
-}
+    background: var(--navy);
+  }
 
-.blog-active .blog-content {
+  .blog-content {
     flex: 1;
-}
-.blog-active::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-</style>
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  }
 
-<script>
-  var swiper = new Swiper(".testimonial-slider", {
-    slidesPerView: 1,
-    spaceBetween: 20,
-    loop: true,
-    autoplay: {
-      delay: 4000, // 4 seconds per slide
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    breakpoints: {
-      768: {
-        slidesPerView: 2
-      }, // Tablet
-      1024: {
-        slidesPerView: 3
-      } // Desktop
+  .blog-content h4 a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Syne', sans-serif;
+    font-size: 1.1rem;
+  }
+
+  .blog-meta ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+
+  .blog-meta ul li a {
+    color: var(--text-muted);
+    text-decoration: none;
+  }
+
+  .blog-date {
+    margin-top: 15px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border);
+    padding-top: 10px;
+  }
+
+  /* ── CTA BANNER ── */
+  .cta-banner {
+    background: linear-gradient(135deg, var(--emerald) 0%, #006644 50%, #004d33 100%);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cta-banner::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 40px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .cta-text h2 {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(1.8rem, 3vw, 2.4rem);
+    font-weight: 800;
+    margin-bottom: 12px;
+    color: #fff;
+  }
+
+  .cta-text p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    max-width: 500px;
+    line-height: 1.6;
+  }
+
+  .btn-white {
+    padding: 16px 40px;
+    background: #fff;
+    color: var(--emerald);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+  }
+
+  .btn-white:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 1200px) {
+    .courses-grid {
+      grid-template-columns: repeat(3, 1fr);
     }
-  });
-</script>
+
+    .stats-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  @media (max-width: 1024px) {
+
+    .about-grid,
+    .ibm-grid,
+    .why-grid {
+      grid-template-columns: 1fr;
+      gap: 48px;
+    }
+
+    .stats-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stat-item {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .courses-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pg-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .clubs-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .section-inner {
+      padding: 0 20px;
+    }
+
+    .section-pad {
+      padding: 60px 0;
+    }
+
+    .courses-grid,
+    .pg-grid,
+    .why-features,
+    .clubs-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .ibm-features-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .course-tabs {
+      flex-direction: column;
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .tab-btn {
+      width: 100%;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.8rem, 10vw, 2.5rem);
+      line-height: 1.2;
+    }
+
+    .stat-num {
+      font-size: 2.8rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .stats-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .stat-item {
+      border-right: none;
+    }
+
+    .hero-cta-group {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .btn-primary,
+    .btn-outline {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+</style>
+<link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+  rel="stylesheet">
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+    <div class="hero-content">
+      <div class="hero-badge"><span></span> Dehradun's Hub for Arts & Culture</div>
+      <h1>Arts & Humanities<br>can be <em>future-ready</em><br><span>too.</span></h1>
+      <p class="hero-sub">Creativity, research, communication, and GenAI awareness come together here for a more modern
+        academic journey at Maya Devi University.</p>
+      <div class="hero-cta-group">
+        <a href="https://admissions.maya.edu.in" class="btn-primary">Apply Now →</a>
+        <a href="#courses" class="btn-outline">Explore Programs</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section-pad">
+    <div class="section-inner">
+      <div class="about-grid">
+        <div class="about-text reveal-left">
+          <div class="section-label">School Overview</div>
+          <h2 class="section-maya">Where Innovation<br>Meets <em>Humanity</em></h2>
+          <p>The Faculty of Arts, Humanities, and Social Sciences at Maya Devi University is a multidisciplinary
+            academic hub offering diverse programs such as B.A. in Humanities, M.Sc. in Clinical Psychology, and M.A. in
+            Fine Arts.</p>
+          <p>Anchored in a vision to be a leading center of innovation and knowledge, our programs foster a dynamic
+            learning environment promoting innovation, critical thinking, and lifelong learning. We seamlessly integrate
+            emerging technologies with core human values.</p>
+          <p>Through key departments including English Literature, Psychology, Political Science, Geography, and
+            Sociology, we prepare students to address real-world challenges with confidence and leadership.</p>
+          <br>
+          <a href="assets/uploads/fee/Arts_Humanities_m.pdf" class="btn-outline">Download Fee Structure ↓</a>
+        </div>
+        <div class="about-visual reveal-right">
+          <div class="about-img-wrap">
+            <img src="assets/uploads/arts.webp" alt="School of Arts"
+              onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#0d1f4a,#0a1628)';this.parentElement.style.height='400px'">
+            <div class="about-badge-float">
+              <strong>2024</strong>
+              <span>Established</span>
+            </div>
+          </div>
+          <div class="about-corner-tag">Top Performance</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- STATS -->
+  <section class="stats-section">
+    <div class="stats-grid">
+      <div class="stat-item reveal delay-1">
+        <span class="stat-icon">📚</span>
+        <div class="stat-num"><span class="counter-num" data-target="27">0</span><span class="stat-suffix">+</span>
+        </div>
+        <div class="stat-label">Programs Offered</div>
+      </div>
+      <div class="stat-item reveal delay-2">
+        <span class="stat-icon">🎓</span>
+        <div class="stat-num"><span class="counter-num" data-target="1000">0</span><span class="stat-suffix">+</span>
+        </div>
+        <div class="stat-label">Students Placed</div>
+      </div>
+      <div class="stat-item reveal delay-3">
+        <span class="stat-icon">💰</span>
+        <div class="stat-num"><span class="counter-num" data-target="12">0</span><span class="stat-suffix"> LPA</span>
+        </div>
+        <div class="stat-label">Highest Package</div>
+      </div>
+      <div class="stat-item reveal delay-4">
+        <span class="stat-icon">🤝</span>
+        <div class="stat-num"><span class="counter-num" data-target="100">0</span><span class="stat-suffix">+</span>
+        </div>
+        <div class="stat-label">Industry Partners</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section id="courses" class="section-pad">
+    <div class="section-inner">
+      <div class="reveal" style="margin-bottom:48px;">
+        <div class="section-label">Academic Programs</div>
+        <h2 class="section-maya">Holistic <em>Degrees</em><br>For Global Impact</h2>
+      </div>
+      <div class="reveal delay-2">
+        <div class="course-tabs">
+          <button class="tab-btn active" onclick="switchTab('ug', this)">Undergraduate</button>
+          <button class="tab-btn" onclick="switchTab('pg', this)">Masters Programs</button>
+          <button class="tab-btn" onclick="switchTab('phd', this)">Doctoral</button>
+        </div>
+      </div>
+
+      <!-- UG COURSES -->
+      <div id="tab-ug" class="tab-content active courses-grid">
+        <div class="course-card-maya reveal delay-1">
+          <div class="course-img-maya"><img src="assets/uploads/ba-1.webp" alt="BA Psychology"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">B.A.</span>
+            <h4>BA Psychology</h4>
+            <p>Develops skills in mental health understanding, assessment, and emotional well-being support.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 3 Years</span></div>
+            <a href="ba-psychology.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-2">
+          <div class="course-img-maya"><img src="assets/uploads/ba-2.webp" alt="BA Clinical Psychology"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">B.A.</span>
+            <h4>BA Clinical Psychology</h4>
+            <p>Focuses on mental health assessment and therapeutic techniques.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 3 Years</span></div>
+            <a href="ba-clinical-psychology.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-3">
+          <div class="course-img-maya"><img src="assets/uploads/ba-3.webp" alt="BA Hindi Literature"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">B.A.</span>
+            <h4>BA Hindi Literature</h4>
+            <p>Prepares students for careers in education, writing, and cultural studies.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 3 Years</span></div>
+            <a href="ba-hindi-literature.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-4">
+          <div class="course-img-maya"><img src="assets/uploads/ba-4.webp" alt="BA Sociology"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">B.A.</span>
+            <h4>BA Sociology</h4>
+            <p>Analyzes social structures, culture, and community dynamics.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 3 Years</span></div>
+            <a href="ba-sociology.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-1">
+          <div class="course-img-maya"><img src="assets/uploads/ba-3.webp" alt="BA English Literature"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">B.A.</span>
+            <h4>BA English Literature</h4>
+            <p>In-depth study of English literature across six semesters.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 3 Years</span></div>
+            <a href="ba-english-literature.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-2">
+          <div class="course-img-maya"><img src="assets/uploads/ba-6.webp" alt="BA Economics"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">B.A.</span>
+            <h4>BA Economics</h4>
+            <p>Foundations of economic theory and applied economics.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 3 Years</span></div>
+            <a href="ba-economics.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-3">
+          <div class="course-img-maya"><img src="assets/uploads/ba-7.webp" alt="BA Yoga"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">B.A.</span>
+            <h4>BA Yoga</h4>
+            <p>Combines traditional yoga practices with modern wellness studies.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 3 Years</span></div>
+            <a href="ba-yoga.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-4">
+          <div class="course-img-maya"><img src="assets/uploads/ba-9.webp" alt="BA Geography"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">B.A.</span>
+            <h4>BA Geography</h4>
+            <p>Study of physical, human, and environmental geography.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 3 Years</span></div>
+            <a href="ba-geography.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-1">
+          <div class="course-img-maya"><img src="assets/uploads/ba-12.webp" alt="BA Journalism"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">B.A.</span>
+            <h4>BA Journalism & Mass Comm</h4>
+            <p>Professional training in media, journalism, and communication.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 3 Years</span></div>
+            <a href="ba-journalism-and-mass-communication.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-2">
+          <div class="course-img-maya"><img src="assets/uploads/ba-10.webp" alt="BA Fine Arts"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">B.A.</span>
+            <h4>BA Fine Arts</h4>
+            <p>Creative education in visual and applied arts.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 3 Years</span></div>
+            <a href="ba-fine-arts.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-3">
+          <div class="course-img-maya"><img src="assets/uploads/ba-11.webp" alt="BA Maths"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">B.A.</span>
+            <h4>BA Mathematics</h4>
+            <p>Study of mathematical concepts and analytical reasoning.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 3 Years</span></div>
+            <a href="ba-mathematics.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-4">
+          <div class="course-img-maya"><img src="assets/uploads/ba-5.webp" alt="BA Pol Science"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">B.A.</span>
+            <h4>BA Political Science</h4>
+            <p>Study of political systems, governance, and public policy.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 3 Years</span></div>
+            <a href="ba-political-science.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-1">
+          <div class="course-img-maya"><img src="assets/uploads/ba-8.jpg" alt="BA History"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">B.A.</span>
+            <h4>BA History</h4>
+            <p>Exploration of historical events, civilizations, and cultures.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 3 Years</span></div>
+            <a href="ba-history.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PG COURSES -->
+      <div id="tab-pg" class="tab-content pg-grid">
+        <div class="course-card-maya reveal delay-1">
+          <div class="course-img-maya"><img src="assets/uploads/ma-3.webp" alt="MA Clinical Psychology"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">M.A.</span>
+            <h4>MA Clinical Psychology</h4>
+            <p>Advanced training in clinical assessment and therapeutic practices.</p>
+            <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 2 Years</span></div>
+            <a href="ma-clinical-psychology.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-2">
+          <div class="course-img-maya"><img src="assets/uploads/ma-2.webp" alt="MA Psychology"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">M.A.</span>
+            <h4>MA Psychology</h4>
+            <p>In-depth study of psychological theories and research methods.</p>
+            <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 2 Years</span></div>
+            <a href="ma-psychology.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-3">
+          <div class="course-img-maya"><img src="assets/uploads/ma-6.webp" alt="MA Sociology"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">M.A.</span>
+            <h4>MA Sociology</h4>
+            <p>Advanced sociological theory and research training.</p>
+            <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 2 Years</span></div>
+            <a href="ma-sociology.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-4">
+          <div class="course-img-maya"><img src="assets/uploads/ma-5.webp" alt="MA Hindi Literature"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">M.A.</span>
+            <h4>MA Hindi Literature</h4>
+            <p>Advanced literary studies and research in Hindi literature.</p>
+            <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 2 Years</span></div>
+            <a href="ma-hindi-literature.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-1">
+          <div class="course-img-maya"><img src="assets/uploads/ma-1.webp" alt="MA Pol Science"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">M.A.</span>
+            <h4>MA Political Science</h4>
+            <p>Advanced political theory and governance studies.</p>
+            <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 2 Years</span></div>
+            <a href="ma-political-science.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-2">
+          <div class="course-img-maya"><img src="assets/uploads/ba-7.webp" alt="MA Yoga"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">M.A.</span>
+            <h4>MA Yoga</h4>
+            <p>Advanced yogic studies and wellness education.</p>
+            <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 2 Years</span></div>
+            <a href="ma-yoga.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-3">
+          <div class="course-img-maya"><img src="assets/uploads/ma-11.jpg" alt="MA EVS"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">M.A.</span>
+            <h4>MA Environmental Science</h4>
+            <p>Advanced Environmental studies and nature education.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 2 Years</span></div>
+            <a href="ma-evs.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-4">
+          <div class="course-img-maya"><img src="assets/uploads/ma-10.jpg" alt="MA Journalism"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">M.A.</span>
+            <h4>MA Journalism & Mass Comm</h4>
+            <p>Advanced Journalism studies and communication education.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 2 Years</span></div>
+            <a href="ma-journalism-and-mass-communication.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-1">
+          <div class="course-img-maya"><img src="assets/uploads/ma-9.jpeg" alt="MA Fine Arts"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">M.A.</span>
+            <h4>MA Fine Arts</h4>
+            <p>Advanced Fine Arts studies and artistic mastery.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 2 Years</span></div>
+            <a href="ma-fine-arts.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-2">
+          <div class="course-img-maya"><img src="assets/uploads/ma-8.jpg" alt="MA Economics"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">M.A.</span>
+            <h4>MA Economics</h4>
+            <p>Advanced Economic studies and theoretical wellness education.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 2 Years</span></div>
+            <a href="ma-economics.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-3">
+          <div class="course-img-maya"><img src="assets/uploads/ma-7.jpg" alt="MA English"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">M.A.</span>
+            <h4>MA English</h4>
+            <p>Advanced English Literature studies and research education.</p>
+            <div class="course-meta-maya"><span>⚡ 132 Credits</span><span>📅 2 Years</span></div>
+            <a href="ma-english.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+        <div class="course-card-maya reveal delay-4">
+          <div class="course-img-maya"><img src="assets/uploads/ba-11.webp" alt="MA Maths"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">M.A.</span>
+            <h4>MA Mathematics</h4>
+            <p>Advanced Mathematics studies and analytical education.</p>
+            <div class="course-meta-maya"><span>⚡ 88/44 Credits</span><span>📅 1/2 Years</span></div>
+            <a href="ma-maths.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- DOCTORAL -->
+      <div id="tab-phd" class="tab-content phd-grid">
+        <div class="course-card-maya reveal delay-1">
+          <div class="course-img-maya"><img src="assets/uploads/phd.webp" alt="PhD Program"></div>
+          <div class="course-main-maya">
+            <span class="course-tag">Doctoral</span>
+            <h4>Ph.D Program</h4>
+            <p>Doctoral research program focused on original research and academic excellence in Arts & Humanities.</p>
+            <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 Min. 2 Years</span></div>
+            <a href="best-university-for-phd-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- IBM SECTION -->
+  <section id="ibm" class="ibm-section section-pad">
+    <div class="section-inner">
+      <div class="ibm-grid">
+        <div class="reveal-left">
+          <div class="ibm-badge-strip">
+            <div class="ibm-logo-badge">IBM</div>
+            <span class="ibm-x">×</span>
+            <span class="mdu-text">Maya Devi University</span>
+          </div>
+          <h2 class="ibm-heading">Arts and humanities can be<br><em>future-ready too.</em></h2>
+          <p class="ibm-desc">Creativity, research, communication, and GenAI awareness come together here for a more
+            modern academic journey at Maya Devi University.</p>
+          <div class="ibm-chips">
+            <span class="ibm-chip">GenAI for B.Arts</span>
+            <span class="ibm-chip">Digital Art & Intro to AI</span>
+            <span class="ibm-chip">GenAI for Beginners</span>
+          </div>
+          <div class="ibm-about-note">
+            <strong>About IBM</strong>
+            IBM is a globally recognized technology company known for innovation in artificial intelligence, analytics,
+            enterprise technology, and digital transformation. That association adds stronger credibility and modern
+            relevance to the student journey at MDU.
+          </div>
+          <a href="https://admissions.maya.edu.in" class="btn-ibm">Explore IBM-Linked Pathways →</a>
+        </div>
+        <div class="ibm-features-grid reveal-right">
+          <div class="ibm-feat">
+            <div class="ibm-feat-icon">🚀</div>
+            <h5>Future Skills</h5>
+            <p>Learn how AI can support writing, creativity, research, and content workflows.</p>
+          </div>
+          <div class="ibm-feat">
+            <div class="ibm-feat-icon">💎</div>
+            <h5>Career Value</h5>
+            <p>Give an arts degree practical relevance in a changing digital world.</p>
+          </div>
+          <div class="ibm-feat">
+            <div class="ibm-feat-icon">🏢</div>
+            <h5>IBM Advantage</h5>
+            <p>Gain modern expression tools without losing the strength of the core discipline.</p>
+          </div>
+          <div class="ibm-feat">
+            <div class="ibm-feat-icon">🌍</div>
+            <h5>Global Recognition</h5>
+            <p>IBM's global dominance in AI and analytics adds premium credibility to your arts degree.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CLUBS -->
+  <section id="clubs" class="section-pad">
+    <div class="section-inner">
+      <div class="reveal" style="margin-bottom:48px;">
+        <div class="section-label">Student Life</div>
+        <h2 class="section-maya">Clubs & <span>Societies</span></h2>
+      </div>
+      <div class="clubs-grid">
+        <div class="club-card-maya reveal delay-1">
+          <span class="club-icon">✍️</span>
+          <h5>Creative Writing Club</h5>
+          <p>Encourages writing, poetry, and literary expression through community circles.</p>
+        </div>
+        <div class="club-card-maya reveal delay-2">
+          <span class="club-icon">🗣️</span>
+          <h5>Debating Society</h5>
+          <p>Promotes public speaking, debating, and critical thinking on global issues.</p>
+        </div>
+        <div class="club-card-maya reveal delay-3">
+          <span class="club-icon">🎭</span>
+          <h5>Drama & Theatre</h5>
+          <p>Brings stage performances and creative storytelling to life in our auditorium.</p>
+        </div>
+        <div class="club-card-maya reveal delay-4">
+          <span class="club-icon">🎶</span>
+          <h5>Music & Fine Arts</h5>
+          <p>A space for painting, sculpture, and musical talent across genres.</p>
+        </div>
+        <div class="club-card-maya reveal delay-5">
+          <span class="club-icon">🎬</span>
+          <h5>Film & Media Club</h5>
+          <p>Explores photography and digital storytelling for the next gen of creators.</p>
+        </div>
+        <div class="club-card-maya reveal delay-6">
+          <span class="club-icon">🌍</span>
+          <h5>Language Clubs</h5>
+          <p>Celebrating the diversity of languages and cultural heritage across India.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- WHY CHOOSE US -->
+  <section class="section-pad why-section">
+    <div class="section-inner">
+      <div class="why-grid">
+        <div>
+          <div class="reveal">
+            <div class="section-label">Why MDU</div>
+            <h2 class="section-maya">Why <em>Choose</em><br>Us? 🌟</h2>
+            <p style="color:var(--text-muted);line-height:1.8;margin-bottom:40px;font-size:1rem;">At the School of Arts
+              and Humanities, Maya Devi University, we go beyond conventional learning—offering an ecosystem of
+              innovation, creativity, and global opportunities.</p>
+          </div>
+          <div class="why-features">
+            <div class="why-feat reveal delay-1">
+              <div class="why-feat-icon">🎨</div>
+              <h5>Academic Excellence</h5>
+              <p>A future-ready curriculum blending theory with practical exploration in humanities and social sciences.
+              </p>
+            </div>
+            <div class="why-feat reveal delay-2">
+              <div class="why-feat-icon">⚖️</div>
+              <h5>Ethics Meets Tech</h5>
+              <p>Building responsible leaders who innovate with integrity and deep cultural appreciation.</p>
+            </div>
+            <div class="why-feat reveal delay-3">
+              <div class="why-feat-icon">🌍</div>
+              <h5>Global Readiness</h5>
+              <p>Exposure to diverse ideas and real-world projects prepares students for a connected global workforce.
+              </p>
+            </div>
+            <div class="why-feat reveal delay-4">
+              <div class="why-feat-icon">📚</div>
+              <h5>Lifelong Learning</h5>
+              <p>Education that goes beyond degrees—building curiosity, critical thinking, and continuous growth.</p>
+            </div>
+          </div>
+        </div>
+        <div class="why-visual reveal-right">
+          <div class="why-img-wrap">
+            <img src="assets/uploads/computer.jpg" alt="Why Choose MDU"
+              onerror="this.style.background='linear-gradient(135deg,#0d1f4a,#0a1628)';this.style.height='420px';this.src=''">
+          </div>
+          <div class="why-float-card">
+            <strong>12 LPA</strong>
+            <span>Highest Package</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- TESTIMONIALS -->
+  <section class="section-pad testimonials-section">
+    <div class="section-inner">
+      <div class="reveal" style="margin-bottom:48px;">
+        <div class="section-label">Student Stories</div>
+        <h2 class="section-maya">What Our <em>Students</em> Say</h2>
+      </div>
+
+      <div class="swiper swiper-testimonial">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <img src="assets/uploads/testimoni-1.jpeg" alt="Sneha Rawat" class="testi-avatar"
+                onerror="this.style.display='none'">
+              <p class="testi-text">"The Arts faculty at MDU helped me sharpen my critical thinking and research skills.
+                I am now working as a Cultural Advisor."</p>
+              <div class="testi-name">Sneha Rawat</div>
+              <div class="testi-prog">BA English Literature</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <img src="assets/uploads/testimoni-2.jpeg" alt="Amit Negi" class="testi-avatar"
+                onerror="this.style.display='none'">
+              <p class="testi-text">"Truly holistic education. The hands-on experience in the Psychology labs was
+                invaluable for my career."</p>
+              <div class="testi-name">Amit Negi</div>
+              <div class="testi-prog">MA Clinical Psychology</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <img src="assets/uploads/testimoni-3.jpeg" alt="Priya Sharma" class="testi-avatar"
+                onerror="this.style.display='none'">
+              <p class="testi-text">"MDU offers a great platform for creative students. The clubs and societies are the
+                heart of campus life."</p>
+              <div class="testi-name">Priya Sharma</div>
+              <div class="testi-prog">BA Fine Arts</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- BLOG SECTION -->
+  <section class="section-pad blog-section" id="blog">
+    <div class="section-inner">
+      <div class="reveal" style="margin-bottom:48px;">
+        <div class="section-label">Know More</div>
+        <h2 class="section-maya">Our <em>Blog</em></h2>
+        <p style="color:var(--text-muted); margin-top:8px;">Insights and updates from Maya Devi University.</p>
+      </div>
+      <?php
+      $dataFile = __DIR__ . "/admin/data/blogs.json";
+      $blogs = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
+      $dept = "Arts";
+      $filteredBlogs = [];
+      foreach ($blogs as $id => $b) {
+        if (!empty($b['tags']) && in_array($dept, $b['tags'])) {
+          $filteredBlogs[$id] = $b;
+        }
+      }
+      $latestBlogs = array_slice(array_reverse($filteredBlogs, true), 0, 10, true);
+      ?>
+
+      <?php if (!empty($latestBlogs)): ?>
+        <div class="col-lg-12">
+          <div class="blog-active">
+            <?php foreach ($latestBlogs as $id => $b):
+              $img = $b['image'] ?? 'assets/img/blog/default.jpg';
+              $title = $b['title'] ?? '';
+              $excerpt = substr(strip_tags($b['content'] ?? ''), 0, 80) . '...';
+              $author = $b['author'] ?? 'Admin';
+              $date = $b['date'] ?? '';
+              $tags = $b['tags'] ?? [];
+              $slugText = $b['slug'] ?? $title;
+              $slugText = strtolower($slugText);
+              $slug = preg_replace('/[^a-z0-9]+/', '-', $slugText);
+              $slug = trim($slug, '-');
+              ?>
+              <div class="single-blog">
+                <div class="blog-img" style="height:200px; overflow:hidden;">
+                  <a href="blog/<?= $slug ?>">
+                    <img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;">
+                  </a>
+                </div>
+                <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                  <?php if (!empty($tags))
+                    echo "<span>" . htmlspecialchars($tags[0]) . "</span>"; ?>
+                  <div class="blog-content" style="flex-grow:1;">
+                    <h4 class="text-white">
+                      <a href="blog/<?= $slug ?>" style="color:#fff; text-decoration:none;"><?= $title ?></a>
+                    </h4>
+                    <p class="text-white"><?= $excerpt ?></p>
+                    <div class="blog-meta">
+                      <ul>
+                        <li><a href="#" class="text-white"><i class="fa fa-user"></i> <?= $author ?></a></li>
+                        <li><a href="#" class="text-white"><i class="fa fa-comments-o"></i> 0</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="blog-date">
+                    <a href="#"><i class="fa fa-calendar-o"></i> <?= $date ?></a>
+                  </div>
+                </div>
+              </div>
+            <?php endforeach; ?>
+          </div>
+        </div>
+      <?php endif; ?>
+    </div>
+  </section>
+
+  <style>
+    .event-area-maya {
+      background: linear-gradient(135deg, #0a1628 0%, #0d1f4a 60%, #061228 100%);
+    }
+
+    .single-blog-maya {
+      border: 1px solid #fff;
+    }
+
+    .blog-active .single-blog {
+      background: var(--navy);
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #fff !important;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 10px;
+      height: 100%;
+    }
+
+    .blog-active .blog-img {
+      flex: 0 0 200px;
+      overflow: hidden;
+    }
+
+    .blog-active .blog-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .blog-active .blog-content-wrap {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      padding: 15px;
+    }
+
+    .blog-active .blog-content {
+      flex: 1;
+    }
+
+    .blog-active::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  </style>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="cta-inner">
+      <div class="cta-text reveal-left">
+        <h2>Ready to Start Your Journey?</h2>
+        <p>Join the next generation of creative thinkers and social leaders at Maya Devi University. Applications are
+          open for 2025–26.</p>
+      </div>
+      <a href="https://admissions.maya.edu.in" class="btn-white reveal-right">Apply Now →</a>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    // ── SCROLL REVEAL ──
+    const revealAll = () => {
+      document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => {
+        const rect = el.getBoundingClientRect();
+        const inView = rect.top < window.innerHeight * 0.88 && rect.bottom > window.innerHeight * 0.12;
+        if (inView) el.classList.add('visible');
+        else el.classList.remove('visible');
+      });
+    };
+    window.addEventListener('scroll', revealAll, { passive: true });
+    window.addEventListener('resize', revealAll);
+    revealAll();
+
+    // ── COUNTER ──
+    let countersStarted = false;
+    const runCounters = () => {
+      document.querySelectorAll('.counter-num').forEach(counter => {
+        const target = +counter.getAttribute('data-target');
+        const duration = 1800;
+        const startTime = performance.now();
+        const update = (t) => {
+          const elapsed = t - startTime;
+          const progress = Math.min(elapsed / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          counter.textContent = Math.floor(eased * target);
+          if (progress < 1) requestAnimationFrame(update);
+          else counter.textContent = target;
+        };
+        requestAnimationFrame(update);
+      });
+    };
+    const statsObs = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !countersStarted) {
+          countersStarted = true;
+          runCounters();
+        }
+      });
+    }, { threshold: 0.3 });
+    const statsSection = document.querySelector('.stats-section');
+    if (statsSection) statsObs.observe(statsSection);
+
+    // ── TAB SWITCH ──
+    function switchTab(id, btn) {
+      document.querySelectorAll('.tab-content').forEach(t => { t.classList.remove('active'); t.style.display = 'none'; });
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const target = document.getElementById('tab-' + id);
+      if (target) {
+        target.classList.add('active');
+        target.style.display = 'grid';
+      }
+      setTimeout(revealAll, 50);
+    }
+    document.getElementById('tab-ug').style.display = 'grid';
+    document.getElementById('tab-pg').style.display = 'none';
+    document.getElementById('tab-phd').style.display = 'none';
+
+    // ── SWIPER ──
+    new Swiper('.swiper-testimonial', {
+      slidesPerView: 1,
+      spaceBetween: 24,
+      loop: true,
+      autoplay: { delay: 4000, disableOnInteraction: false },
+      pagination: { el: '.swiper-pagination', clickable: true },
+      breakpoints: {
+        768: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 }
+      }
+    });
+
+    // ── SLICK OVERRIDE ──
+    if ($.fn.slick) {
+      $('.blog-active').slick('unslick').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: '<span class="b-navigation b-navigation-prev "><i class="fa fa-angle-left"></i></span>',
+        nextArrow: '<span class="b-navigation b-navigation-next active"><i class="fa fa-angle-right"></i></span>',
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+            }
+          }
+        ]
+      });
+    }
+  </script>
+</main>
 <?php require "common/footer.php" ?>

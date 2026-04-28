@@ -196,7 +196,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <tr>
           <td>
           Any other:<br>
-          <a href="Diploma-courses.php" target="_blank">https://maya.edu.in/programmes/Diploma-courses</a>
+          <a href="Diploma-course.php" target="_blank">https://maya.edu.in/programmes/Diploma-courses</a>
           </td>
         </tr>
           <tr>

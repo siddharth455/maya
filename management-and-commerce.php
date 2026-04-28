@@ -5,6 +5,8 @@ $canonical_url = "https://maya.edu.in/management-and-commerce.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
 <?php require "common/header.php"?>
+<link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
 <style>
 :root {
   --navy: #0a1628;
@@ -89,13 +91,15 @@ main::before {
 @keyframes pulse-dot { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.5;transform:scale(1.4)} }
 .hero h1 {
   font-family: 'Syne', sans-serif;
-  font-size: clamp(2.8rem, 5vw, 4rem);
+  font-size: clamp(2.2rem, 8vw, 4rem);
   font-weight: 800;
   color: #fff;
-  line-height: 1.08;
-  letter-spacing: -1.5px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
   margin-bottom: 24px;
   animation: fade-up 0.8s 0.15s ease both;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 .hero h1 em { font-style: normal; color: var(--gold); }
 .hero h1 span { color: var(--teal); }
@@ -409,6 +413,7 @@ section { position: relative; z-index: 1; }
   background: var(--card-bg); border: 1px solid var(--border);
   border-radius: 20px; padding: 32px;
   transition: all 0.4s ease; position: relative;
+  height: 100%; display: flex; flex-direction: column;
 }
 .testi-card::before {
   content: '"';
@@ -417,31 +422,52 @@ section { position: relative; z-index: 1; }
   color: rgba(0,135,90,0.15); line-height: 1;
 }
 .testi-card:hover { transform: translateY(-6px); box-shadow: 0 24px 60px rgba(0,0,0,0.4); border-color: rgba(0,135,90,0.3); }
-.testi-avatar { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; margin-bottom: 20px; border: 2px solid var(--emerald); }
-.testi-text { font-size: 0.92rem; color: var(--off-white); line-height: 1.75; margin-bottom: 20px; font-style: italic; }
+.testi-avatar { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; margin-bottom: 20px; border: 2px solid var(--emerald); flex-shrink: 0; }
+.testi-text { font-size: 0.92rem; color: var(--off-white); line-height: 1.75; margin-bottom: 20px; font-style: italic; flex: 1; }
 .testi-name { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.95rem; }
 .testi-prog { font-size: 0.8rem; color: var(--text-muted); margin-top: 2px; }
 .testi-stars { color: var(--gold); font-size: 0.85rem; margin-bottom: 12px; letter-spacing: 2px; }
+.swiper-slide { height: auto !important; display: flex !important; }
+.swiper-slide .testi-card { height: 100% !important; flex: 1; }
 
 /* ── BLOG ── */
 .blog-section { background: linear-gradient(135deg, #0a1628 0%, #0d1f4a 60%, #061228 100%); }
-.blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-.blog-card-maya {
-  background: var(--card-bg); border: 1px solid var(--border);
-  border-radius: 16px; overflow: hidden;
-  transition: all 0.4s ease;
+.single-blog {
+  background: var(--navy);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff !important;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  height: 100%;
 }
-.blog-card-maya:hover { transform: translateY(-6px); border-color: rgba(0,135,90,0.3); box-shadow: 0 20px 50px rgba(0,0,0,0.4); }
-.blog-img-maya { height: 180px; overflow: hidden; }
-.blog-img-maya img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
-.blog-card-maya:hover .blog-img-maya img { transform: scale(1.06); }
-.blog-main-maya { padding: 20px; }
-.blog-tag { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--teal); margin-bottom: 10px; }
-.blog-main-maya h4 { font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700; line-height: 1.35; margin-bottom: 8px; }
-.blog-main-maya h4 a { color: #fff; text-decoration: none; }
-.blog-main-maya p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 16px; }
-.blog-meta-row { display: flex; gap: 16px; font-size: 0.78rem; color: var(--text-muted); }
-.blog-meta-row i { margin-right: 4px; }
+.blog-img { flex: 0 0 200px; overflow: hidden; }
+.blog-img img { width: 100%; height: 100%; object-fit: cover; }
+.blog-content-wrap { display: flex; flex-direction: column; flex: 1; padding: 15px; background: var(--navy); }
+.blog-content { flex: 1; }
+.blog-active::after { content: ""; display: block; clear: both; }
+
+/* Slick arrows styling */
+.b-navigation {
+  position: absolute;
+  top: -70px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+  color: #fff;
+}
+.b-navigation-next { right: 0; }
+.b-navigation:hover { background: var(--emerald); border-color: var(--emerald); }
+@media (max-width: 768px) { .b-navigation { display: none !important; } }
 
 /* ── CTA BANNER ── */
 .cta-banner { background: linear-gradient(135deg, var(--emerald) 0%, #006644 50%, #004d33 100%); position: relative; overflow: hidden; }
@@ -472,6 +498,12 @@ section { position: relative; z-index: 1; }
 .swiper-testimonial .testi-card { margin: 0; }
 
 /* ── RESPONSIVE ── */
+@media (max-width: 1200px) {
+  .courses-grid { grid-template-columns: repeat(3, 1fr); }
+  .stats-grid { grid-template-columns: repeat(4, 1fr); }
+  .careers-grid { grid-template-columns: repeat(3, 1fr); }
+  .blog-grid { grid-template-columns: repeat(2, 1fr); }
+}
 @media (max-width: 1024px) {
   .about-grid, .ibm-grid, .why-grid { grid-template-columns: 1fr; gap: 48px; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
@@ -484,24 +516,24 @@ section { position: relative; z-index: 1; }
 }
 @media (max-width: 768px) {
   .section-inner { padding: 0 20px; }
-  .section-pad { padding: 70px 0; }
+  .section-pad { padding: 60px 0; }
   .courses-grid, .pg-grid, .careers-grid, .why-features { grid-template-columns: 1fr; }
   .ibm-features-grid { grid-template-columns: 1fr; }
   .blog-grid { grid-template-columns: 1fr; }
-  .course-tabs { flex-direction: column; width: 100%; }
-  .cta-inner { text-align: center; }
-  .hero h1 {
-    font-size: clamp(2rem, 8vw, 2.8rem) !important;
-    letter-spacing: -0.5px;
-    line-height: 1.1;
-  }
-  .hero-content {
-    width: 100%;
-    max-width: 100%;
-  }
+  .course-tabs { flex-direction: column; width: 100%; border-radius: 12px; }
+  .tab-btn { width: 100%; text-align: center; }
+  .cta-inner { text-align: center; justify-content: center; }
+  .hero h1 { font-size: clamp(1.8rem, 10vw, 2.5rem); line-height: 1.2; }
+  .hero-content { width: 100%; max-width: 100%; }
+  .stat-num { font-size: 2.8rem; }
+}
+@media (max-width: 480px) {
+  .stats-grid { grid-template-columns: 1fr; }
+  .stat-item { border-right: none; }
+  .hero-cta-group { flex-direction: column; width: 100%; }
+  .btn-primary, .btn-outline { width: 100%; justify-content: center; }
 }
 </style>
-</head>
 <main>
 
 <!-- ═══════════════════════ HERO ═══════════════════════ -->
@@ -1295,6 +1327,31 @@ new Swiper('.swiper-testimonial', {
     1024: { slidesPerView: 3 }
   }
 });
+
+// ── SLICK OVERRIDE ──
+if ($.fn.slick) {
+    $('.blog-active').slick('unslick').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: '<span class="b-navigation b-navigation-prev "><i class="fa fa-angle-left"></i></span>',
+        nextArrow: '<span class="b-navigation b-navigation-next active"><i class="fa fa-angle-right"></i></span>',
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+}
 </script>
 <?php require "common/footer.php"?>
 </main>

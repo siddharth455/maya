@@ -210,7 +210,7 @@ $base_url = $protocol . $host . $projectFolder;
                                         </li>
                                         <li><a href="#"> COURSES/PROGRAMMES <i class="fa fa-angle-down"></i> </a>
                                             <ul class="submenu">
-                                                <li><a href="diploma-course.php">Diploma Courses</a></li>
+                                                <li><a href="Diploma-course.php">Diploma Courses</a></li>
                                                 <li><a href="undergraduate-course.php">Undergraduate Courses</a></li>
                                                 <li><a href="post-graduate.php">Post Graduate Courses</a></li>
                                                  <li><a href="best-university-for-phd-in-dehradun-uttarakhand.php">PHD</a></li>
@@ -287,7 +287,7 @@ $base_url = $protocol . $host . $projectFolder;
                                         </li>
                                 <li><a href="#"> COURSES/PROGRAMMES <i class="fa fa-angle-down"></i> </a>
                                             <ul class="submenu">
-                                                <li><a href="Diploma.php">Diploma Courses</a></li>
+                                                <li><a href="Diploma-course.php">Diploma Courses</a></li>
                                                 <li><a href="undergraduate-course.php">Undergraduate Courses</a></li>
                                                 <li><a href="post-graduate.php">Post Graduate Courses</a></li>
                                             </ul>
