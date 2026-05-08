@@ -866,7 +866,440 @@ section { position: relative; z-index: 1; }
 
   </div>
 </section>
-
+<section id="emversity" class="emv-section section-pad">
+  <div class="emv-noise"></div>
+  <div class="emv-glow-orb emv-orb-a"></div>
+  <div class="emv-glow-orb emv-orb-b"></div>
+  <div class="emv-particles-wrap" id="emvDots"></div>
+ 
+  <div class="section-inner emv-inner">
+ 
+    <!-- ── TOP LABEL (matches page style) ── -->
+    <div class="reveal" style="margin-bottom:48px;">
+      <div class="section-label">Industry Skilling Partner</div>
+      <h2 class="section-maya">Powered by <em>Emversity</em></h2>
+      <p style="color:var(--text-muted);line-height:1.8;max-width:600px;font-size:1rem;margin-top:12px;">
+        Every student at MDU gets access to Emversity's industry-grade skilling ecosystem — bridging academics with real employability.
+      </p>
+    </div>
+ 
+    <!-- ── FEATURE CARDS ── -->
+    <div class="emv-cards-row reveal delay-1">
+ 
+      <div class="emv-card">
+        <div class="emv-card-icon-ring">
+          <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="7" y="11" width="30" height="22" rx="4" stroke="var(--gold)" stroke-width="2"/>
+            <path d="M15 22h14M15 17h9" stroke="var(--gold)" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="33" cy="13" r="4.5" fill="var(--navy-mid)"/>
+            <path d="M32 13l1 1 2-2" stroke="var(--emerald)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h5>Industry-Aligned Curriculum</h5>
+        <p>Courses co-designed with top employers to match real-world management and commerce skill demands.</p>
+        <div class="emv-card-bar"></div>
+      </div>
+ 
+      <div class="emv-card">
+        <div class="emv-card-icon-ring">
+          <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="22" cy="15" r="7" stroke="var(--gold)" stroke-width="2"/>
+            <path d="M9 36c0-7.18 5.82-13 13-13s13 5.82 13 13" stroke="var(--gold)" stroke-width="2" stroke-linecap="round"/>
+            <path d="M31 10l2.5 2.5L38 8" stroke="var(--emerald)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h5>Sessions by Industry Experts</h5>
+        <p>Live masterclasses and workshops led by professionals from leading business and tech organizations.</p>
+        <div class="emv-card-bar"></div>
+      </div>
+ 
+      <div class="emv-card">
+        <div class="emv-card-icon-ring">
+          <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="14" width="16" height="18" rx="2" stroke="var(--gold)" stroke-width="2"/>
+            <path d="M24 21h8a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H24" stroke="var(--gold)" stroke-width="2"/>
+            <circle cx="16" cy="10" r="3.5" stroke="var(--gold)" stroke-width="2"/>
+            <path d="M32 13l4-4M34 9h4.5v4.5" stroke="var(--emerald)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h5>AR &amp; VR Skill Labs</h5>
+        <p>Next-gen immersive labs on campus for business simulations and experiential learning environments.</p>
+        <div class="emv-card-bar"></div>
+      </div>
+ 
+      <div class="emv-card">
+        <div class="emv-card-icon-ring">
+          <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 29c0-2.5 1.8-4.5 4.5-5.5l6.5-2.5 6.5 2.5c2.7 1 4.5 3 4.5 5.5" stroke="var(--gold)" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="22" cy="15" r="5.5" stroke="var(--gold)" stroke-width="2"/>
+            <path d="M7 33h30" stroke="var(--gold)" stroke-width="2" stroke-linecap="round"/>
+            <path d="M18 37.5h8" stroke="var(--emerald)" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h5>Internship Assistance</h5>
+        <p>Dedicated placement support through Emversity's network ensuring guaranteed internship opportunities.</p>
+        <div class="emv-card-bar"></div>
+      </div>
+ 
+    </div>
+ 
+    <!-- ── FREE LAPTOP BANNER ── -->
+    <div class="emv-offer-banner reveal delay-2">
+ 
+      <div class="emv-offer-left">
+        <div class="emv-laptop-svg-wrap">
+          <svg viewBox="0 0 100 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="10" y="5" width="80" height="50" rx="6" fill="var(--navy-mid)" stroke="var(--gold)" stroke-width="1.5"/>
+            <rect x="17" y="11" width="66" height="38" rx="2" fill="url(#mgGrad)"/>
+            <rect x="0" y="59" width="100" height="8" rx="3" fill="#0d1f4a"/>
+            <rect x="38" y="55" width="24" height="5" rx="2" fill="var(--gold)"/>
+            <!-- Tiny bar chart on screen -->
+            <rect x="28" y="34" width="6" height="10" rx="1" fill="var(--emerald)" opacity=".8"/>
+            <rect x="37" y="28" width="6" height="16" rx="1" fill="var(--teal)" opacity=".8"/>
+            <rect x="46" y="22" width="6" height="22" rx="1" fill="var(--emerald)" opacity=".9"/>
+            <rect x="55" y="31" width="6" height="13" rx="1" fill="var(--gold)" opacity=".8"/>
+            <rect x="64" y="25" width="6" height="19" rx="1" fill="var(--teal)" opacity=".7"/>
+            <defs>
+              <linearGradient id="mgGrad" x1="17" y1="11" x2="83" y2="49" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#0a1628"/>
+                <stop offset="100%" stop-color="#11234f"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="emv-offer-text">
+          <span class="emv-free-pill">FREE</span>
+          <h3>Laptop <span>Offer!</span></h3>
+          <p>For the <strong>First 20 Admissions</strong> — get a brand-new laptop absolutely free with your enrollment at MDU.</p>
+        </div>
+      </div>
+ 
+      <div class="emv-offer-right">
+        <a href="https://admissions.maya.edu.in" class="btn-primary emv-grab-btn">
+          Grab Your Seat
+          <svg viewBox="0 0 20 20" fill="none" width="16" height="16"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <p class="emv-urgency">⚡ Limited seats — don't miss out!</p>
+      </div>
+ 
+      <!-- Animated shine sweep -->
+      <div class="emv-banner-shine"></div>
+    </div>
+ 
+    <!-- ── EMVERSITY LOGO STRIP ── -->
+    <div class="emv-logo-strip reveal delay-3">
+  <span class="emv-collab-label">In collaboration with</span>
+  <div class="emv-logo-box">
+    <svg viewBox="0 0 260 52" fill="none" xmlns="http://www.w3.org/2000/svg"
+         aria-label="Emversity — Industry Skilling Partner"
+         style="width:220px; height:auto; display:block;">
+ 
+      <!-- Double-chevron brand mark (faithful to screenshot: navy + gold) -->
+      <polyline points="6,26 20,8 34,26"
+                stroke="#0f1f45" stroke-width="5"
+                stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <polyline points="20,26 34,8 48,26"
+                stroke="#d8a52d" stroke-width="5"
+                stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+ 
+      <!-- Wordmark -->
+      <text x="58" y="34"
+            font-family="'Syne','Montserrat','Segoe UI',sans-serif"
+            font-weight="800"
+            font-size="23"
+            fill="#0f1f45"
+            letter-spacing="0.5">EMVERSITY</text>
+ 
+      <!-- Tagline -->
+      <text x="58" y="47"
+            font-family="'DM Sans','Segoe UI',sans-serif"
+            font-weight="500"
+            font-size="9"
+            fill="#666"
+            letter-spacing="2">INDUSTRY SKILLING PARTNER</text>
+    </svg>
+  </div>
+</div>
+ 
+  </div>
+</section>
+<div class="divider"></div>
+<!-- ═══════════════════════ END EMVERSITY SECTION ═══════════════════════ -->
+ 
+ 
+ 
+ 
+<!-- ══ STYLES — paste inside your existing <style> tag ══ -->
+<style>
+/* ============================================================
+   EMVERSITY SECTION  —  Commerce & Management page
+============================================================ */
+.emv-section {
+  position: relative;
+  background: linear-gradient(160deg, #0a1628 0%, #0b1c40 55%, #071120 100%);
+  overflow: hidden;
+}
+ 
+/* Ambient orbs */
+.emv-glow-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  pointer-events: none;
+  animation: emvOrbFloat 9s ease-in-out infinite alternate;
+}
+.emv-orb-a {
+  width: 480px; height: 480px;
+  background: radial-gradient(circle, rgba(0,135,90,0.14) 0%, transparent 70%);
+  top: -120px; right: -80px;
+}
+.emv-orb-b {
+  width: 320px; height: 320px;
+  background: radial-gradient(circle, rgba(216,165,45,0.1) 0%, transparent 70%);
+  bottom: 0; left: -60px;
+  animation-delay: 4s;
+}
+@keyframes emvOrbFloat {
+  from { transform: translateY(0) scale(1); }
+  to   { transform: translateY(-28px) scale(1.06); }
+}
+ 
+/* Noise texture overlay */
+.emv-noise {
+  position: absolute; inset: 0; pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  opacity: 0.6;
+}
+ 
+/* Floating particles */
+.emv-particles-wrap { position: absolute; inset: 0; pointer-events: none; }
+.emv-dot {
+  position: absolute; border-radius: 50%;
+  background: rgba(216,165,45,0.55);
+  animation: emvDotRise linear infinite;
+}
+@keyframes emvDotRise {
+  0%   { transform: translateY(0); opacity: 0.7; }
+  100% { transform: translateY(-140px) scale(0.3); opacity: 0; }
+}
+ 
+.emv-inner { position: relative; z-index: 2; }
+ 
+/* ── FEATURE CARDS ── */
+.emv-cards-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 36px;
+}
+@media (max-width: 1024px) { .emv-cards-row { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 580px)  { .emv-cards-row { grid-template-columns: 1fr; } }
+ 
+.emv-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px 22px 24px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.35s cubic-bezier(.22,1,.36,1),
+              border-color 0.35s ease,
+              box-shadow 0.35s ease;
+}
+.emv-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(0,135,90,0.5);
+  box-shadow: 0 24px 60px rgba(0,0,0,0.45), 0 0 0 1px rgba(0,135,90,0.25);
+}
+.emv-card:hover .emv-card-bar { width: 100%; }
+ 
+.emv-card-bar {
+  position: absolute; bottom: 0; left: 0;
+  height: 2px; width: 0;
+  background: linear-gradient(90deg, var(--emerald), var(--teal));
+  transition: width 0.5s ease;
+}
+ 
+.emv-card-icon-ring {
+  width: 54px; height: 54px;
+  border-radius: 14px;
+  background: rgba(216,165,45,0.08);
+  border: 1px solid rgba(216,165,45,0.2);
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 18px;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+.emv-card:hover .emv-card-icon-ring {
+  background: rgba(0,135,90,0.15);
+  border-color: rgba(0,135,90,0.4);
+}
+.emv-card-icon-ring svg { width: 30px; height: 30px; }
+ 
+.emv-card h5 {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.97rem; font-weight: 700;
+  color: #fff; margin-bottom: 8px; line-height: 1.3;
+}
+.emv-card p {
+  font-size: 0.82rem; color: var(--text-muted);
+  line-height: 1.65; margin: 0;
+}
+ 
+/* ── FREE LAPTOP BANNER ── */
+.emv-offer-banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 28px;
+  background: linear-gradient(120deg,
+    rgba(0,135,90,0.10) 0%,
+    rgba(216,165,45,0.08) 50%,
+    rgba(0,163,163,0.07) 100%);
+  border: 1px solid rgba(216,165,45,0.3);
+  border-radius: 20px;
+  padding: 36px 40px;
+  margin-bottom: 48px;
+  overflow: hidden;
+}
+ 
+/* Shine sweep */
+.emv-banner-shine {
+  position: absolute; top: -50%; left: -30%;
+  width: 50%; height: 200%;
+  background: linear-gradient(115deg,
+    transparent 30%,
+    rgba(255,255,255,0.04) 50%,
+    transparent 70%);
+  animation: emvShine 5s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes emvShine {
+  0%   { transform: translateX(-100%) rotate(15deg); }
+  55%  { transform: translateX(400%) rotate(15deg); }
+  100% { transform: translateX(400%) rotate(15deg); }
+}
+ 
+.emv-offer-left {
+  display: flex; align-items: center;
+  gap: 28px; flex: 1; min-width: 260px;
+}
+ 
+.emv-laptop-svg-wrap svg {
+  width: 100px; height: auto;
+  filter: drop-shadow(0 8px 24px rgba(0,135,90,0.4));
+  animation: emvLapFloat 3.5s ease-in-out infinite;
+}
+@keyframes emvLapFloat {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-9px); }
+}
+ 
+.emv-free-pill {
+  display: inline-block;
+  background: var(--gold);
+  color: #1a0f00;
+  font-family: 'Syne', sans-serif;
+  font-size: 10px; font-weight: 800;
+  letter-spacing: 2.5px; text-transform: uppercase;
+  padding: 4px 14px; border-radius: 50px;
+  margin-bottom: 10px;
+}
+.emv-offer-text h3 {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 800; color: #fff;
+  line-height: 1.15; margin-bottom: 10px;
+}
+.emv-offer-text h3 span { color: var(--gold); }
+.emv-offer-text p { color: var(--text-muted); font-size: 0.88rem; line-height: 1.6; margin: 0; }
+.emv-offer-text p strong { color: var(--gold); }
+ 
+.emv-offer-right { text-align: center; }
+ 
+/* Reuse .btn-primary from page but override size */
+.emv-grab-btn {
+  font-size: 0.95rem !important;
+  padding: 14px 30px !important;
+  box-shadow: 0 8px 28px rgba(0,135,90,0.4) !important;
+}
+.emv-urgency {
+  color: var(--text-muted); font-size: 12px;
+  margin-top: 12px; margin-bottom: 0;
+  letter-spacing: 0.3px;
+}
+ 
+/* ── LOGO STRIP ── */
+.emv-logo-strip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.emv-collab-label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-muted, #8899bb);
+  font-family: 'DM Sans', sans-serif;
+}
+.emv-logo-box {
+  background: #fff;
+  border-radius: 14px;
+  padding: 12px 28px;           /* more breathing room */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: visible;             /* never clip the SVG */
+  min-width: 260px;              /* guarantees enough space */
+}
+.emv-logo-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 36px rgba(0,0,0,0.35);
+}
+.emv-logo-box svg {
+  width: 220px;
+  height: auto;
+  display: block;
+  overflow: visible;             /* SVG itself won't clip either */
+}
+ 
+/* ── RESPONSIVE TWEAKS ── */
+@media (max-width: 768px) {
+  .emv-offer-banner { padding: 28px 20px; }
+  .emv-offer-left { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .emv-laptop-svg-wrap svg { width: 70px; }
+}
+</style>
+ 
+ 
+<!-- ══ JAVASCRIPT — paste INSIDE your existing <script> block at the bottom ══ -->
+<script>
+/* ── Emversity floating dots ── */
+(function () {
+  var wrap = document.getElementById('emvDots');
+  if (!wrap) return;
+  for (var i = 0; i < 20; i++) {
+    var d = document.createElement('span');
+    d.className = 'emv-dot';
+    var size = Math.random() * 4 + 2;
+    d.style.cssText = [
+      'width:' + size + 'px',
+      'height:' + size + 'px',
+      'left:' + (Math.random() * 100) + '%',
+      'top:' + (Math.random() * 100) + '%',
+      'animation-duration:' + (Math.random() * 7 + 4) + 's',
+      'animation-delay:' + (Math.random() * 6) + 's',
+      'opacity:' + (Math.random() * 0.5 + 0.15)
+    ].join(';');
+    wrap.appendChild(d);
+  }
+})();
+</script>
 <div class="divider"></div>
 
 <!-- ═══════════════════════ IBM SECTION ═══════════════════════ -->

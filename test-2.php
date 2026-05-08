@@ -1,1021 +1,633 @@
 <?php
-$page_title = "Management & Commerce Programs in Dehradun | Maya Devi University";
-$page_description = "Explore Management and Commerce programs at Maya Devi University, Dehradun with industry-focused curriculum and placement support.";
-$canonical_url = "https://maya.edu.in/management-and-commerce.php";
+$page_title = "School of Health Sciences | Maya Devi University Dehradun";
+$page_description = "School of Health Sciences at Maya Devi University, Dehradun offering nursing and paramedical programs.";
+$canonical_url = "https://maya.edu.in/School-Of-Health-Sciences.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
-<?php require "common/header.php"?>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<?php require "common/header.php" ?>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+
 <style>
+/* ============================================================
+   ROOT VARIABLES
+============================================================ */
 :root {
-  --navy: #0a1628;
-  --navy-mid: #11234f;
-  --blue-ibm: #0f62fe;
-  --teal: #00a3a3;
-  --gold: #d8a52d;
-  --emerald: #00875a;
-  --white: #ffffff;
-  --off-white: #f0f4ff;
-  --text-muted: #8899bb;
-  --card-bg: rgba(17,35,79,0.5);
-  --glass: rgba(15,98,254,0.08);
-  --border: rgba(15,98,254,0.2);
+  --forest:    #0d6b52;
+  --forest-dk: #094d3b;
+  --navy:      #11234f;
+  --navy-mid:  #1a3568;
+  --teal:      #00a3a3;
+  --gold:      #d8a52d;
+  --off-white: #f4fbf8;
+  --muted:     #5a7a70;
+  --card-bg:   rgba(13,107,82,0.05);
+  --border:    rgba(13,107,82,0.15);
 }
-
-*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
+.shs-page { font-family: 'DM Sans', sans-serif; color: var(--navy); overflow-x: hidden; }
 
-main {
-  background: var(--navy);
-  color: var(--white);
-  font-family: 'DM Sans', sans-serif;
-  overflow-x: hidden;
-}
+.shs-section  { position: relative; padding: 90px 0; }
+.shs-container{ max-width: 1200px; margin: 0 auto; padding: 0 40px; }
+@media(max-width:768px){ .shs-container{ padding: 0 20px; } .shs-section{ padding: 60px 0; } }
 
-main::before {
-  content: '';
-  position: fixed; inset: 0;
-  background-image:
-    linear-gradient(rgba(15,98,254,0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(15,98,254,0.03) 1px, transparent 1px);
-  background-size: 60px 60px;
-  pointer-events: none; z-index: 0;
-}
-
-/* ── HERO ── */
-.hero {
-  min-height: 100vh;
-  display: flex; align-items: center; justify-content: center;
-  position: relative;
-  background: linear-gradient(135deg, #0a1628 0%, #0d1f4a 50%, #081630 100%);
-  overflow: hidden;
-  padding: 20px;
-}
-.hero::after {
-  content: '';
-  position: absolute; inset: 0;
-  background: radial-gradient(ellipse 80% 60% at 60% 50%, rgba(15,98,254,0.12) 0%, transparent 70%),
-              radial-gradient(ellipse 50% 40% at 20% 80%, rgba(0,163,163,0.08) 0%, transparent 60%);
-}
-.hero-orb {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(80px);
-  animation: orb-float 8s ease-in-out infinite;
-}
-.hero-orb-1 { width: 500px; height: 500px; background: rgba(0,135,90,0.12); top: -100px; right: -100px; animation-delay: 0s; }
-.hero-orb-2 { width: 300px; height: 300px; background: rgba(0,163,163,0.1); bottom: 50px; left: 100px; animation-delay: 3s; }
-.hero-orb-3 { width: 200px; height: 200px; background: rgba(216,165,45,0.1); top: 200px; left: 300px; animation-delay: 5s; }
-@keyframes orb-float {
-  0%,100% { transform: translateY(0) scale(1); }
-  50% { transform: translateY(-30px) scale(1.05); }
-}
-.hero-content {
-  position: relative; z-index: 2;
-  max-width: 1000px; width: 90%;
-  text-align: center;
-}
-.hero-badge {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: rgba(0,135,90,0.15);
-  border: 1px solid rgba(0,135,90,0.4);
-  border-radius: 100px;
-  padding: 8px 20px;
-  font-size: 13px; font-weight: 500; letter-spacing: 0.5px;
-  color: #5ecfb1;
-  margin-bottom: 32px;
-  animation: fade-up 0.8s ease both;
-}
-.hero-badge span { width: 6px; height: 6px; background: var(--emerald); border-radius: 50%; animation: pulse-dot 2s ease-in-out infinite; }
-@keyframes pulse-dot { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.5;transform:scale(1.4)} }
-.hero h1 {
-  font-family: 'Syne', sans-serif;
-  font-size: clamp(2.8rem, 5vw, 4rem);
-  font-weight: 800;
-  color: #fff;
-  line-height: 1.08;
-  letter-spacing: -1.5px;
-  margin-bottom: 24px;
-  animation: fade-up 0.8s 0.15s ease both;
-}
-.hero h1 em { font-style: normal; color: var(--gold); }
-.hero h1 span { color: var(--teal); }
-.hero-sub {
-  font-size: 1.15rem; font-weight: 300; color: var(--text-muted);
-  line-height: 1.7; max-width: 640px; margin: 0 auto 40px;
-  animation: fade-up 0.8s 0.3s ease both;
-}
-.hero-cta-group {
-  display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
-  animation: fade-up 0.8s 0.45s ease both;
-}
-.btn-primary {
-  padding: 14px 32px;
-  background: linear-gradient(135deg, var(--emerald), #006644);
-  color: #fff; font-family: 'Syne', sans-serif; font-weight: 600;
-  border: none; border-radius: 6px; cursor: pointer;
-  font-size: 0.95rem; letter-spacing: 0.3px;
-  transition: all 0.3s ease;
-  text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
-  box-shadow: 0 8px 30px rgba(0,135,90,0.3);
-}
-.btn-primary:hover { transform: translateY(-3px); box-shadow: 0 16px 40px rgba(0,135,90,0.5); }
-.btn-outline {
-  padding: 14px 32px;
-  background: transparent; color: var(--white);
-  border: 1px solid var(--border);
-  border-radius: 6px; cursor: pointer;
-  font-family: 'Syne', sans-serif; font-weight: 600; font-size: 0.95rem;
-  transition: all 0.3s ease; text-decoration: none;
-  display: inline-flex; align-items: center; gap: 8px;
-}
-.btn-outline:hover { background: var(--glass); border-color: var(--emerald); transform: translateY(-3px); }
-
-/* ── ANIMATIONS ── */
-.reveal { opacity: 0; transform: translateY(48px); transition: opacity 0.7s cubic-bezier(.22,1,.36,1), transform 0.7s cubic-bezier(.22,1,.36,1); }
-.reveal.visible { opacity: 1; transform: translateY(0); }
-.reveal-left { opacity: 0; transform: translateX(-48px); transition: opacity 0.7s cubic-bezier(.22,1,.36,1), transform 0.7s cubic-bezier(.22,1,.36,1); }
-.reveal-left.visible { opacity: 1; transform: translateX(0); }
-.reveal-right { opacity: 0; transform: translateX(48px); transition: opacity 0.7s cubic-bezier(.22,1,.36,1), transform 0.7s cubic-bezier(.22,1,.36,1); }
-.reveal-right.visible { opacity: 1; transform: translateX(0); }
-.delay-1 { transition-delay: 0.1s; }
-.delay-2 { transition-delay: 0.2s; }
-.delay-3 { transition-delay: 0.3s; }
-.delay-4 { transition-delay: 0.4s; }
-.delay-5 { transition-delay: 0.5s; }
-.delay-6 { transition-delay: 0.6s; }
-@keyframes fade-up {
-  from { opacity:0; transform:translateY(30px); }
-  to { opacity:1; transform:translateY(0); }
-}
-
-/* ── LAYOUT ── */
-section { position: relative; z-index: 1; }
-.section-inner { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
-.section-pad { padding: 100px 0; }
-.section-label {
+.shs-label {
+  display: inline-flex; align-items: center; gap: 10px;
   font-size: 11px; font-weight: 700; letter-spacing: 3px;
-  text-transform: uppercase; color: var(--emerald);
-  margin-bottom: 16px;
-  display: flex; align-items: center; gap: 10px;
+  text-transform: uppercase; color: var(--forest); margin-bottom: 14px;
 }
-.section-label::before { content: ''; width: 24px; height: 2px; background: var(--emerald); display: block; }
-.section-maya {
+.shs-label::before { content:''; width:24px; height:2px; background:var(--forest); display:block; }
+
+.shs-heading {
   font-family: 'Syne', sans-serif;
-  font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 800; line-height: 1.1; letter-spacing: -1px;
-  color: #fff; margin-bottom: 16px;
+  font-size: clamp(2rem,4vw,2.8rem); font-weight: 800;
+  line-height: 1.1; letter-spacing: -0.5px; color: var(--navy); margin-bottom: 16px;
 }
-.section-maya em { font-style: normal; color: var(--gold); }
-.section-maya span { color: var(--teal); }
-.divider { height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); }
+.shs-heading em   { font-style:normal; color:var(--forest); }
+.shs-heading span { font-style:normal; color:var(--teal);   }
 
-/* ── ABOUT ── */
-.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
-.about-text p { color: var(--text-muted); line-height: 1.8; font-size: 1.02rem; margin-bottom: 20px; }
-.about-img-wrap {
-  position: relative; border-radius: 16px; overflow: hidden;
-  box-shadow: 0 30px 80px rgba(0,0,0,0.5);
-}
-.about-img-wrap img { width: 100%; display: block; height: 400px; object-fit: cover; }
-.about-img-wrap::before {
-  content: '';
-  position: absolute; inset: 0;
-  background: linear-gradient(to bottom, transparent 60%, rgba(10,22,40,0.8));
-  z-index: 1;
-}
-.about-badge-float {
-  position: absolute; bottom: 24px; left: 24px; z-index: 2;
-  background: rgba(0,135,90,0.9); backdrop-filter: blur(10px);
-  border-radius: 10px; padding: 16px 20px;
-}
-.about-badge-float strong { display: block; font-family: 'Syne', sans-serif; font-size: 1.8rem; font-weight: 800; }
-.about-badge-float span { font-size: 0.8rem; color: rgba(255,255,255,0.75); }
-.about-corner-tag {
-  position: absolute; top: -16px; right: -16px;
-  background: linear-gradient(135deg, var(--gold), #c8941d);
-  color: #1a0f00; font-family: 'Syne', sans-serif; font-weight: 700;
-  font-size: 0.72rem; letter-spacing: 1.5px;
-  padding: 10px 18px; border-radius: 8px; text-transform: uppercase;
-}
+.shs-divider { height:1px; background:linear-gradient(90deg,transparent,var(--border),transparent); }
 
-/* ── STATS ── */
-.stats-section {
-  background: linear-gradient(135deg, rgba(0,135,90,0.06), rgba(0,163,163,0.04));
-  border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
-}
-.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
-.stat-item {
-  padding: 56px 40px; text-align: center;
-  border-right: 1px solid var(--border);
-  position: relative; overflow: hidden;
-  transition: background 0.3s ease;
-}
-.stat-item:last-child { border-right: none; }
-.stat-item::before {
-  content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);
-  width: 0; height: 2px; background: var(--emerald); transition: width 0.5s ease;
-}
-.stat-item:hover { background: rgba(0,135,90,0.06); }
-.stat-item:hover::before { width: 100%; }
-.stat-icon { font-size: 2rem; margin-bottom: 16px; display: block; }
-.stat-num {
-  font-family: 'Syne', sans-serif; font-size: 3.5rem; font-weight: 800; line-height: 1;
-  background: linear-gradient(135deg, #fff 40%, #5ecfb1);
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-}
-.stat-suffix { color: var(--emerald); }
-.stat-label { font-size: 0.88rem; color: var(--text-muted); margin-top: 8px; letter-spacing: 0.3px; }
+/* ── Scroll reveal ── */
+.shs-reveal { opacity:0; transform:translateY(40px); transition:opacity .7s cubic-bezier(.22,1,.36,1),transform .7s cubic-bezier(.22,1,.36,1); }
+.shs-reveal.rl  { transform:translateX(-40px); }
+.shs-reveal.rr  { transform:translateX(40px);  }
+.shs-reveal.vis { opacity:1; transform:none;   }
+.d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}
+.d4{transition-delay:.4s}.d5{transition-delay:.5s}.d6{transition-delay:.6s}
 
-/* ── COURSE TABS ── */
-.course-tabs {
-  display: flex; gap: 4px;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid var(--border);
-  border-radius: 10px; padding: 4px;
-  margin-bottom: 48px; width: fit-content;
-}
-.tab-btn {
-  padding: 10px 28px;
-  background: transparent; color: var(--text-muted);
-  border: none; border-radius: 7px; cursor: pointer;
-  font-family: 'Syne', sans-serif; font-weight: 600; font-size: 0.9rem;
-  transition: all 0.3s ease;
-}
-.tab-btn.active { background: var(--emerald); color: #fff; box-shadow: 0 4px 20px rgba(0,135,90,0.4); }
-.tab-content { display: none; }
-.tab-content.active { display: grid; }
-.courses-grid { grid-template-columns: repeat(4, 1fr); gap: 20px; }
-.pg-grid { grid-template-columns: repeat(3, 1fr); gap: 20px; }
-.phd-grid { grid-template-columns: repeat(1, 320px); gap: 20px; }
-
-/* ── COURSE CARDS ── */
-.course-card-maya {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 16px; overflow: hidden;
-  transition: all 0.4s cubic-bezier(.22,1,.36,1);
-  cursor: pointer; position: relative;
-}
-.course-card-maya::before {
-  content: '';
-  position: absolute; inset: 0;
-  background: linear-gradient(135deg, rgba(0,135,90,0.15), transparent);
-  opacity: 0; transition: opacity 0.3s ease; pointer-events: none;
-}
-.course-card-maya:hover { transform: translateY(-8px) scale(1.01); border-color: rgba(0,135,90,0.5); box-shadow: 0 24px 60px rgba(0,0,0,0.4), 0 0 0 1px rgba(0,135,90,0.3); }
-.course-card-maya:hover::before { opacity: 1; }
-.course-img-maya { height: 160px; overflow: hidden; }
-.course-img-maya img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
-.course-card-maya:hover .course-img-maya img { transform: scale(1.08); }
-.course-main-maya { padding: 20px; }
-.course-tag { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--teal); margin-bottom: 10px; }
-.course-main-maya h4 { font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700; margin-bottom: 8px; line-height: 1.3; color: #fff; }
-.course-main-maya p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px; }
-.course-meta-maya {
-  display: flex; justify-content: space-between;
-  font-size: 0.78rem; color: var(--text-muted);
-  margin-bottom: 16px; padding: 10px 0; border-top: 1px solid var(--border);
-}
-.course-cta {
-  display: block; width: 100%; padding: 10px;
-  background: linear-gradient(135deg, var(--emerald), #006644);
-  color: #fff; border: none; border-radius: 6px; cursor: pointer;
-  font-family: 'Syne', sans-serif; font-weight: 600; font-size: 0.85rem;
-  text-align: center; text-decoration: none;
-  transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,135,90,0.3);
-}
-.course-cta:hover { box-shadow: 0 8px 25px rgba(0,135,90,0.5); }
-
-/* ── IBM SECTION ── */
-.ibm-section {
-  background: linear-gradient(135deg, #0a1628 0%, #0d1f4a 60%, #061228 100%);
-  border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
-  overflow: hidden; position: relative;
-}
-.ibm-section::before {
-  content: '';
-  position: absolute; top: -200px; right: -200px;
-  width: 600px; height: 600px;
-  background: radial-gradient(circle, rgba(15,98,254,0.12) 0%, transparent 70%);
-  pointer-events: none;
-}
-.ibm-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
-.ibm-badge-strip { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; }
-.ibm-logo-badge {
-  background: #fff; padding: 8px 18px; border-radius: 8px;
-  font-family: 'Syne', sans-serif; font-size: 1.5rem; font-weight: 800;
-  color: #0f62fe; letter-spacing: -0.5px;
-}
-.ibm-x { font-size: 1.2rem; color: var(--text-muted); font-weight: 300; }
-.mdu-text { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1rem; color: var(--white); }
-.ibm-heading {
-  font-family: 'Syne', sans-serif;
-  font-size: clamp(2rem, 3.5vw, 2.8rem); font-weight: 800;
-  color: #fff; line-height: 1.1; letter-spacing: -1px; margin-bottom: 20px;
-}
-.ibm-heading em { font-style: normal; color: var(--gold); }
-.ibm-desc { color: var(--text-muted); line-height: 1.8; margin-bottom: 32px; font-size: 1rem; }
-.ibm-chips { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 36px; }
-.ibm-chip {
-  padding: 8px 16px;
-  background: rgba(15,98,254,0.12); border: 1px solid rgba(15,98,254,0.25);
-  border-radius: 100px; font-size: 12px; font-weight: 500; color: #7eb3ff;
-  transition: all 0.3s ease;
-}
-.ibm-chip:hover { background: rgba(15,98,254,0.25); border-color: var(--blue-ibm); transform: translateY(-2px); }
-.ibm-about-note {
-  background: rgba(15,98,254,0.06);
-  border: 1px solid rgba(15,98,254,0.2);
-  border-radius: 12px; padding: 20px 24px;
-  margin-bottom: 32px;
-  font-size: 0.88rem; color: var(--text-muted); line-height: 1.7;
-}
-.ibm-about-note strong { color: #fff; display: block; margin-bottom: 6px; font-family: 'Syne', sans-serif; }
-.ibm-features-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-.ibm-feat {
-  background: rgba(15,98,254,0.06); border: 1px solid var(--border);
-  border-radius: 12px; padding: 24px; transition: all 0.3s ease;
-}
-.ibm-feat:hover { background: rgba(15,98,254,0.12); transform: translateY(-4px); }
-.ibm-feat-icon { font-size: 1.6rem; margin-bottom: 12px; }
-.ibm-feat h5 { font-family: 'Syne', sans-serif; font-size: 0.95rem; font-weight: 700; margin-bottom: 8px; color: #fff; }
-.ibm-feat p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; }
-.btn-ibm {
-  padding: 14px 32px;
-  background: linear-gradient(135deg, var(--blue-ibm), #0050d8);
-  color: #fff; font-family: 'Syne', sans-serif; font-weight: 600;
-  border: none; border-radius: 6px; cursor: pointer;
-  font-size: 0.95rem; letter-spacing: 0.3px;
-  transition: all 0.3s ease;
-  text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
-  box-shadow: 0 8px 30px rgba(15,98,254,0.3);
-}
-.btn-ibm:hover { transform: translateY(-3px); box-shadow: 0 16px 40px rgba(15,98,254,0.5); }
-
-/* ── CAREER PROSPECTS ── */
-.careers-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
-.career-card {
-  background: var(--card-bg); border: 1px solid var(--border);
-  border-radius: 16px; padding: 28px;
-  transition: all 0.4s cubic-bezier(.22,1,.36,1);
+/* ============================================================
+   HERO
+============================================================ */
+.shs-hero {
+  min-height: 90vh;
+  display: flex; align-items: center; justify-content: center;
+  background: url('assets/uploads/shs.jpg') center/cover no-repeat;
   position: relative; overflow: hidden;
 }
-.career-card::after {
-  content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-  height: 3px; background: linear-gradient(90deg, var(--emerald), var(--teal));
-  transform: scaleX(0); transition: transform 0.4s ease; transform-origin: left;
+.shs-hero::before {
+  content:''; position:absolute; inset:0;
+  background: linear-gradient(135deg,rgba(13,107,82,.88) 0%,rgba(17,35,79,.82) 55%,rgba(9,77,59,.70) 100%);
 }
-.career-card:hover { transform: translateY(-6px); border-color: rgba(0,135,90,0.4); box-shadow: 0 20px 50px rgba(0,0,0,0.4); }
-.career-card:hover::after { transform: scaleX(1); }
-.career-icon { font-size: 2.2rem; margin-bottom: 14px; display: block; }
-.career-card h5 { font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700; margin-bottom: 8px; color: #fff; }
-.career-card p { font-size: 0.83rem; color: var(--text-muted); line-height: 1.65; }
+.shs-hero::after {
+  content:''; position:absolute; inset:0; z-index:1;
+  background-image:
+    linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
+  background-size:70px 70px;
+  animation:meshMove 20s linear infinite;
+}
+@keyframes meshMove { 0%{background-position:0 0} 100%{background-position:70px 70px} }
 
-/* ── WHY CHOOSE ── */
-.why-section { background: radial-gradient(ellipse 100% 80% at 50% 50%, rgba(0,135,90,0.04) 0%, transparent 70%); }
-.why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
-.why-features { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-.why-feat {
-  background: var(--card-bg); border: 1px solid var(--border);
-  border-radius: 14px; padding: 24px;
-  transition: all 0.4s ease; position: relative; overflow: hidden;
-}
-.why-feat::before {
-  content: ''; position: absolute; top: 0; left: 0; width: 3px; height: 0;
-  background: linear-gradient(to bottom, var(--emerald), var(--teal));
-  transition: height 0.5s ease;
-}
-.why-feat:hover { transform: translateX(6px); }
-.why-feat:hover::before { height: 100%; }
-.why-feat-icon { font-size: 1.8rem; margin-bottom: 12px; }
-.why-feat h5 { font-family: 'Syne', sans-serif; font-size: 0.95rem; font-weight: 700; margin-bottom: 8px; color: #fff; }
-.why-feat p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; }
-.why-visual { position: relative; }
-.why-img-wrap { border-radius: 20px; overflow: hidden; box-shadow: 0 40px 80px rgba(0,0,0,0.5); }
-.why-img-wrap img { width: 100%; display: block; height: 420px; object-fit: cover; }
-.why-float-card {
-  position: absolute; bottom: -20px; right: -20px;
-  background: linear-gradient(135deg, var(--navy-mid), #0d1f4a);
-  border: 1px solid var(--border); border-radius: 14px;
-  padding: 20px 24px; box-shadow: 0 20px 50px rgba(0,0,0,0.4);
-}
-.why-float-card strong { display: block; font-family: 'Syne', sans-serif; font-size: 2rem; font-weight: 800; color: var(--gold); }
-.why-float-card span { font-size: 0.8rem; color: var(--text-muted); }
+.shs-hero-orb { position:absolute; border-radius:50%; filter:blur(80px); pointer-events:none; animation:orbFloat 8s ease-in-out infinite alternate; }
+.orb1{ width:500px;height:500px;background:rgba(0,163,163,.15);top:-100px;right:-80px;animation-delay:0s; }
+.orb2{ width:300px;height:300px;background:rgba(216,165,45,.12);bottom:60px;left:80px;animation-delay:3s; }
+@keyframes orbFloat{ from{transform:translateY(0) scale(1)} to{transform:translateY(-24px) scale(1.05)} }
 
-/* ── TESTIMONIALS ── */
-.testimonials-section { background: linear-gradient(135deg, rgba(0,163,163,0.03), transparent); }
-.testimonials-track { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-.testi-card {
-  background: var(--card-bg); border: 1px solid var(--border);
-  border-radius: 20px; padding: 32px;
-  transition: all 0.4s ease; position: relative;
-}
-.testi-card::before {
-  content: '"';
-  position: absolute; top: 16px; right: 24px;
-  font-family: 'Syne', sans-serif; font-size: 5rem; font-weight: 800;
-  color: rgba(0,135,90,0.15); line-height: 1;
-}
-.testi-card:hover { transform: translateY(-6px); box-shadow: 0 24px 60px rgba(0,0,0,0.4); border-color: rgba(0,135,90,0.3); }
-.testi-avatar { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; margin-bottom: 20px; border: 2px solid var(--emerald); }
-.testi-text { font-size: 0.92rem; color: var(--off-white); line-height: 1.75; margin-bottom: 20px; font-style: italic; }
-.testi-name { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.95rem; }
-.testi-prog { font-size: 0.8rem; color: var(--text-muted); margin-top: 2px; }
-.testi-stars { color: var(--gold); font-size: 0.85rem; margin-bottom: 12px; letter-spacing: 2px; }
+.shs-hero-content { position:relative;z-index:2;text-align:center;max-width:820px;padding:0 20px; }
 
-/* ── BLOG ── */
-.blog-section { background: linear-gradient(135deg, #0a1628 0%, #0d1f4a 60%, #061228 100%); }
-.blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-.blog-card-maya {
-  background: var(--card-bg); border: 1px solid var(--border);
-  border-radius: 16px; overflow: hidden;
-  transition: all 0.4s ease;
+.shs-hero-badge {
+  display:inline-flex;align-items:center;gap:10px;
+  background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.25);
+  border-radius:100px;padding:8px 22px;font-size:13px;font-weight:500;
+  color:rgba(255,255,255,.9);margin-bottom:28px;backdrop-filter:blur(10px);
+  animation:fadeUp .8s ease both;
 }
-.blog-card-maya:hover { transform: translateY(-6px); border-color: rgba(0,135,90,0.3); box-shadow: 0 20px 50px rgba(0,0,0,0.4); }
-.blog-img-maya { height: 180px; overflow: hidden; }
-.blog-img-maya img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
-.blog-card-maya:hover .blog-img-maya img { transform: scale(1.06); }
-.blog-main-maya { padding: 20px; }
-.blog-tag { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--teal); margin-bottom: 10px; }
-.blog-main-maya h4 { font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700; line-height: 1.35; margin-bottom: 8px; }
-.blog-main-maya h4 a { color: #fff; text-decoration: none; }
-.blog-main-maya p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 16px; }
-.blog-meta-row { display: flex; gap: 16px; font-size: 0.78rem; color: var(--text-muted); }
-.blog-meta-row i { margin-right: 4px; }
+.shs-hero-badge span{ width:7px;height:7px;border-radius:50%;background:#5ecfb1;animation:pulseDot 2s infinite; }
+@keyframes pulseDot{ 0%,100%{transform:scale(1);opacity:1} 50%{transform:scale(1.5);opacity:.5} }
 
-/* ── CTA BANNER ── */
-.cta-banner { background: linear-gradient(135deg, var(--emerald) 0%, #006644 50%, #004d33 100%); position: relative; overflow: hidden; }
-.cta-banner::before {
-  content: '';
-  position: absolute; inset: 0;
-  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+.shs-hero-content h1 {
+  font-family:'Syne',sans-serif;font-size:clamp(2.4rem,7vw,4.2rem);font-weight:800;
+  line-height:1.08;letter-spacing:-.02em;color:#fff;margin-bottom:22px;
+  animation:fadeUp .8s .15s ease both;
 }
-.cta-inner {
-  display: flex; align-items: center; justify-content: space-between;
-  flex-wrap: wrap; gap: 32px;
-  max-width: 1200px; margin: 0 auto; padding: 80px 40px;
-  position: relative; z-index: 1;
+.shs-hero-content h1 em{ font-style:normal;color:#5ecfb1; }
+.shs-hero-content p {
+  font-size:1.12rem;line-height:1.75;color:rgba(255,255,255,.75);
+  max-width:600px;margin:0 auto 36px;animation:fadeUp .8s .3s ease both;
 }
-.cta-text h2 { font-family: 'Syne', sans-serif; font-size: clamp(1.8rem, 3vw, 2.4rem); font-weight: 800; margin-bottom: 12px; color: #fff; }
-.cta-text p { color: rgba(255,255,255,0.8); font-size: 1rem; max-width: 500px; line-height: 1.6; }
-.btn-white {
-  padding: 16px 40px; background: #fff; color: var(--emerald);
-  border: none; border-radius: 6px; cursor: pointer;
-  font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1rem;
-  transition: all 0.3s ease; text-decoration: none;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.2); white-space: nowrap;
-}
-.btn-white:hover { transform: translateY(-3px); box-shadow: 0 16px 40px rgba(0,0,0,0.3); }
+.shs-hero-btns{ display:flex;gap:16px;justify-content:center;flex-wrap:wrap;animation:fadeUp .8s .45s ease both; }
 
-/* ── SWIPER TESTIMONIAL ── */
-.swiper-testimonial { padding-bottom: 50px !important; }
-.swiper-testimonial .testi-card { margin: 0; }
+.shs-btn-primary {
+  padding:14px 34px;background:linear-gradient(135deg,var(--forest),var(--forest-dk));
+  color:#fff;font-family:'Syne',sans-serif;font-weight:700;border:none;border-radius:8px;
+  cursor:pointer;font-size:.95rem;text-decoration:none;display:inline-flex;align-items:center;gap:8px;
+  box-shadow:0 8px 28px rgba(13,107,82,.45);transition:all .3s ease;
+}
+.shs-btn-primary:hover{ transform:translateY(-3px);box-shadow:0 16px 40px rgba(13,107,82,.6);color:#fff; }
 
-/* ── RESPONSIVE ── */
-@media (max-width: 1024px) {
-  .about-grid, .ibm-grid, .why-grid { grid-template-columns: 1fr; gap: 48px; }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); }
-  .stat-item { border-bottom: 1px solid var(--border); }
-  .courses-grid { grid-template-columns: repeat(2, 1fr); }
-  .pg-grid { grid-template-columns: repeat(2, 1fr); }
-  .careers-grid { grid-template-columns: repeat(2, 1fr); }
-  .blog-grid { grid-template-columns: repeat(2, 1fr); }
-  .testimonials-track { grid-template-columns: 1fr; }
+.shs-btn-outline {
+  padding:14px 34px;background:rgba(255,255,255,.08);backdrop-filter:blur(10px);
+  color:#fff;border:1px solid rgba(255,255,255,.3);border-radius:8px;cursor:pointer;
+  font-family:'Syne',sans-serif;font-weight:700;font-size:.95rem;
+  text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:all .3s ease;
 }
-@media (max-width: 768px) {
-  .section-inner { padding: 0 20px; }
-  .section-pad { padding: 70px 0; }
-  .courses-grid, .pg-grid, .careers-grid, .why-features { grid-template-columns: 1fr; }
-  .ibm-features-grid { grid-template-columns: 1fr; }
-  .blog-grid { grid-template-columns: 1fr; }
-  .course-tabs { flex-direction: column; width: 100%; }
-  .cta-inner { text-align: center; }
-  .hero h1 {
-    font-size: clamp(2rem, 8vw, 2.8rem) !important;
-    letter-spacing: -0.5px;
-    line-height: 1.1;
-  }
-  .hero-content {
-    width: 100%;
-    max-width: 100%;
-  }
+.shs-btn-outline:hover{ background:rgba(255,255,255,.18);transform:translateY(-3px);color:#fff; }
+
+.shs-scroll-hint {
+  position:absolute;bottom:32px;left:50%;transform:translateX(-50%);z-index:3;
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+  color:rgba(255,255,255,.45);font-size:11px;letter-spacing:2px;text-transform:uppercase;
+  animation:fadeUp 1s 1s ease both;
 }
+.shs-scroll-hint span{ width:1px;height:40px;background:linear-gradient(to bottom,rgba(255,255,255,.5),transparent);animation:scrollPulse 2s ease-in-out infinite; }
+@keyframes scrollPulse{ 0%,100%{opacity:1;transform:scaleY(1)} 50%{opacity:.3;transform:scaleY(.6)} }
+@keyframes fadeUp{ from{opacity:0;transform:translateY(28px)} to{opacity:1;transform:none} }
+
+/* ============================================================
+   ABOUT
+============================================================ */
+.shs-about{ background:var(--off-white); }
+.shs-about-grid{ display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center; }
+@media(max-width:1024px){ .shs-about-grid{ grid-template-columns:1fr;gap:48px; } }
+
+.shs-about-text p{ color:var(--muted);line-height:1.85;font-size:1rem;margin-bottom:18px; }
+
+.shs-download-btn {
+  display:inline-flex;align-items:center;gap:10px;padding:13px 28px;
+  border:1.5px solid var(--forest);border-radius:8px;color:var(--forest);
+  font-family:'Syne',sans-serif;font-weight:700;font-size:.9rem;
+  text-decoration:none;margin-top:8px;transition:all .3s ease;
+}
+.shs-download-btn:hover{ background:var(--forest);color:#fff;transform:translateY(-2px); }
+
+.shs-about-visual{ position:relative; }
+.shs-about-img-wrap{ border-radius:20px;overflow:hidden;box-shadow:0 30px 70px rgba(17,35,79,.2);position:relative; }
+.shs-about-img-wrap img{ width:100%;height:420px;object-fit:cover;display:block;transition:transform .6s ease; }
+.shs-about-img-wrap:hover img{ transform:scale(1.04); }
+.shs-about-img-wrap::after{ content:'';position:absolute;inset:0;background:linear-gradient(to bottom,transparent 55%,rgba(9,77,59,.7)); }
+
+.shs-float-badge {
+  position:absolute;bottom:24px;left:24px;z-index:2;
+  background:linear-gradient(135deg,var(--forest),var(--forest-dk));
+  border-radius:14px;padding:18px 22px;color:#fff;
+  box-shadow:0 10px 30px rgba(13,107,82,.4);
+}
+.shs-float-badge strong{ display:block;font-family:'Syne',sans-serif;font-size:2rem;font-weight:800; }
+.shs-float-badge span  { font-size:.8rem;opacity:.8; }
+
+.shs-corner-tag {
+  position:absolute;top:-16px;right:-16px;
+  background:linear-gradient(135deg,var(--gold),#c8941d);
+  color:#1a0f00;font-family:'Syne',sans-serif;font-weight:700;
+  font-size:.72rem;letter-spacing:1.5px;padding:10px 18px;border-radius:8px;text-transform:uppercase;
+}
+
+/* ============================================================
+   STATS
+============================================================ */
+.shs-stats{ background:linear-gradient(135deg,var(--navy) 0%,#0d1f4a 60%,#081630 100%);padding:0; }
+.shs-stats-grid{ display:grid;grid-template-columns:repeat(4,1fr); }
+@media(max-width:768px){ .shs-stats-grid{ grid-template-columns:repeat(2,1fr); } }
+@media(max-width:480px){ .shs-stats-grid{ grid-template-columns:1fr; } }
+
+.shs-stat {
+  padding:60px 32px;text-align:center;border-right:1px solid rgba(255,255,255,.08);
+  position:relative;overflow:hidden;transition:background .3s ease;
+}
+.shs-stat:last-child{ border-right:none; }
+.shs-stat::before{ content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:0;height:3px;background:linear-gradient(90deg,var(--forest),var(--teal));transition:width .5s ease; }
+.shs-stat:hover{ background:rgba(13,107,82,.08); }
+.shs-stat:hover::before{ width:100%; }
+.shs-stat-icon{ font-size:2rem;display:block;margin-bottom:14px; }
+.shs-stat-num{ font-family:'Syne',sans-serif;font-size:3.2rem;font-weight:800;line-height:1;background:linear-gradient(135deg,#fff 40%,#5ecfb1);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text; }
+.shs-stat-suffix{ color:var(--forest); }
+.shs-stat-label{ font-size:.85rem;color:rgba(255,255,255,.45);margin-top:8px;letter-spacing:.3px; }
+
+/* ============================================================
+   COURSES
+============================================================ */
+.shs-courses{ background:var(--off-white); }
+
+.shs-tab-row{ display:flex;gap:4px;background:rgba(17,35,79,.06);border:1px solid var(--border);border-radius:10px;padding:4px;width:fit-content;margin-bottom:48px; }
+.shs-tab{ padding:10px 28px;border:none;border-radius:7px;background:transparent;color:var(--muted);font-family:'Syne',sans-serif;font-weight:700;font-size:.88rem;cursor:pointer;transition:all .3s ease; }
+.shs-tab.active{ background:var(--forest);color:#fff;box-shadow:0 4px 18px rgba(13,107,82,.35); }
+@media(max-width:600px){ .shs-tab-row{flex-direction:column;width:100%;} .shs-tab{text-align:center;} }
+
+.shs-tab-pane{ display:none; }
+.shs-tab-pane.active{ display:grid; }
+.shs-ug-grid{ grid-template-columns:repeat(4,1fr);gap:22px; }
+.shs-pg-grid{ grid-template-columns:repeat(4,1fr);gap:22px; }
+@media(max-width:1024px){ .shs-ug-grid,.shs-pg-grid{ grid-template-columns:repeat(2,1fr); } }
+@media(max-width:580px) { .shs-ug-grid,.shs-pg-grid{ grid-template-columns:1fr; } }
+
+.shs-course-card{ background:#fff;border:1px solid var(--border);border-radius:18px;overflow:hidden;transition:all .4s cubic-bezier(.22,1,.36,1);position:relative; }
+.shs-course-card::after{ content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--forest),var(--teal));transform:scaleX(0);transform-origin:left;transition:transform .4s ease; }
+.shs-course-card:hover{ transform:translateY(-8px);box-shadow:0 24px 60px rgba(13,107,82,.18);border-color:rgba(13,107,82,.3); }
+.shs-course-card:hover::after{ transform:scaleX(1); }
+.shs-course-img{ height:170px;overflow:hidden; }
+.shs-course-img img{ width:100%;height:100%;object-fit:cover;transition:transform .5s ease; }
+.shs-course-card:hover .shs-course-img img{ transform:scale(1.07); }
+.shs-course-body{ padding:22px; }
+.shs-course-tag{ font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--forest);display:block;margin-bottom:8px; }
+.shs-course-body h4{ font-family:'Syne',sans-serif;font-size:.98rem;font-weight:700;margin-bottom:8px;line-height:1.3;color:var(--navy); }
+.shs-course-body p { font-size:.82rem;color:var(--muted);line-height:1.65;margin-bottom:14px; }
+.shs-course-meta{ display:flex;justify-content:space-between;font-size:.76rem;color:var(--muted);padding:10px 0;border-top:1px solid var(--border);margin-bottom:14px; }
+.shs-course-cta{ display:block;width:100%;padding:10px;background:linear-gradient(135deg,var(--forest),var(--forest-dk));color:#fff;border:none;border-radius:7px;cursor:pointer;font-family:'Syne',sans-serif;font-weight:700;font-size:.85rem;text-align:center;text-decoration:none;transition:all .3s ease;box-shadow:0 4px 16px rgba(13,107,82,.3); }
+.shs-course-cta:hover{ box-shadow:0 8px 28px rgba(13,107,82,.5);color:#fff; }
+
+/* ============================================================
+   IBM SECTION
+============================================================ */
+.shs-ibm{ background:linear-gradient(135deg,var(--navy) 0%,#0d1f4a 55%,#061228 100%);overflow:hidden;position:relative; }
+.shs-ibm-orb-a{ position:absolute;top:-200px;right:-200px;width:600px;height:600px;background:radial-gradient(circle,rgba(13,107,82,.18) 0%,transparent 70%);border-radius:50%;pointer-events:none;animation:orbFloat 10s ease-in-out infinite alternate; }
+.shs-ibm-orb-b{ position:absolute;bottom:-150px;left:-100px;width:400px;height:400px;background:radial-gradient(circle,rgba(0,163,163,.1) 0%,transparent 70%);border-radius:50%;pointer-events:none;animation:orbFloat 12s ease-in-out infinite alternate-reverse; }
+
+.shs-ibm-grid{ display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;position:relative;z-index:2; }
+@media(max-width:1024px){ .shs-ibm-grid{ grid-template-columns:1fr;gap:48px; } }
+
+.shs-ibm-badge-row{ display:flex;align-items:center;gap:14px;margin-bottom:24px; }
+.shs-ibm-logo{ background:#fff;padding:8px 18px;border-radius:8px;font-family:'Syne',sans-serif;font-size:1.5rem;font-weight:800;color:#0f62fe;letter-spacing:-.5px; }
+.shs-ibm-x  { font-size:1.2rem;color:rgba(255,255,255,.3); }
+.shs-mdu-txt{ font-family:'Syne',sans-serif;font-weight:700;font-size:.95rem;color:#fff; }
+
+.shs-ibm-heading{ font-family:'Syne',sans-serif;font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:800;color:#fff;line-height:1.1;letter-spacing:-1px;margin-bottom:18px; }
+.shs-ibm-heading em{ font-style:normal;color:#5ecfb1; }
+.shs-ibm-desc{ color:rgba(255,255,255,.6);line-height:1.8;margin-bottom:28px;font-size:.98rem; }
+
+.shs-chips{ display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px; }
+.shs-chip{ padding:8px 16px;background:rgba(13,107,82,.2);border:1px solid rgba(13,107,82,.4);border-radius:100px;font-size:12px;font-weight:600;color:#5ecfb1;transition:all .3s ease;cursor:default; }
+.shs-chip:hover{ background:rgba(13,107,82,.4);border-color:var(--forest);transform:translateY(-2px); }
+
+.shs-ibm-note{ background:rgba(13,107,82,.1);border:1px solid rgba(13,107,82,.25);border-radius:14px;padding:20px 24px;margin-bottom:28px;font-size:.88rem;color:rgba(255,255,255,.6);line-height:1.75; }
+.shs-ibm-note strong{ color:#fff;display:block;margin-bottom:6px;font-family:'Syne',sans-serif;font-size:.95rem; }
+
+.shs-ibm-cta{ display:inline-flex;align-items:center;gap:10px;padding:14px 32px;background:linear-gradient(135deg,var(--forest),var(--forest-dk));color:#fff;font-family:'Syne',sans-serif;font-weight:700;border:none;border-radius:8px;cursor:pointer;font-size:.95rem;text-decoration:none;box-shadow:0 8px 28px rgba(13,107,82,.4);transition:all .3s ease; }
+.shs-ibm-cta:hover{ transform:translateY(-3px);box-shadow:0 16px 40px rgba(13,107,82,.6);color:#fff; }
+
+.shs-ibm-boxes{ display:grid;grid-template-columns:1fr 1fr;gap:16px; }
+@media(max-width:580px){ .shs-ibm-boxes{ grid-template-columns:1fr; } }
+
+.shs-ibm-box{ background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:26px;transition:all .4s ease;position:relative;overflow:hidden; }
+.shs-ibm-box::before{ content:'';position:absolute;top:0;left:0;width:3px;height:0;background:linear-gradient(to bottom,var(--forest),var(--teal));transition:height .5s ease; }
+.shs-ibm-box:hover{ background:rgba(13,107,82,.15);transform:translateX(6px);border-color:rgba(13,107,82,.4); }
+.shs-ibm-box:hover::before{ height:100%; }
+.shs-ibm-box-icon{ font-size:1.7rem;margin-bottom:12px;display:block; }
+.shs-ibm-box h5{ font-family:'Syne',sans-serif;font-size:.95rem;font-weight:700;margin-bottom:8px;color:#fff; }
+.shs-ibm-box p { font-size:.82rem;color:rgba(255,255,255,.55);line-height:1.65; }
+
+/* ============================================================
+   CLUBS & CAREERS
+============================================================ */
+.shs-clubs  { background:var(--off-white); }
+.shs-careers{ background:#fff; }
+
+.shs-cards-grid{ display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:8px; }
+@media(max-width:1024px){ .shs-cards-grid{ grid-template-columns:repeat(2,1fr); } }
+@media(max-width:580px) { .shs-cards-grid{ grid-template-columns:1fr; } }
+
+.shs-mini-card{ background:#fff;border:1px solid var(--border);border-radius:16px;padding:26px;transition:all .4s cubic-bezier(.22,1,.36,1);position:relative;overflow:hidden; }
+.shs-clubs .shs-mini-card{ background:var(--off-white); }
+.shs-mini-card::after{ content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--forest),var(--teal));transform:scaleX(0);transform-origin:left;transition:transform .4s ease; }
+.shs-mini-card:hover{ transform:translateY(-6px);box-shadow:0 20px 50px rgba(13,107,82,.15);border-color:rgba(13,107,82,.3); }
+.shs-mini-card:hover::after{ transform:scaleX(1); }
+.shs-mini-card-icon{ font-size:2rem;margin-bottom:12px;display:block; }
+.shs-mini-card h5{ font-family:'Syne',sans-serif;font-size:.97rem;font-weight:700;margin-bottom:8px;color:var(--navy); }
+.shs-mini-card p { font-size:.82rem;color:var(--muted);line-height:1.65; }
+
+/* ============================================================
+   WHY CHOOSE US
+============================================================ */
+.shs-why{ background:linear-gradient(135deg,var(--off-white) 0%,#e8f7f2 100%); }
+.shs-why-grid{ display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center; }
+@media(max-width:1024px){ .shs-why-grid{ grid-template-columns:1fr;gap:48px; } }
+
+.shs-why-features{ display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:32px; }
+@media(max-width:580px){ .shs-why-features{ grid-template-columns:1fr; } }
+
+.shs-why-feat{ background:#fff;border:1px solid var(--border);border-radius:14px;padding:22px;transition:all .4s ease;position:relative;overflow:hidden; }
+.shs-why-feat::before{ content:'';position:absolute;top:0;left:0;width:3px;height:0;background:linear-gradient(to bottom,var(--forest),var(--teal));transition:height .5s ease; }
+.shs-why-feat:hover{ transform:translateX(6px);box-shadow:0 10px 30px rgba(13,107,82,.12); }
+.shs-why-feat:hover::before{ height:100%; }
+.shs-why-feat-icon{ font-size:1.6rem;margin-bottom:10px;display:block; }
+.shs-why-feat h5{ font-family:'Syne',sans-serif;font-size:.92rem;font-weight:700;margin-bottom:6px;color:var(--navy); }
+.shs-why-feat p { font-size:.8rem;color:var(--muted);line-height:1.6; }
+
+.shs-why-visual{ position:relative; }
+.shs-why-img-wrap{ border-radius:20px;overflow:hidden;box-shadow:0 30px 70px rgba(17,35,79,.18); }
+.shs-why-img-wrap img{ width:100%;height:420px;object-fit:cover;display:block; }
+.shs-why-float{ position:absolute;bottom:-20px;right:-20px;background:linear-gradient(135deg,var(--navy),var(--navy-mid));border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:20px 26px;box-shadow:0 20px 50px rgba(17,35,79,.3); }
+.shs-why-float strong{ display:block;font-family:'Syne',sans-serif;font-size:1.9rem;font-weight:800;color:var(--gold); }
+.shs-why-float span  { font-size:.78rem;color:rgba(255,255,255,.55); }
+
+.shs-apply-btn{ display:inline-flex;align-items:center;gap:10px;padding:14px 32px;margin-top:28px;background:linear-gradient(135deg,var(--forest),var(--forest-dk));color:#fff;font-family:'Syne',sans-serif;font-weight:700;border:none;border-radius:8px;cursor:pointer;font-size:.95rem;text-decoration:none;box-shadow:0 8px 28px rgba(13,107,82,.35);transition:all .3s ease; }
+.shs-apply-btn:hover{ transform:translateY(-3px);box-shadow:0 16px 40px rgba(13,107,82,.55);color:#fff; }
+
+/* ============================================================
+   TESTIMONIALS
+============================================================ */
+.shs-testimonials{ background:var(--navy); }
+.shs-testi-card{ background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:32px;transition:all .4s ease;position:relative;height:100%;display:flex;flex-direction:column; }
+.shs-testi-card::before{ content:'"';position:absolute;top:16px;right:24px;font-family:'Syne',sans-serif;font-size:5rem;font-weight:800;color:rgba(13,107,82,.2);line-height:1; }
+.shs-testi-card:hover{ transform:translateY(-6px);box-shadow:0 24px 60px rgba(0,0,0,.4);border-color:rgba(13,107,82,.3); }
+.shs-testi-avatar{ width:54px;height:54px;border-radius:50%;object-fit:cover;margin-bottom:18px;border:2px solid var(--forest); }
+.shs-testi-stars{ color:var(--gold);font-size:.85rem;margin-bottom:12px;letter-spacing:2px; }
+.shs-testi-text{ font-size:.92rem;color:rgba(255,255,255,.75);line-height:1.75;margin-bottom:18px;font-style:italic;flex:1; }
+.shs-testi-name{ font-family:'Syne',sans-serif;font-weight:700;font-size:.95rem;color:#fff; }
+.shs-testi-prog{ font-size:.8rem;color:rgba(255,255,255,.4);margin-top:2px; }
+
+/* ============================================================
+   BLOG
+============================================================ */
+.shs-blog{ background:linear-gradient(135deg,var(--navy) 0%,#0d1f4a 60%,#061228 100%); }
+.blog-active .single-blog{ display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.12)!important;border-radius:12px;overflow:hidden;background:rgba(255,255,255,.04);margin:10px;height:100%;transition:all .3s ease; }
+.blog-active .single-blog:hover{ transform:translateY(-4px);border-color:rgba(13,107,82,.4)!important;box-shadow:0 16px 40px rgba(0,0,0,.3); }
+.blog-active .blog-img{ flex:0 0 200px;overflow:hidden; }
+.blog-active .blog-img img{ width:100%;height:100%;object-fit:cover; }
+.blog-active .blog-content-wrap{ display:flex;flex-direction:column;flex:1;padding:15px; }
+.blog-active .blog-content{ flex:1; }
+.blog-active .blog-content h4 a{ color:#fff!important; }
+.blog-active .blog-content p   { color:rgba(255,255,255,.6)!important; }
+.blog-active .blog-meta a,.blog-active .blog-date a{ color:rgba(255,255,255,.45)!important; }
+.blog-active::after{ content:"";display:block;clear:both; }
+
+/* ============================================================
+   CTA BANNER
+============================================================ */
+.shs-cta{ background:linear-gradient(135deg,var(--forest) 0%,var(--forest-dk) 50%,#004d33 100%);position:relative;overflow:hidden; }
+.shs-cta::before{ content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
+.shs-cta-inner{ display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:32px;max-width:1200px;margin:0 auto;padding:80px 40px;position:relative;z-index:1; }
+@media(max-width:768px){ .shs-cta-inner{ padding:60px 20px;text-align:center;justify-content:center; } }
+.shs-cta-inner h2{ font-family:'Syne',sans-serif;font-size:clamp(1.8rem,3vw,2.4rem);font-weight:800;margin-bottom:12px;color:#fff; }
+.shs-cta-inner p{ color:rgba(255,255,255,.8);font-size:1rem;max-width:500px;line-height:1.6; }
+.shs-btn-white{ padding:16px 40px;background:#fff;color:var(--forest);border:none;border-radius:8px;cursor:pointer;font-family:'Syne',sans-serif;font-weight:700;font-size:1rem;transition:all .3s ease;text-decoration:none;box-shadow:0 8px 30px rgba(0,0,0,.2);white-space:nowrap; }
+.shs-btn-white:hover{ transform:translateY(-3px);box-shadow:0 16px 40px rgba(0,0,0,.3);color:var(--forest); }
 </style>
-</head>
-<main>
+
+<div class="shs-page">
 
 <!-- ═══════════════════════ HERO ═══════════════════════ -->
-<section class="hero">
-  <div class="hero-orb hero-orb-1"></div>
-  <div class="hero-orb hero-orb-2"></div>
-  <div class="hero-orb hero-orb-3"></div>
-  <div class="hero-content">
-    <div class="hero-badge"><span></span> Dehradun's Premier Business School</div>
-    <h1>Commerce &amp; Management<br>with an <em>IBM-powered</em><br><span>edge.</span></h1>
-    <p class="hero-sub">Business careers now demand analytics, GenAI fluency, marketing intelligence, and sharper decision-making. MDU helps students build that advantage.</p>
-    <div class="hero-cta-group">
-      <a href="https://admissions.maya.edu.in" class="btn-primary">Apply Now →</a>
-      <a href="#courses" class="btn-outline">Explore Programs</a>
+<section class="shs-hero">
+  <div class="shs-hero-orb orb1"></div>
+  <div class="shs-hero-orb orb2"></div>
+  <div class="shs-hero-content">
+    <div class="shs-hero-badge"><span></span> Dehradun's Premier Health Sciences School</div>
+    <h1>Healthcare Education<br>with a <em>Smarter,</em><br>Future-Facing Context.</h1>
+    <p>Health and nursing students can study with stronger awareness of diagnostics, informatics, monitoring, and AI-linked care systems.</p>
+    <div class="shs-hero-btns">
+      <a href="https://admissions.maya.edu.in" class="shs-btn-primary">Apply Now →</a>
+      <a href="#courses" class="shs-btn-outline">Explore Programs</a>
     </div>
   </div>
+  <div class="shs-scroll-hint">Scroll <span></span></div>
 </section>
 
 <!-- ═══════════════════════ ABOUT ═══════════════════════ -->
-<section id="about" class="section-pad">
-  <div class="section-inner">
-    <div class="about-grid">
-      <div class="about-text reveal-left">
-        <div class="section-label">School Overview</div>
-        <h2 class="section-maya">Where Business Meets<br><em>Purpose</em></h2>
-        <p>The School of Commerce and Management at Maya Devi University is dedicated to shaping future leaders by blending academic excellence with innovation, ethics, and social responsibility. With a vision to be a center of excellence in business education, the School prepares students to become competent professionals and visionary leaders.</p>
-        <p>Our programs are designed to deliver a dynamic and practical learning experience, integrating strong theoretical foundations with real-world business exposure. Supported by modern infrastructure, industry collaborations, and research-driven teaching, students develop critical management skills, entrepreneurial thinking, and strategic problem-solving abilities.</p>
-        <p>Through case studies, internships, global perspectives, industrial visits, and an emphasis on sustainability and inclusivity, the School empowers students to address real-world business challenges with confidence.</p>
-        <br>
-        <a href="assets/uploads/fee/Commerce_Management_m.pdf" class="btn-outline">Download Fee Structure ↓</a>
+<section class="shs-section shs-about" id="about">
+  <div class="shs-container">
+    <div class="shs-about-grid">
+      <div class="shs-about-text shs-reveal rl">
+        <div class="shs-label">School Overview</div>
+        <h2 class="shs-heading">Where Healthcare<br>Meets <em>Purpose</em></h2>
+        <p>The School of Health Sciences at Maya Devi University is dedicated to nurturing future healthcare professionals through rigorous academic programs and hands-on training. Established with a mission to advance health education and research, the department focuses on clinical excellence, innovation, and community service.</p>
+        <p>Our programs are designed to meet the evolving needs of the healthcare industry, ensuring students are well-prepared for impactful careers. With a strong emphasis on practical learning, interdisciplinary collaboration, and community engagement, the department offers a nurturing environment where students can thrive both academically and professionally.</p>
+        <p>Our faculty comprises experienced clinicians and researchers who mentor students to become compassionate, competent, and globally competitive healthcare providers.</p>
+        <a class="shs-download-btn" href="assets/uploads/fee/Health_Sciences_m.pdf">⬇ Download Fee Structure</a>
       </div>
-      <div class="reveal-right" style="position:relative;">
-        <div class="about-img-wrap">
-          <img src="assets/uploads/e-school.webp" alt="School of Commerce and Management" onerror="this.style.background='linear-gradient(135deg,#0d1f4a,#0a1628)';this.style.display='block';this.src=''">
-          <div class="about-badge-float">
-            <strong>2024</strong>
-            <span>Established</span>
+      <div class="shs-about-visual shs-reveal rr" style="position:relative;">
+        <div class="shs-about-img-wrap">
+          <img src="assets/uploads/health.webp" alt="School of Health Sciences">
+          <div class="shs-float-badge">
+            <strong>10+</strong>
+            <span>Programs Offered</span>
           </div>
         </div>
-        <div class="about-corner-tag">Top Ranked</div>
+        <div class="shs-corner-tag">Top Ranked</div>
       </div>
     </div>
   </div>
 </section>
 
-<div class="divider"></div>
+<div class="shs-divider"></div>
 
 <!-- ═══════════════════════ STATS ═══════════════════════ -->
-<section class="stats-section">
-  <div class="stats-grid">
-    <div class="stat-item reveal delay-1">
-      <span class="stat-icon">📚</span>
-      <div class="stat-num"><span class="counter-num" data-target="20">0</span><span class="stat-suffix">+</span></div>
-      <div class="stat-label">Programs Offered</div>
+<section class="shs-stats">
+  <div class="shs-stats-grid">
+    <div class="shs-stat shs-reveal d1">
+      <span class="shs-stat-icon">📚</span>
+      <div class="shs-stat-num"><span class="shs-counter" data-target="10">0</span><span class="shs-stat-suffix">+</span></div>
+      <div class="shs-stat-label">Programs Offered</div>
     </div>
-    <div class="stat-item reveal delay-2">
-      <span class="stat-icon">🏆</span>
-      <div class="stat-num"><span class="counter-num" data-target="600">0</span><span class="stat-suffix">+</span></div>
-      <div class="stat-label">Students Placed</div>
+    <div class="shs-stat shs-reveal d2">
+      <span class="shs-stat-icon">🏆</span>
+      <div class="shs-stat-num"><span class="shs-counter" data-target="500">0</span><span class="shs-stat-suffix">+</span></div>
+      <div class="shs-stat-label">Students Placed</div>
     </div>
-    <div class="stat-item reveal delay-3">
-      <span class="stat-icon">💼</span>
-      <div class="stat-num"><span class="counter-num" data-target="22">0</span><span class="stat-suffix"> LPA</span></div>
-      <div class="stat-label">Highest Package</div>
+    <div class="shs-stat shs-reveal d3">
+      <span class="shs-stat-icon">💼</span>
+      <div class="shs-stat-num"><span class="shs-counter" data-target="16">0</span><span class="shs-stat-suffix"> LPA</span></div>
+      <div class="shs-stat-label">Highest Package</div>
     </div>
-    <div class="stat-item reveal delay-4">
-      <span class="stat-icon">🌐</span>
-      <div class="stat-num"><span class="counter-num" data-target="75">0</span><span class="stat-suffix">+</span></div>
-      <div class="stat-label">Industry Partners</div>
+    <div class="shs-stat shs-reveal d4">
+      <span class="shs-stat-icon">🌐</span>
+      <div class="shs-stat-num"><span class="shs-counter" data-target="100">0</span><span class="shs-stat-suffix">+</span></div>
+      <div class="shs-stat-label">Industry Partners</div>
     </div>
   </div>
 </section>
 
 <!-- ═══════════════════════ COURSES ═══════════════════════ -->
-<section id="courses" class="section-pad">
-  <div class="section-inner">
-    <div class="reveal" style="margin-bottom:48px;">
-      <div class="section-label">Academic Programs</div>
-      <h2 class="section-maya">Industry-Focused<br><em>Degrees</em> That Matter</h2>
+<section class="shs-section shs-courses" id="courses">
+  <div class="shs-container">
+    <div class="shs-reveal" style="margin-bottom:48px;">
+      <div class="shs-label">Academic Programs</div>
+      <h2 class="shs-heading">Industry-Focused<br><em>Degrees</em> That Matter</h2>
     </div>
-    <div class="reveal delay-2">
-      <div class="course-tabs">
-        <button class="tab-btn active" onclick="switchTab('ug', this)">Undergraduate</button>
-        <button class="tab-btn" onclick="switchTab('pg', this)">Masters Programs</button>
-        <button class="tab-btn" onclick="switchTab('phd', this)">Doctoral</button>
+    <div class="shs-reveal d2">
+      <div class="shs-tab-row">
+        <button class="shs-tab active" onclick="shsTab('ug',this)">Undergraduate</button>
+        <button class="shs-tab" onclick="shsTab('pg',this)">Postgraduate</button>
       </div>
     </div>
 
-    <!-- UG COURSES -->
-    <div id="tab-ug" class="tab-content active courses-grid">
-      <div class="course-card-maya reveal delay-1">
-        <div class="course-img-maya"><img src="assets/uploads/bba.jpg" alt="BBA Human Resource"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">BBA</span>
-          <h4>BBA Human Resource</h4>
-          <p>BBA in Human Resource Management trains students in recruitment, employee relations, training, and leadership skills.</p>
-          <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-business-administration.php" class="course-cta">Apply Now</a>
+    <!-- UG -->
+    <div id="shs-tab-ug" class="shs-tab-pane active shs-ug-grid">
+      <div class="shs-course-card shs-reveal d1">
+        <div class="shs-course-img"><img src="assets/uploads/bha.webp" alt="BHA"></div>
+        <div class="shs-course-body">
+          <span class="shs-course-tag">UG</span>
+          <h4>Bachelor of Hospital Administration (BHA)</h4>
+          <p>Focuses on hospital operations, healthcare management, and administrative leadership.</p>
+          <div class="shs-course-meta"><span>⚡ 125 Credits</span><span>📅 3 Years</span></div>
+          <a href="hospital-administration.php" class="shs-course-cta">Apply Now</a>
         </div>
       </div>
-      <div class="course-card-maya reveal delay-2">
-        <div class="course-img-maya"><img src="assets/uploads/bba-1.jpg" alt="BBA FinTech"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">BBA</span>
-          <h4>BBA FinTech</h4>
-          <p>Focuses on financial planning, investment analysis, budgeting, and corporate decision-making.</p>
-          <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-business-administration.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-3">
-        <div class="course-img-maya"><img src="assets/uploads/bba-2.jpeg" alt="BBA Marketing"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">BBA</span>
-          <h4>BBA Marketing Management</h4>
-          <p>Develops expertise in market research, branding, sales strategies, and digital marketing.</p>
-          <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-business-administration.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-4">
-        <div class="course-img-maya"><img src="assets/uploads/bba-3.jpeg" alt="BBA Digital Marketing"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">BBA</span>
-          <h4>BBA Digital Marketing</h4>
-          <p>Trains students in SEO, social media marketing, content creation, and digital branding.</p>
-          <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-business-administration.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-1">
-        <div class="course-img-maya"><img src="assets/uploads/aviation.webp" alt="BBA Aviation"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">BBA</span>
-          <h4>BBA Aviation Management</h4>
-          <p>Prepares students for airline operations, airport management, and aviation business roles.</p>
-          <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-business-administration.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-2">
-        <div class="course-img-maya"><img src="assets/uploads/bba-5.jpg" alt="BBA Logistics"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">BBA</span>
-          <h4>BBA Logistic Management</h4>
-          <p>Develops expertise in supply chain, transportation, and operations management.</p>
-          <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-business-administration.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-3">
-        <div class="course-img-maya"><img src="assets/uploads/bba-6.jpg" alt="BBA Business Analytics"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">BBA</span>
-          <h4>BBA Business Analytics</h4>
-          <p>Develops expertise in business intelligence and industry-focused analytical applications.</p>
-          <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-business-administration.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-4">
-        <div class="course-img-maya"><img src="assets/uploads/bba-7.jpg" alt="BBA Travel Tourism"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">BBA</span>
-          <h4>BBA Travel &amp; Tourism Management</h4>
-          <p>Develops expertise in tourism, tour management, destination marketing, and hospitality.</p>
-          <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-business-administration.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-1">
-        <div class="course-img-maya"><img src="assets/uploads/bcom.jpg" alt="BCom Finance"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">B.Com</span>
-          <h4>B.Com (Hons) – Finance</h4>
-          <p>Develops expertise in financial analysis, investments, accounting, and corporate finance.</p>
-          <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-commerce.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-2">
-        <div class="course-img-maya"><img src="assets/uploads/tax.webp" alt="BCom Taxation"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">B.Com</span>
-          <h4>B.Com (Hons) – Taxation</h4>
-          <p>Focuses on tax planning, compliance, auditing, and financial reporting.</p>
-          <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-commerce.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-3">
-        <div class="course-img-maya"><img src="assets/uploads/accounting.jpg" alt="BCom Accounting"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">B.Com</span>
-          <h4>B.Com (Hons) – Accounting</h4>
-          <p>Builds skills in bookkeeping, auditing, financial reporting, and corporate accounting.</p>
-          <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-commerce.php" class="course-cta">Apply Now</a>
+      <div class="shs-course-card shs-reveal d2">
+        <div class="shs-course-img"><img src="assets/uploads/bph.webp" alt="BPH"></div>
+        <div class="shs-course-body">
+          <span class="shs-course-tag">UG</span>
+          <h4>Bachelor of Public Health (BPH)</h4>
+          <p>Focuses on community health, public health management, and program administration.</p>
+          <div class="shs-course-meta"><span>⚡ 125 Credits</span><span>📅 3 Years</span></div>
+          <a href="public-health.php" class="shs-course-cta">Apply Now</a>
         </div>
       </div>
     </div>
 
-    <!-- PG / MASTERS COURSES -->
-    <div id="tab-pg" class="tab-content pg-grid">
-      <div class="course-card-maya reveal delay-1">
-        <div class="course-img-maya"><img src="assets/uploads/Agribusiness-Management.jpg" alt="MBA Agri Business"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">MBA</span>
-          <h4>MBA – Agri Business Management</h4>
-          <p>Two-year postgraduate program focused on agribusiness operations, agricultural marketing, rural finance, and supply chain management.</p>
-          <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-Agri-Business-Management-college-in-dehradun.php" class="course-cta">Apply Now</a>
+    <!-- PG -->
+    <div id="shs-tab-pg" class="shs-tab-pane shs-pg-grid">
+      <div class="shs-course-card shs-reveal d1">
+        <div class="shs-course-img"><img src="assets/uploads/mph.webp" alt="MPH"></div>
+        <div class="shs-course-body">
+          <span class="shs-course-tag">PG</span>
+          <h4>Master of Public Health (MPH)</h4>
+          <p>Focuses on epidemiology, public health leadership, and healthcare program management.</p>
+          <div class="shs-course-meta"><span>⚡ 60 Credits</span><span>📅 2 Years</span></div>
+          <a href="master-in-public-health.php" class="shs-course-cta">Apply Now</a>
         </div>
       </div>
-      <div class="course-card-maya reveal delay-2">
-        <div class="course-img-maya"><img src="assets/uploads/mba-business.jpg" alt="MBA Business Analytics"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">MBA</span>
-          <h4>MBA – Business Analytics</h4>
-          <p>Two-year postgraduate program focused on data analysis, predictive modeling, and data-driven strategic decision-making.</p>
-          <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-Business-Analytics-college-in-dehradun.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-3">
-        <div class="course-img-maya"><img src="assets/uploads/mba-digital.jpg" alt="MBA Digital Marketing"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">MBA</span>
-          <h4>MBA – Digital Marketing</h4>
-          <p>Two-year postgraduate program focused on digital strategy, SEO, social media marketing, and online brand management.</p>
-          <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-Digital-Marketing-college-in-dehradun.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-4">
-        <div class="course-img-maya"><img src="assets/uploads/mba-fintech.webp" alt="MBA FinTech"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">MBA</span>
-          <h4>MBA – FinTech</h4>
-          <p>Two-year postgraduate program focused on digital banking, blockchain, financial analytics, and financial technology innovation.</p>
-          <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-FinTech-college-in-dehradun.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-1">
-        <div class="course-img-maya"><img src="assets/uploads/mba-hr.jpg" alt="MBA HR"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">MBA</span>
-          <h4>MBA – Human Resource Management</h4>
-          <p>Two-year postgraduate program focused on talent management, organizational behavior, and strategic HR practices.</p>
-          <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-human-resource-college-in-dehradun.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-2">
-        <div class="course-img-maya"><img src="assets/uploads/mba-logistic.jpg" alt="MBA Logistics"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">MBA</span>
-          <h4>MBA – Logistic Management</h4>
-          <p>Two-year postgraduate program focused on supply chain management, transportation planning, and logistics operations.</p>
-          <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-Logistic-Management-college-in-dehradun.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-3">
-        <div class="course-img-maya"><img src="assets/uploads/mba-marketing.webp" alt="MBA Marketing"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">MBA</span>
-          <h4>MBA – Marketing Management</h4>
-          <p>Two-year postgraduate program focused on consumer behavior, branding, market research, and strategic marketing.</p>
-          <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-marketing-management-college-in-dehradun.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-4">
-        <div class="course-img-maya"><img src="assets/uploads/mba-pharma.jpg" alt="MBA Pharma"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">MBA</span>
-          <h4>MBA – Pharmaceutical Management</h4>
-          <p>Two-year postgraduate program focused on pharmaceutical marketing, healthcare management, and regulatory affairs.</p>
-          <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-Pharmaceutical-Management-college-in-dehradun.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-1">
-        <div class="course-img-maya"><img src="assets/uploads/mba-sports.png" alt="MBA Sports"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">MBA</span>
-          <h4>MBA – Sports Management</h4>
-          <p>Two-year postgraduate program focused on sports marketing, event management, sports finance, and athlete management.</p>
-          <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-Sports-Management-college-in-dehradun.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-2">
-        <div class="course-img-maya"><img src="assets/uploads/mba-travel.jpg" alt="MBA Travel Tourism"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">MBA</span>
-          <h4>MBA – Travel &amp; Tourism</h4>
-          <p>Two-year postgraduate program focused on tourism management, hospitality operations, and destination marketing.</p>
-          <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-travel-and-tourism-college-in-dehradun.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-      <div class="course-card-maya reveal delay-3">
-        <div class="course-img-maya"><img src="assets/uploads/m-com.jpg" alt="MCom"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">M.Com</span>
-          <h4>Masters of Commerce (M.Com)</h4>
-          <p>Two-year postgraduate program focused on advanced studies in commerce, finance, accounting, and business management.</p>
-          <div class="course-meta-maya"><span>⚡ 96 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-master-of-commerce-college-in-dehradun.php" class="course-cta">Apply Now</a>
+      <div class="shs-course-card shs-reveal d2">
+        <div class="shs-course-img"><img src="assets/uploads/mha.webp" alt="MHA"></div>
+        <div class="shs-course-body">
+          <span class="shs-course-tag">PG</span>
+          <h4>Master of Hospital Administration (MHA)</h4>
+          <p>Advanced training in hospital operations, healthcare leadership, and strategic management.</p>
+          <div class="shs-course-meta"><span>⚡ 60 Credits</span><span>📅 2 Years</span></div>
+          <a href="master-in-hospital-administration.php" class="shs-course-cta">Apply Now</a>
         </div>
       </div>
     </div>
-
-    <!-- PHD -->
-    <div id="tab-phd" class="tab-content phd-grid">
-      <div class="course-card-maya reveal delay-1">
-        <div class="course-img-maya"><img src="assets/uploads/phd.webp" alt="PhD Program"></div>
-        <div class="course-main-maya">
-          <span class="course-tag">Doctoral</span>
-          <h4>Ph.D Program</h4>
-          <p>Full-time doctoral research program focused on advanced study and original research in management and commerce domains.</p>
-          <div class="course-meta-maya"><span>⚡ 125 Credits</span><span>📅 Min. 2 Years</span></div>
-          <a href="best-university-for-phd-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
-        </div>
-      </div>
-    </div>
-
   </div>
 </section>
 
-<div class="divider"></div>
+<div class="shs-divider"></div>
 
 <!-- ═══════════════════════ IBM SECTION ═══════════════════════ -->
-<section id="ibm" class="ibm-section section-pad">
-  <div class="section-inner">
-    <div class="ibm-grid">
-      <div class="reveal-left">
-        <div class="ibm-badge-strip">
-          <div class="ibm-logo-badge">IBM</div>
-          <span class="ibm-x">×</span>
-          <span class="mdu-text">Maya Devi University</span>
+<section class="shs-section shs-ibm" id="ibm">
+  <div class="shs-ibm-orb-a"></div>
+  <div class="shs-ibm-orb-b"></div>
+  <div class="shs-container">
+    <div class="shs-ibm-grid">
+
+      <!-- Left -->
+      <div class="shs-reveal rl">
+        <div class="shs-ibm-badge-row">
+          <div class="shs-ibm-logo">IBM</div>
+          <span class="shs-ibm-x">×</span>
+          <span class="shs-mdu-txt">Maya Devi University</span>
         </div>
-        <h2 class="ibm-heading">Commerce &amp; Management<br>with an <em>IBM-powered edge.</em></h2>
-        <p class="ibm-desc">Business careers now demand analytics, GenAI fluency, marketing intelligence, and sharper decision-making. The integrated IBM-linked pathway creates a stronger route to specialization and employability.</p>
-        <div class="ibm-chips">
-          <span class="ibm-chip">GenAI for B.Com</span>
-          <span class="ibm-chip">GenAI for BBA/MBA</span>
-          <span class="ibm-chip">AI in Business Analytics</span>
-          <span class="ibm-chip">AI in Marketing</span>
-          <span class="ibm-chip">Data Analytics &amp; Data Science</span>
-          <span class="ibm-chip">FinTech &amp; Blockchain</span>
+        <h2 class="shs-ibm-heading">Healthcare education with<br><em>smarter, future-facing context.</em></h2>
+        <p class="shs-ibm-desc">Health and nursing students can study with stronger awareness of diagnostics, informatics, monitoring, and AI-linked care systems — gaining meaningful career advantage in a rapidly evolving healthcare landscape.</p>
+
+        <div class="shs-chips">
+          <span class="shs-chip">IBM AI with Health Informatics</span>
+          <span class="shs-chip">AI in Medical Diagnostics</span>
+          <span class="shs-chip">AI in Radiology</span>
+          <span class="shs-chip">AI in Cardiac Diagnostics</span>
+          <span class="shs-chip">AI in Eye Diagnostics</span>
+          <span class="shs-chip">Foundation of AI in Nursing Care</span>
         </div>
-        <div class="ibm-about-note">
+
+        <div class="shs-ibm-note">
           <strong>About IBM</strong>
           IBM is a globally recognized technology company known for innovation in artificial intelligence, analytics, enterprise technology, and digital transformation. That association adds stronger credibility and modern relevance to the student journey at MDU.
         </div>
-        <a href="bachelor-of-business-administration.php" class="btn-ibm">Explore IBM-Linked Pathways →</a>
+
+        <a href="hospital-administration.php" class="shs-ibm-cta">Discover IBM-Linked Pathways →</a>
       </div>
-      <div class="ibm-features-grid reveal-right">
-        <div class="ibm-feat">
-          <div class="ibm-feat-icon">🚀</div>
+
+      <!-- Right -->
+      <div class="shs-ibm-boxes shs-reveal rr">
+        <div class="shs-ibm-box">
+          <span class="shs-ibm-box-icon">🚀</span>
           <h5>Future Skills</h5>
-          <p>Learn how business, analytics, and AI work together in the real market—gaining advantage over traditional graduates.</p>
+          <p>Understand how healthcare and technology increasingly work together in modern care systems.</p>
         </div>
-        <div class="ibm-feat">
-          <div class="ibm-feat-icon">💎</div>
+        <div class="shs-ibm-box">
+          <span class="shs-ibm-box-icon">💎</span>
           <h5>Career Value</h5>
-          <p>Build a management or commerce profile with stronger job relevance and future value in a tech-driven economy.</p>
+          <p>A health sciences degree that is current, practical, and future-aware for a tech-driven world.</p>
         </div>
-        <div class="ibm-feat">
-          <div class="ibm-feat-icon">🏢</div>
+        <div class="shs-ibm-box">
+          <span class="shs-ibm-box-icon">🏢</span>
           <h5>IBM Advantage</h5>
-          <p>Create a business-ready profile shaped by modern tools, digital thinking, and future-facing market relevance.</p>
+          <p>Add meaningful career context to health programs through domain-linked innovation exposure.</p>
         </div>
-        <div class="ibm-feat">
-          <div class="ibm-feat-icon">🌍</div>
+        <div class="shs-ibm-box">
+          <span class="shs-ibm-box-icon">🌍</span>
           <h5>Global Recognition</h5>
-          <p>IBM's global presence in AI, analytics, and digital transformation adds premium credibility to your degree.</p>
+          <p>IBM's global presence in AI and digital transformation adds premium credibility to your degree.</p>
         </div>
       </div>
+
     </div>
   </div>
 </section>
 
-<div class="divider"></div>
+<div class="shs-divider"></div>
 
-<!-- ═══════════════════════ CAREER PROSPECTS ═══════════════════════ -->
-<section id="careers" class="section-pad">
-  <div class="section-inner">
-    <div class="reveal" style="margin-bottom:48px;">
-      <div class="section-label">Opportunities</div>
-      <h2 class="section-maya">Career <span>Prospects 🚀</span></h2>
+<!-- ═══════════════════════ CLUBS ═══════════════════════ -->
+<section class="shs-section shs-clubs">
+  <div class="shs-container">
+    <div class="shs-reveal" style="margin-bottom:40px;">
+      <div class="shs-label">Campus Life</div>
+      <h2 class="shs-heading">Student <em>Clubs</em> 🎓</h2>
     </div>
-    <div class="careers-grid">
-      <div class="career-card reveal delay-1">
-        <span class="career-icon">📊</span>
-        <h5>Business Analyst</h5>
-        <p>Analyze data and trends to provide insights for strategic decision-making across industries.</p>
-      </div>
-      <div class="career-card reveal delay-2">
-        <span class="career-icon">📈</span>
-        <h5>Marketing Manager</h5>
-        <p>Design and implement marketing campaigns to promote products and services effectively.</p>
-      </div>
-      <div class="career-card reveal delay-3">
-        <span class="career-icon">💼</span>
-        <h5>Financial Consultant</h5>
-        <p>Guide clients on investments, savings, and financial planning for long-term growth.</p>
-      </div>
-      <div class="career-card reveal delay-4">
-        <span class="career-icon">🤝</span>
-        <h5>HR Manager</h5>
-        <p>Manage recruitment, training, and employee relations in organizations of all sizes.</p>
-      </div>
-      <div class="career-card reveal delay-1">
-        <span class="career-icon">🏦</span>
-        <h5>Investment Banker</h5>
-        <p>Assist businesses with raising capital and managing mergers &amp; acquisitions.</p>
-      </div>
-      <div class="career-card reveal delay-2">
-        <span class="career-icon">🧩</span>
-        <h5>Management Consultant</h5>
-        <p>Advise companies on improving efficiency and solving complex business challenges.</p>
-      </div>
-      <div class="career-card reveal delay-3">
-        <span class="career-icon">🌐</span>
-        <h5>Digital Marketing Specialist</h5>
-        <p>Drive online presence through SEO, social media, and high-impact digital campaigns.</p>
-      </div>
-      <div class="career-card reveal delay-4">
-        <span class="career-icon">📢</span>
-        <h5>Business Development Manager</h5>
-        <p>Identify new opportunities and build partnerships to expand business growth.</p>
-      </div>
-      <div class="career-card reveal delay-1">
-        <span class="career-icon">🎯</span>
-        <h5>Corporate Strategist</h5>
-        <p>Formulate strategies to help companies achieve their long-term goals and vision.</p>
-      </div>
-      <div class="career-card reveal delay-2">
-        <span class="career-icon">🚀</span>
-        <h5>Entrepreneur</h5>
-        <p>Launch and manage innovative ventures to create business value and social impact.</p>
-      </div>
-      <div class="career-card reveal delay-3">
-        <span class="career-icon">⚙️</span>
-        <h5>Operations Manager</h5>
-        <p>Oversee daily operations ensuring efficiency, productivity, and quality delivery.</p>
-      </div>
-      <div class="career-card reveal delay-4">
-        <span class="career-icon">📂</span>
-        <h5>Project Manager</h5>
-        <p>Plan, execute, and deliver projects while managing resources and timelines effectively.</p>
-      </div>
+    <div class="shs-cards-grid">
+      <div class="shs-mini-card shs-reveal d1"><span class="shs-mini-card-icon">💻</span><h5>HealthTech Club</h5><p>Explores the integration of technology and healthcare to improve patient care and innovation.</p></div>
+      <div class="shs-mini-card shs-reveal d2"><span class="shs-mini-card-icon">🌍</span><h5>Public Health Society</h5><p>Works on awareness, prevention, and community health initiatives for societal well-being.</p></div>
+      <div class="shs-mini-card shs-reveal d3"><span class="shs-mini-card-icon">🩺</span><h5>Clinical Skills Club</h5><p>Provides hands-on training sessions to strengthen core clinical and patient care skills.</p></div>
+      <div class="shs-mini-card shs-reveal d4"><span class="shs-mini-card-icon">🥗</span><h5>Wellness &amp; Nutrition Club</h5><p>Promotes healthy living through balanced nutrition, fitness, and overall wellness programs.</p></div>
     </div>
   </div>
 </section>
 
-<div class="divider"></div>
+<div class="shs-divider"></div>
+
+<!-- ═══════════════════════ CAREERS ═══════════════════════ -->
+<section class="shs-section shs-careers">
+  <div class="shs-container">
+    <div class="shs-reveal" style="margin-bottom:40px;">
+      <div class="shs-label">Opportunities</div>
+      <h2 class="shs-heading">Career <span>Options</span> 💼</h2>
+    </div>
+    <div class="shs-cards-grid">
+      <div class="shs-mini-card shs-reveal d1"><span class="shs-mini-card-icon">🧪</span><h5>Medical Laboratory Technician</h5><p>Conducts lab tests to help diagnose and treat diseases.</p></div>
+      <div class="shs-mini-card shs-reveal d2"><span class="shs-mini-card-icon">💉</span><h5>Anaesthesia Technician</h5><p>Assists anesthesiologists in patient care before and after surgery.</p></div>
+      <div class="shs-mini-card shs-reveal d3"><span class="shs-mini-card-icon">🩻</span><h5>Radiology Technician</h5><p>Operates imaging equipment to diagnose medical conditions.</p></div>
+      <div class="shs-mini-card shs-reveal d4"><span class="shs-mini-card-icon">💧</span><h5>Dialysis Technician</h5><p>Provides care for patients undergoing kidney dialysis treatment.</p></div>
+      <div class="shs-mini-card shs-reveal d1"><span class="shs-mini-card-icon">🛠️</span><h5>Operation Theatre Technician</h5><p>Supports surgical teams by managing OT instruments and setup.</p></div>
+      <div class="shs-mini-card shs-reveal d2"><span class="shs-mini-card-icon">❤️</span><h5>Cardiac Care Technician</h5><p>Assists in diagnosing and treating heart-related conditions.</p></div>
+      <div class="shs-mini-card shs-reveal d3"><span class="shs-mini-card-icon">🏥</span><h5>Hospital Administrator</h5><p>Manages hospital operations, staff, and healthcare services.</p></div>
+      <div class="shs-mini-card shs-reveal d4"><span class="shs-mini-card-icon">🌍</span><h5>Public Health Specialist</h5><p>Works on disease prevention and health promotion programs.</p></div>
+      <div class="shs-mini-card shs-reveal d1"><span class="shs-mini-card-icon">🤝</span><h5>Healthcare Consultant</h5><p>Advises hospitals and organizations to improve healthcare systems.</p></div>
+      <div class="shs-mini-card shs-reveal d2"><span class="shs-mini-card-icon">🔬</span><h5>Research Scientist</h5><p>Conducts medical and scientific research for innovation.</p></div>
+      <div class="shs-mini-card shs-reveal d3"><span class="shs-mini-card-icon">✅</span><h5>Quality Control Specialist</h5><p>Ensures healthcare services meet quality and safety standards.</p></div>
+      <div class="shs-mini-card shs-reveal d4"><span class="shs-mini-card-icon">📊</span><h5>Clinical Research Associate</h5><p>Monitors clinical trials to ensure accuracy and compliance.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="shs-divider"></div>
 
 <!-- ═══════════════════════ WHY CHOOSE US ═══════════════════════ -->
-<section class="section-pad why-section">
-  <div class="section-inner">
-    <div class="why-grid">
+<section class="shs-section shs-why">
+  <div class="shs-container">
+    <div class="shs-why-grid">
       <div>
-        <div class="reveal">
-          <div class="section-label">Why MDU</div>
-          <h2 class="section-maya">Why <em>Choose</em><br>Us? 🌟</h2>
-          <p style="color:var(--text-muted);line-height:1.8;margin-bottom:40px;font-size:1rem;">Choosing the right place to pursue your education is a life-changing decision. At MDU, we go beyond conventional learning by offering an ecosystem of innovation, creativity, and global opportunities.</p>
+        <div class="shs-reveal">
+          <div class="shs-label">Why MDU</div>
+          <h2 class="shs-heading">Why <em>Choose</em> Us 🌟?</h2>
+          <p style="color:var(--muted);line-height:1.85;font-size:1rem;">Choosing the right place to pursue your education is a life-changing decision. At the School of Health Sciences, MDU, we go beyond conventional learning by offering an ecosystem of clinical excellence, innovation, and global opportunities.</p>
+          <a href="https://admissions.maya.edu.in" class="shs-apply-btn">Apply Now →</a>
         </div>
-        <div class="why-features">
-          <div class="why-feat reveal delay-1">
-            <div class="why-feat-icon">🚀</div>
-            <h5>Excellence in Education &amp; Innovation</h5>
-            <p>A future-ready curriculum that balances theory with practical learning, ensuring students graduate with strong knowledge and essential skills.</p>
-          </div>
-          <div class="why-feat reveal delay-2">
-            <div class="why-feat-icon">⚖️</div>
-            <h5>Ethics Meets Knowledge</h5>
-            <p>Beyond academics, we emphasize building responsible individuals who act with integrity, guided by strong values and social responsibility.</p>
-          </div>
-          <div class="why-feat reveal delay-3">
-            <div class="why-feat-icon">🌍</div>
-            <h5>Global Readiness</h5>
-            <p>Exposure to diverse ideas, collaborations, and real-world experiences prepares students to thrive in a connected global environment.</p>
-          </div>
-          <div class="why-feat reveal delay-4">
-            <div class="why-feat-icon">🔬</div>
-            <h5>Research &amp; Creativity</h5>
-            <p>We encourage curiosity, exploration, and innovative thinking, nurturing a spirit of discovery across all disciplines.</p>
-          </div>
-          <div class="why-feat reveal delay-5">
-            <div class="why-feat-icon">🤝</div>
-            <h5>Supportive, Inclusive Environment</h5>
-            <p>A welcoming culture where every student is supported, mentored, and empowered to grow personally and professionally.</p>
-          </div>
-          <div class="why-feat reveal delay-6">
-            <div class="why-feat-icon">📚</div>
-            <h5>Commitment to Lifelong Learning</h5>
-            <p>Education here inspires curiosity, critical thinking, and a passion for continuous growth throughout life.</p>
-          </div>
+        <div class="shs-why-features">
+          <div class="shs-why-feat shs-reveal d1"><span class="shs-why-feat-icon">🚀</span><h5>Excellence in Education &amp; Innovation</h5><p>Future-ready curriculum blending theory with hands-on clinical practice ensuring cutting-edge skills.</p></div>
+          <div class="shs-why-feat shs-reveal d2"><span class="shs-why-feat-icon">⚖️</span><h5>Ethics Meets Healthcare</h5><p>We build responsible healthcare leaders who act with integrity and strong ethical values.</p></div>
+          <div class="shs-why-feat shs-reveal d3"><span class="shs-why-feat-icon">🌍</span><h5>Global Readiness</h5><p>International collaborations and real-world projects prepare students for a global workforce.</p></div>
+          <div class="shs-why-feat shs-reveal d4"><span class="shs-why-feat-icon">🔬</span><h5>Research &amp; Creativity</h5><p>Research opportunities encourage exploration and creative problem-solving in every discipline.</p></div>
+          <div class="shs-why-feat shs-reveal d5"><span class="shs-why-feat-icon">🤝</span><h5>Supportive, Inclusive Environment</h5><p>A welcoming culture where every student is supported and empowered to grow.</p></div>
+          <div class="shs-why-feat shs-reveal d6"><span class="shs-why-feat-icon">📚</span><h5>Commitment to Lifelong Learning</h5><p>Education here builds a mindset of curiosity, critical thinking, and continuous growth.</p></div>
         </div>
       </div>
-      <div class="why-visual reveal-right">
-        <div class="why-img-wrap">
-          <img src="assets/uploads/computer.jpg" alt="Why Choose MDU" onerror="this.style.background='linear-gradient(135deg,#0d1f4a,#0a1628)';this.style.height='420px';this.src=''">
+      <div class="shs-why-visual shs-reveal rr">
+        <div class="shs-why-img-wrap">
+          <img src="assets/uploads/computer.jpg" alt="Why Choose MDU">
         </div>
-        <div class="why-float-card">
-          <strong>22 LPA</strong>
+        <div class="shs-why-float">
+          <strong>16 LPA</strong>
           <span>Highest Package</span>
         </div>
       </div>
@@ -1023,53 +635,51 @@ section { position: relative; z-index: 1; }
   </div>
 </section>
 
-<div class="divider"></div>
+<div class="shs-divider"></div>
 
 <!-- ═══════════════════════ TESTIMONIALS ═══════════════════════ -->
-<section class="section-pad testimonials-section">
-  <div class="section-inner">
-    <div class="reveal" style="margin-bottom:48px;">
-      <div class="section-label">Student Stories</div>
-      <h2 class="section-maya">What Our <em>Students</em> Say</h2>
+<section class="shs-section shs-testimonials">
+  <div class="shs-container">
+    <div class="shs-reveal" style="margin-bottom:48px;">
+      <div class="shs-label" style="color:#5ecfb1;">--</div>
+      <h2 class="shs-heading" style="color:#fff;">Student <em style="color:#5ecfb1;">Testimonials</em></h2>
     </div>
-
-    <!-- Swiper Testimonials -->
-    <div class="swiper swiper-testimonial">
+    <div class="swiper testimonial-slider">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="testi-card">
-            <div class="testi-stars">★★★★★</div>
-            <img src="assets/uploads/testimoni-1.jpeg" alt="Riya Sharma" class="testi-avatar" onerror="this.style.display='none'">
-            <p class="testi-text">"The School of Engineering provided me with excellent opportunities to learn, explore, and innovate. I secured a placement at Microsoft with a 42 LPA package!"</p>
-            <div class="testi-name">Riya Sharma</div>
-            <div class="testi-prog">BBA – Marketing</div>
+        <div class="swiper-slide" style="height:auto;display:flex;">
+          <div class="shs-testi-card">
+            <div class="shs-testi-stars">★★★★★</div>
+            <img src="assets/uploads/testimoni-1.jpeg" alt="Riya Sharma" class="shs-testi-avatar">
+            <p class="shs-testi-text">"The School of Engineering provided me with excellent opportunities to learn, explore, and innovate. I secured a placement at Microsoft with 42 LPA package!"</p>
+            <div class="shs-testi-name">Riya Sharma</div>
+            <div class="shs-testi-prog">CSE</div>
           </div>
         </div>
-        <div class="swiper-slide">
-          <div class="testi-card">
-            <div class="testi-stars">★★★★★</div>
-            <img src="assets/uploads/testimoni-2.jpeg" alt="Arjun Verma" class="testi-avatar" onerror="this.style.display='none'">
-            <p class="testi-text">"State-of-the-art labs and practical exposure gave me an edge in the industry. Truly grateful for the faculty and support at MDU."</p>
-            <div class="testi-name">Arjun Verma</div>
-            <div class="testi-prog">MBA – Finance</div>
+        <div class="swiper-slide" style="height:auto;display:flex;">
+          <div class="shs-testi-card">
+            <div class="shs-testi-stars">★★★★★</div>
+            <img src="assets/uploads/testimoni-2.jpeg" alt="Arjun Verma" class="shs-testi-avatar">
+            <p class="shs-testi-text">"State-of-the-art labs and practical exposure gave me an edge in the industry. Truly grateful for the faculty and support at MDU."</p>
+            <div class="shs-testi-name">Arjun Verma</div>
+            <div class="shs-testi-prog">Mechanical</div>
           </div>
         </div>
-        <div class="swiper-slide">
-          <div class="testi-card">
-            <div class="testi-stars">★★★★★</div>
-            <img src="assets/uploads/testimoni-3.jpeg" alt="Sneha Gupta" class="testi-avatar" onerror="this.style.display='none'">
-            <p class="testi-text">"Amazing mentors and inclusive culture. I gained not only knowledge but also confidence to excel in my career."</p>
-            <div class="testi-name">Sneha Gupta</div>
-            <div class="testi-prog">M.Com – Accounting</div>
+        <div class="swiper-slide" style="height:auto;display:flex;">
+          <div class="shs-testi-card">
+            <div class="shs-testi-stars">★★★★★</div>
+            <img src="assets/uploads/testimoni-3.jpeg" alt="Sneha Gupta" class="shs-testi-avatar">
+            <p class="shs-testi-text">"Amazing mentors and inclusive culture. I gained not only knowledge but also confidence to excel in my career."</p>
+            <div class="shs-testi-name">Sneha Gupta</div>
+            <div class="shs-testi-prog">MCA</div>
           </div>
         </div>
-        <div class="swiper-slide">
-          <div class="testi-card">
-            <div class="testi-stars">★★★★★</div>
-            <img src="assets/uploads/testimoni-4.jpeg" alt="Rahul Mehta" class="testi-avatar" onerror="this.style.display='none'">
-            <p class="testi-text">"The placement cell at MDU is excellent. The exposure I got through internships and industry visits was unmatched."</p>
-            <div class="testi-name">Rahul Mehta</div>
-            <div class="testi-prog">BBA – Human Resource</div>
+        <div class="swiper-slide" style="height:auto;display:flex;">
+          <div class="shs-testi-card">
+            <div class="shs-testi-stars">★★★★★</div>
+            <img src="assets/uploads/testimoni-4.jpeg" alt="Arjun Verma" class="shs-testi-avatar">
+            <p class="shs-testi-text">"State-of-the-art labs and practical exposure gave me an edge in the industry. Truly grateful for the faculty and support at MDU."</p>
+            <div class="shs-testi-name">Arjun Verma</div>
+            <div class="shs-testi-prog">Mechanical</div>
           </div>
         </div>
       </div>
@@ -1078,226 +688,148 @@ section { position: relative; z-index: 1; }
   </div>
 </section>
 
-<div class="divider"></div>
+<div class="shs-divider"></div>
 
-<!-- ═══════════════════════ BLOG (PHP DRIVEN - PLACEHOLDER) ═══════════════════════ -->
-<!-- NOTE: In production, this section is PHP-driven. The markup below mirrors the original PHP output structure with the new dark design. -->
-<section class="section-pad blog-section" id="blog">
-  <div class="section-inner">
-    <div class="reveal" style="margin-bottom:48px;">
-      <div class="section-label">Know More</div>
-      <h2 class="section-maya">Our <em>Blog</em></h2>
-      <p style="color:var(--text-muted); margin-top:8px;">Insights and updates from Maya Devi University.</p>
-    </div>
-    <!-- PHP blog loop will render .blog-card-maya items here in production -->
-    <!-- Static placeholder cards shown for design preview -->
-    <?php
-// Load blogs
+<!-- ═══════════════════════ BLOG (PHP-DRIVEN — PRESERVED AS-IS) ═══════════════════════ -->
+<?php
 $dataFile = __DIR__ . "/admin/data/blogs.json";
 $blogs = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
-
-// SET DEPARTMENT TAG
-$dept = "Commerce"; // change dynamically if needed
-
-// FILTER BLOGS BY TAG
+$dept = "Health Sciences";
 $filteredBlogs = [];
 foreach ($blogs as $id => $b) {
     if (!empty($b['tags']) && in_array($dept, $b['tags'])) {
         $filteredBlogs[$id] = $b;
     }
 }
-
-// LATEST BLOGS (limit 8 for slider)
 $latestBlogs = array_slice(array_reverse($filteredBlogs, true), 0, 10, true);
 ?>
-
-<?php if (!empty($latestBlogs)): ?>  <!-- 🔥 MAIN CONDITION -->
-
-            
-            <div class="col-lg-12">
-                
-
-                <div class="blog-active">
-                    
-                    <?php foreach ($latestBlogs as $id => $b):
-    $img = $b['image'] ?? 'assets/img/blog/default.jpg';
-    $title = $b['title'] ?? '';
-    $excerpt = substr(strip_tags($b['content']), 0, 80) . '...';
-    $author = $b['author'] ?? 'Admin';
-    $date = $b['date'] ?? '';
-    $tags = $b['tags'] ?? [];
-
-    // ✅ SLUG
-   $slugText = $b['slug'] ?? $title;
-$slugText = strtolower($slugText);
-$slug = preg_replace('/[^a-z0-9]+/', '-', $slugText);
-$slug = trim($slug, '-');
-?>
-    <div class="single-blog">
-        <div class="blog-img" style="height:200px; overflow:hidden;">
-            <a href="blog/<?= $slug ?>">
-                <img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;">
-            </a>
-        </div>
-
-        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
-            <?php if (!empty($tags)) echo "<span>" . htmlspecialchars($tags[0]) . "</span>"; ?>
-
-            <div class="blog-content" style="flex-grow:1;">
-                <h4 class="text-white">
-                    <a href="blog/<?= $slug ?>"><?= $title ?></a>
-                </h4>
-                <p class="text-white"><?= $excerpt ?></p>
-
-                <div class="blog-meta">
-                    <ul>
-                        <li><a href="#" class="text-white"><i class="fa fa-user"></i> <?= $author ?></a></li>
-                        <li><a href="#" class="text-white"><i class="fa fa-comments-o"></i> 0</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="blog-date">
-                <a href="#"><i class="fa fa-calendar-o"></i> <?= $date ?></a>
-            </div>
-        </div>
+<?php if (!empty($latestBlogs)): ?>
+<section class="shs-section shs-blog">
+  <div class="shs-container">
+    <div class="shs-reveal" style="margin-bottom:48px;">
+      <div class="shs-label" style="color:#5ecfb1;">--</div>
+      <h2 class="shs-heading" style="color:#fff;">Our <em style="color:#5ecfb1;">Blog</em></h2>
+      <p style="color:rgba(255,255,255,.45);margin-top:8px;">Insights and updates from Maya Devi University.</p>
     </div>
-<?php endforeach; ?>
-
-                </div>
+    <div class="blog-active">
+      <?php foreach ($latestBlogs as $id => $b):
+        $img     = $b['image'] ?? 'assets/img/blog/default.jpg';
+        $title   = $b['title'] ?? '';
+        $excerpt = substr(strip_tags($b['content']), 0, 80) . '...';
+        $author  = $b['author'] ?? 'Admin';
+        $date    = $b['date'] ?? '';
+        $tags    = $b['tags'] ?? [];
+        $slugText = strtolower($b['slug'] ?? $title);
+        $slug = trim(preg_replace('/[^a-z0-9]+/', '-', $slugText), '-');
+      ?>
+      <div class="single-blog">
+        <div class="blog-img" style="height:200px;overflow:hidden;">
+          <a href="blog/<?= $slug ?>">
+            <img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%;height:100%;object-fit:cover;">
+          </a>
+        </div>
+        <div class="blog-content-wrap" style="display:flex;flex-direction:column;height:100%;">
+          <?php if (!empty($tags)) echo "<span>" . htmlspecialchars($tags[0]) . "</span>"; ?>
+          <div class="blog-content" style="flex-grow:1;">
+            <h4><a href="blog/<?= $slug ?>"><?= $title ?></a></h4>
+            <p><?= $excerpt ?></p>
+            <div class="blog-meta">
+              <ul>
+                <li><a href="#"><i class="fa fa-user"></i> <?= $author ?></a></li>
+                <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+              </ul>
             </div>
-
-
-<?php endif; ?>  <!-- 🔥 END CONDITION -->
-
+          </div>
+          <div class="blog-date">
+            <a href="#"><i class="fa fa-calendar-o"></i> <?= $date ?></a>
+          </div>
+        </div>
+      </div>
+      <?php endforeach; ?>
+    </div>
   </div>
 </section>
-<style>
-  .event-area-maya{
-    background: linear-gradient(135deg, #0a1628 0%, #0d1f4a 60%, #061228 100%);
-  }
-  .single-blog-maya{
-    border: 1px solid #fff;
-  }
-.blog-active .single-blog {
-  background: var(--navy);
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #fff !important;
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 10px;
-    height: 100%;
-}
+<?php endif; ?>
 
-.blog-active .blog-img {
-    flex: 0 0 200px;
-    overflow: hidden;
-}
-
-.blog-active .blog-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.blog-active .blog-content-wrap {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    padding: 15px;
-}
-.blog-active .blog-content {
-    flex: 1;
-}
-.blog-active::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-</style>
 <!-- ═══════════════════════ CTA BANNER ═══════════════════════ -->
-<section class="cta-banner">
-  <div class="cta-inner">
-    <div class="cta-text reveal-left">
+<section class="shs-cta">
+  <div class="shs-cta-inner">
+    <div class="shs-reveal rl">
       <h2>Ready to Shape Your Future?</h2>
-      <p>Join thousands of students who've launched transformative careers through MDU's industry-aligned Commerce &amp; Management programs. Applications are open for 2025–26.</p>
+      <p>Join thousands of students who've launched transformative careers through MDU's industry-aligned Health Sciences programs. Applications are open for 2025–26.</p>
     </div>
-    <a href="https://admissions.maya.edu.in" class="btn-white reveal-right">Apply Now →</a>
+    <a href="https://admissions.maya.edu.in" class="shs-btn-white shs-reveal rr">Apply Now →</a>
   </div>
 </section>
+
+</div><!-- /.shs-page -->
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-// ── SCROLL REVEAL ──
-const revealAll = () => {
-  document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => {
-    const rect = el.getBoundingClientRect();
-    const inView = rect.top < window.innerHeight * 0.88 && rect.bottom > window.innerHeight * 0.12;
-    if (inView) el.classList.add('visible');
-    else el.classList.remove('visible');
+/* ── SCROLL REVEAL ── */
+const shsReveal = () => {
+  document.querySelectorAll('.shs-reveal').forEach(el => {
+    const r = el.getBoundingClientRect();
+    if (r.top < window.innerHeight * 0.9 && r.bottom > 0) el.classList.add('vis');
+    else el.classList.remove('vis');
   });
 };
-window.addEventListener('scroll', revealAll, { passive: true });
-window.addEventListener('resize', revealAll);
-revealAll();
+window.addEventListener('scroll', shsReveal, { passive: true });
+window.addEventListener('resize', shsReveal);
+shsReveal();
 
-// ── COUNTER ──
-let countersStarted = false;
-const runCounters = () => {
-  document.querySelectorAll('.counter-num').forEach(counter => {
-    const target = +counter.getAttribute('data-target');
-    const duration = 1800;
-    const startTime = performance.now();
-    const update = (t) => {
-      const elapsed = t - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      counter.textContent = Math.floor(eased * target);
-      if (progress < 1) requestAnimationFrame(update);
-      else counter.textContent = target;
+/* ── COUNTER ── */
+let shsDone = false;
+const shsRunCounters = () => {
+  document.querySelectorAll('.shs-counter').forEach(el => {
+    const target = +el.dataset.target;
+    const start  = performance.now();
+    const dur    = 1800;
+    const tick   = (now) => {
+      const p     = Math.min((now - start) / dur, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.floor(eased * target);
+      if (p < 1) requestAnimationFrame(tick); else el.textContent = target;
     };
-    requestAnimationFrame(update);
+    requestAnimationFrame(tick);
   });
 };
-const statsObs = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting && !countersStarted) {
-      countersStarted = true;
-      runCounters();
-    }
-  });
-}, { threshold: 0.3 });
-const statsSection = document.querySelector('.stats-section');
-if (statsSection) statsObs.observe(statsSection);
+new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting && !shsDone) { shsDone = true; shsRunCounters(); } });
+}, { threshold: 0.3 }).observe(document.querySelector('.shs-stats'));
 
-// ── TAB SWITCH ──
-function switchTab(id, btn) {
-  document.querySelectorAll('.tab-content').forEach(t => { t.classList.remove('active'); t.style.display = 'none'; });
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+/* ── TAB SWITCH ── */
+function shsTab(id, btn) {
+  document.querySelectorAll('.shs-tab-pane').forEach(p => { p.classList.remove('active'); p.style.display = 'none'; });
+  document.querySelectorAll('.shs-tab').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  const target = document.getElementById('tab-' + id);
-  target.classList.add('active');
-  target.style.display = 'grid';
-  setTimeout(revealAll, 50);
+  const pane = document.getElementById('shs-tab-' + id);
+  pane.classList.add('active'); pane.style.display = 'grid';
+  setTimeout(shsReveal, 60);
 }
-document.getElementById('tab-ug').style.display = 'grid';
-document.getElementById('tab-pg').style.display = 'none';
-document.getElementById('tab-phd').style.display = 'none';
+document.getElementById('shs-tab-ug').style.display = 'grid';
+document.getElementById('shs-tab-pg').style.display = 'none';
 
-// ── SWIPER ──
-new Swiper('.swiper-testimonial', {
-  slidesPerView: 1,
-  spaceBetween: 24,
-  loop: true,
+/* ── SWIPER ── */
+new Swiper('.testimonial-slider', {
+  slidesPerView: 1, spaceBetween: 24, loop: true,
   autoplay: { delay: 4000, disableOnInteraction: false },
   pagination: { el: '.swiper-pagination', clickable: true },
-  breakpoints: {
-    768: { slidesPerView: 2 },
-    1024: { slidesPerView: 3 }
-  }
+  breakpoints: { 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }
 });
+
+/* ── BLOG SLICK ── */
+if (typeof $ !== 'undefined' && $.fn.slick) {
+  $('.blog-active').slick({
+    infinite: true, slidesToShow: 3, slidesToScroll: 1,
+    prevArrow: '<span class="b-navigation b-navigation-prev"><i class="fa fa-angle-left"></i></span>',
+    nextArrow: '<span class="b-navigation b-navigation-next active"><i class="fa fa-angle-right"></i></span>',
+    responsive: [
+      { breakpoint: 1024, settings: { slidesToShow: 2 } },
+      { breakpoint: 768,  settings: { slidesToShow: 1 } }
+    ]
+  });
+}
 </script>
-<?php require "common/footer.php"?>
-</main>
-</html>
+
+<?php require "common/footer.php" ?>

@@ -1,16 +1,14 @@
 <?php
-$page_title = "Arts & Humanities Courses in Dehradun | Maya Devi University";
-$page_description = "Explore Arts and Humanities programs at Maya Devi University, Dehradun designed to develop creativity, research skills, and critical thinking.";
-$canonical_url = "https://maya.edu.in/Arts-and-humanities.php";
+$page_title = "School of Health Sciences | Maya Devi University Dehradun";
+$page_description = "School of Health Sciences at Maya Devi University, Dehradun offering nursing and paramedical programs.";
+$canonical_url = "https://maya.edu.in/School-Of-Health-Sciences.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
 <?php require "common/header.php" ?>
 <!-- Hero Section -->
-<section class="hero-section" style="background: url('assets/uploads/home-banner.webp') center/cover no-repeat; height:70vh;">
+<section class="hero-section" style="background: url('assets/uploads/shs.jpg') center/cover no-repeat; height:70vh;">
   <div class="hero-content">
-    <h3 class="display-5 fw-bold text-white">School of Arts and Humanities</h3>
-    <p class="lead text-white">Shaping Tomorrow's Leaders at Maya Devi University</p>
-    <a href="https://admissions.maya.edu.in" class="btn btn-primary">Apply Now</a>
+   
   </div>
 </section>
 
@@ -23,19 +21,19 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <!-- Left Text -->
     <div class="col-md-7">
       <p>
-        The Faculty of Arts, Humanities, and Social Sciences at Maya Devi University is a multidisciplinary academic hub offering diverse programs such as B.A. in Humanities, M.Sc. in Clinical Psychology, and M.A. in Fine Arts. The faculty houses key departments including Hindi Literature, English Literature, Psychology, Political Science, Geography and Sociology.
+        The School of Health Sciences at Maya Devi University is dedicated to nurturing future healthcare professionals through rigorous academic programs and hands-on training. Established with a mission to advance health education and research, the department focuses on clinical excellence, innovation, and community service.
       </p>
       <p>
-        Each department is committed to academic excellence, creative exploration and social relevance, preparing students for dynamic careers and meaningful societal contributions. The faculty's mission is to foster intellectual curiosity, critical thinking, cultural appreciation, and ethical leadership through an inclusive and holistic educational approach.
+        Our programs are designed to meet the evolving needs of the healthcare industry, ensuring students are well-prepared for impactful careers.With a strong emphasis on practical learning, interdisciplinary collaboration, and community engagement, the department offers a nurturing environment where students can thrive both academically and professionally.
       </p>
-      <p>With a strong emphasis on interdisciplinary learning, the programs aim to develop students' analytical abilities, communication skills, and understanding of both human behavior and societal structures.</p>
-      <a class="default-btn btn-block" href="assets/uploads/fee/Arts_Humanities_m.pdf">Download fee structure</a>
+      <p>Our faculty comprises experienced clinicians and researchers who mentor students to become compassionate, competent, and globally competitive healthcare providers.</p>
+      <a class="default-btn btn-block" href="assets/uploads/fee/Health_Sciences_m.pdf">Download fee structure</a>
     </div>
     <!-- About Section -->
     <!-- Right Image -->
     <div class="col-md-5 text-center">
       <div class="img-container">
-        <img src="assets/uploads/arts.webp"
+        <img src="assets/uploads/health.webp"
           alt="School of Engineering"
           class="responsive-img">
       </div>
@@ -55,7 +53,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f0f8ff;">
         <i class="fa fa-users fa-2x text-success mb-3"></i>
         <h3 class="fw-bold">
-          <span class="counter" data-target="27">0</span>+
+          <span class="counter" data-target="10">0</span>+
         </h3>
         <p class="mb-0">Programs Offered</p>
       </div>
@@ -66,7 +64,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f6fffa;">
         <i class="fa fa-certificate fa-2x text-success mb-3"></i>
         <h3 class="fw-bold">
-          <span class="counter" data-target="1000">0</span>+
+          <span class="counter" data-target="500">0</span>+
         </h3>
         <p class="mb-0">Students Placed</p>
       </div>
@@ -77,7 +75,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f9f8ff;">
         <i class="fa fa-briefcase fa-2x text-success mb-3"></i>
         <h3 class="fw-bold">
-          <span class="counter" data-target="12">0</span>+
+          <span class="counter" data-target="16">0</span>+
         </h3>
         <p class="mb-0">Highest Package (LPA)</p>
       </div>
@@ -148,228 +146,47 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <!-- ================= UNDERGRADUATE PROGRAMS ================= -->
     <div class="section-title text-center mb-50">
       <h2>Undergraduate <span>Programs</span></h2>
-      <p>Comprehensive undergraduate programs in arts, humanities, and social sciences.</p>
+      <p>Industry-focused undergraduate programs designed for clinical, diagnostic, and healthcare management careers.</p>
     </div>
 
     <div class="row">
 
-      <!-- BA Psychology -->
+      <!-- BHA -->
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="ba-psychology.php"><img src="assets/uploads/ba-1.webp" alt="Course Image"></a>
+            <a href="hospital-administration.php">
+              <img src="assets/uploads/bha.webp" alt="">
+            </a>
           </div>
           <div class="course-body">
-            <h4>BA Psychology</h4>
-            <p>Develops skills in mental health understanding, assessment, and emotional well-being support.</p>
+            <h4>Bachelor of Hospital Administration (BHA)</h4>
+            <p>Focuses on hospital operations, healthcare management, and administrative leadership.</p>
             <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
+              <span>Credits: 125</span>
+              <span>3 Years</span>
             </div>
-            <a class="default-btn btn-block" href="ba-psychology.php">Apply Now</a>
+            <a class="default-btn btn-block" href="hospital-administration.php">Apply Now</a>
           </div>
         </div>
       </div>
 
-      <!-- BA Clinical Psychology -->
+      <!-- BPH -->
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="ba-clinical-psychology.php"><img src="assets/uploads/ba-2.webp" alt="Course Image"></a>
+            <a href="public-health.php">
+              <img src="assets/uploads/bph.webp" alt="">
+            </a>
           </div>
           <div class="course-body">
-            <h4>BA Clinical Psychology</h4>
-            <p>Focuses on mental health assessment and therapeutic techniques.</p>
+            <h4>Bachelor of Public Health (BPH)</h4>
+            <p>Focuses on community health, public health management, and program administration.</p>
             <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
+              <span>Credits: 125</span>
+              <span>3 Years</span>
             </div>
-            <a class="default-btn btn-block" href="ba-clinical-psychology.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Hindi Literature -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-hindi-literature.php"><img src="assets/uploads/ba-3.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Hindi Literature</h4>
-            <p>Prepares students for careers in education, writing, and cultural studies.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-hindi-literature.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Sociology -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-sociology.php"><img src="assets/uploads/ba-4.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Sociology</h4>
-            <p>Analyzes social structures, culture, and community dynamics.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-sociology.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA English Literature -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-english-literature.php"><img src="assets/uploads/ba-3.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA English Literature</h4>
-            <p>In-depth study of English literature across six semesters.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-english-literature.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Economics -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-economics.php"><img src="assets/uploads/ba-6.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Economics</h4>
-            <p>Foundations of economic theory and applied economics.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-economics.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Yoga -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-yoga.php"><img src="assets/uploads/ba-7.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Yoga</h4>
-            <p>Combines traditional yoga practices with modern wellness studies.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-yoga.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Geography -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-geography.php"><img src="assets/uploads/ba-9.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Geography</h4>
-            <p>Study of physical, human, and environmental geography.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-geography.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Journalism -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-journalism-and-mass-communication.php"><img src="assets/uploads/ba-12.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Journalism & Mass Communication</h4>
-            <p>Professional training in media, journalism, and communication.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-journalism-and-mass-communication.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Fine Arts -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-fine-arts.php"><img src="assets/uploads/ba-10.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Fine Arts</h4>
-            <p>Creative education in visual and applied arts.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-fine-arts.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Maths -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-mathematics.php"><img src="assets/uploads/ba-11.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Mathematics</h4>
-            <p>Study of mathematical concepts and analytical reasoning.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-mathematics.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA Political Science -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-political-science.php"><img src="assets/uploads/ba-5.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA Political Science</h4>
-            <p>Study of political systems, governance, and public policy.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-political-science.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BA History -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ba-history.php"><img src="assets/uploads/ba-8.jpg" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>BA History</h4>
-            <p>Exploration of historical events, civilizations, and cultures.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>3 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ba-history.php">Apply Now</a>
+            <a class="default-btn btn-block" href="public-health.php">Apply Now</a>
           </div>
         </div>
       </div>
@@ -379,234 +196,47 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <!-- ================= POSTGRADUATE PROGRAMS ================= -->
     <div class="section-title text-center mb-50 mt-40">
       <h2>Postgraduate <span>Programs</span></h2>
-      <p>Advanced postgraduate programs for academic and professional specialization.</p>
+      <p>Advanced healthcare management and public health programs for leadership roles.</p>
     </div>
 
     <div class="row">
 
-      <!-- MA Clinical Psychology -->
+      <!-- MPH -->
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="ma-clinical-psychology.php"><img src="assets/uploads/ma-3.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Clinical Psychology</h4>
-            <p>Advanced training in clinical assessment and therapeutic practices.</p>
-            <div class="course-meta">
-              <span>Credits: 125</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-clinical-psychology.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- MA Psychology -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-psychology.php"><img src="assets/uploads/ma-2.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Psychology</h4>
-            <p>In-depth study of psychological theories and research methods.</p>
-            <div class="course-meta">
-              <span>Credits: 125</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-psychology.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- MA Sociology -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-sociology.php"><img src="assets/uploads/ma-6.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Sociology</h4>
-            <p>Advanced sociological theory and research training.</p>
-            <div class="course-meta">
-              <span>Credits: 125</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-sociology.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- MA Hindi -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-hindi-literature.php"><img src="assets/uploads/ma-5.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Hindi Literature</h4>
-            <p>Advanced literary studies and research in Hindi literature.</p>
-            <div class="course-meta">
-              <span>Credits: 125</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-hindi-literature.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- MA Political Science -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-political-science.php"><img src="assets/uploads/ma-1.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Political Science</h4>
-            <p>Advanced political theory and governance studies.</p>
-            <div class="course-meta">
-              <span>Credits: 125</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-political-science.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- MA Yoga -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-yoga.php"><img src="assets/uploads/ba-7.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Yoga</h4>
-            <p>Advanced yogic studies and wellness education.</p>
-            <div class="course-meta">
-              <span>Credits: 125</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-yoga.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-evs.php"><img src="assets/uploads/ma-11.jpg" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Environmental Science</h4>
-            <p>Advanced Environmental studies and nature education.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-evs.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-journalism-and-mass-communication.php"><img src="assets/uploads/ma-10.jpg" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Journalism & Mass Communication</h4>
-            <p>Advanced Journalism studies and communication education.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-journalism-and-mass-communication.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-fine-arts.php"><img src="assets/uploads/ma-9.jpeg" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Fine Arts</h4>
-            <p>Advanced Fine Arts studies and wellness education.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-fine-arts.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-economics.php"><img src="assets/uploads/ma-8.jpg" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Economics</h4>
-            <p>Advanced Economic studies and wellness education.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-economics.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-english.php"><img src="assets/uploads/ma-7.jpg" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA English</h4>
-            <p>Advanced English Literature studies and wellness education.</p>
-            <div class="course-meta">
-              <span>Credits: 132</span><span>2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-english.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="ma-maths.php"><img src="assets/uploads/ba-11.webp" alt="Course Image"></a>
-          </div>
-          <div class="course-body">
-            <h4>MA Mathematics</h4>
-            <p>Advanced Mathematics studies and wellness education.</p>
-            <div class="course-meta">
-              <span>Credits: 88/44</span><span>1/2 Years</span>
-            </div>
-            <a class="default-btn btn-block" href="ma-maths.php">Apply Now</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- ================= DOCTORAL PROGRAM ================= -->
-    <div class="section-title text-center mb-50 mt-40">
-      <h2>Doctoral <span>Program</span></h2>
-      <p>Research-focused doctoral program for advanced academic contribution.</p>
-    </div>
-
-    <div class="row">
-
-      <!-- PhD -->
-      <div class="col-lg-3 col-md-6 mb-30">
-        <div class="course-card">
-          <div class="course-img">
-            <a href="best-university-for-phd-in-dehradun-uttarakhand.php">
-              <img src="assets/uploads/phd.webp" alt="Course Image">
+            <a href="master-in-public-health.php">
+              <img src="assets/uploads/mph.webp" alt="">
             </a>
           </div>
           <div class="course-body">
-            <h4>PhD Program</h4>
-            <p>Doctoral research program focused on original research and academic excellence.</p>
+            <h4>Master of Public Health (MPH)</h4>
+            <p>Focuses on epidemiology, public health leadership, and healthcare program management.</p>
             <div class="course-meta">
-              <span>Credits: 125</span><span>2 Years</span>
+              <span>Credits: 60</span>
+              <span>2 Years</span>
             </div>
-            <a class="default-btn btn-block" href="best-university-for-phd-in-dehradun-uttarakhand.php">Apply Now</a>
+            <a class="default-btn btn-block" href="master-in-public-health.php">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- MHA -->
+      <div class="col-lg-3 col-md-6 mb-30">
+        <div class="course-card">
+          <div class="course-img">
+            <a href="master-in-hospital-administration.php">
+              <img src="assets/uploads/mha.webp" alt="">
+            </a>
+          </div>
+          <div class="course-body">
+            <h4>Master of Hospital Administration (MHA)</h4>
+            <p>Advanced training in hospital operations, healthcare leadership, and strategic management.</p>
+            <div class="course-meta">
+              <span>Credits: 60</span>
+              <span>2 Years</span>
+            </div>
+            <a class="default-btn btn-block" href="master-in-hospital-administration.php">Apply Now</a>
           </div>
         </div>
       </div>
@@ -617,137 +247,157 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 </div>
 
 
-
 <!-- clubs section -->
 <section class="clubs-section py-5">
   <div class="container">
     <div class="section-title pb-50">
-      <h2>Clubs <span>& Societies 🎓</span></h2>
+      <h2>Student <span>& Clubs 🎓</span></h2>
     </div>
 
     <!-- Student Clubs -->
-    <h3 class="group-title mb-3"><strong>Student Clubs</strong></h3>
     <div class="row g-4">
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
         <div class="club-card flex-fill">
-          <div class="club-icon">✍️</div>
-          <h5 class="club-title">Creative Writing Club / Literary Society</h5>
-          <p class="club-desc">Encourages writing, poetry, and literary expression.</p>
+          <div class="club-icon">💻</div>
+          <h5 class="club-title">HealthTech Club</h5>
+          <p class="club-desc">Explores the integration of technology and healthcare to improve patient care and innovation.</p>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">🗣️</div>
-          <h5 class="club-title">Debating and Oratory Society</h5>
-          <p class="club-desc">Promotes debating, public speaking, and critical thinking skills.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">📚</div>
-          <h5 class="club-title">Book Club</h5>
-          <p class="club-desc">A community for book enthusiasts and reading circles.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
         <div class="club-card flex-fill">
           <div class="club-icon">🌍</div>
-          <h5 class="club-title">Language Clubs</h5>
-          <p class="club-desc">Celebrates learning and practicing different languages.</p>
+          <h5 class="club-title">Public Health Society</h5>
+          <p class="club-desc">Works on awareness, prevention, and community health initiatives for societal well-being.</p>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
         <div class="club-card flex-fill">
-          <div class="club-icon">🎭</div>
-          <h5 class="club-title">Drama and Theatre Club</h5>
-          <p class="club-desc">Brings stage performances and creative storytelling to life.</p>
+          <div class="club-icon">🩺</div>
+          <h5 class="club-title">Clinical Skills Club</h5>
+          <p class="club-desc">Provides hands-on training sessions to strengthen core clinical and patient care skills.</p>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
         <div class="club-card flex-fill">
-          <div class="club-icon">🎶</div>
-          <h5 class="club-title">Music and Fine Arts Society</h5>
-          <p class="club-desc">Encourages music, painting, and artistic expression.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">🎬</div>
-          <h5 class="club-title">Film and Media Club</h5>
-          <p class="club-desc">Explores cinema, photography, and digital storytelling.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">📰</div>
-          <h5 class="club-title">Student Magazine / Newsletter Team</h5>
-          <p class="club-desc">Publishes creative and informative student content.</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-        <div class="club-card flex-fill">
-          <div class="club-icon">🤝</div>
-          <h5 class="club-title">Community Engagement Club</h5>
-          <p class="club-desc">Works on social service and community development initiatives.</p>
+          <div class="club-icon">🥗</div>
+          <h5 class="club-title">Wellness & Nutrition Club</h5>
+          <p class="club-desc">Promotes healthy living through balanced nutrition, fitness, and overall wellness programs.</p>
         </div>
       </div>
     </div>
+  </div>
+</section>
+<!-- clubs section ends -->
+<section class="clubs-section py-5">
+  <div class="container">
+    <div class="section-title pb-50">
+      <h2>Career <span>Options 💼</span></h2>
+    </div>
 
-    <!-- Societies -->
-    <h3 class="group-title mt-5 mb-3"><strong>Societies</strong></h3>
+    <!-- Career Options -->
     <div class="row g-4">
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
         <div class="club-card flex-fill">
-          <div class="club-icon">🎨</div>
-          <h5 class="club-title">Cultural Heritage Society</h5>
-          <p class="club-desc">Preserves and promotes diverse cultural traditions.</p>
+          <div class="club-icon">🧪</div>
+          <h5 class="club-title">Medical Laboratory Technician</h5>
+          <p class="club-desc">Conducts lab tests to help diagnose and treat diseases.</p>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
         <div class="club-card flex-fill">
-          <div class="club-icon">💡</div>
-          <h5 class="club-title">Philosophy Forum / Thinkers' Circle</h5>
-          <p class="club-desc">Encourages philosophical discussions and critical ideas.</p>
+          <div class="club-icon">💉</div>
+          <h5 class="club-title">Anaesthesia Technician</h5>
+          <p class="club-desc">Assists anesthesiologists in patient care before and after surgery.</p>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
         <div class="club-card flex-fill">
-          <div class="club-icon">🏛️</div>
-          <h5 class="club-title">History and Heritage Club</h5>
-          <p class="club-desc">Explores history and promotes heritage awareness.</p>
+          <div class="club-icon">🩻</div>
+          <h5 class="club-title">Radiology Technician</h5>
+          <p class="club-desc">Operates imaging equipment to diagnose medical conditions.</p>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
         <div class="club-card flex-fill">
-          <div class="club-icon">⚖️</div>
-          <h5 class="club-title">Social Justice / Human Rights Society</h5>
-          <p class="club-desc">Advocates equality, justice, and human rights awareness.</p>
+          <div class="club-icon">💧</div>
+          <h5 class="club-title">Dialysis Technician</h5>
+          <p class="club-desc">Provides care for patients undergoing kidney dialysis treatment.</p>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
         <div class="club-card flex-fill">
-          <div class="club-icon">🎓</div>
-          <h5 class="club-title">Alumni and Career Cell</h5>
-          <p class="club-desc">Strengthens alumni connections and career support networks.</p>
+          <div class="club-icon">🛠️</div>
+          <h5 class="club-title">Operation Theatre Technician</h5>
+          <p class="club-desc">Supports surgical teams by managing OT instruments and setup.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
+        <div class="club-card flex-fill">
+          <div class="club-icon">❤️</div>
+          <h5 class="club-title">Cardiac Care Technician</h5>
+          <p class="club-desc">Assists in diagnosing and treating heart-related conditions.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
+        <div class="club-card flex-fill">
+          <div class="club-icon">🏥</div>
+          <h5 class="club-title">Hospital Administrator</h5>
+          <p class="club-desc">Manages hospital operations, staff, and healthcare services.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
+        <div class="club-card flex-fill">
+          <div class="club-icon">🌍</div>
+          <h5 class="club-title">Public Health Specialist</h5>
+          <p class="club-desc">Works on disease prevention and health promotion programs.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
+        <div class="club-card flex-fill">
+          <div class="club-icon">🤝</div>
+          <h5 class="club-title">Healthcare Consultant</h5>
+          <p class="club-desc">Advises hospitals and organizations to improve healthcare systems.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
+        <div class="club-card flex-fill">
+          <div class="club-icon">🔬</div>
+          <h5 class="club-title">Research Scientist</h5>
+          <p class="club-desc">Conducts medical and scientific research for innovation.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
+        <div class="club-card flex-fill">
+          <div class="club-icon">✅</div>
+          <h5 class="club-title">Quality Control Specialist</h5>
+          <p class="club-desc">Ensures healthcare services meet quality and safety standards.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
+        <div class="club-card flex-fill">
+          <div class="club-icon">📊</div>
+          <h5 class="club-title">Clinical Research Associate</h5>
+          <p class="club-desc">Monitors clinical trials to ensure accuracy and compliance.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- clubs section ends -->
 <!-- Why Choose Us -->
 <section class="why-choose-us py-5">
   <div class="container">
@@ -903,7 +553,7 @@ $dataFile = __DIR__ . "/admin/data/blogs.json";
 $blogs = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
 
 // SET DEPARTMENT TAG
-$dept = "Arts"; // change dynamically if needed
+$dept = "Health Sciences"; // change dynamically if needed
 
 // FILTER BLOGS BY TAG
 $filteredBlogs = [];
@@ -916,6 +566,7 @@ foreach ($blogs as $id => $b) {
 // LATEST BLOGS (limit 8 for slider)
 $latestBlogs = array_slice(array_reverse($filteredBlogs, true), 0, 10, true);
 ?>
+
 <?php if (!empty($latestBlogs)): ?>  <!-- 🔥 MAIN CONDITION -->
 
 <div class="event-area bg-img default-overlay pt-10 pb-10">
