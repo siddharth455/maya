@@ -1,21 +1,21 @@
 <?php
-$page_title = "BMLT Course in Dehradun | Maya Devi University";
-$page_description = "Study BMLT at Maya Devi University, Dehradun with modern diagnostic labs and practical clinical training.";
-$canonical_url = "https://maya.edu.in/bmlt.php";
+$page_title = "BBA in Hospitality Management in Dehradun | Maya Devi University";
+$page_description = "Join BBA in Hospitality Management at Maya Devi University, Dehradun. Explore careers in hotel management, tourism, and event planning with industry-aligned training.";
+$canonical_url = "https://maya.edu.in/bba-hospitality-management.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
-    <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/bmlt.webp);">
+    <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/bba-8.webp);">
         <div class="container">
-            <h2>Bachelor of Medical Laboratory Technology</h2>
-            <p>The MLT program trains students in diagnostic laboratory procedures including Clinical Biochemistry, Microbiology, Hematology, Immunology, and Pathology. Graduates work in diagnostic labs, hospitals, blood banks, and research centers.</p>
+            <h2>Bachelor of Business Administration in Hospitality Management</h2>
+            <p>BBA Hospitality Management focuses on the business aspects of the hospitality industry, including hotel operations, tourism management, and customer service excellence.</p>
         </div>
     </div>
     <div class="breadcrumb-bottom">
         <div class="container">
             <ul>
-                <li><a href="index.php">Home</a> <span><i class="fa fa-angle-double-right"></i>BMLT</span></li>
+                <li><a href="index.php">Home</a> <span><i class="fa fa-angle-double-right"></i>BBA Hospitality Management</span></li>
             </ul>
         </div>
     </div>
@@ -26,7 +26,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/bmlt.webp" alt="">
+                        <img src="assets/uploads/bba-8.webp" alt="">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -35,10 +35,10 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="tab-pane active mt-5" id="course-details-1">
                             <div class="over-view-content">
                                 <h4>COURSE DETAILS</h4>
-                                <h5>Course Name : Bachelor of Medical Laboratory Technology (BMLT)</h5>
-                                <p>Core subjects include medical laboratory techniques, clinical biochemistry, microbiology, hematology, and pathology. Students learn to perform diagnostic tests, analyze samples, and operate laboratory equipment accurately. The curriculum emphasizes practical training, laboratory procedures, and maintaining safety and quality standards.</p>
-                                <p>Hands-on labs and clinical internships enhance technical skills. The program promotes precision, adherence to medical protocols, and professional ethics. Research and training with healthcare partners provide real-world exposure. Graduates are prepared for roles as medical laboratory technicians, lab supervisors, and diagnostic assistants in hospitals, diagnostic centers, and research laboratories.</p>
-
+                                <h5>Course Name : Bachelor of Business Administration in Hospitality Management (BBA-HM)</h5>
+                                <p>The BBA in Hospitality Management program is designed to provide students with a solid foundation in business management principles while specializing in the dynamic hospitality and tourism sectors. The curriculum covers core areas such as hotel operations, food and beverage management, front office operations, and hospitality marketing. Students gain a deep understanding of the service industry, learning how to manage teams, ensure customer satisfaction, and handle the operational complexities of hotels, resorts, and travel agencies.</p> 
+                                <p>Practical training is a key component, with students participating in internships and hands-on workshops in real-world settings. The program emphasizes professional communication, leadership skills, and global hospitality standards. Graduates are well-equipped for management roles in global hotel chains, luxury resorts, event management firms, and the travel industry, ensuring they are ready to meet the challenges of the fast-paced service world.</p>
+<p><strong>Note:-</strong> This programme offers a 3+1 year degree with multiple exit policies according to NEP 2020.</p>
                                 <div class="over-view-list">
                                     <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
@@ -47,7 +47,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Minimum age: 17 years as on 31st December 2026</p>
+                                            <p>10+2 from recognized board</p>
                                         </div>
                                     </div>
                                     <div class="sin-over-view-list">
@@ -55,23 +55,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
-                                            <p>10+2 with Physics, Chemistry & Biology</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>General Category: Minimum 50% marks</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>SC/ST Category: Minimum 45% marks</p>
+                                            <p>Minimum 45–50% marks (as per university norms)</p>
                                         </div>
                                     </div>
                                 </div>
@@ -80,16 +64,17 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
                                     <div class="single-course-summary">
                                         <h4>Approved Seats (2026–27): </h4>
-                                        <span><i class="fa fa-user"></i> 30</span>
+                                        <span><i class="fa fa-user"></i> 60</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Program Duration</h4>
-                                        <span><i class="fa fa-clock-o"></i> 3 Years + Internship (1 year)</span>
+                                        <span><i class="fa fa-clock-o"></i> 3 Years + Internship (1 year) (HONOURS WITH RESEARCH)</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Credits</h4>
                                         <span><i class="fa fa-diamond"></i> 125</span>
                                     </div>
+                                    
                                 </div>
 
                             </div>
@@ -188,7 +173,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="sidebar-title mb-15">
                             <h4>About Us</h4>
                         </div>
-                        <p>Maya Devi University’s BMLT (Bachelor of Medical Laboratory Technology) program provides comprehensive knowledge and practical training in diagnostic testing, laboratory techniques, and clinical procedures. Graduates are prepared for careers as medical laboratory technicians, lab supervisors, and diagnostic assistants, contributing to accurate and efficient healthcare services in hospitals and diagnostic centers.</p>
+                        <p>Maya Devi University’s BBA in Hospitality Management program offers a comprehensive blend of business education and hospitality specialization. With a focus on practical skills and industry exposure, we prepare students for leadership roles in the global service industry, from luxury hotels to international tourism management.</p>
                     </div>
 
                     <div class="sidebar-category mb-40">
@@ -217,9 +202,58 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
-                                    <p>The BMLT programme trains students in medical laboratory sciences, combining theoretical knowledge with hands-on practical training in diagnostic techniques, pathology, microbiology, biochemistry, and clinical laboratory procedures. The course emphasizes accuracy, laboratory safety, patient care, and professional ethics, preparing students to work effectively in modern healthcare settings.</p>
+                                    <p>Expertise in hotel and resort operations.</p>
                                 </div>
                             </div>
+                            <div class="sin-over-view-list">
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="course-list-content">
+                                    <p>Strong focus on customer service excellence.</p>
+                                </div>
+                            </div>
+                            <div class="sin-over-view-list">
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="course-list-content">
+                                    <p>Proficiency in food and beverage management.</p>
+                                </div>
+                            </div>
+                            <div class="sin-over-view-list">
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="course-list-content">
+                                    <p>Leadership and team management skills.</p>
+                                </div>
+                            </div>
+                            <div class="sin-over-view-list">
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="course-list-content">
+                                    <p>Professional communication and interpersonal skills.</p>
+                                </div>
+                            </div>
+                            <div class="sin-over-view-list">
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="course-list-content">
+                                    <p>Global hospitality standards and ethics.</p>
+                                </div>
+                            </div>
+                            <div class="sin-over-view-list">
+                                <div class="course-list-icon">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="course-list-content">
+                                    <p>Hands-on industry training and internships.</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                     <div class="over-view-list">
@@ -232,7 +266,47 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
-                                <p>Graduates can work as Medical Laboratory Technologists in hospitals, diagnostic and research laboratories, blood banks, and pharmaceutical companies. They can specialise in areas such as clinical biochemistry, microbiology, pathology, or molecular diagnostics, or pursue higher studies and research in medical laboratory sciences.</p>
+                                <p>Hotel and Resort Manager</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Front Office Manager</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Food and Beverage Manager</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Event and Banquet Planner</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Tourism and Travel Consultant</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>Guest Relations Executive</p>
                             </div>
                         </div>
 

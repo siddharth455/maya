@@ -9,7 +9,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/bpt.webp);">
         <div class="container">
             <h2>Bachelor of Physiotherapy (BPT)</h2>
-            <p>The Bachelor of Physiotherapy (BPT) program at Maya Devi University is a comprehensive undergraduate course designed to develop skilled professionals in the field of physical rehabilitation and therapeutic care.</p>
+            <p>The BPT program prepares students to become skilled rehabilitation professionals. Core areas include Anatomy & Physiology, Exercise Therapy, Electrotherapy, Orthopedics, Neurology, and Clinical Physiotherapy.</p>
         </div>
     </div>
     <div class="breadcrumb-bottom">
@@ -39,28 +39,59 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <p>Core subjects include human anatomy, physiology, kinesiology, exercise therapy, and rehabilitation techniques. Students learn to assess patients, design treatment plans, and apply physiotherapy interventions effectively. The curriculum emphasizes practical training, clinical procedures, and managing patient recovery safely.</p> 
                             <p>Hands-on labs and clinical internships enhance practical skills. The program promotes patient safety, evidence-based practice, and professional ethics. Research and training with healthcare partners provide real-world exposure. Graduates are prepared for roles as physiotherapists, rehabilitation specialists, and clinical assistants in hospitals, clinics, and wellness centers.</p>
                                 <div class="over-view-list">
-                                <h2>Eligibility Criteria</h2>
+                                    <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
-                                       
+
                                         <div class="course-list-icon">
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Candidates requires passing 10+2 with Physics, Chemistry, Biology and English from a recognised board with minimum marks often 50% in PCB.</p>
+                                            <p>Minimum age: 17 years as on 31st December 2026</p>
                                         </div>
                                     </div>
-                                    
+                                    <div class="sin-over-view-list">
+                                        <div class="course-list-icon">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="course-list-content">
+                                            <p>10+2 with Physics, Chemistry & Biology</p>
+                                        </div>
+                                    </div>
+                                    <div class="sin-over-view-list">
+                                        <div class="course-list-icon">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="course-list-content">
+                                            <p>NEET Appearance Mandatory ( not mandatory ( desirable ) university entrance exam is there)</p>
+                                        </div>
+                                    </div>
+                                    <div class="sin-over-view-list">
+                                        <div class="course-list-icon">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="course-list-content">
+                                            <p>General Category: Minimum 50% marks</p>
+                                        </div>
+                                    </div>
+                                    <div class="sin-over-view-list">
+                                        <div class="course-list-icon">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="course-list-content">
+                                            <p>SC/ST Category: Minimum 45% marks</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <h2>More Details</h2>
                                 <div class="course-summary-wrap mt-4">
                                     
                                     <div class="single-course-summary">
-                                        <h4>Total Students</h4>
+                                        <h4>Approved Seats (2026–27):</h4>
                                         <span><i class="fa fa-user"></i> 30</span>
                                     </div>
                                     <div class="single-course-summary">
-                                        <h4>Course Duration</h4>
-                                        <span><i class="fa fa-clock-o"></i> 4years</span>
+                                        <h4>Program Duration</h4>
+                                        <span><i class="fa fa-clock-o"></i> 4 Years + 1 Year Internship</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Credits</h4>

@@ -555,7 +555,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="row justify-content-center g-4">
       
       <!-- Member 1 -->
-      <div class="col-md-4 col-sm-6">
+      <!-- <div class="col-md-4 col-sm-6">
         <div class="teacher-card">
           <div class="teacher-img">
             <img src="assets/uploads/pro-vice.jpg" alt="Prof. Sandip Vijay">
@@ -565,7 +565,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <h5>Pro Vice Chancellor</h5>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Member 2 -->
       <div class="col-md-4 col-sm-6">

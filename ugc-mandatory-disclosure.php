@@ -82,13 +82,13 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <a href="vice-chancelor.php" target="_blank">https://maya.edu.in/vice-chancelor</a>
           </td>
         </tr>
-        <tr>
+        <!-- <tr>
           <td>Pro Vice-Chancellor</td>
           <td>
             Name: Prof. (Dr.) Sandip Vijay | Email: pvc@mdu.edu.in | Mobile: 0135-2698502 | Profile:
             <a href="pro-vice-chancelor.php" target="_blank">https://maya.edu.in/pro-vice-chancelor</a>
           </td>
-        </tr>
+        </tr> -->
         <tr>
           <td>Registrar</td>
           <td>

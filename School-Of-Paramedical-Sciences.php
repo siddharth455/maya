@@ -193,7 +193,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <p>Focuses on physiotherapy techniques, rehabilitation, anatomy, and clinical practice.</p>
             <div class="course-meta">
               <span>Credits: 125</span>
-              <span>4 Years</span>
+              <span>4 Years + internship</span>
             </div>
             <a class="default-btn btn-block" href="bpt.php">Apply Now</a>
           </div>
@@ -213,7 +213,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <p>Trains students in laboratory diagnostics, testing procedures, and clinical healthcare skills.</p>
             <div class="course-meta">
               <span>Credits: 125</span>
-              <span>3.5 Years</span>
+              <span>3 Years + internship</span>
             </div>
             <a class="default-btn btn-block" href="bmlt.php">Apply Now</a>
           </div>
@@ -233,7 +233,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <p>Focuses on radiology techniques, medical imaging, and diagnostic technology.</p>
             <div class="course-meta">
               <span>Credits: 125</span>
-              <span>3.5 Years</span>
+              <span>3 Years + internship</span>
             </div>
             <a class="default-btn btn-block" href="bmrit.php">Apply Now</a>
           </div>
@@ -253,18 +253,18 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <p>Trains students in surgical assistance, OT management, and patient care procedures.</p>
             <div class="course-meta">
               <span>Credits: 125</span>
-              <span>3.5 Years</span>
+              <span>3 Years + internship</span>
             </div>
             <a class="default-btn btn-block" href="bott.php">Apply Now</a>
           </div>
         </div>
       </div>
 
-      <!-- <div class="col-lg-3 col-md-6 mb-30">
+      <div class="col-lg-3 col-md-6 mb-30">
   <div class="course-card">
     <div class="course-img">
-      <a href="bba-hospitality.php">
-        <img src="assets/uploads/hospitality.webp" alt="BBA Hospitality Management">
+      <a href="bba-hospitality-management.php">
+        <img src="assets/uploads/bba-8.webp" alt="BBA Hospitality Management">
       </a>
     </div>
     <div class="course-body">
@@ -274,10 +274,10 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <span>Credits: 125</span>
         <span>3 Years + Internship</span>
       </div>
-      <a class="default-btn btn-block" href="bba-hospitality.php">Apply Now</a>
+      <a class="default-btn btn-block" href="bba-hospitality-management.php">Apply Now</a>
     </div>
   </div>
-</div> -->
+</div>
 
     </div>
 

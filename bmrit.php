@@ -9,7 +9,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/bmrit.webp);">
         <div class="container">
             <h2>Bachelor of Medical Radiology & Imaging Technology</h2>
-            <p>The BMRIT program is a specialized undergraduate course that equips students with the knowledge and technical skills required to perform diagnostic imaging procedures.</p>
+            <p>The BMRIT program focuses on diagnostic imaging including Radiographic Techniques, CT & MRI Technology, Radiation Physics, and Patient Safety.</p>
         </div>
     </div>
     <div class="breadcrumb-bottom">
@@ -47,7 +47,31 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Admission to the BMRIT course requires passing 10+2 with Physics, Chemistry, Biology/Maths and English from a recognised board with minimum marks Minimum marks often 50% in PCB for general category</p>
+                                            <p>Minimum age: 17 years as on 31st December 2026</p>
+                                        </div>
+                                    </div>
+                                    <div class="sin-over-view-list">
+                                        <div class="course-list-icon">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="course-list-content">
+                                            <p>10+2 with Physics, Chemistry & Biology/Mathematics</p>
+                                        </div>
+                                    </div>
+                                    <div class="sin-over-view-list">
+                                        <div class="course-list-icon">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="course-list-content">
+                                            <p>General Category: Minimum 50% marks</p>
+                                        </div>
+                                    </div>
+                                    <div class="sin-over-view-list">
+                                        <div class="course-list-icon">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="course-list-content">
+                                            <p>SC/ST Category: Minimum 45% marks</p>
                                         </div>
                                     </div>
                                 </div>
@@ -55,12 +79,12 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 <div class="course-summary-wrap mt-4">
 
                                     <div class="single-course-summary">
-                                        <h4>Total Students</h4>
+                                        <h4>Approved Seats (2026–27): 30</h4>
                                         <span><i class="fa fa-user"></i> 30</span>
                                     </div>
                                     <div class="single-course-summary">
-                                        <h4>Course Duration</h4>
-                                        <span><i class="fa fa-clock-o"></i> 3years</span>
+                                        <h4>Program Duration</h4>
+                                        <span><i class="fa fa-clock-o"></i> 3 Years + Internship (1 year)</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Credits</h4>

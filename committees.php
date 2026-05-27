@@ -1107,32 +1107,32 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <!-- <tr>
       <td>1</td>
       <td>Prof. (Dr.) Sandip Vijay</td>
       <td>Pro Vice Chancellor</td>
       <td>Chair Person</td>
-    </tr>
+    </tr> -->
     <tr>
-      <td>2</td>
+      <td>1</td>
       <td>Prof.(Dr.) Shivani Jaggi</td>
       <td>Dean, School of Life & Applied Sciences</td>
       <td>Member</td>
     </tr>
     <tr>
-      <td>3</td>
+      <td>2</td>
       <td>Prof.(Dr.) Vikram Singh</td>
       <td>Dean, School of Pharmacy</td>
       <td>Member</td>
     </tr>
     <tr>
-      <td>4</td>
+      <td>3</td>
       <td>Dr. Rita</td>
       <td>School of Arts & Humanities</td>
       <td>Member</td>
     </tr>
     <tr>
-      <td>5</td>
+      <td>4</td>
       <td>Prof. (Dr.) Meenakshi</td>
       <td>Dean, Research Studies</td>
       <td>Member Secretary</td>
