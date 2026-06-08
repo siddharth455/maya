@@ -157,13 +157,13 @@ $base_path = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\') . '/';
                             ?>
                                 <div class="single-recent-post">
                                     <div class="recent-post-img">
-                                        <a href="blog/<?= $slugLink ?>">
+                                        <a href="blog-single.php?slug=<?= $slugLink ?>">
                                             <img src="<?= $b['image'] ?? 'assets/img/blog/default.jpg'; ?>" alt="">
                                         </a>
                                     </div>
                                     <div class="recent-post-content">
                                         <h5>
-                                            <a href="blog/<?= $slugLink ?>">
+                                            <a href="blog-single.php?slug=<?= $slugLink ?>">
                                                 <?= htmlspecialchars($b['title']); ?>
                                             </a>
                                         </h5>

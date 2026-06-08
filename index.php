@@ -2184,7 +2184,7 @@ $latestBlogs = array_slice(array_reverse($blogs, true), 0, 4, true);
                         
                         <div class="single-blog">
                             <div class="blog-img" style="height:200px; overflow:hidden;">
-                                <a href="blog/<?= $slug ?>">
+                                <a href="blog-single.php?slug=<?= $slug ?>">
                                     <img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;">
                                 </a>
                             </div>
@@ -2194,7 +2194,7 @@ $latestBlogs = array_slice(array_reverse($blogs, true), 0, 4, true);
 
                                 <div class="blog-content" style="flex-grow:1;">
                                     <h4>
-                                        <a href="blog/<?= $slug ?>"><?= $title ?></a>
+                                        <a href="blog-single.php?slug=<?= $slug ?>"><?= $title ?></a>
                                     </h4>
                                     <p><?= $excerpt ?></p>
 
@@ -2305,7 +2305,7 @@ $latestBlogs = array_slice(array_reverse($blogs, true), 0, 4, true);
                         <div class="blog-img">
                             
                             <!-- ✅ UPDATED LINK -->
-                            <a href="event/<?= $slug ?>">
+                            <a href="event-details.php?slug=<?= $slug ?>">
                                 <img src="<?php echo 'admin/' . htmlspecialchars($event['image']); ?>"
                                     alt="<?php echo htmlspecialchars($event['title']); ?>"
                                     style="height:180px; width:100%; object-fit:cover;">
@@ -2318,7 +2318,7 @@ $latestBlogs = array_slice(array_reverse($blogs, true), 0, 4, true);
                                 <h4 class="event-title">
                                     
                                     <!-- ✅ UPDATED LINK -->
-                                    <a href="event/<?= $slug ?>">
+                                    <a href="event-details.php?slug=<?= $slug ?>">
                                         <?php echo htmlspecialchars($event['title']); ?>
                                     </a>
 

@@ -10,6 +10,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 // Load blogs dynamically
 $dataFile = __DIR__ . "/admin/data/blogs.json";
 $blogs = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
+uasort($blogs, function($a, $b) { return strtotime($b['date']) - strtotime($a['date']); });
 
 // ✅ ADD THIS HERE (ONLY ONCE)
 function createSlug($text) {
@@ -96,7 +97,7 @@ $blogsPage = array_slice(array_reverse($filteredBlogs, true), $offset, $perPage,
     <div class="single-blog d-flex flex-column" style="flex:1;">
         
         <div class="blog-img">
-            <a href="<?= $base_url ?>blog/<?=$slug?>">
+            <a href="blog-single.php?slug=<?=$slug?>">
                 <img src="<?=$img?>" alt="<?=$title?>">
             </a>
         </div>
@@ -106,7 +107,7 @@ $blogsPage = array_slice(array_reverse($filteredBlogs, true), $offset, $perPage,
 
             <div class="blog-content flex-grow-1">
                 <h4>
-                    <a href="<?= $base_url ?>blog/<?=$slug?>"><?=$title?></a>
+                    <a href="blog-single.php?slug=<?=$slug?>"><?=$title?></a>
                 </h4>
                 <p><?=$excerpt?></p>
             </div>

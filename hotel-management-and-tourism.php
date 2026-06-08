@@ -21,7 +21,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <!-- Left Text -->
     <div class="col-md-7">
       <p>
-      The Department of Hotel Management was established in 2012 under the umbrella of the Maya Devi Educational Foundation. Since its inception, the department has been committed to nurturing talent and shaping future leaders in the Hospitality and Tourism industry.
+      The School of Hotel & Tourism Management was established under the aegis of the Maya Devi Educational Foundation with a vision to develop skilled professionals for the dynamic Hospitality and Tourism industry. Since its inception, the school has been dedicated to providing quality education, practical exposure, and industry-oriented training to prepare students for successful careers in hospitality, tourism, travel, and allied sectors. Through academic excellence and professional development, the school continues to shape future leaders and innovators in the global hospitality industry.
       </p>
       <p>
       Our goal is to empower individuals with the confidence and competence needed to excel across a wide spectrum of career opportunities in the hospitality domain.At SOHM, our mission is to provide unparalleled education and hands-on training for students aiming to succeed in the vibrant and ever-evolving Hospitality & Tourism sector.

@@ -160,7 +160,7 @@ $base_url = $protocol . $host . $projectFolder;
                                                         <li><a href="best-engineering-college-in-dehradun-uttarakhand.php">School of Engineering</a></li>
                                                         <li><a href="pharmacy.php">School of Pharmacy</a></li>
                                                         <li><a href="management-and-commerce.php">School of Commerce & Management</a></li>
-                                                        <li><a href="hotel-management-and-tourism.php">School of Hotel Management & Tourism</a></li>
+                                                        <li><a href="hotel-management-and-tourism.php">School of Hotel & Tourism Management</a></li>
                                                         <li><a href="sciences.php">School of Life & Applied Science</a></li>
                                                     </ul>
                                                 </li>
@@ -250,7 +250,7 @@ $base_url = $protocol . $host . $projectFolder;
                                         <li><a href="best-engineering-college-in-dehradun-uttarakhand.php">School of Engineering</a></li>
                                         <li><a href="pharmacy.php">School of Pharmacy</a></li>
                                         <li><a href="management-and-commerce.php">School of Commerce & Management</a></li>
-                                        <li><a href="hotel-management-and-tourism.php">School of Hotel Management & Tourism</a></li>
+                                        <li><a href="hotel-management-and-tourism.php">School of Hotel & Tourism Management </a></li>
                                         <li><a href="sciences.php">School of Life & Applied Science</a></li>
                                         <li><a href="School-Of-Education.php">School of Education</a></li>
                                         <li><a href="agriculture.php">School of Agriculture & Technology</a></li>

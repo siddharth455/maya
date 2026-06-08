@@ -73,7 +73,7 @@
                 <li><a href="agriculture.php">School of Agriculture and Technology</a></li>
                 <li><a href="best-engineering-college-in-dehradun-Uttarakhand.php">School of Engineering</a></li>
                 <li><a href="management-and-commerce.php">School of Commerce & Management</a></li>
-                <li><a href="hotel-management-and-tourism.php">School of Hotel Management & Tourism</a></li>
+                <li><a href="hotel-management-and-tourism.php">School of Hotel & Tourism Management</a></li>
                 <li><a href="School-Of-Education.php">School of Education</a></li>
                 <li><a href="Nursing.php">School of Nursing</a></li>
               </ul>

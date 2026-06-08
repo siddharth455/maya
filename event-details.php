@@ -132,7 +132,7 @@ $base_path = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\') . '/';
                                 ?>
                                     <div class="event-card">
                                         <!-- ✅ UPDATED LINK -->
-                                        <a href="event/<?= $evSlug ?>">
+                                        <a href="event-details.php?slug=<?= $evSlug ?>">
                                             <div class="event-card-img">
                                                 <img src="<?php echo 'admin/' . htmlspecialchars($ev['image']); ?>" 
                                                      alt="<?php echo htmlspecialchars($ev['title']); ?>">

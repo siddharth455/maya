@@ -31,6 +31,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             if (file_exists($dataFile)) {
                 $events = json_decode(file_get_contents($dataFile), true);
 
+                uasort($events, function($a, $b) { return strtotime($b['date']) - strtotime($a['date']); });
                 if (!empty($events)) {
                     foreach ($events as $id => $event) {
 
@@ -51,7 +52,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="single-event mb-30 event-gray-bg">
                                 <div class="event-img">
                                     <!-- ✅ UPDATED LINK -->
-                                    <a href="event/<?= $slug ?>">
+                                    <a href="event-details.php?slug=<?= $slug ?>">
                                         <img src="<?php echo htmlspecialchars($image); ?>" alt="">
                                     </a>
                                     <div class="event-date-wrap">
@@ -62,7 +63,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 <div class="event-content">
                                     <h3>
                                         <!-- ✅ UPDATED LINK -->
-                                        <a href="event/<?= $slug ?>">
+                                        <a href="event-details.php?slug=<?= $slug ?>">
                                             <?php echo htmlspecialchars($event['title']); ?>
                                         </a>
                                     </h3>
