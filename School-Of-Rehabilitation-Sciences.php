@@ -3,8 +3,109 @@ $page_title = "School of Rehabilitation Sciences | Maya Devi University Dehradun
 $page_description = "School of Rehabilitation Sciences at Maya Devi University, Dehradun offering therapy and rehabilitation programs.";
 $canonical_url = "https://maya.edu.in/School-Of-Rehabilitation-Sciences.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+$page_schema = <<<SCHEMA
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "Ashtvakra School of Rehabilitation — Maya Devi University, Dehradun",
+ "url": "https://maya.edu.in/School-Of-Rehabilitation-Sciences.php",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item": {
+    "@type": "Course",
+    "name": "B.Sc. Occupational Therapy",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Sc. Occupational Therapy offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item": {
+    "@type": "Course",
+    "name": "B.Sc. Prosthetics & Orthotics",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Sc. Prosthetics & Orthotics offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "item": {
+    "@type": "Course",
+    "name": "B.Sc. Audiology & Speech Language Pathology",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Sc. Audiology & Speech Language Pathology offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "What is the Ashtvakra School of Rehabilitation at Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "The Ashtvakra School of Rehabilitation Sciences at Maya Devi University offers undergraduate programs in Occupational Therapy, Prosthetics & Orthotics, and Audiology & Speech Language Pathology. These programs prepare students for careers in hospitals, rehabilitation centers, and community health settings."
+   }
+  }
+ ]
+}
+</script>
+SCHEMA;
 ?>
 <?php require "common/header.php" ?>
+
 <!-- Hero Section -->
 <section class="hero-section" style="background: url('assets/uploads/asr.jpg') center/cover no-repeat; height:70vh;">
   <div class="hero-content">
@@ -384,11 +485,14 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
           <h2>Why <span>Choose Us 🌟 ?</span></h2>
         </div>
         <p class="text-muted">
-          Choosing the right place to pursue your education is a life-changing decision—one that shapes not just your academic journey but also your personal and professional future. At the School of Computer Applications, Maya Devi University, we go beyond conventional learning by offering an ecosystem of innovation, creativity, and global opportunities.
+          Choosing the right institution for rehabilitation sciences is the first step toward building a meaningful healthcare career. At the School of Rehabilitation Sciences, Maya Devi University, we provide an advanced learning environment where academic excellence meets compassionate patient care. Our programs are designed to prepare students with the knowledge, clinical expertise, and practical skills required to improve the quality of life for individuals with physical, neurological, and developmental challenges.
         </p>
-        <p class="text-muted">Our focus is on preparing students to thrive in a fast-evolving digital world where adaptability, critical thinking, and ethical leadership matter as much as technical expertise. With state-of-the-art infrastructure, hands-on industry exposure, and mentorship from accomplished faculty, we ensure that every learner is equipped to transform ideas into impactful realities.</p>
+        <p class="text-muted">
+          Through modern laboratories, clinical training, experienced faculty, and hands-on exposure, students gain confidence in assessment, treatment, rehabilitation planning, and patient-centered care. We nurture healthcare professionals who are committed to restoring mobility, enhancing independence, and making a positive impact on society.
+        </p>
         <a href="https://admissions.maya.edu.in" class="btn btn-success btn-lg mt-3">Apply Now →</a>
       </div>
+
       <div class="col-lg-5 text-center">
         <img src="assets/uploads/computer.jpg"
           alt="Why Choose Us"
@@ -399,36 +503,36 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
     <!-- Feature Points -->
     <div class="row gy-4">
+
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">🚀</span>
-          <h5>Excellence in Education & Innovation</h5>
+          <span class="feature-icon">🏥</span>
+          <h5>Advanced Clinical Training</h5>
           <p>
-            We offer a future-ready curriculum blending theory with hands-on practice in
-            AI, cybersecurity, data science, and cloud computing—ensuring students graduate
-            with cutting-edge skills.
+            Gain practical experience through modern rehabilitation labs, clinical postings,
+            and patient-centered learning that develops real-world healthcare skills.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">⚖️</span>
-          <h5>Ethics Meets Technology</h5>
+          <span class="feature-icon">🦴</span>
+          <h5>Comprehensive Rehabilitation Education</h5>
           <p>
-            Beyond technical expertise, we emphasize building responsible leaders who
-            innovate with integrity, guided by strong ethical values and social responsibility.
+            Learn evidence-based approaches in physiotherapy, occupational therapy,
+            rehabilitation techniques, and assistive technologies to deliver quality patient care.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">🌍</span>
-          <h5>Global Readiness</h5>
+          <span class="feature-icon">👨‍⚕️</span>
+          <h5>Expert Faculty & Clinical Mentorship</h5>
           <p>
-            International collaborations, industry exposure, and real-world projects prepare
-            our students for a connected, global workforce and professional agility.
+            Learn from experienced academicians and healthcare professionals who guide
+            students through academic learning, clinical practice, and professional development.
           </p>
         </div>
       </div>
@@ -436,10 +540,10 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <div class="col-md-6">
         <div class="feature-box">
           <span class="feature-icon">🔬</span>
-          <h5>Research & Creativity</h5>
+          <h5>Research & Evidence-Based Practice</h5>
           <p>
-            Opportunities for research, innovation, and product development encourage
-            exploration, experimentation, and creative problem-solving in every discipline.
+            Participate in research projects, case studies, and innovative rehabilitation
+            practices that enhance critical thinking and improve patient outcomes.
           </p>
         </div>
       </div>
@@ -447,24 +551,26 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <div class="col-md-6">
         <div class="feature-box">
           <span class="feature-icon">🤝</span>
-          <h5>Supportive, Inclusive Environment</h5>
+          <h5>Holistic Patient Care</h5>
           <p>
-            A diverse, inclusive learning culture where every student is heard, supported,
-            and mentored—personally, academically, and professionally.
+            Develop compassion, communication, and interdisciplinary collaboration skills
+            to provide comprehensive rehabilitation services with empathy and professionalism.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">📚</span>
-          <h5>Commitment to Lifelong Learning</h5>
+          <span class="feature-icon">💼</span>
+          <h5>Career-Focused Learning</h5>
           <p>
-            Education here goes beyond degrees—it builds a mindset of curiosity,
-            critical thinking, and continuous growth for life.
+            Build a rewarding career through internships, clinical exposure, industry
+            collaborations, and placement support in hospitals, rehabilitation centers,
+            sports clinics, and healthcare organizations.
           </p>
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -678,4 +784,23 @@ $slug = trim($slug, '-');
     }
   });
 </script>
+<section class="mdu-faq-section" id="faq">
+  <style>
+    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
+    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
+    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
+      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
+    .mdu-faq-q::-webkit-details-marker{display:none;}
+    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
+    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
+    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
+  </style>
+  <h2>Frequently Asked Questions</h2>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What is the Ashtvakra School of Rehabilitation at Maya Devi University?</summary>
+      <p class="mdu-faq-a">The Ashtvakra School of Rehabilitation Sciences at Maya Devi University offers undergraduate programs in Occupational Therapy, Prosthetics &amp; Orthotics, and Audiology &amp; Speech Language Pathology. These programs prepare students for careers in hospitals, rehabilitation centers, and community health settings.</p>
+    </details>
+</section>
+
 <?php require "common/footer.php" ?>

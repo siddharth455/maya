@@ -1,10 +1,167 @@
 <?php
-$page_title = "School of Legal Studies | Maya Devi University Dehradun";
-$page_description = "School of Legal Studies at Maya Devi University, Dehradun offering LLB and LLM programs.";
-$canonical_url = "https://maya.edu.in/School-Of-LegalStudies.php";
+$page_title = "School of Paramedical Sciences | Maya Devi University Dehradun";
+$page_description = "School of Paramedical Sciences at Maya Devi University, Dehradun offering LLB and LLM programs.";
+$canonical_url = "https://maya.edu.in/School-Of-Paramedical-Sciences.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+$page_schema = <<<SCHEMA
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "School of Paramedical Sciences — Maya Devi University, Dehradun",
+ "url": "https://maya.edu.in/School-Of-Paramedical-Sciences.php",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item": {
+    "@type": "Course",
+    "name": "BPT (Bachelor of Physiotherapy)",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "BPT (Bachelor of Physiotherapy) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item": {
+    "@type": "Course",
+    "name": "BMLT (Bachelor of Medical Laboratory Technology)",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "BMLT (Bachelor of Medical Laboratory Technology) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "item": {
+    "@type": "Course",
+    "name": "BMRIT (Bachelor of Medical Radio Imaging Technology)",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "BMRIT (Bachelor of Medical Radio Imaging Technology) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 4,
+   "item": {
+    "@type": "Course",
+    "name": "B.OTT (Bachelor of Operation Theatre Technology)",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.OTT (Bachelor of Operation Theatre Technology) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 5,
+   "item": {
+    "@type": "Course",
+    "name": "B.Optometry",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Optometry offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "What paramedical courses are available at Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Maya Devi University offers BPT (Physiotherapy), BMLT (Medical Lab Technology), BMRIT (Radiology & Imaging), B.OTT (Operation Theatre Technology), and B.Optometry under the School of Paramedical Sciences."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is clinical training provided for paramedical students at MDU?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Maya Devi University has tie-ups with hospitals for clinical training and internships for all paramedical programs. Students get hands-on patient care experience as part of their curriculum."
+   }
+  }
+ ]
+}
+</script>
+SCHEMA;
 ?>
 <?php require "common/header.php" ?>
+
 <!-- Hero Section -->
 <section class="hero-section" style="background: url('assets/uploads/sps.jpg') center/cover no-repeat; height:70vh;">
   <div class="hero-content">
@@ -983,52 +1140,36 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <div class="section-title pb-20">
           <h2>Why <span>Choose Us 🌟 ?</span></h2>
         </div>
+
         <p class="text-muted">
-          Choosing the right place to pursue your education is a life-changing decision—one that shapes not just your academic journey but also your personal and professional future. At the School of Computer Applications, Maya Devi University, we go beyond conventional learning by offering an ecosystem of innovation, creativity, and global opportunities.
+          Choosing the right institution is the first step toward a successful career in healthcare. At the School of Paramedical Sciences, Maya Devi University, we prepare skilled healthcare professionals through a perfect blend of academic excellence, practical laboratory training, and clinical exposure. Our programs are designed to equip students with the knowledge, technical expertise, and professional ethics required to support modern medical care.
         </p>
-        <p class="text-muted">Our focus is on preparing students to thrive in a fast-evolving digital world where adaptability, critical thinking, and ethical leadership matter as much as technical expertise. With state-of-the-art infrastructure, hands-on industry exposure, and mentorship from accomplished faculty, we ensure that every learner is equipped to transform ideas into impactful realities.</p>
+
+        <p class="text-muted">
+          With experienced faculty, advanced laboratories, hospital-based training, and industry-oriented learning, students gain hands-on experience in diagnostic techniques, patient care, and medical technologies. We focus on developing competent paramedical professionals who are ready to contribute effectively to the healthcare sector and improve patient outcomes.
+        </p>
+
         <a href="https://admissions.maya.edu.in" class="btn btn-success btn-lg mt-3">Apply Now →</a>
       </div>
+
       <div class="col-lg-5 text-center">
-        <img src="assets/uploads/computer.jpg"
-          alt="Why Choose Us"
-          class="img-fluid rounded shadow"
-          style="max-height:380px; object-fit:cover; width:100%;">
+        <img src="assets/uploads/paramedical.webp"
+             alt="School of Paramedical Sciences"
+             class="img-fluid rounded shadow"
+             style="max-height:380px; object-fit:cover; width:100%;">
       </div>
     </div>
 
     <!-- Feature Points -->
     <div class="row gy-4">
-      <div class="col-md-6">
-        <div class="feature-box">
-          <span class="feature-icon">🚀</span>
-          <h5>Excellence in Education & Innovation</h5>
-          <p>
-            We offer a future-ready curriculum blending theory with hands-on practice in
-            AI, cybersecurity, data science, and cloud computing—ensuring students graduate
-            with cutting-edge skills.
-          </p>
-        </div>
-      </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">⚖️</span>
-          <h5>Ethics Meets Technology</h5>
+          <span class="feature-icon">🩺</span>
+          <h5>Comprehensive Clinical Training</h5>
           <p>
-            Beyond technical expertise, we emphasize building responsible leaders who
-            innovate with integrity, guided by strong ethical values and social responsibility.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="feature-box">
-          <span class="feature-icon">🌍</span>
-          <h5>Global Readiness</h5>
-          <p>
-            International collaborations, industry exposure, and real-world projects prepare
-            our students for a connected, global workforce and professional agility.
+            Gain practical experience through modern laboratories, clinical postings,
+            and hospital-based training that prepares you for real-world healthcare environments.
           </p>
         </div>
       </div>
@@ -1036,35 +1177,58 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <div class="col-md-6">
         <div class="feature-box">
           <span class="feature-icon">🔬</span>
-          <h5>Research & Creativity</h5>
+          <h5>Advanced Diagnostic Skills</h5>
           <p>
-            Opportunities for research, innovation, and product development encourage
-            exploration, experimentation, and creative problem-solving in every discipline.
+            Learn the latest diagnostic techniques, laboratory procedures,
+            medical imaging, and patient care practices using state-of-the-art equipment.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">🤝</span>
-          <h5>Supportive, Inclusive Environment</h5>
+          <span class="feature-icon">👨‍⚕️</span>
+          <h5>Experienced Faculty & Mentorship</h5>
           <p>
-            A diverse, inclusive learning culture where every student is heard, supported,
-            and mentored—personally, academically, and professionally.
+            Learn from qualified healthcare professionals and experienced academicians
+            who provide personalized guidance and industry-focused education.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">📚</span>
-          <h5>Commitment to Lifelong Learning</h5>
+          <span class="feature-icon">🏥</span>
+          <h5>Hospital & Industry Exposure</h5>
           <p>
-            Education here goes beyond degrees—it builds a mindset of curiosity,
-            critical thinking, and continuous growth for life.
+            Benefit from internships, hospital training, workshops, and collaborations
+            that enhance clinical competence and professional confidence.
           </p>
         </div>
       </div>
+
+      <div class="col-md-6">
+        <div class="feature-box">
+          <span class="feature-icon">💡</span>
+          <h5>Innovation & Research</h5>
+          <p>
+            Participate in research activities, healthcare innovations, and evidence-based
+            practices that strengthen analytical thinking and professional growth.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="feature-box">
+          <span class="feature-icon">🎓</span>
+          <h5>Excellent Career Opportunities</h5>
+          <p>
+            Build a rewarding career in hospitals, diagnostic laboratories, imaging centers,
+            emergency care services, blood banks, and healthcare organizations with strong placement support.
+          </p>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -1277,4 +1441,27 @@ $slug = trim($slug, '-');
     }
   });
 </script>
+<section class="mdu-faq-section" id="faq">
+  <style>
+    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
+    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
+    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
+      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
+    .mdu-faq-q::-webkit-details-marker{display:none;}
+    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
+    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
+    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
+  </style>
+  <h2>Frequently Asked Questions</h2>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What paramedical courses are available at Maya Devi University?</summary>
+      <p class="mdu-faq-a">Maya Devi University offers BPT (Physiotherapy), BMLT (Medical Lab Technology), BMRIT (Radiology &amp; Imaging), B.OTT (Operation Theatre Technology), and B.Optometry under the School of Paramedical Sciences.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">Is clinical training provided for paramedical students at MDU?</summary>
+      <p class="mdu-faq-a">Yes. Maya Devi University has tie-ups with hospitals for clinical training and internships for all paramedical programs. Students get hands-on patient care experience as part of their curriculum.</p>
+    </details>
+</section>
+
 <?php require "common/footer.php" ?>

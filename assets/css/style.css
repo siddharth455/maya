@@ -1057,6 +1057,21 @@ transform: translateX(0);
 .pt-230 {
   padding-top: 230px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .pt-230 {
+    padding-top: 180px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .pt-230 {
+    padding-top: 140px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .pt-230 {
+    padding-top: 100px;
+  }
+}
 
 .pt-270 {
   padding-top: 270px;
@@ -2540,26 +2555,30 @@ textarea:focus {
 
 /*--------- 3. Slider style ---------*/
 .slider-height-1 {
-  height: 700px;
+  height: auto;
+  min-height: 120vh;
+  display: flex;
+  align-items: center;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1365px) {
   .slider-height-1 {
-    height: 600px;
+    min-height: 85vh;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-height-1 {
-    height: 600px;
+    min-height: 75vh;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-height-1 {
-    height: 500px;
+    min-height: 70vh;
   }
 }
 @media only screen and (max-width: 767px) {
   .slider-height-1 {
-    height: 500px;
+    min-height: 60vh;
+    min-height: max(60vh, 350px);
   }
 }
 
@@ -2568,6 +2587,7 @@ textarea:focus {
 }
 .slider-active .slider-single-img {
   width: 504px;
+  height: 500px;
   position: absolute;
   right: 256px;
   bottom: 0;
@@ -3148,7 +3168,7 @@ textarea:focus {
 }
 
 .choose-negative-mrg {
-  margin-top: -102px;
+  
   z-index: 9;
   position: relative;
 }

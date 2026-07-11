@@ -3,8 +3,85 @@ $page_title = "School of Health Sciences | Maya Devi University Dehradun";
 $page_description = "School of Health Sciences at Maya Devi University, Dehradun offering nursing and paramedical programs.";
 $canonical_url = "https://maya.edu.in/School-Of-Health-Sciences.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+$page_schema = <<<SCHEMA
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "School of Health Sciences — Maya Devi University, Dehradun",
+ "url": "https://maya.edu.in/School-Of-Health-Sciences.php",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item": {
+    "@type": "Course",
+    "name": "Master of Public Health (MPH)",
+    "url": "https://maya.edu.in/post-graduate.php",
+    "description": "Master of Public Health (MPH) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item": {
+    "@type": "Course",
+    "name": "Master of Hospital Administration (MHA)",
+    "url": "https://maya.edu.in/post-graduate.php",
+    "description": "Master of Hospital Administration (MHA) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "What is the MPH program at Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "The Master of Public Health (MPH) is a 2-year postgraduate program at Maya Devi University focused on epidemiology, health policy, biostatistics, and community health management. It prepares graduates for careers in public health agencies, NGOs, and hospitals."
+   }
+  }
+ ]
+}
+</script>
+SCHEMA;
 ?>
 <?php require "common/header.php" ?>
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
@@ -831,5 +908,24 @@ if (typeof $ !== 'undefined' && $.fn.slick) {
   });
 }
 </script>
+
+<section class="mdu-faq-section" id="faq">
+  <style>
+    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
+    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
+    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
+      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
+    .mdu-faq-q::-webkit-details-marker{display:none;}
+    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
+    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
+    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
+  </style>
+  <h2>Frequently Asked Questions</h2>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What is the MPH program at Maya Devi University?</summary>
+      <p class="mdu-faq-a">The Master of Public Health (MPH) is a 2-year postgraduate program at Maya Devi University focused on epidemiology, health policy, biostatistics, and community health management. It prepares graduates for careers in public health agencies, NGOs, and hospitals.</p>
+    </details>
+</section>
 
 <?php require "common/footer.php" ?>

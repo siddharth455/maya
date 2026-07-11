@@ -3,8 +3,117 @@ $page_title = "School of Education | Maya Devi University Dehradun";
 $page_description = "Explore School of Education at Maya Devi University, Dehradun offering B.Ed and teacher training programs.";
 $canonical_url = "https://maya.edu.in/School-Of-Education.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+$page_schema = <<<SCHEMA
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "School of Education — Maya Devi University, Dehradun",
+ "url": "https://maya.edu.in/School-Of-Education.php",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item": {
+    "@type": "Course",
+    "name": "B.Ed (Bachelor of Education)",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Ed (Bachelor of Education) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item": {
+    "@type": "Course",
+    "name": "M.Ed (Master of Education)",
+    "url": "https://maya.edu.in/post-graduate.php",
+    "description": "M.Ed (Master of Education) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "item": {
+    "@type": "Course",
+    "name": "D.El.Ed (Diploma in Elementary Education)",
+    "url": "https://maya.edu.in/Diploma-course.php",
+    "description": "D.El.Ed (Diploma in Elementary Education) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Diploma",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Is B.Ed at Maya Devi University approved by NCTE?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. The B.Ed program at Maya Devi University is approved by the National Council for Teacher Education (NCTE), which is mandatory for teaching positions in schools across India."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What is the duration of B.Ed at Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "The B.Ed program is a 2-year full-time course. Eligibility requires a bachelor's degree with minimum 50% marks in any discipline."
+   }
+  }
+ ]
+}
+</script>
+SCHEMA;
 ?>
 <?php require "common/header.php"?>
+
   <!-- Hero Section -->
   <section class="hero-section" style="background: url('assets/uploads/soe.jpg') center/cover no-repeat; height:70vh;">
   <div class="hero-content">
@@ -180,65 +289,71 @@ document.addEventListener("DOMContentLoaded", () => {
     <div class="row align-items-center mb-5">
       <div class="col-lg-7">
         <div class="section-title pb-20">
-        <h2>Why <span>Choose Us 🌟 ?</span></h2>
+          <h2>Why <span>Choose Us 🌟 ?</span></h2>
         </div>
+
         <p class="text-muted">
-        Choosing the right place to pursue your education is a life-changing decision—one that shapes not just your academic journey but also your personal and professional future. At the School of Computer Applications, Maya Devi University, we go beyond conventional learning by offering an ecosystem of innovation, creativity, and global opportunities.
+          Choosing the right institution is the foundation of a successful teaching career. At the School of Education, Maya Devi University, we prepare future educators through a balanced approach that combines academic excellence, practical teaching experience, and innovative learning methodologies. Our programs are designed to develop skilled, compassionate, and socially responsible educators who inspire lifelong learning.
         </p>
-        <p class="text-muted">Our focus is on preparing students to thrive in a fast-evolving digital world where adaptability, critical thinking, and ethical leadership matter as much as technical expertise. With state-of-the-art infrastructure, hands-on industry exposure, and mentorship from accomplished faculty, we ensure that every learner is equipped to transform ideas into impactful realities.</p>
+
+        <p class="text-muted">
+          With experienced faculty, modern teaching practices, school internships, and a learner-centric environment, students gain the knowledge, confidence, and leadership skills required to excel in today's evolving education sector. We focus on nurturing educators who can make a meaningful impact in classrooms and communities alike.
+        </p>
+
         <a href="https://admissions.maya.edu.in" class="btn btn-success btn-lg mt-3">Apply Now →</a>
       </div>
+
       <div class="col-lg-5 text-center">
-        <img src="assets/uploads/computer.jpg" 
-             alt="Why Choose Us" 
-             class="img-fluid rounded shadow" 
+        <img src="assets/uploads/education.jpg"
+             alt="School of Education"
+             class="img-fluid rounded shadow"
              style="max-height:380px; object-fit:cover; width:100%;">
       </div>
     </div>
 
     <!-- Feature Points -->
     <div class="row gy-4">
+
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">🚀</span>
-          <h5>Excellence in Education & Innovation</h5>
+          <span class="feature-icon">👩‍🏫</span>
+          <h5>Innovative Teacher Education</h5>
           <p>
-            We offer a future-ready curriculum blending theory with hands-on practice in 
-            AI, cybersecurity, data science, and cloud computing—ensuring students graduate 
-            with cutting-edge skills.
+            Our curriculum integrates modern pedagogical approaches, educational technology,
+            and classroom management techniques to prepare effective and confident educators.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">⚖️</span>
-          <h5>Ethics Meets Technology</h5>
+          <span class="feature-icon">🏫</span>
+          <h5>Practical Teaching Experience</h5>
           <p>
-            Beyond technical expertise, we emphasize building responsible leaders who 
-            innovate with integrity, guided by strong ethical values and social responsibility.
+            Gain hands-on experience through teaching practice, school internships,
+            lesson planning, and real classroom exposure under expert supervision.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">🌍</span>
-          <h5>Global Readiness</h5>
+          <span class="feature-icon">📖</span>
+          <h5>Academic Excellence</h5>
           <p>
-            International collaborations, industry exposure, and real-world projects prepare 
-            our students for a connected, global workforce and professional agility.
+            Learn from experienced faculty who combine educational theory with practical
+            insights to develop strong teaching, communication, and leadership skills.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">🔬</span>
-          <h5>Research & Creativity</h5>
+          <span class="feature-icon">💡</span>
+          <h5>Research & Educational Innovation</h5>
           <p>
-            Opportunities for research, innovation, and product development encourage 
-            exploration, experimentation, and creative problem-solving in every discipline.
+            Explore educational research, curriculum development, and innovative teaching
+            strategies that promote creativity and lifelong learning.
           </p>
         </div>
       </div>
@@ -246,24 +361,25 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-md-6">
         <div class="feature-box">
           <span class="feature-icon">🤝</span>
-          <h5>Supportive, Inclusive Environment</h5>
+          <h5>Holistic Personality Development</h5>
           <p>
-            A diverse, inclusive learning culture where every student is heard, supported, 
-            and mentored—personally, academically, and professionally.
+            Build confidence, empathy, communication, and leadership qualities essential
+            for becoming a responsible and inspiring educator.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">📚</span>
-          <h5>Commitment to Lifelong Learning</h5>
+          <span class="feature-icon">🎓</span>
+          <h5>Excellent Career Opportunities</h5>
           <p>
-            Education here goes beyond degrees—it builds a mindset of curiosity, 
-            critical thinking, and continuous growth for life.
+            Prepare for rewarding careers in schools, educational institutions,
+            curriculum development, educational administration, and teacher training organizations.
           </p>
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -473,4 +589,27 @@ $slug = trim($slug, '-');
 });
 
 </script>
+<section class="mdu-faq-section" id="faq">
+  <style>
+    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
+    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
+    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
+      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
+    .mdu-faq-q::-webkit-details-marker{display:none;}
+    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
+    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
+    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
+  </style>
+  <h2>Frequently Asked Questions</h2>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">Is B.Ed at Maya Devi University approved by NCTE?</summary>
+      <p class="mdu-faq-a">Yes. The B.Ed program at Maya Devi University is approved by the National Council for Teacher Education (NCTE), which is mandatory for teaching positions in schools across India.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What is the duration of B.Ed at Maya Devi University?</summary>
+      <p class="mdu-faq-a">The B.Ed program is a 2-year full-time course. Eligibility requires a bachelor's degree with minimum 50% marks in any discipline.</p>
+    </details>
+</section>
+
 <?php require "common/footer.php"?>

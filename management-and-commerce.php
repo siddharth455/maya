@@ -3,8 +3,149 @@ $page_title = "Management & Commerce Programs in Dehradun | Maya Devi University
 $page_description = "Explore Management and Commerce programs at Maya Devi University, Dehradun with industry-focused curriculum and placement support.";
 $canonical_url = "https://maya.edu.in/management-and-commerce.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+$page_schema = <<<SCHEMA
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "School of Commerce & Management — Maya Devi University, Dehradun",
+ "url": "https://maya.edu.in/management-and-commerce.php",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item": {
+    "@type": "Course",
+    "name": "BBA (Bachelor of Business Administration)",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "BBA (Bachelor of Business Administration) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item": {
+    "@type": "Course",
+    "name": "B.Com (Bachelor of Commerce)",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Com (Bachelor of Commerce) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "item": {
+    "@type": "Course",
+    "name": "MBA (Master of Business Administration)",
+    "url": "https://maya.edu.in/post-graduate.php",
+    "description": "MBA (Master of Business Administration) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 4,
+   "item": {
+    "@type": "Course",
+    "name": "M.Com (Master of Commerce)",
+    "url": "https://maya.edu.in/post-graduate.php",
+    "description": "M.Com (Master of Commerce) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "What MBA specializations are offered at Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Maya Devi University offers MBA with specializations in Marketing, Finance, Human Resources, and Operations Management. The program is a 2-year full-time course."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What is the eligibility for MBA at Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "For MBA admission at Maya Devi University, candidates must hold a bachelor's degree with minimum 50% marks. Scores from CAT, MAT, or CMAT are accepted. Direct admission is also available based on merit."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What companies recruit MBA students from Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "MBA graduates from Maya Devi University are recruited by companies such as Amazon, Deloitte, American Express, HDFC Bank, Axis Bank, and various multinational consulting firms."
+   }
+  }
+ ]
+}
+</script>
+SCHEMA;
 ?>
 <?php require "common/header.php"?>
+
 <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
 <style>
@@ -1786,6 +1927,33 @@ if ($.fn.slick) {
     });
 }
 </script>
+<section class="mdu-faq-section" id="faq">
+  <style>
+    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
+    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
+    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
+      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
+    .mdu-faq-q::-webkit-details-marker{display:none;}
+    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
+    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
+    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
+  </style>
+  <h2>Frequently Asked Questions</h2>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What MBA specializations are offered at Maya Devi University?</summary>
+      <p class="mdu-faq-a">Maya Devi University offers MBA with specializations in Marketing, Finance, Human Resources, and Operations Management. The program is a 2-year full-time course.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What is the eligibility for MBA at Maya Devi University?</summary>
+      <p class="mdu-faq-a">For MBA admission at Maya Devi University, candidates must hold a bachelor's degree with minimum 50% marks. Scores from CAT, MAT, or CMAT are accepted. Direct admission is also available based on merit.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What companies recruit MBA students from Maya Devi University?</summary>
+      <p class="mdu-faq-a">MBA graduates from Maya Devi University are recruited by companies such as Amazon, Deloitte, American Express, HDFC Bank, Axis Bank, and various multinational consulting firms.</p>
+    </details>
+</section>
+
 <?php require "common/footer.php"?>
 </main>
 </html>

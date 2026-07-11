@@ -24,28 +24,44 @@
 <meta name="twitter:title" content="<?php echo $page_title ?? "Maya Devi University"; ?>">
 <meta name="twitter:description" content="<?php echo $page_description ?? "Top university in Dehradun offering multiple programs."; ?>">
 <meta name="twitter:image" content="<?php echo $og_image ?? "https://maya.edu.in/assets/uploads/campus-2.jpeg"; ?>">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/uploads/logo/favicon-CqYW0pAm.ico">
 
-    <!-- CSS
-	============================================ -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="assets/uploads/logo/favicon-CqYW0pAm.ico">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-    <!-- Icon Font CSS -->
-    <link rel="stylesheet" href="assets/css/icons.min.css">
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/css/plugins.css">
-    <!-- Main Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Modernizer JS -->
-    <script src="assets/js/vendor/modernizr-3.11.7.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
-    
+<!-- SPEED FIX: Preconnect to external domains to reduce DNS + TCP time -->
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<link rel="preconnect" href="https://www.youtube.com" crossorigin>
+<link rel="dns-prefetch" href="https://connect.facebook.net">
+
+<!-- Critical CSS first (local files — fast) -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/icons.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Non-critical CSS loaded asynchronously (SPEED FIX) -->
+<link rel="stylesheet" href="assets/css/plugins.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="assets/css/plugins.css"></noscript>
+
+<!-- OwlCarousel CSS (async load) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" media="print" onload="this.media='all'" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" media="print" onload="this.media='all'" />
+<noscript>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+</noscript>
+
+<!-- Font Awesome async (SPEED FIX: was blocking render) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></noscript>
+
+<!-- Bootstrap Icons async -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"></noscript>
+
+<!-- SPEED FIX: Modernizr moved to bottom of body — it was blocking render in <head> -->
+
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -53,22 +69,25 @@
  "name": "Maya Devi University",
  "url": "https://maya.edu.in",
  "address": {
-   "@type": "PostalAddress",w
+   "@type": "PostalAddress",
    "addressLocality": "Dehradun",
    "addressCountry": "India"
  }
 }
 </script>
-<!-- Google tag (gtag.js) -->
+
+<!-- Google Analytics (async — already correct) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QVTKG6K0PZ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-QVTKG6K0PZ');
 </script>
+
+<!-- SPEED FIX: Facebook Pixel deferred — was blocking render -->
 <script>
+window.addEventListener('load', function() {
   !function(f,b,e,v,n,t,s)
   {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
   n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -79,23 +98,27 @@
   'https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', '244750689907885');
   fbq('track', 'PageView');
-  </script>
+});
+</script>
+
+<!-- Page-specific structured data (Course Schema, FAQ Schema, etc.) -->
+<?php echo $page_schema ?? ''; ?>
 </head>
 
 <body>
-    <!-- Meta Pixel noscript -->
+  <!-- Meta Pixel noscript -->
   <noscript>
     <img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=244750689907885&ev=PageView&noscript=1"/>
   </noscript>
+
+  <!-- SPEED FIX: Modernizr moved here from <head> — no longer blocks render -->
+  <script src="assets/js/vendor/modernizr-3.11.7.min.js" defer></script>
+
     <?php
 $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "https://";
 $host = $_SERVER['HTTP_HOST'];
-
-// Detect project folder (for localhost)
 $projectFolder = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
-
-// Final base URL
 $base_url = $protocol . $host . $projectFolder;
 ?>
     <header class="header-area">

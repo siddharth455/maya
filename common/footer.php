@@ -675,16 +675,17 @@
 ============================================ -->
 
 <!-- jQuery JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js" defer></script>
 
 <!-- Popper JS -->
-<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/popper.min.js" defer></script>
 <!-- Bootstrap JS -->
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap.min.js" defer></script>
 <!-- Plugins JS -->
-<script src="assets/js/plugins.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" defer></script>
+<script src="assets/js/plugins.js" defer></script>
 <!-- Ajax Mail -->
-<script src="assets/js/ajax-mail.js"></script>
+<script src="assets/js/ajax-mail.js" defer></script>
 <!-- Main JS -->
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.js" defer></script>

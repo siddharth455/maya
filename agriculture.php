@@ -3,8 +3,189 @@ $page_title = "Agriculture Courses in Dehradun | Maya Devi University";
 $page_description = "Study Agriculture at Maya Devi University, Dehradun with practical field training, modern labs, and industry-focused curriculum.";
 $canonical_url = "https://maya.edu.in/agriculture.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+$page_schema = <<<SCHEMA
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "School of Agriculture & Technology — Maya Devi University, Dehradun",
+ "url": "https://maya.edu.in/agriculture.php",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item": {
+    "@type": "Course",
+    "name": "B.Sc. (Hons.) Agriculture",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Sc. (Hons.) Agriculture offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item": {
+    "@type": "Course",
+    "name": "B.Sc. Forestry",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Sc. Forestry offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "item": {
+    "@type": "Course",
+    "name": "M.Sc. Agriculture (Agronomy)",
+    "url": "https://maya.edu.in/post-graduate.php",
+    "description": "M.Sc. Agriculture (Agronomy) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 4,
+   "item": {
+    "@type": "Course",
+    "name": "M.Sc. Agriculture (Plant Pathology)",
+    "url": "https://maya.edu.in/post-graduate.php",
+    "description": "M.Sc. Agriculture (Plant Pathology) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 5,
+   "item": {
+    "@type": "Course",
+    "name": "M.Sc. Genetics & Plant Breeding",
+    "url": "https://maya.edu.in/genetics-and-plant-breeding.php",
+    "description": "M.Sc. Genetics & Plant Breeding offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 6,
+   "item": {
+    "@type": "Course",
+    "name": "Master in Agriculture",
+    "url": "https://maya.edu.in/master-in-agriculture.php",
+    "description": "Master in Agriculture offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Is the B.Sc. Agriculture program at Maya Devi University ICAR approved?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Maya Devi University's agriculture programs are recognised by the Indian Council of Agricultural Research (ICAR). The university has dedicated agricultural land for practical farming exposure."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What makes the Agriculture program at MDU unique?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Maya Devi University has a zero-waste, eco-friendly campus with in-house agricultural land, a bio-gas plant, vermicomposting, and a 200 KVA solar system — giving agriculture students hands-on practical experience in sustainable farming techniques."
+   }
+  }
+ ]
+}
+</script>
+SCHEMA;
 ?>
 <?php require "common/header.php" ?>
+
 <!-- Hero Section -->
 <section class="hero-section" style="background: url('assets/uploads/sat.jpg') center/cover no-repeat; height:70vh;">
   <div class="hero-content">
@@ -911,4 +1092,28 @@ $slug = trim($slug, '-');
     }
   });
 </script>
+
+<section class="mdu-faq-section" id="faq">
+  <style>
+    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
+    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
+    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
+      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
+    .mdu-faq-q::-webkit-details-marker{display:none;}
+    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
+    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
+    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
+  </style>
+  <h2>Frequently Asked Questions</h2>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">Is the B.Sc. Agriculture program at Maya Devi University ICAR approved?</summary>
+      <p class="mdu-faq-a">Yes. Maya Devi University's agriculture programs are recognised by the Indian Council of Agricultural Research (ICAR). The university has dedicated agricultural land for practical farming exposure.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What makes the Agriculture program at MDU unique?</summary>
+      <p class="mdu-faq-a">Maya Devi University has a zero-waste, eco-friendly campus with in-house agricultural land, a bio-gas plant, vermicomposting, and a 200 KVA solar system — giving agriculture students hands-on practical experience in sustainable farming techniques.</p>
+    </details>
+</section>
+
 <?php require "common/footer.php" ?>

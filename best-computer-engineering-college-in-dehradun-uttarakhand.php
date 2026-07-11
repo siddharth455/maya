@@ -3,9 +3,286 @@ $page_title = "Best Computer Engineering College in Dehradun | Maya Devi Univers
 $page_description = "Looking for the best Computer Engineering college in Dehradun? Maya Devi University offers industry-focused B.Tech CSE programs with top placements.";
 $canonical_url = "https://maya.edu.in/best-computer-engineering-college-in-dehradun-uttarakhand.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+$page_schema = <<<SCHEMA
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "School of Computer Engineering & Applications — Maya Devi University, Dehradun",
+ "url": "https://maya.edu.in/best-computer-engineering-college-in-dehradun-uttarakhand.php",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item": {
+    "@type": "Course",
+    "name": "B.Tech Computer Science & Engineering",
+    "url": "https://maya.edu.in/b.tech-CSE.php",
+    "description": "B.Tech Computer Science & Engineering offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item": {
+    "@type": "Course",
+    "name": "B.Tech CSE with Specialization in AI & ML",
+    "url": "https://maya.edu.in/b.tech-AI-ML.php",
+    "description": "B.Tech CSE with Specialization in AI & ML offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "item": {
+    "@type": "Course",
+    "name": "B.Tech CSE with Specialization in Data Science",
+    "url": "https://maya.edu.in/b.tech-data_science.php",
+    "description": "B.Tech CSE with Specialization in Data Science offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 4,
+   "item": {
+    "@type": "Course",
+    "name": "B.Tech CSE with Specialization in Cyber Security",
+    "url": "https://maya.edu.in/b.tech-cyber_security.php",
+    "description": "B.Tech CSE with Specialization in Cyber Security offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 5,
+   "item": {
+    "@type": "Course",
+    "name": "BCA (Bachelor of Computer Applications)",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "BCA (Bachelor of Computer Applications) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 6,
+   "item": {
+    "@type": "Course",
+    "name": "BCA in AI & ML",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "BCA in AI & ML offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 7,
+   "item": {
+    "@type": "Course",
+    "name": "BCA in Data Science",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "BCA in Data Science offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 8,
+   "item": {
+    "@type": "Course",
+    "name": "BCA in Cyber Security",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "BCA in Cyber Security offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 9,
+   "item": {
+    "@type": "Course",
+    "name": "MCA (Master of Computer Applications)",
+    "url": "https://maya.edu.in/post-graduate.php",
+    "description": "MCA (Master of Computer Applications) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Does Maya Devi University offer B.Tech CSE with IBM partnership?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Maya Devi University offers B.Tech CSE programs in collaboration with IBM Innovation Centre for Education, with specializations in Artificial Intelligence & Machine Learning, Data Science, and Cyber Security & Forensics."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What is the duration of the B.Tech program at Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "The B.Tech program at Maya Devi University is a 4-year full-time program. Lateral entry (B.Tech LE) is also available for diploma holders as a 3-year program."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What are the eligibility criteria for B.Tech CSE at Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Candidates must have passed 10+2 with Physics, Chemistry, and Mathematics (PCM) with a minimum of 45% aggregate marks (40% for SC/ST). JEE Main scores are also accepted for admission."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What companies recruit from the School of Computer Engineering at MDU?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Top recruiters include IBM, Amazon, Cisco, TCS, Infosys, Accenture, Wipro, HCL, Coding Ninjas, Cloud Analogy, and DeltaX, among others."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What is the highest package offered to CSE students at Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "The highest package offered to students from the School of Computer Engineering & Applications at Maya Devi University is ₹43.6 LPA, with an average package of ₹7.5 LPA."
+   }
+  }
+ ]
+}
+</script>
+SCHEMA;
 ?>
 
 <?php require "common/header.php"?>
+
 <style>
   :root {
     --navy: #0a1628;
@@ -900,38 +1177,49 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <div class="reveal">
           <div class="section-label">Why MDU</div>
           <h2 class="section-maya">Why <em>Choose</em><br>Us?</h2>
-          <p style="color:var(--text-muted);line-height:1.8;margin-bottom:40px;font-size:1rem;">At the School of Computer Applications, Maya Devi University, we go beyond conventional learning—offering an ecosystem of innovation, creativity, and global opportunities.</p>
+
+          <p style="color:var(--text-muted);line-height:1.8;margin-bottom:40px;font-size:1rem;">
+            At the School of Computer Applications, Maya Devi University, we empower future IT professionals through industry-oriented education, practical learning, and emerging technologies. Our programs combine academic excellence with hands-on experience in software development, artificial intelligence, cloud computing, cybersecurity, and data science, preparing students for successful careers in the rapidly evolving digital world.
+          </p>
         </div>
+
         <div class="why-features">
+
           <div class="why-feat reveal delay-1">
-            <div class="why-feat-icon">🚀</div>
-            <h5>Education & Innovation</h5>
-            <p>Future-ready curriculum blending theory with hands-on practice in AI, cybersecurity, data science, and cloud.</p>
+            <div class="why-feat-icon">💻</div>
+            <h5>Industry-Oriented Curriculum</h5>
+            <p>Learn programming, web development, AI, cloud computing, cybersecurity, and data analytics through a curriculum aligned with current industry demands.</p>
           </div>
+
           <div class="why-feat reveal delay-2">
-            <div class="why-feat-icon">⚖️</div>
-            <h5>Ethics Meets Tech</h5>
-            <p>Building responsible leaders who innovate with integrity and social responsibility.</p>
+            <div class="why-feat-icon">🖥️</div>
+            <h5>Hands-on Technical Learning</h5>
+            <p>Gain practical experience through coding labs, live projects, hackathons, internships, and real-world software development.</p>
           </div>
+
           <div class="why-feat reveal delay-3">
-            <div class="why-feat-icon">🌍</div>
-            <h5>Global Readiness</h5>
-            <p>International collaborations and real-world projects prepare students for a connected global workforce.</p>
+            <div class="why-feat-icon">🌐</div>
+            <h5>Career & Industry Exposure</h5>
+            <p>Benefit from expert mentoring, industrial visits, workshops, certifications, and placement assistance with leading technology companies.</p>
           </div>
+
           <div class="why-feat reveal delay-4">
-            <div class="why-feat-icon">📚</div>
-            <h5>Lifelong Learning</h5>
-            <p>Education that goes beyond degrees—building curiosity, critical thinking, and continuous growth.</p>
+            <div class="why-feat-icon">🚀</div>
+            <h5>Innovation & Career Growth</h5>
+            <p>Develop problem-solving, innovation, and entrepreneurial skills that prepare you for careers in software engineering, IT consulting, research, and startups.</p>
           </div>
+
         </div>
       </div>
+
       <div class="why-visual reveal-right">
         <div class="why-img-wrap">
-          <img src="assets/uploads/computer.jpg" alt="Why Choose MDU" onerror="this.style.background='linear-gradient(135deg,#0d1f4a,#0a1628)';this.style.height='400px';this.src=''">
+          <img src="assets/uploads/computer.jpg" alt="School of Computer Applications" onerror="this.style.background='linear-gradient(135deg,#0d1f4a,#0a1628)';this.style.height='400px';this.src=''">
         </div>
+
         <div class="why-float-card">
-          <strong>48 LPA</strong>
-          <span>Highest Package</span>
+          <strong>Future-Ready</strong>
+          <span>Technology Education</span>
         </div>
       </div>
     </div>
@@ -1182,4 +1470,40 @@ $slug = trim($slug, '-');
   document.getElementById('tab-pg').style.display = 'none';
 </script>
 </main>
+
+<section class="mdu-faq-section" id="faq">
+  <style>
+    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
+    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
+    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
+      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
+    .mdu-faq-q::-webkit-details-marker{display:none;}
+    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
+    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
+    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
+  </style>
+  <h2>Frequently Asked Questions</h2>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">Does Maya Devi University offer B.Tech CSE with IBM partnership?</summary>
+      <p class="mdu-faq-a">Yes. Maya Devi University offers B.Tech CSE programs in collaboration with IBM Innovation Centre for Education, with specializations in Artificial Intelligence &amp; Machine Learning, Data Science, and Cyber Security &amp; Forensics.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What is the duration of the B.Tech program at Maya Devi University?</summary>
+      <p class="mdu-faq-a">The B.Tech program at Maya Devi University is a 4-year full-time program. Lateral entry (B.Tech LE) is also available for diploma holders as a 3-year program.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What are the eligibility criteria for B.Tech CSE at Maya Devi University?</summary>
+      <p class="mdu-faq-a">Candidates must have passed 10+2 with Physics, Chemistry, and Mathematics (PCM) with a minimum of 45% aggregate marks (40% for SC/ST). JEE Main scores are also accepted for admission.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What companies recruit from the School of Computer Engineering at MDU?</summary>
+      <p class="mdu-faq-a">Top recruiters include IBM, Amazon, Cisco, TCS, Infosys, Accenture, Wipro, HCL, Coding Ninjas, Cloud Analogy, and DeltaX, among others.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What is the highest package offered to CSE students at Maya Devi University?</summary>
+      <p class="mdu-faq-a">The highest package offered to students from the School of Computer Engineering &amp; Applications at Maya Devi University is ₹43.6 LPA, with an average package of ₹7.5 LPA.</p>
+    </details>
+</section>
+
 <?php require "common/footer.php"?>

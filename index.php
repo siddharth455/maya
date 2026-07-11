@@ -36,8 +36,8 @@
 
 </html>
 <?php require "common/header.php" ?>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+
 
 <div class="slider-area">
     <div class="slider-active owl-carousel owl-theme">
@@ -60,7 +60,7 @@ url('assets/uploads/home-banner-1.jpeg');">
 
                     <div class="col-lg-3 col-md-5 col-12">
                         <!-- <div class="slider-single-img slider-animated-1">
-                            <img class="animated" src="assets/uploads/banner-girl.png" alt="">
+                            <img loading="lazy" class="animated" src="assets/uploads/banner-girl.png" alt="">
                         </div> -->
                     </div>
                 </div>
@@ -89,7 +89,7 @@ url('assets/uploads/index-banner.jpeg');">
 
                     <div class="col-lg-3 col-md-5 col-12">
                         <!-- <div class="slider-single-img slider-animated-1">
-                            <img class="animated" src="assets/uploads/banner-girl.png" alt="">
+                            <img loading="lazy" class="animated" src="assets/uploads/banner-girl.png" alt="">
                         </div> -->
                     </div>
                 </div>
@@ -111,7 +111,7 @@ url('assets/uploads/index-banner-2.jpeg');">
 
                     <div class="col-lg-3 col-md-5 col-12">
                         <!-- <div class="slider-single-img slider-animated-1">
-                            <img class="animated" src="assets/uploads/banner-girl.png" alt="">
+                            <img loading="lazy" class="animated" src="assets/uploads/banner-girl.png" alt="">
                         </div> -->
                     </div>
                 </div>
@@ -133,7 +133,7 @@ url('assets/uploads/index-banner-3.jpeg');">
 
                     <div class="col-lg-3 col-md-5 col-12">
                         <!-- <div class="slider-single-img slider-animated-1">
-                            <img class="animated" src="assets/uploads/banner-girl.png" alt="">
+                            <img loading="lazy" class="animated" src="assets/uploads/banner-girl.png" alt="">
                         </div> -->
                     </div>
                 </div>
@@ -156,7 +156,26 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
 
                     <div class="col-lg-3 col-md-5 col-12">
                         <!-- <div class="slider-single-img slider-animated-1">
-                            <img class="animated" src="assets/uploads/girl-2.png" alt="">
+                            <img loading="lazy" class="animated" src="assets/uploads/girl-2.png" alt="">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single-slider slider-height-1 bg-img" style="background-image:
+linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/banner-4.jpeg');">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-9 col-md-7 col-12">
+                        <div class="slider-content slider-animated-1 pt-230">
+                            <div class="slider-btn">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-5 col-12">
+                        <!-- <div class="slider-single-img slider-animated-1">
+                            <img loading="lazy" class="animated" src="assets/uploads/girl-2.png" alt="">
                         </div> -->
                     </div>
                 </div>
@@ -165,24 +184,28 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
     </div>
 
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-<!-- FIXED Slider JS -->
+<!-- SPEED FIX: jQuery & OwlCarousel moved to footer — initialise slider after DOM ready -->
 <script>
-    $('.slider-active').owlCarousel({
-        loop: true,
-        items: 1,
-        margin: 0,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true,
-        nav: false,
-        dots: true,
-        smartSpeed: 600,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn'
-    });
+document.addEventListener("DOMContentLoaded", function() {
+    if (typeof jQuery !== "undefined" && typeof jQuery.fn.owlCarousel !== "undefined") {
+        jQuery('.slider-active').owlCarousel({
+            loop: true, items: 1, margin: 0,
+            autoplay: true, autoplayTimeout: 3000,
+            autoplayHoverPause: true, nav: false, dots: true,
+            smartSpeed: 600, animateOut: "fadeOut", animateIn: "fadeIn"
+        });
+    } else {
+        // Fallback: wait for scripts in footer to load
+        window.initSlider = function() {
+            jQuery('.slider-active').owlCarousel({
+                loop: true, items: 1, margin: 0,
+                autoplay: true, autoplayTimeout: 3000,
+                autoplayHoverPause: true, nav: false, dots: true,
+                smartSpeed: 600, animateOut: "fadeOut", animateIn: "fadeIn"
+            });
+        };
+    }
+});
 </script>
 <div class="choose-us section-padding-1">
     <div class="container-fluid">
@@ -190,7 +213,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-lg-3 col-md-6">
                 <div class="single-choose-us choose-bg-blue">
                     <div class="choose-img">
-                        <img class="animated" src="assets/img/icon-img/service-1.png" alt="Scholarship">
+                        <img loading="lazy" class="animated" src="assets/img/icon-img/service-1.png" alt="Scholarship">
                     </div>
                     <div class="choose-content">
                         <h3>Scholarship Facility</h3>
@@ -201,7 +224,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-lg-3 col-md-6">
                 <div class="single-choose-us choose-bg-green">
                     <div class="choose-img">
-                        <img class="animated" src="assets/img/icon-img/service-2.png" alt="Doctoral">
+                        <img loading="lazy" class="animated" src="assets/img/icon-img/service-2.png" alt="Doctoral">
                     </div>
                     <div class="choose-content">
                         <h3>Doctoral Program</h3>
@@ -212,7 +235,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-lg-3 col-md-6">
                 <div class="single-choose-us choose-bg-blue">
                     <div class="choose-img">
-                        <img class="animated" src="assets/uploads/p-icon.jpg" style="height: 74px; width:70px" alt="Placement">
+                        <img loading="lazy" class="animated" src="assets/uploads/p-icon.jpg" style="height: 74px; width:70px" alt="Placement">
                     </div>
                     <div class="choose-content">
                         <h3>Career Placement</h3>
@@ -223,7 +246,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-lg-3 col-md-6">
                 <div class="single-choose-us choose-bg-green">
                     <div class="choose-img">
-                        <img class="animated" src="assets/uploads/s-icon.webp" style="height: 74px; width:70px" alt="Empowering">
+                        <img loading="lazy" class="animated" src="assets/uploads/s-icon.webp" style="height: 74px; width:70px" alt="Empowering">
                     </div>
                     <div class="choose-content">
                         <h3>Bright Futures</h3>
@@ -262,15 +285,20 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                 <div class="about-img about-img-2 mr-70"
                     style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
 
-                    <iframe
-                        src="https://www.youtube.com/embed/Gm-KE2N_5ws?autoplay=1&mute=1&playsinline=1&rel=0"
-                        title="YouTube video player"
-                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                        frameborder="0"
-                        allow="autoplay; encrypted-media; picture-in-picture"
-                        referrerpolicy="strict-origin-when-cross-origin"
-                        allowfullscreen>
-                    </iframe>
+                    <!-- SPEED FIX: YouTube Facade — loads iframe only on click, saves ~500KB on page load -->
+                    <div id="yt-facade" style="position:absolute;top:0;left:0;width:100%;height:100%;cursor:pointer;background:#000 url('https://i.ytimg.com/vi/Gm-KE2N_5ws/hqdefault.jpg') center/cover no-repeat;" onclick="
+                        var iframe=document.createElement('iframe');
+                        iframe.src='https://www.youtube.com/embed/Gm-KE2N_5ws?autoplay=1&mute=1&playsinline=1&rel=0';
+                        iframe.style.cssText='position:absolute;top:0;left:0;width:100%;height:100%;border:0';
+                        iframe.allow='autoplay;encrypted-media;picture-in-picture';
+                        iframe.allowFullscreen=true;
+                        this.parentNode.replaceChild(iframe,this);
+                    ">
+                        <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:68px;height:48px;background:#ff0000;border-radius:14px;display:flex;align-items:center;justify-content:center;">
+                            <svg height="100%" viewBox="0 0 68 48" width="100%"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20" fill="#fff"/></svg>
+                        </div>
+                        <div style="position:absolute;bottom:10px;left:0;right:0;text-align:center;color:white;font-size:13px;opacity:0.8;">Click to play campus tour</div>
+                    </div>
 
                 </div>
 
@@ -603,29 +631,29 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
 
                     <!-- Featured Image -->
                     <div class="gallery-item featured">
-                        <img src="assets/uploads/campus-9.jpeg" alt="Campus Life">
+                        <img loading="lazy" src="assets/uploads/campus-9.jpeg" alt="Campus Life">
                         <div class="gallery-overlay">
                             <span>Campus Life</span>
                         </div>
                     </div>
 
                     <div class="gallery-item">
-                        <img src="assets/uploads/ai.jpeg" alt="Student Activities">
+                        <img loading="lazy" src="assets/uploads/ai.jpeg" alt="Student Activities">
                         <div class="gallery-overlay"><span>Advance AI Labs</span></div>
                     </div>
 
                     <div class="gallery-item">
-                        <img src="assets/uploads/library-2.jpeg" alt="Library">
+                        <img loading="lazy" src="assets/uploads/library-2.jpeg" alt="Library">
                         <div class="gallery-overlay"><span>Central Library</span></div>
                     </div>
 
                     <div class="gallery-item">
-                        <img src="assets/uploads/robots.jpeg" alt="Laboratories">
+                        <img loading="lazy" src="assets/uploads/robots.jpeg" alt="Laboratories">
                         <div class="gallery-overlay"><span>Advanced Laboratories</span></div>
                     </div>
 
                     <div class="gallery-item">
-                        <img src="assets/uploads/hostel.jpg" alt="Hostel Life">
+                        <img loading="lazy" src="assets/uploads/hostel.jpg" alt="Hostel Life">
                         <div class="gallery-overlay"><span>Hostel Life</span></div>
                     </div>
 
@@ -903,7 +931,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
     <div class="row align-items-center">
         <!-- Left Side - Image -->
         <div class="col-lg-6 text-center">
-            <img src="assets/uploads/campus-2.jpeg" alt="Logo" class="img-fluid rounded-lg shadow-sm p-2 bg-light" style="max-height: 500px;">
+            <img loading="lazy" src="assets/uploads/campus-2.jpeg" alt="Logo" class="img-fluid rounded-lg shadow-sm p-2 bg-light" style="max-height: 500px;">
         </div>
 
         <!-- Right Side - Text -->
@@ -1210,27 +1238,27 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
         <div class="rankings-container">
             <!-- Card 1 -->
             <div class="ranking-card" data-aos="fade-up" data-aos-duration="1000">
-                <img src="assets/uploads/icon/rank-1.webp" alt="WURI">
+                <img loading="lazy" src="assets/uploads/icon/rank-1.webp" alt="WURI">
             </div>
 
             <!-- Card 2 -->
             <div class="ranking-card" data-aos="fade-up" data-aos-duration="1200">
-                <img src="assets/uploads/icon/rank-2.png" alt="THE Rankings">
+                <img loading="lazy" src="assets/uploads/icon/rank-2.png" alt="THE Rankings">
             </div>
 
             <!-- Card 3 -->
             <div class="ranking-card" data-aos="fade-up" data-aos-duration="1400">
-                <img src="assets/uploads/icon/rank-3.png" alt="NIRF">
+                <img loading="lazy" src="assets/uploads/icon/rank-3.png" alt="NIRF">
             </div>
 
             <!-- Card 4 -->
             <div class="ranking-card" data-aos="fade-up" data-aos-duration="1600">
-                <img src="assets/uploads/icon/rank-4.webp" alt="THE Impact Rankings">
+                <img loading="lazy" src="assets/uploads/icon/rank-4.webp" alt="THE Impact Rankings">
             </div>
 
             <!-- Card 5 -->
             <div class="ranking-card" data-aos="fade-up" data-aos-duration="1800">
-                <img src="assets/uploads/icon/rank-5.png" alt="Other Ranking">
+                <img loading="lazy" src="assets/uploads/icon/rank-5.png" alt="Other Ranking">
             </div>
         </div>
     </div>
@@ -1280,7 +1308,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
         <div class="course-slider-active nav-style-1 owl-carousel">
             <div class="single-course">
                 <div class="course-img">
-                    <a href="best-d-pharma-college-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/d.pharmacy.jpeg" alt="Course image"></a>
+                    <a href="best-d-pharma-college-in-dehradun-uttarakhand.php"><img loading="lazy" class="animated" src="assets/uploads/d.pharmacy.jpeg" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="best-d-pharma-college-in-dehradun-uttarakhand.php">Diploma in Pharmacy</a></h4>
@@ -1304,7 +1332,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="diploma-in-confectionary.php"><img class="animated" src="assets/uploads/bakery.webp" alt="Course image"></a>
+                    <a href="diploma-in-confectionary.php"><img loading="lazy" class="animated" src="assets/uploads/bakery.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="diploma-in-confectionary.php">Diploma in Bakery & Confectionary</a></h4>
@@ -1328,7 +1356,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="diploma-in-food-production.php"><img class="animated" src="assets/uploads/dhm.webp" alt="Course image"></a>
+                    <a href="diploma-in-food-production.php"><img loading="lazy" class="animated" src="assets/uploads/dhm.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="diploma-in-food-production.php">Diploma in Food Production</a></h4>
@@ -1352,7 +1380,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="gnm.php"><img class="animated" src="assets/uploads/gnm.webp" alt="Course image"></a>
+                    <a href="gnm.php"><img loading="lazy" class="animated" src="assets/uploads/gnm.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="gnm.php">General Nursing and Midwifery (GNM)</a></h4>
@@ -1383,7 +1411,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
         <div class="course-slider-active nav-style-1 owl-carousel">
             <div class="single-course">
                 <div class="course-img">
-                    <a href="b.tech-AI-ML.php"><img class="animated" src="assets/uploads/ai.jpeg" alt="Course image"></a>
+                    <a href="b.tech-AI-ML.php"><img loading="lazy" class="animated" src="assets/uploads/ai.jpeg" alt="Course image"></a>
 
                 </div>
                 <div class="course-content">
@@ -1408,7 +1436,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="b.tech-cyber_security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt="Course image"></a>
+                    <a href="b.tech-cyber_security.php"><img loading="lazy" class="animated" src="assets/uploads/cyber-security.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="b.tech-cyber_security.php">B.tech With Specialization in Cyber Security</a></h4>
@@ -1432,7 +1460,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="b.tech-CSE.php"><img class="animated" src="assets/uploads/computer.webp" alt="Course image"></a>
+                    <a href="b.tech-CSE.php"><img loading="lazy" class="animated" src="assets/uploads/computer.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="b.tech-CSE.php">B.Tech. Computer Science & Engineering</a></h4>
@@ -1456,7 +1484,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="b.tech-data_science.php"><img class="animated" src="assets/uploads/data-science.webp" alt="Course image"></a>
+                    <a href="b.tech-data_science.php"><img loading="lazy" class="animated" src="assets/uploads/data-science.webp" alt="Course image"></a>
 
                 </div>
                 <div class="course-content">
@@ -1487,7 +1515,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
         <div class="course-slider-active nav-style-1 owl-carousel">
             <div class="single-course">
                 <div class="course-img">
-                    <a href="m.tech-structural-engineering.php"><img class="animated" src="assets/uploads/b.tech-civil.jpg" alt="Course image"></a>
+                    <a href="m.tech-structural-engineering.php"><img loading="lazy" class="animated" src="assets/uploads/b.tech-civil.jpg" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="m.tech-mechanical-engineering.php">M.Tech in Structural Engineering</a></h4>
@@ -1511,7 +1539,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="m.tech-mechanical-engineering.php"><img class="animated" src="assets/uploads/mtech-mechanical.webp" alt="Course image"></a>
+                    <a href="m.tech-mechanical-engineering.php"><img loading="lazy" class="animated" src="assets/uploads/mtech-mechanical.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="m.tech-mechanical-engineering.php">M.Tech in Mechanical Engineering</a></h4>
@@ -1535,7 +1563,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="master-in-agriculture.php"><img class="animated" src="assets/uploads/agriculture.webp" alt="Course image"></a>
+                    <a href="master-in-agriculture.php"><img loading="lazy" class="animated" src="assets/uploads/agriculture.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="master-in-agriculture.php">Master in agriculture</a></h4>
@@ -1559,7 +1587,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="genetics-and-plant-breeding.php"><img class="animated" src="assets/uploads/genetics.webp" alt="Course image"></a>
+                    <a href="genetics-and-plant-breeding.php"><img loading="lazy" class="animated" src="assets/uploads/genetics.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
                     <h4><a href="genetics-and-plant-breeding.php">M.Sc. in Genetics and Plant Breeding</a></h4>
@@ -1641,25 +1669,25 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                 <div class="feature-grid">
 
                     <div class="feature-card">
-                        <img src="assets/uploads/world-edu.png" alt="Education">
+                        <img loading="lazy" src="assets/uploads/world-edu.png" alt="Education">
                         <h4>World-Class Education</h4>
                         <p>Cutting-edge curriculum aligned with global standards.</p>
                     </div>
 
                     <div class="feature-card">
-                        <img src="assets/uploads/e-faculty.jpg" alt="Faculty">
+                        <img loading="lazy" src="assets/uploads/e-faculty.jpg" alt="Faculty">
                         <h4>Expert Faculty</h4>
                         <p>Learn from experienced academicians and professionals.</p>
                     </div>
 
                     <div class="feature-card">
-                        <img src="assets/uploads/m-infra.png" alt="Infrastructure">
+                        <img loading="lazy" src="assets/uploads/m-infra.png" alt="Infrastructure">
                         <h4>Modern Infrastructure</h4>
                         <p>Advanced labs, smart classrooms, and research centers.</p>
                     </div>
 
                     <div class="feature-card">
-                        <img src="assets/uploads/global.png" alt="Opportunities">
+                        <img loading="lazy" src="assets/uploads/global.png" alt="Opportunities">
                         <h4>Global Opportunities</h4>
                         <p>International exposure, internships & collaborations.</p>
                     </div>
@@ -1670,16 +1698,16 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
 
         <!-- Hexagonal Gallery -->
         <div class="hex-gallery">
-            <div class="hex"><img src="assets/uploads/maya-1.jpeg"></div>
-            <div class="hex"><img src="assets/uploads/maya-2.jpeg"></div>
-            <div class="hex"><img src="assets/uploads/maya-3.jpeg"></div>
-            <div class="hex"><img src="assets/uploads/maya-4.jpeg"></div>
-            <div class="hex"><img src="assets/uploads/maya-5.jpeg"></div>
-            <div class="hex"><img src="assets/uploads/maya-6.jpeg"></div>
-            <div class="hex"><img src="assets/uploads/maya-7.jpeg"></div>
-            <div class="hex"><img src="assets/uploads/maya-8.jpeg"></div>
-            <div class="hex"><img src="assets/uploads/maya-9.jpeg"></div>
-            <div class="hex"><img src="assets/uploads/maya-10.jpeg"></div>
+            <div class="hex"><img loading="lazy" src="assets/uploads/maya-1.jpeg"></div>
+            <div class="hex"><img loading="lazy" src="assets/uploads/maya-2.jpeg"></div>
+            <div class="hex"><img loading="lazy" src="assets/uploads/maya-3.jpeg"></div>
+            <div class="hex"><img loading="lazy" src="assets/uploads/maya-4.jpeg"></div>
+            <div class="hex"><img loading="lazy" src="assets/uploads/maya-5.jpeg"></div>
+            <div class="hex"><img loading="lazy" src="assets/uploads/maya-6.jpeg"></div>
+            <div class="hex"><img loading="lazy" src="assets/uploads/maya-7.jpeg"></div>
+            <div class="hex"><img loading="lazy" src="assets/uploads/maya-8.jpeg"></div>
+            <div class="hex"><img loading="lazy" src="assets/uploads/maya-9.jpeg"></div>
+            <div class="hex"><img loading="lazy" src="assets/uploads/maya-10.jpeg"></div>
         </div>
 
     </div>
@@ -1794,23 +1822,23 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
         </h2>
         <div class="container-cat">
             <div class="cat-card">
-                <img src="assets/uploads/nursing-1.jpg">
+                <img loading="lazy" src="assets/uploads/nursing-1.jpg">
                 <div class="cat-card__head">Nursing</div>
             </div>
             <div class="cat-card">
-                <img src="assets/uploads/b.tech-electric-3.webp">
+                <img loading="lazy" src="assets/uploads/b.tech-electric-3.webp">
                 <div class="cat-card__head">Mechanical</div>
             </div>
             <div class="cat-card">
-                <img src="assets/uploads/nursing.webp">
+                <img loading="lazy" src="assets/uploads/nursing.webp">
                 <div class="cat-card__head">Pharmacy</div>
             </div>
             <div class="cat-card">
-                <img src="assets/uploads/b.tech-electric-2.webp">
+                <img loading="lazy" src="assets/uploads/b.tech-electric-2.webp">
                 <div class="cat-card__head">Electronics</div>
             </div>
             <div class="cat-card">
-                <img src="assets/uploads/b.tech-mechanic-2.webp">
+                <img loading="lazy" src="assets/uploads/b.tech-mechanic-2.webp">
                 <div class="cat-card__head">Civil</div>
             </div>
         </div>
@@ -1978,7 +2006,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-one">
                     <div class="count-img">
-                        <img src="assets/img/icon-img/achieve-1.png" alt="STUDENTS">
+                        <img loading="lazy" src="assets/img/icon-img/achieve-1.png" alt="STUDENTS">
                     </div>
                     <div class="count-content">
                         <h2 class="count">1890</h2>
@@ -1989,7 +2017,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-two">
                     <div class="count-img">
-                        <img src="assets/img/icon-img/achieve-2.png" alt="GRADUATE">
+                        <img loading="lazy" src="assets/img/icon-img/achieve-2.png" alt="GRADUATE">
                     </div>
                     <div class="count-content">
                         <h2 class="count">1250</h2>
@@ -2000,7 +2028,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-three">
                     <div class="count-img">
-                        <img src="assets/img/icon-img/achieve-3.png" alt="AWARD">
+                        <img loading="lazy" src="assets/img/icon-img/achieve-3.png" alt="AWARD">
                     </div>
                     <div class="count-content">
                         <h2 class="count">750</h2>
@@ -2011,7 +2039,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-four">
                     <div class="count-img">
-                        <img src="assets/img/icon-img/achieve-4.png" alt="FACULTIES">
+                        <img loading="lazy" src="assets/img/icon-img/achieve-4.png" alt="FACULTIES">
                     </div>
                     <div class="count-content">
                         <h2 class="count">250</h2>
@@ -2024,7 +2052,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             <div class="testimonial-text-slider">
                 <div class="testi-content-wrap">
                     <div class="testi-big-img">
-                        <img alt="Maya Devi University" src="assets/uploads/bba-2.jpeg">
+                        <img loading="lazy" alt="Maya Devi University" src="assets/uploads/bba-2.jpeg">
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
@@ -2041,7 +2069,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                                     <i class="fa fa-quote-right"></i>
                                 </div>
                                 <div class="testi-arrow">
-                                    <img alt="testimoni" src="assets/img/icon-img/testi-icon.png">
+                                    <img loading="lazy" alt="testimoni" src="assets/img/icon-img/testi-icon.png">
                                 </div>
                             </div>
                         </div>
@@ -2049,7 +2077,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                 </div>
                 <div class="testi-content-wrap">
                     <div class="testi-big-img">
-                        <img alt="testimoni" src="assets/uploads/testimoni-2.jpeg">
+                        <img loading="lazy" alt="testimoni" src="assets/uploads/testimoni-2.jpeg">
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
@@ -2066,7 +2094,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                                     <i class="fa fa-quote-right"></i>
                                 </div>
                                 <div class="testi-arrow">
-                                    <img alt="testimoni" src="assets/img/icon-img/testi-icon.png">
+                                    <img loading="lazy" alt="testimoni" src="assets/img/icon-img/testi-icon.png">
                                 </div>
                             </div>
                         </div>
@@ -2074,7 +2102,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                 </div>
                 <div class="testi-content-wrap">
                     <div class="testi-big-img">
-                        <img alt="testimoni" src="assets/uploads/st-3.jpg">
+                        <img loading="lazy" alt="testimoni" src="assets/uploads/st-3.jpg">
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
@@ -2091,7 +2119,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                                     <i class="fa fa-quote-right"></i>
                                 </div>
                                 <div class="testi-arrow">
-                                    <img alt="testimoni" src="assets/img/icon-img/testi-icon.png">
+                                    <img loading="lazy" alt="testimoni" src="assets/img/icon-img/testi-icon.png">
                                 </div>
                             </div>
                         </div>
@@ -2099,7 +2127,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                 </div>
                 <div class="testi-content-wrap">
                     <div class="testi-big-img">
-                        <img alt="testimoni" src="assets/uploads/girl-3.jpeg">
+                        <img loading="lazy" alt="testimoni" src="assets/uploads/girl-3.jpeg">
                     </div>
                     <div class="row g-0">
                         <div class="ms-auto col-lg-6 col-md-12">
@@ -2116,7 +2144,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                                     <i class="fa fa-quote-right"></i>
                                 </div>
                                 <div class="testi-arrow">
-                                    <img alt="testimoni" src="assets/img/icon-img/testi-icon.png">
+                                    <img loading="lazy" alt="testimoni" src="assets/img/icon-img/testi-icon.png">
                                 </div>
                             </div>
                         </div>
@@ -2125,21 +2153,21 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
             </div>
             <div class="testimonial-image-slider">
                 <div class="sin-testi-image">
-                    <img src="assets/uploads/bba-2.jpeg" alt="testimoni">
+                    <img loading="lazy" src="assets/uploads/bba-2.jpeg" alt="testimoni">
                 </div>
                 <div class="sin-testi-image">
-                    <img src="assets/uploads/testimoni-2.jpeg" alt="testimoni">
+                    <img loading="lazy" src="assets/uploads/testimoni-2.jpeg" alt="testimoni">
                 </div>
                 <div class="sin-testi-image">
-                    <img src="assets/uploads/st-3.jpg" alt="testimoni">
+                    <img loading="lazy" src="assets/uploads/st-3.jpg" alt="testimoni">
                 </div>
                 <div class="sin-testi-image">
-                    <img src="assets/uploads/girl-3.jpeg" alt="testimoni">
+                    <img loading="lazy" src="assets/uploads/girl-3.jpeg" alt="testimoni">
                 </div>
             </div>
         </div>
         <div class="testimonial-text-img">
-            <img alt="testimoni" src="assets/img/icon-img/testi-text.png">
+            <img loading="lazy" alt="testimoni" src="assets/img/icon-img/testi-text.png">
         </div>
     </div>
 </div>
@@ -2185,7 +2213,7 @@ $latestBlogs = array_slice(array_reverse($blogs, true), 0, 4, true);
                         <div class="single-blog">
                             <div class="blog-img" style="height:200px; overflow:hidden;">
                                 <a href="blog-single.php?slug=<?= $slug ?>">
-                                    <img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;">
+                                    <img loading="lazy" src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;">
                                 </a>
                             </div>
 
@@ -2306,7 +2334,7 @@ $latestBlogs = array_slice(array_reverse($blogs, true), 0, 4, true);
                             
                             <!-- ✅ UPDATED LINK -->
                             <a href="event-details.php?slug=<?= $slug ?>">
-                                <img src="<?php echo 'admin/' . htmlspecialchars($event['image']); ?>"
+                                <img loading="lazy" src="<?php echo 'admin/' . htmlspecialchars($event['image']); ?>"
                                     alt="<?php echo htmlspecialchars($event['title']); ?>"
                                     style="height:180px; width:100%; object-fit:cover;">
                             </a>

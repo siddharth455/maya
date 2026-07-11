@@ -3,8 +3,277 @@ $page_title = "Best Engineering College in Dehradun Uttarakhand | Maya Devi Univ
 $page_description = "Maya Devi University is recognized as one of the best engineering colleges in Dehradun offering B.Tech programs with strong placement support.";
 $canonical_url = "https://maya.edu.in/best-engineering-college-in-dehradun-uttarakhand.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+$page_schema = <<<SCHEMA
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "School of Engineering — Maya Devi University, Dehradun",
+ "url": "https://maya.edu.in/best-engineering-college-in-dehradun-uttarakhand.php",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item": {
+    "@type": "Course",
+    "name": "B.Tech Civil Engineering",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Tech Civil Engineering offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item": {
+    "@type": "Course",
+    "name": "B.Tech Mechanical Engineering",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Tech Mechanical Engineering offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "item": {
+    "@type": "Course",
+    "name": "B.Tech Mechanical Engineering (Mechatronics)",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Tech Mechanical Engineering (Mechatronics) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 4,
+   "item": {
+    "@type": "Course",
+    "name": "B.Tech Electronics & Communication Engineering",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Tech Electronics & Communication Engineering offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 5,
+   "item": {
+    "@type": "Course",
+    "name": "B.Tech ECE with VLSI & Embedded Systems",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Tech ECE with VLSI & Embedded Systems offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 6,
+   "item": {
+    "@type": "Course",
+    "name": "B.Tech ECE with Robotics & AI",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Tech ECE with Robotics & AI offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 7,
+   "item": {
+    "@type": "Course",
+    "name": "B.Tech Aerospace Engineering",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Tech Aerospace Engineering offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 8,
+   "item": {
+    "@type": "Course",
+    "name": "M.Tech Structural Engineering",
+    "url": "https://maya.edu.in/m.tech-structural-engineering.php",
+    "description": "M.Tech Structural Engineering offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 9,
+   "item": {
+    "@type": "Course",
+    "name": "M.Tech Mechanical Engineering",
+    "url": "https://maya.edu.in/m.tech-mechanical-engineering.php",
+    "description": "M.Tech Mechanical Engineering offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Which engineering branches are available at Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Maya Devi University offers B.Tech in Civil Engineering, Mechanical Engineering (including Mechatronics), Electronics & Communication Engineering (with VLSI & Embedded Systems and Robotics & AI specializations), and Aerospace Engineering."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is AICTE approval available for engineering programs at Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Maya Devi University's engineering programs are approved by the All India Council for Technical Education (AICTE)."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does MDU offer lateral entry for B.Tech?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Maya Devi University offers lateral entry (B.Tech LE) for diploma holders in relevant engineering disciplines, allowing direct admission to the second year."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What PG engineering courses does Maya Devi University offer?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Maya Devi University offers M.Tech in Structural Engineering and M.Tech in Mechanical Engineering, both 2-year full-time programs designed for engineering graduates seeking advanced specialization."
+   }
+  }
+ ]
+}
+</script>
+SCHEMA;
 ?>
 <?php require "common/header.php"?>
+
   <!-- Hero Section -->
   <section class="hero-section" style="background: url('assets/uploads/se.jpg') center/cover no-repeat; height:70vh;">
   <div class="hero-content">
@@ -824,4 +1093,35 @@ $slug = trim($slug, '-');
 });
 
 </script>
+<section class="mdu-faq-section" id="faq">
+  <style>
+    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
+    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
+    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
+      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
+    .mdu-faq-q::-webkit-details-marker{display:none;}
+    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
+    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
+    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
+  </style>
+  <h2>Frequently Asked Questions</h2>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">Which engineering branches are available at Maya Devi University?</summary>
+      <p class="mdu-faq-a">Maya Devi University offers B.Tech in Civil Engineering, Mechanical Engineering (including Mechatronics), Electronics &amp; Communication Engineering (with VLSI &amp; Embedded Systems and Robotics &amp; AI specializations), and Aerospace Engineering.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">Is AICTE approval available for engineering programs at Maya Devi University?</summary>
+      <p class="mdu-faq-a">Yes. Maya Devi University's engineering programs are approved by the All India Council for Technical Education (AICTE).</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">Does MDU offer lateral entry for B.Tech?</summary>
+      <p class="mdu-faq-a">Yes. Maya Devi University offers lateral entry (B.Tech LE) for diploma holders in relevant engineering disciplines, allowing direct admission to the second year.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What PG engineering courses does Maya Devi University offer?</summary>
+      <p class="mdu-faq-a">Maya Devi University offers M.Tech in Structural Engineering and M.Tech in Mechanical Engineering, both 2-year full-time programs designed for engineering graduates seeking advanced specialization.</p>
+    </details>
+</section>
+
 <?php require "common/footer.php"?>

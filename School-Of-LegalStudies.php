@@ -3,8 +3,141 @@ $page_title = "School of Legal Studies | Maya Devi University Dehradun";
 $page_description = "School of Legal Studies at Maya Devi University, Dehradun offering LLB and LLM programs.";
 $canonical_url = "https://maya.edu.in/School-Of-LegalStudies.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+$page_schema = <<<SCHEMA
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "School of Law & Legal Studies — Maya Devi University, Dehradun",
+ "url": "https://maya.edu.in/School-Of-LegalStudies.php",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item": {
+    "@type": "Course",
+    "name": "LLB (Bachelor of Laws) — 3 Year",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "LLB (Bachelor of Laws) — 3 Year offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item": {
+    "@type": "Course",
+    "name": "BA LLB (Integrated) — 5 Year",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "BA LLB (Integrated) — 5 Year offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "item": {
+    "@type": "Course",
+    "name": "BBA LLB (Integrated) — 5 Year",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "BBA LLB (Integrated) — 5 Year offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 4,
+   "item": {
+    "@type": "Course",
+    "name": "LLM (Master of Laws)",
+    "url": "https://maya.edu.in/post-graduate.php",
+    "description": "LLM (Master of Laws) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Is the Law program at Maya Devi University approved by BCI?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. The LLB and integrated law programs at Maya Devi University are approved by the Bar Council of India (BCI), making graduates eligible to practice law across India."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What law programs does Maya Devi University offer?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Maya Devi University offers LLB (3-year), BA LLB (5-year integrated), BBA LLB (5-year integrated), and LLM at the postgraduate level through the School of Law & Legal Studies."
+   }
+  }
+ ]
+}
+</script>
+SCHEMA;
 ?>
 <?php require "common/header.php"?>
+
   <!-- Hero Section -->
   <section class="hero-section" style="background: url('assets/uploads/sll.jpg') center/cover no-repeat; height:70vh;">
   <div class="hero-content">
@@ -436,65 +569,71 @@ document.addEventListener("DOMContentLoaded", () => {
     <div class="row align-items-center mb-5">
       <div class="col-lg-7">
         <div class="section-title pb-20">
-        <h2>Why <span>Choose Us 🌟 ?</span></h2>
+          <h2>Why <span>Choose Us 🌟 ?</span></h2>
         </div>
+
         <p class="text-muted">
-        Choosing the right place to pursue your education is a life-changing decision—one that shapes not just your academic journey but also your personal and professional future. At the School of Computer Applications, Maya Devi University, we go beyond conventional learning by offering an ecosystem of innovation, creativity, and global opportunities.
+          Choosing the right law school is the first step toward building a successful career in the legal profession. At the School of Law & Legal Studies, Maya Devi University, we provide a strong foundation in legal education through academic excellence, practical learning, and ethical values. Our programs are designed to develop skilled legal professionals who can address contemporary legal challenges with confidence and integrity.
         </p>
-        <p class="text-muted">Our focus is on preparing students to thrive in a fast-evolving digital world where adaptability, critical thinking, and ethical leadership matter as much as technical expertise. With state-of-the-art infrastructure, hands-on industry exposure, and mentorship from accomplished faculty, we ensure that every learner is equipped to transform ideas into impactful realities.</p>
+
+        <p class="text-muted">
+          With experienced faculty, moot court training, legal aid activities, internships, and industry exposure, students gain practical insights into the legal system while strengthening their analytical, advocacy, and problem-solving abilities. We prepare graduates to excel in litigation, corporate law, judiciary, legal consultancy, and public service.
+        </p>
+
         <a href="https://admissions.maya.edu.in" class="btn btn-success btn-lg mt-3">Apply Now →</a>
       </div>
+
       <div class="col-lg-5 text-center">
-        <img src="assets/uploads/computer.jpg" 
-             alt="Why Choose Us" 
-             class="img-fluid rounded shadow" 
+        <img src="assets/uploads/legal.webp"
+             alt="School of Law & Legal Studies"
+             class="img-fluid rounded shadow"
              style="max-height:380px; object-fit:cover; width:100%;">
       </div>
     </div>
 
     <!-- Feature Points -->
     <div class="row gy-4">
-      <div class="col-md-6">
-        <div class="feature-box">
-          <span class="feature-icon">🚀</span>
-          <h5>Excellence in Education & Innovation</h5>
-          <p>
-            We offer a future-ready curriculum blending theory with hands-on practice in 
-            AI, cybersecurity, data science, and cloud computing—ensuring students graduate 
-            with cutting-edge skills.
-          </p>
-        </div>
-      </div>
 
       <div class="col-md-6">
         <div class="feature-box">
           <span class="feature-icon">⚖️</span>
-          <h5>Ethics Meets Technology</h5>
+          <h5>Comprehensive Legal Education</h5>
           <p>
-            Beyond technical expertise, we emphasize building responsible leaders who 
-            innovate with integrity, guided by strong ethical values and social responsibility.
+            Study constitutional law, criminal law, corporate law, civil law, intellectual
+            property rights, and emerging legal disciplines through an industry-relevant curriculum.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">🌍</span>
-          <h5>Global Readiness</h5>
+          <span class="feature-icon">🏛️</span>
+          <h5>Moot Court & Practical Training</h5>
           <p>
-            International collaborations, industry exposure, and real-world projects prepare 
-            our students for a connected, global workforce and professional agility.
+            Develop advocacy and courtroom skills through moot court competitions,
+            legal drafting, case studies, mock trials, and experiential learning.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">🔬</span>
-          <h5>Research & Creativity</h5>
+          <span class="feature-icon">👨‍⚖️</span>
+          <h5>Expert Faculty & Legal Mentorship</h5>
           <p>
-            Opportunities for research, innovation, and product development encourage 
-            exploration, experimentation, and creative problem-solving in every discipline.
+            Learn from experienced academicians, legal practitioners, and industry experts
+            who provide practical insights and professional guidance.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="feature-box">
+          <span class="feature-icon">📜</span>
+          <h5>Legal Research & Ethics</h5>
+          <p>
+            Build strong research, analytical, and legal writing skills while promoting
+            justice, ethics, and social responsibility in legal practice.
           </p>
         </div>
       </div>
@@ -502,24 +641,25 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-md-6">
         <div class="feature-box">
           <span class="feature-icon">🤝</span>
-          <h5>Supportive, Inclusive Environment</h5>
+          <h5>Internships & Court Exposure</h5>
           <p>
-            A diverse, inclusive learning culture where every student is heard, supported, 
-            and mentored—personally, academically, and professionally.
+            Gain valuable practical experience through internships with law firms,
+            courts, corporate legal departments, NGOs, and legal aid clinics.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">📚</span>
-          <h5>Commitment to Lifelong Learning</h5>
+          <span class="feature-icon">🎓</span>
+          <h5>Excellent Career Opportunities</h5>
           <p>
-            Education here goes beyond degrees—it builds a mindset of curiosity, 
-            critical thinking, and continuous growth for life.
+            Build rewarding careers as advocates, legal advisors, corporate lawyers,
+            judicial officers, legal consultants, policy analysts, and legal researchers.
           </p>
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -729,4 +869,27 @@ $slug = trim($slug, '-');
 });
 
 </script>
+<section class="mdu-faq-section" id="faq">
+  <style>
+    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
+    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
+    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
+      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
+    .mdu-faq-q::-webkit-details-marker{display:none;}
+    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
+    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
+    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
+  </style>
+  <h2>Frequently Asked Questions</h2>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">Is the Law program at Maya Devi University approved by BCI?</summary>
+      <p class="mdu-faq-a">Yes. The LLB and integrated law programs at Maya Devi University are approved by the Bar Council of India (BCI), making graduates eligible to practice law across India.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What law programs does Maya Devi University offer?</summary>
+      <p class="mdu-faq-a">Maya Devi University offers LLB (3-year), BA LLB (5-year integrated), BBA LLB (5-year integrated), and LLM at the postgraduate level through the School of Law &amp; Legal Studies.</p>
+    </details>
+</section>
+
 <?php require "common/footer.php"?>

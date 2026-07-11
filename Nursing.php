@@ -1,10 +1,127 @@
 <?php
-$page_title = "Nursing Assistant Course in Dehradun | Maya Devi University";
-$page_description = "Join Nursing Assistant course at Maya Devi University, Dehradun with practical hospital-based training.";
+$page_title = "Best college for Nursing in Dehradun | Maya Devi University";
+$page_description = "Join Best college for Nursing at Maya Devi University, Dehradun with practical hospital-based training.";
 $canonical_url = "https://maya.edu.in/nursing-assistant.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+$page_schema = <<<SCHEMA
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "School of Nursing — Maya Devi University, Dehradun",
+ "url": "https://maya.edu.in/Nursing.php",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item": {
+    "@type": "Course",
+    "name": "B.Sc. Nursing",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Sc. Nursing offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item": {
+    "@type": "Course",
+    "name": "GNM (General Nursing & Midwifery)",
+    "url": "https://maya.edu.in/gnm.php",
+    "description": "GNM (General Nursing & Midwifery) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Diploma",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "item": {
+    "@type": "Course",
+    "name": "M.Sc. Nursing",
+    "url": "https://maya.edu.in/post-graduate.php",
+    "description": "M.Sc. Nursing offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Is the Nursing program at Maya Devi University approved by INC?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. The B.Sc. Nursing and GNM programs at Maya Devi University are approved by the Indian Nursing Council (INC), which is the statutory body governing nursing education in India."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What is the eligibility for B.Sc. Nursing at Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Candidates must have passed 10+2 with Physics, Chemistry, and Biology (PCB) with minimum 45% marks. Age must be between 17 and 35 years. NEET score is required for B.Sc. Nursing admission."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What are the career options after B.Sc. Nursing from MDU?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Graduates can work as staff nurses in hospitals, community health centers, and nursing homes. International placement opportunities are also available in countries like Germany, UK, Australia, and Gulf nations. Top hospital recruiters include Apollo, Fortis, Max Healthcare, and AIIMS."
+   }
+  }
+ ]
+}
+</script>
+SCHEMA;
 ?>
 <?php require "common/header.php"?>
+
   <!-- Hero Section -->
   <section class="hero-section" style="background: url('assets/uploads/sn.jpg') center/cover no-repeat; height:70vh;">
   <div class="hero-content">
@@ -394,59 +511,65 @@ document.addEventListener("DOMContentLoaded", () => {
 </style>
 
   <!-- Why Choose Us -->
-  <section class="why-choose-us py-5">
+ <section class="why-choose-us py-5">
   <div class="container">
     <div class="row align-items-center mb-5">
       <div class="col-lg-7">
         <div class="section-title pb-20">
-        <h2>Why <span>Choose Us 🌟 ?</span></h2>
+          <h2>Why <span>Choose Us 🌟 ?</span></h2>
         </div>
+
         <p class="text-muted">
-        Choosing the right place to pursue your education is a life-changing decision—one that shapes not just your academic journey but also your personal and professional future. At the School of Computer Applications, Maya Devi University, we go beyond conventional learning by offering an ecosystem of innovation, creativity, and global opportunities.
+          Choosing the right nursing institution is the first step toward building a rewarding career in healthcare. At the School of Nursing, Maya Devi University, we prepare compassionate and competent nursing professionals through a blend of academic excellence, clinical training, and patient-centered learning. Our programs equip students with the knowledge, practical skills, and ethical values needed to excel in today's dynamic healthcare environment.
         </p>
-        <p class="text-muted">Our focus is on preparing students to thrive in a fast-evolving digital world where adaptability, critical thinking, and ethical leadership matter as much as technical expertise. With state-of-the-art infrastructure, hands-on industry exposure, and mentorship from accomplished faculty, we ensure that every learner is equipped to transform ideas into impactful realities.</p>
+
+        <p class="text-muted">
+          With experienced faculty, modern nursing laboratories, hospital-based clinical training, and hands-on practical exposure, students gain the confidence to deliver quality healthcare services. We focus on developing skilled professionals who are committed to patient care, community health, leadership, and lifelong learning.
+        </p>
+
         <a href="https://admissions.maya.edu.in" class="btn btn-success btn-lg mt-3">Apply Now →</a>
       </div>
+
       <div class="col-lg-5 text-center">
-        <img src="assets/uploads/computer.jpg" 
-             alt="Why Choose Us" 
-             class="img-fluid rounded shadow" 
+        <img src="assets/uploads/nursing.webp"
+             alt="School of Nursing"
+             class="img-fluid rounded shadow"
              style="max-height:380px; object-fit:cover; width:100%;">
       </div>
     </div>
 
     <!-- Feature Points -->
     <div class="row gy-4">
+
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">🚀</span>
-          <h5>Excellence in Education & Innovation</h5>
+          <span class="feature-icon">🏥</span>
+          <h5>Advanced Clinical Training</h5>
           <p>
-            We offer a future-ready curriculum blending theory with hands-on practice in 
-            AI, cybersecurity, data science, and cloud computing—ensuring students graduate 
-            with cutting-edge skills.
+            Gain extensive practical experience through simulation labs, hospital postings,
+            and real-world clinical training under experienced healthcare professionals.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">⚖️</span>
-          <h5>Ethics Meets Technology</h5>
+          <span class="feature-icon">👩‍⚕️</span>
+          <h5>Expert Faculty & Mentorship</h5>
           <p>
-            Beyond technical expertise, we emphasize building responsible leaders who 
-            innovate with integrity, guided by strong ethical values and social responsibility.
+            Learn from highly qualified nursing educators and clinical experts who guide
+            students in developing professional competence, confidence, and ethical practice.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">🌍</span>
-          <h5>Global Readiness</h5>
+          <span class="feature-icon">❤️</span>
+          <h5>Compassionate Patient Care</h5>
           <p>
-            International collaborations, industry exposure, and real-world projects prepare 
-            our students for a connected, global workforce and professional agility.
+            Develop the knowledge, empathy, and communication skills required to provide
+            quality, patient-centered healthcare across diverse clinical settings.
           </p>
         </div>
       </div>
@@ -454,35 +577,36 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-md-6">
         <div class="feature-box">
           <span class="feature-icon">🔬</span>
-          <h5>Research & Creativity</h5>
+          <h5>Evidence-Based Nursing Practice</h5>
           <p>
-            Opportunities for research, innovation, and product development encourage 
-            exploration, experimentation, and creative problem-solving in every discipline.
+            Strengthen your clinical decision-making through research, evidence-based
+            practices, and continuous learning in modern nursing care.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">🤝</span>
-          <h5>Supportive, Inclusive Environment</h5>
+          <span class="feature-icon">🌍</span>
+          <h5>Community & Public Health Focus</h5>
           <p>
-            A diverse, inclusive learning culture where every student is heard, supported, 
-            and mentored—personally, academically, and professionally.
+            Participate in community health programs, health awareness initiatives,
+            and outreach activities that promote holistic healthcare and social responsibility.
           </p>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="feature-box">
-          <span class="feature-icon">📚</span>
-          <h5>Commitment to Lifelong Learning</h5>
+          <span class="feature-icon">🎓</span>
+          <h5>Excellent Career Opportunities</h5>
           <p>
-            Education here goes beyond degrees—it builds a mindset of curiosity, 
-            critical thinking, and continuous growth for life.
+            Build a successful career in hospitals, healthcare organizations, community
+            health centers, research institutions, and higher education with strong placement support.
           </p>
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -692,4 +816,31 @@ $slug = trim($slug, '-');
 });
 
 </script>
+<section class="mdu-faq-section" id="faq">
+  <style>
+    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
+    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
+    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
+      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
+    .mdu-faq-q::-webkit-details-marker{display:none;}
+    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
+    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
+    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
+  </style>
+  <h2>Frequently Asked Questions</h2>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">Is the Nursing program at Maya Devi University approved by INC?</summary>
+      <p class="mdu-faq-a">Yes. The B.Sc. Nursing and GNM programs at Maya Devi University are approved by the Indian Nursing Council (INC), which is the statutory body governing nursing education in India.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What is the eligibility for B.Sc. Nursing at Maya Devi University?</summary>
+      <p class="mdu-faq-a">Candidates must have passed 10+2 with Physics, Chemistry, and Biology (PCB) with minimum 45% marks. Age must be between 17 and 35 years. NEET score is required for B.Sc. Nursing admission.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What are the career options after B.Sc. Nursing from MDU?</summary>
+      <p class="mdu-faq-a">Graduates can work as staff nurses in hospitals, community health centers, and nursing homes. International placement opportunities are also available in countries like Germany, UK, Australia, and Gulf nations. Top hospital recruiters include Apollo, Fortis, Max Healthcare, and AIIMS.</p>
+    </details>
+</section>
+
 <?php require "common/footer.php"?>

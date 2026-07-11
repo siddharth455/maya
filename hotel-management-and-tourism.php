@@ -3,8 +3,261 @@ $page_title = "Hotel Management & Tourism in Dehradun | Maya Devi University";
 $page_description = "Study Hotel Management and Tourism at Maya Devi University, Dehradun with hospitality industry exposure.";
 $canonical_url = "https://maya.edu.in/hotel-management-and-tourism.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+$page_schema = <<<SCHEMA
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "School of Hotel & Tourism Management — Maya Devi University, Dehradun",
+ "url": "https://maya.edu.in/hotel-management-and-tourism.php",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item": {
+    "@type": "Course",
+    "name": "BHM (Bachelor of Hotel Management)",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "BHM (Bachelor of Hotel Management) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item": {
+    "@type": "Course",
+    "name": "B.Sc. Hotel & Hospitality Administration",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Sc. Hotel & Hospitality Administration offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "item": {
+    "@type": "Course",
+    "name": "Diploma in Food Production",
+    "url": "https://maya.edu.in/diploma-in-food-production.php",
+    "description": "Diploma in Food Production offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Diploma",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 4,
+   "item": {
+    "@type": "Course",
+    "name": "Diploma in Bakery & Confectionery",
+    "url": "https://maya.edu.in/diploma-in-confectionary.php",
+    "description": "Diploma in Bakery & Confectionery offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Diploma",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 5,
+   "item": {
+    "@type": "Course",
+    "name": "Diploma in Front Office Management",
+    "url": "https://maya.edu.in/Diploma-course.php",
+    "description": "Diploma in Front Office Management offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Diploma",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 6,
+   "item": {
+    "@type": "Course",
+    "name": "Diploma in Housekeeping",
+    "url": "https://maya.edu.in/Diploma-course.php",
+    "description": "Diploma in Housekeeping offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Diploma",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 7,
+   "item": {
+    "@type": "Course",
+    "name": "Diploma in Food & Beverage Service",
+    "url": "https://maya.edu.in/Diploma-course.php",
+    "description": "Diploma in Food & Beverage Service offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Diploma",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 8,
+   "item": {
+    "@type": "Course",
+    "name": "Diploma in Aviation Management",
+    "url": "https://maya.edu.in/Diploma-course.php",
+    "description": "Diploma in Aviation Management offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Diploma",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 9,
+   "item": {
+    "@type": "Course",
+    "name": "Master of Hotel Management (MHM)",
+    "url": "https://maya.edu.in/post-graduate.php",
+    "description": "Master of Hotel Management (MHM) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "What hotel management courses are available at Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Maya Devi University offers BHM (Bachelor of Hotel Management), B.Sc. Hotel & Hospitality Administration, multiple diploma programs (Food Production, Bakery, Front Office, Housekeeping, Aviation Management), and MHM at the postgraduate level."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Do hotel management students get placement at 5-star hotels?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Maya Devi University's placement cell has tie-ups with leading hospitality brands including The Taj Group, The Oberoi Group, and other top hotel chains for campus recruitment."
+   }
+  }
+ ]
+}
+</script>
+SCHEMA;
 ?>
 <?php require "common/header.php"?>
+
   <!-- Hero Section -->
   <section class="hero-section" style="background: url('assets/uploads/shm.jpg') center/cover no-repeat; height:70vh;">
   <div class="hero-content">
@@ -698,4 +951,28 @@ $slug = trim($slug, '-');
 });
 
 </script>
+
+<section class="mdu-faq-section" id="faq">
+  <style>
+    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
+    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
+    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
+      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
+    .mdu-faq-q::-webkit-details-marker{display:none;}
+    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
+    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
+    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
+  </style>
+  <h2>Frequently Asked Questions</h2>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What hotel management courses are available at Maya Devi University?</summary>
+      <p class="mdu-faq-a">Maya Devi University offers BHM (Bachelor of Hotel Management), B.Sc. Hotel &amp; Hospitality Administration, multiple diploma programs (Food Production, Bakery, Front Office, Housekeeping, Aviation Management), and MHM at the postgraduate level.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">Do hotel management students get placement at 5-star hotels?</summary>
+      <p class="mdu-faq-a">Yes. Maya Devi University's placement cell has tie-ups with leading hospitality brands including The Taj Group, The Oberoi Group, and other top hotel chains for campus recruitment.</p>
+    </details>
+</section>
+
 <?php require "common/footer.php"?>

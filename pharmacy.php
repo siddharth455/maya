@@ -3,8 +3,149 @@ $page_title = "Pharmacy College in Dehradun | Maya Devi University";
 $page_description = "Join Pharmacy programs at Maya Devi University, Dehradun including B.Pharm, D.Pharm and M.Pharm with advanced labs.";
 $canonical_url = "https://maya.edu.in/pharmacy.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+$page_schema = <<<SCHEMA
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "School of Pharmacy — Maya Devi University, Dehradun",
+ "url": "https://maya.edu.in/pharmacy.php",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item": {
+    "@type": "Course",
+    "name": "D.Pharma (Diploma in Pharmacy)",
+    "url": "https://maya.edu.in/best-d-pharma-college-in-dehradun-uttarakhand.php",
+    "description": "D.Pharma (Diploma in Pharmacy) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Diploma",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item": {
+    "@type": "Course",
+    "name": "B.Pharma (Bachelor of Pharmacy)",
+    "url": "https://maya.edu.in/undergraduate-course.php",
+    "description": "B.Pharma (Bachelor of Pharmacy) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Bachelor",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "item": {
+    "@type": "Course",
+    "name": "M.Pharma (Master of Pharmacy)",
+    "url": "https://maya.edu.in/post-graduate.php",
+    "description": "M.Pharma (Master of Pharmacy) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Master",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 4,
+   "item": {
+    "@type": "Course",
+    "name": "Pharm.D (Doctor of Pharmacy)",
+    "url": "https://maya.edu.in/post-graduate.php",
+    "description": "Pharm.D (Doctor of Pharmacy) offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
+    "provider": {
+     "@type": "CollegeOrUniversity",
+     "name": "Maya Devi University",
+     "url": "https://maya.edu.in/"
+    },
+    "educationalLevel": "Doctoral",
+    "hasCourseInstance": {
+     "@type": "CourseInstance",
+     "courseMode": "Onsite",
+     "location": {
+      "@type": "Place",
+      "name": "Maya Devi University, Selaqui, Dehradun, Uttarakhand"
+     }
+    }
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Is the Pharmacy program at Maya Devi University approved by PCI?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. The School of Pharmacy at Maya Devi University is approved by the Pharmacy Council of India (PCI) for D.Pharma and B.Pharma programs."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What is the duration of the B.Pharma course at Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "The B.Pharma (Bachelor of Pharmacy) program at Maya Devi University is a 4-year full-time course. D.Pharma is a 2-year diploma program."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What career options are available after B.Pharma from Maya Devi University?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Graduates of B.Pharma from Maya Devi University can pursue careers in pharmaceutical companies, hospitals, drug regulatory agencies, research institutes, and retail pharmacy. Top recruiters include Pfizer, Glenmark, Lupin, and Sun Pharma."
+   }
+  }
+ ]
+}
+</script>
+SCHEMA;
 ?>
 <?php require "common/header.php"?>
+
   <!-- Hero Section -->
   <section class="hero-section" style="background: url('assets/uploads/sp.jpg') center/cover no-repeat; height:70vh;">
   <div class="hero-content">
@@ -859,4 +1000,31 @@ $slug = trim($slug, '-');
 });
 
 </script>
+<section class="mdu-faq-section" id="faq">
+  <style>
+    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
+    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
+    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
+      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
+    .mdu-faq-q::-webkit-details-marker{display:none;}
+    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
+    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
+    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
+  </style>
+  <h2>Frequently Asked Questions</h2>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">Is the Pharmacy program at Maya Devi University approved by PCI?</summary>
+      <p class="mdu-faq-a">Yes. The School of Pharmacy at Maya Devi University is approved by the Pharmacy Council of India (PCI) for D.Pharma and B.Pharma programs.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What is the duration of the B.Pharma course at Maya Devi University?</summary>
+      <p class="mdu-faq-a">The B.Pharma (Bachelor of Pharmacy) program at Maya Devi University is a 4-year full-time course. D.Pharma is a 2-year diploma program.</p>
+    </details>
+    <details class="mdu-faq-item">
+      <summary class="mdu-faq-q">What career options are available after B.Pharma from Maya Devi University?</summary>
+      <p class="mdu-faq-a">Graduates of B.Pharma from Maya Devi University can pursue careers in pharmaceutical companies, hospitals, drug regulatory agencies, research institutes, and retail pharmacy. Top recruiters include Pfizer, Glenmark, Lupin, and Sun Pharma.</p>
+    </details>
+</section>
+
 <?php require "common/footer.php"?>
