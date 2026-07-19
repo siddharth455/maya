@@ -139,6 +139,7 @@ $base_url = $protocol . $host . $projectFolder;
                                 <li><a href="contact.php">Contact us</a></li>
                                 <li><a href="university-recognition.php">University Recognition</a></li>
                                 <li><a href="blog.php"> BLOG </a></li>
+                                <li><a href="event.php"> Event </a></li>
                             </ul>
                         </div>
                     </div>

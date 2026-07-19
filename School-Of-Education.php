@@ -439,29 +439,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   </div>
 </section>
-<?php
-// Load blogs
-$dataFile = __DIR__ . "/admin/data/blogs.json";
-$blogs = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
 
-// SET DEPARTMENT TAG
-$dept = "Education"; // change dynamically if needed
 
-// FILTER BLOGS BY TAG
-$filteredBlogs = [];
-foreach ($blogs as $id => $b) {
-    if (!empty($b['tags']) && in_array($dept, $b['tags'])) {
-        $filteredBlogs[$id] = $b;
-    }
-}
-
-// LATEST BLOGS (limit 8 for slider)
-$latestBlogs = array_slice(array_reverse($filteredBlogs, true), 0, 10, true);
-?>
-
-<?php if (!empty($latestBlogs)): ?>  <!-- 🔥 MAIN CONDITION -->
-
-<div class="event-area bg-img default-overlay pt-10 pb-10">
+<!-- <div class="event-area bg-img default-overlay pt-10 pb-10">
     <div class="container">
         <div class="row">
             
@@ -471,61 +451,44 @@ $latestBlogs = array_slice(array_reverse($filteredBlogs, true), 0, 10, true);
                     <p>Insights and updates from Maya Devi University.</p>
                 </div>
 
-                <div class="blog-active">
-                    
-                    <?php foreach ($latestBlogs as $id => $b):
-    $img = $b['image'] ?? 'assets/img/blog/default.jpg';
-    $title = $b['title'] ?? '';
-    $excerpt = substr(strip_tags($b['content']), 0, 80) . '...';
-    $author = $b['author'] ?? 'Admin';
-    $date = $b['date'] ?? '';
-    $tags = $b['tags'] ?? [];
+                                <div class="blog-active">
 
-    // ✅ SLUG
-   $slugText = $b['slug'] ?? $title;
-$slugText = strtolower($slugText);
-$slug = preg_replace('/[^a-z0-9]+/', '-', $slugText);
-$slug = trim($slug, '-');
-?>
-    <div class="single-blog">
-        <div class="blog-img" style="height:200px; overflow:hidden;">
-            <a href="blog/<?= $slug ?>">
-                <img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;">
-            </a>
-        </div>
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="blog-agriculture-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/blog-agriculture-at-maya-devi-university.webp" alt="Agriculture at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
 
-        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
-            <?php if (!empty($tags)) echo "<span>" . htmlspecialchars($tags[0]) . "</span>"; ?>
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>agriculture</span>
 
-            <div class="blog-content" style="flex-grow:1;">
-                <h4>
-                    <a href="blog/<?= $slug ?>"><?= $title ?></a>
-                </h4>
-                <p><?= $excerpt ?></p>
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="blog-agriculture-at-maya-devi-university.php">Agriculture at Maya Devi University</a>
+                                </h4>
+                                <p>The School of Agriculture and Technology at Maya Devi University is advancing sustainable agriculture through research and innovation...</p>
 
-                <div class="blog-meta">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-user"></i> <?= $author ?></a></li>
-                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
-                    </ul>
-                </div>
-            </div>
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
 
-            <div class="blog-date">
-                <a href="#"><i class="fa fa-calendar-o"></i> <?= $date ?></a>
-            </div>
-        </div>
-    </div>
-<?php endforeach; ?>
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2025-09-07</a>
+                            </div>
+                        </div>
+                    </div>
 
-                </div>
-            </div>
+                </div>            </div>
 
         </div>
     </div>
-</div>
+</div> -->
 
-<?php endif; ?>  <!-- 🔥 END CONDITION -->
 
 <style>
 .blog-active .single-blog {

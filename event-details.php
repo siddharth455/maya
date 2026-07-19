@@ -171,7 +171,16 @@ $base_path = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\') . '/';
     display: block;
     margin-bottom: 15px;
 }
-
+@media only screen and (max-width: 767px) {
+  .event-detail-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 15px;
+}
+}
 .event-date-green {
     background: #1fa463;
     color: #fff;

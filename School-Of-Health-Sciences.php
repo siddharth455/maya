@@ -767,66 +767,7 @@ html { scroll-behavior: smooth; }
 
 <div class="shs-divider"></div>
 
-<!-- ═══════════════════════ BLOG (PHP-DRIVEN — PRESERVED AS-IS) ═══════════════════════ -->
-<?php
-$dataFile = __DIR__ . "/admin/data/blogs.json";
-$blogs = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
-$dept = "Health Sciences";
-$filteredBlogs = [];
-foreach ($blogs as $id => $b) {
-    if (!empty($b['tags']) && in_array($dept, $b['tags'])) {
-        $filteredBlogs[$id] = $b;
-    }
-}
-$latestBlogs = array_slice(array_reverse($filteredBlogs, true), 0, 10, true);
-?>
-<?php if (!empty($latestBlogs)): ?>
-<section class="shs-section shs-blog">
-  <div class="shs-container">
-    <div class="shs-reveal" style="margin-bottom:48px;">
-      <div class="shs-label" style="color:#5ecfb1;">--</div>
-      <h2 class="shs-heading" style="color:#fff;">Our <em style="color:#5ecfb1;">Blog</em></h2>
-      <p style="color:rgba(255,255,255,.45);margin-top:8px;">Insights and updates from Maya Devi University.</p>
-    </div>
-    <div class="blog-active">
-      <?php foreach ($latestBlogs as $id => $b):
-        $img     = $b['image'] ?? 'assets/img/blog/default.jpg';
-        $title   = $b['title'] ?? '';
-        $excerpt = substr(strip_tags($b['content']), 0, 80) . '...';
-        $author  = $b['author'] ?? 'Admin';
-        $date    = $b['date'] ?? '';
-        $tags    = $b['tags'] ?? [];
-        $slugText = strtolower($b['slug'] ?? $title);
-        $slug = trim(preg_replace('/[^a-z0-9]+/', '-', $slugText), '-');
-      ?>
-      <div class="single-blog">
-        <div class="blog-img" style="height:200px;overflow:hidden;">
-          <a href="blog/<?= $slug ?>">
-            <img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%;height:100%;object-fit:cover;">
-          </a>
-        </div>
-        <div class="blog-content-wrap" style="display:flex;flex-direction:column;height:100%;">
-          <?php if (!empty($tags)) echo "<span>" . htmlspecialchars($tags[0]) . "</span>"; ?>
-          <div class="blog-content" style="flex-grow:1;">
-            <h4><a href="blog/<?= $slug ?>"><?= $title ?></a></h4>
-            <p><?= $excerpt ?></p>
-            <div class="blog-meta">
-              <ul>
-                <li><a href="#"><i class="fa fa-user"></i> <?= $author ?></a></li>
-                <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="blog-date">
-            <a href="#"><i class="fa fa-calendar-o"></i> <?= $date ?></a>
-          </div>
-        </div>
-      </div>
-      <?php endforeach; ?>
-    </div>
-  </div>
-</section>
-<?php endif; ?>
+<!-- Blog section removed: no static blog post currently tagged for this department. -->
 
 <!-- ═══════════════════════ CTA BANNER ═══════════════════════ -->
 <section class="shs-cta">

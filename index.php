@@ -2173,12 +2173,10 @@ document.addEventListener("DOMContentLoaded", function() {
 </div>
 <hr>
 <?php
-// Load blogs dynamically
-$dataFile = __DIR__ . "/admin/data/blogs.json";
-$blogs = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
-
-// Get latest 3 blogs for homepage carousel
-$latestBlogs = array_slice(array_reverse($blogs, true), 0, 4, true);
+// NOTE: Blog is now a fully static system. To add a new blog post,
+// create a new blog-{slug}.php file (copy an existing one as a template)
+// and add a matching card in the "blog-active" block below.
+// Keep the most recent post first.
 ?>
 
 <div class="event-area bg-img default-overlay pt-10 pb-10">
@@ -2192,58 +2190,37 @@ $latestBlogs = array_slice(array_reverse($blogs, true), 0, 4, true);
                 </div>
 
                 <div class="blog-active">
-                    <?php if (!empty($latestBlogs)): ?>
-                        <?php foreach ($latestBlogs as $id => $b):
-                            
-                            $img = $b['image'] ?? 'assets/img/blog/default.jpg';
-                            $title = $b['title'] ?? '';
-                            $excerpt = substr(strip_tags($b['content']), 0, 80) . '...';
-                            $author = $b['author'] ?? 'Admin';
-                            $date = $b['date'] ?? '';
-                            $tags = $b['tags'] ?? [];
 
-                            // ✅ SLUG FIX (IMPORTANT)
-                            $slugText = $b['slug'] ?? $title;
-                            $slugText = strtolower($slugText);
-                            $slug = preg_replace('/[^a-z0-9]+/', '-', $slugText);
-                            $slug = trim($slug, '-');
-
-                        ?>
-                        
-                        <div class="single-blog">
-                            <div class="blog-img" style="height:200px; overflow:hidden;">
-                                <a href="blog-single.php?slug=<?= $slug ?>">
-                                    <img loading="lazy" src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;">
-                                </a>
-                            </div>
-
-                            <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
-                                <?php if (!empty($tags)) echo "<span>" . htmlspecialchars($tags[0]) . "</span>"; ?>
-
-                                <div class="blog-content" style="flex-grow:1;">
-                                    <h4>
-                                        <a href="blog-single.php?slug=<?= $slug ?>"><?= $title ?></a>
-                                    </h4>
-                                    <p><?= $excerpt ?></p>
-
-                                    <div class="blog-meta">
-                                        <ul>
-                                            <li><a href="#"><i class="fa fa-user"></i> <?= $author ?></a></li>
-                                            <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="blog-date">
-                                    <a href="#"><i class="fa fa-calendar-o"></i> <?= $date ?></a>
-                                </div>
-                            </div>
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="blog-agriculture-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/blog-agriculture-at-maya-devi-university.webp" alt="Agriculture at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
                         </div>
 
-                        <?php endforeach; ?>
-                    <?php else: ?>
-                        <p>No blogs available</p>
-                    <?php endif; ?>
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>agriculture</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="blog-agriculture-at-maya-devi-university.php">Agriculture at Maya Devi University</a>
+                                </h4>
+                                <p>The School of Agriculture and Technology at Maya Devi University is advancing sustainable agriculture through research and innovation...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2025-09-07</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
@@ -2297,80 +2274,123 @@ $latestBlogs = array_slice(array_reverse($blogs, true), 0, 4, true);
             <p>Celebrating ideas, culture, and connections at Maya Devi University.</p>
         </div>
         <div class="row">
-            <?php
-            // Load events
-            $dataFile = __DIR__ . '/admin/data/events.json';
-            $events = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
+            <!-- NOTE: Events is now a fully static system. To add a new event,
+                 create a new event-{slug}.php file (copy an existing one as a template)
+                 and add a matching card below. Keep the 4 most recent events here,
+                 newest first (this list mirrors the top of event.php). -->
 
-            // ✅ SLUG FUNCTION (ADDED)
-            if (!function_exists('createSlug')) {
-                function createSlug($text) {
-                    $text = strtolower($text);
-                    $text = preg_replace('/[^a-z0-9]+/', '-', $text);
-                    return trim($text, '-');
-                }
-            }
-
-            // Sort by date
-            if (!empty($events)) {
-                uasort($events, function ($a, $b) {
-                    return strtotime($b['date']) - strtotime($a['date']);
-                });
-            }
-
-            // Latest 4
-            $latestEvents = array_slice($events, 0, 4, true);
-
-            foreach ($latestEvents as $eventId => $event):
-                $date = strtotime($event['date']);
-                $formattedDate = date("M, jS Y", $date);
-
-                // ✅ CREATE SLUG
-                $slug = createSlug($event['slug'] ?? $event['title']);
-            ?>
-                <div class="col-lg-3 col-md-6 d-flex">
-                    <div class="single-blog mb-30 flex-fill">
-                        <div class="blog-img">
-                            
-                            <!-- ✅ UPDATED LINK -->
-                            <a href="event-details.php?slug=<?= $slug ?>">
-                                <img loading="lazy" src="<?php echo 'admin/' . htmlspecialchars($event['image']); ?>"
-                                    alt="<?php echo htmlspecialchars($event['title']); ?>"
-                                    style="height:180px; width:100%; object-fit:cover;">
-                            </a>
-
+            <div class="col-lg-3 col-md-6 d-flex">
+                <div class="single-blog mb-30 flex-fill">
+                    <div class="blog-img">
+                        <a href="event-mushroom-cultivation-training.php">
+                            <img loading="lazy" src="assets/uploads/event-mushroom-cultivation-training.webp" alt="Mushroom Cultivation Training Session at Maya Devi University Encourages Agri-Entrepreneurship and Skill Development" style="height:180px; width:100%; object-fit:cover;">
+                        </a>
+                    </div>
+                    <div class="blog-content-wrap">
+                        <span>Education</span>
+                        <div class="blog-content">
+                            <h4 class="event-title">
+                                <a href="event-mushroom-cultivation-training.php">Mushroom Cultivation Training Session at Maya Devi University Encourages Agri-Entrepreneurship and Skill Development</a>
+                            </h4>
+                            <p class="event-snippet">The Department of Botany under the School of Life and Applied Sciences at Maya Devi University successfully organized a hands-on training session on Mushroom Cultivation to provide students with practical...</p>
+                            <div class="blog-meta">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-user"></i> Team Maya Devi University</a></li>
+                                    <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="blog-content-wrap">
-                            <span>Education</span>
-                            <div class="blog-content">
-                                <h4 class="event-title">
-                                    
-                                    <!-- ✅ UPDATED LINK -->
-                                    <a href="event-details.php?slug=<?= $slug ?>">
-                                        <?php echo htmlspecialchars($event['title']); ?>
-                                    </a>
-
-                                </h4>
-                                <p class="event-snippet">
-                                    <?php
-                                    $words = explode(' ', strip_tags($event['content']));
-                                    echo implode(' ', array_slice($words, 0, 20)) . '...';
-                                    ?>
-                                </p>
-                                <div class="blog-meta">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-user"></i> <?php echo htmlspecialchars($event['author']); ?></a></li>
-                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="blog-date">
-                                <a href="#"><i class="fa fa-calendar-o"></i> <?php echo $formattedDate; ?></a>
-                            </div>
+                        <div class="blog-date">
+                            <a href="#"><i class="fa fa-calendar-o"></i> May, 11th 2026</a>
                         </div>
                     </div>
                 </div>
-            <?php endforeach; ?>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex">
+                <div class="single-blog mb-30 flex-fill">
+                    <div class="blog-img">
+                        <a href="event-jail-visit-law-students.php">
+                            <img loading="lazy" src="assets/uploads/event-jail-visit-law-students.webp" alt="School of Law and Legal Studies Students Visit Suddhowala Jail for Academic Exposure" style="height:180px; width:100%; object-fit:cover;">
+                        </a>
+                    </div>
+                    <div class="blog-content-wrap">
+                        <span>Education</span>
+                        <div class="blog-content">
+                            <h4 class="event-title">
+                                <a href="event-jail-visit-law-students.php">School of Law and Legal Studies Students Visit Suddhowala Jail for Academic Exposure</a>
+                            </h4>
+                            <p class="event-snippet">Students of the School of Law and Legal Studies at Maya Devi University participated in an educational visit to Suddhowala Jail as part of their practical learning and legal studies...</p>
+                            <div class="blog-meta">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-user"></i> Team Maya Devi University</a></li>
+                                    <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="blog-date">
+                            <a href="#"><i class="fa fa-calendar-o"></i> May, 9th 2026</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex">
+                <div class="single-blog mb-30 flex-fill">
+                    <div class="blog-img">
+                        <a href="event-aiims-rishikesh-visit.php">
+                            <img loading="lazy" src="assets/uploads/event-aiims-rishikesh-visit.webp" alt="Maya Devi University Students Participate in Academic Exposure Visit at AIIMS Rishikesh" style="height:180px; width:100%; object-fit:cover;">
+                        </a>
+                    </div>
+                    <div class="blog-content-wrap">
+                        <span>Education</span>
+                        <div class="blog-content">
+                            <h4 class="event-title">
+                                <a href="event-aiims-rishikesh-visit.php">Maya Devi University Students Participate in Academic Exposure Visit at AIIMS Rishikesh</a>
+                            </h4>
+                            <p class="event-snippet">Students from Maya Devi University participated in an insightful academic exposure visit to AIIMS Rishikesh, exploring the future of anesthesia through innovation, artificial intelligence, and hands-on learning experiences. The visit...</p>
+                            <div class="blog-meta">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-user"></i> Team Maya Devi University</a></li>
+                                    <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="blog-date">
+                            <a href="#"><i class="fa fa-calendar-o"></i> May, 7th 2026</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex">
+                <div class="single-blog mb-30 flex-fill">
+                    <div class="blog-img">
+                        <a href="event-sericulture-research-visit.php">
+                            <img loading="lazy" src="assets/uploads/event-sericulture-research-visit.webp" alt="Maya Devi University Students Visit Regional Sericulture Research Station, Sahaspur" style="height:180px; width:100%; object-fit:cover;">
+                        </a>
+                    </div>
+                    <div class="blog-content-wrap">
+                        <span>Education</span>
+                        <div class="blog-content">
+                            <h4 class="event-title">
+                                <a href="event-sericulture-research-visit.php">Maya Devi University Students Visit Regional Sericulture Research Station, Sahaspur</a>
+                            </h4>
+                            <p class="event-snippet">Students of Maya Devi University participated in an educational visit to the Regional Sericulture Research Station to gain practical exposure to the sericulture industry and its role in sustainable agriculture...</p>
+                            <div class="blog-meta">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-user"></i> Team Maya Devi University</a></li>
+                                    <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="blog-date">
+                            <a href="#"><i class="fa fa-calendar-o"></i> May, 6th 2026</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>

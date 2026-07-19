@@ -2225,74 +2225,7 @@ SCHEMA;
 
   <div class="divider"></div>
 
-  <!-- BLOG SECTION -->
-  <section class="section-pad blog-section" id="blog">
-    <div class="section-inner">
-      <div class="reveal" style="margin-bottom:48px;">
-        <div class="section-label">Know More</div>
-        <h2 class="section-maya">Our <em>Blog</em></h2>
-        <p style="color:var(--text-muted); margin-top:8px;">Insights and updates from Maya Devi University.</p>
-      </div>
-      <?php
-      $dataFile = __DIR__ . "/admin/data/blogs.json";
-      $blogs = file_exists($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
-      $dept = "Arts";
-      $filteredBlogs = [];
-      foreach ($blogs as $id => $b) {
-        if (!empty($b['tags']) && in_array($dept, $b['tags'])) {
-          $filteredBlogs[$id] = $b;
-        }
-      }
-      $latestBlogs = array_slice(array_reverse($filteredBlogs, true), 0, 10, true);
-      ?>
-
-      <?php if (!empty($latestBlogs)): ?>
-        <div class="col-lg-12">
-          <div class="blog-active">
-            <?php foreach ($latestBlogs as $id => $b):
-              $img = $b['image'] ?? 'assets/img/blog/default.jpg';
-              $title = $b['title'] ?? '';
-              $excerpt = substr(strip_tags($b['content'] ?? ''), 0, 80) . '...';
-              $author = $b['author'] ?? 'Admin';
-              $date = $b['date'] ?? '';
-              $tags = $b['tags'] ?? [];
-              $slugText = $b['slug'] ?? $title;
-              $slugText = strtolower($slugText);
-              $slug = preg_replace('/[^a-z0-9]+/', '-', $slugText);
-              $slug = trim($slug, '-');
-              ?>
-              <div class="single-blog">
-                <div class="blog-img" style="height:200px; overflow:hidden;">
-                  <a href="blog/<?= $slug ?>">
-                    <img src="<?= $img ?>" alt="<?= $title ?>" style="width:100%; height:100%; object-fit:cover;">
-                  </a>
-                </div>
-                <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
-                  <?php if (!empty($tags))
-                    echo "<span>" . htmlspecialchars($tags[0]) . "</span>"; ?>
-                  <div class="blog-content" style="flex-grow:1;">
-                    <h4 class="text-white">
-                      <a href="blog/<?= $slug ?>" style="color:#fff; text-decoration:none;"><?= $title ?></a>
-                    </h4>
-                    <p class="text-white"><?= $excerpt ?></p>
-                    <div class="blog-meta">
-                      <ul>
-                        <li><a href="#" class="text-white"><i class="fa fa-user"></i> <?= $author ?></a></li>
-                        <li><a href="#" class="text-white"><i class="fa fa-comments-o"></i> 0</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="blog-date">
-                    <a href="#"><i class="fa fa-calendar-o"></i> <?= $date ?></a>
-                  </div>
-                </div>
-              </div>
-            <?php endforeach; ?>
-          </div>
-        </div>
-      <?php endif; ?>
-    </div>
-  </section>
+  <!-- Blog section removed: no static blog post currently tagged for this department. -->
 
   <style>
     .event-area-maya {
