@@ -1,3 +1,9 @@
+<?php
+$page_title = "B.Sc. CBZ (Chemistry, Botany, Zoology) | Maya Devi University Dehradun";
+$page_description = "Bachelor of Science (B.Sc.) in Chemistry, Botany and Zoology (B.Sc. in CBZ) is a regular degree program which deals with the field of science and is designed...";
+$canonical_url = "https://maya.edu.in/bsc-cbz.php";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/nursing-banner.webp);">

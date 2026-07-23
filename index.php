@@ -1411,11 +1411,11 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="course-slider-active nav-style-1 owl-carousel">
             <div class="single-course">
                 <div class="course-img">
-                    <a href="b.tech-AI-ML.php"><img loading="lazy" class="animated" src="assets/uploads/ai.jpeg" alt="Course image"></a>
+                    <a href="b-tech-ai-ml.php"><img loading="lazy" class="animated" src="assets/uploads/ai.jpeg" alt="Course image"></a>
 
                 </div>
                 <div class="course-content">
-                    <h4><a href="b.tech-AI-ML.php">B.tech With Specialization in AI & ML</a></h4>
+                    <h4><a href="b-tech-ai-ml.php">B.tech With Specialization in AI & ML</a></h4>
                     <p>Focused program in AI and Machine Learning, covering neural networks and intelligent systems.</p>
                 </div>
                 <div class="course-position-content">
@@ -1430,7 +1430,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="b.tech-AI-ML.php">APPLY NOW</a>
+                        <a class="default-btn" href="b-tech-ai-ml.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
@@ -1460,10 +1460,10 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="b.tech-CSE.php"><img loading="lazy" class="animated" src="assets/uploads/computer.webp" alt="Course image"></a>
+                    <a href="b-tech-cse.php"><img loading="lazy" class="animated" src="assets/uploads/computer.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
-                    <h4><a href="b.tech-CSE.php">B.Tech. Computer Science & Engineering</a></h4>
+                    <h4><a href="b-tech-cse.php">B.Tech. Computer Science & Engineering</a></h4>
                     <p>Core program in computer science, covering programming, algorithms, and system design.</p>
                 </div>
                 <div class="course-position-content">
@@ -1478,7 +1478,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="b.tech-CSE.php">APPLY NOW</a>
+                        <a class="default-btn" href="b-tech-cse.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>

@@ -34,7 +34,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <h2 class="school-name">School of Nursing</h2>
       <ul class="courses-list">
         <li><a href="gnm.php">GNM - General Nursing & Midwifery</a></li>
-        <li><a href="nursing-assistant.php">Nursing Assistant</a></li>
+        <!-- <li><a href="nursing-assistant.php">Nursing Assistant</a></li> -->
       </ul>
     </div>
 

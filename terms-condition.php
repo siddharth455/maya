@@ -1,3 +1,9 @@
+<?php
+$page_title = "Terms & Conditions | Maya Devi University Dehradun";
+$page_description = "Read the Terms and Conditions for using the Maya Devi University website and its admission and educational services.";
+$canonical_url = "https://maya.edu.in/terms-condition.php";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+?>
 <?php require "common/header.php" ?>
 <section>
     <div class="container my-5">

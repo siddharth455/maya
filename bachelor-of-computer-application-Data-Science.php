@@ -1,7 +1,7 @@
 <?php
 $page_title = "BCA Data Science in Dehradun | Maya Devi University";
 $page_description = "Study BCA Data Science at Maya Devi University, Dehradun with analytics tools, machine learning projects, and industry exposure.";
-$canonical_url = "https://maya.edu.in/bachelor-of-computer-application-Data-Science.php";
+$canonical_url = "https://maya.edu.in/bachelor-of-computer-application-data-science.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
 <?php require "common/header.php"?>
@@ -109,10 +109,10 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bachelor-of-computer-application-AI-&-ML.php"><img class="animated" src="assets/uploads/ai.jpeg" alt=""></a>
+                                    <a href="bachelor-of-computer-application-ai-and-ml.php"><img class="animated" src="assets/uploads/ai.jpeg" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                    <h4><a href="bachelor-of-computer-application-AI-&-ML.php">BCA with Specialization in AI and ML (AIML)</a></h4>
+                                    <h4><a href="bachelor-of-computer-application-ai-and-ml.php">BCA with Specialization in AI and ML (AIML)</a></h4>
                                     <p>Specialized BCA program focusing on AI and Machine Learning applications.</p>
                                 </div>
                                 <div class="course-position-content">
@@ -127,7 +127,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="bachelor-of-computer-application-AI-&-ML.php">APPLY NOW</a>
+                                        <a class="default-btn" href="bachelor-of-computer-application-ai-and-ml.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>

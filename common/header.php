@@ -172,7 +172,7 @@ $base_url = $protocol . $host . $projectFolder;
                                                 <li><a href="offices-services.php">Offices & Services</a></li>
                                                  <li><a href="leadership.php">Leadership</a></li>
                                                 <li><a href="vision-mission.php">Vision and Mission</a></li>
-                                                <li><a href="approval-accredetion-membership-ranking.php">Approval, Accredetions<br> & Ranking</a></li>
+                                                <li><a href="approval-accreditation-membership-ranking.php">Approval, Accreditation<br> & Ranking</a></li>
                                             </ul>
                                         </li>
                                         <li class="mega-menu-position top-hover"><a href="#"> OUR SCHOOLS <i class="fa fa-angle-down"></i> </a>
@@ -191,20 +191,20 @@ $base_url = $protocol . $host . $projectFolder;
                                                 <li>
                                                     <ul>
                                                         <li><a href=""></a></li>
-                                                        <li><a href="School-Of-Education.php">School of Education</a></li>
+                                                        <li><a href="school-of-education.php">School of Education</a></li>
                                                         <li><a href="agriculture.php">School of Agriculture & Technology</a></li>
                                                         <li><a href="Nursing.php">School of Nursing</a></li>
-                                                        <li><a href="School-Of-Health-Sciences.php">School of Health Sciences</a></li>
-                                                        <li><a href="School-Of-Paramedical-Sciences.php">School of Paramedical Sciences</a></li>
-                                                        <li><a href="Arts-and-humanities.php">School of Arts & Humanities</a></li>
+                                                        <li><a href="school-of-health-sciences.php">School of Health Sciences</a></li>
+                                                        <li><a href="school-of-paramedical-sciences.php">School of Paramedical Sciences</a></li>
+                                                        <li><a href="arts-and-humanities.php">School of Arts & Humanities</a></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <ul>
                                                         <li><a href=""></a></li>
-                                                        <li><a href="School-Of-LegalStudies.php">School of Law & Legal Studies</a></li>
-                                                        <li><a href="School-Of-Skill-Development-and-Vocational-Studies.php">School of Skill Development & Vocational Studies</a></li>
-                                                        <li><a href="School-Of-Rehabilitation-Sciences.php">Ashtvakra School of Rehabilitation</a></li>
+                                                        <li><a href="school-of-legal-studies.php">School of Law & Legal Studies</a></li>
+                                                        <li><a href="school-of-skill-development-and-vocational-studies.php">School of Skill Development & Vocational Studies</a></li>
+                                                        <li><a href="school-of-rehabilitation-sciences.php">Ashtvakra School of Rehabilitation</a></li>
                                                     </ul>
                                                 </li>
 
@@ -212,12 +212,12 @@ $base_url = $protocol . $host . $projectFolder;
                                         </li>
                                         <li><a href="#"> ADMISSION <i class="fa fa-angle-down"></i> </a>
                                             <ul class="submenu">
-                                                <li><a href="assets/uploads/pdf/MDU_COMBINED_Brochure.pdf" download="MDU_COMBINED_Brochure.pdf">MDU Brocure</a></li>
+                                                <li><a href="assets/uploads/pdf/MDU_COMBINED_Brochure.pdf" download="MDU_COMBINED_Brochure.pdf">MDU Brochure</a></li>
                                                 <li><a href="fee-structure.php">Fee Structure</a></li>
                                                 <li><a href="https://admissions.maya.edu.in" target="_blank">Apply Now</a></li>
                                                 <li><a href="campus-life.php">Campus Life</a></li>
                                                 <li><a href="assets/uploads/pdf/List_of_Holidays_2026.pdf" download="List_of_Holidays_2025.pdf">List of Holidays</a></li>
-                                                <li><a href="assets/uploads/pdf/Academic-Calender_2025-26.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calender<br> Even Sem 2024-25</a></li>
+                                                <li><a href="assets/uploads/pdf/Academic-Calender_2025-26.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calendar<br> Even Sem 2024-25</a></li>
                                                 <li><a href="refund-policy.php">Refund Policy</a></li>
                                             </ul>
                                         </li>
@@ -228,7 +228,7 @@ $base_url = $protocol . $host . $projectFolder;
                                                 <!-- <li><a href="" download="MDU_COMBINED_Brochure.pdf">Academic Overview</a></li>
                                                 <li><a href="" target="_blank">Curriculum Innovation</a></li>
                                                 <li><a href="">Examination</a></li>
-                                                <li><a href="" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calender</a></li>
+                                                <li><a href="" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calendar</a></li>
                                                 <li><a href="">List of Holidays</a></li> -->
                                             </ul>
                                         </li>
@@ -265,7 +265,7 @@ $base_url = $protocol . $host . $projectFolder;
                                                 <li><a href="offices-services.php">Offices & Services</a></li>
                                                  <li><a href="leadership.php">Leadership</a></li>
                                                 <li><a href="vision-mission.php">Vision and Mission</a></li>
-                                                <li><a href="approval-accredetion-membership-ranking.php">Approval, Accredetions & Ranking</a></li>
+                                                <li><a href="approval-accreditation-membership-ranking.php">Approval, Accreditation & Ranking</a></li>
                                             </ul>
                                         </li>
                                 <li><a href="#"> OUR SCHOOLS <i class="fa fa-angle-down"></i> </a>
@@ -276,25 +276,25 @@ $base_url = $protocol . $host . $projectFolder;
                                         <li><a href="management-and-commerce.php">School of Commerce & Management</a></li>
                                         <li><a href="hotel-management-and-tourism.php">School of Hotel & Tourism Management </a></li>
                                         <li><a href="sciences.php">School of Life & Applied Science</a></li>
-                                        <li><a href="School-Of-Education.php">School of Education</a></li>
+                                        <li><a href="school-of-education.php">School of Education</a></li>
                                         <li><a href="agriculture.php">School of Agriculture & Technology</a></li>
                                         <li><a href="Nursing.php">School of Nursing</a></li>
-                                        <li><a href="School-Of-Health-Sciences.php">School of Health Sciences</a></li>
-                                        <li><a href="School-Of-Paramedical-Sciences.php">School of Paramedical Sciences</a></li>
-                                        <li><a href="Arts-and-humanities.php">School of Arts & Humanities</a></li>
-                                        <li><a href="School-Of-LegalStudies.php">School of Law & Legal Studies</a></li>
-                                        <li><a href="School-Of-Skill-Development-and-Vocational-Studies.php">School of Skill Development & Vocational Studies</a></li>
-                                        <li><a href="School-Of-Rehabilitation-Sciences.php">Ashtvakra School of Rehabilitation</a></li>
+                                        <li><a href="school-of-health-sciences.php">School of Health Sciences</a></li>
+                                        <li><a href="school-of-paramedical-sciences.php">School of Paramedical Sciences</a></li>
+                                        <li><a href="arts-and-humanities.php">School of Arts & Humanities</a></li>
+                                        <li><a href="school-of-legal-studies.php">School of Law & Legal Studies</a></li>
+                                        <li><a href="school-of-skill-development-and-vocational-studies.php">School of Skill Development & Vocational Studies</a></li>
+                                        <li><a href="school-of-rehabilitation-sciences.php">Ashtvakra School of Rehabilitation</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#"> ADMISSION <i class="fa fa-angle-down"></i> </a>
                                     <ul class="submenu">
-                                        <li><a href="assets/uploads/pdf/MDU_COMBINED_Brochure.pdf" download="MDU_COMBINED_Brochure.pdf">MDU Brocure</a></li>
+                                        <li><a href="assets/uploads/pdf/MDU_COMBINED_Brochure.pdf" download="MDU_COMBINED_Brochure.pdf">MDU Brochure</a></li>
                                         <li><a href="fee-structure.php">Fee Structure</a></li>
                                         <li><a href="https://admissions.maya.edu.in" target="_blank">Apply Now</a></li>
                                         <li><a href="campus-life.php">Campus Life</a></li>
                                         <li><a href="assets/uploads/pdf/List_of_Holidays_2025.pdf" download="List_of_Holidays_2025.pdf">List of Holidays</a></li>
-                                        <li><a href="assets/uploads/pdf/Academic_Calender_Even_Sem_2024-25.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calender Even Sem 2024-25</a></li>
+                                        <li><a href="assets/uploads/pdf/Academic_Calender_Even_Sem_2024-25.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calendar Even Sem 2024-25</a></li>
                                         <li><a href="refund-policy.php">Refund Policy</a></li>
                                     </ul>
                                 </li>
@@ -305,7 +305,7 @@ $base_url = $protocol . $host . $projectFolder;
                                                 <!-- <li><a href="" download="MDU_COMBINED_Brochure.pdf">Academic Overview</a></li>
                                                 <li><a href="" target="_blank">Curriculum Innovation</a></li>
                                                 <li><a href="">Examination</a></li>
-                                                <li><a href="" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calender</a></li>
+                                                <li><a href="" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calendar</a></li>
                                                 <li><a href="">List of Holidays</a></li> -->
                                             </ul>
                                         </li>

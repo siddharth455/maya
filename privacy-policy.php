@@ -1,3 +1,9 @@
+<?php
+$page_title = "Privacy Policy | Maya Devi University Dehradun";
+$page_description = "Read Maya Devi University's privacy policy on how we collect, use, and protect your information submitted via our admission and inquiry forms.";
+$canonical_url = "https://maya.edu.in/privacy-policy.php";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+?>
 <?php require "common/header.php" ?>
 <section>
     <div class="container my-5">

@@ -93,10 +93,10 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="best-masters-of-business-administration-Agri-Business-Management-college-in-dehradun.php"><img class="animated" src="assets/uploads/Agribusiness-Management.jpg" alt=""></a>
+                                    <a href="best-masters-of-business-administration-agri-business-management-college-in-dehradun.php"><img class="animated" src="assets/uploads/Agribusiness-Management.jpg" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                <h4><a href="best-masters-of-business-administration-Agri-Business-Management-college-in-dehradun.php">Masters of Business Administration - Agri Business Management</a></h4>
+                                <h4><a href="best-masters-of-business-administration-agri-business-management-college-in-dehradun.php">Masters of Business Administration - Agri Business Management</a></h4>
                                 <p>The B.Pharm Lateral Entry program is a three-year course focusing on pharmaceutical sciences, drug development, and pharmacy practice.</p>
                                 </div>
                                 <div class="course-position-content">
@@ -111,16 +111,16 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="best-masters-of-business-administration-Agri-Business-Management-college-in-dehradun.php">APPLY NOW</a>
+                                        <a class="default-btn" href="best-masters-of-business-administration-agri-business-management-college-in-dehradun.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="best-masters-of-business-administration-Business-Analytics-college-in-dehradun.php"><img class="animated" src="assets/uploads/mba-business.jpg" alt=""></a>
+                                    <a href="best-masters-of-business-administration-business-analytics-college-in-dehradun.php"><img class="animated" src="assets/uploads/mba-business.jpg" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                <h4><a href="best-masters-of-business-administration-Business-Analytics-college-in-dehradun.php">Masters of Business Administration - Business Analytics</a></h4>
+                                <h4><a href="best-masters-of-business-administration-business-analytics-college-in-dehradun.php">Masters of Business Administration - Business Analytics</a></h4>
                                 <p>The Master of Business Administration (MBA) in Business Analytics program equips students with advanced knowledge in data analysis, statistical modeling, and data-driven decision-making skills.</p>
                                 </div>
                                 <div class="course-position-content">
@@ -135,16 +135,16 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="best-masters-of-business-administration-Business-Analytics-college-in-dehradun.php">APPLY NOW</a>
+                                        <a class="default-btn" href="best-masters-of-business-administration-business-analytics-college-in-dehradun.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="best-masters-of-business-administration-FinTech-college-in-dehradun.php"><img class="animated" src="assets/uploads/mba-fintech.webp" alt=""></a>
+                                    <a href="best-masters-of-business-administration-fintech-college-in-dehradun.php"><img class="animated" src="assets/uploads/mba-fintech.webp" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                            <h4><a href="best-masters-of-business-administration-FinTech-college-in-dehradun.php">Masters of Business Administration - FinTech</a></h4>
+                            <h4><a href="best-masters-of-business-administration-fintech-college-in-dehradun.php">Masters of Business Administration - FinTech</a></h4>
                                <p>The Master of Business Administration (MBA) in FinTech program is a two-year postgraduate course focusing on financial technologies, financial analytics, and technology-driven financial innovation.</p>
                                 </div>
                                 <div class="course-position-content">
@@ -159,7 +159,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="best-masters-of-business-administration-FinTech-college-in-dehradun.php">APPLY NOW</a>
+                                        <a class="default-btn" href="best-masters-of-business-administration-fintech-college-in-dehradun.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>
@@ -189,7 +189,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 <li><a href="pharmacy.php">School of Pharmacy <span>07</span></a></li>
                                 <li><a href="Nursing.php">School of Nursing <span>03</span></a></li>
                                 <li><a href="management-and-commerce.php">School of Commerce & Management <span>09</span></a></li>
-                                <li><a href="School-Of-Health-Sciences.php">School of Health Sciences <span>10</span></a></li>
+                                <li><a href="school-of-health-sciences.php">School of Health Sciences <span>10</span></a></li>
                             </ul>
                         </div>
                     </div>

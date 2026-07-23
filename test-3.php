@@ -383,7 +383,7 @@ document.addEventListener("DOMContentLoaded", () => {
      <div class="col-lg-3 col-md-6 mb-30">
   <div class="course-card">
     <div class="course-img">
-      <a href="best-masters-of-business-administration-Agri-Business-Management-college-in-dehradun.php">
+      <a href="best-masters-of-business-administration-agri-business-management-college-in-dehradun.php">
         <img src="assets/uploads/Agribusiness-Management.jpg" alt="MBA Agri Business Management">
       </a>
     </div>
@@ -394,14 +394,14 @@ document.addEventListener("DOMContentLoaded", () => {
         <span>Credits: 80</span>
         <span>2 Years</span>
       </div>
-      <a class="default-btn btn-block" href="best-masters-of-business-administration-Agri-Business-Management-college-in-dehradun.php">Apply Now</a>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-agri-business-management-college-in-dehradun.php">Apply Now</a>
     </div>
   </div>
 </div>
 <div class="col-lg-3 col-md-6 mb-30">
   <div class="course-card">
     <div class="course-img">
-      <a href="best-masters-of-business-administration-Business-Analytics-college-in-dehradun.php">
+      <a href="best-masters-of-business-administration-business-analytics-college-in-dehradun.php">
         <img src="assets/uploads/mba-business.jpg" alt="MBA Business Analytics">
       </a>
     </div>
@@ -412,14 +412,14 @@ document.addEventListener("DOMContentLoaded", () => {
         <span>Credits: 80</span>
         <span>2 Years</span>
       </div>
-      <a class="default-btn btn-block" href="best-masters-of-business-administration-Business-Analytics-college-in-dehradun.php">Apply Now</a>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-business-analytics-college-in-dehradun.php">Apply Now</a>
     </div>
   </div>
 </div>
 <div class="col-lg-3 col-md-6 mb-30">
   <div class="course-card">
     <div class="course-img">
-      <a href="best-masters-of-business-administration-Digital-Marketing-college-in-dehradun.php">
+      <a href="best-masters-of-business-administration-digital-marketing-college-in-dehradun.php">
         <img src="assets/uploads/mba-digital.jpg" alt="MBA Digital Marketing">
       </a>
     </div>
@@ -430,14 +430,14 @@ document.addEventListener("DOMContentLoaded", () => {
         <span>Credits: 80</span>
         <span>2 Years</span>
       </div>
-      <a class="default-btn btn-block" href="best-masters-of-business-administration-Digital-Marketing-college-in-dehradun.php">Apply Now</a>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-digital-marketing-college-in-dehradun.php">Apply Now</a>
     </div>
   </div>
 </div>
 <div class="col-lg-3 col-md-6 mb-30">
   <div class="course-card">
     <div class="course-img">
-      <a href="best-masters-of-business-administration-FinTech-college-in-dehradun.php">
+      <a href="best-masters-of-business-administration-fintech-college-in-dehradun.php">
         <img src="assets/uploads/mba-fintech.webp" alt="MBA FinTech">
       </a>
     </div>
@@ -448,7 +448,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <span>Credits: 80</span>
         <span>2 Years</span>
       </div>
-      <a class="default-btn btn-block" href="best-masters-of-business-administration-FinTech-college-in-dehradun.php">Apply Now</a>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-fintech-college-in-dehradun.php">Apply Now</a>
     </div>
   </div>
 </div>
@@ -473,7 +473,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <div class="col-lg-3 col-md-6 mb-30">
   <div class="course-card">
     <div class="course-img">
-      <a href="best-masters-of-business-administration-Logistic-Management-college-in-dehradun.php">
+      <a href="best-masters-of-business-administration-logistic-management-college-in-dehradun.php">
         <img src="assets/uploads/mba-logistic.jpg" alt="MBA Logistic Management">
       </a>
     </div>
@@ -484,7 +484,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <span>Credits: 80</span>
         <span>2 Years</span>
       </div>
-      <a class="default-btn btn-block" href="best-masters-of-business-administration-Logistic-Management-college-in-dehradun.php">Apply Now</a>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-logistic-management-college-in-dehradun.php">Apply Now</a>
     </div>
   </div>
 </div>
@@ -509,7 +509,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <div class="col-lg-3 col-md-6 mb-30">
   <div class="course-card">
     <div class="course-img">
-      <a href="best-masters-of-business-administration-Pharmaceutical-Management-college-in-dehradun.php">
+      <a href="best-masters-of-business-administration-pharmaceutical-management-college-in-dehradun.php">
         <img src="assets/uploads/mba-pharma.jpg" alt="MBA Pharmaceutical Management">
       </a>
     </div>
@@ -520,14 +520,14 @@ document.addEventListener("DOMContentLoaded", () => {
         <span>Credits: 80</span>
         <span>2 Years</span>
       </div>
-      <a class="default-btn btn-block" href="best-masters-of-business-administration-Pharmaceutical-Management-college-in-dehradun.php">Apply Now</a>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-pharmaceutical-management-college-in-dehradun.php">Apply Now</a>
     </div>
   </div>
 </div>
 <div class="col-lg-3 col-md-6 mb-30">
   <div class="course-card">
     <div class="course-img">
-      <a href="best-masters-of-business-administration-Sports-Management-college-in-dehradun.php">
+      <a href="best-masters-of-business-administration-sports-management-college-in-dehradun.php">
         <img src="assets/uploads/mba-sports.png" alt="MBA Sports Management">
       </a>
     </div>
@@ -538,7 +538,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <span>Credits: 80</span>
         <span>2 Years</span>
       </div>
-      <a class="default-btn btn-block" href="best-masters-of-business-administration-Sports-Management-college-in-dehradun.php">Apply Now</a>
+      <a class="default-btn btn-block" href="best-masters-of-business-administration-sports-management-college-in-dehradun.php">Apply Now</a>
     </div>
   </div>
 </div>

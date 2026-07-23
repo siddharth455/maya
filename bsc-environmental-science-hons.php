@@ -1,3 +1,9 @@
+<?php
+$page_title = "B.Sc. Environmental Science Hons | Maya Devi University Dehradun";
+$page_description = "The B.Sc. Environmental Science (Hons) program is designed to develop students’ scientific knowledge, analytical skills, and practical abilities to understand...";
+$canonical_url = "https://maya.edu.in/bsc-environmental-science-hons.php";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/nursing-banner.webp);">

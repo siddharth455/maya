@@ -1,21 +1,21 @@
 <?php
-$page_title = "Best B.Sc Agriculture College in Dehradun | Maya Devi University";
-$page_description = "Looking for the best B.Sc Agriculture college in Dehradun? Maya Devi University offers practical field training and modern agricultural labs.";
-$canonical_url = "https://maya.edu.in/bsc-agriculture-colleges-in-dehradun-uttarakhand.php";
+$page_title = "B.Tech AI & ML in Dehradun | Maya Devi University";
+$page_description = "Study B.Tech Artificial Intelligence and Machine Learning at Maya Devi University, Dehradun with advanced labs and strong industry exposure.";
+$canonical_url = "https://maya.edu.in/b-tech-ai-ml.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
-<?php require "common/header.php" ?>
+<?php require "common/header.php"?>
 <div class="breadcrumb-area">
-    <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/agri.webp);">
+    <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/ai.jpeg);">
         <div class="container">
-            <h2>Bachelor of Science in Agriculture (Hons.)</h2>
-            <p>The Bachelor of Science in Agriculture (Hons.) program is designed to equip students with in-depth knowledge and practical skills in modern agricultural practices, crop management, and sustainable farming techniques.</p>
+            <h2>B.Tech CSE with Specialization AI & ML</h2>
+            <p>Industry-integrated B.Tech in Artificial Intelligence & Machine Learning designed to equip students with cutting-edge technical knowledge and practical skills, enabling hands-on experience in AI tools, frameworks, and methodologies.</p>
         </div>
     </div>
     <div class="breadcrumb-bottom">
         <div class="container">
             <ul>
-                <li><a href="index.php">Home</a> <span><i class="fa fa-angle-double-right"></i>B.Sc. agri</span></li>
+                <li><a href="#">Home</a> <span><i class="fa fa-angle-double-right"></i>B.tech AI & ML</span></li>
             </ul>
         </div>
     </div>
@@ -26,7 +26,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/agri.webp" alt="">
+                        <img src="assets/uploads/ai.jpeg" alt="banner">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -34,83 +34,71 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                     <div class="tab-content jump">
                         <div class="tab-pane active mt-5" id="course-details-1">
                             <div class="over-view-content">
-                                <h4>COURSE DETAILS</h4>
-                                <h5>Course Name : Bachelor of Science in Agriculture (Hons.)</h5>
-                                <p>The Bachelor of Science in Agriculture (Hons.) program provides comprehensive knowledge and practical expertise in all aspects of modern agriculture, including crop production, soil science, horticulture, agricultural economics, and farm management. Students gain both theoretical understanding and hands-on skills essential for careers in agriculture, agribusiness, and research.</p> <p>Practical training in farms, laboratories, and research projects enhances technical, analytical, and managerial competencies. The program emphasizes sustainable farming practices, innovation, and scientific approaches to agriculture. Internships and fieldwork with leading agricultural organizations prepare graduates for roles as agricultural scientists, farm managers, agribusiness professionals, and researchers in the agriculture and food sectors.</p>
+                                <h4>COURSE  DETAILS</h4>
+                                <h5>Course Name : B.Tech CSE with Specialization AI & ML</h5>
+                                <p>The Bachelor of Technology (B.Tech) in Computer Science with a Specialization in Artificial Intelligence & Machine Learning (AI & ML) is a cutting-edge undergraduate program designed to equip students with a strong foundation in core computer science principles, while providing in-depth knowledge and practical skills in AI and ML technologies.</p>
+                                <p>This specialization emphasizes areas such as data science, deep learning, neural networks, natural language processing, computer vision, and intelligent systems.</p>
+                                <p>The curriculum blends theoretical concepts with hands-on learning, encouraging innovation, research, and real-world problem solving. Graduates of this program are prepared to contribute to transformative technological advancements across industries such as healthcare, finance, robotics, and automation.
+
+This program nurtures critical thinking, analytical skills, and ethical awareness—empowering students to lead the future of intelligent systems and machine learning applications.</p>
 
                                 <div class="over-view-list">
-                                    <h2>Eligibility Criteria</h2>
+                                <h2>Eligibility Criteria</h2>
                                     <div class="sin-over-view-list">
-
+                                       
                                         <div class="course-list-icon">
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
-                                            <p>10+2 passed with PCB/PCM/Agriculture.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Minimum 50% marks for General category</p>
-                                        </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
-                                        <div class="course-list-icon">
-                                            <i class="fa fa-check"></i>
-                                        </div>
-                                        <div class="course-list-content">
-                                            <p>Minimum 45% marks for SC/ST category</p>
+                                          <p>Candidates to have passed 10+2 with Physics, Mathematics, and Chemistry/Biotechnology/Technical Vocational subjects, securing a minimum of 45-55% aggregate marks.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <h2>More Details</h2>
                                 <div class="course-summary-wrap mt-4">
-
+                                    
                                     <div class="single-course-summary">
                                         <h4>Total Students</h4>
-                                        <span><i class="fa fa-user"></i> 60</span>
+                                        <span><i class="fa fa-user"></i> 120</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Duration</h4>
-                                        <span><i class="fa fa-clock-o"></i> 4years</span>
+                                        <span><i class="fa fa-clock-o"></i> 4yrs</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Course Credits</h4>
-                                        <span><i class="fa fa-diamond"></i> 125</span>
+                                        <span><i class="fa fa-diamond"></i> 177</span>
                                     </div>
                                     <div class="single-course-summary">
                                         <h4>Total Semester</h4>
                                         <span><i class="fa fa-book"></i> 8</span>
                                     </div>
                                 </div>
-
+                                
                             </div>
                         </div>
-
+                       
                     </div>
-
+                    
                     <div class="related-course pt-70">
                         <div class="related-title mb-45 mrg-bottom-small">
                             <h3>Related Course</h3>
-
+                           
                         </div>
                         <div class="related-slider-active">
-                        <div class="single-course">
+                            <div class="single-course">
                                 <div class="course-img">
-                                    <a href="food-technology.php"><img class="animated" src="assets/uploads/food.webp" alt=""></a>
+                                    <a href="b-tech-ai-ml.php"><img class="animated" src="assets/uploads/ai.jpeg" alt="Course Image"></a>
                                 </div>
                                 <div class="course-content">
-                                    <h4><a href="food-technology.php">Bachelor in Food Technology</a></h4>
-                                    <p>The Bachelor of Food Technology program focuses on food processing, preservation, quality control, and production skills for the food industry.</p>
+                                    <h4><a href="b-tech-ai-ml.php">B.Tech. Computer Science & Engineering (AIML) with IBM</a></h4>
+                                    <p>Specialized program in AI and Machine Learning with IBM, emphasizing advanced algorithms and data models.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 177</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -118,23 +106,71 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="food-technology.php">APPLY NOW</a>
+                                        <a class="default-btn" href="b-tech-ai-ml.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="food-technology.php"><img class="animated" src="assets/uploads/food.webp" alt=""></a>
+                                    <a href="b.tech-data_science.php"><img class="animated" src="assets/uploads/data-science.webp" alt="Course Image"></a>
                                 </div>
                                 <div class="course-content">
-                                    <h4><a href="food-technology.php">Bachelor in Food Technology (Hons.)</a></h4>
-                                    <p>The Bachelor of Food Technology (Hons.) program emphasizes advanced food processing, quality assurance, research, and production skills for the food industry.</p>
+                                    <h4><a href="b.tech-data_science.php">B.Tech. Computer Science & Engineering (Data Science)</a></h4>
+                                    <p>Focused program on data science with IBM, covering data analysis, visualization, and predictive modeling.</p>
                                 </div>
                                 <div class="course-position-content">
                                     <div class="credit-duration-wrap">
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
+                                            <span>Credits : 177</span>
+                                        </div>
+                                        <div class="sin-credit-duration">
+                                            <i class="fa fa-clock-o"></i>
+                                            <span>Duration : 4yrs</span>
+                                        </div>
+                                    </div>
+                                    <div class="course-btn">
+                                        <a class="default-btn" href="b.tech-data_science.php">APPLY NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-course">
+                                <div class="course-img">
+                                    <a href="b.tech-cyber_security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt="Course Image"></a>
+                                </div>
+                                <div class="course-content">
+                                    <h4><a href="b.tech-cyber_security.php">B.Tech. Computer Science & Engineering (Cyber Security & Forensics)</a></h4>
+                                    <p>Specialized program in cyber security and digital forensics with IBM, focusing on threat detection and mitigation.</p>
+                                </div>
+                                <div class="course-position-content">
+                                    <div class="credit-duration-wrap">
+                                        <div class="sin-credit-duration">
+                                            <i class="fa fa-diamond"></i>
+                                            <span>Credits : 177</span>
+                                        </div>
+                                        <div class="sin-credit-duration">
+                                            <i class="fa fa-clock-o"></i>
+                                            <span>Duration : 4yrs</span>
+                                        </div>
+                                    </div>
+                                    <div class="course-btn">
+                                        <a class="default-btn" href="b.tech-cyber_security.php">APPLY NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-course">
+                                <div class="course-img">
+                                    <a href="b-tech-le.php"><img class="animated" src="assets/uploads/b-tech-le.webp" alt="Course Image"></a>
+                                </div>
+                                <div class="course-content">
+                                    <h4><a href="b-tech-le.php">B.Tech. Computer Science & Engineering (LE)</a></h4>
+                                    <p>Lateral entry program for diploma holders to pursue advanced computer science studies.</p>
+                                </div>
+                                <div class="course-position-content">
+                                    <div class="credit-duration-wrap">
+                                        <div class="sin-credit-duration">
+                                            <i class="fa fa-diamond"></i>
+                                            <span>Credits : 127</span>
                                         </div>
                                         <div class="sin-credit-duration">
                                             <i class="fa fa-clock-o"></i>
@@ -142,61 +178,38 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="food-technology.php">APPLY NOW</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-course">
-                                <div class="course-img">
-                                    <a href="master-in-agriculture.php"><img class="animated" src="assets/uploads/agriculture.webp" alt=""></a>
-                                </div>
-                                <div class="course-content">
-                                    <h4><a href="master-in-agriculture.php">Master in agriculture</a></h4>
-                                    <p>The Master in Agriculture program offers advanced training in crop production, soil management, and sustainable farming, preparing graduates for research and leadership roles in agriculture.</p>
-                                </div>
-                                <div class="course-position-content">
-                                    <div class="credit-duration-wrap">
-                                        <div class="sin-credit-duration">
-                                            <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
-                                        </div>
-                                        <div class="sin-credit-duration">
-                                            <i class="fa fa-clock-o"></i>
-                                            <span>Duration : 2yrs</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-btn">
-                                        <a class="default-btn" href="master-in-agriculture.php">APPLY NOW</a>
+                                        <a class="default-btn" href="b-tech-le.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                
             </div>
-
+            
             <div class="col-xl-3 col-lg-4">
                 <div class="sidebar-style sidebar-res-mrg-none">
-
+                   
                     <div class="sidebar-about mb-40">
                         <div class="sidebar-title mb-15">
                             <h4>About Us</h4>
                         </div>
-                        <p>Maya Devi University’s Bachelor of Science in Agriculture (Hons.) program provides comprehensive knowledge and hands-on training in modern agricultural practices, crop production, soil management, and sustainable farming techniques. Graduates are prepared for careers as agricultural scientists, farm managers, agribusiness professionals, and researchers, contributing to innovation and efficiency in the agriculture and food sectors.</p>
+                        <p>Maya Devi University’s B.Tech in Computer Science equips students with strong technical skills in programming, software development, and emerging technologies. Supported by modern labs and expert faculty, the program blends theory with practical projects and industry exposure. Graduates are prepared for careers in software engineering, data science, AI, and other fast-growing technology domains worldwide.</p>
+                       
                     </div>
-
+                    
                     <div class="sidebar-category mb-40">
                         <div class="sidebar-title mb-40">
                             <h4>School Category</h4>
                         </div>
                         <div class="category-list">
                             <ul>
-                                <li><a href="best-engineering-college-in-dehradun-Uttarakhand.php">School of Engineering <span>13</span></a></li>
-                                <li><a href="pharmacy.php">School of Pharmacy <span>07</span></a></li>
-                                <li><a href="Nursing.php">School of Nursing <span>03</span></a></li>
-                                <li><a href="management-and-commerce.php">School of Commerce & Management <span>09</span></a></li>
-                                <li><a href="School-Of-Health-Sciences.php">School of Health Sciences <span>10</span></a></li>
+                                <li><a href="#">School of Engineering <span>13</span></a></li>
+                                <li><a href="#">School of Pharmacy <span>07</span></a></li>
+                                <li><a href="#">School of Nursing <span>03</span></a></li>
+                                <li><a href="#">School of Commerce & Management <span>09</span></a></li>
+                                <li><a href="#">School of Health Sciences <span>10</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -212,7 +225,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
-                                    <p>Acquire a strong foundation in crop science, soil health, animal husbandry and agri- economics to meet the demands of modern agriculture.</p>
+                                    <p>Industry-integrated curriculum powered by IBM
+                                        Specialization in emerging technologies (AI, Data Science, Cloud, Cyber Security, IoT)</p>
                                 </div>
                             </div>
                             <div class="sin-over-view-list">
@@ -220,7 +234,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
-                                    <p>Apply hands on training and real world experience to effectively manage agricultural operations and rural enterprises.</p>
+                                    <p>Hands-on learning through labs, projects, and case studies
+                                        Access to IBM digital tools, platforms, and learning resources</p>
                                 </div>
                             </div>
                             <div class="sin-over-view-list">
@@ -228,7 +243,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
-                                    <p>Promote eco-friendly, climate-resilient and technology driven solutions to enhance productivity and sustainability.</p>
+                                    <p>Opportunities for IBM skill certifications</p>
                                 </div>
                             </div>
                             <div class="sin-over-view-list">
@@ -236,7 +251,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
-                                    <p>Be well prepared for careers in government, agribusiness, research, rural development and extension services.</p>
+                                    <p>Internship and industry interaction support</p>
                                 </div>
                             </div>
                             <div class="sin-over-view-list">
@@ -244,7 +259,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     <i class="fa fa-check"></i>
                                 </div>
                                 <div class="course-list-content">
-                                    <p>Demonstrate leadership, teamwork and communication skills essential for working with farmers, communities and industry professionals.</p>
+                                    <p>Honors degree with strong computer science fundamentals</p>
                                 </div>
                             </div>
                         </div>
@@ -259,7 +274,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
-                                <p>Government Services</p>
+                                <p>Software Engineer / Developer</p>
                             </div>
                         </div>
                         <div class="sin-over-view-list">
@@ -267,7 +282,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
-                                <p>Private Sector</p>
+                                <p>AI / Machine Learning Engineer</p>
                             </div>
                         </div>
                         <div class="sin-over-view-list">
@@ -275,7 +290,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
-                                <p>Research and Higher Education</p>
+                                <p>Data Scientist / Data Analyst </p>
                             </div>
                         </div>
                         <div class="sin-over-view-list">
@@ -283,7 +298,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
-                                <p>Entrepreneurship</p>
+                                <p>Cloud Engineer</p>
                             </div>
                         </div>
                         <div class="sin-over-view-list">
@@ -291,12 +306,18 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 <i class="fa fa-check"></i>
                             </div>
                             <div class="course-list-content">
-                                <p>Extension and Consultancy</p>
+                                <p>Cyber Security Analyst</p>
+                            </div>
+                        </div>
+                        <div class="sin-over-view-list">
+                            <div class="course-list-icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="course-list-content">
+                                <p>IoT / Blockchain Developer</p>
                             </div>
                         </div>
                     </div>
-
-                </div>
             </div>
         </div>
     </div>
@@ -352,38 +373,33 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     </div>
 </div>
 
-<?php require "common/footer.php" ?>
+<?php require "common/footer.php"?>
 <style>
     .single-brand-logo img {
-        width: 150px;
-        height: 100px;
-        object-fit: contain;
-        display: block;
-        margin: auto;
-    }
-</style>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
+    </style>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script>
-    $(document).ready(function() {
-        $('.brand-logo-active').owlCarousel({
-            loop: true,
-            margin: 20,
-            autoplay: true,
-            autoplayTimeout: 2000,
-            autoplayHoverPause: true,
-            smartSpeed: 800,
-            responsive: {
-                0: {
-                    items: 2
-                },
-                600: {
-                    items: 4
-                },
-                1000: {
-                    items: 6
-                }
-            }
-        });
+    $(document).ready(function(){
+      $('.brand-logo-active').owlCarousel({
+        loop: true,
+        margin: 20,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        smartSpeed: 800,
+        responsive: {
+          0: { items: 2 },
+          600: { items: 4 },
+          1000: { items: 6 }
+        }
+      });
     });
 </script>

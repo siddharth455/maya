@@ -1,7 +1,7 @@
 <?php
 $page_title = "B.Ed Course in Dehradun | Maya Devi University";
 $page_description = "Pursue B.Ed at Maya Devi University, Dehradun with modern teaching methods, practical training, and experienced faculty.";
-$canonical_url = "https://maya.edu.in/Bachelor-Education.php";
+$canonical_url = "https://maya.edu.in/bachelor-education.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
 <?php require "common/header.php"?>

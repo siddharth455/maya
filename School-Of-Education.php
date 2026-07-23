@@ -1,7 +1,7 @@
 <?php
 $page_title = "School of Education | Maya Devi University Dehradun";
 $page_description = "Explore School of Education at Maya Devi University, Dehradun offering B.Ed and teacher training programs.";
-$canonical_url = "https://maya.edu.in/School-Of-Education.php";
+$canonical_url = "https://maya.edu.in/school-of-education.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 $page_schema = <<<SCHEMA
 <script type="application/ld+json">
@@ -9,7 +9,7 @@ $page_schema = <<<SCHEMA
  "@context": "https://schema.org",
  "@type": "ItemList",
  "name": "School of Education — Maya Devi University, Dehradun",
- "url": "https://maya.edu.in/School-Of-Education.php",
+ "url": "https://maya.edu.in/school-of-education.php",
  "itemListElement": [
   {
    "@type": "ListItem",
@@ -261,7 +261,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="Bachelor-Education.php">
+            <a href="bachelor-education.php">
               <img src="assets/uploads/education.jpg" alt="">
             </a>
           </div>
@@ -272,7 +272,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <span>Credits: 125</span>
               <span>2 Years</span>
             </div>
-            <a class="default-btn btn-block" href="Bachelor-Education.php">Apply Now</a>
+            <a class="default-btn btn-block" href="bachelor-education.php">Apply Now</a>
           </div>
         </div>
       </div>

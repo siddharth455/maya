@@ -16,19 +16,19 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <h2 class="school-name my-3">School of Computer Engineering & Applications</h2>
       <ul class="courses-list">
       <li><a href="bachelor-of-computer-application.php">Bachelor of Computer Application</a></li>
-        <li><a href="bachelor-of-computer-application-AI-&-ML.php">Bachelor of Computer Application in AIML</a></li>
-        <li><a href="bachelor-of-computer-application-Data-Science.php">Bachelor of Computer Application in Data Science</a></li>
+        <li><a href="bachelor-of-computer-application-ai-and-ml.php">Bachelor of Computer Application in AIML</a></li>
+        <li><a href="bachelor-of-computer-application-data-science.php">Bachelor of Computer Application in Data Science</a></li>
         <li><a href="bachelor-of-computer-application-cyber-security.php">Bachelor of Computer Application in Cyber Security</a></li>
         <li><a href="bachelor-of-science-in-information-technology.php">B.Sc IT</a></li>
         <li><a href="bachelor-of-science-in-computer-science.php">B.Sc Computer Science</a></li>
-        <li><a href="b.tech-LE.php">B.Tech (LE)</a></li>
-        <li><a href="b.tech-CSE.php">B.Tech CSE</a></li>
-        <li><a href="b.tech-AI-ML.php">B.Tech AI & ML</a></li>
-        <li><a href="b.tech-EVT.php">B.Tech EVT</a></li>
-        <li><a href="B.Tech-HFCT.php">B.Tech HFCT</a></li>
+        <li><a href="b-tech-le.php">B.Tech (LE)</a></li>
+        <li><a href="b-tech-cse.php">B.Tech CSE</a></li>
+        <li><a href="b-tech-ai-ml.php">B.Tech AI & ML</a></li>
+        <li><a href="b-tech-evt.php">B.Tech EVT</a></li>
+        <li><a href="b-tech-hfct.php">B.Tech HFCT</a></li>
         <li><a href="b.tech-data_science.php">B.Tech Data Science</a></li>
         <li><a href="b.tech-cyber_security.php">B.Tech Cyber Security</a></li>
-        <li><a href="b.tech-CS_IBM.php">B.Tech CS with IBM Program (AIML, Data Science, Cyber Security & Forensics)</a></li>
+        <li><a href="b-tech-cs-ibm.php">B.Tech CS with IBM Program (AIML, Data Science, Cyber Security & Forensics)</a></li>
       </ul>
     </div>
 
@@ -81,8 +81,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <ul class="courses-list">
         <li><a href="bhm-colleges-in-dehradun-uttarakhand.php">BHM - Hotel Management</a></li>
         <li><a href="bhm-lateral-entry-colleges-in-dehradun-uttarakhand.php">BHM - Hotel Management (LE)</a></li>
-        <li><a href="BHMCT-colleges-in-dehradun-uttarakhand.php">BHM - Hotel Management & Catering Technology (BHMCT)</a></li>
-        <li><a href="BHMCT-lateral-entry-colleges-in-dehradun-uttarakhand.php">BHM - Hotel Management & Catering Technology (LE)</a></li>
+        <li><a href="bhmct-colleges-in-dehradun-uttarakhand.php">BHM - Hotel Management & Catering Technology (BHMCT)</a></li>
+        <li><a href="bhmct-lateral-entry-colleges-in-dehradun-uttarakhand.php">BHM - Hotel Management & Catering Technology (LE)</a></li>
       </ul>
     </div>
 
@@ -106,7 +106,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Education</h2>
       <ul class="courses-list">
-        <li><a href="Bachelor-Education.php">B.Ed - Bachelor of Education</a></li>
+        <li><a href="bachelor-education.php">B.Ed - Bachelor of Education</a></li>
       </ul>
     </div>
 

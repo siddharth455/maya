@@ -21,7 +21,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <li><a href="mca-cyber-security.php">Master of Computer Application (Cyber Security)</a></li>
         <li><a href="msc-computer-science.php">M.Sc Computer Science</a></li>
         <li><a href="mtech-cse.php">M.tech CSE</a></li>
-        <li><a href="mtech-specializations-cse-AI-ML.php">M.tech CSE(AIML/Data Science/Cyber Security)</a></li>
+        <li><a href="mtech-specializations-cse-ai-ml.php">M.tech CSE(AIML/Data Science/Cyber Security)</a></li>
       </ul>
     </div>
 

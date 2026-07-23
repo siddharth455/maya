@@ -1,3 +1,9 @@
+<?php
+$page_title = "M.Sc. Chemistry | Maya Devi University Dehradun";
+$page_description = "The M.Sc. Chemistry program is designed to provide advanced theoretical and practical knowledge in organic, inorganic, physical, and analytical chemistry. It...";
+$canonical_url = "https://maya.edu.in/msc-chemistry.php";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/nursing-banner.webp);">

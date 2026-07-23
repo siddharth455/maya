@@ -181,7 +181,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 <li><a href="pharmacy.php">School of Pharmacy <span>07</span></a></li>
                                 <li><a href="Nursing.php">School of Nursing <span>03</span></a></li>
                                 <li><a href="management-and-commerce.php">School of Commerce & Management <span>09</span></a></li>
-                                <li><a href="School-Of-Health-Sciences.php">School of Health Sciences <span>10</span></a></li>
+                                <li><a href="school-of-health-sciences.php">School of Health Sciences <span>10</span></a></li>
                             </ul>
                         </div>
                     </div>

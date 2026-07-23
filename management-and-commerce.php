@@ -886,7 +886,7 @@ section { position: relative; z-index: 1; }
           <h4>MBA – Agri Business Management</h4>
           <p>Two-year postgraduate program focused on agribusiness operations, agricultural marketing, rural finance, and supply chain management.</p>
           <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-Agri-Business-Management-college-in-dehradun.php" class="course-cta">Apply Now</a>
+          <a href="best-masters-of-business-administration-agri-business-management-college-in-dehradun.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-2">
@@ -896,7 +896,7 @@ section { position: relative; z-index: 1; }
           <h4>MBA – Business Analytics</h4>
           <p>Two-year postgraduate program focused on data analysis, predictive modeling, and data-driven strategic decision-making.</p>
           <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-Business-Analytics-college-in-dehradun.php" class="course-cta">Apply Now</a>
+          <a href="best-masters-of-business-administration-business-analytics-college-in-dehradun.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-3">
@@ -906,7 +906,7 @@ section { position: relative; z-index: 1; }
           <h4>MBA – Digital Marketing</h4>
           <p>Two-year postgraduate program focused on digital strategy, SEO, social media marketing, and online brand management.</p>
           <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-Digital-Marketing-college-in-dehradun.php" class="course-cta">Apply Now</a>
+          <a href="best-masters-of-business-administration-digital-marketing-college-in-dehradun.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-4">
@@ -916,7 +916,7 @@ section { position: relative; z-index: 1; }
           <h4>MBA – FinTech</h4>
           <p>Two-year postgraduate program focused on digital banking, blockchain, financial analytics, and financial technology innovation.</p>
           <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-FinTech-college-in-dehradun.php" class="course-cta">Apply Now</a>
+          <a href="best-masters-of-business-administration-fintech-college-in-dehradun.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-1">
@@ -936,7 +936,7 @@ section { position: relative; z-index: 1; }
           <h4>MBA – Logistic Management</h4>
           <p>Two-year postgraduate program focused on supply chain management, transportation planning, and logistics operations.</p>
           <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-Logistic-Management-college-in-dehradun.php" class="course-cta">Apply Now</a>
+          <a href="best-masters-of-business-administration-logistic-management-college-in-dehradun.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-3">
@@ -956,7 +956,7 @@ section { position: relative; z-index: 1; }
           <h4>MBA – Pharmaceutical Management</h4>
           <p>Two-year postgraduate program focused on pharmaceutical marketing, healthcare management, and regulatory affairs.</p>
           <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-Pharmaceutical-Management-college-in-dehradun.php" class="course-cta">Apply Now</a>
+          <a href="best-masters-of-business-administration-pharmaceutical-management-college-in-dehradun.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-1">
@@ -966,7 +966,7 @@ section { position: relative; z-index: 1; }
           <h4>MBA – Sports Management</h4>
           <p>Two-year postgraduate program focused on sports marketing, event management, sports finance, and athlete management.</p>
           <div class="course-meta-maya"><span>⚡ 80 Credits</span><span>📅 2 Years</span></div>
-          <a href="best-masters-of-business-administration-Sports-Management-college-in-dehradun.php" class="course-cta">Apply Now</a>
+          <a href="best-masters-of-business-administration-sports-management-college-in-dehradun.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-2">

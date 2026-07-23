@@ -1,7 +1,7 @@
 <?php
 $page_title = "Best college for Nursing in Dehradun | Maya Devi University";
 $page_description = "Join Best college for Nursing at Maya Devi University, Dehradun with practical hospital-based training.";
-$canonical_url = "https://maya.edu.in/nursing-assistant.php";
+$canonical_url = "https://maya.edu.in/Nursing.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 $page_schema = <<<SCHEMA
 <script type="application/ld+json">
@@ -287,7 +287,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
 
       <!-- Nursing Assistant -->
-      <div class="col-lg-3 col-md-6 mb-30">
+      <!-- <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
             <a href="nursing-assistant.php">
@@ -304,7 +304,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <a class="default-btn btn-block" href="nursing-assistant.php">Apply Now</a>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
 

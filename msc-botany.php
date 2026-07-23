@@ -1,3 +1,9 @@
+<?php
+$page_title = "M.Sc. Botany | Maya Devi University Dehradun";
+$page_description = "The M.Sc. Botany program is designed to provide advanced knowledge and research skills in plant biology, biotechnology, ecology, physiology, taxonomy, and...";
+$canonical_url = "https://maya.edu.in/msc-botany.php";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/nursing-banner.webp);">

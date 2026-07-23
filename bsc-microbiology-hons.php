@@ -1,3 +1,9 @@
+<?php
+$page_title = "B.Sc. Microbiology (Hons.) | Maya Devi University Dehradun";
+$page_description = "The B.Sc. (Hons.) Microbiology program is designed to provide advanced knowledge and research skills in studying microorganisms, their functions, and their...";
+$canonical_url = "https://maya.edu.in/bsc-microbiology-hons.php";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/nursing-banner.webp);">

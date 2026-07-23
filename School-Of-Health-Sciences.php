@@ -1,7 +1,7 @@
 <?php
 $page_title = "School of Health Sciences | Maya Devi University Dehradun";
 $page_description = "School of Health Sciences at Maya Devi University, Dehradun offering nursing and paramedical programs.";
-$canonical_url = "https://maya.edu.in/School-Of-Health-Sciences.php";
+$canonical_url = "https://maya.edu.in/school-of-health-sciences.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 $page_schema = <<<SCHEMA
 <script type="application/ld+json">
@@ -9,7 +9,7 @@ $page_schema = <<<SCHEMA
  "@context": "https://schema.org",
  "@type": "ItemList",
  "name": "School of Health Sciences — Maya Devi University, Dehradun",
- "url": "https://maya.edu.in/School-Of-Health-Sciences.php",
+ "url": "https://maya.edu.in/school-of-health-sciences.php",
  "itemListElement": [
   {
    "@type": "ListItem",

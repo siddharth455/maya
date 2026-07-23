@@ -436,7 +436,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="DoctorPharmacy.php">
+            <a href="doctor-pharmacy.php">
               <img src="assets/uploads/pharm-d.webp" alt="">
             </a>
           </div>
@@ -447,7 +447,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <span>Credits: 173 hrs</span>
               <span>6 Years</span>
             </div>
-            <a class="default-btn btn-block" href="DoctorPharmacy.php">Apply Now</a>
+            <a class="default-btn btn-block" href="doctor-pharmacy.php">Apply Now</a>
           </div>
         </div>
       </div>

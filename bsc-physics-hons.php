@@ -1,3 +1,9 @@
+<?php
+$page_title = "Bachelor of Science (B.Sc.) Hons. in Physics | Maya Devi University Dehradun";
+$page_description = "The B.Sc. (Hons.) Physics program is designed to develop advanced conceptual, analytical, and research skills in physics, focusing on theoretical...";
+$canonical_url = "https://maya.edu.in/bsc-physics-hons.php";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/nursing-banner.webp);">

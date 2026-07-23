@@ -7,6 +7,11 @@
   <title>Best University for PhD in Dehradun Uttarakhand | Maya Devi University</title>
   <meta name="description"
     content="Maya Devi University is among the best universities for PhD in Dehradun, Uttarakhand." />
+  <link rel="canonical" href="https://maya.edu.in/best-university-for-phd-in-dehradun-uttarakhand.php" />
+  <meta property="og:title" content="Best University for PhD in Dehradun Uttarakhand | Maya Devi University" />
+  <meta property="og:description" content="Maya Devi University is among the best universities for PhD in Dehradun, Uttarakhand." />
+  <meta property="og:url" content="https://maya.edu.in/best-university-for-phd-in-dehradun-uttarakhand.php" />
+  <meta property="og:image" content="https://maya.edu.in/assets/uploads/campus-2.jpeg" />
 </head>
 
 <body>

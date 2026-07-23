@@ -1,7 +1,7 @@
 <?php
 $page_title = "M.Tech CSE (AI & ML) in Dehradun | Maya Devi University";
 $page_description = "Enroll in M.Tech CSE with AI & ML specialization at Maya Devi University, Dehradun with cutting-edge technology training.";
-$canonical_url = "https://maya.edu.in/mtech-specializations-cse-AI-ML.php";
+$canonical_url = "https://maya.edu.in/mtech-specializations-cse-ai-ml.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
 <?php require "common/header.php" ?>
@@ -87,10 +87,10 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-AI-ML.php"><img class="animated" src="assets/uploads/ai.jpeg" alt=""></a>
+                                    <a href="b-tech-ai-ml.php"><img class="animated" src="assets/uploads/ai.jpeg" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                    <h4><a href="b.tech-AI-ML.php">B.Tech. Computer Science & Engineering (AIML) with IBM</a></h4>
+                                    <h4><a href="b-tech-ai-ml.php">B.Tech. Computer Science & Engineering (AIML) with IBM</a></h4>
                                     <p>Specialized program in AI and Machine Learning with IBM, emphasizing advanced algorithms and data models.</p>
                                 </div>
                                 <div class="course-position-content">
@@ -105,7 +105,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="b.tech-AI-ML.php">APPLY NOW</a>
+                                        <a class="default-btn" href="b-tech-ai-ml.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>
@@ -159,10 +159,10 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-CSE.php"><img class="animated" src="assets/uploads/computer.webp" alt=""></a>
+                                    <a href="b-tech-cse.php"><img class="animated" src="assets/uploads/computer.webp" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                    <h4><a href="b.tech-CSE.php">B.Tech. Computer Science & Engineering</a></h4>
+                                    <h4><a href="b-tech-cse.php">B.Tech. Computer Science & Engineering</a></h4>
                                     <p>Comprehensive program in computer science with IBM collaboration, focusing on industry-relevant skills.</p>
                                 </div>
                                 <div class="course-position-content">
@@ -177,7 +177,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="b.tech-CSE.php">APPLY NOW</a>
+                                        <a class="default-btn" href="b-tech-cse.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>

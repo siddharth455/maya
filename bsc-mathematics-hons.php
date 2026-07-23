@@ -1,3 +1,9 @@
+<?php
+$page_title = "B.Sc. Hons. in Mathematics | Maya Devi University Dehradun";
+$page_description = "The B.Sc. (Hons.) Mathematics program is designed to develop advanced mathematical, analytical, and logical reasoning skills through in-depth study of algebra...";
+$canonical_url = "https://maya.edu.in/bsc-mathematics-hons.php";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/nursing-banner.webp);">

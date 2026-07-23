@@ -107,21 +107,21 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
           <td>Controller of Examination</td>
           <td>
           Name: Mr. K B Pokhariyal | Email: exams@maya.edu.in | Mobile: 9411154812 | Profile:
-            <a href="COE.php" target="_blank">https://maya.edu.in/COE</a>
+            <a href="coe.php" target="_blank">https://maya.edu.in/COE</a>
           </td>
         </tr>
         <tr>
           <td>Chief Vigilance Officer</td>
           <td>
           Name: Mr. Vinod Kumar Thakur | Email: ao@maya.edu.in | Mobile: 8279844944 | Profile:
-            <a href="CVO.php" target="_blank">https://maya.edu.in/CVO</a>
+            <a href="cvo.php" target="_blank">https://maya.edu.in/CVO</a>
           </td>
         </tr>
         <tr>
           <td>Ombudsperson</td>
           <td>
           Name: Mr. Sarvesh Mittal | Email: lokpal@maya.edu.in | Mobile: 0135-2698502 | Profile:
-            <a href="Ombudsperson.php" target="_blank">https://maya.edu.in/Ombudsperson</a>
+            <a href="ombudsperson.php" target="_blank">https://maya.edu.in/Ombudsperson</a>
           </td>
         </tr>
         <tr>

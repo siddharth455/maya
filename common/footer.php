@@ -74,7 +74,7 @@
                 <li><a href="best-engineering-college-in-dehradun-Uttarakhand.php">School of Engineering</a></li>
                 <li><a href="management-and-commerce.php">School of Commerce & Management</a></li>
                 <li><a href="hotel-management-and-tourism.php">School of Hotel & Tourism Management</a></li>
-                <li><a href="School-Of-Education.php">School of Education</a></li>
+                <li><a href="school-of-education.php">School of Education</a></li>
                 <li><a href="Nursing.php">School of Nursing</a></li>
               </ul>
             </div>
@@ -162,10 +162,10 @@
     </div>
 
     <ul class="panel-list">
-      <li><a href="assets/uploads/pdf/MDU_COMBINED_Brochure.pdf" download="MDU_COMBINED_Brochure.pdf">MDU Brocure</a></li>
+      <li><a href="assets/uploads/pdf/MDU_COMBINED_Brochure.pdf" download="MDU_COMBINED_Brochure.pdf">MDU Brochure</a></li>
       <li><a href="assets/uploads/pdf/MDU_Fee_Structure.pdf" download="MDU_Fee_Structure.pdf">Fee Structure (2025-26)</a></li>
       <li><a href="assets/uploads/pdf/List_of_Holidays_2025.pdf" download="List_of_Holidays_2025.pdf">List of Holidays</a></li>
-      <li><a href="assets/uploads/pdf/Academic_Calender_Even_Sem_2024-25.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calender Even Sem 2024-25</a></li>
+      <li><a href="assets/uploads/pdf/Academic_Calender_Even_Sem_2024-25.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calendar Even Sem 2024-25</a></li>
       <li><a href="refund-policy.php">Refund Policy</a></li>
       <li style="background-color: #307ad5;"><a href="https://admissions.maya.edu.in">Apply Now</a></li>
     </ul>

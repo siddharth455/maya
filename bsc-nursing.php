@@ -122,30 +122,6 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                     </div>
                                 </div>
                             </div>
-                            <div class="single-course">
-                                <div class="course-img">
-                                    <a href="nursing-assistant.php"><img class="animated" src="assets/uploads/na.webp" alt=""></a>
-                                </div>
-                                <div class="course-content">
-                                    <h4><a href="nursing-assistant.php">Nursing Assistant</a></h4>
-                                    <p>The Nursing Assistant certificate course is a short-term program aimed at training students in basic patient care. </p>
-                                </div>
-                                <div class="course-position-content">
-                                    <div class="credit-duration-wrap">
-                                        <div class="sin-credit-duration">
-                                            <i class="fa fa-diamond"></i>
-                                            <span>Credits : 125</span>
-                                        </div>
-                                        <div class="sin-credit-duration">
-                                            <i class="fa fa-clock-o"></i>
-                                            <span>Duration : 1.5yrs</span>
-                                        </div>
-                                    </div>
-                                    <div class="course-btn">
-                                        <a class="default-btn" href="nursing-assistant.php">APPLY NOW</a>
-                                    </div>
-                                </div>
-                            </div>
                            
                            
                         </div>

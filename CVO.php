@@ -1,7 +1,7 @@
 <?php
 $page_title = "Chief Vigilance Officer (CVO) | Maya Devi University Dehradun";
 $page_description = "Learn about the Chief Vigilance Officer (CVO) at Maya Devi University, Dehradun ensuring transparency and ethical governance.";
-$canonical_url = "https://maya.edu.in/CVO.php";
+$canonical_url = "https://maya.edu.in/cvo.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
 <?php require "common/header.php" ?>

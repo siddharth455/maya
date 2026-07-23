@@ -1,3 +1,9 @@
+<?php
+$page_title = "Refund Policy | Maya Devi University Dehradun";
+$page_description = "Read Maya Devi University's refund policy covering admission and fee refunds.";
+$canonical_url = "https://maya.edu.in/refund-policy.php";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+?>
 <?php require "common/header.php" ?>
 
 </head>

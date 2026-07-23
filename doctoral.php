@@ -16,7 +16,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Pharmacy</h2>
       <ul class="courses-list">
-        <li><a href="DoctorPharmacy.php">Pharm D - Doctor of Pharmacy</a></li>
+        <li><a href="doctor-pharmacy.php">Pharm D - Doctor of Pharmacy</a></li>
       </ul>
     </div>
     </div>

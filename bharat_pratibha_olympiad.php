@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bharat Pratibha Olympiad 2025</title>
+    <title>Bharat Pratibha Olympiad 2025 | Maya Devi University</title>
+    <meta name="description" content="Details for the Bharat Pratibha Olympiad 2025, an academic competition hosted by Maya Devi University, Dehradun.">
+    <link rel="canonical" href="https://maya.edu.in/bharat_pratibha_olympiad.php">
+    <meta property="og:title" content="Bharat Pratibha Olympiad 2025 | Maya Devi University">
+    <meta property="og:description" content="Details for the Bharat Pratibha Olympiad 2025, an academic competition hosted by Maya Devi University, Dehradun.">
+    <meta property="og:url" content="https://maya.edu.in/bharat_pratibha_olympiad.php">
+    <meta property="og:image" content="https://maya.edu.in/assets/uploads/campus-2.jpeg">
     <style>
         * {
             margin: 0;

@@ -86,10 +86,10 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bachelor-of-computer-application-AI-&-ML.php"><img class="animated" src="assets/uploads/ai.jpeg" alt=""></a>
+                                    <a href="bachelor-of-computer-application-ai-and-ml.php"><img class="animated" src="assets/uploads/ai.jpeg" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                    <h4><a href="bachelor-of-computer-application-AI-&-ML.php">BCA with Specialization in AI and ML (AIML)</a></h4>
+                                    <h4><a href="bachelor-of-computer-application-ai-and-ml.php">BCA with Specialization in AI and ML (AIML)</a></h4>
                                     <p>Specialized BCA program focusing on AI and Machine Learning applications.</p>
                                 </div>
                                 <div class="course-position-content">
@@ -104,16 +104,16 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="bachelor-of-computer-application-AI-&-ML.php">APPLY NOW</a>
+                                        <a class="default-btn" href="bachelor-of-computer-application-ai-and-ml.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bachelor-of-computer-application-Data-Science.php"><img class="animated" src="assets/uploads/data-science.webp" alt=""></a>
+                                    <a href="bachelor-of-computer-application-data-science.php"><img class="animated" src="assets/uploads/data-science.webp" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                    <h4><a href="bachelor-of-computer-application-Data-Science.php">BCA with Specialization in Data Science</a></h4>
+                                    <h4><a href="bachelor-of-computer-application-data-science.php">BCA with Specialization in Data Science</a></h4>
                                     <p>BCA program with a focus on data science and analytics for IT applications.</p>
                                 </div>
                                 <div class="course-position-content">
@@ -128,7 +128,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="bachelor-of-computer-application-Data-Science.php">APPLY NOW</a>
+                                        <a class="default-btn" href="bachelor-of-computer-application-data-science.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>

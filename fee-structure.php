@@ -1,3 +1,9 @@
+<?php
+$page_title = "Fee Breakdown | Maya Devi University Dehradun";
+$page_description = "Programme wise semester fee calculator with scholarship, hostel and transport options at Maya Devi University, Dehradun.";
+$canonical_url = "https://maya.edu.in/fee-structure.php";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+?>
 <?php require "common/header.php"?>
 <style>
 :root{

@@ -1,7 +1,7 @@
 <?php
 $page_title = "Best BHMCT College in Dehradun | Maya Devi University";
 $page_description = "Maya Devi University is one of the best BHMCT colleges in Dehradun offering hospitality and catering technology programs.";
-$canonical_url = "https://maya.edu.in/BHMCT-colleges-in-dehradun-uttarakhand.php";
+$canonical_url = "https://maya.edu.in/bhmct-colleges-in-dehradun-uttarakhand.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
 <?php require "common/header.php" ?>
@@ -101,10 +101,10 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="BHMCT-lateral-entry-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/bhmct-le.webp" alt=""></a>
+                                    <a href="bhmct-lateral-entry-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/bhmct-le.webp" alt=""></a>
                                 </div>
                                 <div class="course-content">
-                                    <h4><a href="BHMCT-lateral-entry-colleges-in-dehradun-uttarakhand.php">BHMCT (Lateral Entry)</a></h4>
+                                    <h4><a href="bhmct-lateral-entry-colleges-in-dehradun-uttarakhand.php">BHMCT (Lateral Entry)</a></h4>
                                     <p>The BHMCT (Lateral Entry) program focuses on hospitality, catering operations, food production, and management skills.</p>
                                 </div>
                                 <div class="course-position-content">
@@ -119,7 +119,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="BHMCT-lateral-entry-colleges-in-dehradun-uttarakhand.php">APPLY NOW</a>
+                                        <a class="default-btn" href="bhmct-lateral-entry-colleges-in-dehradun-uttarakhand.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>
@@ -197,7 +197,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 <li><a href="pharmacy.php">School of Pharmacy <span>07</span></a></li>
                                 <li><a href="Nursing.php">School of Nursing <span>03</span></a></li>
                                 <li><a href="management-and-commerce.php">School of Commerce & Management <span>09</span></a></li>
-                                <li><a href="School-Of-Health-Sciences.php">School of Health Sciences <span>10</span></a></li>
+                                <li><a href="school-of-health-sciences.php">School of Health Sciences <span>10</span></a></li>
                             </ul>
                         </div>
                     </div>

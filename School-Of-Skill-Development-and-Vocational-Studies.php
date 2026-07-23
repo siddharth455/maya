@@ -1,7 +1,7 @@
 <?php
 $page_title = "School of Skill Development & Vocational Studies | Maya Devi University";
 $page_description = "Explore skill-based and vocational programs at Maya Devi University, Dehradun under School of Skill Development.";
-$canonical_url = "https://maya.edu.in/School-Of-Skill-Development-and-Vocational-Studies.php";
+$canonical_url = "https://maya.edu.in/school-of-skill-development-and-vocational-studies.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 $page_schema = <<<SCHEMA
 <script type="application/ld+json">
@@ -9,7 +9,7 @@ $page_schema = <<<SCHEMA
  "@context": "https://schema.org",
  "@type": "ItemList",
  "name": "School of Skill Development & Vocational Studies — Maya Devi University, Dehradun",
- "url": "https://maya.edu.in/School-Of-Skill-Development-and-Vocational-Studies.php",
+ "url": "https://maya.edu.in/school-of-skill-development-and-vocational-studies.php",
  "itemListElement": [
   {
    "@type": "ListItem",

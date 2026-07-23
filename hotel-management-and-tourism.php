@@ -425,7 +425,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="Advanced-certification-in-hotel-management.php">
+            <a href="advanced-certification-in-hotel-management.php">
               <img src="assets/uploads/bhmct-le.webp" alt="">
             </a>
           </div>
@@ -436,7 +436,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <span>Credits: 125</span>
               <span>2 Years</span>
             </div>
-            <a class="default-btn btn-block" href="Advanced-certification-in-hotel-management.php">Apply Now</a>
+            <a class="default-btn btn-block" href="advanced-certification-in-hotel-management.php">Apply Now</a>
           </div>
         </div>
       </div>
@@ -524,7 +524,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="BHMCT-colleges-in-dehradun-uttarakhand.php">
+            <a href="bhmct-colleges-in-dehradun-uttarakhand.php">
               <img src="assets/uploads/bhmct.webp" alt="">
             </a>
           </div>
@@ -535,7 +535,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <span>Credits: 125</span>
               <span>4 Years</span>
             </div>
-            <a class="default-btn btn-block" href="BHMCT-colleges-in-dehradun-uttarakhand.php">Apply Now</a>
+            <a class="default-btn btn-block" href="bhmct-colleges-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div>

@@ -1,3 +1,9 @@
+<?php
+$page_title = "B.Sc. PCM (Physics, Chemistry, Mathematics) | Maya Devi University Dehradun";
+$page_description = "B.Sc. PCM is a undergraduate degree program focused on the fundamental concepts of science, specifically Physics, Chemistry, and Mathematics. This course...";
+$canonical_url = "https://maya.edu.in/bsc-pcm.php";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/nursing-banner.webp);">

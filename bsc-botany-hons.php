@@ -1,3 +1,9 @@
+<?php
+$page_title = "Bachelor of Science (B.Sc.) Hons. in Botany | Maya Devi University Dehradun";
+$page_description = "The B.Sc. (Hons.) Botany program is designed to provide advanced knowledge of plant biology, ecology, genetics, and biotechnology. It emphasizes practical...";
+$canonical_url = "https://maya.edu.in/bsc-botany-hons.php";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/nursing-banner.webp);">
