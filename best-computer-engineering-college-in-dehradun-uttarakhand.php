@@ -888,22 +888,22 @@ SCHEMA;
   <div class="stats-grid">
     <div class="stat-item reveal delay-1">
       <span class="stat-icon">🎓</span>
-      <div class="stat-num"><span class="counter-num" data-target="8">0</span><span class="stat-suffix">+</span></div>
+      <div class="stat-num"><span class="counter-num" data-target="8">8</span><span class="stat-suffix">+</span></div>
       <div class="stat-label">Programs Offered</div>
     </div>
     <div class="stat-item reveal delay-2">
       <span class="stat-icon">🏆</span>
-      <div class="stat-num"><span class="counter-num" data-target="1000">0</span><span class="stat-suffix">+</span></div>
+      <div class="stat-num"><span class="counter-num" data-target="1000">1000</span><span class="stat-suffix">+</span></div>
       <div class="stat-label">Students Placed</div>
     </div>
     <div class="stat-item reveal delay-3">
       <span class="stat-icon">💼</span>
-      <div class="stat-num"><span class="counter-num" data-target="48">0</span><span class="stat-suffix"> LPA</span></div>
+      <div class="stat-num"><span class="counter-num" data-target="48">48</span><span class="stat-suffix"> LPA</span></div>
       <div class="stat-label">Highest Package</div>
     </div>
     <div class="stat-item reveal delay-4">
       <span class="stat-icon">🌐</span>
-      <div class="stat-num"><span class="counter-num" data-target="100">0</span><span class="stat-suffix">+</span></div>
+      <div class="stat-num"><span class="counter-num" data-target="100">100</span><span class="stat-suffix">+</span></div>
       <div class="stat-label">Industry Partners</div>
     </div>
   </div>

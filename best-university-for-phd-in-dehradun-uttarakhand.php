@@ -826,22 +826,22 @@
           'quote' => 'The advanced curriculum gave me a competitive edge. I cracked Deloitte\'s analytics role in my first attempt - something I credit entirely to the hands-on research and data training here.'
         ],
         [
-          'img' => 'assets/uploads/phd/sucess2.jpeg',
-          'name' => 'Rohit Pandey',
-          'company' => 'School of Engineering',
+          'img' => 'assets/uploads/phd/sucess4.jpg',
+          'name' => 'Anchal',
+          'company' => 'School of Commerce & Management',
           'package' => '15 LPA',
           'quote' => 'From live projects to professional certifications, this program truly prepared me for the real world. Amazon\'s interview was challenging, but the training made it feel familiar.'
         ],
         [
           'img' => 'assets/uploads/phd/sucess3.jpeg',
-          'name' => 'Ruchika Tiwari',
-          'company' => 'School of Pharmacy',
+          'name' => 'Priyanshi Tomar',
+          'company' => 'School of Commerce & Management',
           'package' => '10 LPA',
           'quote' => 'The faculty mentoring and corporate exposure transformed my perspective. EY values analytical thinking - and that\'s exactly what this college built in me.'
         ],
         [
-          'img' => 'assets/uploads/phd/sucess4.jpg',
-          'name' => 'Maya Dechan',
+          'img' => 'assets/uploads/phd/sucess2.jpeg',
+          'name' => 'Harshit Tiwari',
           'company' => 'School of Commerce & Management',
           'package' => '9.5 LPA',
           'quote' => 'Internship support was exceptional. The placement cell worked 1-on-1 with me, and landing Accenture felt like a team victory, not just mine.'

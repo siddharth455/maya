@@ -186,7 +186,7 @@ SCHEMA;
       <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f0f8ff;">
         <i class="fa fa-users fa-2x text-success mb-3"></i>
         <h3 class="fw-bold">
-          <span class="counter" data-target="4">0</span>+
+          <span class="counter" data-target="4">4</span>+
         </h3>
         <p class="mb-0">Programs Offered</p>
       </div>
@@ -197,7 +197,7 @@ SCHEMA;
       <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f6fffa;">
         <i class="fa fa-certificate fa-2x text-success mb-3"></i>
         <h3 class="fw-bold">
-          <span class="counter" data-target="1000">0</span>+
+          <span class="counter" data-target="1000">1000</span>+
         </h3>
         <p class="mb-0">Students Enrolled</p>
       </div>
@@ -208,7 +208,7 @@ SCHEMA;
       <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f9f8ff;">
         <i class="fa fa-briefcase fa-2x text-success mb-3"></i>
         <h3 class="fw-bold">
-          <span class="counter" data-target="8">0</span>+
+          <span class="counter" data-target="8">8</span>+
         </h3>
         <p class="mb-0">Highest Package (LPA)</p>
       </div>
@@ -219,7 +219,7 @@ SCHEMA;
       <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#fff8f2;">
         <i class="fa fa-globe fa-2x text-success mb-3"></i>
         <h3 class="fw-bold">
-          <span class="counter" data-target="50">0</span>+
+          <span class="counter" data-target="50">50</span>+
         </h3>
         <p class="mb-0">Law Firms and Partners</p>
       </div>

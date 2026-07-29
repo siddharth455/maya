@@ -1,6 +1,6 @@
 <?php
-$page_title = "Diploma in Confectionery in Dehradun | Maya Devi University";
-$page_description = "Enroll in Diploma in Confectionery at Maya Devi University, Dehradun with practical bakery training and professional culinary skills.";
+$page_title = "Diploma in Hotel Management in Dehradun | Maya Devi University";
+$page_description = "Enroll in Diploma in Hotel Management at Maya Devi University, Dehradun with practical hospitality training and industry-ready skills.";
 $canonical_url = "https://maya.edu.in/diploma-in-hotel-management.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>

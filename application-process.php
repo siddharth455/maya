@@ -37,12 +37,25 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         </div>
       </div>
 
-      <!-- EXPANDED PANEL -->
+      <!-- EXPANDED PANEL: all 4 steps rendered in the HTML so search engines and
+           AI crawlers see the full text; JS below only toggles which one is visible -->
       <div class="applyFlow-panel" id="applyFlow-panel">
-        <h3 id="applyFlow-panel-title">Step 1 — Registration Form</h3>
-        <p id="applyFlow-panel-desc">
-          Start by registering your account with basic contact and personal details.
-        </p>
+        <div class="applyFlow-panel-step active" data-panel="0">
+          <h3>Step 1 — Registration Form</h3>
+          <p>Start by registering your account with basic contact and personal details.</p>
+        </div>
+        <div class="applyFlow-panel-step" data-panel="1">
+          <h3>Step 2 — Application Form</h3>
+          <p>Fill out the information and upload documents for verification.</p>
+        </div>
+        <div class="applyFlow-panel-step" data-panel="2">
+          <h3>Step 3 — Pay Application Fee</h3>
+          <p>Proceed to secure payment to submit your application.</p>
+        </div>
+        <div class="applyFlow-panel-step" data-panel="3">
+          <h3>Step 4 — Verification & Admission</h3>
+          <p>After verification, you will receive detailed admission instructions.</p>
+        </div>
 
         <a href="https://admissions.maya.edu.in" target="_blank" class="applyFlow-btn">
           Apply Now →
@@ -297,31 +310,16 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 /* Safety clamp: avoid any accidental horizontal overflow */
 
+/* All 4 step panels exist in the HTML (for SEO/AI crawlers); only the
+   active one is shown to visitors, JS just toggles this class */
+.applyFlow-panel-step { display: none; }
+.applyFlow-panel-step.active { display: block; }
+
 </style>
 
 <script>
-const stepData = [
-  {
-    title: "Step 1 — Registration Form",
-    desc: "Start by registering your account with basic contact and personal details."
-  },
-  {
-    title: "Step 2 — Application Form",
-    desc: "Fill out the information and upload documents for verification."
-  },
-  {
-    title: "Step 3 — Pay Application Fee",
-    desc: "Proceed to secure payment to submit your application."
-  },
-  {
-    title: "Step 4 — Verification & Admission",
-    desc: "After verification, you will receive detailed admission instructions."
-  }
-];
-
 const tiles = document.querySelectorAll(".applyFlow-tile");
-const panelTitle = document.getElementById("applyFlow-panel-title");
-const panelDesc = document.getElementById("applyFlow-panel-desc");
+const panelSteps = document.querySelectorAll(".applyFlow-panel-step");
 
 tiles.forEach(tile => {
   tile.addEventListener("click", () => {
@@ -330,8 +328,7 @@ tiles.forEach(tile => {
 
     const index = tile.getAttribute("data-step");
 
-    panelTitle.textContent = stepData[index].title;
-    panelDesc.textContent = stepData[index].desc;
+    panelSteps.forEach(p => p.classList.toggle("active", p.getAttribute("data-panel") === index));
   });
 });
 </script>

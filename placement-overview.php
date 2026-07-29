@@ -163,22 +163,22 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
           <div class="row g-4">
             <div class="col-6">
               <i class="fa-solid fa-users fa-2x mb-2" style="color:#00a651;"></i>
-              <h3 class="fw-bold" style="color:#00a651;"><span class="counter" data-target="1200">0</span>+</h3>
+              <h3 class="fw-bold" style="color:#00a651;"><span class="counter" data-target="1200">1200</span>+</h3>
               <p class="small text-muted mb-0">Students Placed</p>
             </div>
             <div class="col-6">
               <i class="fa-solid fa-sack-dollar fa-2x mb-2" style="color:#00a651;"></i>
-              <h3 class="fw-bold" style="color:#00a651;">₹<span class="counter" data-target="5.48">0</span> LPA</h3>
+              <h3 class="fw-bold" style="color:#00a651;">₹<span class="counter" data-target="5.48">5.48</span> LPA</h3>
               <p class="small text-muted mb-0">Average Package</p>
             </div>
             <div class="col-6">
               <i class="fa-solid fa-trophy fa-2x mb-2" style="color:#00a651;"></i>
-              <h3 class="fw-bold" style="color:#00a651;">₹<span class="counter" data-target="48">0</span> LPA</h3>
+              <h3 class="fw-bold" style="color:#00a651;">₹<span class="counter" data-target="48">48</span> LPA</h3>
               <p class="small text-muted mb-0">Highest Package</p>
             </div>
             <div class="col-6">
               <i class="fa-solid fa-calendar-check fa-2x mb-2" style="color:#00a651;"></i>
-              <h3 class="fw-bold" style="color:#00a651;"><span class="counter" data-target="15">0</span>+</h3>
+              <h3 class="fw-bold" style="color:#00a651;"><span class="counter" data-target="15">15</span>+</h3>
               <p class="small text-muted mb-0">Years of Excellence</p>
             </div>
           </div>

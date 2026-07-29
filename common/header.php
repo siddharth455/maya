@@ -76,6 +76,33 @@
 }
 </script>
 
+<?php
+// Site-wide BreadcrumbList schema (Home > current page), built from the
+// $page_title / $canonical_url already set at the top of every page.
+if (!empty($canonical_url) && !empty($page_title)) {
+    $breadcrumb_label = trim(explode('|', $page_title)[0]);
+    $breadcrumb = [
+        "@context" => "https://schema.org",
+        "@type" => "BreadcrumbList",
+        "itemListElement" => [
+            [
+                "@type" => "ListItem",
+                "position" => 1,
+                "name" => "Home",
+                "item" => "https://maya.edu.in/"
+            ],
+            [
+                "@type" => "ListItem",
+                "position" => 2,
+                "name" => $breadcrumb_label,
+                "item" => $canonical_url
+            ]
+        ]
+    ];
+    echo '<script type="application/ld+json">' . json_encode($breadcrumb, JSON_UNESCAPED_SLASHES) . '</script>' . "\n";
+}
+?>
+
 <!-- Google Analytics (async — already correct) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QVTKG6K0PZ"></script>
 <script>

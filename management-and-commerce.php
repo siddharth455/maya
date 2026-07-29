@@ -727,22 +727,22 @@ section { position: relative; z-index: 1; }
   <div class="stats-grid">
     <div class="stat-item reveal delay-1">
       <span class="stat-icon">📚</span>
-      <div class="stat-num"><span class="counter-num" data-target="20">0</span><span class="stat-suffix">+</span></div>
+      <div class="stat-num"><span class="counter-num" data-target="20">20</span><span class="stat-suffix">+</span></div>
       <div class="stat-label">Programs Offered</div>
     </div>
     <div class="stat-item reveal delay-2">
       <span class="stat-icon">🏆</span>
-      <div class="stat-num"><span class="counter-num" data-target="600">0</span><span class="stat-suffix">+</span></div>
+      <div class="stat-num"><span class="counter-num" data-target="600">600</span><span class="stat-suffix">+</span></div>
       <div class="stat-label">Students Placed</div>
     </div>
     <div class="stat-item reveal delay-3">
       <span class="stat-icon">💼</span>
-      <div class="stat-num"><span class="counter-num" data-target="22">0</span><span class="stat-suffix"> LPA</span></div>
+      <div class="stat-num"><span class="counter-num" data-target="22">22</span><span class="stat-suffix"> LPA</span></div>
       <div class="stat-label">Highest Package</div>
     </div>
     <div class="stat-item reveal delay-4">
       <span class="stat-icon">🌐</span>
-      <div class="stat-num"><span class="counter-num" data-target="75">0</span><span class="stat-suffix">+</span></div>
+      <div class="stat-num"><span class="counter-num" data-target="75">75</span><span class="stat-suffix">+</span></div>
       <div class="stat-label">Industry Partners</div>
     </div>
   </div>

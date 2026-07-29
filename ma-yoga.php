@@ -1,7 +1,7 @@
 <?php
-$page_title = "MA Sociology in Dehradun | Maya Devi University";
-$page_description = "Enroll in MA Sociology at Maya Devi University, Dehradun with advanced social research training and academic excellence.";
-$canonical_url = "https://maya.edu.in/ma-sociology.php";
+$page_title = "MA Yoga in Dehradun | Maya Devi University";
+$page_description = "Enroll in MA Yoga at Maya Devi University, Dehradun with advanced training in yogic sciences and academic excellence.";
+$canonical_url = "https://maya.edu.in/ma-yoga.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
 <?php require "common/header.php" ?>

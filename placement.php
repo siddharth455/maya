@@ -54,17 +54,17 @@
 
       <div class="pa-circles" role="list" aria-label="Placement stats">
         <div class="circle" role="listitem">
-          <div class="circle-num" data-target="800">0</div>
+          <div class="circle-num" data-target="800">800</div>
           <div class="circle-label">Offers</div>
         </div>
 
         <div class="circle accent" role="listitem">
-          <div class="circle-num" data-target="48" data-decimals="2">0</div>
+          <div class="circle-num" data-target="48" data-decimals="2">48.00</div>
           <div class="circle-label">Highest LPA</div>
         </div>
 
         <div class="circle" role="listitem">
-          <div class="circle-num" data-target="5.48">0</div>
+          <div class="circle-num" data-target="5.48">5.48</div>
           <div class="circle-label">Avg Package</div>
         </div>
       </div>

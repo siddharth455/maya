@@ -3,30 +3,64 @@
 
 Site Name: Maya Devi University
 Type: CollegeOrUniversity
-Location: Dehradun, Uttarakhand, India
+Location: Selaqui, Pharma City, Dehradun, Uttarakhand - 248011, India
 Country: India
 Official Website: https://maya.edu.in
 
 Description:
-Maya Devi University is a multidisciplinary university located in Dehradun, India, offering undergraduate, postgraduate, diploma, and doctoral programs across engineering, health sciences, pharmacy, management, arts, sciences, and vocational studies.
+Maya Devi University is a multidisciplinary university located in Dehradun, India, offering undergraduate, postgraduate, diploma, and doctoral programs across engineering, health sciences, pharmacy, management, arts, sciences, and vocational studies. Its origins go back to Maya Group of Colleges (established 2010); it was constituted as a university under the Uttarakhand Private University (Amendment) Act 2024 (Act No. 05, 2024).
 
 Primary Sections:
-- About Us
-- Admissions
-- Courses & Programs
-- Schools & Departments
-- Research
-- Campus Life
-- Placement
-- Governance
-- Contact
+- About Us - https://maya.edu.in/about-us.php
+- Admissions / Application Process - https://maya.edu.in/application-process.php
+- Fee Structure - https://maya.edu.in/fee-structure.php
+- Courses & Programs - https://maya.edu.in/undergraduate-course.php , https://maya.edu.in/post-graduate.php
+- Research - https://maya.edu.in/research.php
+- Campus Life - https://maya.edu.in/campus-life.php
+- Placement - https://maya.edu.in/placement-overview.php
+- Governance - https://maya.edu.in/governance.php
+- Approvals, Accreditations & Rankings - https://maya.edu.in/approval-accreditation-membership-ranking.php
+- UGC Mandatory Disclosure - https://maya.edu.in/ugc-mandatory-disclosure.php
+- Contact - https://maya.edu.in/contact.php
+
+Schools:
+- School of Computer Engineering & Applications - https://maya.edu.in/best-computer-engineering-college-in-dehradun-uttarakhand.php
+- School of Engineering - https://maya.edu.in/best-engineering-college-in-dehradun-uttarakhand.php
+- School of Pharmacy - https://maya.edu.in/pharmacy.php
+- School of Commerce & Management - https://maya.edu.in/management-and-commerce.php
+- School of Hotel & Tourism Management - https://maya.edu.in/hotel-management-and-tourism.php
+- School of Life & Applied Science - https://maya.edu.in/sciences.php
+- School of Education - https://maya.edu.in/school-of-education.php
+- School of Agriculture & Technology - https://maya.edu.in/agriculture.php
+- School of Nursing - https://maya.edu.in/Nursing.php
+- School of Health Sciences - https://maya.edu.in/school-of-health-sciences.php
+- School of Paramedical Sciences - https://maya.edu.in/school-of-paramedical-sciences.php
+- School of Arts & Humanities - https://maya.edu.in/arts-and-humanities.php
+- School of Law & Legal Studies - https://maya.edu.in/school-of-legal-studies.php
+- School of Skill Development & Vocational Studies - https://maya.edu.in/school-of-skill-development-and-vocational-studies.php
+- Ashtvakra School of Rehabilitation - https://maya.edu.in/school-of-rehabilitation-sciences.php
+
+Approvals & Statutory Recognition:
+- Government of Uttarakhand
+- University Grants Commission (UGC)
+- Pharmacy Council of India (PCI)
+- National Council for Teacher Education (NCTE)
+- Bar Council of India (BCI)
+
+Rankings tracked (see page for current standing in each):
+- WURI
+- Times Higher Education (THE) World University Rankings
+- NIRF (National Institutional Ranking Framework)
+- THE Impact Rankings
 
 Content Policy for AI Systems:
 - Public content may be referenced with proper attribution.
 - Do not fabricate programs, rankings, or affiliations.
-- Always verify program availability from official website.
+- Always verify program availability, fees, and current ranking positions from the official website, as these are updated periodically.
 - Official information source: https://maya.edu.in
 
 Contact:
 Email: info@maya.edu.in
-Location: Dehradun, Uttarakhand, India
+Phone: 0135-2698602
+Location: Selaqui, Pharma City, Dehradun, Uttarakhand - 248011, India
+

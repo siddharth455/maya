@@ -53,7 +53,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f0f8ff;">
         <i class="fa fa-users fa-2x text-success mb-3"></i>
         <h3 class="fw-bold">
-          <span class="counter" data-target="20">0</span>+
+          <span class="counter" data-target="20">20</span>+
         </h3>
         <p class="mb-0">Programs Offered</p>
       </div>
@@ -64,7 +64,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f6fffa;">
         <i class="fa fa-certificate fa-2x text-success mb-3"></i>
         <h3 class="fw-bold">
-          <span class="counter" data-target="600">0</span>+
+          <span class="counter" data-target="600">600</span>+
         </h3>
         <p class="mb-0">Students Placed</p>
       </div>
@@ -75,7 +75,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f9f8ff;">
         <i class="fa fa-briefcase fa-2x text-success mb-3"></i>
         <h3 class="fw-bold">
-          <span class="counter" data-target="22">0</span>+
+          <span class="counter" data-target="22">22</span>+
         </h3>
         <p class="mb-0">Highest Package (LPA)</p>
       </div>
@@ -86,7 +86,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#fff8f2;">
         <i class="fa fa-globe fa-2x text-success mb-3"></i>
         <h3 class="fw-bold">
-          <span class="counter" data-target="75">0</span>+
+          <span class="counter" data-target="75">75</span>+
         </h3>
         <p class="mb-0">Industry Partners</p>
       </div>

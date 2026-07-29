@@ -2087,8 +2087,8 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </div>
                                 <p>My experience at Maya Devi University has been nothing short of exceptional. The supportive mentors, innovative teaching methods, and ample opportunities for growth have helped me discover my true potential. From academic excellence to personality development, the university has guided me every step of the way toward a successful future.</p>
                                 <div class="testi-info">
-                                    <h5>Maya Dechen</h5>
-                                    <span>School of Engineering</span>
+                                    <h5>Harshit Tiwari</h5>
+                                    <span>School of Commerce & Management</span>
                                 </div>
                                 <div class="quote-style quote-right">
                                     <i class="fa fa-quote-right"></i>
@@ -2112,7 +2112,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </div>
                                 <p>Maya Devi University has provided me with the perfect balance of academic learning and practical exposure. The modern infrastructure, industry-focused curriculum, and guidance from experienced faculty have shaped my skills and boosted my confidence. I am proud to be a part of an institution that truly prepares its students for global opportunities.</p>
                                 <div class="testi-info">
-                                    <h5>Rohit Pandey</h5>
+                                    <h5>Anchal</h5>
                                     <span>School of Commerce & Management</span>
                                 </div>
                                 <div class="quote-style quote-right">
@@ -2137,8 +2137,8 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </div>
                                 <p>My journey at Maya Devi University has been nothing short of transformative. The supportive faculty, engaging classes, and ample opportunities for personal growth have helped me discover my true potential. The exposure to real-world projects and industry interactions has made me confident to step into my professional career with strong skills and determination.</p>
                                 <div class="testi-info">
-                                    <h5>Ruchika Tiwari</h5>
-                                    <span>School of Pharmacy</span>
+                                    <h5>Priyanshi Tomar</h5>
+                                    <span>School of Commerce & Management</span>
                                 </div>
                                 <div class="quote-style quote-right">
                                     <i class="fa fa-quote-right"></i>

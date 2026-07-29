@@ -41,7 +41,14 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <input name="email" placeholder="Email*" type="email">
                         <input name="subject" placeholder="Subject*" type="text">
                         <textarea name="message" placeholder="Message"></textarea>
-                        <button class="submit btn-style" type="submit">SEND MESSAGE</button>
+<div class="form-consent">
+    <input type="checkbox" id="consent" name="consent" value="1" required>
+    <label for="consent">
+        I hereby consent to the collection and processing of my personal information submitted through this form for admission and communication purposes. I have read and agree to the <a href="privacy-policy.php" target="_blank">Privacy Policy</a>.
+    </label>
+</div>
+
+<button class="submit btn-style" type="submit">SEND MESSAGE</button>
                     </form>
                     <p class="form-messege"></p>
                 </div>
@@ -90,3 +97,44 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 </div>
 
 <?php require "common/footer.php"?>
+<style>
+    .form-consent{
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+    margin:20px 0;
+}
+
+.form-consent input[type="checkbox"]{
+    width:18px !important;
+    height:18px !important;
+    margin-top:3px;
+    flex-shrink:0;
+    cursor:pointer;
+}
+
+.form-consent label{
+    display:block !important;
+    width:100%;
+    margin:0;
+    font-size:14px;
+    line-height:1.6;
+    color:#555;
+    cursor:pointer;
+    text-align:left;
+}
+
+.form-consent a{
+    color:#007bff;
+    text-decoration:underline;
+}
+</style>
+<script>
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    if (!document.getElementById('consent').checked) {
+        e.preventDefault();
+        alert('Please provide your consent before submitting the form.');
+        return false;
+    }
+});
+</script>

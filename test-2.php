@@ -407,22 +407,22 @@ html { scroll-behavior: smooth; }
   <div class="shs-stats-grid">
     <div class="shs-stat shs-reveal d1">
       <span class="shs-stat-icon">📚</span>
-      <div class="shs-stat-num"><span class="shs-counter" data-target="10">0</span><span class="shs-stat-suffix">+</span></div>
+      <div class="shs-stat-num"><span class="shs-counter" data-target="10">10</span><span class="shs-stat-suffix">+</span></div>
       <div class="shs-stat-label">Programs Offered</div>
     </div>
     <div class="shs-stat shs-reveal d2">
       <span class="shs-stat-icon">🏆</span>
-      <div class="shs-stat-num"><span class="shs-counter" data-target="500">0</span><span class="shs-stat-suffix">+</span></div>
+      <div class="shs-stat-num"><span class="shs-counter" data-target="500">500</span><span class="shs-stat-suffix">+</span></div>
       <div class="shs-stat-label">Students Placed</div>
     </div>
     <div class="shs-stat shs-reveal d3">
       <span class="shs-stat-icon">💼</span>
-      <div class="shs-stat-num"><span class="shs-counter" data-target="16">0</span><span class="shs-stat-suffix"> LPA</span></div>
+      <div class="shs-stat-num"><span class="shs-counter" data-target="16">16</span><span class="shs-stat-suffix"> LPA</span></div>
       <div class="shs-stat-label">Highest Package</div>
     </div>
     <div class="shs-stat shs-reveal d4">
       <span class="shs-stat-icon">🌐</span>
-      <div class="shs-stat-num"><span class="shs-counter" data-target="100">0</span><span class="shs-stat-suffix">+</span></div>
+      <div class="shs-stat-num"><span class="shs-counter" data-target="100">100</span><span class="shs-stat-suffix">+</span></div>
       <div class="shs-stat-label">Industry Partners</div>
     </div>
   </div>
