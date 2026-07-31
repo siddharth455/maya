@@ -155,7 +155,6 @@ $base_url = $protocol . $host . $projectFolder;
                     <div class="col-lg-6 col-md-7 col-12 col-sm-8">
                         <div class="header-contact">
                             <ul>
-                                <li><i class="fa fa-phone"></i> 0135-2658602</li>
                                 <li><i class="fa fa-envelope-o"></i><a href="#">info@maya.edu.in</a></li>
                             </ul>
                         </div>

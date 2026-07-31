@@ -64,28 +64,28 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
           <td rowspan="16"><strong>Administration (Profiles with photographs and contact details)</strong></td>
           <td>President</td>
           <td>
-            Name: Mr. M. L. Juyal | Email: president@maya.edu.in | Mobile: 0135-2698502 | Profile:
+            Name: Mr. M. L. Juyal | Email: president@maya.edu.in | Profile:
             <a href="president.php" target="_blank">https://maya.edu.in/president</a>
           </td>
         </tr>
         <tr>
           <td>Vice President</td>
           <td>
-            Name: Dr. Tripti Juyal Semwal | Email: vp@maya.edu.in | Mobile: 0135-2698502 | Profile:
+            Name: Dr. Tripti Juyal Semwal | Email: vp@maya.edu.in | Profile:
             <a href="vice-president.php" target="_blank">https://maya.edu.in/vice-president</a>
           </td>
         </tr>
         <tr>
           <td>Vice-Chancellor</td>
           <td>
-            Name: Prof. (Dr.) Ashish Semwal | Email: vc@maya.edu.in | Mobile: 0135-2698502 | Profile:
+            Name: Prof. (Dr.) Ashish Semwal | Email: vc@maya.edu.in | Profile:
             <a href="vice-chancelor.php" target="_blank">https://maya.edu.in/vice-chancelor</a>
           </td>
         </tr>
         <!-- <tr>
           <td>Pro Vice-Chancellor</td>
           <td>
-            Name: Prof. (Dr.) Sandip Vijay | Email: pvc@mdu.edu.in | Mobile: 0135-2698502 | Profile:
+            Name: Prof. (Dr.) Sandip Vijay | Email: pvc@mdu.edu.in | Profile:
             <a href="pro-vice-chancelor.php" target="_blank">https://maya.edu.in/pro-vice-chancelor</a>
           </td>
         </tr> -->
@@ -99,7 +99,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <tr>
           <td>Finance Officer</td>
           <td>
-          Name: Mr. Gurubachan Singh Raina | Email: gsraina01@gmail.com | Mobile: 0135-2698502 | Profile:
+          Name: Mr. Gurubachan Singh Raina | Email: gsraina01@gmail.com | Profile:
             <a href="finance.php" target="_blank">https://maya.edu.in/finance</a>
           </td>
         </tr>
@@ -120,7 +120,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <tr>
           <td>Ombudsperson</td>
           <td>
-          Name: Mr. Sarvesh Mittal | Email: lokpal@maya.edu.in | Mobile: 0135-2698502 | Profile:
+          Name: Mr. Sarvesh Mittal | Email: lokpal@maya.edu.in | Profile:
             <a href="ombudsperson.php" target="_blank">https://maya.edu.in/Ombudsperson</a>
           </td>
         </tr>

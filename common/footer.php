@@ -18,10 +18,6 @@
                   <i class="fa fa-envelope-o"></i>
                   <span><a href="#">info@maya.edu.in</a></span>
                 </div>
-                <div class="single-f-contact-info">
-                  <i class="fa fa-phone"></i>
-                  <span> 0135-2698602</span>
-                </div>
               </div>
             </div>
           </div>
@@ -200,12 +196,7 @@
         </a>
       </div>
 
-      <div class="contact-item">
-        <i class="fa-solid fa-phone"></i>
-        <div class="phone-list">
-          <a href="tel:+910135-2698602">0135-2698602 (For Helpline)</a>
-        </div>
-      </div>
+     
 
       <div class="contact-item">
         <i class="fa-solid fa-phone"></i>
