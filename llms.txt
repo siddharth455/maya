@@ -34,8 +34,8 @@ Schools:
 - School of Agriculture & Technology - https://maya.edu.in/agriculture.php
 - School of Nursing - https://maya.edu.in/Nursing.php
 - School of Health Sciences - https://maya.edu.in/school-of-health-sciences.php
-- School of Paramedical Sciences - https://maya.edu.in/school-of-paramedical-sciences.php
-- School of Arts & Humanities - https://maya.edu.in/arts-and-humanities.php
+- School of Paramedical Sciences - https://maya.edu.in/School-Of-Paramedical-Sciences.php
+- School of Arts & Humanities - https://maya.edu.in/Arts-and-humanities.php
 - School of Law & Legal Studies - https://maya.edu.in/school-of-legal-studies.php
 - School of Skill Development & Vocational Studies - https://maya.edu.in/school-of-skill-development-and-vocational-studies.php
 - Ashtvakra School of Rehabilitation - https://maya.edu.in/school-of-rehabilitation-sciences.php

@@ -33,7 +33,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <a href="school-of-education.php" class="dept-card">School of Education</a>
     <a href="Nursing.php" class="dept-card">School of Nursing</a>
     <a href="agriculture.php" class="dept-card">School of Agriculture & Technology</a>
-    <a href="school-of-paramedical-sciences.php" class="dept-card">School of Paramedical Sciences</a>
+    <a href="School-Of-Paramedical-Sciences.php" class="dept-card">School of Paramedical Sciences</a>
     <a href="school-of-health-sciences.php" class="dept-card">School of Health Science</a>
     <a href="arts-and-humanities.php" class="dept-card">School of Arts & Humanities</a>
     <a href="school-of-legal-studies.php" class="dept-card">School of Law & Legal Studies</a>

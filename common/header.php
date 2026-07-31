@@ -222,8 +222,8 @@ $base_url = $protocol . $host . $projectFolder;
                                                         <li><a href="agriculture.php">School of Agriculture & Technology</a></li>
                                                         <li><a href="Nursing.php">School of Nursing</a></li>
                                                         <li><a href="school-of-health-sciences.php">School of Health Sciences</a></li>
-                                                        <li><a href="school-of-paramedical-sciences.php">School of Paramedical Sciences</a></li>
-                                                        <li><a href="arts-and-humanities.php">School of Arts & Humanities</a></li>
+                                                        <li><a href="School-Of-Paramedical-Sciences.php">School of Paramedical Sciences</a></li>
+                                                        <li><a href="Arts-and-humanities.php">School of Arts & Humanities</a></li>
                                                     </ul>
                                                 </li>
                                                 <li>
@@ -307,8 +307,8 @@ $base_url = $protocol . $host . $projectFolder;
                                         <li><a href="agriculture.php">School of Agriculture & Technology</a></li>
                                         <li><a href="Nursing.php">School of Nursing</a></li>
                                         <li><a href="school-of-health-sciences.php">School of Health Sciences</a></li>
-                                        <li><a href="school-of-paramedical-sciences.php">School of Paramedical Sciences</a></li>
-                                        <li><a href="arts-and-humanities.php">School of Arts & Humanities</a></li>
+                                        <li><a href="School-Of-Paramedical-Sciences.php">School of Paramedical Sciences</a></li>
+                                        <li><a href="Arts-and-humanities.php">School of Arts & Humanities</a></li>
                                         <li><a href="school-of-legal-studies.php">School of Law & Legal Studies</a></li>
                                         <li><a href="school-of-skill-development-and-vocational-studies.php">School of Skill Development & Vocational Studies</a></li>
                                         <li><a href="school-of-rehabilitation-sciences.php">Ashtvakra School of Rehabilitation</a></li>
