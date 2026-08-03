@@ -34,10 +34,39 @@ $og_image = "https://maya.edu.in/assets/uploads/maya.webp";
                              create a new blog-{slug}.php file (copy an existing one as a template)
                              and add a matching card below. -->
 
+                        <!-- Blog 1: Computer Engineering -->
                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 d-flex mb-3">
                             <div class="single-blog d-flex flex-column" style="flex:1;">
                                 <div class="blog-img">
-                                    <a href="blog-agriculture-at-maya-devi-university.php">
+                                    <a href="computer-engineering-at-maya-devi-university.php">
+                                        <img src="assets/uploads/computer-blog.png" alt="Building Future Technologists: Computer Engineering at Maya Devi University">
+                                    </a>
+                                </div>
+                                <div class="blog-content-wrap d-flex flex-column flex-grow-1">
+                                    <span>Computer Engineering</span>
+                                    <div class="blog-content flex-grow-1">
+                                        <h4>
+                                            <a href="computer-engineering-at-maya-devi-university.php">Building Future Technologists: Computer Engineering at Maya Devi University</a>
+                                        </h4>
+                                        <p>Study B.Tech CSE, AI & ML, Data Science & Cyber Security at Maya Devi University, a top computer engineering college in Dehradun...</p>
+                                    </div>
+                                    <div class="blog-meta d-flex justify-content-between align-items-center mt-auto">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        </ul>
+                                        <div class="blog-date">
+                                            <a href="#"><i class="fa fa-calendar-o"></i> 2026-01-20</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Blog 2: Agriculture -->
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 d-flex mb-3">
+                            <div class="single-blog d-flex flex-column" style="flex:1;">
+                                <div class="blog-img">
+                                    <a href="agriculture-at-maya-devi-university.php">
                                         <img src="assets/uploads/blog-agriculture-at-maya-devi-university.webp" alt="Agriculture at Maya Devi University">
                                     </a>
                                 </div>
@@ -45,7 +74,7 @@ $og_image = "https://maya.edu.in/assets/uploads/maya.webp";
                                     <span>agriculture</span>
                                     <div class="blog-content flex-grow-1">
                                         <h4>
-                                            <a href="blog-agriculture-at-maya-devi-university.php">Agriculture at Maya Devi University</a>
+                                            <a href="agriculture-at-maya-devi-university.php">Agriculture at Maya Devi University</a>
                                         </h4>
                                         <p>About The School of Agriculture and Technology, Maya Devi University, Selaqui, Dehradun is a dynamic academic...</p>
                                     </div>
@@ -88,6 +117,7 @@ $og_image = "https://maya.edu.in/assets/uploads/maya.webp";
                         <div class="sidebar-title mb-40"><h4>Categories</h4></div>
                         <div class="sidebar-tag">
                             <ul>
+                                <li><span class="badge-tag">Computer Engineering</span></li>
                                 <li><span class="badge-tag">agriculture</span></li>
                                 <li><span class="badge-tag">education</span></li>
                             </ul>
@@ -122,11 +152,17 @@ $og_image = "https://maya.edu.in/assets/uploads/maya.webp";
     height: 100%;
     object-fit: cover;
 }
-.single-blog .blog-content-wrap {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    padding: 5px;
+.single-blog .blog-content-wrap > span {
+    display: inline-block !important;
+    background-color: #00a651 !important;
+    color: #ffffff !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    padding: 4px 12px !important;
+    border-radius: 4px !important;
+    text-transform: capitalize !important;
+    margin-bottom: 10px !important;
+    width: fit-content !important;
 }
 .single-blog .blog-content {
     flex-grow: 2;

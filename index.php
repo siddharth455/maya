@@ -2193,7 +2193,37 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     <div class="single-blog">
                         <div class="blog-img" style="height:200px; overflow:hidden;">
-                            <a href="blog-agriculture-at-maya-devi-university.php">
+                            <a href="computer-engineering-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/computer-blog.png" alt="Building Future Technologists: Computer Engineering at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Computer Engineering</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="computer-engineering-at-maya-devi-university.php">Building Future Technologists: Computer Engineering at Maya Devi University</a>
+                                </h4>
+                                <p>Study B.Tech CSE, AI & ML, Data Science & Cyber Security at Maya Devi University, a top computer engineering college in Dehradun...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-01-20</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="agriculture-at-maya-devi-university.php">
                                 <img loading="lazy" src="assets/uploads/blog-agriculture-at-maya-devi-university.webp" alt="Agriculture at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
                             </a>
                         </div>
@@ -2203,7 +2233,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                             <div class="blog-content" style="flex-grow:1;">
                                 <h4>
-                                    <a href="blog-agriculture-at-maya-devi-university.php">Agriculture at Maya Devi University</a>
+                                    <a href="agriculture-at-maya-devi-university.php">Agriculture at Maya Devi University</a>
                                 </h4>
                                 <p>The School of Agriculture and Technology at Maya Devi University is advancing sustainable agriculture through research and innovation...</p>
 
@@ -2259,6 +2289,20 @@ document.addEventListener("DOMContentLoaded", function() {
         flex: 1;
         /* make all content wrappers fill same height */
         padding: 15px;
+    }
+
+    .blog-active .blog-content-wrap > span,
+    .single-blog .blog-content-wrap > span {
+        display: inline-block !important;
+        background-color: #00a651 !important;
+        color: #ffffff !important;
+        font-size: 13px !important;
+        font-weight: 600 !important;
+        padding: 4px 12px !important;
+        border-radius: 4px !important;
+        text-transform: capitalize !important;
+        margin-bottom: 10px !important;
+        width: fit-content !important;
     }
 
     .blog-active .blog-content {

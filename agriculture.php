@@ -958,7 +958,7 @@ ICAR.”
 
                     <div class="single-blog">
                         <div class="blog-img" style="height:200px; overflow:hidden;">
-                            <a href="blog-agriculture-at-maya-devi-university.php">
+                            <a href="agriculture-at-maya-devi-university.php">
                                 <img loading="lazy" src="assets/uploads/blog-agriculture-at-maya-devi-university.webp" alt="Agriculture at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
                             </a>
                         </div>
@@ -968,7 +968,7 @@ ICAR.”
 
                             <div class="blog-content" style="flex-grow:1;">
                                 <h4>
-                                    <a href="blog-agriculture-at-maya-devi-university.php">Agriculture at Maya Devi University</a>
+                                    <a href="agriculture-at-maya-devi-university.php">Agriculture at Maya Devi University</a>
                                 </h4>
                                 <p>The School of Agriculture and Technology at Maya Devi University is advancing sustainable agriculture through research and innovation...</p>
 

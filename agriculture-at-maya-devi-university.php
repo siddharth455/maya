@@ -1,7 +1,7 @@
 <?php
 $page_title = "Agriculture at Maya Devi University | Maya Devi University Dehradun";
 $page_description = "The School of Agriculture and Technology, Maya Devi University, Selaqui, Dehradun is a dynamic academic and research institution committed to advancing sustainable agricultural practices, technological innovation and rural development.";
-$canonical_url = "https://maya.edu.in/blog-agriculture-at-maya-devi-university.php";
+$canonical_url = "https://maya.edu.in/agriculture-at-maya-devi-university.php";
 $og_image = "https://maya.edu.in/assets/uploads/blog-agriculture-at-maya-devi-university.webp";
 ?>
 <?php require "common/header.php"; ?>
@@ -28,13 +28,13 @@ $og_image = "https://maya.edu.in/assets/uploads/blog-agriculture-at-maya-devi-un
   "description": "The School of Agriculture and Technology, Maya Devi University, Selaqui, Dehradun is a dynamic academic and research institution committed to advancing sustainable agricultural practices, technological innovation and rural development.",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://maya.edu.in/blog-agriculture-at-maya-devi-university.php"
+    "@id": "https://maya.edu.in/agriculture-at-maya-devi-university.php"
   }
 }
 </script>
 
 <div class="breadcrumb-area">
-    <div class="breadcrumb-top bg-img pt-100 pb-95" style="background-image:url(assets/uploads/blog-agriculture-at-maya-devi-university.webp);">
+    <div class="breadcrumb-top bg-img pt-100 pb-95" style="background-image:url(assets/uploads/blog.jpg);">
     </div>
     <div class="breadcrumb-bottom">
         <div class="container">
@@ -53,7 +53,7 @@ $og_image = "https://maya.edu.in/assets/uploads/blog-agriculture-at-maya-devi-un
             <div class="col-xl-9 col-lg-8">
                 <div class="blog-details-wrap mr-40">
                     <div class="blog-details-top">
-                        <img src="assets/uploads/blog-agriculture-at-maya-devi-university.webp" alt="Agriculture at Maya Devi University">
+                        <img src="assets/uploads/blog-agriculture-at-maya-devi-university.webp" alt="Agriculture at Maya Devi University" class="img-fluid rounded mb-4">
                         <div class="blog-details-content-wrap">
                             <div class="b-details-meta-wrap">
                                 <div class="b-details-meta">
@@ -62,7 +62,7 @@ $og_image = "https://maya.edu.in/assets/uploads/blog-agriculture-at-maya-devi-un
                                         <li><i class="fa fa-user"></i> Maya Devi University</li>
                                     </ul>
                                 </div>
-                                <span>agriculture</span>
+                                <span class="badge-tag-category">agriculture</span>
                             </div>
 
                             <h3>Agriculture at Maya Devi University</h3>
@@ -97,7 +97,11 @@ $og_image = "https://maya.edu.in/assets/uploads/blog-agriculture-at-maya-devi-un
                             <h4>More From Our Blog</h4>
                         </div>
                         <div class="recent-post-wrap">
-                            <p><a href="blog.php">View all blog posts &rarr;</a></p>
+                            <div class="single-recent-post mb-3">
+                                <h5 class="mb-1"><a href="computer-engineering-at-maya-devi-university.php">Building Future Technologists: Computer Engineering</a></h5>
+                                <span class="text-muted font-size-12"><i class="fa fa-calendar-o"></i> Jan 20, 2026</span>
+                            </div>
+                            <p class="mt-3"><a href="blog.php" class="text-success font-weight-bold">View all blog posts &rarr;</a></p>
                         </div>
                     </div>
 
@@ -107,6 +111,7 @@ $og_image = "https://maya.edu.in/assets/uploads/blog-agriculture-at-maya-devi-un
                         </div>
                         <div class="sidebar-tag">
                             <ul>
+                                <li><span class="badge-tag">Computer Engineering</span></li>
                                 <li><span class="badge-tag">agriculture</span></li>
                                 <li><span class="badge-tag">education</span></li>
                             </ul>
@@ -121,6 +126,16 @@ $og_image = "https://maya.edu.in/assets/uploads/blog-agriculture-at-maya-devi-un
 </div>
 
 <style>
+.badge-tag-category {
+    display: inline-block;
+    padding: 4px 14px;
+    background: #00a651;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 .badge-tag {
     display:inline-block;
     padding:4px 12px;
