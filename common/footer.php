@@ -230,13 +230,19 @@
   </div>
  <div class="floating-contact">
 
+    <!-- Apply Now Button -->
+    <a href="javascript:void(0)" class="apply-icon" id="applyNowFloatingBtn" title="Apply Now">
+        <i class="fas fa-edit"></i>
+        <span class="apply-text">Apply Now</span>
+    </a>
+
     <!-- Call Button -->
-    <a href="tel:+917351441144" class="phone-icon">
+    <a href="tel:+917351441144" class="phone-icon" title="Call Us">
         <i class="fas fa-phone"></i>
     </a>
 
     <!-- WhatsApp Button -->
-    <a href="https://wa.me/917060211144" target="_blank" class="whatsapp-icon">
+    <a href="https://wa.me/917060211144" target="_blank" class="whatsapp-icon" title="WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
 
@@ -248,10 +254,10 @@
 
 .floating-contact{
     position: fixed;
-    right: 15px;
-    top: 50%;
+    right: 2px;
+    top: 80%;
     padding: 20px;
-    transform: translateY(50%);
+    transform: translateY(-50%);
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -266,14 +272,69 @@
     justify-content: center;
     border-radius: 50%;
     color: white;
-    font-size: 30px;
+    font-size: 26px;
     text-decoration: none;
     box-shadow: 0 4px 12px rgba(0,0,0,0.25);
     transition: 0.3s;
+    position: relative;
 }
 
 .floating-contact a:hover{
     transform: scale(1.1);
+}
+
+/* Apply Now Floating Button */
+.apply-icon{
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    animation: pulseApply 2s infinite;
+}
+
+@keyframes pulseApply {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 65, 108, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 12px rgba(255, 65, 108, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 65, 108, 0);
+    }
+}
+
+.apply-icon .apply-text{
+    position: absolute;
+    right: 70px;
+    background: #ff416c;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 12px;
+    border-radius: 20px;
+    white-space: nowrap;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.apply-icon .apply-text::after{
+    content: '';
+    position: absolute;
+    right: -6px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-width: 6px 0 6px 6px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ff416c;
+}
+
+.apply-icon:hover .apply-text{
+    opacity: 1;
+    visibility: visible;
+    right: 68px;
 }
 
 /* WhatsApp */
@@ -291,18 +352,23 @@
 
 .floating-contact{
     position: fixed;
-    right: 15px;
-    bottom: 150px;
+    right: 2px;
+    bottom: 140px;
     top: auto;
     transform: none;
     z-index: 9999;
 }
 
 .whatsapp-icon,
-.phone-icon{
+.phone-icon,
+.apply-icon{
     width:50px;
     height:50px;
-    font-size:24px;
+    font-size:22px;
+}
+
+.apply-icon .apply-text{
+    display: none;
 }
 
 #__eechatIcon {
@@ -659,6 +725,258 @@
     });
   </script>
 
+  <!-- Timed Admission Pop-Up Modal -->
+  <div id="eeAdmissionModal" class="ee-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="eeModalTitle">
+      <div class="ee-modal-dialog">
+          <div class="ee-modal-header">
+              <h3 id="eeModalTitle">Admission Enquiry 2026</h3>
+              <p>Apply Now &amp; Explore Top Programs</p>
+              <button type="button" class="ee-modal-close" id="closeEeModal" aria-label="Close Admission Form">&times;</button>
+          </div>
+          <div class="ee-modal-body">
+              <div id="ee-form-2" class="hf-body"></div>
+              <script src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/mdud/ee-form-widget/form-2/widget.js"></script>
+          </div>
+      </div>
+  </div>
+
+  <style>
+  /* ===== ADMISSION POP-UP MODAL STYLES ===== */
+  .ee-modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 99999;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+      padding: 12px;
+  }
+
+  .ee-modal-overlay.active {
+      opacity: 1;
+      visibility: visible;
+  }
+
+  .ee-modal-dialog {
+      background: #ffffff;
+      width: 100%;
+      max-width: 440px;
+      border-radius: 14px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+      position: relative;
+      transform: scale(0.88);
+      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      max-height: 90vh;
+  }
+
+  .ee-modal-overlay.active .ee-modal-dialog {
+      transform: scale(1);
+  }
+
+  .ee-modal-header {
+      background: linear-gradient(135deg, #0d3b66, #1f5f8b);
+      color: #ffffff;
+      padding: 14px 45px 14px 18px;
+      position: relative;
+      text-align: left;
+  }
+
+  .ee-modal-header h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.2;
+  }
+
+  .ee-modal-header p {
+      margin: 3px 0 0 0;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.85);
+  }
+
+  .ee-modal-close {
+      position: absolute;
+      top: 50%;
+      right: 12px;
+      transform: translateY(-50%);
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: bold;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+      z-index: 10;
+      transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .ee-modal-close:hover {
+      background: rgba(255, 255, 255, 0.4);
+      transform: translateY(-50%) rotate(90deg);
+  }
+
+  .ee-modal-body {
+      padding: 10px 15px 15px 15px;
+      overflow-y: auto;
+      max-height: calc(90vh - 65px);
+  }
+
+  /* Custom Sleek Scrollbar */
+  .ee-modal-body::-webkit-scrollbar {
+      width: 5px;
+  }
+  .ee-modal-body::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 4px;
+  }
+  .ee-modal-body::-webkit-scrollbar-thumb {
+      background: #c1c1c1;
+      border-radius: 4px;
+  }
+  .ee-modal-body::-webkit-scrollbar-thumb:hover {
+      background: #a8a8a8;
+  }
+
+  #eeAdmissionModal #ee-form-2 {
+      width: 100% !important;
+      margin: 0 auto !important;
+  }
+
+  /* ExtraaEdge Form Checkbox & Label Fix */
+  #eeAdmissionModal #ee-form-2 input[type="checkbox"],
+  #ee-form-2 input[type="checkbox"] {
+      width: 16px !important;
+      height: 16px !important;
+      min-width: 16px !important;
+      min-height: 16px !important;
+      max-width: 16px !important;
+      max-height: 16px !important;
+      display: inline-block !important;
+      margin-right: 8px !important;
+      vertical-align: middle !important;
+      cursor: pointer !important;
+      appearance: checkbox !important;
+      -webkit-appearance: checkbox !important;
+      background: #fff !important;
+      border: 1px solid #ccc !important;
+      box-shadow: none !important;
+      padding: 0 !important;
+  }
+
+  #eeAdmissionModal #ee-form-2 label,
+  #ee-form-2 label {
+      display: inline-flex !important;
+      align-items: flex-start !important;
+      text-align: left !important;
+      font-size: 11px !important;
+      line-height: 1.4 !important;
+      color: #555 !important;
+      cursor: pointer !important;
+  }
+
+  #eeAdmissionModal #ee-form-2 label input[type="checkbox"],
+  #ee-form-2 label input[type="checkbox"] {
+      margin-top: 2px !important;
+      flex-shrink: 0 !important;
+  }
+
+  @media (max-width: 576px) {
+      .ee-modal-dialog {
+          max-width: 95%;
+          border-radius: 12px;
+          max-height: 92vh;
+      }
+      .ee-modal-header {
+          padding: 12px 40px 12px 14px;
+      }
+      .ee-modal-header h3 {
+          font-size: 16px;
+      }
+      .ee-modal-body {
+          padding: 8px 10px 12px 10px;
+          max-height: calc(92vh - 60px);
+      }
+  }
+  </style>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+      var modal = document.getElementById("eeAdmissionModal");
+      var closeBtn = document.getElementById("closeEeModal");
+      var applyFloatingBtn = document.getElementById("applyNowFloatingBtn");
+      var popupTimer = null;
+
+      function openAdmissionModal() {
+          if (modal) {
+              modal.classList.add("active");
+              document.body.style.overflow = "hidden";
+          }
+      }
+
+      function closeAdmissionModal() {
+          if (modal) {
+              modal.classList.remove("active");
+              document.body.style.overflow = "";
+          }
+      }
+
+      // Auto-open modal after 10 seconds (10,000 ms)
+      popupTimer = setTimeout(function() {
+          openAdmissionModal();
+      }, 10000);
+
+      // Open on floating Apply Now button click
+      if (applyFloatingBtn) {
+          applyFloatingBtn.addEventListener("click", function(e) {
+              e.preventDefault();
+              if (popupTimer) clearTimeout(popupTimer);
+              openAdmissionModal();
+          });
+      }
+
+      // Close button click
+      if (closeBtn) {
+          closeBtn.addEventListener("click", function() {
+              closeAdmissionModal();
+          });
+      }
+
+      // Backdrop click close
+      if (modal) {
+          modal.addEventListener("click", function(e) {
+              if (e.target === modal) {
+                  closeAdmissionModal();
+              }
+          });
+      }
+
+      // ESC key press close
+      document.addEventListener("keydown", function(e) {
+          if (e.key === "Escape" && modal && modal.classList.contains("active")) {
+              closeAdmissionModal();
+          }
+      });
+  });
+  </script>
 
 </footer>
 

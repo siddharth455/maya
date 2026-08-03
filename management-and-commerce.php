@@ -1693,55 +1693,139 @@ section { position: relative; z-index: 1; }
       <h2 class="section-maya">Our <em>Blog</em></h2>
       <p style="color:var(--text-muted); margin-top:8px;">Insights and updates from Maya Devi University.</p>
     </div>
-    <!-- PHP blog loop will render .blog-card-maya items here in production -->
-    <!-- Static placeholder cards shown for design preview -->
-    <!-- Blog section removed: no static blog post currently tagged for this department. -->
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4">
+        <div class="dept-blog-card">
+          <div class="dept-blog-img">
+            <a href="commerce-management-at-maya-devi-university.php">
+              <img src="assets/uploads/management-blog.png" alt="Shaping Business Leaders">
+            </a>
+            <span class="dept-blog-badge">Commerce & Management</span>
+          </div>
+          <div class="dept-blog-body">
+            <h4 class="dept-blog-title">
+              <a href="commerce-management-at-maya-devi-university.php">Shaping Business Leaders: The School of Commerce & Management at Maya Devi University</a>
+            </h4>
+            <p class="dept-blog-excerpt">Study BBA, B.Com & MBA at Maya Devi University, a top commerce & management college in Dehradun, Uttarakhand with industry projects & placements...</p>
+            <div class="dept-blog-footer">
+              <span class="dept-blog-date"><i class="fa fa-calendar-o"></i> Feb 05, 2026</span>
+              <a href="commerce-management-at-maya-devi-university.php" class="dept-blog-btn">Read Full Article &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </div>
 </section>
 <style>
-  .event-area-maya{
+  .event-area-maya {
     background: linear-gradient(135deg, #0a1628 0%, #0d1f4a 60%, #061228 100%);
+    padding: 60px 0;
   }
-  .single-blog-maya{
-    border: 1px solid #fff;
-  }
-.blog-active .single-blog {
-  background: var(--navy);
+  .dept-blog-card {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
-    border: 1px solid #fff !important;
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 10px;
     height: 100%;
-}
-
-.blog-active .blog-img {
-    flex: 0 0 200px;
+    max-width: 540px;
+  }
+  .dept-blog-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  }
+  .dept-blog-img {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    max-height: 220px;
     overflow: hidden;
-}
-
-.blog-active .blog-img img {
+  }
+  .dept-blog-img a {
+    display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-}
-
-.blog-active .blog-content-wrap {
+  }
+  .dept-blog-img img {
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 220px !important;
+    object-fit: cover !important;
+    transition: transform 0.5s ease;
+  }
+  .dept-blog-card:hover .dept-blog-img img {
+    transform: scale(1.06);
+  }
+  .dept-blog-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #00a651;
+    color: #ffffff !important;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 14px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .dept-blog-body {
+    padding: 24px;
     display: flex;
     flex-direction: column;
-    flex: 1;
-    padding: 15px;
-}
-.blog-active .blog-content {
-    flex: 1;
-}
-.blog-active::after {
-    content: "";
-    display: block;
-    clear: both;
-}
+    flex-grow: 1;
+    background: #ffffff;
+  }
+  .dept-blog-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.45;
+    margin-bottom: 12px;
+  }
+  .dept-blog-title a {
+    color: #1e293b !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .dept-blog-title a:hover {
+    color: #00a651 !important;
+  }
+  .dept-blog-excerpt {
+    color: #64748b !important;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  }
+  .dept-blog-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #f1f5f9;
+    padding-top: 16px;
+    margin-top: auto;
+  }
+  .dept-blog-date {
+    color: #94a3b8 !important;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  .dept-blog-btn {
+    color: #00a651 !important;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .dept-blog-btn:hover {
+    color: #008f45 !important;
+    text-decoration: underline;
+  }
 </style>
 <!-- ═══════════════════════ CTA BANNER ═══════════════════════ -->
 <section class="cta-banner">

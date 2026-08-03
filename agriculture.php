@@ -959,18 +959,18 @@ ICAR.”
                     <div class="single-blog">
                         <div class="blog-img" style="height:200px; overflow:hidden;">
                             <a href="agriculture-at-maya-devi-university.php">
-                                <img loading="lazy" src="assets/uploads/blog-agriculture-at-maya-devi-university.webp" alt="Agriculture at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                                <img loading="lazy" src="assets/uploads/agriculture-blog.png" alt="Cultivating Change: The School of Agriculture & Technology at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
                             </a>
                         </div>
 
                         <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
-                            <span>agriculture</span>
+                            <span>Agriculture</span>
 
                             <div class="blog-content" style="flex-grow:1;">
                                 <h4>
-                                    <a href="agriculture-at-maya-devi-university.php">Agriculture at Maya Devi University</a>
+                                    <a href="agriculture-at-maya-devi-university.php">Cultivating Change: The School of Agriculture & Technology at Maya Devi University</a>
                                 </h4>
-                                <p>The School of Agriculture and Technology at Maya Devi University is advancing sustainable agriculture through research and innovation...</p>
+                                <p>Study B.Sc & M.Sc Agriculture at Maya Devi University, a leading agriculture college in Dehradun, Uttarakhand with research & practical field training...</p>
 
                                 <div class="blog-meta">
                                     <ul>

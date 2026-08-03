@@ -1268,7 +1268,7 @@ SCHEMA;
       <h2 class="section-maya">Latest From <em>Computer Engineering</em></h2>
     </div>
     <div class="row">
-      <div class="col-lg-6 col-md-12 mb-4">
+      <div class="col-lg-4 col-md-12 mb-4">
         <div class="dept-blog-card">
           <div class="dept-blog-img">
             <a href="computer-engineering-at-maya-devi-university.php">
@@ -1317,9 +1317,10 @@ SCHEMA;
     overflow: hidden;
   }
   .dept-blog-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 220px !important;
+    object-fit: cover !important;
     transition: transform 0.5s ease;
   }
   .dept-blog-card:hover .dept-blog-img img {

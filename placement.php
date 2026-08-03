@@ -64,7 +64,7 @@
         </div>
 
         <div class="circle" role="listitem">
-          <div class="circle-num" data-target="5.48">5.48</div>
+          <div class="circle-num" data-target="5.5" data-decimals="1">5.5</div>
           <div class="circle-label">Avg Package</div>
         </div>
       </div>

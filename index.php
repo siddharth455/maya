@@ -1815,10 +1815,10 @@ document.addEventListener("DOMContentLoaded", function() {
 <?php require "placement.php" ?>
 <section class="my-stats-section">
     <div class="my-stats-container">
-        <h2 class="my-stats-title text-center mt-5">
-            Immerse <span class="my-highlight">yourself</span> <strong>in a Global<br>
-                Educational Experience</strong> with peers
-            from <strong>65 countries</strong>
+         <h2 class="my-stats-title text-center mt-5">
+                 
+            Learn and grow <span class="my-highlight">alongside</span> <strong>a vibrant<br>
+                student body</strong> from across <strong>India and beyond.</strong>
         </h2>
         <div class="container-cat">
             <div class="cat-card">
@@ -2193,6 +2193,246 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     <div class="single-blog">
                         <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="education-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/education-blog.png" alt="Shaping the Shapers: The School of Education at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Education</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="education-at-maya-devi-university.php">Shaping the Shapers: The School of Education at Maya Devi University</a>
+                                </h4>
+                                <p>Study B.Ed & D.El.Ed at Maya Devi University, a leading teacher training college in Dehradun, Uttarakhand with expert faculty & practice teaching...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-03-01</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="life-applied-science-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/life-blog.png" alt="The Science of Discovery: The School of Life & Applied Science at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Life & Applied Science</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="life-applied-science-at-maya-devi-university.php">The Science of Discovery: The School of Life & Applied Science at Maya Devi University</a>
+                                </h4>
+                                <p>Study B.Sc & M.Sc in Botany, Zoology, Chemistry, Physics & more at Maya Devi University, a leading science college in Dehradun, Uttarakhand with modern labs...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-02-25</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="law-legal-studies-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/law-blog.png" alt="Justice in Action: The School of Law & Legal Studies at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Law & Legal Studies</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="law-legal-studies-at-maya-devi-university.php">Justice in Action: The School of Law & Legal Studies at Maya Devi University</a>
+                                </h4>
+                                <p>Study LLB, BA LLB & BBA LLB at Maya Devi University's School of Law & Legal Studies, a leading law college in Dehradun, Uttarakhand with practical training...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-02-20</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="hotel-tourism-management-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/hotel-blog.png" alt="A Passport to the World: The School of Hotel & Tourism Management at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Hotel & Tourism Management</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="hotel-tourism-management-at-maya-devi-university.php">A Passport to the World: The School of Hotel & Tourism Management at Maya Devi University</a>
+                                </h4>
+                                <p>Study hotel management, culinary arts & tourism at Maya Devi University, a leading hotel management college in Dehradun, Uttarakhand with hands-on training...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-02-15</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="nursing-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/nursing-blog.png" alt="Caring for the Future: The School of Nursing at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Nursing</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="nursing-at-maya-devi-university.php">Caring for the Future: The School of Nursing at Maya Devi University</a>
+                                </h4>
+                                <p>Study GNM & B.Sc Nursing at Maya Devi University, a leading nursing college in Dehradun, Uttarakhand with modern labs, clinical training & career support...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-02-10</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="commerce-management-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/management-blog.png" alt="Shaping Business Leaders: The School of Commerce & Management at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Commerce & Management</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="commerce-management-at-maya-devi-university.php">Shaping Business Leaders: The School of Commerce & Management at Maya Devi University</a>
+                                </h4>
+                                <p>Study BBA, B.Com & MBA at Maya Devi University, a top commerce & management college in Dehradun, Uttarakhand with industry projects & placements...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-02-05</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="pharmacy-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/pharmacy-blog.png" alt="A Career in Healthcare Innovation: The School of Pharmacy at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Pharmacy</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="pharmacy-at-maya-devi-university.php">A Career in Healthcare Innovation: The School of Pharmacy at Maya Devi University</a>
+                                </h4>
+                                <p>Study D.Pharm, B.Pharm & M.Pharm at Maya Devi University, a leading pharmacy college in Dehradun, Uttarakhand with modern labs & industry links...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-01-30</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="engineering-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/engineering-blog.png" alt="Engineering Tomorrow: The School of Engineering at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Engineering</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="engineering-at-maya-devi-university.php">Engineering Tomorrow: The School of Engineering at Maya Devi University</a>
+                                </h4>
+                                <p>Pursue B.Tech & M.Tech in Civil, Mechanical, Electrical & Electronics at Maya Devi University, a top engineering college in Dehradun...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-01-25</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
                             <a href="computer-engineering-at-maya-devi-university.php">
                                 <img loading="lazy" src="assets/uploads/computer-blog.png" alt="Building Future Technologists: Computer Engineering at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
                             </a>
@@ -2224,18 +2464,18 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="single-blog">
                         <div class="blog-img" style="height:200px; overflow:hidden;">
                             <a href="agriculture-at-maya-devi-university.php">
-                                <img loading="lazy" src="assets/uploads/blog-agriculture-at-maya-devi-university.webp" alt="Agriculture at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                                <img loading="lazy" src="assets/uploads/agriculture-blog.png" alt="Cultivating Change: The School of Agriculture & Technology at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
                             </a>
                         </div>
 
                         <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
-                            <span>agriculture</span>
+                            <span>Agriculture</span>
 
                             <div class="blog-content" style="flex-grow:1;">
                                 <h4>
-                                    <a href="agriculture-at-maya-devi-university.php">Agriculture at Maya Devi University</a>
+                                    <a href="agriculture-at-maya-devi-university.php">Cultivating Change: The School of Agriculture & Technology at Maya Devi University</a>
                                 </h4>
-                                <p>The School of Agriculture and Technology at Maya Devi University is advancing sustainable agriculture through research and innovation...</p>
+                                <p>Study B.Sc & M.Sc Agriculture at Maya Devi University, a leading agriculture college in Dehradun, Uttarakhand with research & practical field training...</p>
 
                                 <div class="blog-meta">
                                     <ul>
