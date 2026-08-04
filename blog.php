@@ -34,7 +34,63 @@ $og_image = "https://maya.edu.in/assets/uploads/maya.webp";
                              create a new blog-{slug}.php file (copy an existing one as a template)
                              and add a matching card below. -->
 
-                        <!-- Blog 1: Education -->
+                        <!-- Blog 1: Paramedical Sciences -->
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 d-flex mb-3">
+                            <div class="single-blog d-flex flex-column" style="flex:1;">
+                                <div class="blog-img">
+                                    <a href="paramedical-sciences-at-maya-devi-university.php">
+                                        <img src="assets/uploads/paramedical-blog.png" alt="The Skilled Hands Behind Every Diagnosis: The School of Paramedical Sciences at Maya Devi University">
+                                    </a>
+                                </div>
+                                <div class="blog-content-wrap d-flex flex-column flex-grow-1">
+                                    <span>Paramedical Sciences</span>
+                                    <div class="blog-content flex-grow-1">
+                                        <h4>
+                                            <a href="paramedical-sciences-at-maya-devi-university.php">The Skilled Hands Behind Every Diagnosis: The School of Paramedical Sciences at Maya Devi University</a>
+                                        </h4>
+                                        <p>Study paramedical & allied health courses like BMLT, radiology & OT technology at Maya Devi University, a leading paramedical college in Dehradun, Uttarakhand...</p>
+                                    </div>
+                                    <div class="blog-meta d-flex justify-content-between align-items-center mt-auto">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        </ul>
+                                        <div class="blog-date">
+                                            <a href="#"><i class="fa fa-calendar-o"></i> 2026-03-10</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Blog 2: Health Sciences -->
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 d-flex mb-3">
+                            <div class="single-blog d-flex flex-column" style="flex:1;">
+                                <div class="blog-img">
+                                    <a href="health-sciences-at-maya-devi-university.php">
+                                        <img src="assets/uploads/health-blog.png" alt="The Backbone of Modern Healthcare: The School of Health Sciences at Maya Devi University">
+                                    </a>
+                                </div>
+                                <div class="blog-content-wrap d-flex flex-column flex-grow-1">
+                                    <span>Health Sciences</span>
+                                    <div class="blog-content flex-grow-1">
+                                        <h4>
+                                            <a href="health-sciences-at-maya-devi-university.php">The Backbone of Modern Healthcare: The School of Health Sciences at Maya Devi University</a>
+                                        </h4>
+                                        <p>Study BPT, BMLT & allied health programs at Maya Devi University, a leading health sciences college in Dehradun, Uttarakhand with clinical training...</p>
+                                    </div>
+                                    <div class="blog-meta d-flex justify-content-between align-items-center mt-auto">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        </ul>
+                                        <div class="blog-date">
+                                            <a href="#"><i class="fa fa-calendar-o"></i> 2026-03-05</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Blog 2: Education -->
                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 d-flex mb-3">
                             <div class="single-blog d-flex flex-column" style="flex:1;">
                                 <div class="blog-img">
@@ -341,6 +397,8 @@ $og_image = "https://maya.edu.in/assets/uploads/maya.webp";
                         <div class="sidebar-title mb-40"><h4>Categories</h4></div>
                         <div class="sidebar-tag">
                             <ul>
+                                <li><span class="badge-tag">Paramedical Sciences</span></li>
+                                <li><span class="badge-tag">Health Sciences</span></li>
                                 <li><span class="badge-tag">Education</span></li>
                                 <li><span class="badge-tag">Life & Applied Science</span></li>
                                 <li><span class="badge-tag">Law & Legal Studies</span></li>

@@ -2193,6 +2193,66 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     <div class="single-blog">
                         <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="paramedical-sciences-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/paramedical-blog.png" alt="The Skilled Hands Behind Every Diagnosis: The School of Paramedical Sciences at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Paramedical Sciences</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="paramedical-sciences-at-maya-devi-university.php">The Skilled Hands Behind Every Diagnosis: The School of Paramedical Sciences at Maya Devi University</a>
+                                </h4>
+                                <p>Study paramedical & allied health courses like BMLT, radiology & OT technology at Maya Devi University, a leading paramedical college in Dehradun, Uttarakhand...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-03-10</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="health-sciences-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/health-blog.png" alt="The Backbone of Modern Healthcare: The School of Health Sciences at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Health Sciences</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="health-sciences-at-maya-devi-university.php">The Backbone of Modern Healthcare: The School of Health Sciences at Maya Devi University</a>
+                                </h4>
+                                <p>Study BPT, BMLT & allied health programs at Maya Devi University, a leading health sciences college in Dehradun, Uttarakhand with clinical training...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-03-05</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
                             <a href="education-at-maya-devi-university.php">
                                 <img loading="lazy" src="assets/uploads/education-blog.png" alt="Shaping the Shapers: The School of Education at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
                             </a>
