@@ -1694,13 +1694,31 @@ section { position: relative; z-index: 1; }
       <p style="color:var(--text-muted); margin-top:8px;">Insights and updates from Maya Devi University.</p>
     </div>
     <div class="row">
-      <div class="col-lg-4 col-md-12 mb-4">
+      <div class="col-lg-3 col-md-12 mb-4">
+        <div class="dept-blog-card">
+          <div class="dept-blog-img">
+            <a href="bba-colleges-in-dehradun.php">
+              <img src="assets/uploads/bba-blog.png" alt="BBA Colleges in Dehradun">
+            </a>
+          </div>
+          <div class="dept-blog-body">
+            <h4 class="dept-blog-title">
+              <a href="bba-colleges-in-dehradun.php">BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2026)</a>
+            </h4>
+            <p class="dept-blog-excerpt">Explore the best BBA colleges in Dehradun for 2026 with a detailed focus on Maya Devi University. Know BBA course structure, fees, placements, and career scope...</p>
+            <div class="dept-blog-footer">
+              <span class="dept-blog-date"><i class="fa fa-calendar-o"></i> Mar 30, 2026</span>
+              <a href="bba-colleges-in-dehradun.php" class="dept-blog-btn">Read Full Article &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-12 mb-4">
         <div class="dept-blog-card">
           <div class="dept-blog-img">
             <a href="commerce-management-at-maya-devi-university.php">
               <img src="assets/uploads/management-blog.png" alt="Shaping Business Leaders">
             </a>
-            <span class="dept-blog-badge">Commerce & Management</span>
           </div>
           <div class="dept-blog-body">
             <h4 class="dept-blog-title">

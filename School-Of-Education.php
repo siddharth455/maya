@@ -452,6 +452,25 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-12 mb-4">
         <div class="dept-blog-card">
           <div class="dept-blog-img">
+            <a href="private-bed-colleges-dehradun.php">
+              <img src="assets/uploads/bed-blog.png" alt="Best Private B.Ed Colleges in Dehradun">
+            </a>
+          </div>
+          <div class="dept-blog-body">
+            <h4 class="dept-blog-title">
+              <a href="private-bed-colleges-dehradun.php">Best Private B.Ed Colleges in Dehradun: Admission, Fees, Eligibility, Entrance Exams & Career Scope (2026)</a>
+            </h4>
+            <p class="dept-blog-excerpt">Explore the best private B.Ed colleges in Dehradun for 2026. Check eligibility, admission process, fees, entrance exams, placements, and career opportunities...</p>
+            <div class="dept-blog-footer">
+              <span class="dept-blog-date"><i class="fa fa-calendar-o"></i> Apr 26, 2025</span>
+              <a href="private-bed-colleges-dehradun.php" class="dept-blog-btn">Read Full Article &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-12 mb-4">
+        <div class="dept-blog-card">
+          <div class="dept-blog-img">
             <a href="education-at-maya-devi-university.php">
               <img src="assets/uploads/education-blog.png" alt="Shaping the Shapers">
             </a>

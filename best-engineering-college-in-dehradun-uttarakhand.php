@@ -953,10 +953,28 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-4 col-md-12 mb-4">
         <div class="dept-blog-card">
           <div class="dept-blog-img">
+            <a href="btech-civil-engineering-uttarakhand.php">
+              <img src="assets/uploads/civil-blog.png" alt="B.Tech in Civil Engineering in Uttarakhand">
+            </a>
+          </div>
+          <div class="dept-blog-body">
+            <h4 class="dept-blog-title">
+              <a href="btech-civil-engineering-uttarakhand.php">B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2026)</a>
+            </h4>
+            <p class="dept-blog-excerpt">Explore B.Tech in Civil Engineering in Uttarakhand. Learn about course structure, career scope, fees, admission process, and top colleges including IIT Roorkee and MDU...</p>
+            <div class="dept-blog-footer">
+              <span class="dept-blog-date"><i class="fa fa-calendar-o"></i> Apr 30, 2026</span>
+              <a href="btech-civil-engineering-uttarakhand.php" class="dept-blog-btn">Read Full Article &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 mb-4">
+        <div class="dept-blog-card">
+          <div class="dept-blog-img">
             <a href="engineering-at-maya-devi-university.php">
               <img src="assets/uploads/engineering-blog.png" alt="Engineering Tomorrow">
             </a>
-            <span class="dept-blog-badge">Engineering</span>
           </div>
           <div class="dept-blog-body">
             <h4 class="dept-blog-title">
@@ -988,6 +1006,7 @@ document.addEventListener("DOMContentLoaded", () => {
     display: flex;
     flex-direction: column;
     height: 100%;
+    max-width: 540px;
   }
   .dept-blog-card:hover {
     transform: translateY(-6px);
@@ -995,8 +1014,15 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   .dept-blog-img {
     position: relative;
+    width: 100%;
     height: 220px;
+    max-height: 220px;
     overflow: hidden;
+  }
+  .dept-blog-img a {
+    display: block;
+    width: 100%;
+    height: 100%;
   }
   .dept-blog-img img {
     width: 100% !important;
@@ -1020,12 +1046,14 @@ document.addEventListener("DOMContentLoaded", () => {
     border-radius: 4px;
     text-transform: uppercase;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 2;
   }
   .dept-blog-body {
     padding: 24px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    background: #ffffff;
   }
   .dept-blog-title {
     font-size: 1.15rem;
@@ -1034,15 +1062,15 @@ document.addEventListener("DOMContentLoaded", () => {
     margin-bottom: 12px;
   }
   .dept-blog-title a {
-    color: #1e293b;
+    color: #1e293b !important;
     text-decoration: none;
     transition: color 0.3s ease;
   }
   .dept-blog-title a:hover {
-    color: #00a651;
+    color: #00a651 !important;
   }
   .dept-blog-excerpt {
-    color: #64748b;
+    color: #64748b !important;
     font-size: 0.9rem;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -1057,86 +1085,23 @@ document.addEventListener("DOMContentLoaded", () => {
     margin-top: auto;
   }
   .dept-blog-date {
-    color: #94a3b8;
+    color: #94a3b8 !important;
     font-size: 0.85rem;
     font-weight: 500;
   }
   .dept-blog-btn {
-    color: #00a651;
+    color: #00a651 !important;
     font-weight: 700;
     font-size: 0.9rem;
     text-decoration: none;
     transition: all 0.3s ease;
   }
   .dept-blog-btn:hover {
-    color: #008f45;
+    color: #008f45 !important;
     text-decoration: underline;
   }
 </style>
 
-<style>
-.blog-active .single-blog {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #eee;
-    border-radius: 8px;
-    overflow: hidden;
-    background: #fff;
-    margin: 10px;
-    height: 100%;
-}
-
-.blog-active .blog-img {
-    flex: 0 0 200px;
-    overflow: hidden;
-}
-
-.blog-active .blog-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.blog-active .blog-content-wrap {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    padding: 15px;
-}
-
-.blog-active .blog-content {
-    flex: 1;
-}
-.blog-active::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-</style>
-
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<script>
- var swiper = new Swiper(".testimonial-slider", {
-  slidesPerView: 1,
-  spaceBetween: 20,
-  loop: true,
-  autoplay: {
-    delay: 4000,   // 4 seconds per slide
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    768: { slidesPerView: 2 }, // Tablet
-    1024: { slidesPerView: 3 } // Desktop
-  }
-});
-
-</script>
 <section class="mdu-faq-section" id="faq">
   <style>
     .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}

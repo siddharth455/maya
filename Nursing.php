@@ -677,10 +677,28 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-12 mb-4">
         <div class="dept-blog-card">
           <div class="dept-blog-img">
+            <a href="best-nursing-college-in-dehradun-bsc-gnm.php">
+              <img src="assets/uploads/nursing-gnm-blog.png" alt="Best Nursing College in Dehradun for BSc & GNM">
+            </a>
+          </div>
+          <div class="dept-blog-body">
+            <h4 class="dept-blog-title">
+              <a href="best-nursing-college-in-dehradun-bsc-gnm.php">Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2026)</a>
+            </h4>
+            <p class="dept-blog-excerpt">Explore the best nursing college in Dehradun offering B.Sc Nursing, GNM, ANM & M.Sc Nursing. Compare courses, eligibility, admission process, placements & career scope...</p>
+            <div class="dept-blog-footer">
+              <span class="dept-blog-date"><i class="fa fa-calendar-o"></i> May 05, 2026</span>
+              <a href="best-nursing-college-in-dehradun-bsc-gnm.php" class="dept-blog-btn">Read Full Article &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-12 mb-4">
+        <div class="dept-blog-card">
+          <div class="dept-blog-img">
             <a href="nursing-at-maya-devi-university.php">
               <img src="assets/uploads/nursing-blog.png" alt="Caring for the Future">
             </a>
-            <span class="dept-blog-badge">Nursing</span>
           </div>
           <div class="dept-blog-body">
             <h4 class="dept-blog-title">

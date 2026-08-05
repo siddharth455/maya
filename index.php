@@ -2193,6 +2193,246 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     <div class="single-blog">
                         <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="best-universities-for-phd-in-dehradun.php">
+                                <img loading="lazy" src="assets/uploads/phd-blog.png" alt="Best Universities for PhD in Dehradun (2026 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Research & Doctoral Studies</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="best-universities-for-phd-in-dehradun.php">Best Universities for PhD in Dehradun (2026 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth</a>
+                                </h4>
+                                <p>Looking for the best universities for PhD in Dehradun? Explore Maya Devi University and other top PhD colleges in Dehradun with details on eligibility, admission process...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-05-10</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="best-nursing-college-in-dehradun-bsc-gnm.php">
+                                <img loading="lazy" src="assets/uploads/nursing-gnm-blog.png" alt="Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2026)" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Nursing</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="best-nursing-college-in-dehradun-bsc-gnm.php">Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2026)</a>
+                                </h4>
+                                <p>Explore the best nursing college in Dehradun offering B.Sc Nursing, GNM, ANM & M.Sc Nursing. Compare courses, eligibility, admission process, placements & career scope...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-05-05</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="btech-civil-engineering-uttarakhand.php">
+                                <img loading="lazy" src="assets/uploads/civil-blog.png" alt="B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2026)" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Engineering</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="btech-civil-engineering-uttarakhand.php">B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2026)</a>
+                                </h4>
+                                <p>Explore B.Tech in Civil Engineering in Uttarakhand. Learn about course structure, career scope, fees, admission process, and top colleges including IIT Roorkee and MDU...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-04-30</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="private-bed-colleges-dehradun.php">
+                                <img loading="lazy" src="assets/uploads/bed-blog.png" alt="Best Private B.Ed Colleges in Dehradun: Admission, Fees, Eligibility, Entrance Exams & Career Scope (2026)" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Education</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="private-bed-colleges-dehradun.php">Best Private B.Ed Colleges in Dehradun: Admission, Fees, Eligibility, Entrance Exams & Career Scope (2026)</a>
+                                </h4>
+                                <p>Explore the best private B.Ed colleges in Dehradun for 2026. Check eligibility, admission process, fees, entrance exams, placements, and career opportunities...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2025-04-26</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="bba-colleges-in-dehradun.php">
+                                <img loading="lazy" src="assets/uploads/bba-blog.png" alt="BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2026)" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Commerce & Management</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="bba-colleges-in-dehradun.php">BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2026)</a>
+                                </h4>
+                                <p>Explore the best BBA colleges in Dehradun for 2026 with a detailed focus on Maya Devi University. Know BBA course structure, fees, placements, and career scope...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-03-30</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="rehabilitation-sciences-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/rehabilitation-blog.png" alt="Restoring Lives, Rebuilding Abilities: The Ashtvakra School of Rehabilitation at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Rehabilitation Sciences</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="rehabilitation-sciences-at-maya-devi-university.php">Restoring Lives, Rebuilding Abilities: The Ashtvakra School of Rehabilitation at Maya Devi University</a>
+                                </h4>
+                                <p>Study rehabilitation sciences, physiotherapy & allied rehab programs at the Ashtvakra School of Rehabilitation, Maya Devi University, Dehradun, Uttarakhand...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-03-25</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="skill-development-vocational-studies-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/vocational-blog.png" alt="Skills That Get You Hired: The School of Skill Development & Vocational Studies at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Skill Development & Vocational Studies</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="skill-development-vocational-studies-at-maya-devi-university.php">Skills That Get You Hired: The School of Skill Development & Vocational Studies at Maya Devi University</a>
+                                </h4>
+                                <p>Job-ready vocational & skill development courses at Maya Devi University in Dehradun, Uttarakhand. Industry-aligned training for fast entry into the workforce...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-03-20</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
+                            <a href="arts-humanities-at-maya-devi-university.php">
+                                <img loading="lazy" src="assets/uploads/arts-blog.png" alt="Understanding the Human Story: The School of Arts & Humanities at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
+                            </a>
+                        </div>
+
+                        <div class="blog-content-wrap" style="display:flex; flex-direction:column; height:100%;">
+                            <span>Arts & Humanities</span>
+
+                            <div class="blog-content" style="flex-grow:1;">
+                                <h4>
+                                    <a href="arts-humanities-at-maya-devi-university.php">Understanding the Human Story: The School of Arts & Humanities at Maya Devi University</a>
+                                </h4>
+                                <p>Study BA & MA in English, Psychology, Political Science & more at Maya Devi University, a leading arts & humanities college in Dehradun, Uttarakhand...</p>
+
+                                <div class="blog-meta">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-user"></i> Maya Devi University</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 0</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="blog-date">
+                                <a href="#"><i class="fa fa-calendar-o"></i> 2026-03-15</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-blog">
+                        <div class="blog-img" style="height:200px; overflow:hidden;">
                             <a href="paramedical-sciences-at-maya-devi-university.php">
                                 <img loading="lazy" src="assets/uploads/paramedical-blog.png" alt="The Skilled Hands Behind Every Diagnosis: The School of Paramedical Sciences at Maya Devi University" style="width:100%; height:100%; object-fit:cover;">
                             </a>

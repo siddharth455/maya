@@ -12,6 +12,7 @@
   <meta property="og:description" content="Maya Devi University is among the best universities for PhD in Dehradun, Uttarakhand." />
   <meta property="og:url" content="https://maya.edu.in/best-university-for-phd-in-dehradun-uttarakhand.php" />
   <meta property="og:image" content="https://maya.edu.in/assets/uploads/campus-2.jpeg" />
+  <link rel="shortcut icon" type="image/x-icon" href="assets/uploads/logo/favicon-CqYW0pAm.ico">
 </head>
 
 <body>
@@ -978,8 +979,146 @@
       </div>
     </div>
   </div>
+<!-- Department Blog Feature Section -->
+<section class="section-pad event-area-maya">
+  <div class="container">
+    <div class="reveal mb-4">
+      <div class="section-label text-white">Department Insights & Articles</div>
+      <h2 class="section-maya text-white">Latest From <em>Doctoral Research Studies</em></h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-12 mb-4">
+        <div class="dept-blog-card">
+          <div class="dept-blog-img">
+            <a href="best-universities-for-phd-in-dehradun.php">
+              <img src="assets/uploads/phd-blog.png" alt="Best Universities for PhD in Dehradun">
+            </a>
+          </div>
+          <div class="dept-blog-body">
+            <h4 class="dept-blog-title">
+              <a href="best-universities-for-phd-in-dehradun.php">Best Universities for PhD in Dehradun (2026 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth</a>
+            </h4>
+            <p class="dept-blog-excerpt">Looking for the best universities for PhD in Dehradun? Explore Maya Devi University and other top PhD colleges in Dehradun with details on eligibility, admission process...</p>
+            <div class="dept-blog-footer">
+              <span class="dept-blog-date"><i class="fa fa-calendar-o"></i> May 10, 2026</span>
+              <a href="best-universities-for-phd-in-dehradun.php" class="dept-blog-btn">Read Full Article &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
+<style>
+  .event-area-maya {
+    background: linear-gradient(135deg, #0a1628 0%, #0d1f4a 60%, #061228 100%);
+    padding: 60px 0;
+  }
+  .dept-blog-card {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 540px;
+  }
+  .dept-blog-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  }
+  .dept-blog-img {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    max-height: 220px;
+    overflow: hidden;
+  }
+  .dept-blog-img a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .dept-blog-img img {
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 220px !important;
+    object-fit: cover !important;
+    transition: transform 0.5s ease;
+  }
+  .dept-blog-card:hover .dept-blog-img img {
+    transform: scale(1.06);
+  }
+  .dept-blog-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #00a651;
+    color: #ffffff !important;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 14px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .dept-blog-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: #ffffff;
+  }
+  .dept-blog-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.45;
+    margin-bottom: 12px;
+  }
+  .dept-blog-title a {
+    color: #1e293b !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .dept-blog-title a:hover {
+    color: #00a651 !important;
+  }
+  .dept-blog-excerpt {
+    color: #64748b !important;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  }
+  .dept-blog-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #f1f5f9;
+    padding-top: 16px;
+    margin-top: auto;
+  }
+  .dept-blog-date {
+    color: #94a3b8 !important;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  .dept-blog-btn {
+    color: #00a651 !important;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .dept-blog-btn:hover {
+    color: #008f45 !important;
+    text-decoration: underline;
+  }
+</style>
 
 <?php require "common/footer.php" ?>
 </body>
