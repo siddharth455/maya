@@ -159,7 +159,7 @@
 
     <ul class="panel-list">
       <li><a href="assets/uploads/pdf/MDU_COMBINED_Brochure.pdf" download="MDU_COMBINED_Brochure.pdf">MDU Brochure</a></li>
-      <li><a href="assets/uploads/pdf/MDU_Fee_Structure.pdf" download="MDU_Fee_Structure.pdf">Fee Structure (2025-26)</a></li>
+      <li><a href="assets/uploads/pdf/MDU_Fee_Structure.pdf" download="MDU_Fee_Structure.pdf">Fee Structure (2026-27)</a></li>
       <li><a href="assets/uploads/pdf/List_of_Holidays_2025.pdf" download="List_of_Holidays_2025.pdf">List of Holidays</a></li>
       <li><a href="assets/uploads/pdf/Academic_Calender_Even_Sem_2024-25.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calendar Even Sem 2024-25</a></li>
       <li><a href="refund-policy.php">Refund Policy</a></li>
@@ -996,5 +996,7 @@
 <script src="assets/js/plugins.js" defer></script>
 <!-- Ajax Mail -->
 <script src="assets/js/ajax-mail.js" defer></script>
+<!-- UTM Tracker JS -->
+<script src="assets/js/utm-tracker.js"></script>
 <!-- Main JS -->
 <script src="assets/js/main.js" defer></script>

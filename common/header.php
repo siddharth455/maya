@@ -2,6 +2,9 @@
 <html class="no-js" lang="zxx">
 
 <head>
+<!-- UTM Parameter & Source Tracker -->
+<script src="assets/js/utm-tracker.js"></script>
+
 <title><?php echo $page_title ?? "Maya Devi University | Best Private University in Dehradun"; ?></title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -244,7 +247,7 @@ $base_url = $protocol . $host . $projectFolder;
                                                 <li><a href="campus-life.php">Campus Life</a></li>
                                                 <li><a href="scholarship.php">Scholarships</a></li>
                                                 <li><a href="assets/uploads/pdf/List_of_Holidays_2026.pdf" download="List_of_Holidays_2025.pdf">List of Holidays</a></li>
-                                                <li><a href="assets/uploads/pdf/Academic-Calender_2025-26.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calendar<br> Even Sem 2024-25</a></li>
+                                                <li><a href="assets/uploads/pdf/Academic-Calender_2026-27.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calendar<br> Even Sem 2024-25</a></li>
                                                 <li><a href="refund-policy.php">Refund Policy</a></li>
                                             </ul>
                                         </li>

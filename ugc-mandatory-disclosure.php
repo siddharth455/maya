@@ -120,7 +120,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <tr>
           <td>Ombudsperson</td>
           <td>
-          Name: Mr. Sarvesh Mittal | Email: lokpal@maya.edu.in | Profile:
+          Name: Prof. Dr. Ajeet Kumar Karnatak | Email: lokpal@mdu.edu.in | Profile:
             <a href="ombudsperson.php" target="_blank">https://maya.edu.in/Ombudsperson</a>
           </td>
         </tr>
@@ -316,7 +316,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <tr>
         <td>Details of Student Grievance Redressal Committee (SGRC) and Ombudsperson</td>
           <td>
-          <a href="" target="_blank">/about-us/offices-services/Name: Mr. Sarvesh Mittal Email: lokpal@maya.edu.in Mobile:7017145280</a>
+          <a href="" target="_blank">/about-us/offices-services/Name: Prof. Dr. Ajeet Kumar Karnatak Email: lokpal@mdu.edu.in </a>
           </td>
         </tr>
         <tr>

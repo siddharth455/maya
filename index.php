@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <!-- UTM Parameter & Source Tracker -->
+    <script src="assets/js/utm-tracker.js"></script>
+
     <link rel="icon" type="image/webp" href="assets/uploads/logo/favicon-CqYW0pAm.ico">
 
     <title>Best Private University in Dehradun | Maya Devi University</title>

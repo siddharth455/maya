@@ -1850,7 +1850,7 @@ section { position: relative; z-index: 1; }
   <div class="cta-inner">
     <div class="cta-text reveal-left">
       <h2>Ready to Shape Your Future?</h2>
-      <p>Join thousands of students who've launched transformative careers through MDU's industry-aligned Commerce &amp; Management programs. Applications are open for 2025–26.</p>
+      <p>Join thousands of students who've launched transformative careers through MDU's industry-aligned Commerce &amp; Management programs. Applications are open for 2026-27.</p>
     </div>
     <a href="https://admissions.maya.edu.in" class="btn-white reveal-right">Apply Now →</a>
   </div>

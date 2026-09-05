@@ -913,7 +913,7 @@ html { scroll-behavior: smooth; }
   <div class="shs-cta-inner">
     <div class="shs-reveal rl">
       <h2>Ready to Shape Your Future?</h2>
-      <p>Join thousands of students who've launched transformative careers through MDU's industry-aligned Health Sciences programs. Applications are open for 2025–26.</p>
+      <p>Join thousands of students who've launched transformative careers through MDU's industry-aligned Health Sciences programs. Applications are open for 2026-27.</p>
     </div>
     <a href="https://admissions.maya.edu.in" class="shs-btn-white shs-reveal rr">Apply Now →</a>
   </div>

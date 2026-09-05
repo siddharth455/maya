@@ -2421,7 +2421,7 @@ SCHEMA;
       <div class="cta-text reveal-left">
         <h2>Ready to Start Your Journey?</h2>
         <p>Join the next generation of creative thinkers and social leaders at Maya Devi University. Applications are
-          open for 2025–26.</p>
+          open for 2026–27.</p>
       </div>
       <a href="https://admissions.maya.edu.in" class="btn-white reveal-right">Apply Now →</a>
     </div>

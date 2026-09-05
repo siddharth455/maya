@@ -39,15 +39,15 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     </div>
 
     <!-- School 4 -->
-    <div class="school">
+    <!-- <div class="school">
       <h2 class="school-name">School of Paramedical</h2>
       <ul class="courses-list">
         <li><a href="dialysis-technology.php">Diploma in Dialysis</a></li>
       </ul>
-    </div>
+    </div> -->
 
     <!-- School 5 -->
-    <div class="school">
+    <!-- <div class="school">
       <h2 class="school-name">Ashtavakra School of Rehabilitation</h2>
       <ul class="courses-list">
         <li><a href="early-child-special-edu.php">Early child Special Edu. (Hearing Impairment)</a></li>
@@ -56,7 +56,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <li><a href="hearing-language-speech.php">Hearing language & Speech</a></li>
         <li><a href="indian-sign-language.php">Indian Sign Language</a></li>
       </ul>
-    </div>
+    </div> -->
 
   </div>
 </section>
