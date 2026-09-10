@@ -27,15 +27,15 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
           <td rowspan="8">1</td>
           <td rowspan="8"><strong>About HEI</strong></td>
           <td>About Us – Overview</td>
-          <td><a href="about-us.php" target="_blank">https://maya.edu.in/about-us</a></td>
+          <td><a href="about-us.php" target="_blank">https://maya.edu.in/about-us.php</a></td>
         </tr>
         <tr>
           <td>Act and Statutes or MoA</td>
-          <td><a href="act-and-statutes.php" target="_blank">https://maya.edu.in/act-and-statutes</a></td>
+          <td><a href="act-and-statutes.php" target="_blank">https://maya.edu.in/act-and-statutes.php</a></td>
         </tr>
         <tr>
           <td>Institutional Development Plan</td>
-          <td><a href="institutional-development-plan.php" target="_blank">https://maya.edu.in/institutional-development-plan</a></td>
+          <td><a href="institutional-development-plan.php" target="_blank">https://maya.edu.in/institutional-development-plan.php</a></td>
         </tr>
         <tr>
           <td>Constituent Units / Affiliated Colleges / Off-Campus / Offshore Campus</td>
@@ -47,15 +47,15 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         </tr>
         <tr>
           <td>Recognition / Approval (2(f), 12B, etc.)</td>
-          <td><a href="university-recognition.php" target="_blank">https://maya.edu.in/university-recognition</a></td>
+          <td><a href="university-recognition.php" target="_blank">https://maya.edu.in/university-recognition.php</a></td>
         </tr>
         <tr>
           <td>Annual Reports</td>
-          <td><a href="" target="_blank">https://maya.edu.in/annual-report</a></td>
+          <td><a href="" target="_blank">https://maya.edu.in/annual-report.php</a></td>
         </tr>
         <tr>
           <td>Annual Accounts including Balance Sheet, Income and Expenditure</td>
-          <td><a href="annual-balance-sheet.php" target="_blank">https://maya.edu.in/annual-balance-sheet</a></td>
+          <td><a href="annual-balance-sheet.php" target="_blank">https://maya.edu.in/annual-balance-sheet.php</a></td>
         </tr>
 
         <!-- Row 2 -->
@@ -65,21 +65,21 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
           <td>President</td>
           <td>
             Name: Mr. M. L. Juyal | Email: president@maya.edu.in | Profile:
-            <a href="president.php" target="_blank">https://maya.edu.in/president</a>
+            <a href="president.php" target="_blank">https://maya.edu.in/president.php</a>
           </td>
         </tr>
         <tr>
           <td>Vice President</td>
           <td>
             Name: Dr. Tripti Juyal Semwal | Email: vp@maya.edu.in | Profile:
-            <a href="vice-president.php" target="_blank">https://maya.edu.in/vice-president</a>
+            <a href="vice-president.php" target="_blank">https://maya.edu.in/vice-president.php</a>
           </td>
         </tr>
         <tr>
           <td>Vice-Chancellor</td>
           <td>
             Name: Prof. (Dr.) Ashish Semwal | Email: vc@maya.edu.in | Profile:
-            <a href="vice-chancelor.php" target="_blank">https://maya.edu.in/vice-chancelor</a>
+            <a href="vice-chancelor.php" target="_blank">https://maya.edu.in/vice-chancelor.php</a>
           </td>
         </tr>
         <!-- <tr>
@@ -93,77 +93,77 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
           <td>Registrar</td>
           <td>
             Name: Mrs. Ambika Juyal | Email: ro@maya.edu.in | Mobile: 9411715954 | Profile:
-            <a href="registrar.php" target="_blank">https://maya.edu.in/registrar</a>
+            <a href="registrar.php" target="_blank">https://maya.edu.in/registrar.php</a>
           </td>
         </tr>
         <tr>
           <td>Finance Officer</td>
           <td>
           Name: Mr. Gurubachan Singh Raina | Email: gsraina01@gmail.com | Profile:
-            <a href="finance.php" target="_blank">https://maya.edu.in/finance</a>
+            <a href="finance.php" target="_blank">https://maya.edu.in/finance.php</a>
           </td>
         </tr>
         <tr>
           <td>Controller of Examination</td>
           <td>
           Name: Mr. K B Pokhariyal | Email: exams@maya.edu.in | Mobile: 9411154812 | Profile:
-            <a href="coe.php" target="_blank">https://maya.edu.in/COE</a>
+            <a href="coe.php" target="_blank">https://maya.edu.in/COE.php</a>
           </td>
         </tr>
         <tr>
           <td>Chief Vigilance Officer</td>
           <td>
           Name: Mr. Vinod Kumar Thakur | Email: ao@maya.edu.in | Mobile: 8279844944 | Profile:
-            <a href="cvo.php" target="_blank">https://maya.edu.in/CVO</a>
+            <a href="cvo.php" target="_blank">https://maya.edu.in/CVO.php</a>
           </td>
         </tr>
         <tr>
           <td>Ombudsperson</td>
           <td>
           Name: Prof. Dr. Ajeet Kumar Karnatak | Email: lokpal@mdu.edu.in | Profile:
-            <a href="ombudsperson.php" target="_blank">https://maya.edu.in/Ombudsperson</a>
+            <a href="ombudsperson.php" target="_blank">https://maya.edu.in/Ombudsperson.php</a>
           </td>
         </tr>
         <tr>
           <td>Executive Council / Board of Governors</td>
           <td>
-            <a href="governance.php" target="_blank">https://maya.edu.in/governance</a>
+            <a href="governance.php" target="_blank">https://maya.edu.in/governance.php</a>
           </td>
         </tr>
         <tr>
           <td>Board of Management</td>
           <td>
-            <a href="governance.php" target="_blank">https://maya.edu.in/governance</a>
+            <a href="governance.php" target="_blank">https://maya.edu.in/governance.php</a>
           </td>
         </tr>
         <tr>
           <td>Academic Council</td>
           <td>
-            <a href="committees.php" target="_blank">https://maya.edu.in/committees</a>
+            <a href="committees.php" target="_blank">https://maya.edu.in/committees.php</a>
           </td>
         </tr>
         <tr>
           <td>Board of Studies</td>
           <td>
-            <a href="https://maya.edu.in/boards-of-studies" target="_blank">https://maya.edu.in/boards-of-studies</a>
+            <a href="https://maya.edu.in/boards-of-studies.php" target="_blank">https://maya.edu.in/boards-of-studies.php</a>
           </td>
         </tr>
         <tr>
           <td>Finance Committee – Composition and Members with Particulars</td>
           <td>
-            <a href="committees.php" target="_blank">https://maya.edu.in/committees</a>
+            <a href="committees.php" target="_blank">https://maya.edu.in/committees.php</a>
           </td>
         </tr>
         <tr>
           <td>Internal Complaint Committee</td>
           <td>
-            <a href="offices-services.php" target="_blank">https://maya.edu.ins/offices-services</a>
+            <a href="offices-services.php" target="_blank">https://maya.edu.ins/offices-services.php</a>
           </td>
         </tr>
         <tr>
           <td>Academic Leadership (Dean/HOD)</td>
           <td>
-            <a href="academic-leadership.php" target="_blank">https://maya.edu.in/academic-leadership</a>
+            <a href="academic-leadership.php" target="_blank">https://maya.edu.in/academic-leadership.php</a>
           </td>
         </tr>
         <tr>
@@ -172,19 +172,19 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
           <td rowspan="5">Details of Academic Programs</td>
           <td>
           Undergraduate:<br>
-            <a href="undergraduate-course.php" target="_blank">https://maya.edu.in/programmes/undergraduate-course</a>
+            <a href="undergraduate-course.php" target="_blank">https://maya.edu.in/programmes/undergraduate-course.php</a>
           </td>
         </tr>
         <tr>
           <td>
           Postgraduate:<br>
-          <a href="post-graduate.php" target="_blank">https://maya.edu.in/programmes/post-graduate</a>
+          <a href="post-graduate.php" target="_blank">https://maya.edu.in/programmes/post-graduate.php</a>
           </td>
         </tr>
         <tr>
           <td>
           Postgraduate Diploma:<br>
-          <a href="post-graduate.php" target="_blank">https://maya.edu.in/programmes/pg-courses</a>
+          <a href="post-graduate.php" target="_blank">https://maya.edu.in/programmes/pg-courses.php</a>
           </td>
         </tr>
         <tr>
@@ -196,7 +196,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <tr>
           <td>
           Any other:<br>
-          <a href="Diploma-course.php" target="_blank">https://maya.edu.in/programmes/Diploma-courses</a>
+          <a href="Diploma-course.php" target="_blank">https://maya.edu.in/programmes/Diploma-courses.php</a>
           </td>
         </tr>
           <tr>
@@ -208,7 +208,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <tr>
         <td>Statutes/Ordinances Pertaining to Academics/Examinations</td>
           <td>
-          <a href="examination-ordinance.php" target="_blank">https://maya.edu.in/examination-ordinance</a>
+          <a href="examination-ordinance.php" target="_blank">https://maya.edu.in/examination-ordinance.php</a>
           </td>
         </tr>
         <tr>
@@ -220,7 +220,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <tr>
         <td>Department/School/Centre Wise Faculty/Staff Details with Photographs</td>
           <td>
-          <a href="staff-details-with-photograph.php" target="_blank">https://maya.edu.in/staff-details-with-photograph</a>
+          <a href="staff-details-with-photograph.php" target="_blank">https://maya.edu.in/staff-details-with-photograph.php</a>
           </td>
         </tr>
         <tr>
@@ -232,19 +232,19 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <tr>
         <td>Internal Quality Assurance Cell (IQAC)</td>
           <td>
-          <a href="iqac.php" target="_blank">https://maya.edu.in/iqac</a>
+          <a href="iqac.php" target="_blank">https://maya.edu.in/iqac.php</a>
           </td>
         </tr>
         <tr>
         <td>Library</td>
           <td>
-          <a href="library.php" target="_blank">https://maya.edu.in/library</a>
+          <a href="library.php" target="_blank">https://maya.edu.in/library.php</a>
           </td>
         </tr>
         <tr>
         <td>Academic Collaborations</td>
           <td>
-          <a href="academic-collaboration.php" target="_blank">https://maya.edu.in/academic-collaboration</a>
+          <a href="academic-collaboration.php" target="_blank">https://maya.edu.in/academic-collaboration.php</a>
           </td>
         </tr>
         <tr>
@@ -272,19 +272,19 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
           <td rowspan="3"><strong>Research</strong></td>
           <td>Research and Development Cell (including research and consultancy projects, foreign collaboration, industry collaborations)</td>
           <td>
-            <a href="research.php" target="_blank">https://maya.edu.in/research</a>
+            <a href="research.php" target="_blank">https://maya.edu.in/research.php</a>
           </td>
         </tr>
         <tr>
         <td>Incubation Centre / Start-Ups / Entrepreneurship Cell</td>
           <td>
-          <a href="research.php" target="_blank">https://maya.edu.in/research</a>
+          <a href="research.php" target="_blank">https://maya.edu.in/research.php</a>
           </td>
         </tr>
         <tr>
         <td>Central Facilities</td>
           <td>
-          <a href="campus-life.php" target="_blank">https://maya.edu.in/admission/infrastructure</a>
+          <a href="campus-life.php" target="_blank">https://maya.edu.in/campus-life.php</a>
           </td>
         </tr>
         <tr>
@@ -292,25 +292,25 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
           <td rowspan="11"><strong>Student Life</strong></td>
           <td>Sports Facilities</td>
           <td>
-            <a href="campus-life.php" target="_blank">https://maya.edu.in/admission/infrastructure</a>
+            <a href="campus-life.php" target="_blank">https://maya.edu.in/campus-life.php</a>
           </td>
         </tr>
         <tr>
         <td>NCC/NSS - Details</td>
           <td>
-          <a href="campus-life.php" target="_blank">https://maya.edu.in/admission/infrastructure</a>
+          <a href="campus-life.php" target="_blank">https://maya.edu.in/campus-life.php</a>
           </td>
         </tr>
         <tr>
         <td>Hostel Details (Wherever Applicable)</td>
           <td>
-          <a href="campus-life.php" target="_blank">https://maya.edu.in/admission/infrastructure</a>
+          <a href="campus-life.php" target="_blank">https://maya.edu.in/campus-life.php</a>
           </td>
         </tr>
         <tr>
         <td>Placement Cell and its Activities</td>
           <td>
-          <a href="placement-overview.php" target="_blank">https://maya.edu.in/placements</a>
+          <a href="placement-overview.php" target="_blank">https://maya.edu.in/placement-overview.php</a>
           </td>
         </tr>
         <tr>
@@ -329,30 +329,30 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <tr>
         <td>Internal Complaint Committee</td>
           <td>
-          <a href="offices-services.php" target="_blank">https://maya.edu.in/offices-services
+          <a href="offices-services.php" target="_blank">https://maya.edu.in/offices-services.php
         </tr>
         <tr>
         <td>Anti-Ragging Cell</td>
           <td>
-          <a href="offices-services.php" target="_blank">https://maya.edu.in/offices-services</a>
+          <a href="offices-services.php" target="_blank">https://maya.edu.in/offices-services.php</a>
           </td>
         </tr>
         <tr>
         <td>Equal Opportunity Cell</td>
           <td>
-          <a href="offices-services.php" target="_blank">https://maya.edu.in/offices-services</a>
+          <a href="offices-services.php" target="_blank">https://maya.edu.in/offices-services.php</a>
           </td>
         </tr>
         <tr>
         <td>Socio-Economically Disadvantaged Groups Cell (SEDG)</td>
           <td>
-          <a href="offices-services.php" target="_blank">https://maya.edu.in/offices-services</a>
+          <a href="offices-services.php" target="_blank">https://maya.edu.in/offices-services.php</a>
           </td>
         </tr>
         <tr>
         <td>Facilities for Differently Abled (e.g., Barrier-Free Environment)</td>
           <td>
-          <a href="campus-life.php" target="_blank">https://maya.edu.in/admission/infrastructure</a>
+          <a href="campus-life.php" target="_blank">https://maya.edu.in/campus-life.php</a>
           </td>
         </tr>
         <tr>
@@ -374,13 +374,13 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <tr>
           <td>Circulars and Notices</td>
           <td>
-          <a href="career.php" target="_blank">https://maya.edu.in/career</a>
+          <a href="career.php" target="_blank">https://maya.edu.in/career.php</a>
           </td>
         </tr>
         <tr>
           <td>Announcements</td>
           <td>
-          <a href="career.php" target="_blank">https://maya.edu.in/career</a>
+          <a href="career.php" target="_blank">https://maya.edu.in/career.php</a>
           </td>
         </tr>
         <tr>
@@ -392,19 +392,19 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <tr>
           <td>News, Recent Events & Achievements</td>
           <td>
-          <a href="" target="_blank">https://maya.edu.in/maya-inmedia</a>
+          <a href="" target="_blank">https://maya.edu.in/maya-inmedia.php</a>
           </td>
         </tr>
         <tr>
           <td>Job Openings</td>
           <td>
-          <a href="placement-overview.php" target="_blank">https://maya.edu.in/placements</a>
+          <a href="placement-overview.php" target="_blank">https://maya.edu.in/placement-overview.php</a>
           </td>
         </tr>
         <tr>
           <td>Reservation Roster (wherever applicable)</td>
           <td>
-          <a href="career.php" target="_blank">https://maya.edu.in/career</a>
+          <a href="career.php" target="_blank">https://maya.edu.in/career.php</a>
           </td>
         </tr>
         <tr>
@@ -432,13 +432,13 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
           <td rowspan="2"><strong>Contact Us</strong></td>
           <td>Details with phone number, official email ID and address, location map</td>
           <td>
-          <a href="contact.php" target="_blank">https://maya.edu.in/contact</a>
+          <a href="contact.php" target="_blank">https://maya.edu.in/contact.php</a>
           </td>
         </tr>
         <tr>
           <td>Telephone Directory</td>
           <td>
-          <a href="contact.php" target="_blank">https://maya.edu.in/contact</a>
+          <a href="contact.php" target="_blank">https://maya.edu.in/contact.php</a>
           </td>
         </tr>
       </tbody>
