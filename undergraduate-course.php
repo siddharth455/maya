@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <section class="ug-courses-section">
   <div class="container">
   <div class="section-title  pb-20">
-    <h2>Undergraduate <span>Course</h2>
+    <h2>Undergraduate <span>Courses</span></h2>
     </div>
 
     <!-- School 1 -->
@@ -56,6 +56,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <ul class="courses-list">
         <li><a href="best-b-pharma-colleges-in-dehradun-uttarakhand.php">B.Pharm - Pharmacy</a></li>
         <li><a href="bachelor-pharmacy-lateral-entry.php">B.Pharm - Pharmacy (Lateral Entry)</a></li>
+        <li><a href="doctor-pharmacy.php">Pharm.D - Doctor of Pharmacy</a></li>
       </ul>
     </div>
 
@@ -69,6 +70,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <li><a href="bachelor-of-business-administration.php">BBA - Business Administration (Digital Marketing)</a></li>
         <li><a href="bachelor-of-business-administration.php">BBA - Business Administration (Aviation Management)</a></li>
         <li><a href="bachelor-of-business-administration.php">BBA - Business Administration (Retail Management)</a></li>
+        <li><a href="bba-hospitality-management.php">BBA - Hospitality Management</a></li>
         <li><a href="bachelor-of-commerce.php">B.com (Hons) - Finance</a></li>
         <li><a href="bachelor-of-commerce.php">B.com (Hons) - Accounting</a></li>
         <li><a href="bachelor-of-commerce.php">B.com (Hons) - Taxation</a></li>
@@ -83,6 +85,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <li><a href="bhm-lateral-entry-colleges-in-dehradun-uttarakhand.php">BHM - Hotel Management (LE)</a></li>
         <li><a href="bhmct-colleges-in-dehradun-uttarakhand.php">BHM - Hotel Management & Catering Technology (BHMCT)</a></li>
         <li><a href="bhmct-lateral-entry-colleges-in-dehradun-uttarakhand.php">BHM - Hotel Management & Catering Technology (LE)</a></li>
+        <li><a href="bba-hospitality-management.php">BBA - Hospitality Management</a></li>
       </ul>
     </div>
 
@@ -90,15 +93,17 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Life and Applied Sciences</h2>
       <ul class="courses-list">
-      <li><a href="bsc-environmental-science-hons.php">B.Sc - Environmental Science (Hons.)</a></li>
-      <li><a href="bsc-physics-hons.php">B.Sc - Physics (Hons.)</a></li>
-      <li><a href="bsc-botany-hons.php">B.Sc - Botany (Hons.)</a></li>
-      <li><a href="bsc-zoology-hons.php">B.Sc - Zoology (Hons.)</a></li>
-      <li><a href="bsc-chemistry-hons.php">B.Sc - Chemistry (Hons.)</a></li>
-      <li><a href="bsc-mathematics-hons.php">B.Sc - Mathematics (Hons.)</a></li>
-      <li><a href="bsc-forensic-hons.php">B.Sc - Forensic Science (Hons.)</a></li>
+        <li><a href="bsc-environmental-science-hons.php">B.Sc - Environmental Science (Hons.)</a></li>
+        <li><a href="bsc-physics-hons.php">B.Sc - Physics (Hons.)</a></li>
+        <li><a href="bsc-botany-hons.php">B.Sc - Botany (Hons.)</a></li>
+        <li><a href="bsc-zoology-hons.php">B.Sc - Zoology (Hons.)</a></li>
+        <li><a href="bsc-chemistry-hons.php">B.Sc - Chemistry (Hons.)</a></li>
+        <li><a href="bsc-mathematics-hons.php">B.Sc - Mathematics (Hons.)</a></li>
+        <li><a href="bsc-forensic-hons.php">B.Sc - Forensic Science (Hons.)</a></li>
         <li><a href="bsc-biotechnology-hons.php">B.Sc - Biotechnology (Hons.)</a></li>
         <li><a href="bsc-microbiology-hons.php">B.Sc - Microbiology (Hons.)</a></li>
+        <li><a href="bsc-pcm.php">B.Sc - PCM (Physics, Chemistry, Mathematics)</a></li>
+        <li><a href="bsc-cbz.php">B.Sc - CBZ (Chemistry, Botany, Zoology)</a></li>
       </ul>
     </div>
 
@@ -115,7 +120,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <h2 class="school-name">School of Agriculture & Technology</h2>
       <ul class="courses-list">
         <li><a href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php">B.Sc - Agriculture (Hons.)</a></li>
-        <li><a href="food-technology.php">B.Tech - Food Technology</a></li>
+        <li><a href="bsc-horticulture-colleges-in-dehradun-uttarakhand.php">B.Sc - Horticulture (Hons.)</a></li>
+        <li><a href="b-tech-food-technology.php">B.Tech - Food Technology</a></li>
         <li><a href="food-technology.php">B.Tech - Food Technology (Hons.)</a></li>
       </ul>
     </div>
@@ -141,10 +147,14 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Paramedical Sciences</h2>
       <ul class="courses-list">
-        <li><a href="bmlt.php">Bachelor of Medical Laboratory Technology</a></li>
-        <li><a href="bmrit.php">Bachelor of Radiology & Imaging Technology</a></li>
-        <li><a href="bpt.php">Bachelor of Physiotherapy</a></li>
-        <li><a href="bott.php">Bachelor of Operation Theatre Technology</a></li>
+        <li><a href="bpt.php">Bachelor of Physiotherapy (BPT)</a></li>
+        <li><a href="bmlt.php">Bachelor of Medical Laboratory Technology (BMLT)</a></li>
+        <li><a href="bmrit.php">Bachelor of Radiology & Imaging Technology (BMRIT)</a></li>
+        <li><a href="bott.php">Bachelor of Operation Theatre Technology (BOTT)</a></li>
+        <li><a href="b.sc-dialysis-technology.php">B.Sc - Dialysis Technology</a></li>
+        <li><a href="anaesthesia-technology.php">B.Sc - Anaesthesia Technology</a></li>
+        <li><a href="cardiac-care-technology.php">B.Sc - Cardiac Care Technology</a></li>
+        <li><a href="Bachelor-of-Physical-Education-and-Sports.php">Bachelor of Physical Education and Sports (BPES)</a></li>
       </ul>
     </div>
 

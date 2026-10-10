@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <section class="ug-courses-section">
   <div class="container">
   <div class="section-title  pb-20">
-    <h2>Diploma <span>Course</h2>
+    <h2>Diploma <span>Courses</span></h2>
     </div>
 
    
@@ -24,8 +24,10 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Hotel Management and Tourism</h2>
       <ul class="courses-list">
-      <li><a href="diploma-in-food-production.php">DFP - Diploma in Food Production</a></li>
-      <li><a href="diploma-in-confectionary.php">DFP - Diploma in Bakery & Confectionary</a></li>
+        <li><a href="diploma-in-hotel-management.php">DHM - Diploma in Hotel Management</a></li>
+        <li><a href="diploma-in-food-production.php">DFP - Diploma in Food Production</a></li>
+        <li><a href="diploma-in-confectionary.php">Diploma in Bakery & Confectionery</a></li>
+        <li><a href="certification-in-hotel-management.php">CHM - Certification in Hotel Management</a></li>
       </ul>
     </div>
 
@@ -34,29 +36,30 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <h2 class="school-name">School of Nursing</h2>
       <ul class="courses-list">
         <li><a href="gnm.php">GNM - General Nursing & Midwifery</a></li>
-        <!-- <li><a href="nursing-assistant.php">Nursing Assistant</a></li> -->
+        <li><a href="nursing-assistant.php">Nursing Assistant</a></li>
       </ul>
     </div>
 
     <!-- School 4 -->
-    <!-- <div class="school">
-      <h2 class="school-name">School of Paramedical</h2>
+    <div class="school">
+      <h2 class="school-name">School of Paramedical Sciences</h2>
       <ul class="courses-list">
-        <li><a href="dialysis-technology.php">Diploma in Dialysis</a></li>
+        <li><a href="dialysis-technology.php">Diploma in Dialysis Technology</a></li>
       </ul>
-    </div> -->
+    </div>
 
     <!-- School 5 -->
-    <!-- <div class="school">
+    <div class="school">
       <h2 class="school-name">Ashtavakra School of Rehabilitation</h2>
       <ul class="courses-list">
-        <li><a href="early-child-special-edu.php">Early child Special Edu. (Hearing Impairment)</a></li>
+        <li><a href="early-child-special-edu.php">Early Childhood Special Education (Hearing Impairment)</a></li>
         <li><a href="early-rehabilitation-therapy.php">Early Rehabilitation Therapy (Mental Retardation)</a></li>
-        <li><a href="prosthetics-orthotics.php">Prosthetics & Orthotics</a></li>
-        <li><a href="hearing-language-speech.php">Hearing language & Speech</a></li>
-        <li><a href="indian-sign-language.php">Indian Sign Language</a></li>
+        <li><a href="prosthetics-orthotics.php">Diploma in Prosthetics & Orthotics</a></li>
+        <li><a href="hearing-language-speech.php">Diploma in Hearing Language & Speech (DHLS)</a></li>
+        <li><a href="indian-sign-language.php">Diploma in Indian Sign Language (DISLI)</a></li>
+        <li><a href="care-giving.php">Certificate Course in Care Giving</a></li>
       </ul>
-    </div> -->
+    </div>
 
   </div>
 </section>

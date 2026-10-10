@@ -846,7 +846,7 @@ SCHEMA;
   <div class="hero-content">
     <div class="hero-badge"><span></span> Dehradun's Premier Tech University</div>
     <h1>Engineering that<br>feels <em>ready</em> for<br>the <span>next decade.</span></h1>
-    <p class="hero-sub">The School of Computer Applications at Maya Devi University blends academic excellence with ethical responsibility—preparing globally ready digital leaders.</p>
+    <p class="hero-sub">The School of Computer Engineering  & Applications at Maya Devi University blends academic excellence with ethical responsibility—preparing globally ready digital leaders.</p>
     <div class="hero-cta-group">
       <a href="https://admissions.maya.edu.in" class="btn-primary">Apply Now →</a>
       <a href="#courses" class="btn-outline">Explore Programs</a>
@@ -861,7 +861,7 @@ SCHEMA;
       <div class="about-text reveal-left">
         <div class="section-label">School Overview</div>
         <h2 class="section-maya">Where Innovation<br>Meets <em>Purpose</em></h2>
-        <p>The School of Computer Applications at Maya Devi University is dedicated to shaping the future of technology by blending academic excellence with ethical responsibility. Anchored in a vision to be a leading center of innovation and knowledge.</p>
+        <p>The School of Computer Engineering  & Applications at Maya Devi University is dedicated to shaping the future of technology by blending academic excellence with ethical responsibility. Anchored in a vision to be a leading center of innovation and knowledge.</p>
         <p>Our programs foster a dynamic learning environment promoting innovation, critical thinking, and lifelong learning. We seamlessly integrate emerging technologies with core human values.</p>
         <p>Through global perspectives, hands-on experiences, and a focus on sustainability and inclusivity, the School prepares students to address real-world challenges.</p>
         <br>
@@ -1179,7 +1179,7 @@ SCHEMA;
           <h2 class="section-maya">Why <em>Choose</em><br>Us?</h2>
 
           <p style="color:var(--text-muted);line-height:1.8;margin-bottom:40px;font-size:1rem;">
-            At the School of Computer Applications, Maya Devi University, we empower future IT professionals through industry-oriented education, practical learning, and emerging technologies. Our programs combine academic excellence with hands-on experience in software development, artificial intelligence, cloud computing, cybersecurity, and data science, preparing students for successful careers in the rapidly evolving digital world.
+            At the School of Computer Engineering  & Applications, Maya Devi University, we empower future IT professionals through industry-oriented education, practical learning, and emerging technologies. Our programs combine academic excellence with hands-on experience in software development, artificial intelligence, cloud computing, cybersecurity, and data science, preparing students for successful careers in the rapidly evolving digital world.
           </p>
         </div>
 
@@ -1214,7 +1214,7 @@ SCHEMA;
 
       <div class="why-visual reveal-right">
         <div class="why-img-wrap">
-          <img src="assets/uploads/computer.jpg" alt="School of Computer Applications" onerror="this.style.background='linear-gradient(135deg,#0d1f4a,#0a1628)';this.style.height='400px';this.src=''">
+          <img src="assets/uploads/computer.jpg" alt="School of Computer Engineering  & Applications" onerror="this.style.background='linear-gradient(135deg,#0d1f4a,#0a1628)';this.style.height='400px';this.src=''">
         </div>
 
         <div class="why-float-card">

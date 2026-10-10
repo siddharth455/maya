@@ -187,6 +187,11 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <!-- Google reCAPTCHA -->
 <div class="g-recaptcha mt-2" data-sitekey="6LdCDZIsAAAAAPWaiOOjGFhF3DOJ9Pqv7vneg5kS"></div>
+        <label class="consent-box">
+          <input type="checkbox" name="privacy_consent" value="yes" required>
+          <span>I have read and agree to the <a href="#career-privacy">Privacy Policy for Job Applicants</a> and consent to Maya Devi University processing my personal data for recruitment purposes. *</span>
+        </label>
+
         <div class="submit-box">
           <button type="submit">Submit Application</button>
         </div>
@@ -196,6 +201,126 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     </div>
   </div>
 </section>
+
+<!-- PRIVACY POLICY FOR JOB APPLICANTS -->
+<section class="career-privacy" id="career-privacy">
+  <div class="privacy-inner">
+    <h2>Privacy Policy for Job Applicants</h2>
+    <p class="privacy-lead">
+      Maya Devi University, Dehradun ("the University", "we", "us") respects your privacy.
+      This policy explains how we collect, use, store and protect the personal information
+      you share with us when you apply for a position through this page. It is in addition
+      to our general <a href="privacy-policy.php">Privacy Policy</a>.
+    </p>
+
+    <div class="privacy-grid">
+      <div class="privacy-item">
+        <h3>1. Information We Collect</h3>
+        <ul>
+          <li>Identity &amp; contact details: name, email address and phone number.</li>
+          <li>Professional details: position and department applied for, specialization, qualification, current designation, organization, total experience and notice period.</li>
+          <li>Compensation details: current and expected salary.</li>
+          <li>Your resume/CV and any information contained in it.</li>
+          <li>Technical data such as your IP address, used only to verify the form and prevent spam.</li>
+        </ul>
+      </div>
+
+      <div class="privacy-item">
+        <h3>2. Why We Use Your Information</h3>
+        <ul>
+          <li>To review and shortlist your application for current or suitable future openings.</li>
+          <li>To contact you about interviews, assessments and the status of your application.</li>
+          <li>To verify your qualifications, experience and references, where required.</li>
+          <li>To meet legal, regulatory and statutory obligations applicable to the University.</li>
+          <li>To protect this form from spam and automated misuse.</li>
+        </ul>
+      </div>
+
+      <div class="privacy-item">
+        <h3>3. Legal Basis &amp; Consent</h3>
+        <p>
+          We process your personal data on the basis of the consent you give when submitting
+          this form, in line with the Digital Personal Data Protection Act, 2023 and other
+          applicable Indian laws. You may withdraw your consent at any time by writing to us;
+          withdrawal will not affect processing already carried out, but we may no longer be
+          able to consider your application.
+        </p>
+      </div>
+
+      <div class="privacy-item">
+        <h3>4. Sharing of Information</h3>
+        <p>
+          We do <strong>not</strong> sell, rent or trade your personal information. Your data is
+          accessed only by authorized members of our HR team, selection committees and the
+          relevant departments involved in recruitment. We use trusted service providers to
+          operate this form &mdash; including Google (reCAPTCHA for spam protection and Google
+          Workspace services for securely receiving and storing applications). We may also
+          disclose information where required by law or by a competent authority.
+        </p>
+      </div>
+
+      <div class="privacy-item">
+        <h3>5. Data Retention</h3>
+        <p>
+          We keep your application only for as long as needed for the recruitment process and
+          to consider you for future suitable openings, unless you ask us to delete it sooner.
+          If you join the University, your information becomes part of your employee record
+          and is handled under our internal employment policies. Unsuccessful applications are
+          securely deleted once they are no longer required.
+        </p>
+      </div>
+
+      <div class="privacy-item">
+        <h3>6. Data Security</h3>
+        <p>
+          We use reasonable technical and organizational safeguards, including secure (HTTPS)
+          transmission and restricted access, to protect your information against unauthorized
+          access, loss, misuse or alteration. However, no method of transmission over the
+          internet is completely secure, and we cannot guarantee absolute security.
+        </p>
+      </div>
+
+      <div class="privacy-item">
+        <h3>7. Your Rights</h3>
+        <ul>
+          <li>Access a summary of the personal data we hold about you.</li>
+          <li>Ask us to correct, complete or update inaccurate information.</li>
+          <li>Ask us to erase your data or withdraw your consent.</li>
+          <li>Raise a grievance about how your data has been handled.</li>
+          <li>Nominate another person to exercise these rights on your behalf, as permitted by law.</li>
+        </ul>
+      </div>
+
+      <div class="privacy-item">
+        <h3>8. Your Responsibilities</h3>
+        <p>
+          Please make sure the information you submit is accurate and complete. Do not include
+          sensitive details that are not needed for recruitment (such as bank details, Aadhaar
+          number, religion or health information) in your resume. If you share details of
+          referees, please ensure they have agreed to be contacted.
+        </p>
+      </div>
+    </div>
+
+    <div class="privacy-contact">
+      <h3>Contact &amp; Grievance Redressal</h3>
+      <p>
+        For any questions, requests to access, correct or delete your data, or to withdraw your
+        consent, please contact us:
+      </p>
+      <p>
+        <strong>Maya Devi University</strong><br>
+        Selaqui, Pharma City, Dehradun, Uttarakhand &ndash; 248011<br>
+        Email: <a href="mailto:info@maya.edu.in">info@maya.edu.in</a> (Subject: "Career Data Request")
+      </p>
+      <p class="privacy-note">
+        We will respond to your request within a reasonable time as required by applicable law.
+        We may update this policy from time to time; the latest version will always be available on this page.
+      </p>
+    </div>
+  </div>
+</section>
+
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <?php require "common/footer.php" ?>
 
@@ -342,8 +467,115 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
   box-shadow: 0 10px 20px rgba(37,99,235,0.3);
 }
 
+/* Consent checkbox */
+.consent-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #4b5563;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.consent-box input {
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.consent-box a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* PRIVACY POLICY */
+.career-privacy {
+  padding: 70px 20px 80px;
+  background: #fff;
+  scroll-margin-top: 90px;
+}
+
+.privacy-inner {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.career-privacy h2 {
+  font-size: 32px;
+  color: #111827;
+  margin-bottom: 14px;
+}
+
+.privacy-lead {
+  font-size: 16px;
+  color: #4b5563;
+  line-height: 1.7;
+  max-width: 900px;
+  margin-bottom: 35px;
+}
+
+.career-privacy a {
+  color: #2563eb;
+}
+
+.privacy-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 22px;
+}
+
+.privacy-item {
+  background: #f7fbff;
+  border: 1px solid #e5edf7;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.privacy-item h3,
+.privacy-contact h3 {
+  font-size: 18px;
+  color: #1e40af;
+  margin-bottom: 12px;
+}
+
+.privacy-item p,
+.privacy-item li {
+  font-size: 14.5px;
+  color: #4b5563;
+  line-height: 1.7;
+}
+
+.privacy-item ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.privacy-contact {
+  margin-top: 30px;
+  padding: 26px;
+  border-radius: 14px;
+  background: linear-gradient(120deg,#eef3f9,#f7fbff);
+  border-left: 4px solid #2563eb;
+}
+
+.privacy-contact p {
+  color: #374151;
+  line-height: 1.7;
+  font-size: 14.5px;
+}
+
+.privacy-note {
+  font-size: 13px !important;
+  color: #6b7280 !important;
+  margin-bottom: 0;
+}
+
 /* Responsive */
 @media(max-width:1000px){
+  .privacy-grid {
+    grid-template-columns: 1fr;
+  }
   .career-layout {
     flex-direction: column;
   }

@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <section class="ug-courses-section">
   <div class="container">
   <div class="section-title  pb-20">
-    <h2>Postgraduate <span>Course</h2>
+    <h2>Postgraduate <span>Courses</span></h2>
     </div>
 
     <!-- School 1 -->
@@ -46,29 +46,46 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
     <!-- School 4 -->
     <div class="school">
-      <h2 class="school-name">School of Hotel Management and Tourism</h2>
+      <h2 class="school-name">School of Management and Commerce</h2>
       <ul class="courses-list">
-      <li><a href="master-of-hotel-management.php">MHM - Master of Hotel Management</a></li>
+        <li><a href="best-master-of-commerce-college-in-dehradun.php">M.Com - Master of Commerce</a></li>
+        <li><a href="best-masters-of-business-administration-marketing-management-college-in-dehradun.php">MBA - Marketing Management</a></li>
+        <li><a href="best-masters-of-business-administration-human-resource-college-in-dehradun.php">MBA - Human Resource Management (HR)</a></li>
+        <li><a href="best-masters-of-business-administration-fintech-college-in-dehradun.php">MBA - FinTech</a></li>
+        <li><a href="best-masters-of-business-administration-digital-marketing-college-in-dehradun.php">MBA - Digital Marketing</a></li>
+        <li><a href="best-masters-of-business-administration-agri-business-management-college-in-dehradun.php">MBA - Agri Business Management</a></li>
+        <li><a href="best-masters-of-business-administration-logistic-management-college-in-dehradun.php">MBA - Logistics & Supply Chain Management</a></li>
+        <li><a href="best-masters-of-business-administration-pharmaceutical-management-college-in-dehradun.php">MBA - Pharmaceutical Management</a></li>
+        <li><a href="best-masters-of-business-administration-travel-and-tourism-college-in-dehradun.php">MBA - Travel & Tourism Management</a></li>
       </ul>
     </div>
 
     <!-- School 5 -->
     <div class="school">
+      <h2 class="school-name">School of Hotel Management and Tourism</h2>
+      <ul class="courses-list">
+        <li><a href="master-of-hotel-management.php">MHM - Master of Hotel Management</a></li>
+        <li><a href="master-of-hotel-management-and-tourism.php">Master of Hotel Management and Tourism</a></li>
+      </ul>
+    </div>
+
+    <!-- School 6 -->
+    <div class="school">
       <h2 class="school-name">School of Life and Applied Sciences</h2>
       <ul class="courses-list">
-      <li><a href="msc-environmental-science.php">M.Sc - Environmental Science</a></li>
-      <li><a href="msc-physics.php">M.Sc - Physics</a></li>
-      <li><a href="msc-botany.php">M.Sc - Botany</a></li>
-      <li><a href="msc-zoology.php">M.Sc - Zoology</a></li>
-      <li><a href="msc-chemistry.php">M.Sc - Chemistry</a></li>
-      <li><a href="msc-mathematics.php">M.Sc - Mathematics</a></li>
-      <li><a href="msc-forensic-science.php">M.Sc - Forensic Science</a></li>
+        <li><a href="msc-environmental-science.php">M.Sc - Environmental Science</a></li>
+        <li><a href="msc-physics.php">M.Sc - Physics</a></li>
+        <li><a href="msc-botany.php">M.Sc - Botany</a></li>
+        <li><a href="msc-zoology.php">M.Sc - Zoology</a></li>
+        <li><a href="msc-chemistry.php">M.Sc - Chemistry</a></li>
+        <li><a href="msc-mathematics.php">M.Sc - Mathematics</a></li>
+        <li><a href="msc-forensic-science.php">M.Sc - Forensic Science</a></li>
         <li><a href="msc-biotechnology.php">M.Sc - Biotechnology</a></li>
         <li><a href="msc-microbiology.php">M.Sc - Microbiology</a></li>
       </ul>
     </div>
 
-    <!-- School 6 -->
+    <!-- School 7 -->
     <div class="school">
       <h2 class="school-name">School of Agriculture & Technology</h2>
       <ul class="courses-list">
@@ -79,7 +96,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       </ul>
     </div>
 
-    <!-- School 7 -->
+    <!-- School 8 -->
     <div class="school">
       <h2 class="school-name">School of Health Sciences</h2>
       <ul class="courses-list">
@@ -88,29 +105,26 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       </ul>
     </div>
 
-    <!-- School 8 -->
+    <!-- School 9 -->
     <div class="school">
       <h2 class="school-name">School of Arts and Humanities</h2>
       <ul class="courses-list">
-        <!-- <li><a href="">MA - English Literature</a></li>
-        <li><a href="#">MA - History</a></li> -->
+        <li><a href="ma-english.php">MA - English Literature</a></li>
+        <li><a href="ma-hindi-literature.php">MA - Hindi Literature</a></li>
         <li><a href="ma-psychology.php">MA - Psychology</a></li>
         <li><a href="ma-clinical-psychology.php">MA - Clinical Psychology</a></li>
-        <li><a href="ma-hindi-literature.php">MA - Hindi Literature</a></li>
         <li><a href="ma-sociology.php">MA - Sociology</a></li>
         <li><a href="ma-political-science.php">MA - Political Science</a></li>
-        <!-- <li><a href="#">MA - Economics</a></li> -->
+        <li><a href="ma-economics.php">MA - Economics</a></li>
         <li><a href="ma-yoga.php">MA - Yoga</a></li>
-        <!-- <li><a href="#">MA - Geography</a></li>
-        <li><a href="#">MA - Fine & Arts</a></li>
-        <li><a href="#">MA - Mathematics</a></li>
-        <li><a href="#">MA - Environmental Science</a></li>
-        <li><a href="#">MSW - Master of Social Work</a></li>
-        <li><a href="#">MA - Journalism & Mass Communication</a></li> -->
+        <li><a href="ma-fine-arts.php">MA - Fine & Arts</a></li>
+        <li><a href="ma-maths.php">MA - Mathematics</a></li>
+        <li><a href="ma-evs.php">MA - Environmental Science</a></li>
+        <li><a href="ma-journalism-and-mass-communication.php">MA - Journalism & Mass Communication</a></li>
       </ul>
     </div>
 
-    <!-- School 9 -->
+    <!-- School 10 -->
     <div class="school">
       <h2 class="school-name">School of Law & Legal Studies</h2>
       <ul class="courses-list">
