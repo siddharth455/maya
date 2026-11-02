@@ -1,0 +1,426 @@
+/* ==========================================================================
+   Maya Devi University — homepage edition 3  ·  index-3.php
+   Bright, classic university look (DIS Riverside / DBUU / CU):
+   white and light-grey sections, navy + MDU green, Manrope with a
+   Playfair Display italic accent word in headings. Gentle fade-ins only.
+   Namespaced .i3-
+   ========================================================================== */
+
+.i3 {
+  --g: #00a651;
+  --g-d: #008a43;
+  --g-soft: #e7f6ee;
+  --navy: #203058;
+  --navy-d: #18244a;
+  --ink: #1d2433;
+  --text: #4b5466;
+  --line: #e3e7ee;
+  --grey: #f4f6f9;
+  --sans: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --serif: 'Playfair Display', Georgia, serif;
+  --top: 0px;
+  --r: 12px;
+  --shadow: 0 10px 30px -12px rgba(20, 32, 64, .18);
+
+  font-family: var(--sans);
+  color: var(--text);
+  background: #fff;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+/* ---- neutralise site-wide leaks from style.css ---- */
+.i3 :where(p) { font-size: inherit; color: inherit; margin: 0; line-height: inherit; }
+.i3 :where(h1, h2, h3, h4) { margin: 0; color: inherit; font-weight: inherit; line-height: inherit; font-family: inherit; }
+.i3 :where(a) { color: inherit; text-decoration: none; }
+.i3 :where(a:hover) { color: inherit; }
+.i3 :where(a, button, img, span, input) { transition: none; }
+.i3 :where(ul, ol) { list-style: none; margin: 0; padding: 0; }
+.i3 :where(figure, blockquote) { margin: 0; }
+.i3 :where(button) { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+.i3 :where(img) { max-width: 100%; height: auto; display: block; }
+.i3 :where(a, button, summary, input, [tabindex]):focus-visible { outline: 3px solid var(--g) !important; outline-offset: 2px; }
+.i3 *, .i3 *::before, .i3 *::after { box-sizing: border-box; }
+.i3-sr { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.i3-i { width: 1.1em; height: 1.1em; flex: none; }
+
+.i3-wrap { width: min(1240px, 100% - 40px); margin-inline: auto; }
+.i3-sec { padding: clamp(40px, 4.4vw, 60px) 0; }
+.i3-sec--grey { background: var(--grey); }
+.i3-center { text-align: center; margin-top: 26px; }
+
+/* ---------------- headings (DIS style) ---------------- */
+.i3-title { text-align: center; max-width: 760px; margin: 0 auto 30px; }
+.i3-title h2 { font-size: clamp(1.6rem, 2.7vw, 2.35rem); font-weight: 800; line-height: 1.2; text-transform: uppercase; letter-spacing: .01em; color: var(--navy); }
+.i3-title h2 em, .i3-welcome h2 em, .i3-sub em, .i3-call h2 em { font-family: var(--serif); font-style: italic; font-weight: 500; text-transform: none; color: var(--g); letter-spacing: 0; font-size: 1.12em; }
+.i3-title p { margin-top: 12px; font-size: 16px; color: var(--text); }
+.i3-title small { display: block; font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 4px; }
+.i3-title--left { text-align: left; margin: 0 0 28px; }
+.i3-title--light h2 { color: #fff; }
+.i3-title--light h2 em { color: #6fdc9f; }
+.i3-title--light p { color: rgba(255, 255, 255, .8); }
+.i3-sub { text-align: center; font-size: clamp(1.25rem, 2vw, 1.6rem); font-weight: 800; text-transform: uppercase; color: var(--navy); margin: 44px 0 22px; }
+.i3-rowhead { display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; margin-bottom: 26px; }
+.i3-rowhead .i3-title { text-align: left; margin: 0; }
+
+/* ---------------- buttons ---------------- */
+.i3-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 14px 28px; border-radius: 6px; background: var(--g); color: #fff; font-size: 13.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; border: 1.5px solid var(--g); transition: background .25s, color .25s, border-color .25s; }
+.i3-btn:hover { background: var(--navy); border-color: var(--navy); color: #fff; }
+.i3-btn--line { background: transparent; color: var(--navy); border-color: var(--navy); }
+.i3-btn--line:hover { background: var(--navy); color: #fff; }
+.i3-btn--line-light { background: transparent; color: #fff; border-color: rgba(255, 255, 255, .7); }
+.i3-btn--line-light:hover { background: #fff; color: var(--navy); border-color: #fff; }
+.i3-btn--sm { padding: 10px 18px; font-size: 12.5px; }
+.i3-btn--block { width: 100%; }
+.i3-btns { display: flex; flex-wrap: wrap; gap: 12px; }
+
+.i3-arrows { display: flex; gap: 10px; }
+.i3-arrows button { width: 44px; height: 44px; border-radius: 50%; border: 1.5px solid var(--navy); color: var(--navy); display: grid; place-items: center; transition: background .25s, color .25s; }
+.i3-arrows button:hover { background: var(--navy); color: #fff; }
+.i3-arrows--center { justify-content: center; margin-top: 18px; }
+
+/* ==========================================================================
+   1. HERO — full width (DIS)
+   ========================================================================== */
+.i3-hero { position: relative; overflow: hidden; height: clamp(480px, calc(100vh - 140px), 800px); background: var(--navy-d); }
+.i3-hero__slide { position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease; }
+.i3-hero__slide.is-on { opacity: 1; z-index: 1; }
+.i3-hero__slide img { width: 100%; height: 100%; object-fit: cover; }
+.i3-hero__slide::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(10, 18, 40, .78) 0%, rgba(10, 18, 40, .25) 38%, rgba(10, 18, 40, 0) 60%); }
+.i3-hero__cap { position: absolute; z-index: 2; left: max(20px, calc((100% - 1240px) / 2)); bottom: 92px; right: 220px; color: #fff; }
+.i3-hero__cap h1, .i3-hero__h { font-size: clamp(1.8rem, 3.6vw, 3rem); font-weight: 700; line-height: 1.15; color: #fff; text-shadow: 0 2px 16px rgba(0, 0, 0, .3); max-width: 760px; }
+.i3-hero__cap span { display: inline-block; margin-top: 14px; font-size: 13px; font-weight: 600; letter-spacing: .04em; padding: 5px 12px; border: 1px solid rgba(255, 255, 255, .6); border-radius: 4px; }
+.i3-hero__ctrl { position: absolute; z-index: 3; right: max(20px, calc((100% - 1240px) / 2)); bottom: 96px; display: flex; align-items: center; gap: 14px; }
+.i3-hero__ctrl > button { width: 44px; height: 44px; border-radius: 50%; border: 1.5px solid rgba(255, 255, 255, .7); color: #fff; display: grid; place-items: center; transition: background .25s, color .25s; }
+.i3-hero__ctrl > button:hover { background: #fff; color: var(--navy); }
+.i3-hero__dots { display: flex; gap: 8px; }
+.i3-hero__dots button { width: 10px; height: 10px; border-radius: 50%; background: rgba(255, 255, 255, .5); transition: background .25s, width .25s; }
+.i3-hero__dots button.is-on { background: #fff; width: 26px; border-radius: 5px; }
+
+/* highlight cards (DBUU) */
+.i3-high { position: relative; z-index: 4; margin-top: -56px; }
+.i3-high__list { display: grid; grid-template-columns: repeat(4, 1fr) 1.35fr; gap: 12px; }
+.i3-high__list li { background: #fff; border-radius: var(--r); box-shadow: var(--shadow); padding: 20px 18px; display: flex; align-items: center; gap: 14px; }
+.i3-high__ic { width: 48px; height: 48px; border-radius: 50%; background: var(--g-soft); color: var(--g-d); display: grid; place-items: center; flex: none; }
+.i3-high__ic .i3-i { width: 22px; height: 22px; }
+.i3-high__list b { display: block; font-size: 22px; font-weight: 800; color: var(--navy); line-height: 1.1; }
+.i3-high__list li span:last-child { font-size: 13.5px; font-weight: 600; }
+.i3-high__apply { background: var(--navy) !important; color: #fff; justify-content: space-between; }
+.i3-high__apply b { color: #fff !important; font-size: 17px !important; }
+.i3-high__apply span { color: rgba(255, 255, 255, .8); }
+.i3-high__apply .i3-btn { padding: 11px 18px; flex: none; }
+
+/* ==========================================================================
+   2. WELCOME (DIS navy)
+   ========================================================================== */
+.i3-welcome { background: var(--navy); color: rgba(255, 255, 255, .85); padding: clamp(44px, 5vw, 70px) 0; margin-top: clamp(36px, 4vw, 52px); }
+.i3-welcome__in { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: clamp(30px, 4vw, 60px); align-items: center; }
+.i3-welcome h2 { font-size: clamp(1.6rem, 2.6vw, 2.25rem); font-weight: 700; color: #fff; line-height: 1.25; margin-bottom: 20px; }
+.i3-welcome h2 em { color: #6fdc9f; }
+.i3-welcome p { font-size: 16px; margin-bottom: 14px; }
+.i3-welcome strong { color: #fff; font-weight: 700; }
+.i3-welcome .i3-btn { margin-top: 10px; }
+
+/* campus video — poster first, YouTube loads on click */
+.i3-video { position: relative; aspect-ratio: 16 / 9; border-radius: var(--r); overflow: hidden; background: #000; box-shadow: 0 24px 50px -24px rgba(0, 0, 0, .6); }
+.i3-video__poster { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.i3-video__poster img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s; }
+.i3-video__poster::after { content: ""; position: absolute; inset: 0; background: rgba(10, 18, 40, .35); transition: background .3s; }
+.i3-video__poster:hover img { transform: scale(1.04); }
+.i3-video__poster:hover::after { background: rgba(10, 18, 40, .2); }
+.i3-video__play { position: absolute; z-index: 1; left: 50%; top: 50%; width: 76px; height: 76px; margin: -38px 0 0 -38px; border-radius: 50%; background: var(--g); color: #fff; display: grid; place-items: center; box-shadow: 0 0 0 10px rgba(0, 166, 81, .25); transition: transform .3s; }
+.i3-video__play .i3-i { width: 26px; height: 26px; margin-left: 4px; }
+.i3-video__poster:hover .i3-video__play { transform: scale(1.08); }
+.i3-video__cap { position: absolute; z-index: 1; left: 18px; bottom: 16px; color: #fff; font-weight: 700; font-size: 14px; letter-spacing: .03em; }
+.i3-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* ==========================================================================
+   3. RECOGNITIONS
+   ========================================================================== */
+.i3-recog__list { display: flex; justify-content: center; flex-wrap: wrap; gap: 28px 40px; }
+.i3-recog__list li { display: grid; justify-items: center; gap: 12px; font-size: 14px; font-weight: 700; color: var(--navy); }
+.i3-recog__list li > span { width: 128px; height: 128px; border-radius: 50%; background: #fff; border: 1px solid var(--line); box-shadow: var(--shadow); display: grid; place-items: center; padding: 22px; transition: transform .3s; }
+.i3-recog__list li:hover > span { transform: translateY(-4px); }
+.i3-recog__list img { max-height: 100%; width: auto; object-fit: contain; }
+
+/* ==========================================================================
+   4. WHY MDU
+   ========================================================================== */
+.i3-why__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.i3-why__tile { position: relative; border-radius: var(--r); overflow: hidden; aspect-ratio: 4 / 3.4; }
+.i3-why__tile img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
+.i3-why__tile:hover img { transform: scale(1.05); }
+.i3-why__tile::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(10, 18, 40, .8), rgba(10, 18, 40, 0) 55%); }
+.i3-why__tile figcaption { position: absolute; z-index: 1; left: 18px; right: 18px; bottom: 16px; color: #fff; font-weight: 700; font-size: 17px; }
+.i3-why__stats { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 24px; background: #fff; border-radius: var(--r); box-shadow: var(--shadow); }
+.i3-why__stats li { padding: 26px 20px; text-align: center; font-size: 14px; font-weight: 600; }
+.i3-why__stats li + li { border-left: 1px solid var(--line); }
+.i3-why__stats b { display: block; font-size: clamp(1.8rem, 2.8vw, 2.4rem); font-weight: 800; color: var(--g-d); line-height: 1.15; }
+
+/* ==========================================================================
+   5. EDUCATION THAT'S PERSONAL (DIS)
+   ========================================================================== */
+.i3-journey__grid { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 60px; align-items: start; }
+.i3-journey__nav { position: sticky; top: calc(var(--top) + 40px); }
+.i3-journey__nav ul { border-left: 1px solid var(--line); margin-bottom: 28px; }
+.i3-journey__nav button { display: block; text-align: left; position: relative; padding: 12px 0 12px 22px; font-size: 12.5px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: #9aa3b2; transition: color .25s; }
+.i3-journey__nav button::before { content: ""; position: absolute; left: -5px; top: 50%; width: 9px; height: 9px; margin-top: -4.5px; border-radius: 50%; background: #c8ced9; transition: background .25s, box-shadow .25s; }
+.i3-journey__nav button.is-on { color: var(--navy); }
+.i3-journey__nav button.is-on::before { background: var(--g); box-shadow: 0 0 0 4px var(--g-soft); }
+.i3-journey__cards { display: grid; gap: 40px; }
+.i3-jcard { position: relative; border-radius: var(--r); overflow: hidden; box-shadow: var(--shadow); }
+.i3-jcard img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.i3-jcard__info { position: absolute; right: 0; bottom: 0; width: min(420px, 70%); background: rgba(32, 48, 88, .94); color: rgba(255, 255, 255, .85); padding: 26px 28px; border-top-left-radius: var(--r); }
+.i3-jcard__info h3 { font-size: 22px; font-weight: 700; color: #fff; margin-bottom: 8px; line-height: 1.25; }
+.i3-jcard__info p { font-size: 14.5px; }
+
+/* ==========================================================================
+   6. OUR SCHOOLS (DBUU cards)
+   ========================================================================== */
+.i3-rail { display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; scrollbar-width: none; padding: 4px 4px 20px; margin: 0 -4px; }
+.i3-rail::-webkit-scrollbar { display: none; }
+.i3-scard { flex: 0 0 calc((100% - 60px) / 4); min-width: 250px; scroll-snap-align: start; background: #fff; border-radius: var(--r); overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column; transition: transform .3s; }
+.i3-scard:hover { transform: translateY(-5px); }
+.i3-scard__img { position: relative; aspect-ratio: 16 / 11; overflow: hidden; display: block; }
+.i3-scard__img img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s; }
+.i3-scard:hover .i3-scard__img img { transform: scale(1.05); }
+.i3-scard__img em { position: absolute; left: 14px; top: 14px; font-style: normal; background: var(--g); color: #fff; font-size: 12px; font-weight: 800; padding: 4px 10px; border-radius: 4px; letter-spacing: .04em; }
+.i3-scard__body { padding: 18px 20px 20px; display: flex; flex-direction: column; flex: 1; }
+.i3-scard__body small { font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #8a93a3; }
+.i3-scard__body strong { font-size: 17px; font-weight: 800; color: var(--navy); line-height: 1.3; margin: 2px 0 14px; flex: 1; }
+.i3-scard__body > span { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 700; color: var(--g-d); text-transform: uppercase; letter-spacing: .04em; }
+
+/* ==========================================================================
+   7. CHOOSE YOUR PROGRAMME (DBUU)
+   ========================================================================== */
+.i3-progs__find { display: flex; align-items: center; gap: 10px; max-width: 620px; height: 52px; margin: -10px auto 24px; padding: 0 18px; border-radius: 8px; background: #fff; border: 1.5px solid var(--line); color: #8a93a3; transition: border-color .25s; }
+.i3-progs__find:focus-within { border-color: var(--g); }
+.i3-progs__find input { flex: 1; min-width: 0; height: 100%; border: 0; outline: none; background: none; font: 500 15px var(--sans); color: var(--ink); }
+.i3-progs__grid { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 20px; align-items: start; }
+.i3-progs__levels { display: grid; gap: 8px; position: sticky; top: calc(var(--top) + 20px); }
+.i3-progs__levels > button, .i3-progs__levels > a { display: flex; justify-content: space-between; align-items: center; padding: 15px 18px; border-radius: 8px; background: var(--grey); font-size: 13.5px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: var(--navy); text-align: left; transition: background .25s, color .25s; }
+.i3-progs__levels > button:hover, .i3-progs__levels > a:hover { background: var(--g-soft); color: var(--g-d); }
+.i3-progs__levels > button.is-on { background: var(--g); color: #fff; }
+.i3-progs__promo { margin-top: 8px; background: var(--navy); color: #fff; border-radius: var(--r); padding: 22px; display: grid; gap: 6px; justify-items: start; }
+.i3-progs__promo strong { font-size: 18px; font-weight: 800; }
+.i3-progs__promo span { font-size: 13.5px; color: rgba(255, 255, 255, .8); margin-bottom: 10px; }
+.i3-progs__pane { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; align-items: start; }
+.i3-progs__pane[hidden] { display: none; }
+.i3-school { background: #fff; border: 1px solid var(--line); border-radius: var(--r); padding: 18px 20px; transition: box-shadow .25s; }
+.i3-school:hover { box-shadow: var(--shadow); }
+.i3-school[hidden] { display: none; }
+.i3-school h3 { display: flex; align-items: center; gap: 12px; font-size: 15px; font-weight: 800; color: var(--navy); line-height: 1.3; margin-bottom: 10px; }
+.i3-school h3 a:hover { color: var(--g-d); }
+.i3-school__ic { width: 38px; height: 38px; border-radius: 8px; background: var(--g-soft); color: var(--g-d); display: grid; place-items: center; flex: none; }
+.i3-school ul { padding-left: 50px; display: grid; gap: 2px; }
+.i3-school li a { display: block; position: relative; padding: 2px 0 2px 14px; font-size: 14px; color: var(--text); }
+.i3-school li a::before { content: "›"; position: absolute; left: 0; color: var(--g); font-weight: 800; }
+.i3-school li a:hover { color: var(--g-d); }
+.i3-school li.is-more { display: none; }
+.i3-school.is-open li.is-more, .i3-progs.is-search .i3-school li.is-more { display: block; }
+.i3-school li[hidden] { display: none !important; }
+.i3-school__more { margin: 6px 0 0 50px; font-size: 13px; font-weight: 700; color: var(--g-d); }
+.i3-school.is-open .i3-school__more, .i3-progs.is-search .i3-school__more { display: none; }
+.i3-progs__empty { padding: 26px; background: var(--grey); border-radius: var(--r); font-weight: 600; }
+.i3-progs__empty a { color: var(--g-d); text-decoration: underline; }
+
+/* ==========================================================================
+   8. PLACEMENTS
+   ========================================================================== */
+.i3-place__grid { display: grid; grid-template-columns: 420px minmax(0, 1fr); gap: clamp(30px, 5vw, 70px); align-items: center; }
+.i3-fade { position: relative; aspect-ratio: 1; border-radius: var(--r); overflow: hidden; background: #fff; box-shadow: var(--shadow); }
+.i3-fade img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; opacity: 0; transition: opacity .7s ease; }
+.i3-fade img.is-on { opacity: 1; }
+.i3-place__stats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 28px; }
+.i3-place__stats li { background: #fff; border: 1px solid var(--line); border-radius: var(--r); padding: 20px 22px; font-size: 14px; font-weight: 600; }
+.i3-place__stats b { display: block; font-size: clamp(1.6rem, 2.4vw, 2.1rem); font-weight: 800; color: var(--g-d); line-height: 1.2; }
+.i3-place__stats li.is-hl { background: var(--navy); border-color: var(--navy); color: rgba(255, 255, 255, .85); }
+.i3-place__stats li.is-hl b { color: #fff; }
+.i3-logos { display: grid; grid-template-columns: repeat(8, 1fr); gap: 12px; }
+.i3-logos li { background: #fff; border: 1px solid var(--line); border-radius: 8px; height: 76px; display: grid; place-items: center; padding: 10px 14px; transition: box-shadow .25s; }
+.i3-logos li:hover { box-shadow: var(--shadow); }
+.i3-logos img { max-height: 100%; width: auto; object-fit: contain; }
+
+/* ==========================================================================
+   9. FEATURES & FACILITIES (DIS navy)
+   ========================================================================== */
+.i3-feat { background: var(--navy); }
+.i3-feat__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.i3-fcard { position: relative; border-radius: var(--r); overflow: hidden; aspect-ratio: 3 / 4; box-shadow: 0 20px 40px -20px rgba(0, 0, 0, .5); }
+.i3-fcard img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .6s; }
+.i3-fcard:hover img { transform: scale(1.05); }
+.i3-fcard::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(14, 24, 52, .95) 0%, rgba(14, 24, 52, .55) 50%, rgba(14, 24, 52, .1) 100%); }
+.i3-fcard__in { position: absolute; z-index: 1; left: 0; right: 0; bottom: 0; padding: 22px; color: #fff; }
+.i3-fcard ul { margin-bottom: 14px; padding-bottom: 14px; border-bottom: 1px solid rgba(255, 255, 255, .25); display: grid; gap: 6px; }
+.i3-fcard li { position: relative; padding-left: 14px; font-size: 13.5px; color: rgba(255, 255, 255, .88); line-height: 1.45; }
+.i3-fcard li::before { content: ""; position: absolute; left: 0; top: 8px; width: 5px; height: 5px; border-radius: 50%; background: #6fdc9f; }
+.i3-fcard h3 { font-size: 15px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; line-height: 1.3; }
+
+/* ==========================================================================
+   10. EVENTS (DBUU)
+   ========================================================================== */
+.i3-ecard { flex: 0 0 calc((100% - 40px) / 3); min-width: 280px; scroll-snap-align: start; background: #fff; border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; display: flex; flex-direction: column; transition: box-shadow .25s, transform .3s; }
+.i3-ecard:hover { box-shadow: var(--shadow); transform: translateY(-4px); }
+.i3-ecard__img { aspect-ratio: 16 / 10; overflow: hidden; display: block; }
+.i3-ecard__img img { width: 100%; height: 100%; object-fit: cover; }
+.i3-ecard__body { display: flex; gap: 16px; padding: 18px 20px 20px; }
+.i3-ecard__date { flex: none; width: 62px; text-align: center; background: var(--g); color: #fff; border-radius: 8px; padding: 8px 4px; font-size: 11.5px; font-weight: 700; line-height: 1.2; align-self: flex-start; }
+.i3-ecard__date b { display: block; font-size: 24px; font-weight: 800; }
+.i3-ecard__body small { display: block; font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--g-d); }
+.i3-ecard__body strong { display: block; font-size: 16px; font-weight: 700; color: var(--navy); line-height: 1.4; margin: 4px 0 10px; }
+.i3-ecard__body em { font-style: normal; display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 700; text-transform: uppercase; color: var(--navy); }
+.i3-ecard:hover .i3-ecard__body em { color: var(--g-d); }
+
+/* ==========================================================================
+   11. STUDENT SPEAK
+   ========================================================================== */
+.i3-voices__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.i3-vcard { position: relative; background: #fff; border-radius: var(--r); padding: 30px 24px 24px; box-shadow: var(--shadow); display: flex; flex-direction: column; }
+.i3-vcard__q { font-family: var(--serif); font-size: 64px; line-height: .6; color: var(--g); height: 30px; }
+.i3-vcard p { font-size: 14.5px; flex: 1; margin: 6px 0 20px; }
+.i3-vcard footer { display: flex; align-items: center; gap: 12px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 12.5px; line-height: 1.4; }
+.i3-vcard footer b { display: block; font-size: 15px; color: var(--navy); }
+.i3-vcard__av { width: 44px; height: 44px; border-radius: 50%; background: var(--navy); color: #fff; display: grid; place-items: center; font-weight: 800; font-size: 14px; flex: none; }
+
+/* ==========================================================================
+   12. MOMENTS (DIS)
+   ========================================================================== */
+.i3-moments__row { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 10px max(20px, calc((100% - 1240px) / 2)) 10px; }
+.i3-moments__row::-webkit-scrollbar { display: none; }
+.i3-moments__row figure { flex: 0 0 260px; height: 320px; border-radius: var(--r); overflow: hidden; scroll-snap-align: center; box-shadow: var(--shadow); }
+.i3-moments__row figure:nth-child(even) { height: 270px; margin-top: 25px; }
+.i3-moments__row img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s; }
+.i3-moments__row figure:hover img { transform: scale(1.05); }
+
+/* ==========================================================================
+   13. ADMISSION PROCESS (DIS)
+   ========================================================================== */
+.i3-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 18px; }
+.i3-steps button { display: grid; justify-items: center; gap: 4px; padding: 20px 12px; border-radius: 8px; background: #a9b6cc; color: #fff; text-align: center; transition: background .3s; }
+.i3-steps button .i3-i { width: 24px; height: 24px; margin-bottom: 4px; }
+.i3-steps small { font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.i3-steps span { font-size: 13.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; }
+.i3-steps button:hover { background: #8f9fbb; }
+.i3-steps button.is-on { background: var(--navy); }
+.i3-admit__body { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 4vw, 60px); background: #fff; border-radius: var(--r); padding: clamp(24px, 3.5vw, 44px); box-shadow: var(--shadow); }
+.i3-admit__body h3 { font-size: 20px; font-weight: 800; color: var(--navy); margin-bottom: 18px; }
+.i3-dots { display: grid; gap: 12px; margin-bottom: 22px; }
+.i3-dots li { position: relative; padding-left: 20px; font-size: 15px; }
+.i3-dots li::before { content: ""; position: absolute; left: 0; top: 9px; width: 8px; height: 8px; border-radius: 50%; background: var(--g); }
+.i3-dots a, .i3-note a { color: var(--g-d); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.i3-note { background: var(--grey); border-left: 4px solid var(--g); border-radius: 0 8px 8px 0; padding: 16px 18px; font-size: 14.5px; }
+.i3-note strong { display: block; color: var(--navy); }
+.i3-time { display: grid; gap: 2px; margin-bottom: 22px; position: relative; }
+.i3-time::before { content: ""; position: absolute; left: 15px; top: 16px; bottom: 16px; width: 2px; background: var(--line); }
+.i3-time li { display: flex; gap: 16px; padding: 8px 0; position: relative; font-size: 14px; opacity: .55; transition: opacity .3s; }
+.i3-time li.is-on { opacity: 1; }
+.i3-time b { width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; background: #fff; border: 2px solid var(--line); color: var(--navy); font-size: 13px; flex: none; transition: background .3s, color .3s, border-color .3s; }
+.i3-time li.is-on b { background: var(--g); border-color: var(--g); color: #fff; }
+.i3-time strong { display: block; color: var(--navy); font-size: 15.5px; }
+
+/* ==========================================================================
+   14. FAQ
+   ========================================================================== */
+.i3-faq__in { max-width: 880px; }
+.i3-faq details { border: 1px solid var(--line); border-radius: 10px; margin-bottom: 10px; padding: 0 22px; background: #fff; }
+.i3-faq summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 18px 0; font-size: 16.5px; font-weight: 700; color: var(--navy); }
+.i3-faq summary::-webkit-details-marker { display: none; }
+.i3-faq summary span { width: 30px; height: 30px; border-radius: 50%; background: var(--grey); display: grid; place-items: center; flex: none; transition: transform .3s, background .3s, color .3s; }
+.i3-faq details[open] { border-color: var(--g); }
+.i3-faq details[open] summary span { transform: rotate(45deg); background: var(--g); color: #fff; }
+.i3-faq details p { padding-bottom: 18px; font-size: 15px; }
+.i3-faq details a { color: var(--g-d); font-weight: 700; text-decoration: underline; }
+
+/* ==========================================================================
+   15. CALL BAND
+   ========================================================================== */
+.i3-call { background: var(--navy); color: rgba(255, 255, 255, .85); padding: 34px 0; border-top: 4px solid var(--g); }
+.i3-call__in { display: flex; justify-content: space-between; align-items: center; gap: 30px; flex-wrap: wrap; }
+.i3-call h2 { font-size: clamp(1.4rem, 2.4vw, 2rem); font-weight: 700; color: #fff; line-height: 1.25; }
+.i3-call h2 em { color: #6fdc9f; }
+.i3-call p { margin-top: 6px; }
+.i3-call__acts { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; }
+.i3-call__ph { display: flex; align-items: center; gap: 12px; color: #fff; font-weight: 800; font-size: 19px; margin-right: 8px; }
+.i3-call__ph > .i3-i { width: 46px; height: 46px; padding: 12px; border-radius: 50%; background: var(--g); }
+.i3-call__ph small { display: block; font-size: 12px; font-weight: 600; color: rgba(255, 255, 255, .7); }
+.i3-call__ph:hover { color: #6fdc9f; }
+
+/* ==========================================================================
+   gentle fade-in (once)
+   ========================================================================== */
+.i3-js [data-r] { opacity: 0; transform: translateY(18px); transition: opacity .7s ease var(--d, 0ms), transform .7s ease var(--d, 0ms); }
+.i3-js [data-r].is-in { opacity: 1; transform: none; }
+.i3-fail [data-r] { opacity: 1 !important; transform: none !important; }
+
+/* ==========================================================================
+   responsive
+   ========================================================================== */
+@media (max-width: 1199px) {
+  .i3-high__list { grid-template-columns: repeat(2, 1fr); }
+  .i3-high__apply { grid-column: 1 / -1; }
+  .i3-scard { flex-basis: calc((100% - 40px) / 3); }
+  .i3-feat__grid { grid-template-columns: repeat(2, 1fr); }
+  .i3-fcard { aspect-ratio: 4 / 3.6; }
+  .i3-voices__grid { grid-template-columns: repeat(2, 1fr); }
+  .i3-logos { grid-template-columns: repeat(6, 1fr); }
+  .i3-place__grid { grid-template-columns: 340px minmax(0, 1fr); }
+}
+
+@media (max-width: 991px) {
+  .i3-hero { height: clamp(420px, 70vh, 600px); }
+  .i3-hero__cap { right: 20px; bottom: 120px; }
+  .i3-hero__ctrl { left: max(20px, calc((100% - 1240px) / 2)); right: auto; bottom: 74px; }
+  .i3-why__grid { grid-template-columns: repeat(2, 1fr); }
+  .i3-welcome__in { grid-template-columns: minmax(0, 1fr); }
+  .i3-why__stats { grid-template-columns: repeat(2, 1fr); }
+  .i3-why__stats li:nth-child(3) { border-left: 0; }
+  .i3-why__stats li:nth-child(n+3) { border-top: 1px solid var(--line); }
+  .i3-journey__grid { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .i3-journey__nav { display: none; }
+  .i3-jcard__info { position: static; width: auto; border-radius: 0; }
+  .i3-scard { flex-basis: calc((100% - 20px) / 2); }
+  .i3-progs__grid { grid-template-columns: minmax(0, 1fr); }
+  .i3-progs__levels { position: static; grid-template-columns: repeat(2, 1fr); }
+  .i3-progs__promo { display: none; }
+  .i3-place__grid { grid-template-columns: minmax(0, 1fr); }
+  .i3-place__posters { max-width: 420px; width: 100%; margin: 0 auto; }
+  .i3-logos { grid-template-columns: repeat(4, 1fr); }
+  .i3-ecard { flex-basis: calc((100% - 20px) / 2); }
+  .i3-admit__body { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .i3-hero__cap h1, .i3-hero__h { font-size: 1.6rem; }
+  .i3-high { margin-top: -40px; }
+  .i3-high__list li { padding: 16px 14px; gap: 10px; }
+  .i3-high__ic { width: 40px; height: 40px; }
+  .i3-high__list b { font-size: 18px; }
+  .i3-high__apply { flex-wrap: wrap; }
+  .i3-rowhead { flex-direction: column; align-items: flex-start; }
+  .i3-rowhead .i3-title { text-align: left; }
+  .i3-recog__list { gap: 20px 16px; }
+  .i3-recog__list li > span { width: 96px; height: 96px; padding: 16px; }
+  .i3-why__grid { gap: 10px; }
+  .i3-why__tile figcaption { font-size: 14px; left: 12px; bottom: 10px; }
+  .i3-scard, .i3-ecard { flex-basis: 82%; min-width: 0; }
+  .i3-progs__levels { grid-template-columns: 1fr; }
+  .i3-progs__pane { grid-template-columns: minmax(0, 1fr); }
+  .i3-school ul { padding-left: 0; }
+  .i3-school__more { margin-left: 0; }
+  .i3-place__stats li { padding: 16px; }
+  .i3-logos { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .i3-logos li { height: 60px; }
+  .i3-feat__grid, .i3-voices__grid { grid-template-columns: minmax(0, 1fr); }
+  .i3-fcard { aspect-ratio: 4 / 3.4; }
+  .i3-moments__row figure { flex-basis: 70%; height: 280px; }
+  .i3-moments__row figure:nth-child(even) { height: 280px; margin-top: 0; }
+  .i3-steps { grid-template-columns: 1fr 1fr; }
+  .i3-call__acts { width: 100%; }
+  .i3-call__acts .i3-btn { flex: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .i3 *, .i3 *::before, .i3 *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}

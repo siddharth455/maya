@@ -298,7 +298,7 @@ SCHEMA;
     --border: rgba(15,98,254,0.2);
   }
 
-  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :where(main) *, :where(main) *::before, :where(main) *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
   html { scroll-behavior: smooth; }
 
@@ -432,7 +432,7 @@ SCHEMA;
   }
 
   /* ── SECTION BASE ── */
-  section { position: relative; z-index: 1; }
+  :where(main) section { position: relative; z-index: 1; }
   .section-inner { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
   .section-pad { padding: 100px 0; }
 
@@ -1390,7 +1390,6 @@ SCHEMA;
     color: #008f45;
     text-decoration: underline;
   }
-</style>
   .single-blog-maya{
     border: 1px solid #fff;
   }
