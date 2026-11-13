@@ -183,7 +183,7 @@
                                 </div>
                                 <div>
                                     <small class="text-white-50 d-block" style="font-size: 13px;">Alumni Network</small>
-                                    <h4 class="fw-bold text-white mb-0" style="font-size: 22px;">12,000<small style="font-size: 14px; font-weight:normal;">+</small></h4>
+                                    <h4 class="fw-bold text-white mb-0" style="font-size: 22px;">8,000<small style="font-size: 14px; font-weight:normal;">+</small></h4>
                                 </div>
                             </div>
                         </div>

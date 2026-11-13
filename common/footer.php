@@ -37,6 +37,7 @@
                 <li><a href="blog.php">Blogs</a></li>
                 <li><a href="https://samadhaan.ugc.ac.in/">UGC Samadhan</a></li>
                 <li><a href="career.php">Careers</a></li>
+                <li><a href="https://ghrj.org/index.php/ghrj/login">MDU Journal/GHRJ</a></li>
               </ul>
             </div>
           </div>

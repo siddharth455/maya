@@ -65,7 +65,7 @@ function ix_icon($name, $class = '') {
    [image, label, [line1, line2, accent line3], lead, link url, link label, opens tour?] */
 $ix_slides = [
     ['hero-friends', 'Campus life', ['Classmates', 'today.', 'Friends for life.'],
-     'Study groups on the lawns, late chats before exams, a 12,000+ strong alumni network after — at MDU you find your people.',
+     'Study groups on the lawns, late chats before exams, a 8,000+ strong alumni network after — at MDU you find your people.',
      'campus-life.php', 'See campus life', false],
     ['hero-coding', 'Engineering &amp; technology', ['Code.', 'Build.', 'Innovate.'],
      'B.Tech in CSE, AI &amp; ML, Data Science and Cyber Security &mdash; with specialisations offered with IBM and hands-on computer labs.',
@@ -313,7 +313,7 @@ require "common/header.php";
                 <li><b data-count="120" data-suf="+">120+</b><span>Programs</span><small>Industry-oriented UG &amp; PG</small></li>
                 <li><b data-count="100" data-suf="+">100+</b><span>Stalwarts</span><small>Industry mentors</small></li>
                 <li><b data-count="35" data-suf="+">35+</b><span>Doctoral faculty</span><small>Research-active</small></li>
-                <li><b data-count="12000" data-suf="+">12,000+</b><span>Alumni</span><small>Across the globe</small></li>
+                <li><b data-count="8000" data-suf="+">8,000+</b><span>Alumni</span><small>Across the globe</small></li>
                 <li><b data-count="15">15</b><span>Schools</span><small>One campus</small></li>
                 <li><b data-count="800" data-suf="+">800+</b><span>Placement offers</span><small>Recent drives</small></li>
             </ul>

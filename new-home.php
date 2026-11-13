@@ -251,7 +251,7 @@ require "common/header.php";
 
                 <ul class="h3d-hero__stats" data-r style="--d:.45s">
                     <li><strong data-count="120" data-suf="+">120+</strong><span>Programs</span></li>
-                    <li><strong data-count="12000" data-suf="+">12,000+</strong><span>Alumni</span></li>
+                    <li><strong data-count="8000" data-suf="+">8,000+</strong><span>Alumni</span></li>
                     <li><strong data-count="35" data-suf="+">35+</strong><span>Doctoral Faculty</span></li>
                 </ul>
             </div>
@@ -386,7 +386,7 @@ require "common/header.php";
                         <p>Research-active doctoral faculty guiding projects &amp; publications.</p>
                     </article>
                     <article class="h3d-stat" data-tilt>
-                        <span class="h3d-stat__num" data-count="12000" data-suf="+">12,000+</span>
+                        <span class="h3d-stat__num" data-count="8000" data-suf="+">8,000+</span>
                         <h3>Alumni</h3>
                         <p>A strong alumni network across industries and geographies.</p>
                     </article>

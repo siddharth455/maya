@@ -19,7 +19,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       </div>
       <div class="maya-president-text">
         <p>
-        Maya Devi University is committed to academic excellence, research, and inclusive values. Since its inception in 2010, the university has evolved significantly, establishing itself as a leading institution in North India. With over 11,000 alumni, it emphasizes practical, research-driven education that promotes independent thinking and problem-solving.
+        Maya Devi University is committed to academic excellence, research, and inclusive values. Since its inception in 2010, the university has evolved significantly, establishing itself as a leading institution in North India. With over 8,000 alumni, it emphasizes practical, research-driven education that promotes independent thinking and problem-solving.
         </p>
 <p>Students are encouraged to pursue self-sufficient learning grounded in scientific and philosophical knowledge. The university fosters creativity through academic curiosity, aiming to develop future researchers and entrepreneurs.</p>
         <div class="maya-president-info">

@@ -197,9 +197,9 @@ SCHEMA;
       <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#f6fffa;">
         <i class="fa fa-certificate fa-2x text-success mb-3"></i>
         <h3 class="fw-bold">
-          <span class="counter" data-target="1000">1000</span>+
+          <span class="counter" data-target="100">100</span>%
         </h3>
-        <p class="mb-0">Students Enrolled</p>
+        <p class="mb-0">Practical Exposure</p>
       </div>
     </div>
 
@@ -219,7 +219,7 @@ SCHEMA;
       <div class="stat-card p-4 rounded shadow-sm h-100" style="background:#fff8f2;">
         <i class="fa fa-globe fa-2x text-success mb-3"></i>
         <h3 class="fw-bold">
-          <span class="counter" data-target="50">50</span>+
+          <span class="counter" data-target="20">20</span>+
         </h3>
         <p class="mb-0">Law Firms and Partners</p>
       </div>

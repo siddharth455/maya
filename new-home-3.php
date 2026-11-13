@@ -320,7 +320,7 @@ require "common/header.php";
                                 </div>
                                 <ul class="h3s-mini" data-in>
                                     <li><b data-count="120" data-suf="+">120+</b><span>Programs</span></li>
-                                    <li><b data-count="12000" data-suf="+">12,000+</b><span>Alumni</span></li>
+                                    <li><b data-count="8000" data-suf="+">8,000+</b><span>Alumni</span></li>
                                     <li><b data-count="35" data-suf="+">35+</b><span>Doctoral Faculty</span></li>
                                 </ul>
                             </div>
@@ -375,7 +375,7 @@ require "common/header.php";
                         <div class="h3s-layer" style="--lz:70px" data-fly="l" data-delay="0.06"><div class="h3s-blk h3s-num h3s-num--1"><b data-count="120" data-suf="+">120+</b><span>Programs</span><small>Industry-oriented undergraduate &amp; postgraduate programs focused on employability.</small></div></div>
                         <div class="h3s-layer" style="--lz:160px" data-fly="tr" data-delay="0.14"><div class="h3s-blk h3s-num h3s-num--2"><b data-count="100" data-suf="+">100+</b><span>Stalwarts</span><small>Industry stalwarts and mentors collaborating with students &amp; faculty.</small></div></div>
                         <div class="h3s-layer" style="--lz:30px" data-fly="bl" data-delay="0.22"><div class="h3s-blk h3s-num h3s-num--3"><b data-count="35" data-suf="+">35+</b><span>Doctoral Faculty</span><small>Research-active doctoral faculty guiding projects &amp; publications.</small></div></div>
-                        <div class="h3s-layer" style="--lz:120px" data-fly="r" data-delay="0.3"><div class="h3s-blk h3s-num h3s-num--4"><b data-count="12000" data-suf="+">12,000+</b><span>Alumni</span><small>A strong alumni network across industries and geographies.</small></div></div>
+                        <div class="h3s-layer" style="--lz:120px" data-fly="r" data-delay="0.3"><div class="h3s-blk h3s-num h3s-num--4"><b data-count="8000" data-suf="+">8,000+</b><span>Alumni</span><small>A strong alumni network across industries and geographies.</small></div></div>
                         <div class="h3s-layer" style="--lz:0px" data-fly="b" data-delay="0.36">
                             <div class="h3s-blk h3s-ach">
                                 <div><b data-count="1890">1,890</b><span>Students</span></div>

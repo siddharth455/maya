@@ -218,7 +218,7 @@ require "common/header.php";
 
                 <ul class="nx-hero__trust" data-nx-stagger>
                     <li><strong data-nx-count="120" data-nx-suffix="+">0</strong><span>Programs</span></li>
-                    <li><strong data-nx-count="12000" data-nx-suffix="+">0</strong><span>Alumni</span></li>
+                    <li><strong data-nx-count="8000" data-nx-suffix="+">0</strong><span>Alumni</span></li>
                     <li><strong data-nx-count="35" data-nx-suffix="+">0</strong><span>Doctoral Faculty</span></li>
                     <li><strong data-nx-count="15" data-nx-suffix="">0</strong><span>Schools</span></li>
                 </ul>
@@ -369,7 +369,7 @@ require "common/header.php";
                             <p>Research-active doctoral faculty guiding projects &amp; publications.</p>
                         </article>
                         <article class="nx-counter">
-                            <span class="nx-counter__num" data-nx-count="12000" data-nx-suffix="+">0</span>
+                            <span class="nx-counter__num" data-nx-count="8000" data-nx-suffix="+">0</span>
                             <h3>Alumni</h3>
                             <p>A strong alumni network across industries and geographies.</p>
                         </article>

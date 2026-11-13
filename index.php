@@ -1002,8 +1002,8 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </article>
 
-                    <article class="mduLegacy-item" data-target="12000">
-                        <div class="mduLegacy-bubble">12000+</div>
+                    <article class="mduLegacy-item" data-target="8000">
+                        <div class="mduLegacy-bubble">8000+</div>
                         <div class="mduLegacy-card">
                             <div class="mduLegacy-card-head">Alumni</div>
                             <p class="mduLegacy-card-desc">

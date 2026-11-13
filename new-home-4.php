@@ -194,7 +194,7 @@ mx_head();
 
             <div class="mx-stats">
                 <div data-mx style="--d:.1s"><strong data-count="120" data-suf-html="<sup>+</sup>">120<sup>+</sup></strong><span>Programs across 15 schools</span></div>
-                <div data-mx style="--d:.2s"><strong data-count="12000" data-suf-html="<sup>+</sup>">12,000<sup>+</sup></strong><span>Alumni</span></div>
+                <div data-mx style="--d:.2s"><strong data-count="8000" data-suf-html="<sup>+</sup>">8,000<sup>+</sup></strong><span>Alumni</span></div>
                 <div data-mx style="--d:.3s"><strong data-count="35" data-suf-html="<sup>+</sup>">35<sup>+</sup></strong><span>Doctoral faculty</span></div>
                 <div data-mx style="--d:.4s"><strong data-count="800" data-suf-html="<sup>+</sup>">800<sup>+</sup></strong><span>Placement offers</span></div>
             </div>

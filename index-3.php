@@ -359,7 +359,7 @@ require "common/header.php";
             <li><b><span data-count="120">0</span>+</b>Programmes</li>
             <li><b><span data-count="100">0</span>+</b>Industry Stalwarts</li>
             <li><b><span data-count="35">0</span>+</b>Doctoral Faculty</li>
-            <li><b><span data-count="12000">0</span>+</b>Alumni</li>
+            <li><b><span data-count="8000">0</span>+</b>Alumni</li>
         </ul>
     </div>
 </section>
@@ -463,7 +463,7 @@ require "common/header.php";
                 <li><b>800+</b>Placement Offers</li>
                 <li class="is-hl"><b>₹48 LPA</b>Highest Package</li>
                 <li><b>₹5.5 LPA</b>Average Package</li>
-                <li><b>12,000+</b>Alumni Network</li>
+                <li><b>8,000+</b>Alumni Network</li>
             </ul>
             <div class="i3-btns" data-r>
                 <a class="i3-btn" href="https://admissions.maya.edu.in" rel="noopener">Apply Now</a>

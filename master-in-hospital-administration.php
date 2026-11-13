@@ -48,7 +48,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Candidates requires passing 10+2 from a recognised board with minimum marks often 50%.</p>
+                                            <p>Candidates requires passing a bachelor degree from recognised university.</p>
                                         </div>
                                     </div>
                                    
