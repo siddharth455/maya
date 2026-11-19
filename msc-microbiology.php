@@ -3,12 +3,21 @@ $page_title = "M.Sc Microbiology in Dehradun | Maya Devi University";
 $page_description = "Join M.Sc Microbiology at Maya Devi University, Dehradun with modern research laboratories.";
 $canonical_url = "https://maya.edu.in/msc-microbiology.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'M.Sc. Microbiology',
+    "description" => 'The M.Sc. Microbiology program at Maya Devi University offers comprehensive and specialized learning in microbial science. The curriculum covers microbial physiology, molecular biology, immunology, virology, bacteriology, mycology, microbial genetics, biochemistry, biotechnology, fermentation technology, environmental microbiology, and clinical microbiology.',
+    "credential" => 'Master\'s degree',
+    "time" => "P2Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/micro.webp);">
         <div class="container">
-            <h2>M.Sc. Microbiology</h2>
+            <h1>M.Sc. Microbiology</h1>
             <p>The M.Sc. Microbiology program is designed to provide advanced knowledge and research skills in studying microorganisms, molecular biology, immunology, and microbial biotechnology. It emphasizes laboratory techniques, diagnostic methods, and analytical skills, preparing graduates for careers in research labs, healthcare, pharmaceuticals, food industries, and higher scientific studies in India and abroad.</p>
         </div>
     </div>  
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/micro.webp" alt="">
+                        <img src="assets/uploads/micro.webp" alt="M.Sc. Microbiology at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -85,7 +94,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="msc-botany.php"><img class="animated" src="assets/uploads/botany-3.webp" alt=""></a>
+                                    <a href="msc-botany.php"><img class="animated" src="assets/uploads/botany-3.webp" alt="M.Sc. Botany at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="msc-botany.php">M.Sc. Botany</a></h4>
@@ -109,7 +118,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="msc-forensic-science.php"><img class="animated" src="assets/uploads/forensic-3.webp" alt=""></a>
+                                    <a href="msc-forensic-science.php"><img class="animated" src="assets/uploads/forensic-3.webp" alt="M.Sc. Forensic Science at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="msc-forensic-science.php">M.Sc. Forensic Science</a></h4>
@@ -133,7 +142,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="msc-biotechnology.php"><img class="animated" src="assets/uploads/biotechnology.webp" alt=""></a>
+                                    <a href="msc-biotechnology.php"><img class="animated" src="assets/uploads/biotechnology.webp" alt="M.Sc. Biotechnology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="msc-biotechnology.php">M.Sc. Biotechnology</a></h4>

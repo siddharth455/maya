@@ -3,12 +3,21 @@ $page_title = "B.Voc E-Commerce & Digital Marketing in Dehradun | Maya Devi Univ
 $page_description = "Pursue B.Voc in E-Commerce and Digital Marketing at Maya Devi University, Dehradun with real-world marketing and online business training.";
 $canonical_url = "https://maya.edu.in/b.voc-ecommerce-digital-marketing.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Voc E-commerce & Digital Marketing',
+    "description" => 'The Bachelor of Vocation (B.Voc) in E-Commerce & Digital Marketing program equips students with practical knowledge and professional skills in online business management, digital marketing strategies, and data-driven decision-making. The curriculum blends theoretical learning with hands-on training in e-commerce operations, SEO, social media marketing, content creation, web analytics, and digital advertising. Students develop creative, analytical, and technical expertise essential for succeeding in today’s digital business landscape.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/digital.webp);">
         <div class="container">
-            <h2>B.Voc E-commerce & Digital Marketing</h2>
+            <h1>B.Voc E-commerce & Digital Marketing</h1>
             <p>The E-commerce & Digital Marketing program focuses on online business models, digital advertising, and consumer analytics. Students learn SEO, SEM, social media marketing, and e-commerce platform management.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/digital.webp" alt="">
+                        <img src="assets/uploads/digital.webp" alt="B.Voc E-commerce &amp; Digital Marketing at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -99,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                <a href="b.voc-agriculture.php"><img class="animated" src="assets/uploads/agri.webp" alt=""></a>
+                                <a href="b.voc-agriculture.php"><img class="animated" src="assets/uploads/agri.webp" alt="B.Voc Agriculture at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.voc-agriculture.php">B.Voc Agriculture</a></h4>
@@ -123,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                <a href="b.voc-aviation.php"><img class="animated" src="assets/uploads/aviation.webp" alt=""></a>
+                                <a href="b.voc-aviation.php"><img class="animated" src="assets/uploads/aviation.webp" alt="B.Voc Aviation at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.voc-aviation.php">B.Voc Aviation</a></h4>
@@ -147,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.voc-pharma-assistance.php"><img class="animated" src="assets/uploads/pharmacy.webp" alt=""></a>
+                                    <a href="b.voc-pharma-assistance.php"><img class="animated" src="assets/uploads/pharmacy.webp" alt="B.Voc Pharma Assistance at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.voc-pharma-assistance.php">B.Voc Pharma Assistance</a></h4>

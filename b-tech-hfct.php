@@ -3,12 +3,21 @@ $page_title = "B.Tech HFCT in Dehradun | Maya Devi University";
 $page_description = "Enroll in B.Tech HFCT at Maya Devi University, Dehradun with practical training and safety-focused engineering curriculum.";
 $canonical_url = "https://maya.edu.in/b-tech-hfct.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Tech. in Hydrogen Fuel Cell Technology (HFCT)',
+    "description" => 'The B.Tech. in Hydrogen Fuel Cell Technology (HFCT) program prepares students to lead the next major revolution in clean energy and mobility. As the world accelerates toward zero-emission solutions, hydrogen is emerging as the most promising fuel for heavy transport, industry, and large-scale energy storage. This program builds a strong foundation in hydrogen production, storage, fuel cell chemistry, electrochemical systems, thermodynamics, materials science, and advanced green energy technologies.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/hvct.webp);">
         <div class="container">
-            <h2>B.Tech. in Hydrogen Fuel Cell Technology (HFCT)</h2>
+            <h1>B.Tech. in Hydrogen Fuel Cell Technology (HFCT)</h1>
             <p>The B.Tech. in Hydrogen Fuel Cell Technology (HFCT) program prepares students to lead the next major revolution in clean energy and mobility.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/hvct.webp" alt="">
+                        <img src="assets/uploads/hvct.webp" alt="B.Tech. in Hydrogen Fuel Cell Technology (HFCT) at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -36,7 +45,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="over-view-content">
                                 <h4>COURSE  DETAILS</h4>
                                 <h5>Course Name : B.Tech. in Hydrogen Fuel Cell Technology (HFCT)</h5>
-                                <p>TThe B.Tech. in Hydrogen Fuel Cell Technology (HFCT) program prepares students to lead the next major revolution in clean energy and mobility. As the world accelerates toward zero-emission solutions, hydrogen is emerging as the most promising fuel for heavy transport, industry, and large-scale energy storage. This program builds a strong foundation in hydrogen production, storage, fuel cell chemistry, electrochemical systems, thermodynamics, materials science, and advanced green energy technologies.</p>
+                                <p>The B.Tech. in Hydrogen Fuel Cell Technology (HFCT) program prepares students to lead the next major revolution in clean energy and mobility. As the world accelerates toward zero-emission solutions, hydrogen is emerging as the most promising fuel for heavy transport, industry, and large-scale energy storage. This program builds a strong foundation in hydrogen production, storage, fuel cell chemistry, electrochemical systems, thermodynamics, materials science, and advanced green energy technologies.</p>
                                 <p>Students gain hands-on experience with hydrogen fuel cells, electrolyzers, safety systems, and prototype development through industry-driven projects, simulation labs, and practical modules. The program empowers learners with the technical skills required to design, operate, and innovate fuel-cell-based energy and mobility solutions.</p>
 
                                 <div class="over-view-list">
@@ -117,7 +126,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b-tech-cse.php"><img class="animated" src="assets/uploads/computer.webp" alt=""></a>
+                                    <a href="b-tech-cse.php"><img class="animated" src="assets/uploads/computer.webp" alt="B.Tech. Computer Science &amp; Engineering at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b-tech-cse.php">B.Tech. Computer Science & Engineering</a></h4>
@@ -141,7 +150,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b-tech-ai-ml.php"><img class="animated" src="assets/uploads/ai.jpeg" alt=""></a>
+                                    <a href="b-tech-ai-ml.php"><img class="animated" src="assets/uploads/ai.jpeg" alt="Students at computers during a session in a computer lab"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b-tech-ai-ml.php">B.Tech. Computer Science & Engineering (AI & ML)</a></h4>
@@ -165,7 +174,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-cyber_security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt=""></a>
+                                    <a href="b.tech-cyber_security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt="B.Tech. Computer Science &amp; Engineering (Cyber Security &amp; Forensics) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.tech-cyber_security.php">B.Tech. Computer Science & Engineering (Cyber Security & Forensics)</a></h4>
@@ -189,7 +198,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b-tech-le.php"><img class="animated" src="assets/uploads/b-tech-le.webp" alt=""></a>
+                                    <a href="b-tech-le.php"><img class="animated" src="assets/uploads/b-tech-le.webp" alt="B.Tech. Computer Science &amp; Engineering (LE) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b-tech-le.php">B.Tech. Computer Science & Engineering (LE)</a></h4>

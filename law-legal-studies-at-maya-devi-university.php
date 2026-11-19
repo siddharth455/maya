@@ -1,5 +1,5 @@
 <?php
-$page_title = "Best Law College in Dehradun | Maya Devi University";
+$page_title = "Law at Maya Devi University – Moot Court & Campus";
 $page_description = "Study LLB, BA LLB & BBA LLB at Maya Devi University's School of Law & Legal Studies, a leading law college in Dehradun, Uttarakhand with practical training.";
 $canonical_url = "https://maya.edu.in/law-legal-studies-at-maya-devi-university.php";
 $og_image = "https://maya.edu.in/assets/uploads/law-blog.png";
@@ -68,6 +68,8 @@ $og_image = "https://maya.edu.in/assets/uploads/law-blog.png";
                             <h1 class="blog-main-title my-3">Justice in Action: The School of Law & Legal Studies at Maya Devi University</h1>
 
                             <p>Law shapes every aspect of society, from personal rights and business contracts to governance, justice, and human dignity. For students who want to argue, advocate, and uphold the rule of law, the School of Law & Legal Studies at Maya Devi University offers a rigorous and practice-oriented path as a respected <strong>law college in Dehradun</strong>, Uttarakhand.</p>
+
+                            <p class="mdu-main-link">For BA LLB, BBA LLB and LLB eligibility and admissions, visit our <a href="school-of-legal-studies.php">law college in Dehradun</a> page.</p>
 
                             <h2>Why a Law Degree Opens So Many Doors</h2>
                             <p>A legal education is one of the most versatile qualifications a student can earn. Beyond the courtroom, law graduates build careers in corporate legal departments, litigation, judiciary services, civil services, legal consulting, compliance, human rights, academia, and policy. As businesses grow more complex and regulation expands, skilled legal professionals are in steady demand across the public and private sectors.</p>

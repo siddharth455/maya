@@ -3,12 +3,21 @@ $page_title = "B.Tech Civil Engineering (Lateral Entry) in Dehradun | Maya Devi 
 $page_description = "Apply for B.Tech Civil Engineering Lateral Entry at Maya Devi University, Dehradun with industry-ready curriculum and placement support.";
 $canonical_url = "https://maya.edu.in/b.tech-civil-engineering-le.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.tech Civil (Lateral Entry)',
+    "description" => 'The Civil Engineering Department boasts a team of expert faculty members and resources from prestigious institutions, committed to providing students with both a solid theoretical foundation and practical engineering experience. To further enhance practical skills, the department is equipped with state-of-the-art laboratories and research centers specializing in various subfields of Civil Engineering, including Structural Engineering, Earthquake Engineering, Transportation Engineering, Geotechnical Engineering, Fluid Mechanics, Environmental Engineering, and Concrete Technology.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/civil-le.webp);">
         <div class="container">
-            <h2>B.Tech in Civil Engineering<br>(Lateral Entry)</h2>
+            <h1>B.Tech in Civil Engineering<br>(Lateral Entry)</h1>
             <p>The importance of construction projects in the context of sustainable development has been steadily increasing, leading to a growing demand for civil engineering professionals.</p>
         </div>
     </div>

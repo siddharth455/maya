@@ -60,7 +60,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <div class="col-lg-5 col-md-12">
         <div class="sch-hero-form-card shadow-lg">
           <div class="sch-form-header">
-            <span class="sch-form-badge"><i class="fa-solid fa-file-signature"></i> Admissions 2026</span>
+            <span class="sch-form-badge"><i class="fa-solid fa-file-signature"></i> Admissions 2027</span>
             <h3 class="sch-form-title">Apply For Scholarship</h3>
             <p class="sch-form-sub">Enquire now & claim up to 50% tuition fee waiver</p>
           </div>

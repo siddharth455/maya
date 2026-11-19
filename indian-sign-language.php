@@ -3,12 +3,21 @@ $page_title = "Indian Sign Language Course in Dehradun | Maya Devi University";
 $page_description = "Enroll in Indian Sign Language course at Maya Devi University, Dehradun promoting inclusive communication skills.";
 $canonical_url = "https://maya.edu.in/indian-sign-language.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Diploma in Indian Sign Language',
+    "description" => 'The Diploma in Indian Sign Language is typically a 1-year full-time program designed according to standards recommended by deaf education and rehabilitation bodies. The curriculum covers the fundamentals of ISL vocabulary, grammar, syntax, facial expressions, body language, and visual/manual communication techniques. Students learn to interpret everyday conversations, educational content, and basic professional communication in ISL.',
+    "credential" => 'Diploma',
+    "time" => "P1Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/paramedical.webp);">
         <div class="container">
-            <h2>Diploma in Indian Sign Language</h2>
+            <h1>Diploma in Indian Sign Language</h1>
             <p>The Diploma in Indian Sign Language (DISL) is a specialized program designed to train individuals in the use, understanding, and interpretation of Indian Sign Language (ISL). This course equips learners with communication, linguistic, and cultural competencies required to interact effectively with the Deaf community.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/paramedical.webp" alt="">
+                        <img src="assets/uploads/paramedical.webp" alt="Diploma in Indian Sign Language at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -100,7 +109,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="early-child-special-edu.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="early-child-special-edu.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Early Child Special Edu. (Hearing Impairment) at Maya Devi University"></a>
                                     <span>Diploma Programs</span>
                                 </div>
                                 <div class="course-content">
@@ -125,7 +134,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="prosthetics-orthotics.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="prosthetics-orthotics.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Prosthetics and Orthotics at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="prosthetics-orthotics.php">Prosthetics and Orthotics</a></h4>
@@ -149,7 +158,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="clinical-psychology.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="clinical-psychology.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="B.Sc. Clinical Psychology (Hons.) at Maya Devi University"></a>
                                     <span>Undergraduate Programs</span>
                                 </div>
                                 <div class="course-content">

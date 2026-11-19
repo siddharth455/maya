@@ -1,6 +1,6 @@
 <?php
-$page_title = "Best college for Nursing in Dehradun | Maya Devi University";
-$page_description = "Join Best college for Nursing at Maya Devi University, Dehradun with practical hospital-based training.";
+$page_title = "Best Nursing College in Dehradun | B.Sc Nursing & GNM | MDU";
+$page_description = "Maya Devi University, Dehradun offers B.Sc Nursing and GNM with clinical training and international career pathways. Check eligibility and apply for 2027.";
 $canonical_url = "https://maya.edu.in/Nursing.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 $page_schema = <<<SCHEMA
@@ -86,39 +86,12 @@ $page_schema = <<<SCHEMA
  ]
 }
 </script>
-<script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@type": "FAQPage",
- "mainEntity": [
-  {
-   "@type": "Question",
-   "name": "Is the Nursing program at Maya Devi University approved by INC?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Yes. The B.Sc. Nursing and GNM programs at Maya Devi University are approved by the Indian Nursing Council (INC), which is the statutory body governing nursing education in India."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "What is the eligibility for B.Sc. Nursing at Maya Devi University?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Candidates must have passed 10+2 with Physics, Chemistry, and Biology (PCB) with minimum 45% marks. Age must be between 17 and 35 years. NEET score is required for B.Sc. Nursing admission."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "What are the career options after B.Sc. Nursing from MDU?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Graduates can work as staff nurses in hospitals, community health centers, and nursing homes. International placement opportunities are also available in countries like Germany, UK, Australia, and Gulf nations. Top hospital recruiters include Apollo, Fortis, Max Healthcare, and AIIMS."
-   }
-  }
- ]
-}
-</script>
 SCHEMA;
+
+// Batch 2 SEO content: intro, at-a-glance table, why-choose list and FAQs (schema matches visible FAQs)
+require_once "common/course-seo.php";
+$seo = course_seo("nursing");
+$page_schema .= seo_faq_schema($seo);
 ?>
 <?php require "common/header.php"?>
 
@@ -132,17 +105,13 @@ SCHEMA;
   <!-- About Section -->
 <section class="container py-5">
 <div class="section-title  pb-20">
-    <h2>School <span>Overview</h2>
+    <?php echo seo_css(); ?>
+    <h1 class="seo-h1">Best Nursing College in Dehradun <span>– School of Nursing, Maya Devi University</span></h1>
     </div>
   <div class="row">
     <!-- Left Text -->
     <div class="col-md-7">
-      <p>
-      The School of Nursing at Maya Devi University is a center of excellence in nursing education, research, and clinical practice. Established with the goal of producing skilled and compassionate healthcare professionals, the department is known for its rigorous academic standards and hands-on training.
-      </p>
-      <p>
-      At our School of Nursing, our mission is to provide unparalleled education and hands-on training for students aiming to succeed in the dynamic and ever-evolving healthcare sector.Equipped with state-of-the-art infrastructure, a comprehensive and industry-relevant curriculum, immersive learning experiences, and a supportive learning environment, we strive to foster the holistic development of every student.
-      </p>
+      <?php echo seo_intro($seo); ?>
       <p>Our goal is to empower individuals with the confidence and competence needed to excel across a wide spectrum of career opportunities in the healthcare domain.We are dedicated to offering a multifaceted and integrated educational experience, consistently updating our curriculum to reflect the latest trends, innovations, and demands of the global healthcare industry.</p>
       <a class="default-btn btn-block" href="assets/uploads/fee/Nursing_m.pdf">Download fee structure</a>
     </div>
@@ -156,6 +125,12 @@ SCHEMA;
   </div>
 </div>
 
+</section>
+
+<!-- At a glance + Why choose (Batch 2 SEO) -->
+<section class="container">
+<?php echo seo_glance($seo); ?>
+<?php echo seo_why($seo); ?>
 </section>
 
   <!-- Achievements Section -->
@@ -271,7 +246,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="gnm.php">
-              <img src="assets/uploads/gnm.webp" alt="">
+              <img src="assets/uploads/gnm.webp" alt="General Nursing &amp; Midwifery (GNM) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -291,7 +266,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="nursing-assistant.php">
-              <img src="assets/uploads/na.webp" alt="">
+              <img src="assets/uploads/na.webp" alt="Nursing Assistant at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -321,7 +296,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="bsc-nursing.php">
-              <img src="assets/uploads/nursing-1.jpg" alt="">
+              <img src="assets/uploads/nursing-1.jpg" alt="Group of nurses and healthcare professionals in uniform">
             </a>
           </div>
           <div class="course-body">
@@ -683,7 +658,7 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
           <div class="dept-blog-body">
             <h4 class="dept-blog-title">
-              <a href="best-nursing-college-in-dehradun-bsc-gnm.php">Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2026)</a>
+              <a href="best-nursing-college-in-dehradun-bsc-gnm.php">Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2027)</a>
             </h4>
             <p class="dept-blog-excerpt">Explore the best nursing college in Dehradun offering B.Sc Nursing, GNM, ANM & M.Sc Nursing. Compare courses, eligibility, admission process, placements & career scope...</p>
             <div class="dept-blog-footer">
@@ -888,31 +863,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 </script>
-<section class="mdu-faq-section" id="faq">
-  <style>
-    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
-    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
-    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
-      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
-    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
-    .mdu-faq-q::-webkit-details-marker{display:none;}
-    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
-    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
-    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
-  </style>
-  <h2>Frequently Asked Questions</h2>
-    <details class="mdu-faq-item">
-      <summary class="mdu-faq-q">Is the Nursing program at Maya Devi University approved by INC?</summary>
-      <p class="mdu-faq-a">Yes. The B.Sc. Nursing and GNM programs at Maya Devi University are approved by the Indian Nursing Council (INC), which is the statutory body governing nursing education in India.</p>
-    </details>
-    <details class="mdu-faq-item">
-      <summary class="mdu-faq-q">What is the eligibility for B.Sc. Nursing at Maya Devi University?</summary>
-      <p class="mdu-faq-a">Candidates must have passed 10+2 with Physics, Chemistry, and Biology (PCB) with minimum 45% marks. Age must be between 17 and 35 years. NEET score is required for B.Sc. Nursing admission.</p>
-    </details>
-    <details class="mdu-faq-item">
-      <summary class="mdu-faq-q">What are the career options after B.Sc. Nursing from MDU?</summary>
-      <p class="mdu-faq-a">Graduates can work as staff nurses in hospitals, community health centers, and nursing homes. International placement opportunities are also available in countries like Germany, UK, Australia, and Gulf nations. Top hospital recruiters include Apollo, Fortis, Max Healthcare, and AIIMS.</p>
-    </details>
-</section>
+<?php echo seo_faq($seo); ?>
 
 <?php require "common/footer.php"?>

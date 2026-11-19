@@ -3,12 +3,21 @@ $page_title = "B.Sc Microbiology in Dehradun | Maya Devi University";
 $page_description = "Join B.Sc Microbiology at Maya Devi University, Dehradun with modern microbiology labs and hands-on research training.";
 $canonical_url = "https://maya.edu.in/bsc-microbiology.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Sc. Microbiology',
+    "description" => 'The B.Sc. Microbiology program at Maya Devi University provides in-depth study of microorganisms, including bacteria, viruses, fungi, algae, and protozoa. The curriculum covers microbial physiology, immunology, biochemistry, molecular biology, biotechnology, genetics, virology, and environmental microbiology.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/micro.webp);">
         <div class="container">
-            <h2>B.Sc. Microbiology</h2>
+            <h1>B.Sc. Microbiology</h1>
             <p>The B.Sc. Microbiology program is designed to provide students with scientific knowledge and practical skills in studying microorganisms, their structure, functions, and impact on humans, animals, plants, and the environment. It emphasizes laboratory techniques, research skills, and biotechnology applications, preparing graduates for careers in healthcare, pharmaceuticals, food industry, research labs, and higher studies in India and abroad.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/micro.webp" alt="">
+                        <img src="assets/uploads/micro.webp" alt="B.Sc. Microbiology at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -99,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-botany.php"><img class="animated" src="assets/uploads/botany.webp" alt=""></a>
+                                    <a href="bsc-botany.php"><img class="animated" src="assets/uploads/botany.webp" alt="B.Sc. Botany at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-botany.php">B.Sc. Botany</a></h4>
@@ -123,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-zoology.php"><img class="animated" src="assets/uploads/zoology.webp" alt=""></a>
+                                    <a href="bsc-zoology.php"><img class="animated" src="assets/uploads/zoology.webp" alt="B.Sc. Zoology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-zoology.php">B.Sc. Zoology</a></h4>
@@ -147,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-chemistry.php"><img class="animated" src="assets/uploads/chemistry.webp" alt=""></a>
+                                    <a href="bsc-chemistry.php"><img class="animated" src="assets/uploads/chemistry.webp" alt="B.Sc. Chemistry at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-chemistry.php">B.Sc. Chemistry</a></h4>

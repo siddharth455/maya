@@ -1,462 +1,467 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://maya.edu.in/</loc>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://maya.edu.in/Bachelor-of-Physical-Education-and-Sports.php</loc>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://maya.edu.in/Nursing.php</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/about-us.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/academic-collaboration.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/academic-leadership.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/act-and-statutes.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://maya.edu.in/advanced-certification-in-hotel-management.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://maya.edu.in/agriculture-at-maya-devi-university.php</loc>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/agriculture.php</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/anaesthesia-technology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/annual-balance-sheet.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/application-process.php</loc>
-    <lastmod>2026-07-11</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/approval-accredetion-membership-ranking.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/approval-accreditation-membership-ranking.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://maya.edu.in/arts-and-humanities.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://maya.edu.in/arts-humanities-at-maya-devi-university.php</loc>
+    <lastmod>2026-08-04</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b-tech-ai-ml.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b-tech-civil-structural-engineering.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b-tech-cs-ibm.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b-tech-cse.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b-tech-evt.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b-tech-food-technology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b-tech-hfct.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b-tech-le.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.sc-dialysis-technology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.tech-aerospace-engineering.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.tech-civil-engineering-le.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.tech-civil-engineering.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.tech-cyber_security.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.tech-data_science.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.tech-electronics-and-communication-engineering-le.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.tech-electronics-and-communication-engineering-robotics-ai.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.tech-electronics-and-communication-engineering-vlsi-embedded.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.tech-electronics-and-communication-engineering.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.tech-mechanical-engineering.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.tech-mechatronics-and-robotics.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.voc-agriculture.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.voc-aiml-data-analysis.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.voc-aviation.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.voc-bakery-pastry.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.voc-computer-technology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.voc-ecommerce-digital-marketing.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.voc-finance-taxation-accounting.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.voc-food-processing-nutrition.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.voc-food-production.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.voc-hotel-hospitality.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.voc-mass-media-production.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.voc-patient-healthcare.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.voc-pharma-assistance.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.voc-sales-marketing.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/b.voc-welding.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ba-clinical-psychology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ba-economics.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ba-english-literature.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ba-fine-arts.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ba-geography.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ba-hindi-literature.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ba-history.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ba-journalism-and-mass-communication.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ba-llb.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ba-mathematics.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ba-political-science.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ba-psychology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ba-sociology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ba-yoga.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bachelor-education.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bachelor-of-business-administration.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bachelor-of-commerce.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bachelor-of-computer-application-ai-and-ml.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bachelor-of-computer-application-cyber-security.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bachelor-of-computer-application-data-science.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bachelor-of-computer-application.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bachelor-of-science-in-computer-science.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bachelor-of-science-in-information-technology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bachelor-pharmacy-lateral-entry.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/bba-colleges-in-dehradun.php</loc>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bba-hospitality-management.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bba-llb.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/best-b-pharma-colleges-in-dehradun-uttarakhand.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/best-computer-engineering-college-in-dehradun-uttarakhand.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/best-d-pharma-college-in-dehradun-uttarakhand.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/best-engineering-college-in-dehradun-uttarakhand.php</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/best-master-of-commerce-college-in-dehradun.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/best-masters-of-business-administration-agri-business-management-college-in-dehradun.php</loc>
-    <lastmod>2026-07-19</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/best-masters-of-business-administration-business-analytics-college-in-dehradun.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/best-masters-of-business-administration-digital-marketing-college-in-dehradun.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/best-masters-of-business-administration-fintech-college-in-dehradun.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/best-masters-of-business-administration-human-resource-college-in-dehradun.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/best-masters-of-business-administration-logistic-management-college-in-dehradun.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/best-masters-of-business-administration-marketing-management-college-in-dehradun.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/best-masters-of-business-administration-pharmaceutical-management-college-in-dehradun.php</loc>
-    <lastmod>2026-07-19</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/best-masters-of-business-administration-sports-management-college-in-dehradun.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/best-masters-of-business-administration-travel-and-tourism-college-in-dehradun.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/best-nursing-college-in-dehradun-bsc-gnm.php</loc>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/best-universities-for-phd-in-dehradun.php</loc>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/best-university-for-phd-in-dehradun-uttarakhand.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bharat_pratibha_olympiad-2.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -466,362 +471,262 @@
   </url>
   <url>
     <loc>https://maya.edu.in/bhm-colleges-in-dehradun-uttarakhand.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bhm-lateral-entry-colleges-in-dehradun-uttarakhand.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bhmct-colleges-in-dehradun-uttarakhand.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bhmct-lateral-entry-colleges-in-dehradun-uttarakhand.php</loc>
-    <lastmod>2026-07-19</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/agriculture-at-maya-devi-university.php</loc>
-    <lastmod>2026-07-13</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/computer-engineering-at-maya-devi-university.php</loc>
-    <lastmod>2026-01-20</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/engineering-at-maya-devi-university.php</loc>
-    <lastmod>2026-01-25</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/pharmacy-at-maya-devi-university.php</loc>
-    <lastmod>2026-01-30</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/commerce-management-at-maya-devi-university.php</loc>
-    <lastmod>2026-02-05</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/nursing-at-maya-devi-university.php</loc>
-    <lastmod>2026-02-10</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/hotel-tourism-management-at-maya-devi-university.php</loc>
-    <lastmod>2026-02-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/law-legal-studies-at-maya-devi-university.php</loc>
-    <lastmod>2026-02-20</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/life-applied-science-at-maya-devi-university.php</loc>
-    <lastmod>2026-02-25</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/education-at-maya-devi-university.php</loc>
-    <lastmod>2026-03-01</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/health-sciences-at-maya-devi-university.php</loc>
-    <lastmod>2026-03-05</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/paramedical-sciences-at-maya-devi-university.php</loc>
-    <lastmod>2026-03-10</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/arts-humanities-at-maya-devi-university.php</loc>
-    <lastmod>2026-03-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/skill-development-vocational-studies-at-maya-devi-university.php</loc>
-    <lastmod>2026-03-20</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/rehabilitation-sciences-at-maya-devi-university.php</loc>
-    <lastmod>2026-03-25</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/bba-colleges-in-dehradun.php</loc>
-    <lastmod>2026-03-30</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/private-bed-colleges-dehradun.php</loc>
-    <lastmod>2025-04-26</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/btech-civil-engineering-uttarakhand.php</loc>
-    <lastmod>2026-04-30</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/best-nursing-college-in-dehradun-bsc-gnm.php</loc>
-    <lastmod>2026-05-05</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/best-universities-for-phd-in-dehradun.php</loc>
-    <lastmod>2026-05-10</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/scholarship.php</loc>
-    <lastmod>2026-01-31</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/blog.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bmlt.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bmrit.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bott.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bpt.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://maya.edu.in/bsc-agriculture-colleges-in-dehradun-uttarakhnad.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://maya.edu.in/bsc-agriculture-colleges-in-dehradun-uttarakhand.php</loc>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-biotechnology-hons.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-biotechnology.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-botany-hons.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-botany.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-cbz.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-chemistry-hons.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-chemistry.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-environmental-science-hons.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-environmental-science.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-forensic-hons.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-forensic-science.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-horticulture-colleges-in-dehradun-uttarakhand.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-mathematics-hons.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-mathematics.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-microbiology-hons.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-microbiology.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-nursing.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-pcm.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-physics-hons.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-physics.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-zoology-hons.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/bsc-zoology.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/btech-civil-engineering-uttarakhand.php</loc>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/campus-life.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/cardiac-care-technology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/care-giving.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/career.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/certification-in-hotel-management.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/clinical-psychology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/club.php</loc>
-    <lastmod>2026-07-11</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/coe.php</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/colleges-departments.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/commerce-management-at-maya-devi-university.php</loc>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/committees.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/computer-engineering-at-maya-devi-university.php</loc>
+    <lastmod>2026-07-31</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/contact.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/course.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/cvo.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/dialysis-technology.php</loc>
-    <lastmod>2026-07-19</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/Diploma-course.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/diploma-in-confectionary.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/diploma-in-food-production.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/diploma-in-hotel-management.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/doctor-pharmacy.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -831,12 +736,22 @@
   </url>
   <url>
     <loc>https://maya.edu.in/early-child-special-edu.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/early-rehabilitation-therapy.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/education-at-maya-devi-university.php</loc>
+    <lastmod>2026-08-03</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/engineering-at-maya-devi-university.php</loc>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -886,12 +801,12 @@
   </url>
   <url>
     <loc>https://maya.edu.in/event.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/examination-ordinance.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -901,332 +816,357 @@
   </url>
   <url>
     <loc>https://maya.edu.in/finance.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/food-technology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/genetics-and-plant-breeding.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/gnm.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/governance.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/health-sciences-at-maya-devi-university.php</loc>
+    <lastmod>2026-08-03</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/hearing-language-speech.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/horticulture-colleges-in-dehradun-uttarakhand.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/hospital-administration.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/hotel-management-and-tourism.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/hotel-tourism-management-at-maya-devi-university.php</loc>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/indian-sign-language.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/institutional-development-plan.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/iqac.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/law-legal-studies-at-maya-devi-university.php</loc>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/leadership.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://maya.edu.in/library.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <loc>https://maya.edu.in/life-applied-science-at-maya-devi-university.php</loc>
+    <lastmod>2026-08-03</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/llb.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/llm.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/m.tech-mechanical-engineering.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/m.tech-structural-engineering.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ma-clinical-psychology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ma-economics.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ma-english.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ma-evs.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ma-fine-arts.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ma-hindi-literature.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ma-journalism-and-mass-communication.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ma-maths.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ma-political-science.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ma-psychology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ma-sociology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/ma-yoga.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/management-and-commerce.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/master-in-agriculture.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/master-in-food-technology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/master-in-hospital-administration.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/master-in-public-health.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/master-of-hotel-management-and-tourism.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/master-of-hotel-management.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/master-pharmacy-pharmaceutics-chemistry.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/master-pharmacy-pharmaceutics.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/master-pharmacy-pharmacology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/mca-aiml.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/mca-cyber-security.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/mca-data-science.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/mca.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/mechanical-engineering-le.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/medical-lab-technology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/msc-biotechnology.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/msc-botany.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/msc-chemistry.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/msc-computer-science.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/msc-environmental-science.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/msc-forensic-science.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/msc-mathematics.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/msc-microbiology.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/msc-physics.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/msc-zoology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/mtech-cse.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/mtech-specializations-cse-ai-ml.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/nursing-assistant.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/nursing-at-maya-devi-university.php</loc>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/offices-services.php</loc>
-    <lastmod>2026-07-11</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/ombudsperson.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/operation-theatre-technology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/paramedical-sciences-at-maya-devi-university.php</loc>
+    <lastmod>2026-08-03</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/pharmacy-at-maya-devi-university.php</loc>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/pharmacy.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/placement-overview.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/post-graduate.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/president.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -1235,23 +1175,28 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://maya.edu.in/private-bed-colleges-dehradun.php</loc>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://maya.edu.in/pro-vice-chancelor.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/prosthetics-orthotics.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/public-health.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/radio-imaging-technology.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -1261,57 +1206,67 @@
   </url>
   <url>
     <loc>https://maya.edu.in/registrar.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/rehabilitation-sciences-at-maya-devi-university.php</loc>
+    <lastmod>2026-08-04</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/research.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/scholarship.php</loc>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/school-of-education.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/school-of-health-sciences.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/school-of-legal-studies.php</loc>
-    <lastmod>2026-07-19</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://maya.edu.in/School-Of-Paramedical-Sciences.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/school-of-rehabilitation-sciences.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/school-of-skill-development-and-vocational-studies.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/sciences.php</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maya.edu.in/skill-development-vocational-studies-at-maya-devi-university.php</loc>
+    <lastmod>2026-08-04</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/sports.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/staff-details-with-photograph.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -1321,37 +1276,37 @@
   </url>
   <url>
     <loc>https://maya.edu.in/ugc-mandatory-disclosure.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/undergraduate-course.php</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/university-library.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/university-recognition.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/vice-chancelor.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/vice-president.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://maya.edu.in/vision-mission.php</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>

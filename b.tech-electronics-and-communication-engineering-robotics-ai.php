@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/b.tech-electric-3.webp);">
         <div class="container">
-            <h2>B.Tech in Electronics and <br>Communication Engineering<br>(Robotics and AI)</h2>
+            <h1>B.Tech in Electronics and <br>Communication Engineering<br>(Robotics and AI)</h1>
             <p>Students gain strong foundations in circuit design, signal processing, and embedded systems. Advanced modules cover robotics mechanisms, autonomous systems, and machine learning algorithms. </p>
         </div>
     </div>

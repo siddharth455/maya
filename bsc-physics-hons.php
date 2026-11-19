@@ -3,12 +3,21 @@ $page_title = "Bachelor of Science (B.Sc.) Hons. in Physics | Maya Devi Universi
 $page_description = "The B.Sc. (Hons.) Physics program is designed to develop advanced conceptual, analytical, and research skills in physics, focusing on theoretical...";
 $canonical_url = "https://maya.edu.in/bsc-physics-hons.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Bachelor of Science (B.Sc.) Hons. in Physics',
+    "description" => 'The Bachelor of Science (B.Sc.) Hons. in Physics program at Maya Devi University offers an in-depth and specialized curriculum focused on classical physics, modern physics, computational physics, electronics, mathematical physics, and advanced experimental studies. The honors program provides extended research exposure, project work, seminars, and problem-based learning modules to strengthen scientific thinking and innovation.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/nursing-banner.webp);">
         <div class="container">
-            <h2>Bachelor of Science (B.Sc.) Hons. in Physics</h2>
+            <h1>Bachelor of Science (B.Sc.) Hons. in Physics</h1>
             <p>The B.Sc. (Hons.) Physics program is designed to develop advanced conceptual, analytical, and research skills in physics, focusing on theoretical understanding, mathematical applications, and scientific experimentation. It prepares students for higher studies, research, and professional scientific careers in national and international domains.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/nursing-1.jpg" alt="">
+                        <img src="assets/uploads/nursing-1.jpg" alt="Group of nurses and healthcare professionals in uniform">
                         <div class="course-apply-btn">
                             <a href="https://admission.maya.edu.in/" class="default-btn">APPLY NOW</a>
                         </div>
@@ -99,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-physics.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt=""></a>
+                                    <a href="bsc-physics.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt="B.Sc. Physics at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-physics.php">B.Sc. Physics</a></h4>
@@ -123,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-cbz.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt=""></a>
+                                    <a href="bsc-cbz.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt="B.Sc. CBZ at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-cbz.php">B.Sc. CBZ</a></h4>
@@ -147,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-environmental-science.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt=""></a>
+                                    <a href="bsc-environmental-science.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt="B.Sc. Environmental Science at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-environmental-science.php">B.Sc. Environmental Science</a></h4>

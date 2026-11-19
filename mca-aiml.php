@@ -3,12 +3,21 @@ $page_title = "MCA AI & ML in Dehradun | Maya Devi University";
 $page_description = "Enroll in MCA Artificial Intelligence & Machine Learning at Maya Devi University, Dehradun with real-world AI project training.";
 $canonical_url = "https://maya.edu.in/mca-aiml.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'MCA Specialization in Artificial Intelligence & Machine Learning',
+    "description" => 'The Master of Computer Applications (MCA) with a Specialization in Artificial Intelligence and Machine Learning (AIML) is a cutting-edge postgraduate program designed to meet the evolving demands of the tech industry. This two-year program provides students with an advanced understanding of computer applications, while offering specialized knowledge in the transformative fields of AI and ML.',
+    "credential" => 'Master\'s degree',
+    "time" => "P2Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/aiml-2.webp);">
         <div class="container">
-            <h2>MCA Specialization in Artificial Intelligence & Machine Learning</h2>
+            <h1>MCA Specialization in Artificial Intelligence & Machine Learning</h1>
             <p>The Master of Computer Applications (MCA) with a Specialization in Artificial Intelligence and Machine Learning (AIML) is a cutting-edge postgraduate program designed to meet the evolving demands of the tech industry. This two-year program provides students with an advanced understanding of computer applications, while offering specialized knowledge in the transformative fields of AI and ML.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/aiml-2.webp" alt="">
+                        <img src="assets/uploads/aiml-2.webp" alt="MCA Specialization in Artificial Intelligence &amp; Machine Learning at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -35,7 +44,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="tab-pane active mt-5" id="course-details-1">
                             <div class="over-view-content">
                                 <h4>COURSE  DETAILS</h4>
-                                <h5>Course Name : B.Tech CSE with Specialization AI & ML</h5>
+                                <h5>Course Name : MCA Specialization in Artificial Intelligence &amp; Machine Learning</h5>
                                 <p>The Bachelor of Technology (B.Tech) in Computer Science with a Specialization in Artificial Intelligence & Machine Learning (AI & ML) is a cutting-edge undergraduate program designed to equip students with a strong foundation in core computer science principles, while providing in-depth knowledge and practical skills in AI and ML technologies. This specialization emphasizes areas such as data science, deep learning, neural networks, natural language processing, computer vision, and intelligent systems.</p>
                                 <p>The curriculum blends theoretical concepts with hands-on learning, encouraging innovation, research, and real-world problem solving. Graduates of this program are prepared to contribute to transformative technological advancements across industries such as healthcare, finance, robotics, and automation.</p>
                                 <p>This program nurtures critical thinking, analytical skills, and ethical awareness—empowering students to lead the future of intelligent systems and machine learning applications.</p>
@@ -86,7 +95,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b-tech-ai-ml.php"><img class="animated" src="assets/uploads/ai.jpeg" alt=""></a>
+                                    <a href="b-tech-ai-ml.php"><img class="animated" src="assets/uploads/ai.jpeg" alt="Students at computers during a session in a computer lab"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b-tech-ai-ml.php">B.Tech. Computer Science & Engineering (AIML) with IBM</a></h4>
@@ -110,7 +119,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-data_science.php"><img class="animated" src="assets/uploads/data-science.webp" alt=""></a>
+                                    <a href="b.tech-data_science.php"><img class="animated" src="assets/uploads/data-science.webp" alt="B.Tech. Computer Science &amp; Engineering (Data Science) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.tech-data_science.php">B.Tech. Computer Science & Engineering (Data Science)</a></h4>
@@ -134,7 +143,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-cyber_security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt=""></a>
+                                    <a href="b.tech-cyber_security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt="B.Tech. Computer Science &amp; Engineering (Cyber Security &amp; Forensics) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.tech-cyber_security.php">B.Tech. Computer Science & Engineering (Cyber Security & Forensics)</a></h4>
@@ -158,7 +167,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b-tech-cse.php"><img class="animated" src="assets/uploads/computer.webp" alt=""></a>
+                                    <a href="b-tech-cse.php"><img class="animated" src="assets/uploads/computer.webp" alt="B.Tech. Computer Science &amp; Engineering at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b-tech-cse.php">B.Tech. Computer Science & Engineering</a></h4>

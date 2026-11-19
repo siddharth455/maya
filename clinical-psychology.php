@@ -3,12 +3,20 @@ $page_title = "Clinical Psychology Course in Dehradun | Maya Devi University";
 $page_description = "Study Clinical Psychology at Maya Devi University, Dehradun with practical mental health training and expert faculty guidance.";
 $canonical_url = "https://maya.edu.in/clinical-psychology.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Sc. in Clinical Psychology (Hons.)',
+    "description" => 'The B.Sc. in Clinical Psychology (Hons.) is a 3-year undergraduate program, structured to provide a comprehensive understanding of psychological theories, cognitive processes, behavioral patterns, human development, and psychopathology. Students learn about psychological assessment tools, diagnostic techniques, therapeutic interventions, and case-study analysis. The curriculum includes subjects such as biopsychology, abnormal psychology, counseling psychology, statistics, research methodology, and personality studies.',
+    "credential" => 'Bachelor\'s degree',
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/paramedical.webp);">
         <div class="container">
-            <h2>B.Sc. in Clinical Psychology (Hons.)</h2>
+            <h1>B.Sc. in Clinical Psychology (Hons.)</h1>
             <p>B.Sc. in Clinical Psychology (Hons.) is an undergraduate degree program that focuses on understanding human behavior, mental processes, emotional development, and psychological disorders. The course equips students with scientific knowledge of psychology, essentials of mental health, assessment techniques, therapeutic models, counseling skills, and early intervention methods.</p>
         </div>
     </div>
@@ -26,7 +34,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/paramedical.webp" alt="">
+                        <img src="assets/uploads/paramedical.webp" alt="B.Sc. in Clinical Psychology (Hons.) at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -100,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="prosthetics-orthotics.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="prosthetics-orthotics.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Prosthetics and Orthotics at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="prosthetics-orthotics.php">Prosthetics and Orthotics</a></h4>
@@ -124,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="hearing-language-speech.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="hearing-language-speech.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Hearing Language and Speech at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="hearing-language-speech.php">Hearing Language and Speech</a></h4>
@@ -148,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="care-giving.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="care-giving.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Certificate Course in Care Giving at Maya Devi University"></a>
                                     <span>Certificate Programs</span>
                                 </div>
                                 <div class="course-content">

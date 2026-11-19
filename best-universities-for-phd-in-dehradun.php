@@ -1,6 +1,6 @@
 <?php
-$page_title = "Best Universities for PhD in Dehradun 2026 | Maya Devi University PhD Admission Guide";
-$page_description = "Looking for the best universities for PhD in Dehradun? Explore Maya Devi University and other top PhD colleges in Dehradun with details on eligibility, admission process, research areas, scholarships, and career scope for 2026.";
+$page_title = "Best Universities for PhD in Dehradun 2027 | PhD Admission Guide";
+$page_description = "Looking for the best universities for PhD in Dehradun? Explore Maya Devi University and other top PhD colleges in Dehradun with details on eligibility, admission process, research areas, scholarships, and career scope for 2027.";
 $canonical_url = "https://maya.edu.in/best-universities-for-phd-in-dehradun.php";
 $og_image = "https://maya.edu.in/assets/uploads/phd-blog.png";
 ?>
@@ -14,14 +14,15 @@ $og_image = "https://maya.edu.in/assets/uploads/phd-blog.png";
       "@type": "WebPage",
       "@id": "https://maya.edu.in/best-universities-for-phd-in-dehradun.php",
       "url": "https://maya.edu.in/best-universities-for-phd-in-dehradun.php",
-      "name": "Best Universities for PhD in Dehradun 2026 | Maya Devi University PhD Admission Guide",
-      "description": "Looking for the best universities for PhD in Dehradun? Explore Maya Devi University and other top PhD colleges in Dehradun with details on eligibility, admission process, research areas, scholarships, and career scope for 2026."
+      "name": "Best Universities for PhD in Dehradun 2027 | PhD Admission Guide",
+      "description": "Looking for the best universities for PhD in Dehradun? Explore Maya Devi University and other top PhD colleges in Dehradun with details on eligibility, admission process, research areas, scholarships, and career scope for 2027."
     },
     {
       "@type": "BlogPosting",
-      "headline": "Best Universities for PhD in Dehradun (2026 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth",
+      "headline": "Best Universities for PhD in Dehradun (2027 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth",
       "image": ["https://maya.edu.in/assets/uploads/phd-blog.png"],
       "datePublished": "2026-05-10",
+      "dateModified": "2026-11-13",
       "author": {
         "@type": "Organization",
         "name": "Maya Devi University"
@@ -34,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/phd-blog.png";
           "url": "https://maya.edu.in/assets/img/logo.png"
         }
       },
-      "description": "Looking for the best universities for PhD in Dehradun? Explore Maya Devi University and other top PhD colleges in Dehradun with details on eligibility, admission process, research areas, scholarships, and career scope for 2026.",
+      "description": "Looking for the best universities for PhD in Dehradun? Explore Maya Devi University and other top PhD colleges in Dehradun with details on eligibility, admission process, research areas, scholarships, and career scope for 2027.",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://maya.edu.in/best-universities-for-phd-in-dehradun.php"
@@ -125,9 +126,11 @@ $og_image = "https://maya.edu.in/assets/uploads/phd-blog.png";
                                 <span class="badge-tag-category">Research & Doctoral Studies</span>
                             </div>
 
-                            <h1 class="blog-main-title my-3">Best Universities for PhD in Dehradun (2026 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth</h1>
+                            <h1 class="blog-main-title my-3">Best Universities for PhD in Dehradun (2027 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth</h1>
 
-                            <p class="lead">Looking for the best universities for PhD in Dehradun? Explore Maya Devi University and other top PhD colleges in Dehradun with details on eligibility, admission process, research areas, scholarships, and career scope for 2026.</p>
+                            <p class="lead">Looking for the best universities for PhD in Dehradun? Explore Maya Devi University and other top PhD colleges in Dehradun with details on eligibility, admission process, research areas, scholarships, and career scope for 2027.</p>
+
+                            <p class="mdu-main-link">Ready to apply? See <a href="best-university-for-phd-in-dehradun-uttarakhand.php">PhD admission at Maya Devi University</a>.</p>
 
                             <!-- Table of Contents -->
                             <div class="p-3 mb-4 bg-light border border-success rounded">
@@ -386,7 +389,7 @@ $og_image = "https://maya.edu.in/assets/uploads/phd-blog.png";
                             <p>Ready to advance your academic and research career? Maya Devi University provides the ideal environment, state-of-the-art facilities, and faculty guidance to support your PhD research.</p>
 
                             <p class="mt-4">
-                                <a href="https://admissions.maya.edu.in" target="_blank" class="btn btn-primary px-4 py-2 mr-2">Apply for PhD 2026</a> 
+                                <a href="https://admissions.maya.edu.in" target="_blank" class="btn btn-primary px-4 py-2 mr-2">Apply for PhD 2027</a> 
                                 or explore <a href="best-university-for-phd-in-dehradun-uttarakhand.php" class="text-success font-weight-bold">MDU Doctoral Programs</a>.
                             </p>
 
@@ -397,7 +400,7 @@ $og_image = "https://maya.edu.in/assets/uploads/phd-blog.png";
                                         <li><span class="badge-tag">PhD universities in Dehradun</span></li>
                                         <li><span class="badge-tag">Maya Devi University PhD</span></li>
                                         <li><span class="badge-tag">Best PhD colleges in Dehradun</span></li>
-                                        <li><span class="badge-tag">PhD admission in Dehradun 2026</span></li>
+                                        <li><span class="badge-tag">PhD admission in Dehradun 2027</span></li>
                                     </ul>
                                 </div>
                             </div>

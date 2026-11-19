@@ -3,12 +3,21 @@ $page_title = "Anaesthesia Technology Course in Dehradun | Maya Devi University"
 $page_description = "Join Anaesthesia Technology program at Maya Devi University, Dehradun with hospital-based clinical training and expert faculty guidance.";
 $canonical_url = "https://maya.edu.in/anaesthesia-technology.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Sc. in Anaesthesia Technology',
+    "description" => 'Core subjects include human anatomy, physiology, anaesthesia techniques, pharmacology, and patient monitoring. Students learn to assist anesthesiologists, prepare anaesthesia equipment, and ensure patient safety before, during, and after surgical procedures. The curriculum emphasizes practical training in anaesthesia administration and emergency management.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/Anaesthesia.webp);">
         <div class="container">
-            <h2>B.Sc. in Anaesthesia Technology</h2>
+            <h1>B.Sc. in Anaesthesia Technology</h1>
             <p>It focuses on equipping students with the knowledge and skills required to assist anesthesiologists during surgical procedures and in critical care settings. </p>
         </div>
     </div>

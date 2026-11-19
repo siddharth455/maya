@@ -3,12 +3,21 @@ $page_title = "Food Technology Course in Dehradun | Maya Devi University";
 $page_description = "Study Food Technology at Maya Devi University, Dehradun with advanced food science labs and industry-focused curriculum.";
 $canonical_url = "https://maya.edu.in/food-technology.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Bachelor of Science in Food Technology',
+    "description" => 'The Bachelor of Food Technology program provides in-depth knowledge and practical expertise in all aspects of food science and technology, including food processing, preservation, quality control, nutrition, and safety standards. Students gain both theoretical understanding and hands-on skills essential for careers in the food industry, research, and product development.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/food.webp);">
         <div class="container">
-            <h2>Bachelor of Science in Food Technology</h2>
+            <h1>Bachelor of Science in Food Technology</h1>
             <p>The Bachelor of Food Technology program equips students with in-depth knowledge and hands-on skills in food processing, preservation, quality assurance, and modern food production techniques.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/food.webp" alt="">
+                        <img src="assets/uploads/food.webp" alt="Bachelor of Science in Food Technology at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -99,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/agri.webp" alt=""></a>
+                                    <a href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/agri.webp" alt="B.Sc in Agriculture at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php">B.Sc in Agriculture</a></h4>
@@ -123,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="master-in-agriculture.php"><img class="animated" src="assets/uploads/agriculture.webp" alt=""></a>
+                                    <a href="master-in-agriculture.php"><img class="animated" src="assets/uploads/agriculture.webp" alt="Master in agriculture at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="master-in-agriculture.php">Master in agriculture</a></h4>
@@ -147,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="food-technology.php"><img class="animated" src="assets/uploads/food.webp" alt=""></a>
+                                    <a href="food-technology.php"><img class="animated" src="assets/uploads/food.webp" alt="Bachelor in Food Technology (Hons.) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="food-technology.php">Bachelor in Food Technology (Hons.)</a></h4>

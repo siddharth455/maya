@@ -3,12 +3,21 @@ $page_title = "Public Health Course in Dehradun | Maya Devi University";
 $page_description = "Study Public Health at Maya Devi University, Dehradun with healthcare management and community health training.";
 $canonical_url = "https://maya.edu.in/public-health.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Bachelor in Public Health (BPH)',
+    "description" => 'Core subjects include public health principles, epidemiology, health promotion, healthcare management, biostatistics, and community health. Students learn to design, implement, and evaluate public health programs, promote population health, and manage healthcare initiatives in community and clinical settings. The curriculum emphasizes leadership, policy planning, and evidence-based health interventions.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/bph.webp);">
         <div class="container">
-            <h2>Bachelor in Public Health (BPH)</h2>
+            <h1>Bachelor in Public Health (BPH)</h1>
             <p>The curriculum blends theoretical foundations with practical applications in epidemiology, health promotion, policy, and environmental health.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/bph.webp" alt="">
+                        <img src="assets/uploads/bph.webp" alt="Bachelor in Public Health (BPH) at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -100,7 +109,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="operation-theatre-technology.php"><img class="animated" src="assets/uploads/ott.webp" alt=""></a>
+                                    <a href="operation-theatre-technology.php"><img class="animated" src="assets/uploads/ott.webp" alt="B.Sc. in Operation Theatre Technology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="operation-theatre-technology.php">B.Sc. in Operation Theatre Technology</a></h4>
@@ -124,7 +133,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="medical-lab-technology.php"><img class="animated" src="assets/uploads/mlt.webp" alt=""></a>
+                                    <a href="medical-lab-technology.php"><img class="animated" src="assets/uploads/mlt.webp" alt="B.Sc. in Medical Laboratory Technology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="medical-lab-technology.php">B.Sc. in Medical Laboratory Technology
@@ -149,7 +158,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="cardiac-care-technology.php"><img class="animated" src="assets/uploads/cardiac.webp" alt=""></a>
+                                    <a href="cardiac-care-technology.php"><img class="animated" src="assets/uploads/cardiac.webp" alt="B.Sc. in Cardiac Care Technology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="cardiac-care-technology.php">B.Sc. in Cardiac Care Technology</a></h4>

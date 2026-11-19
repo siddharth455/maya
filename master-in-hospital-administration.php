@@ -3,12 +3,21 @@ $page_title = "Master in Hospital Administration in Dehradun | Maya Devi Univers
 $page_description = "Study Master in Hospital Administration at Maya Devi University, Dehradun with healthcare management expertise.";
 $canonical_url = "https://maya.edu.in/master-in-hospital-administration.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Master in Hospital Administration (MHA)',
+    "description" => 'Core subjects include advanced hospital management, healthcare operations, medical ethics, public health policy, and healthcare finance. Students learn to lead hospital departments, optimize healthcare services, and manage administrative functions in clinical and non-clinical settings. The curriculum emphasizes strategic leadership, decision-making, and healthcare management practices.',
+    "credential" => 'Master\'s degree',
+    "time" => "P2Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/mha.webp);">
         <div class="container">
-            <h2>Master in Hospital Administration (MHA)</h2>
+            <h1>Master in Hospital Administration (MHA)</h1>
             <p>It focuses on the principles of management, healthcare operations, and policy implementation. Students gain a comprehensive understanding of hospital systems, healthcare laws, and organizational behavior, enabling them to manage healthcare facilities efficiently and ethically.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/mha.webp" alt="">
+                        <img src="assets/uploads/mha.webp" alt="Master in Hospital Administration (MHA) at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -87,7 +96,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="operation-theatre-technology.php"><img class="animated" src="assets/uploads/ott.webp" alt=""></a>
+                                    <a href="operation-theatre-technology.php"><img class="animated" src="assets/uploads/ott.webp" alt="B.Sc. in Operation Theatre Technology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="operation-theatre-technology.php">B.Sc. in Operation Theatre Technology</a></h4>
@@ -111,7 +120,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="medical-lab-technology.php"><img class="animated" src="assets/uploads/mlt.webp" alt=""></a>
+                                    <a href="medical-lab-technology.php"><img class="animated" src="assets/uploads/mlt.webp" alt="B.Sc. in Medical Laboratory Technology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="medical-lab-technology.php">B.Sc. in Medical Laboratory Technology
@@ -136,7 +145,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="cardiac-care-technology.php"><img class="animated" src="assets/uploads/cardiac.webp" alt=""></a>
+                                    <a href="cardiac-care-technology.php"><img class="animated" src="assets/uploads/cardiac.webp" alt="B.Sc. in Cardiac Care Technology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="cardiac-care-technology.php">B.Sc. in Cardiac Care Technology</a></h4>

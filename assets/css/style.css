@@ -2647,7 +2647,8 @@ textarea:focus {
     padding-top: 100px;
   }
 }
-.slider-content h1 {
+.slider-content h1,
+.slider-content .slider-title {
   font-size: 60px;
   color: #fff;
   font-weight: bold;
@@ -2655,22 +2656,26 @@ textarea:focus {
   line-height: 1;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1365px) {
-  .slider-content h1 {
+  .slider-content h1,
+  .slider-content .slider-title {
     font-size: 65px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .slider-content h1 {
+  .slider-content h1,
+  .slider-content .slider-title {
     font-size: 55px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .slider-content h1 {
+  .slider-content h1,
+  .slider-content .slider-title {
     font-size: 40px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .slider-content h1 {
+  .slider-content h1,
+  .slider-content .slider-title {
     font-size: 28px;
   }
 }
@@ -2744,7 +2749,8 @@ textarea:focus {
   animation-fill-mode: both;
 }
 
-.owl-item.active .slider-animated-1 h1 {
+.owl-item.active .slider-animated-1 h1,
+.owl-item.active .slider-animated-1 .slider-title {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
   -webkit-animation-name: fadeInLeft;
@@ -3813,6 +3819,7 @@ textarea:focus {
   height: 600px;
   z-index: 9;
 }
+.breadcrumb-top h1,
 .breadcrumb-top h2 {
   font-weight: bold;
   font-size: 48px;
@@ -3821,7 +3828,12 @@ textarea:focus {
   z-index: 9;
   position: relative;
 }
+/* page-title H1 in the banner keeps the old H2 line spacing */
+.breadcrumb-top h1 {
+  line-height: 36px;
+}
 @media only screen and (max-width: 767px) {
+  .breadcrumb-top h1,
   .breadcrumb-top h2 {
     font-size: 35px;
     margin: 0 0 10px;

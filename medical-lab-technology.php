@@ -3,12 +3,21 @@ $page_title = "Medical Lab Technology Course in Dehradun | Maya Devi University"
 $page_description = "Enroll in Medical Lab Technology at Maya Devi University, Dehradun with advanced diagnostic laboratory training.";
 $canonical_url = "https://maya.edu.in/medical-lab-technology.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Sc. in Medical Laboratory Technology (BMLT)',
+    "description" => 'Core subjects include medical laboratory techniques, clinical biochemistry, microbiology, hematology, and pathology. Students learn to perform diagnostic tests, analyze samples, and operate laboratory equipment accurately. The curriculum emphasizes practical training, laboratory procedures, and maintaining safety and quality standards.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/mlt.webp);">
         <div class="container">
-            <h2>B.Sc. in Medical Laboratory Technology</h2>
+            <h1>B.Sc. in Medical Laboratory Technology</h1>
             <p>This program is designed to develop skilled professionals in the field of medical diagnostics. Students are trained in a wide range of laboratory techniques including hematology, microbiology, biochemistry, and pathology.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/mlt.webp" alt="">
+                        <img src="assets/uploads/mlt.webp" alt="B.Sc. in Medical Laboratory Technology (BMLT) at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -101,7 +110,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.sc-dialysis-technology.php"><img class="animated" src="assets/uploads/dialysis.webp" alt=""></a>
+                                    <a href="b.sc-dialysis-technology.php"><img class="animated" src="assets/uploads/dialysis.webp" alt="B.Sc. in Dialysis Technology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.sc-dialysis-technology.php">B.Sc. in Dialysis Technology</a></h4>
@@ -125,7 +134,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="operation-theatre-technology.php"><img class="animated" src="assets/uploads/ott.webp" alt=""></a>
+                                    <a href="operation-theatre-technology.php"><img class="animated" src="assets/uploads/ott.webp" alt="B.Sc. in Operation Theatre Technology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="operation-theatre-technology.php">B.Sc. in Operation Theatre Technology</a></h4>
@@ -149,7 +158,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="radio-imaging-technology.php"><img class="animated" src="assets/uploads/rit.webp" alt=""></a>
+                                    <a href="radio-imaging-technology.php"><img class="animated" src="assets/uploads/rit.webp" alt="B.Sc in Radio Imaging Technology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="radio-imaging-technology.php">B.Sc in Radio Imaging Technology</a></h4>

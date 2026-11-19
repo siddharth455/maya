@@ -150,7 +150,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
             <div class="col-md-4">
                 <div class="card shadow-sm h-100">
-                    <img src="assets/uploads/cultural.webp" class="card-img-top">
+                    <img alt="Student performing on stage at a cultural event" src="assets/uploads/cultural.webp" class="card-img-top">
                     <div class="card-body">
                         <h5 class="fw-bold">Cultural & Arts Club</h5>
                         <p>A hub of creativity that promotes dance, drama, fine arts, music, and cultural festivals throughout the year.</p>
@@ -160,7 +160,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
             <div class="col-md-4">
                 <div class="card shadow-sm h-100">
-                    <img src="assets/uploads/technology.webp" class="card-img-top">
+                    <img alt="Faculty and guests with a humanoid robot at a technology event" src="assets/uploads/technology.webp" class="card-img-top">
                     <div class="card-body">
                         <h5 class="fw-bold">Technology & Coding Club</h5>
                         <p>Workshops, hackathons, AI projects, app development, and robotics — a place for innovators and problem-solvers.</p>
@@ -170,7 +170,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
             <div class="col-md-4">
                 <div class="card shadow-sm h-100">
-                    <img src="assets/uploads/sports.webp" class="card-img-top">
+                    <img alt="Students with bicycles and helmets at a cycling event" src="assets/uploads/sports.webp" class="card-img-top">
                     <div class="card-body">
                         <h5 class="fw-bold">Sports Club & Athletics</h5>
                         <p>Students participate in cricket, football, volleyball, athletics, indoor games, and intercollegiate competitions.</p>
@@ -192,9 +192,9 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         </p>
 
         <div class="row g-4">
-            <div class="col-md-4"><img class="facility-img" src="assets/uploads/sports-2.webp"></div>
-            <div class="col-md-4"><img class="facility-img" src="assets/uploads/sports.webp"></div>
-            <div class="col-md-4"><img class="facility-img" src="assets/uploads/yoga.webp"></div>
+            <div class="col-md-4"><img alt="Maya Devi University achiever with a medal and a book of records certificate" class="facility-img" src="assets/uploads/sports-2.webp"></div>
+            <div class="col-md-4"><img alt="Students with bicycles and helmets at a cycling event" class="facility-img" src="assets/uploads/sports.webp"></div>
+            <div class="col-md-4"><img alt="Students in a yoga session at Maya Devi University" class="facility-img" src="assets/uploads/yoga.webp"></div>
         </div>
     </div>
 </section>
@@ -214,11 +214,11 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="assets/uploads/library.png" class="facility-img">
+                <img alt="Student reading a book in the university library" src="assets/uploads/library.png" class="facility-img">
             </div>
 
             <div class="col-md-6">
-                <img src="assets/uploads/b.tech-electric-2.webp" class="facility-img">
+                <img alt="Students working with equipment in the electrical engineering lab" src="assets/uploads/b.tech-electric-2.webp" class="facility-img">
             </div>
             <div class="col-md-6">
                 <h4 class="fw-bold">Laboratories & Research Spaces</h4>
@@ -236,7 +236,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="assets/uploads/hostel.jpg" class="facility-img">
+                <img alt="Students having a meal in the hostel mess" src="assets/uploads/hostel.jpg" class="facility-img">
             </div>
         </div>
     </div>
@@ -285,7 +285,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
         <div class="row g-4">
             <div class="col-md-6">
-                <img class="facility-img" src="assets/uploads/event.webp">
+                <img alt="Singer performing on stage at a campus event" class="facility-img" src="assets/uploads/event.webp">
             </div>
 
             <div class="col-md-6">
@@ -321,7 +321,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                 </ul>
             </div>
             <div class="col-md-6">
-                <img class="facility-img" src="assets/uploads/food-court.webp">
+                <img alt="Students eating together in the food court" class="facility-img" src="assets/uploads/food-court.webp">
             </div>
         </div>
     </div>
@@ -371,18 +371,18 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <h2 class="section-title text-center mb-4">Campus Gallery</h2>
 
         <div class="row g-4 gallery">
-            <div class="col-md-3"><img src="assets/uploads/campus-1.webp"></div>
-            <div class="col-md-3"><img src="assets/uploads/transport.webp"></div>
-            <div class="col-md-3"><img src="assets/uploads/auditorium.jpg"></div>
-            <div class="col-md-3"><img src="assets/uploads/ba-7.webp"></div>
-            <div class="col-md-3"><img src="assets/uploads/ai.jpeg"></div>
-            <div class="col-md-3"><img src="assets/uploads/campus-3.jpeg"></div>
-            <div class="col-md-3"><img src="assets/uploads/campus-4.jpeg"></div>
-            <div class="col-md-3"><img src="assets/uploads/campus-5.jpeg"></div>
-             <div class="col-md-3"><img src="assets/uploads/campus-6.jpeg"></div>
-            <div class="col-md-3"><img src="assets/uploads/campus-7.jpeg"></div>
-            <div class="col-md-3"><img src="assets/uploads/campus-8.jpeg"></div>
-            <div class="col-md-3"><img src="assets/uploads/campus-9.jpeg"></div>
+            <div class="col-md-3"><img alt="Reception area with the Maya Devi University emblem" src="assets/uploads/campus-1.webp"></div>
+            <div class="col-md-3"><img alt="University buses parked outside a campus building" src="assets/uploads/transport.webp"></div>
+            <div class="col-md-3"><img alt="Students attending a talk in the university auditorium" src="assets/uploads/auditorium.jpg"></div>
+            <div class="col-md-3"><img alt="Students meditating on yoga mats in a hall" src="assets/uploads/ba-7.webp"></div>
+            <div class="col-md-3"><img alt="Students at computers during a session in a computer lab" src="assets/uploads/ai.jpeg"></div>
+            <div class="col-md-3"><img alt="Students sitting on the campus steps" src="assets/uploads/campus-3.jpeg"></div>
+            <div class="col-md-3"><img alt="Students in a group discussion around a table" src="assets/uploads/campus-4.jpeg"></div>
+            <div class="col-md-3"><img alt="Students studying at a table in the library" src="assets/uploads/campus-5.jpeg"></div>
+             <div class="col-md-3"><img alt="Students working on a drone with a faculty member" src="assets/uploads/campus-6.jpeg"></div>
+            <div class="col-md-3"><img alt="Students working in a science laboratory" src="assets/uploads/campus-7.jpeg"></div>
+            <div class="col-md-3"><img alt="Students looking at a notebook together on campus" src="assets/uploads/campus-8.jpeg"></div>
+            <div class="col-md-3"><img alt="Students sitting on the steps outside a campus building" src="assets/uploads/campus-9.jpeg"></div>
         </div>
     </div>
 </section>

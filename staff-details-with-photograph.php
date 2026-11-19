@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <div class="breadcrumb-area">
   <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/maya.webp);">
     <div class="container">
-      <h2>Staff Details With Photograph</h2>
+      <h1>Staff Details With Photograph</h1>
       <p>Comprehensive information about our dedicated faculty and staff members, including their qualifications, experience, and photographs, showcasing the expertise that drives our academic excellence.</p>
     </div>
   </div>

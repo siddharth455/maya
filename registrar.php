@@ -9,7 +9,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <section class="maya-president-message">
   <div class="maya-president-wrapper">
     <div class="maya-president-header">
-      <h2 class="maya-president-heading">Message from the Registrar</h2>
+      <h1 class="maya-president-heading">Message from the Registrar</h1>
       <span class="maya-heading-line"></span>
     </div>
 

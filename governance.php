@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/maya.webp);">
         <div class="container">
-            <h2>About Governance</h2>
+            <h1>About Governance</h1>
             <p>Understanding the governance structure that drives excellence at Maya Devi University</p>
         </div>
     </div>

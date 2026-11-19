@@ -1,6 +1,6 @@
 <?php
-$page_title = "Best Engineering College in Dehradun Uttarakhand | Maya Devi University";
-$page_description = "Maya Devi University is recognized as one of the best engineering colleges in Dehradun offering B.Tech programs with strong placement support.";
+$page_title = "Best B.Tech College in Dehradun 2027 | Engineering at MDU";
+$page_description = "B.Tech admission 2027 at Maya Devi University, Dehradun: CSE (AI & ML, Data Science, Cyber Security), Civil, Mechanical, ECE and Aerospace. Apply now.";
 $canonical_url = "https://maya.edu.in/best-engineering-college-in-dehradun-uttarakhand.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 $page_schema = <<<SCHEMA
@@ -230,47 +230,12 @@ $page_schema = <<<SCHEMA
  ]
 }
 </script>
-<script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@type": "FAQPage",
- "mainEntity": [
-  {
-   "@type": "Question",
-   "name": "Which engineering branches are available at Maya Devi University?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Maya Devi University offers B.Tech in Civil Engineering, Mechanical Engineering (including Mechatronics), Electronics & Communication Engineering (with VLSI & Embedded Systems and Robotics & AI specializations), and Aerospace Engineering."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "Is AICTE approval available for engineering programs at Maya Devi University?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Yes. Maya Devi University's engineering programs are approved by the All India Council for Technical Education (AICTE)."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "Does MDU offer lateral entry for B.Tech?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Yes. Maya Devi University offers lateral entry (B.Tech LE) for diploma holders in relevant engineering disciplines, allowing direct admission to the second year."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "What PG engineering courses does Maya Devi University offer?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Maya Devi University offers M.Tech in Structural Engineering and M.Tech in Mechanical Engineering, both 2-year full-time programs designed for engineering graduates seeking advanced specialization."
-   }
-  }
- ]
-}
-</script>
 SCHEMA;
+
+// Batch 2 SEO content: intro, at-a-glance table, why-choose list and FAQs (schema matches visible FAQs)
+require_once "common/course-seo.php";
+$seo = course_seo("engineering");
+$page_schema .= seo_faq_schema($seo);
 ?>
 <?php require "common/header.php"?>
 
@@ -284,17 +249,13 @@ SCHEMA;
   <!-- About Section -->
 <section class="container py-5">
 <div class="section-title  pb-20">
-    <h2>School <span>Overview</h2>
+    <?php echo seo_css(); ?>
+    <h1 class="seo-h1">Best Engineering College in Dehradun <span>– B.Tech at Maya Devi University</span></h1>
     </div>
   <div class="row">
     <!-- Left Text -->
     <div class="col-md-7">
-      <p>
-      The School of Engineering at Maya Devi University is committed to driving technological progress by combining academic rigor with innovation and societal responsibility. Guided by a vision to be a hub of excellence and discovery, the School nurtures future engineers who are not only skilled professionals but also ethical leaders—capable of designing solutions that benefit humanity.
-      </p>
-      <p>
-      Our programs are crafted to provide a dynamic and immersive learning experience, blending strong fundamentals with exposure to emerging technologies. With state-of-the-art infrastructure, research-driven teaching, and industry collaboration, students gain the technical expertise, creativity, and problem-solving mindset required to excel in a rapidly evolving world.
-      </p>
+      <?php echo seo_intro($seo); ?>
       <p>Through global perspectives, hands-on projects, industrial visits, and a focus on sustainability and inclusivity, the School equips students to tackle real-world challenges with confidence. By fostering innovation, critical thinking, and holistic development, we prepare engineers who are ready to shape a better, future-ready world through technology.</p>
       <a class="default-btn btn-block" href="assets/uploads/fee/Engineering_m.pdf">Download fee structure</a>
     </div>
@@ -308,6 +269,12 @@ SCHEMA;
   </div>
 </div>
 
+</section>
+
+<!-- At a glance + Why choose (Batch 2 SEO) -->
+<section class="container">
+<?php echo seo_glance($seo); ?>
+<?php echo seo_why($seo); ?>
 </section>
 
   <!-- Achievements Section -->
@@ -422,7 +389,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="b.tech-civil-engineering.php">
-              <img src="assets/uploads/civil.webp" alt="">
+              <img src="assets/uploads/civil.webp" alt="B.Tech Civil Engineering at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -439,7 +406,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="b-tech-civil-structural-engineering.php">
-              <img src="assets/uploads/b.tech-civil.jpg" alt="">
+              <img src="assets/uploads/b.tech-civil.jpg" alt="B.Tech Civil (Structural Engineering) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -456,7 +423,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="b.tech-civil-engineering-le.php">
-              <img src="assets/uploads/civil-le.webp" alt="">
+              <img src="assets/uploads/civil-le.webp" alt="B.Tech Civil (Lateral Entry) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -473,7 +440,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="b.tech-mechanical-engineering.php">
-              <img src="assets/uploads/b.tech-mechanical.webp" alt="">
+              <img src="assets/uploads/b.tech-mechanical.webp" alt="B.Tech Mechanical Engineering at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -490,7 +457,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="b.tech-mechatronics-and-robotics.php">
-              <img src="assets/uploads/robots.jpeg" alt="">
+              <img src="assets/uploads/robots.jpeg" alt="B.Tech Mechanical (Mechatronics) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -507,7 +474,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="mechanical-engineering-le.php">
-              <img src="assets/uploads/mechanical-le.webp" alt="">
+              <img src="assets/uploads/mechanical-le.webp" alt="B.Tech Mechanical (Lateral Entry) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -524,7 +491,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="b.tech-electronics-and-communication-engineering.php">
-              <img src="assets/uploads/b.tech-electric-2.webp" alt="">
+              <img src="assets/uploads/b.tech-electric-2.webp" alt="Students working with equipment in the electrical engineering lab">
             </a>
           </div>
           <div class="course-body">
@@ -541,7 +508,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="b.tech-electronics-and-communication-engineering-vlsi-embedded.php">
-              <img src="assets/uploads/b.tech-electric.webp" alt="">
+              <img src="assets/uploads/b.tech-electric.webp" alt="B.Tech ECE (VLSI &amp; Embedded) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -558,7 +525,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="b.tech-electronics-and-communication-engineering-robotics-ai.php">
-              <img src="assets/uploads/b.tech-electric-3.webp" alt="">
+              <img src="assets/uploads/b.tech-electric-3.webp" alt="Student working on a solar panel setup in the electrical engineering lab">
             </a>
           </div>
           <div class="course-body">
@@ -575,7 +542,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="b.tech-aerospace-engineering.php">
-              <img src="assets/uploads/aero.jpg" alt="">
+              <img src="assets/uploads/aero.jpg" alt="B.Tech Aerospace Engineering at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -592,7 +559,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="b.tech-electronics-and-communication-engineering-le.php">
-              <img src="assets/uploads/b.tech-electric-2.webp" alt="">
+              <img src="assets/uploads/b.tech-electric-2.webp" alt="Students working with equipment in the electrical engineering lab">
             </a>
           </div>
           <div class="course-body">
@@ -620,7 +587,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="m.tech-structural-engineering.php">
-              <img src="assets/uploads/b.tech-civil.jpg" alt="">
+              <img src="assets/uploads/b.tech-civil.jpg" alt="M.Tech Structural Engineering at Maya Devi University">
             </a>
            
           </div>
@@ -637,7 +604,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="m.tech-mechanical-engineering.php">
-              <img src="assets/uploads/mtech-mechanical.webp" alt="">
+              <img src="assets/uploads/mtech-mechanical.webp" alt="M.Tech Mechanical Engineering at Maya Devi University">
             </a>
            
           </div>
@@ -666,7 +633,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="best-university-for-phd-in-dehradun-uttarakhand.php">
-              <img src="assets/uploads/phd.webp" alt="">
+              <img src="assets/uploads/phd.webp" alt="Ph.D. Program at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -959,7 +926,7 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
           <div class="dept-blog-body">
             <h4 class="dept-blog-title">
-              <a href="btech-civil-engineering-uttarakhand.php">B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2026)</a>
+              <a href="btech-civil-engineering-uttarakhand.php">B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2027)</a>
             </h4>
             <p class="dept-blog-excerpt">Explore B.Tech in Civil Engineering in Uttarakhand. Learn about course structure, career scope, fees, admission process, and top colleges including IIT Roorkee and MDU...</p>
             <div class="dept-blog-footer">
@@ -1102,35 +1069,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 </style>
 
-<section class="mdu-faq-section" id="faq">
-  <style>
-    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
-    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
-    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
-      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
-    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
-    .mdu-faq-q::-webkit-details-marker{display:none;}
-    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
-    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
-    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
-  </style>
-  <h2>Frequently Asked Questions</h2>
-    <details class="mdu-faq-item">
-      <summary class="mdu-faq-q">Which engineering branches are available at Maya Devi University?</summary>
-      <p class="mdu-faq-a">Maya Devi University offers B.Tech in Civil Engineering, Mechanical Engineering (including Mechatronics), Electronics &amp; Communication Engineering (with VLSI &amp; Embedded Systems and Robotics &amp; AI specializations), and Aerospace Engineering.</p>
-    </details>
-    <details class="mdu-faq-item">
-      <summary class="mdu-faq-q">Is AICTE approval available for engineering programs at Maya Devi University?</summary>
-      <p class="mdu-faq-a">Yes. Maya Devi University's engineering programs are approved by the All India Council for Technical Education (AICTE).</p>
-    </details>
-    <details class="mdu-faq-item">
-      <summary class="mdu-faq-q">Does MDU offer lateral entry for B.Tech?</summary>
-      <p class="mdu-faq-a">Yes. Maya Devi University offers lateral entry (B.Tech LE) for diploma holders in relevant engineering disciplines, allowing direct admission to the second year.</p>
-    </details>
-    <details class="mdu-faq-item">
-      <summary class="mdu-faq-q">What PG engineering courses does Maya Devi University offer?</summary>
-      <p class="mdu-faq-a">Maya Devi University offers M.Tech in Structural Engineering and M.Tech in Mechanical Engineering, both 2-year full-time programs designed for engineering graduates seeking advanced specialization.</p>
-    </details>
-</section>
+<?php echo seo_faq($seo); ?>
 
 <?php require "common/footer.php"?>

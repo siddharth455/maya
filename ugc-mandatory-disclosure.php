@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <hr>
 <div class="container">
 <section class="ugc-section">
-  <h2>UGC Mandatory Disclosure</h2>
+  <h1>UGC Mandatory Disclosure</h1>
   <p>MAYA DEVI UNIVERSITY, CENTRAL HOPE TOWN, SELAQUI, DEHRADUN, UTTARAKHAND</p>
 
   <div class="ugc-table-wrapper">
@@ -238,7 +238,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <tr>
         <td>Library</td>
           <td>
-          <a href="library.php" target="_blank">https://maya.edu.in/library.php</a>
+          <a href="university-library.php" target="_blank">https://maya.edu.in/library.php</a>
           </td>
         </tr>
         <tr>
@@ -454,6 +454,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
   font-family: Arial, sans-serif;
 }
 
+.ugc-section h1,
 .ugc-section h2 {
   color: #00a651;
   font-size: 26px;

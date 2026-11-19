@@ -1435,7 +1435,7 @@ SCHEMA;
   <div class="cta-inner">
     <div class="cta-text reveal-left">
       <h2>Ready to Shape Your Future?</h2>
-      <p>Join thousands of students who've launched transformative careers through MDU's industry-aligned programs. Applications are open for 2026-27.</p>
+      <p>Join thousands of students who've launched transformative careers through MDU's industry-aligned programs. Applications are open for 2027-28.</p>
     </div>
     <a href="https://admissions.maya.edu.in" class="btn-white reveal-right">Apply Now →</a>
   </div>

@@ -3,12 +3,21 @@ $page_title = "B.Sc Botany in Dehradun | Maya Devi University";
 $page_description = "Join B.Sc Botany at Maya Devi University, Dehradun and explore plant science, ecology, and environmental research.";
 $canonical_url = "https://maya.edu.in/bsc-botany.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Bachelor of Science (B.Sc.) in Botany',
+    "description" => 'The Bachelor of Science (B.Sc.) in Botany program at Maya Devi University provides a comprehensive study of plant life, covering topics such as plant anatomy, physiology, taxonomy, genetics, ecology, microbiology, and biotechnology.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/botany.webp);">
         <div class="container">
-            <h2>Bachelor of Science (B.Sc.) in Botany</h2>
+            <h1>Bachelor of Science (B.Sc.) in Botany</h1>
             <p>The B.Sc. Botany program is designed to equip students with essential knowledge of plant biology, ecology, genetics, and biotechnology. It focuses on practical learning, field studies, and scientific research to prepare graduates for careers in agriculture, environment, research, and life sciences both in India and abroad.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/botany.webp" alt="">
+                        <img src="assets/uploads/botany.webp" alt="Bachelor of Science (B.Sc.) in Botany at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -35,7 +44,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="tab-pane active mt-5" id="course-details-1">
                             <div class="over-view-content">
                                 <h4>COURSE DETAILS</h4>
-                                <h5>Course Name : B.Sc Nursing</h5>
+                                <h5>Course Name : Bachelor of Science (B.Sc.) in Botany</h5>
                                 <p>The Bachelor of Science (B.Sc.) in Botany program at Maya Devi University provides a comprehensive study of plant life, covering topics such as plant anatomy, physiology, taxonomy, genetics, ecology, microbiology, and biotechnology.</p>
                                 <p>The curriculum integrates theoretical knowledge with hands-on laboratory work, herbarium preparation, ecological field visits, and research-based projects. Students gain strong analytical, observational, and scientific skills, enabling them to explore plant diversity, environmental relationships, and applications of plant sciences in various industries. This program builds a solid foundation for higher studies, competitive exams, and scientific careers in plant-based and environmental fields.</p>
                                 <div class="over-view-list">
@@ -98,7 +107,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-botany-hons.php"><img class="animated" src="assets/uploads/botany-2.webp" alt=""></a>
+                                    <a href="bsc-botany-hons.php"><img class="animated" src="assets/uploads/botany-2.webp" alt="B.Sc. Botany (Hons.) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-botany-hons.php">B.Sc. Botany (Hons.)</a></h4>
@@ -122,7 +131,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-cbz.php"><img class="animated" src="assets/uploads/cbz.webp" alt=""></a>
+                                    <a href="bsc-cbz.php"><img class="animated" src="assets/uploads/cbz.webp" alt="B.Sc. CBZ at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-cbz.php">B.Sc. CBZ</a></h4>
@@ -146,7 +155,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-physics.php"><img class="animated" src="assets/uploads/physics.webp" alt=""></a>
+                                    <a href="bsc-physics.php"><img class="animated" src="assets/uploads/physics.webp" alt="B.Sc. Physics at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-physics.php">B.Sc. Physics</a></h4>

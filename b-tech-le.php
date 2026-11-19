@@ -3,12 +3,21 @@ $page_title = "B.Tech Lateral Entry Admission in Dehradun | Maya Devi University
 $page_description = "Apply for B.Tech Lateral Entry at Maya Devi University, Dehradun and join directly in second year with industry-focused engineering programs.";
 $canonical_url = "https://maya.edu.in/b-tech-le.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Tech CSE Lateral Entry with Specialization AI/ML, Data Science & Cyber Security',
+    "description" => 'The Bachelor of Technology (B.Tech) in Computer Science and Engineering (Lateral Entry) with specializations in Artificial Intelligence & Machine Learning (AI & ML), Data Science, and Cyber Security is a future-focused undergraduate program designed to strengthen core computer science fundamentals while providing advanced knowledge and practical expertise in high-demand technology domains. The program enables diploma holders to directly join the second year and specialize in cutting-edge fields.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/b-tech-le.webp);">
         <div class="container">
-            <h2>B.Tech CSE Lateral Entry with Specializations</h2>
+            <h1>B.Tech CSE Lateral Entry with Specializations</h1>
             <p>The Bachelor of Technology in Computer Science and Engineering (B.Tech CSE) Lateral Entry with specializations in Artificial Intelligence & Machine Learning, Data Science, and Cyber Security is a comprehensive undergraduate program designed to provide students with a strong theoretical foundation along with advanced practical skills in emerging technology domains.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/b-tech-le.webp" alt="">
+                        <img src="assets/uploads/b-tech-le.webp" alt="B.Tech CSE Lateral Entry with Specialization AI/ML, Data Science &amp; Cyber Security at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -87,7 +96,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b-tech-ai-ml.php"><img class="animated" src="assets/uploads/ai.jpeg" alt=""></a>
+                                    <a href="b-tech-ai-ml.php"><img class="animated" src="assets/uploads/ai.jpeg" alt="Students at computers during a session in a computer lab"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b-tech-ai-ml.php">B.Tech. Computer Science & Engineering (AIML) with IBM</a></h4>
@@ -111,7 +120,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-data_science.php"><img class="animated" src="assets/uploads/data-science.webp" alt=""></a>
+                                    <a href="b.tech-data_science.php"><img class="animated" src="assets/uploads/data-science.webp" alt="B.Tech. Computer Science &amp; Engineering (Data Science) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.tech-data_science.php">B.Tech. Computer Science & Engineering (Data Science)</a></h4>
@@ -135,7 +144,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-cyber_security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt=""></a>
+                                    <a href="b.tech-cyber_security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt="B.Tech. Computer Science &amp; Engineering (Cyber Security &amp; Forensics) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.tech-cyber_security.php">B.Tech. Computer Science & Engineering (Cyber Security & Forensics)</a></h4>
@@ -159,7 +168,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b-tech-cse.php"><img class="animated" src="assets/uploads/computer.webp" alt=""></a>
+                                    <a href="b-tech-cse.php"><img class="animated" src="assets/uploads/computer.webp" alt="B.Tech. Computer Science &amp; Engineering at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b-tech-cse.php">B.Tech. Computer Science & Engineering</a></h4>

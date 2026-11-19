@@ -9,7 +9,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <!-- HERO SECTION -->
 <section class="hero-section" style="background: url('assets/uploads/library-1.jpeg') center/cover no-repeat; height:70vh !important;">
   <div class="hero-content">
-    <h3 class="display-5 fw-bold text-white">University Library</h3>
+    <h1 class="display-5 fw-bold text-white">University Library</h1>
     <p class="lead text-white">
       A hub of knowledge, research, and academic excellence supporting learning across all disciplines.
     </p>

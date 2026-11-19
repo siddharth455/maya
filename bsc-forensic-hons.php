@@ -3,12 +3,21 @@ $page_title = "B.Sc. Forensic Science (Hons.) | Maya Devi University Dehradun";
 $page_description = "The B.Sc. (Hons.) Forensic Science program is designed to provide advanced scientific and investigative skills required for crime detection, evidence analysis...";
 $canonical_url = "https://maya.edu.in/bsc-forensic-hons.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Sc. Forensic Science (Hons.)',
+    "description" => 'The B.Sc. (Hons.) Forensic Science program at Maya Devi University offers a comprehensive and specialized study of forensic techniques used in criminal investigation and evidence analysis. The curriculum includes advanced forensic biology, forensic chemistry, toxicology, ballistics, serology, DNA profiling, fingerprint analysis, cyber forensics, documentation examination, and forensic psychology.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/nursing-banner.webp);">
         <div class="container">
-            <h2>B.Sc. Forensic Science (Hons.)</h2>
+            <h1>B.Sc. Forensic Science (Hons.)</h1>
             <p>The B.Sc. (Hons.) Forensic Science program is designed to provide advanced scientific and investigative skills required for crime detection, evidence analysis, and legal investigations. It emphasizes laboratory research, crime scene examination, forensic biology, forensic chemistry, and analytical techniques, preparing graduates for specialized careers in forensic labs, law enforcement, and higher studies in India and abroad.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/nursing-1.jpg" alt="">
+                        <img src="assets/uploads/nursing-1.jpg" alt="Group of nurses and healthcare professionals in uniform">
                         <div class="course-apply-btn">
                             <a href="https://admission.maya.edu.in/" class="default-btn">APPLY NOW</a>
                         </div>
@@ -100,7 +109,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-forensic-science.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt=""></a>
+                                    <a href="bsc-forensic-science.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt="B.Sc. Forensic Science at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-forensic-science.php">B.Sc. Forensic Science</a></h4>
@@ -124,7 +133,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-biotechnology.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt=""></a>
+                                    <a href="bsc-biotechnology.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt="B.Sc. Biotechnology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-biotechnology.php">B.Sc. Biotechnology</a></h4>
@@ -148,7 +157,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-biotechnology-hons.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt=""></a>
+                                    <a href="bsc-biotechnology-hons.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt="B.Sc. Biotechnology (Hons.) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-biotechnology-hons.php">B.Sc. Biotechnology (Hons.)</a></h4>

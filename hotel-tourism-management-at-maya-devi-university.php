@@ -1,5 +1,5 @@
 <?php
-$page_title = "Hotel Management College in Dehradun | Maya Devi University";
+$page_title = "Hotel Management at Maya Devi University – Kitchens & Training";
 $page_description = "Study hotel management, culinary arts & tourism at Maya Devi University, a leading hotel management college in Dehradun, Uttarakhand with hands-on training.";
 $canonical_url = "https://maya.edu.in/hotel-tourism-management-at-maya-devi-university.php";
 $og_image = "https://maya.edu.in/assets/uploads/hotel-blog.png";
@@ -68,6 +68,8 @@ $og_image = "https://maya.edu.in/assets/uploads/hotel-blog.png";
                             <h1 class="blog-main-title my-3">A Passport to the World: The School of Hotel & Tourism Management at Maya Devi University</h1>
 
                             <p>Hospitality and tourism form one of the world's largest and most exciting industries, offering careers that span hotels, restaurants, airlines, cruise lines, event management, and travel across the globe. For students with a love of service, food, travel, and people, the School of Hotel & Tourism Management at Maya Devi University is an outstanding <strong>hotel management college in Dehradun</strong>, Uttarakhand.</p>
+
+                            <p class="mdu-main-link">For BHM, BHMCT and other courses, eligibility and admissions, visit our <a href="hotel-management-and-tourism.php">hotel management college in Dehradun</a> page.</p>
 
                             <h2>Why Hospitality and Tourism Offer Global Careers</h2>
                             <p>Tourism is booming. As travel rebounds and grows worldwide, and as India promotes its own rich tourism potential, the demand for trained hospitality and tourism professionals continues to rise. This is an industry that never truly stands still, and it rewards skilled people with opportunities that are genuinely global.</p>

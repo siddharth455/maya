@@ -3,12 +3,21 @@ $page_title = "B.Sc Physics in Dehradun | Maya Devi University";
 $page_description = "Join B.Sc Physics at Maya Devi University, Dehradun with advanced laboratory training and research-based curriculum.";
 $canonical_url = "https://maya.edu.in/bsc-physics.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Sc. Physics',
+    "description" => 'Maya Devi University’s B.Sc. Physics program offers an in-depth study of physical laws, mathematical principles, and scientific applications shaping the modern world. The curriculum covers core concepts such as mechanics, thermodynamics, electricity and magnetism, quantum physics, optics, electronics, waves, and modern research tools.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/physics.webp);">
         <div class="container">
-            <h2>B.Sc. Physics</h2>
+            <h1>B.Sc. Physics</h1>
             <p>The B.Sc. Physics program is designed to provide students with strong theoretical and practical understanding of physical science and its applications. It emphasizes analytical thinking, mathematical reasoning, experimental skills, and scientific research, enabling students to explore concepts from classical mechanics to modern physics.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/physics.webp" alt="">
+                        <img src="assets/uploads/physics.webp" alt="B.Sc. Physics at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -99,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-physics-hons.php"><img class="animated" src="assets/uploads/physics.webp" alt=""></a>
+                                    <a href="bsc-physics-hons.php"><img class="animated" src="assets/uploads/physics.webp" alt="B.Sc. Physics (Hons.) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-physics-hons.php">B.Sc. Physics (Hons.)</a></h4>
@@ -123,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-zoology.php"><img class="animated" src="assets/uploads/zoology.webp" alt=""></a>
+                                    <a href="bsc-zoology.php"><img class="animated" src="assets/uploads/zoology.webp" alt="B.Sc. Zoology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-zoology.php">B.Sc. Zoology</a></h4>
@@ -147,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-chemistry.php"><img class="animated" src="assets/uploads/chemistry.webp" alt=""></a>
+                                    <a href="bsc-chemistry.php"><img class="animated" src="assets/uploads/chemistry.webp" alt="B.Sc. Chemistry at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-chemistry.php">B.Sc. Chemistry</a></h4>

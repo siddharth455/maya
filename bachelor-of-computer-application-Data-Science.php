@@ -3,12 +3,21 @@ $page_title = "BCA Data Science in Dehradun | Maya Devi University";
 $page_description = "Study BCA Data Science at Maya Devi University, Dehradun with analytics tools, machine learning projects, and industry exposure.";
 $canonical_url = "https://maya.edu.in/bachelor-of-computer-application-data-science.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'BCA with Specialization in Data Science',
+    "description" => 'Graduates of this program are equipped to pursue dynamic careers as Data Analysts, Business Intelligence Developers, Data Engineers, or Junior Data Scientists. With data becoming central to innovation and strategy in every field—from business and healthcare to finance and marketing—this specialization ensures students are job-ready in a data-first world.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/data-science.webp);">
         <div class="container">
-            <h2>BCA with Specialization in Data Science</h2>
+            <h1>BCA with Specialization in Data Science</h1>
             <p>The Bachelor of Computer Applications (BCA) with a Specialization in Data Science is a forward- looking three-year undergraduate program designed to meet the growing demand for data-driven decision-making across industries. This program combines foundational computer science education with specialized training in data analysis, statistics, and emerging technologies.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/data-science.webp" alt="">
+                        <img src="assets/uploads/data-science.webp" alt="BCA with Specialization in Data Science at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -85,7 +94,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bachelor-of-computer-application.php"><img class="animated" src="assets/uploads/bca.webp" alt=""></a>
+                                    <a href="bachelor-of-computer-application.php"><img class="animated" src="assets/uploads/bca.webp" alt="bachelor of computer application (BCA) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="bachelor-of-computer-application.php">bachelor of computer application (BCA)</a></h4>
@@ -109,7 +118,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bachelor-of-computer-application-ai-and-ml.php"><img class="animated" src="assets/uploads/ai.jpeg" alt=""></a>
+                                    <a href="bachelor-of-computer-application-ai-and-ml.php"><img class="animated" src="assets/uploads/ai.jpeg" alt="Students at computers during a session in a computer lab"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bachelor-of-computer-application-ai-and-ml.php">BCA with Specialization in AI and ML (AIML)</a></h4>
@@ -133,7 +142,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bachelor-of-computer-application-cyber-security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt=""></a>
+                                    <a href="bachelor-of-computer-application-cyber-security.php"><img class="animated" src="assets/uploads/cyber-security.webp" alt="BCA with Specialization in Cyber Security at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bachelor-of-computer-application-cyber-security.php">BCA with Specialization in Cyber Security</a></h4>

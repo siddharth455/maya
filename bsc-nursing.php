@@ -3,12 +3,21 @@ $page_title = "B.Sc Nursing College in Dehradun | Maya Devi University";
 $page_description = "Enroll in B.Sc Nursing at Maya Devi University, Dehradun with hospital-based clinical training and expert faculty guidance.";
 $canonical_url = "https://maya.edu.in/bsc-nursing.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Sc Nursing',
+    "description" => 'This program prepares students for professional careers in nursing, equipping them with the knowledge and skills required to provide comprehensive patient care. Graduates can work as Registered Nurses, Community Health Nurses, or pursue advanced studies and specialized roles in areas such as pediatric, psychiatric, or critical care nursing, contributing to healthcare delivery in hospitals, clinics, and community settings.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/nursing-1.jpg);">
         <div class="container">
-            <h2>Bachelor of Science in Nursing (B.Sc Nursing)</h2>
+            <h1>Bachelor of Science in Nursing (B.Sc Nursing)</h1>
             <p>The B.Sc Nursing program is designed to equip students with the knowledge, skills, and attitudes necessary to provide professional nursing care. It emphasizes clinical training, evidence-based practice, and leadership development, preparing graduates for diverse roles in healthcare settings both in India and abroad.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/nursing-1.jpg" alt="">
+                        <img src="assets/uploads/nursing-1.jpg" alt="Group of nurses and healthcare professionals in uniform">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -100,7 +109,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                    <a href="gnm.php"><img class="animated" src="assets/uploads/gnm.webp" alt=""></a>
+                                    <a href="gnm.php"><img class="animated" src="assets/uploads/gnm.webp" alt="General Nursing and Midwifery (GNM) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="gnm.php">General Nursing and Midwifery (GNM)</a></h4>

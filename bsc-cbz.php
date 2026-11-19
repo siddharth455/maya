@@ -3,12 +3,21 @@ $page_title = "B.Sc. CBZ (Chemistry, Botany, Zoology) | Maya Devi University Deh
 $page_description = "Bachelor of Science (B.Sc.) in Chemistry, Botany and Zoology (B.Sc. in CBZ) is a regular degree program which deals with the field of science and is designed...";
 $canonical_url = "https://maya.edu.in/bsc-cbz.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Sc. CBZ',
+    "description" => 'Maya Devi University’s B.Sc. CBZ program focuses on providing students with extensive knowledge and practical exposure in Chemistry, Botany, and Zoology. The course blends theoretical learning with laboratory-based experiments, field studies, and research-oriented assignments to build a strong understanding of living organisms, plant and animal sciences, and chemical processes.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/nursing-banner.webp);">
         <div class="container">
-            <h2>B.Sc. CBZ (Chemistry, Botany, Zoology)</h2>
+            <h1>B.Sc. CBZ (Chemistry, Botany, Zoology)</h1>
             <p>Bachelor of Science (B.Sc.) in Chemistry, Botany and Zoology (B.Sc. in CBZ) is a regular degree program which deals with the field of science and is designed to emphasize the fundamentals of the basic sciences. The duration of the course is three years which consists of six semesters under the New Education Policy 2020.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/nursing-1.jpg" alt="">
+                        <img src="assets/uploads/nursing-1.jpg" alt="Group of nurses and healthcare professionals in uniform">
                         <div class="course-apply-btn">
                             <a href="https://admission.maya.edu.in/" class="default-btn">APPLY NOW</a>
                         </div>
@@ -99,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-chemistry.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt=""></a>
+                                    <a href="bsc-chemistry.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt="B.Sc. Chemistry at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-chemistry.php">B.Sc. Chemistry</a></h4>
@@ -123,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-forensic-science.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt=""></a>
+                                    <a href="bsc-forensic-science.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt="B.Sc. Forensic Science at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-forensic-science.php">B.Sc. Forensic Science</a></h4>
@@ -147,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-microbiology.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt=""></a>
+                                    <a href="bsc-microbiology.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt="B.Sc. Microbiology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-microbiology.php">B.Sc. Microbiology</a></h4>

@@ -64,10 +64,29 @@ $exclude = [
     "best-masters-of-business-administration-Pharmaceutical-Management-college-in-dehradun.php",
     "best-masters-of-business-administration-Sports-Management-college-in-dehradun.php",
     "mtech-specializations-cse-AI-ML.php",
+
+    // test / duplicate pages - retired, 301-redirected in .htaccess (Nov 2026 SEO batch 1)
+    "home.php",
+    "new-home.php",
+    "new-home-2.php",
+    "new-home-3.php",
+    "new-home-4.php",
+    "new-index.php",
+    "new-best-computer-engineering-college-in-dehradun-uttarakhand.php",
+    "new-bachelor-of-computer-application-ai-and-ml.php",
+    "approval-accredetion-membership-ranking.php", // old spelling, redirect stub
+    "library.php",            // duplicate of university-library.php
+    "placement-2.php",       // fragment, included by home.php
 ];
 
+// Small files that only send a Location header are 301 redirect stubs, not pages.
+function is_redirect_stub($path) {
+    if (filesize($path) > 1024) return false;
+    return stripos(file_get_contents($path), "Location:") !== false;
+}
+
 echo '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL;
-echo '<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">' . PHP_EOL;
+echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . PHP_EOL;
 
 // Homepage
 echo "  <url>" . PHP_EOL;
@@ -82,7 +101,8 @@ foreach ($files as $file) {
 
     if (
         pathinfo($file, PATHINFO_EXTENSION) === "php" &&
-        !in_array($file, $exclude, true)
+        !in_array($file, $exclude, true) &&
+        !is_redirect_stub(__DIR__ . "/" . $file)
     ) {
         $safe_url = htmlspecialchars("$base_url/$file", ENT_XML1);
         $lastmod  = date("Y-m-d", filemtime(__DIR__ . "/" . $file));

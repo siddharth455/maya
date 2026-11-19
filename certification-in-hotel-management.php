@@ -3,12 +3,21 @@ $page_title = "Best CHM College in Dehradun Uttarakhand | Maya Devi University";
 $page_description = "Looking for the best CHM college in Dehradun? Maya Devi University offers hotel management programs with practical training.";
 $canonical_url = "https://maya.edu.in/certification-in-hotel-management.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Certification in Hotel Management (CHM)',
+    "description" => 'The 1-Year Certification in Hotel Management (CHM) program provides students with a strong foundation in the essential areas of hotel management, including operations, administration, marketing basics, and hospitality service. During this one-year certification course, students develop both practical skills and theoretical knowledge required to begin a career in the hospitality industry. They study topics such as hospitality management fundamentals, food and beverage service, accommodation operations, event coordination, and customer service.',
+    "credential" => 'Certificate',
+    "time" => "P1Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/hm.webp);">
         <div class="container">
-            <h2>Certification in Hotel Management</h2>
+            <h1>Certification in Hotel Management</h1>
             <p>The Certification in Hotel Management (CHM) is an extensive One-year Certification program aimed at equipping students for fulfilling careers in the hospitality sector.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/hm.webp" alt="">
+                        <img src="assets/uploads/hm.webp" alt="Certification in Hotel Management (CHM) at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -100,7 +109,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="diploma-in-food-production.php"><img class="animated" src="assets/uploads/dhm.webp" alt=""></a>
+                                    <a href="diploma-in-food-production.php"><img class="animated" src="assets/uploads/dhm.webp" alt="Diploma in Food Production at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="diploma-in-food-production.php">Diploma in Food Production</a></h4>
@@ -124,7 +133,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bhm-lateral-entry-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/hm.webp" alt=""></a>
+                                    <a href="bhm-lateral-entry-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/hm.webp" alt="Certification in Hotel Management (LE) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="bhm-lateral-entry-colleges-in-dehradun-uttarakhand.php">Certification in Hotel Management (LE)</a></h4>
@@ -148,7 +157,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="diploma-in-confectionary.php"><img class="animated" src="assets/uploads/bakery.webp" alt=""></a>
+                                    <a href="diploma-in-confectionary.php"><img class="animated" src="assets/uploads/bakery.webp" alt="Diploma in Bakery &amp; Confectionary at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="diploma-in-confectionary.php">Diploma in Bakery & Confectionary</a></h4>

@@ -101,27 +101,27 @@
     <div class="swiper-slide"><img src="assets/uploads/icon/5.png" alt="Amazon"></div>
     <div class="swiper-slide"><img src="assets/uploads/icon/6.png" alt="Tata"></div>
     <div class="swiper-slide"><img src="assets/uploads/icon/7.jpg" alt="Accenture"></div>
-    <div class="swiper-slide"><img src="assets/uploads/icon/8.jpg"></div>
-    <div class="swiper-slide"><img src="assets/uploads/icon/9.jpg"></div>
-    <div class="swiper-slide"><img src="assets/uploads/icon/10.jpg"></div>
-    <div class="swiper-slide"><img src="assets/uploads/icon/11.jpg"></div>
-    <div class="swiper-slide"><img src="assets/uploads/icon/12.jpg"></div>
-    <div class="swiper-slide"><img src="assets/uploads/icon/13.jpg"></div>
-<div class="swiper-slide"><img src="assets/uploads/icon/14.jpg"></div>
-<div class="swiper-slide"><img src="assets/uploads/icon/15.jpg"></div>
-<div class="swiper-slide"><img src="assets/uploads/icon/16.jpg"></div>
-<div class="swiper-slide"><img src="assets/uploads/icon/17.jpg"></div>
-<div class="swiper-slide"><img src="assets/uploads/icon/18.jpg"></div>
-<div class="swiper-slide"><img src="assets/uploads/icon/19.jpg"></div>
-<div class="swiper-slide"><img src="assets/uploads/icon/20.jpg"></div>
-<div class="swiper-slide"><img src="assets/uploads/icon/21.jpg"></div>
-<div class="swiper-slide"><img src="assets/uploads/icon/22.jpg"></div>
-<div class="swiper-slide"><img src="assets/uploads/icon/23.jpg"></div>
-<div class="swiper-slide"><img src="assets/uploads/icon/24.jpg"></div>
-<div class="swiper-slide"><img src="assets/uploads/icon/25.jpg"></div>
-<div class="swiper-slide"><img src="assets/uploads/icon/26.jpg"></div>
-<div class="swiper-slide"><img src="assets/uploads/icon/27.jpg"></div>
-<div class="swiper-slide"><img src="assets/uploads/icon/28.jpg"></div>
+    <div class="swiper-slide"><img alt="Sopra Steria – recruiter at Maya Devi University" src="assets/uploads/icon/8.jpg"></div>
+    <div class="swiper-slide"><img alt="AAJ Supply Chain – recruiter at Maya Devi University" src="assets/uploads/icon/9.jpg"></div>
+    <div class="swiper-slide"><img alt="PlanetSpark – recruiter at Maya Devi University" src="assets/uploads/icon/10.jpg"></div>
+    <div class="swiper-slide"><img alt="Realty Assistant – recruiter at Maya Devi University" src="assets/uploads/icon/11.jpg"></div>
+    <div class="swiper-slide"><img alt="Learning Routes – recruiter at Maya Devi University" src="assets/uploads/icon/12.jpg"></div>
+    <div class="swiper-slide"><img alt="Info Edge – recruiter at Maya Devi University" src="assets/uploads/icon/13.jpg"></div>
+<div class="swiper-slide"><img alt="IDS – recruiter at Maya Devi University" src="assets/uploads/icon/14.jpg"></div>
+<div class="swiper-slide"><img alt="Artech – recruiter at Maya Devi University" src="assets/uploads/icon/15.jpg"></div>
+<div class="swiper-slide"><img alt="Investors Clinic – recruiter at Maya Devi University" src="assets/uploads/icon/16.jpg"></div>
+<div class="swiper-slide"><img alt="VA2PT – recruiter at Maya Devi University" src="assets/uploads/icon/17.jpg"></div>
+<div class="swiper-slide"><img alt="Arvind – recruiter at Maya Devi University" src="assets/uploads/icon/18.jpg"></div>
+<div class="swiper-slide"><img alt="Saatvik – recruiter at Maya Devi University" src="assets/uploads/icon/19.jpg"></div>
+<div class="swiper-slide"><img alt="Jubilant FoodWorks – recruiter at Maya Devi University" src="assets/uploads/icon/20.jpg"></div>
+<div class="swiper-slide"><img alt="HDB Financial Services – recruiter at Maya Devi University" src="assets/uploads/icon/21.jpg"></div>
+<div class="swiper-slide"><img alt="Cloud Analogy – recruiter at Maya Devi University" src="assets/uploads/icon/22.jpg"></div>
+<div class="swiper-slide"><img alt="Tirupati – recruiter at Maya Devi University" src="assets/uploads/icon/23.jpg"></div>
+<div class="swiper-slide"><img alt="Webkul – recruiter at Maya Devi University" src="assets/uploads/icon/24.jpg"></div>
+<div class="swiper-slide"><img alt="Coding Ninjas – recruiter at Maya Devi University" src="assets/uploads/icon/25.jpg"></div>
+<div class="swiper-slide"><img alt="Rohan Builders – recruiter at Maya Devi University" src="assets/uploads/icon/26.jpg"></div>
+<div class="swiper-slide"><img alt="AiSensy – recruiter at Maya Devi University" src="assets/uploads/icon/27.jpg"></div>
+<div class="swiper-slide"><img alt="Workians – recruiter at Maya Devi University" src="assets/uploads/icon/28.jpg"></div>
   </div>
 </div>
 

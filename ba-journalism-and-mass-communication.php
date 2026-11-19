@@ -3,12 +3,21 @@ $page_title = "BA Journalism & Mass Communication in Dehradun | Maya Devi Univer
 $page_description = "Join BA Journalism and Mass Communication at Maya Devi University, Dehradun with practical media training and industry exposure.";
 $canonical_url = "https://maya.edu.in/ba-journalism-and-mass-communication.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.A. in Journalism and Mass Communication',
+    "description" => 'The course prepares students to become skilled journalists, media professionals, content creators, and communicators. Through newsroom simulations, workshops, seminars, and practical media activities, learners develop strong communication skills, critical thinking, creativity, and overall personality development. Graduates can pursue careers in news agencies, television channels, radio stations, advertising firms, digital media, public relations, NGOs, and corporate communication sectors.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/ba-12.webp);">
         <div class="container">
-            <h2>B.A. in Journalism and Mass Communication</h2>
+            <h1>B.A. in Journalism and Mass Communication</h1>
             <p>The School of Arts and Humanities at Maya Devi University offers a three-year full-time B.A. in Journalism and Mass Communication, divided into six semesters.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/ba-12.webp" alt="">
+                        <img src="assets/uploads/ba-12.webp" alt="B.A. in Journalism and Mass Communication at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -99,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                <a href="ba-clinical-psychology.php"><img class="animated" src="assets/uploads/ba-2.webp" alt=""></a>
+                                <a href="ba-clinical-psychology.php"><img class="animated" src="assets/uploads/ba-2.webp" alt="BA Clinical Psychology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="ba-clinical-psychology.php">BA Clinical Psychology</a></h4>
@@ -123,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                <a href="ba-psychology.php"><img class="animated" src="assets/uploads/ba-1.webp" alt=""></a>
+                                <a href="ba-psychology.php"><img class="animated" src="assets/uploads/ba-1.webp" alt="BA Psychology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="ba-psychology.php">BA Psychology</a></h4>
@@ -147,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="ba-sociology.php"><img class="animated" src="assets/uploads/ba-4.webp" alt=""></a>
+                                    <a href="ba-sociology.php"><img class="animated" src="assets/uploads/ba-4.webp" alt="BA Sociology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="ba-sociology.php">BA Sociology</a></h4>

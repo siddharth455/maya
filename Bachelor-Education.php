@@ -3,12 +3,21 @@ $page_title = "B.Ed Course in Dehradun | Maya Devi University";
 $page_description = "Pursue B.Ed at Maya Devi University, Dehradun with modern teaching methods, practical training, and experienced faculty.";
 $canonical_url = "https://maya.edu.in/bachelor-education.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Bachelor of Education (B.Ed.)',
+    "description" => 'This specialization prepares students for rewarding careers in education. Graduates can work as Teachers, Educational Coordinators, Curriculum Developers, or pursue higher studies in education and specialized training programs.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P2Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/education.jpg);">
         <div class="container">
-            <h2>Bachelor of Education (B.Ed.)</h2>
+            <h1>Bachelor of Education (B.Ed.)</h1>
             <p>Bachelor of Education (B.Ed.) is a professional undergraduate degree that prepares individuals to become teachers. It is typically pursued after completing a bachelor's degree (like B.A., B.Sc., or B.Com), and the course duration is usually 2 years in India.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/education.jpg" alt="">
+                        <img src="assets/uploads/education.jpg" alt="Bachelor of Education (B.Ed.) at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>

@@ -1,6 +1,6 @@
 <?php
-$page_title = "BBA Colleges in Dehradun 2026 | Maya Devi University BBA Admission, Fees & Placements";
-$page_description = "Explore the best BBA colleges in Dehradun for 2026 with a detailed focus on Maya Devi University. Know BBA course structure, specializations, admission process, fees, placements, and career scope.";
+$page_title = "BBA Colleges in Dehradun 2027 | Maya Devi University BBA Admission, Fees & Placements";
+$page_description = "Explore the best BBA colleges in Dehradun for 2027 with a detailed focus on Maya Devi University. Know BBA course structure, specializations, admission process, fees, placements, and career scope.";
 $canonical_url = "https://maya.edu.in/bba-colleges-in-dehradun.php";
 $og_image = "https://maya.edu.in/assets/uploads/bba-blog.png";
 ?>
@@ -14,14 +14,15 @@ $og_image = "https://maya.edu.in/assets/uploads/bba-blog.png";
       "@type": "WebPage",
       "@id": "https://maya.edu.in/bba-colleges-in-dehradun.php",
       "url": "https://maya.edu.in/bba-colleges-in-dehradun.php",
-      "name": "BBA Colleges in Dehradun 2026 | Maya Devi University BBA Admission, Fees & Placements",
-      "description": "Explore the best BBA colleges in Dehradun for 2026 with a detailed focus on Maya Devi University. Know BBA course structure, specializations, admission process, fees, placements, and career scope."
+      "name": "BBA Colleges in Dehradun 2027 | Maya Devi University BBA Admission, Fees & Placements",
+      "description": "Explore the best BBA colleges in Dehradun for 2027 with a detailed focus on Maya Devi University. Know BBA course structure, specializations, admission process, fees, placements, and career scope."
     },
     {
       "@type": "BlogPosting",
-      "headline": "BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2026)",
+      "headline": "BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2027)",
       "image": ["https://maya.edu.in/assets/uploads/bba-blog.png"],
       "datePublished": "2026-03-30",
+      "dateModified": "2026-11-13",
       "author": {
         "@type": "Organization",
         "name": "Maya Devi University"
@@ -34,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/bba-blog.png";
           "url": "https://maya.edu.in/assets/img/logo.png"
         }
       },
-      "description": "Explore the best BBA colleges in Dehradun for 2026 with a detailed focus on Maya Devi University. Know BBA course structure, specializations, admission process, fees, placements, and career scope.",
+      "description": "Explore the best BBA colleges in Dehradun for 2027 with a detailed focus on Maya Devi University. Know BBA course structure, specializations, admission process, fees, placements, and career scope.",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://maya.edu.in/bba-colleges-in-dehradun.php"
@@ -125,7 +126,7 @@ $og_image = "https://maya.edu.in/assets/uploads/bba-blog.png";
                                 <span class="badge-tag-category">Commerce & Management</span>
                             </div>
 
-                            <h1 class="blog-main-title my-3">BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2026)</h1>
+                            <h1 class="blog-main-title my-3">BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2027)</h1>
 
                             <h2>Introduction to the BBA Program</h2>
                             <p>The Bachelor of Business Administration (BBA) is a professionally oriented undergraduate management program designed to prepare students for the dynamic corporate and entrepreneurial ecosystem. It provides early exposure to business management, leadership, organizational behavior, financial systems, and market dynamics, making it one of the most sought-after courses after Class 12.</p>
@@ -474,7 +475,7 @@ $og_image = "https://maya.edu.in/assets/uploads/bba-blog.png";
                                         <li><span class="badge-tag">BBA colleges in Dehradun</span></li>
                                         <li><span class="badge-tag">Maya Devi University BBA</span></li>
                                         <li><span class="badge-tag">Best BBA college in Dehradun</span></li>
-                                        <li><span class="badge-tag">BBA admission in Dehradun 2026</span></li>
+                                        <li><span class="badge-tag">BBA admission in Dehradun 2027</span></li>
                                     </ul>
                                 </div>
                             </div>

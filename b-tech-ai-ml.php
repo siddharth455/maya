@@ -3,12 +3,21 @@ $page_title = "B.Tech AI & ML in Dehradun | Maya Devi University";
 $page_description = "Study B.Tech Artificial Intelligence and Machine Learning at Maya Devi University, Dehradun with advanced labs and strong industry exposure.";
 $canonical_url = "https://maya.edu.in/b-tech-ai-ml.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Tech CSE with Specialization AI & ML',
+    "description" => 'The Bachelor of Technology (B.Tech) in Computer Science with a Specialization in Artificial Intelligence & Machine Learning (AI & ML) is a cutting-edge undergraduate program designed to equip students with a strong foundation in core computer science principles, while providing in-depth knowledge and practical skills in AI and ML technologies.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/ai.jpeg);">
         <div class="container">
-            <h2>B.Tech CSE with Specialization AI & ML</h2>
+            <h1>B.Tech CSE with Specialization AI & ML</h1>
             <p>Industry-integrated B.Tech in Artificial Intelligence & Machine Learning designed to equip students with cutting-edge technical knowledge and practical skills, enabling hands-on experience in AI tools, frameworks, and methodologies.</p>
         </div>
     </div>

@@ -3,12 +3,21 @@ $page_title = "MBA (Agri Business Management) College in Dehradun | Maya Devi Un
 $page_description = "Join MBA (Agri Business Management) at Maya Devi University, Dehradun with industry-focused curriculum, leadership training, and strong placement support.";
 $canonical_url = "https://maya.edu.in/best-masters-of-business-administration-agri-business-management-college-in-dehradun.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Masters of Business Administration - Agri Business Management',
+    "description" => 'Our Master of Business Administration (MBA) in Agri Business Management program at Maya Devi University is designed to meet the evolving needs of the agriculture and agribusiness sector. Students gain in-depth knowledge and practical skills in agribusiness operations, agricultural marketing, supply chain management, rural development, and strategic agribusiness planning.',
+    "credential" => 'Master\'s degree',
+    "time" => "P2Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/Agribusiness-Management.jpg);">
         <div class="container">
-            <h2>Masters of Business Administration - Agri Business Management</h2>
+            <h1>Masters of Business Administration - Agri Business Management</h1>
             <p>The Master of Business Administration (MBA) in Agri Business Management is a two-year postgraduate program designed to develop advanced skills in Agri Business Management, leadership, and organizational development.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/Agribusiness-Management.jpg" alt="">
+                        <img src="assets/uploads/Agribusiness-Management.jpg" alt="Masters of Business Administration - Agri Business Management at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -93,7 +102,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="best-masters-of-business-administration-fintech-college-in-dehradun.php"><img class="animated" src="assets/uploads/mba-fintech.webp" alt=""></a>
+                                    <a href="best-masters-of-business-administration-fintech-college-in-dehradun.php"><img class="animated" src="assets/uploads/mba-fintech.webp" alt="Masters of Business Administration - FinTech at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                             <h4><a href="best-masters-of-business-administration-fintech-college-in-dehradun.php">Masters of Business Administration - FinTech</a></h4>
@@ -117,7 +126,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="best-masters-of-business-administration-business-analytics-college-in-dehradun.php"><img class="animated" src="assets/uploads/mba-business.jpg" alt=""></a>
+                                    <a href="best-masters-of-business-administration-business-analytics-college-in-dehradun.php"><img class="animated" src="assets/uploads/mba-business.jpg" alt="Masters of Business Administration - Business Analytics at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="best-masters-of-business-administration-business-analytics-college-in-dehradun.php">Masters of Business Administration - Business Analytics</a></h4>
@@ -141,7 +150,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="best-masters-of-business-administration-human-resource-college-in-dehradun.php"><img class="animated" src="assets/uploads/mba-hr.jpg" alt=""></a>
+                                    <a href="best-masters-of-business-administration-human-resource-college-in-dehradun.php"><img class="animated" src="assets/uploads/mba-hr.jpg" alt="Masters of Business Administration - Human Resource at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="best-masters-of-business-administration-human-resource-college-in-dehradun.php">Masters of Business Administration - Human Resource</a></h4>
@@ -301,43 +310,43 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <div class="brand-logo-active owl-carousel">
            
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/15.webp" alt="">
+                <img src="assets/img/brand-logo/15.webp" alt="Ranbaxy Laboratories – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/16.webp" alt="">
+                <img src="assets/img/brand-logo/16.webp" alt="Mankind Pharma – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/4.webp" alt="">
+                <img src="assets/img/brand-logo/4.webp" alt="Apollo Pharmacy – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/17.webp" alt="">
+                <img src="assets/img/brand-logo/17.webp" alt="Sun Pharma – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/18.webp" alt="">
+                <img src="assets/img/brand-logo/18.webp" alt="Dr. Reddy&#039;s – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/19.webp" alt="">
+                <img src="assets/img/brand-logo/19.webp" alt="Manipal Hospitals – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/20.webp" alt="">
+                <img src="assets/img/brand-logo/20.webp" alt="Hiranandani Hospital – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/9.webp" alt="">
+                <img src="assets/img/brand-logo/9.webp" alt="Justdial – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/21.webp" alt="">
+                <img src="assets/img/brand-logo/21.webp" alt="Medanta – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/11.webp" alt="">
+                <img src="assets/img/brand-logo/11.webp" alt="Nectar Lifesciences (NecLife) – recruiter at Maya Devi University">
             </div>
              <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/1.webp" alt="">
+                <img src="assets/img/brand-logo/1.webp" alt="Max Healthcare – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/22.webp" alt="">
+                <img src="assets/img/brand-logo/22.webp" alt="Global Hospitals – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/23.webp" alt="">
+                <img src="assets/img/brand-logo/23.webp" alt="Narayana Health – recruiter at Maya Devi University">
             </div>
         </div>
     </div>

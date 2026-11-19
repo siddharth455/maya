@@ -3,12 +3,21 @@ $page_title = "Best B.tech Food Technology College in Dehradun | Maya Devi Unive
 $page_description = "Looking for the best B.tech Food Technology college in Dehradun? Maya Devi University offers practical field training and modern agricultural labs.";
 $canonical_url = "https://maya.edu.in/b-tech-food-technology.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.tech Food Technology',
+    "description" => 'The B.Tech Food Technology program provides comprehensive knowledge and practical expertise in various aspects of food science and technology, including food processing, food chemistry, food microbiology, food preservation, quality control, and packaging technology. Students gain both theoretical understanding and hands-on skills essential for careers in the food processing industry, food manufacturing, quality assurance, and food research.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/food-technology.jpg);">
         <div class="container">
-            <h2>B.tech Food Technology</h2>
+            <h1>B.tech Food Technology</h1>
             <p>The program focuses on modern food processing techniques, quality control, food safety standards, packaging technology, and post-harvest management to prepare students for successful careers in the food processing and food technology industry.</p>
         </div>
     </div>

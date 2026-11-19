@@ -3,12 +3,21 @@ $page_title = "Hearing, Language & Speech Course in Dehradun | Maya Devi Univers
 $page_description = "Study Hearing, Language and Speech program at Maya Devi University, Dehradun with clinical training exposure.";
 $canonical_url = "https://maya.edu.in/hearing-language-speech.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Diploma in Hearing Language and Speech',
+    "description" => 'The DHLS program is usually a 1-year full-time diploma, structured as per the guidelines of the Rehabilitation Council of India (RCI). The curriculum focuses on foundational sciences such as acoustics, audiology basics, speech and language development, hearing impairment, and communication disorders. Students learn essential diagnostic and therapeutic techniques for managing speech sound disorders, fluency issues, voice problems, and language delays.',
+    "credential" => 'Diploma',
+    "time" => "P1Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/paramedical.webp);">
         <div class="container">
-            <h2>Diploma in Hearing Language and Speech</h2>
+            <h1>Diploma in Hearing Language and Speech</h1>
             <p>The Diploma in Hearing, Language and Speech (DHLS) is a specialized rehabilitation program designed to train professionals who can identify, assess, and manage communication disorders related to hearing, speech, and language.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/paramedical.webp" alt="">
+                        <img src="assets/uploads/paramedical.webp" alt="Diploma in Hearing Language and Speech at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -100,7 +109,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="prosthetics-orthotics.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="prosthetics-orthotics.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Prosthetics and Orthotics at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="prosthetics-orthotics.php">Prosthetics and Orthotics</a></h4>
@@ -124,7 +133,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="early-rehabilitation-therapy.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="early-rehabilitation-therapy.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Early Rehabilitation Therapy Rehabilitation (Mental Retardation) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="early-rehabilitation-therapy.php">Early Rehabilitation Therapy Rehabilitation (Mental Retardation)</a></h4>
@@ -148,7 +157,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="care-giving.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="care-giving.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Certificate Course in Care Giving at Maya Devi University"></a>
                                     <span>Certificate Programs</span>
                                 </div>
                                 <div class="course-content">

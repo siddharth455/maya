@@ -3,12 +3,21 @@ $page_title = "Genetics & Plant Breeding in Dehradun | Maya Devi University";
 $page_description = "Join Genetics and Plant Breeding program at Maya Devi University, Dehradun with research-driven agricultural studies.";
 $canonical_url = "https://maya.edu.in/genetics-and-plant-breeding.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'M.Sc. in Genetics and Plant Breeding',
+    "description" => 'This program offers students in-depth knowledge of the genetic makeup of plants and the techniques used to improve crop varieties for better yield, disease resistance, and environmental adaptability. With a focus on modern genetic tools, molecular biology, and breeding technologies, the M.Sc. in Genetics and Plant Breeding equips students with the expertise needed to drive innovation in crop improvement and address global challenges in food security and sustainable agriculture.',
+    "credential" => 'Master\'s degree',
+    "time" => "P2Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/genetics.webp);">
         <div class="container">
-            <h2>M.Sc. in Genetics and Plant Breeding</h2>
+            <h1>M.Sc. in Genetics and Plant Breeding</h1>
             <p>The Master of Science (M.Sc.) in Genetics and Plant Breeding is a cutting-edge postgraduate program designed for those passionate about advancing agricultural science through the principles of genetics and breeding.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/genetics.webp" alt="">
+                        <img src="assets/uploads/genetics.webp" alt="M.Sc. in Genetics and Plant Breeding at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -99,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                    <a href="horticulture-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/horticulture.webp" alt=""></a>
+                                    <a href="horticulture-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/horticulture.webp" alt="Master in Horticulture at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="horticulture-colleges-in-dehradun-uttarakhand.php">Master in Horticulture</a></h4>
@@ -123,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="master-in-agriculture.php"><img class="animated" src="assets/uploads/agriculture.webp" alt=""></a>
+                                    <a href="master-in-agriculture.php"><img class="animated" src="assets/uploads/agriculture.webp" alt="Master in agriculture at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="master-in-agriculture.php">Master in agriculture</a></h4>
@@ -147,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="food-technology.php"><img class="animated" src="assets/uploads/food.webp" alt=""></a>
+                                    <a href="food-technology.php"><img class="animated" src="assets/uploads/food.webp" alt="Bachelor in Food Technology (Hons.) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="food-technology.php">Bachelor in Food Technology (Hons.)</a></h4>

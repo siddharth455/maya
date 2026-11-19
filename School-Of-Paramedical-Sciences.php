@@ -312,7 +312,7 @@ SCHEMA;
         <div class="course-card">
           <div class="course-img">
             <a href="dialysis-technology.php">
-              <img src="assets/uploads/dialysis.webp" alt="">
+              <img src="assets/uploads/dialysis.webp" alt="Diploma in Dialysis Technology at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -342,7 +342,7 @@ SCHEMA;
         <div class="course-card">
           <div class="course-img">
             <a href="bpt.php">
-              <img src="assets/uploads/bpt.webp" alt="">
+              <img src="assets/uploads/bpt.webp" alt="Bachelor of Physiotherapy (BPT) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -362,7 +362,7 @@ SCHEMA;
         <div class="course-card">
           <div class="course-img">
             <a href="bmlt.php">
-              <img src="assets/uploads/bmlt.webp" alt="">
+              <img src="assets/uploads/bmlt.webp" alt="Bachelor of Medical Laboratory Technology at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -382,7 +382,7 @@ SCHEMA;
         <div class="course-card">
           <div class="course-img">
             <a href="bmrit.php">
-              <img src="assets/uploads/bmrit.webp" alt="">
+              <img src="assets/uploads/bmrit.webp" alt="Bachelor of Medical Radiology &amp; Imaging Technology at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -402,7 +402,7 @@ SCHEMA;
         <div class="course-card">
           <div class="course-img">
             <a href="bott.php">
-              <img src="assets/uploads/bott.webp" alt="">
+              <img src="assets/uploads/bott.webp" alt="Bachelor of Operation Theatre Technology at Maya Devi University">
             </a>
           </div>
           <div class="course-body">

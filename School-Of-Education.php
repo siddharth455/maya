@@ -262,7 +262,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="bachelor-education.php">
-              <img src="assets/uploads/education.jpg" alt="">
+              <img src="assets/uploads/education.jpg" alt="Bachelor of Education (B.Ed.) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -458,9 +458,9 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
           <div class="dept-blog-body">
             <h4 class="dept-blog-title">
-              <a href="private-bed-colleges-dehradun.php">Best Private B.Ed Colleges in Dehradun: Admission, Fees, Eligibility, Entrance Exams & Career Scope (2026)</a>
+              <a href="private-bed-colleges-dehradun.php">Best Private B.Ed Colleges in Dehradun: Admission, Fees, Eligibility, Entrance Exams & Career Scope (2027)</a>
             </h4>
-            <p class="dept-blog-excerpt">Explore the best private B.Ed colleges in Dehradun for 2026. Check eligibility, admission process, fees, entrance exams, placements, and career opportunities...</p>
+            <p class="dept-blog-excerpt">Explore the best private B.Ed colleges in Dehradun for 2027. Check eligibility, admission process, fees, entrance exams, placements, and career opportunities...</p>
             <div class="dept-blog-footer">
               <span class="dept-blog-date"><i class="fa fa-calendar-o"></i> Apr 26, 2025</span>
               <a href="private-bed-colleges-dehradun.php" class="dept-blog-btn">Read Full Article &rarr;</a>

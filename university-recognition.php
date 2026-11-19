@@ -7,7 +7,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <?php require "common/header.php" ?>
 <section class="recognition-section py-5">
   <div class="container">
-    <h2 class="text-center mb-5">University Recognitions</h2>
+    <h1 class="text-center mb-5" style="font-size:30px; line-height:36px;">University Recognitions</h1>
 
     <!-- 1. Uttarakhand Government Letter -->
     <div class="row mb-5 align-items-stretch">

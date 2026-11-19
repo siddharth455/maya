@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/maya.webp);">
         <div class="container">
-            <h2>Library Services</h2>
+            <h1>Library Services</h1>
             <p>Our state-of-the-art library provides comprehensive resources, digital services, and learning support to enhance academic excellence and research capabilities.</p>
         </div>
     </div>

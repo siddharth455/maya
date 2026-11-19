@@ -7,7 +7,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <?php require "common/header.php"?>
 <section class="hero-section" style="background: url('assets/uploads/home-banner.webp') center/cover no-repeat; height:70vh !important;">
   <div class="hero-content">
-      <h3 class="display-5 fw-bold text-white">Placement Overview</h3>
+      <h1 class="display-5 fw-bold text-white">Placement Overview</h1>
       <p class="lead text-white">At Maya Devi University, our Placement Cell is dedicated to guiding students toward <br>successful careers by connecting them with leading industries and fostering professional excellence.</p>
     </div>
   </section>

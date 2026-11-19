@@ -3,12 +3,21 @@ $page_title = "GNM Nursing Course in Dehradun | Maya Devi University";
 $page_description = "Enroll in GNM Nursing course at Maya Devi University, Dehradun with hospital-based clinical training.";
 $canonical_url = "https://maya.edu.in/gnm.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'General Nursing and Midwifery (GNM)',
+    "description" => 'This specialization prepares students for rewarding careers in the healthcare sector. Graduates can work as Registered Nurses, Community Health Nurses, Midwives, or Clinical Instructors, and also pursue higher studies in nursing or specialized areas like pediatric, psychiatric, or critical care nursing.',
+    "credential" => 'Diploma',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/gnm.webp);">
         <div class="container">
-            <h2>General Nursing and Midwifery (GNM)</h2>
+            <h1>General Nursing and Midwifery (GNM)</h1>
             <p>The GNM diploma program focuses on preparing students for nursing and midwifery roles in both institutional and community settings. It blends theoretical instruction with hands-on experience in maternal care, pediatric nursing, and emergency response.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/gnm.webp" alt="">
+                        <img src="assets/uploads/gnm.webp" alt="General Nursing and Midwifery (GNM) at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -101,7 +110,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-nursing.php"><img class="animated" src="assets/uploads/nursing-1.jpg" alt=""></a>
+                                    <a href="bsc-nursing.php"><img class="animated" src="assets/uploads/nursing-1.jpg" alt="Group of nurses and healthcare professionals in uniform"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="bsc-nursing.php">B.Sc Nursing</a></h4>

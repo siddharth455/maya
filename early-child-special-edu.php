@@ -3,12 +3,21 @@ $page_title = "Early Childhood Special Education in Dehradun | Maya Devi Univers
 $page_description = "Enroll in Early Childhood Special Education at Maya Devi University, Dehradun with practical training in inclusive education.";
 $canonical_url = "https://maya.edu.in/early-child-special-edu.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Diploma in Early Child Special Education (Hearing Impairment)',
+    "description" => 'The Diploma in Early Child Special Education (Hearing Impairment) is a professional program designed to train educators and caregivers to support young children aged 0–6 years with hearing impairment. The course focuses on early identification, communication and language development, auditory training, educational psychology, and the use of assistive hearing technologies.',
+    "credential" => 'Diploma',
+    "time" => "P1Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/paramedical.webp);">
         <div class="container">
-            <h2>Diploma in Early Child Special Education (Hearing Impairment)</h2>
+            <h1>Diploma in Early Child Special Education (Hearing Impairment)</h1>
             <p>The Diploma in Early Child Special Education (Hearing Impairment) is a specialized program designed to prepare professionals to support and educate young children with hearing impairment during their early developmental years.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/paramedical.webp" alt="">
+                        <img src="assets/uploads/paramedical.webp" alt="Diploma in Early Child Special Education (Hearing Impairment) at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -100,7 +109,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="early-rehabilitation-therapy.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="early-rehabilitation-therapy.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Early Rehabilitation Therapy Rehabilitation (Mental Retardation) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="early-rehabilitation-therapy.php">Early Rehabilitation Therapy Rehabilitation (Mental Retardation)</a></h4>
@@ -124,7 +133,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="prosthetics-orthotics.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="prosthetics-orthotics.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Prosthetics and Orthotics at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="prosthetics-orthotics.php">Prosthetics and Orthotics</a></h4>
@@ -148,7 +157,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="hearing-language-speech.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="hearing-language-speech.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Hearing Language and Speech at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="hearing-language-speech.php">Hearing Language and Speech</a></h4>

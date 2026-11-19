@@ -3,12 +3,20 @@ $page_title = "Diploma in Confectionery in Dehradun | Maya Devi University";
 $page_description = "Enroll in Diploma in Confectionery at Maya Devi University, Dehradun with practical bakery training and professional culinary skills.";
 $canonical_url = "https://maya.edu.in/diploma-in-confectionary.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Diploma in Bakery and Confectionery',
+    "description" => 'The Diploma in Bakery & Confectionary is an extensive 2 year program aimed at equipping students for fulfilling careers in the hospitality sectors. The Diploma in Bakery and Confectionary program is a comprehensive and hands-on course designed to provide students with the skills and knowledge necessary to excel in the baking and pastry arts industry.',
+    "credential" => 'Diploma',
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/bakery.webp);">
         <div class="container">
-            <h2>Diploma in Bakery and Confectionery</h2>
+            <h1>Diploma in Bakery and Confectionery</h1>
             <p>This program combines theoretical learning with practical experience, ensuring that students are well-equipped to pursue a variety of careers in the dynamic world of bakery and confectionary.</p>
         </div>
     </div>
@@ -26,7 +34,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/bakery.webp" alt="">
+                        <img src="assets/uploads/bakery.webp" alt="Diploma in Bakery and Confectionery at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -101,7 +109,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="diploma-in-food-production.php"><img class="animated" src="assets/uploads/dhm.webp" alt=""></a>
+                                    <a href="diploma-in-food-production.php"><img class="animated" src="assets/uploads/dhm.webp" alt="Diploma in Food Production at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="diploma-in-food-production.php">Diploma in Food Production</a></h4>
@@ -125,7 +133,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bhm-lateral-entry-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/hm.webp" alt=""></a>
+                                    <a href="bhm-lateral-entry-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/hm.webp" alt="Bachelor of Hotel Management (LE) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="bhm-lateral-entry-colleges-in-dehradun-uttarakhand.php">Bachelor of Hotel Management (LE)</a></h4>
@@ -149,7 +157,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bhm-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/hm-le.webp" alt=""></a>
+                                    <a href="bhm-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/hm-le.webp" alt="Bachelor in Hotel Management at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bhm-colleges-in-dehradun-uttarakhand.php">Bachelor in Hotel Management</a></h4>

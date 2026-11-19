@@ -1,6 +1,6 @@
 <?php
-$page_title = "Hotel Management & Tourism in Dehradun | Maya Devi University";
-$page_description = "Study Hotel Management and Tourism at Maya Devi University, Dehradun with hospitality industry exposure.";
+$page_title = "Hotel Management College in Dehradun 2027 | BHM, BHMCT | MDU";
+$page_description = "Hotel management admission 2027 at Maya Devi University, Dehradun: BHM, BHMCT, diploma and master’s programmes with practical training. Apply now.";
 $canonical_url = "https://maya.edu.in/hotel-management-and-tourism.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 $page_schema = <<<SCHEMA
@@ -230,31 +230,12 @@ $page_schema = <<<SCHEMA
  ]
 }
 </script>
-<script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@type": "FAQPage",
- "mainEntity": [
-  {
-   "@type": "Question",
-   "name": "What hotel management courses are available at Maya Devi University?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Maya Devi University offers BHM (Bachelor of Hotel Management), B.Sc. Hotel & Hospitality Administration, multiple diploma programs (Food Production, Bakery, Front Office, Housekeeping, Aviation Management), and MHM at the postgraduate level."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "Do hotel management students get placement at 5-star hotels?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Yes. Maya Devi University's placement cell has tie-ups with leading hospitality brands including The Taj Group, The Oberoi Group, and other top hotel chains for campus recruitment."
-   }
-  }
- ]
-}
-</script>
 SCHEMA;
+
+// Batch 2 SEO content: intro, at-a-glance table, why-choose list and FAQs (schema matches visible FAQs)
+require_once "common/course-seo.php";
+$seo = course_seo("hotel");
+$page_schema .= seo_faq_schema($seo);
 ?>
 <?php require "common/header.php"?>
 
@@ -268,17 +249,13 @@ SCHEMA;
   <!-- About Section -->
 <section class="container py-5">
 <div class="section-title  pb-20">
-    <h2>School <span>Overview</h2>
+    <?php echo seo_css(); ?>
+    <h1 class="seo-h1">Hotel Management College in Dehradun <span>– School of Hotel &amp; Tourism Management, MDU</span></h1>
     </div>
   <div class="row">
     <!-- Left Text -->
     <div class="col-md-7">
-      <p>
-      The School of Hotel & Tourism Management was established under the aegis of the Maya Devi Educational Foundation with a vision to develop skilled professionals for the dynamic Hospitality and Tourism industry. Since its inception, the school has been dedicated to providing quality education, practical exposure, and industry-oriented training to prepare students for successful careers in hospitality, tourism, travel, and allied sectors. Through academic excellence and professional development, the school continues to shape future leaders and innovators in the global hospitality industry.
-      </p>
-      <p>
-      Our goal is to empower individuals with the confidence and competence needed to excel across a wide spectrum of career opportunities in the hospitality domain.At SOHM, our mission is to provide unparalleled education and hands-on training for students aiming to succeed in the vibrant and ever-evolving Hospitality & Tourism sector.
-      </p>
+      <?php echo seo_intro($seo); ?>
       <p>We are dedicated to offering a multifaceted and integrated educational experience, consistently updating our curriculum to reflect the latest trends, innovations, and demands of the global hospitality industry.
       Join us at SOHM—where your journey to a successful career in the Hospitality and Tourism industry begins</p>
       <a class="default-btn btn-block" href="assets/uploads/fee/Hotel_Management_Tourism_m.pdf">Download fee structure</a>
@@ -293,6 +270,12 @@ SCHEMA;
   </div>
 </div>
 
+</section>
+
+<!-- At a glance + Why choose (Batch 2 SEO) -->
+<section class="container">
+<?php echo seo_glance($seo); ?>
+<?php echo seo_why($seo); ?>
 </section>
 
   <!-- Achievements Section -->
@@ -406,7 +389,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="certification-in-hotel-management.php">
-              <img src="assets/uploads/hm.webp" alt="">
+              <img src="assets/uploads/hm.webp" alt="Certification in Hotel Management at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -426,7 +409,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="advanced-certification-in-hotel-management.php">
-              <img src="assets/uploads/bhmct-le.webp" alt="">
+              <img src="assets/uploads/bhmct-le.webp" alt="Advance Certification in Hotel Management at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -455,7 +438,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="diploma-in-confectionary.php">
-              <img src="assets/uploads/bakery.webp" alt="">
+              <img src="assets/uploads/bakery.webp" alt="Diploma in Bakery &amp; Confectionery at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -475,7 +458,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="diploma-in-food-production.php">
-              <img src="assets/uploads/dhm.webp" alt="">
+              <img src="assets/uploads/dhm.webp" alt="Diploma in Food Production at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -505,7 +488,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="bhm-colleges-in-dehradun-uttarakhand.php">
-              <img src="assets/uploads/hm-le.webp" alt="">
+              <img src="assets/uploads/hm-le.webp" alt="Bachelor in Hotel Management at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -525,7 +508,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="bhmct-colleges-in-dehradun-uttarakhand.php">
-              <img src="assets/uploads/bhmct.webp" alt="">
+              <img src="assets/uploads/bhmct.webp" alt="BHMCT at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -555,7 +538,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="master-of-hotel-management.php">
-              <img src="assets/uploads/mhm.webp" alt="">
+              <img src="assets/uploads/mhm.webp" alt="Master of Hotel Management at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -574,7 +557,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="master-of-hotel-management-and-tourism.php">
-              <img src="assets/uploads/mhmt.png" alt="">
+              <img src="assets/uploads/mhmt.png" alt="Master of Hotel Management and Tourism at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -1005,27 +988,6 @@ At Maya Devi University, your journey toward a successful hospitality and touris
 
 </script>
 
-<section class="mdu-faq-section" id="faq">
-  <style>
-    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
-    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
-    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
-      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
-    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
-    .mdu-faq-q::-webkit-details-marker{display:none;}
-    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
-    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
-    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
-  </style>
-  <h2>Frequently Asked Questions</h2>
-    <details class="mdu-faq-item">
-      <summary class="mdu-faq-q">What hotel management courses are available at Maya Devi University?</summary>
-      <p class="mdu-faq-a">Maya Devi University offers BHM (Bachelor of Hotel Management), B.Sc. Hotel &amp; Hospitality Administration, multiple diploma programs (Food Production, Bakery, Front Office, Housekeeping, Aviation Management), and MHM at the postgraduate level.</p>
-    </details>
-    <details class="mdu-faq-item">
-      <summary class="mdu-faq-q">Do hotel management students get placement at 5-star hotels?</summary>
-      <p class="mdu-faq-a">Yes. Maya Devi University's placement cell has tie-ups with leading hospitality brands including The Taj Group, The Oberoi Group, and other top hotel chains for campus recruitment.</p>
-    </details>
-</section>
+<?php echo seo_faq($seo); ?>
 
 <?php require "common/footer.php"?>

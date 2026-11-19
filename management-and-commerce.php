@@ -1,6 +1,6 @@
 <?php
-$page_title = "Management & Commerce Programs in Dehradun | Maya Devi University";
-$page_description = "Explore Management and Commerce programs at Maya Devi University, Dehradun with industry-focused curriculum and placement support.";
+$page_title = "MBA & BBA College in Dehradun 2027 | Maya Devi University";
+$page_description = "MBA and BBA admission 2027 at Maya Devi University, Dehradun. MBA in Marketing, HR, FinTech, Digital Marketing, Agri Business and more. Apply now.";
 $canonical_url = "https://maya.edu.in/management-and-commerce.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 $page_schema = <<<SCHEMA
@@ -110,39 +110,12 @@ $page_schema = <<<SCHEMA
  ]
 }
 </script>
-<script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@type": "FAQPage",
- "mainEntity": [
-  {
-   "@type": "Question",
-   "name": "What MBA specializations are offered at Maya Devi University?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Maya Devi University offers MBA with specializations in Marketing, Finance, Human Resources, and Operations Management. The program is a 2-year full-time course."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "What is the eligibility for MBA at Maya Devi University?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "For MBA admission at Maya Devi University, candidates must hold a bachelor's degree with minimum 50% marks. Scores from CAT, MAT, or CMAT are accepted. Direct admission is also available based on merit."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "What companies recruit MBA students from Maya Devi University?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "MBA graduates from Maya Devi University are recruited by companies such as Amazon, Deloitte, American Express, HDFC Bank, Axis Bank, and various multinational consulting firms."
-   }
-  }
- ]
-}
-</script>
 SCHEMA;
+
+// Batch 2 SEO content: intro, at-a-glance table, why-choose list and FAQs (schema matches visible FAQs)
+require_once "common/course-seo.php";
+$seo = course_seo("management");
+$page_schema .= seo_faq_schema($seo);
 ?>
 <?php require "common/header.php"?>
 
@@ -293,6 +266,14 @@ main::before {
   to { opacity:1; transform:translateY(0); }
 }
 
+/* ── Batch 2 SEO blocks ── */
+.hero h1.seo-hero-h1 { font-size: clamp(2rem, 6vw, 3.4rem); }
+.hero h1.seo-hero-h1 span { display: block; font-size: 0.5em; line-height: 1.3; margin-top: 14px; letter-spacing: 0; }
+.hero-sub.seo-hero-sub { margin-bottom: 16px; }
+.hero-sub strong { color: #fff; font-weight: 600; }
+.seo-panel { background: #fff; border-radius: 16px; padding: 44px 48px; color: #333; }
+main .mdu-faq-section h2 { color: #fff; }
+@media (max-width: 767px) { .seo-panel { padding: 28px 18px; } .section-inner .seo-panel { margin: 0 -20px; } }
 /* ── LAYOUT ── */
 section { position: relative; z-index: 1; }
 .section-inner { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
@@ -684,11 +665,22 @@ section { position: relative; z-index: 1; }
   <div class="hero-orb hero-orb-3"></div>
   <div class="hero-content">
     <div class="hero-badge"><span></span> Dehradun's Premier Business School</div>
-    <h1>Commerce &amp; Management<br>with an <em>IBM-powered</em><br><span>edge.</span></h1>
-    <p class="hero-sub">Business careers now demand analytics, GenAI fluency, marketing intelligence, and sharper decision-making. MDU helps students build that advantage.</p>
+    <h1 class="seo-hero-h1">MBA &amp; BBA College in Dehradun <span>– School of Commerce &amp; Management, Maya Devi University</span></h1>
+    <p class="hero-sub seo-hero-sub"><?php echo $seo["intro"][0]; ?></p>
+    <p class="hero-sub"><?php echo $seo["intro"][1]; ?></p>
     <div class="hero-cta-group">
       <a href="https://admissions.maya.edu.in" class="btn-primary">Apply Now →</a>
       <a href="#courses" class="btn-outline">Explore Programs</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ AT A GLANCE + WHY (Batch 2 SEO) ═══════════════════════ -->
+<section class="section-pad" style="padding-bottom:0;">
+  <div class="section-inner">
+    <div class="seo-panel">
+<?php echo seo_glance($seo); ?>
+<?php echo seo_why($seo); ?>
     </div>
   </div>
 </section>
@@ -1703,9 +1695,9 @@ section { position: relative; z-index: 1; }
           </div>
           <div class="dept-blog-body">
             <h4 class="dept-blog-title">
-              <a href="bba-colleges-in-dehradun.php">BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2026)</a>
+              <a href="bba-colleges-in-dehradun.php">BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2027)</a>
             </h4>
-            <p class="dept-blog-excerpt">Explore the best BBA colleges in Dehradun for 2026 with a detailed focus on Maya Devi University. Know BBA course structure, fees, placements, and career scope...</p>
+            <p class="dept-blog-excerpt">Explore the best BBA colleges in Dehradun for 2027 with a detailed focus on Maya Devi University. Know BBA course structure, fees, placements, and career scope...</p>
             <div class="dept-blog-footer">
               <span class="dept-blog-date"><i class="fa fa-calendar-o"></i> Mar 30, 2026</span>
               <a href="bba-colleges-in-dehradun.php" class="dept-blog-btn">Read Full Article &rarr;</a>
@@ -1850,7 +1842,7 @@ section { position: relative; z-index: 1; }
   <div class="cta-inner">
     <div class="cta-text reveal-left">
       <h2>Ready to Shape Your Future?</h2>
-      <p>Join thousands of students who've launched transformative careers through MDU's industry-aligned Commerce &amp; Management programs. Applications are open for 2026-27.</p>
+      <p>Join thousands of students who've launched transformative careers through MDU's industry-aligned Commerce &amp; Management programs. Applications are open for 2027-28.</p>
     </div>
     <a href="https://admissions.maya.edu.in" class="btn-white reveal-right">Apply Now →</a>
   </div>
@@ -1952,32 +1944,7 @@ if ($.fn.slick) {
     });
 }
 </script>
-<section class="mdu-faq-section" id="faq">
-  <style>
-    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
-    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
-    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
-      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
-    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
-    .mdu-faq-q::-webkit-details-marker{display:none;}
-    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
-    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
-    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
-  </style>
-  <h2>Frequently Asked Questions</h2>
-    <details class="mdu-faq-item">
-      <summary class="mdu-faq-q">What MBA specializations are offered at Maya Devi University?</summary>
-      <p class="mdu-faq-a">Maya Devi University offers MBA with specializations in Marketing, Finance, Human Resources, and Operations Management. The program is a 2-year full-time course.</p>
-    </details>
-    <details class="mdu-faq-item">
-      <summary class="mdu-faq-q">What is the eligibility for MBA at Maya Devi University?</summary>
-      <p class="mdu-faq-a">For MBA admission at Maya Devi University, candidates must hold a bachelor's degree with minimum 50% marks. Scores from CAT, MAT, or CMAT are accepted. Direct admission is also available based on merit.</p>
-    </details>
-    <details class="mdu-faq-item">
-      <summary class="mdu-faq-q">What companies recruit MBA students from Maya Devi University?</summary>
-      <p class="mdu-faq-a">MBA graduates from Maya Devi University are recruited by companies such as Amazon, Deloitte, American Express, HDFC Bank, Axis Bank, and various multinational consulting firms.</p>
-    </details>
-</section>
+<?php echo seo_faq($seo); ?>
 
 <?php require "common/footer.php"?>
 </main>

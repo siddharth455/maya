@@ -88,7 +88,7 @@ $base_path = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\') . '/';
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-3 pt-100 pb-95" 
         style="background-image:url(assets/uploads/maya.webp);">
         <div class="container">
-            <h2>Blog Details</h2>
+            <h1>Blog Details</h1>
         </div>
     </div>
     <div class="breadcrumb-bottom">

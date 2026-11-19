@@ -3,12 +3,21 @@ $page_title = "B.Tech Civil Engineering in Dehradun | Maya Devi University";
 $page_description = "Enroll in B.Tech Civil Engineering at Maya Devi University, Dehradun with practical training, advanced labs, and career-focused education.";
 $canonical_url = "https://maya.edu.in/b.tech-civil-engineering.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.tech Civil',
+    "description" => 'The Civil Engineering Department boasts a team of expert faculty members and resources from prestigious institutions, committed to providing students with both a solid theoretical foundation and practical engineering experience. To further enhance practical skills, the department is equipped with state-of-the-art laboratories and research centers specializing in various subfields of Civil Engineering, including Structural Engineering, Earthquake Engineering, Transportation Engineering, Geotechnical Engineering, Fluid Mechanics, Environmental Engineering, and Concrete Technology.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/civil.webp);">
         <div class="container">
-            <h2>B.Tech in Civil Engineering</h2>
+            <h1>B.Tech in Civil Engineering</h1>
             <p>The importance of construction projects in the context of sustainable development has been steadily increasing, leading to a growing demand for civil engineering professionals. </p>
         </div>
     </div>

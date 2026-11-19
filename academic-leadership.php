@@ -9,7 +9,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/maya.webp);">
         <div class="container">
-            <h2>Academic Leadership</h2>
+            <h1>Academic Leadership</h1>
             <p>Our Academic Leadership provides strategic direction and scholarly oversight to advance the university’s teaching, research, and academic excellence.</p>
         </div>
     </div>

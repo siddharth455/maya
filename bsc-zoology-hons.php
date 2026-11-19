@@ -3,12 +3,21 @@ $page_title = "B.Sc Zoology (Hons) in Dehradun | Maya Devi University";
 $page_description = "Join B.Sc Zoology (Hons) at Maya Devi University, Dehradun with advanced biological studies and research exposure.";
 $canonical_url = "https://maya.edu.in/bsc-zoology-hons.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Bachelor of Science (B.Sc.) Hons. in Zoology',
+    "description" => 'The B.Sc. (Hons.) Zoology program at Maya Devi University offers an in-depth and specialized study of the animal kingdom, covering advanced topics such as animal physiology, comparative anatomy, genetics, evolution, embryology, ecology, entomology, biotechnology, parasitology, microbiology, and environmental biology.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/zoology.webp);">
         <div class="container">
-            <h2>Bachelor of Science (B.Sc.) Hons. in Zoology</h2>
+            <h1>Bachelor of Science (B.Sc.) Hons. in Zoology</h1>
             <p>The B.Sc. (Hons.) Zoology program is designed to provide advanced knowledge of animal biology, physiology, ecology, genetics, and evolutionary science. It emphasizes research, laboratory practices, field studies, and scientific investigation, preparing graduates for specialized careers and higher studies in wildlife, research, healthcare, biotechnology, and environmental sectors in India and abroad.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/zoology.webp" alt="">
+                        <img src="assets/uploads/zoology.webp" alt="Bachelor of Science (B.Sc.) Hons. in Zoology at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -99,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-zoology.php"><img class="animated" src="assets/uploads/zoology.webp" alt=""></a>
+                                    <a href="bsc-zoology.php"><img class="animated" src="assets/uploads/zoology.webp" alt="B.Sc. Zoology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-zoology.php">B.Sc. Zoology</a></h4>
@@ -123,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-physics.php"><img class="animated" src="assets/uploads/physics.webp" alt=""></a>
+                                    <a href="bsc-physics.php"><img class="animated" src="assets/uploads/physics.webp" alt="B.Sc. Physics at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-physics.php">B.Sc. Physics</a></h4>
@@ -147,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-chemistry.php"><img class="animated" src="assets/uploads/chemistry.webp" alt=""></a>
+                                    <a href="bsc-chemistry.php"><img class="animated" src="assets/uploads/chemistry.webp" alt="B.Sc. Chemistry at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-chemistry.php">B.Sc. Chemistry</a></h4>
@@ -305,46 +314,46 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         <h2 class="text-center mt-3 mb-3">Industry Partner</h2>
         <div class="brand-logo-active owl-carousel">
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/1.webp" alt="">
+                <img src="assets/img/brand-logo/1.webp" alt="Max Healthcare – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/2.webp" alt="">
+                <img src="assets/img/brand-logo/2.webp" alt="Abbott – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/3.webp" alt="">
+                <img src="assets/img/brand-logo/3.webp" alt="Aloha on the Ganges – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/4.webp" alt="">
+                <img src="assets/img/brand-logo/4.webp" alt="Apollo Pharmacy – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/5.webp" alt="">
+                <img src="assets/img/brand-logo/5.webp" alt="Bajaj Finserv – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/6.webp" alt="">
+                <img src="assets/img/brand-logo/6.webp" alt="Four Points by Sheraton – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/7.webp" alt="">
+                <img src="assets/img/brand-logo/7.webp" alt="Geetanjali Homestate – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/8.webp" alt="">
+                <img src="assets/img/brand-logo/8.webp" alt="Jagran Solutions – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/9.webp" alt="">
+                <img src="assets/img/brand-logo/9.webp" alt="Justdial – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/10.webp" alt="">
+                <img src="assets/img/brand-logo/10.webp" alt="Marriott International – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/11.webp" alt="">
+                <img src="assets/img/brand-logo/11.webp" alt="Nectar Lifesciences (NecLife) – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/12.webp" alt="">
+                <img src="assets/img/brand-logo/12.webp" alt="PAN Seeds – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/13.webp" alt="">
+                <img src="assets/img/brand-logo/13.webp" alt="Paytm – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/14.webp" alt="">
+                <img src="assets/img/brand-logo/14.webp" alt="PlanetSpark – recruiter at Maya Devi University">
             </div>
         </div>
     </div>

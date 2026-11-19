@@ -3,12 +3,21 @@ $page_title = "BBA in Hospitality Management in Dehradun | Maya Devi University"
 $page_description = "Join BBA in Hospitality Management at Maya Devi University, Dehradun. Explore careers in hotel management, tourism, and event planning with industry-aligned training.";
 $canonical_url = "https://maya.edu.in/bba-hospitality-management.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Bachelor of Business Administration in Hospitality Management (BBA-HM)',
+    "description" => 'The BBA in Hospitality Management program is designed to provide students with a solid foundation in business management principles while specializing in the dynamic hospitality and tourism sectors. The curriculum covers core areas such as hotel operations, food and beverage management, front office operations, and hospitality marketing. Students gain a deep understanding of the service industry, learning how to manage teams, ensure customer satisfaction, and handle the operational complexities of hotels, resorts, and travel agencies.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/bba-8.webp);">
         <div class="container">
-            <h2>Bachelor of Business Administration in Hospitality Management</h2>
+            <h1>Bachelor of Business Administration in Hospitality Management</h1>
             <p>BBA Hospitality Management focuses on the business aspects of the hospitality industry, including hotel operations, tourism management, and customer service excellence.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/bba-8.webp" alt="">
+                        <img src="assets/uploads/bba-8.webp" alt="Bachelor of Business Administration in Hospitality Management (BBA-HM) at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -90,7 +99,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="dialysis-technology.php"><img class="animated" src="assets/uploads/dialysis.webp" alt=""></a>
+                                    <a href="dialysis-technology.php"><img class="animated" src="assets/uploads/dialysis.webp" alt="Diploma in Dialysis Technology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="dialysis-technology.php">Diploma in Dialysis Technology</a></h4>
@@ -114,7 +123,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bpt.php"><img class="animated" src="assets/uploads/bpt.webp" alt=""></a>
+                                    <a href="bpt.php"><img class="animated" src="assets/uploads/bpt.webp" alt="Bachelor of Physiotherapy (BPT) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="bpt.php">Bachelor of Physiotherapy (BPT)</a></h4>
@@ -138,7 +147,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bmrit.php"><img class="animated" src="assets/uploads/bmrit.webp" alt=""></a>
+                                    <a href="bmrit.php"><img class="animated" src="assets/uploads/bmrit.webp" alt="Bachelor of Medical Radiology &amp; Imaging Technology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bmrit.php">Bachelor of Medical Radiology & Imaging Technology</a></h4>

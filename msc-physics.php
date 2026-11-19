@@ -3,12 +3,21 @@ $page_title = "M.Sc. Physics | Maya Devi University Dehradun";
 $page_description = "The M.Sc. Physics program is designed to develop advanced theoretical, experimental, and research-oriented skills in modern and classical physics. It...";
 $canonical_url = "https://maya.edu.in/msc-physics.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'M.Sc. Physics',
+    "description" => 'The M.Sc. Physics program at Maya Devi University offers in-depth and advanced study of theoretical and applied physics. The curriculum includes quantum mechanics, classical mechanics, electrodynamics, condensed matter physics, statistical mechanics, nuclear and particle physics, electronics, computational physics, and astrophysics.',
+    "credential" => 'Master\'s degree',
+    "time" => "P2Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/nursing-banner.webp);">
         <div class="container">
-            <h2>M.Sc. Physics</h2>
+            <h1>M.Sc. Physics</h1>
             <p>The M.Sc. Physics program is designed to develop advanced theoretical, experimental, and research-oriented skills in modern and classical physics. It emphasizes analytical thinking, mathematical modeling, laboratory research, and scientific computing, preparing graduates for careers in research institutions, academia, industry, and advanced scientific fields in India and abroad.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/nursing-1.jpg" alt="">
+                        <img src="assets/uploads/nursing-1.jpg" alt="Group of nurses and healthcare professionals in uniform">
                         <div class="course-apply-btn">
                             <a href="https://admission.maya.edu.in/" class="default-btn">APPLY NOW</a>
                         </div>
@@ -35,7 +44,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="tab-pane active mt-5" id="course-details-1">
                             <div class="over-view-content">
                                 <h4>COURSE DETAILS</h4>
-                                <h5>Course Name : B.Sc Nursing</h5>
+                                <h5>Course Name : M.Sc. Physics</h5>
                                 <p>The M.Sc. Physics program at Maya Devi University offers in-depth and advanced study of theoretical and applied physics. The curriculum includes quantum mechanics, classical mechanics, electrodynamics, condensed matter physics, statistical mechanics, nuclear and particle physics, electronics, computational physics, and astrophysics.</p>
                                 <p>Students gain hands-on experience through laboratory experiments, simulation work, scientific computing, research projects, and seminars. With a strong focus on analytical skills, mathematical techniques, and experimental research, the program prepares students for high-level scientific careers, research positions, competitive exams, and doctoral studies.</p>
                                 <div class="over-view-list">
@@ -99,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="msc-chemistry.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt=""></a>
+                                    <a href="msc-chemistry.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt="M.Sc. Chemistry at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="msc-chemistry.php">M.Sc. Chemistry</a></h4>
@@ -123,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="msc-botany.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt=""></a>
+                                    <a href="msc-botany.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt="M.Sc. Botany at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="msc-botany.php">M.Sc. Botany</a></h4>
@@ -147,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="msc-mathematics.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt=""></a>
+                                    <a href="msc-mathematics.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt="M.Sc. Mathematics at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="course-details.php">M.Sc. Mathematics</a></h4>

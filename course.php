@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/maya.webp);">
         <div class="container">
-            <h2>Courses</h2>
+            <h1>Courses</h1>
             <p>Explore a wide range of courses designed to enhance your knowledge, sharpen your skills, and help you achieve your personal and professional goals.</p>
         </div>
     </div>
@@ -152,25 +152,25 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="container">
         <div class="brand-logo-active owl-carousel">
             <div class="single-brand-logo">
-                <a href="#"><img src="assets/img/brand-logo/1.png" alt=""></a>
+                <a href="#"><img src="assets/img/brand-logo/1.webp" alt="Max Healthcare – recruiter at Maya Devi University"></a>
             </div>
             <div class="single-brand-logo">
-                <a href="#"><img src="assets/img/brand-logo/2.png" alt=""></a>
+                <a href="#"><img src="assets/img/brand-logo/2.webp" alt="Abbott – recruiter at Maya Devi University"></a>
             </div>
             <div class="single-brand-logo">
-                <a href="#"><img src="assets/img/brand-logo/3.png" alt=""></a>
+                <a href="#"><img src="assets/img/brand-logo/3.webp" alt="Aloha on the Ganges – recruiter at Maya Devi University"></a>
             </div>
             <div class="single-brand-logo">
-                <a href="#"><img src="assets/img/brand-logo/4.png" alt=""></a>
+                <a href="#"><img src="assets/img/brand-logo/4.webp" alt="Apollo Pharmacy – recruiter at Maya Devi University"></a>
             </div>
             <div class="single-brand-logo">
-                <a href="#"><img src="assets/img/brand-logo/5.png" alt=""></a>
+                <a href="#"><img src="assets/img/brand-logo/5.webp" alt="Bajaj Finserv – recruiter at Maya Devi University"></a>
             </div>
             <div class="single-brand-logo">
-                <a href="#"><img src="assets/img/brand-logo/6.png" alt=""></a>
+                <a href="#"><img src="assets/img/brand-logo/6.webp" alt="Four Points by Sheraton – recruiter at Maya Devi University"></a>
             </div>
             <div class="single-brand-logo">
-                <a href="#"><img src="assets/img/brand-logo/2.png" alt=""></a>
+                <a href="#"><img src="assets/img/brand-logo/2.webp" alt="Abbott – recruiter at Maya Devi University"></a>
             </div>
         </div>
     </div>

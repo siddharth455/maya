@@ -3,12 +3,20 @@ $page_title = "Care Giving Course in Dehradun | Maya Devi University";
 $page_description = "Enroll in Care Giving course at Maya Devi University, Dehradun with practical healthcare training.";
 $canonical_url = "https://maya.edu.in/care-giving.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Certificate Course in Care Giving',
+    "description" => 'The Certificate Course in Care Giving is typically a 3–6 month practical-oriented program designed to prepare candidates for hands-on caregiving responsibilities. The curriculum includes modules on basic nursing skills, personal hygiene, nutrition management, mobility assistance techniques, elderly care, child care, disability support, infection control, communication skills, and emergency response.',
+    "credential" => 'Certificate',
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/paramedical.webp);">
         <div class="container">
-            <h2>Certificate Course in Care Giving</h2>
+            <h1>Certificate Course in Care Giving</h1>
             <p>The Certificate Course in Care Giving is a short-term professional program designed to train individuals to assist elderly persons, patients, children with special needs, or individuals requiring support in daily living activities. The course focuses on developing essential caregiving skills such as personal care, mobility assistance, basic first aid, emotional support, hygiene management, and understanding the needs of vulnerable populations.</p>
         </div>
     </div>
@@ -26,7 +34,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/paramedical.webp" alt="">
+                        <img src="assets/uploads/paramedical.webp" alt="Certificate Course in Care Giving at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -100,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="clinical-psychology.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="clinical-psychology.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="B.Sc. Clinical Psychology (Hons.) at Maya Devi University"></a>
                                     <span>Undergraduate Programs</span>
                                 </div>
                                 <div class="course-content">
@@ -125,7 +133,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="prosthetics-orthotics.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="prosthetics-orthotics.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Prosthetics and Orthotics at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="prosthetics-orthotics.php">Prosthetics and Orthotics</a></h4>
@@ -149,7 +157,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="hearing-language-speech.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="hearing-language-speech.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Hearing Language and Speech at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="hearing-language-speech.php">Hearing Language and Speech</a></h4>

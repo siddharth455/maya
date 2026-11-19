@@ -158,7 +158,7 @@ SCHEMA;
         <div class="course-card">
           <div class="course-img">
             <a href="early-child-special-edu.php">
-              <img src="assets/uploads/maya_devi_img_bnr.jpeg" alt="">
+              <img src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Early Child Special Edu. (Hearing Impairment) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -178,7 +178,7 @@ SCHEMA;
         <div class="course-card">
           <div class="course-img">
             <a href="early-rehabilitation-therapy.php">
-              <img src="assets/uploads/maya_devi_img_bnr.jpeg" alt="">
+              <img src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Early Rehabilitation Therapy (Mental Retardation) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -198,7 +198,7 @@ SCHEMA;
         <div class="course-card">
           <div class="course-img">
             <a href="prosthetics-orthotics.php">
-              <img src="assets/uploads/maya_devi_img_bnr.jpeg" alt="">
+              <img src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Prosthetics and Orthotics at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -218,7 +218,7 @@ SCHEMA;
         <div class="course-card">
           <div class="course-img">
             <a href="hearing-language-speech.php">
-              <img src="assets/uploads/maya_devi_img_bnr.jpeg" alt="">
+              <img src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Hearing Language and Speech at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -238,7 +238,7 @@ SCHEMA;
         <div class="course-card">
           <div class="course-img">
             <a href="indian-sign-language.php">
-              <img src="assets/uploads/maya_devi_img_bnr.jpeg" alt="">
+              <img src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Indian Sign Language at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -268,7 +268,7 @@ SCHEMA;
         <div class="course-card">
           <div class="course-img">
             <a href="clinical-psychology.php">
-              <img src="assets/uploads/maya_devi_img_bnr.jpeg" alt="">
+              <img src="assets/uploads/maya_devi_img_bnr.jpeg" alt="B.Sc. Clinical Psychology (Hons.) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -298,7 +298,7 @@ SCHEMA;
         <div class="course-card">
           <div class="course-img">
             <a href="care-giving.php">
-              <img src="assets/uploads/maya_devi_img_bnr.jpeg" alt="">
+              <img src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Certificate Course in Care Giving at Maya Devi University">
             </a>
           </div>
           <div class="course-body">

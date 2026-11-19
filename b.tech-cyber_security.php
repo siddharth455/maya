@@ -3,12 +3,21 @@ $page_title = "B.Tech Cyber Security in Dehradun | Maya Devi University";
 $page_description = "Pursue B.Tech Cyber Security at Maya Devi University, Dehradun with hands-on labs, ethical hacking training, and industry exposure.";
 $canonical_url = "https://maya.edu.in/b.tech-cyber_security.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Tech CSE with Specialization Cyber Security',
+    "description" => 'With internet, wireless system and data storage on clouds, the field is gaining special attention by various government and private agencies, to ensure security against such miscreants who are involved in cyber crime. Common cyber threats include Malware, Backdoors, Cryptojacking, DNS, DDOS, Form jacking etc.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/cyber-security.webp);">
         <div class="container">
-            <h2>B.Tech CSE with Specialization Cyber Security</h2>
+            <h1>B.Tech CSE with Specialization Cyber Security</h1>
             <p>The field is related to protection of computer system, computer network and protection against theft and damage of electronic data stored on cloud, breaching of security system of banking, financial units, leaking of important information related to national security etc.</p>
         </div>
     </div>

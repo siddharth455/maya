@@ -3,12 +3,21 @@ $page_title = "B.Sc Zoology in Dehradun | Maya Devi University";
 $page_description = "Study B.Sc Zoology at Maya Devi University, Dehradun with hands-on lab work and in-depth biological research training.";
 $canonical_url = "https://maya.edu.in/bsc-zoology.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Bachelor of Science (B.Sc.) in Zoology',
+    "description" => 'The Bachelor of Science (B.Sc.) in Zoology program at Maya Devi University provides an in-depth study of animal life, covering topics such as animal physiology, anatomy, ecology, genetics, evolution, biotechnology, parasitology, microbiology, and environmental biology.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/zoology.webp);">
         <div class="container">
-            <h2>Bachelor of Science (B.Sc.) in Zoology</h2>
+            <h1>Bachelor of Science (B.Sc.) in Zoology</h1>
             <p>The B.Sc. Zoology program is designed to provide students with scientific knowledge and practical skills related to animal biology, physiology, ecology, genetics, and biodiversity. It emphasizes laboratory work, field studies, and research-based learning, preparing graduates for careers in wildlife, research, healthcare, environmental sectors, and higher studies both in India and abroad.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/zoology.webp" alt="">
+                        <img src="assets/uploads/zoology.webp" alt="Bachelor of Science (B.Sc.) in Zoology at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -99,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-cbz.php"><img class="animated" src="assets/uploads/cbz.webp" alt=""></a>
+                                    <a href="bsc-cbz.php"><img class="animated" src="assets/uploads/cbz.webp" alt="B.Sc. CBZ at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-cbz.php">B.Sc. CBZ</a></h4>
@@ -123,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-physics.php"><img class="animated" src="assets/uploads/physics.webp" alt=""></a>
+                                    <a href="bsc-physics.php"><img class="animated" src="assets/uploads/physics.webp" alt="B.Sc. Physics at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-physics.php">B.Sc. Physics</a></h4>
@@ -147,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-botany.php"><img class="animated" src="assets/uploads/botany.webp" alt=""></a>
+                                    <a href="bsc-botany.php"><img class="animated" src="assets/uploads/botany.webp" alt="B.Sc. Botany at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-botany.php">B.Sc. Botany</a></h4>

@@ -1,5 +1,5 @@
 <?php
-$page_title = "B.Tech in Civil Engineering in Uttarakhand Colleges 2026 | Fees, Admission & Top Colleges";
+$page_title = "B.Tech Civil Engineering Colleges in Uttarakhand 2027 | Fees & Admission";
 $page_description = "Explore B.Tech in Civil Engineering in Uttarakhand. Learn about course structure, career scope, fees, admission process, and top colleges including IIT Roorkee, Graphic Era University, and Maya Devi University.";
 $canonical_url = "https://maya.edu.in/btech-civil-engineering-uttarakhand.php";
 $og_image = "https://maya.edu.in/assets/uploads/civil-blog.png";
@@ -14,14 +14,15 @@ $og_image = "https://maya.edu.in/assets/uploads/civil-blog.png";
       "@type": "WebPage",
       "@id": "https://maya.edu.in/btech-civil-engineering-uttarakhand.php",
       "url": "https://maya.edu.in/btech-civil-engineering-uttarakhand.php",
-      "name": "B.Tech in Civil Engineering in Uttarakhand Colleges 2026 | Fees, Admission & Top Colleges",
+      "name": "B.Tech Civil Engineering Colleges in Uttarakhand 2027 | Fees & Admission",
       "description": "Explore B.Tech in Civil Engineering in Uttarakhand. Learn about course structure, career scope, fees, admission process, and top colleges including IIT Roorkee, Graphic Era University, and Maya Devi University."
     },
     {
       "@type": "BlogPosting",
-      "headline": "B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2026)",
+      "headline": "B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2027)",
       "image": ["https://maya.edu.in/assets/uploads/civil-blog.png"],
       "datePublished": "2026-04-30",
+      "dateModified": "2026-11-13",
       "author": {
         "@type": "Organization",
         "name": "Maya Devi University"
@@ -125,7 +126,7 @@ $og_image = "https://maya.edu.in/assets/uploads/civil-blog.png";
                                 <span class="badge-tag-category">Engineering</span>
                             </div>
 
-                            <h1 class="blog-main-title my-3">B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2026)</h1>
+                            <h1 class="blog-main-title my-3">B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2027)</h1>
 
                             <h2>Introduction to Civil Engineering</h2>
                             <p>Civil Engineering is widely regarded as the foundation of modern civilization and infrastructure development. From roads and bridges to water supply and smart cities, civil engineers design, build, and maintain the systems that sustain everyday life.</p>

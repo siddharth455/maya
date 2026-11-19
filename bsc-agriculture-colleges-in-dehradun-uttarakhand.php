@@ -1,15 +1,29 @@
 <?php
-$page_title = "Best B.Sc Agriculture College in Dehradun | Maya Devi University";
-$page_description = "Looking for the best B.Sc Agriculture college in Dehradun? Maya Devi University offers practical field training and modern agricultural labs.";
+$page_title = "Best B.Sc Agriculture College in Dehradun 2027 | MDU";
+$page_description = "B.Sc Agriculture (Hons.) admission 2027 at Maya Devi University, Dehradun. Farm and lab training, internships and agri careers. Check eligibility and apply.";
 $canonical_url = "https://maya.edu.in/bsc-agriculture-colleges-in-dehradun-uttarakhand.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Batch 2 SEO content: intro, at-a-glance table, why-choose list and FAQs (schema matches visible FAQs)
+require_once "common/course-seo.php";
+$seo = course_seo("agriculture");
+$page_schema = ($page_schema ?? "") . seo_faq_schema($seo);
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Sc Agriculture (Hons.)',
+    "description" => seo_plain($seo["intro"][0]),
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/agri.webp);">
         <div class="container">
-            <h2>Bachelor of Science in Agriculture (Hons.)</h2>
-            <p>The Bachelor of Science in Agriculture (Hons.) program is designed to equip students with in-depth knowledge and practical skills in modern agricultural practices, crop management, and sustainable farming techniques.</p>
+            <h1 class="seo-banner-h1">Best B.Sc Agriculture College in Dehradun – B.Sc Agriculture (Hons.) at Maya Devi University</h1>
+            <p><?php echo $seo["intro"][0]; ?></p>
         </div>
     </div>
     <div class="breadcrumb-bottom">
@@ -26,7 +40,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/agri.webp" alt="">
+                        <img src="assets/uploads/agri.webp" alt="Bachelor of Science in Agriculture (Hons.) at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -36,7 +50,10 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="over-view-content">
                                 <h4>COURSE DETAILS</h4>
                                 <h5>Course Name : Bachelor of Science in Agriculture (Hons.)</h5>
-                                <p>The Bachelor of Science in Agriculture (Hons.) program provides comprehensive knowledge and practical expertise in all aspects of modern agriculture, including crop production, soil science, horticulture, agricultural economics, and farm management. Students gain both theoretical understanding and hands-on skills essential for careers in agriculture, agribusiness, and research.</p> <p>Practical training in farms, laboratories, and research projects enhances technical, analytical, and managerial competencies. The program emphasizes sustainable farming practices, innovation, and scientific approaches to agriculture. Internships and fieldwork with leading agricultural organizations prepare graduates for roles as agricultural scientists, farm managers, agribusiness professionals, and researchers in the agriculture and food sectors.</p>
+                                <?php echo seo_css(); ?>
+                                <div class="seo-intro"><p><?php echo $seo["intro"][1]; ?></p></div>
+                                <?php echo seo_glance($seo); ?>
+                                <?php echo seo_why($seo); ?>
 
                                 <div class="over-view-list">
                                     <h2>Eligibility Criteria</h2>
@@ -100,7 +117,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                    <a href="food-technology.php"><img class="animated" src="assets/uploads/food.webp" alt=""></a>
+                                    <a href="food-technology.php"><img class="animated" src="assets/uploads/food.webp" alt="Bachelor in Food Technology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="food-technology.php">Bachelor in Food Technology</a></h4>
@@ -124,7 +141,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="food-technology.php"><img class="animated" src="assets/uploads/food.webp" alt=""></a>
+                                    <a href="food-technology.php"><img class="animated" src="assets/uploads/food.webp" alt="Bachelor in Food Technology (Hons.) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="food-technology.php">Bachelor in Food Technology (Hons.)</a></h4>
@@ -148,7 +165,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="master-in-agriculture.php"><img class="animated" src="assets/uploads/agriculture.webp" alt=""></a>
+                                    <a href="master-in-agriculture.php"><img class="animated" src="assets/uploads/agriculture.webp" alt="Master in agriculture at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="master-in-agriculture.php">Master in agriculture</a></h4>
@@ -301,6 +318,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         </div>
     </div>
 </div>
+<?php echo seo_faq($seo); ?>
+
 <?php require "application-process.php" ?>
 <div class="brand-logo-area pt-45 pb-130">
     <div class="container">

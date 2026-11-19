@@ -1,5 +1,5 @@
 <?php
-$page_title = "Best Engineering College in Dehradun | Maya Devi University";
+$page_title = "Engineering at Maya Devi University – Labs, Faculty & Campus";
 $page_description = "Pursue B.Tech & M.Tech in Civil, Mechanical, Electrical & Electronics at Maya Devi University, a top engineering college in Dehradun, Uttarakhand.";
 $canonical_url = "https://maya.edu.in/engineering-at-maya-devi-university.php";
 $og_image = "https://maya.edu.in/assets/uploads/engineering-blog.png";
@@ -68,6 +68,8 @@ $og_image = "https://maya.edu.in/assets/uploads/engineering-blog.png";
                             <h1 class="blog-main-title my-3">Engineering Tomorrow: The School of Engineering at Maya Devi University</h1>
 
                             <p>Behind every bridge, machine, power grid, and smart device stands an engineer who imagined it and made it real. For students who want to build the physical and technological backbone of modern life, the School of Engineering at Maya Devi University is one of the most compelling choices for an <strong>engineering college in Dehradun</strong>, Uttarakhand.</p>
+
+                            <p class="mdu-main-link">For B.Tech branches, eligibility and admissions, visit our page on the <a href="best-engineering-college-in-dehradun-uttarakhand.php">best engineering college in Dehradun</a>.</p>
 
                             <h2>The Enduring Value of an Engineering Degree</h2>
                             <p>Engineering remains one of the most versatile and future-proof career paths. As India invests heavily in infrastructure, manufacturing, clean energy, and electric mobility, demand for skilled civil, mechanical, electrical, and electronics engineers continues to grow. An engineering education develops analytical thinking, design ability, and problem-solving skills that transfer across industries and stay relevant through decades of change.</p>

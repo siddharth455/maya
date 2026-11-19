@@ -1,43 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+$page_title = "Best Private University in Dehradun | Maya Devi University";
+$page_description = "Maya Devi University is a leading private university in Dehradun, Uttarakhand offering B.Tech, B.Sc, MBA, MCA, Pharmacy, Nursing, and more with modern infrastructure, expert faculty, and strong placement support.";
+$canonical_url = "https://maya.edu.in/";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+$no_breadcrumb = true; // homepage: no Home > Home breadcrumb
 
-<head>
-    <!-- UTM Parameter & Source Tracker -->
-    <script src="assets/js/utm-tracker.js"></script>
+// Homepage FAQs: one source for the visible FAQ section and the FAQPage schema,
+// so the two always match word for word.
+$home_faqs = [
+    [
+        "q" => "Is Maya Devi University a recognised private university in Dehradun?",
+        "a" => "Yes. Maya Devi University, Selaqui, Dehradun is a recognised private university in Uttarakhand offering UGC-recognised undergraduate, postgraduate, diploma and doctoral programs across 15 schools."
+    ],
+    [
+        "q" => "Which courses does Maya Devi University offer?",
+        "a" => "The university offers more than 120 programs including B.Tech, BCA, BBA, B.Com, B.Sc, B.Pharm, D.Pharm, B.Sc Nursing, GNM, BA LLB, M.Tech, MBA, MCA, M.Sc and PhD across engineering, management, pharmacy, nursing, paramedical, law, agriculture, arts and hotel management."
+    ],
+    [
+        "q" => "Where is the Maya Devi University campus located?",
+        "a" => "The campus is located at Selaqui, Pharma City, Dehradun, Uttarakhand 248011, with university-managed transport connecting major areas of Dehradun."
+    ],
+    [
+        "q" => "How do I apply for admission to Maya Devi University?",
+        "a" => "Applications can be submitted online through the official admissions portal at admissions.maya.edu.in, or by contacting the admission counselling team through the Contact Us page."
+    ],
+];
 
-    <link rel="icon" type="image/webp" href="assets/uploads/logo/favicon-CqYW0pAm.ico">
-
-    <title>Best Private University in Dehradun | Maya Devi University</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="Maya Devi University is a leading private university in Dehradun, Uttarakhand offering B.Tech, B.Sc, MBA, MCA, Pharmacy, Nursing, and more with modern infrastructure, expert faculty, and strong placement support.">
-
-    <link rel="canonical" href="https://maya.edu.in/">
-
-    <meta property="og:locale" content="en_IN" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Best Private University in Dehradun | Maya Devi University" />
-    <meta property="og:description" content="Explore top undergraduate and postgraduate programs at Maya Devi University, Dehradun with world-class education and strong industry exposure." />
-    <meta property="og:url" content="https://maya.edu.in/" />
-    <meta property="og:site_name" content="Maya Devi University" />
-    <meta property="og:image" content="https://maya.edu.in/assets/uploads/campus-2.jpeg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:type" content="image/webp" />
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Best Private University in Dehradun | Maya Devi University">
-    <meta name="twitter:description" content="Top university in Dehradun offering Engineering, Management, Pharmacy, Nursing and more.">
-    <meta name="twitter:image" content="https://maya.edu.in/assets/uploads/campus-2.jpeg">
-
-</head>
-
-<body>
-
-</body>
-
-</html>
+$home_website_ld = [
+    "@context" => "https://schema.org",
+    "@type" => "WebSite",
+    "name" => "Maya Devi University",
+    "alternateName" => "MDU Dehradun",
+    "url" => "https://maya.edu.in/",
+    "inLanguage" => "en-IN",
+];
+$home_faq_ld = [
+    "@context" => "https://schema.org",
+    "@type" => "FAQPage",
+    "mainEntity" => array_map(function ($f) {
+        return [
+            "@type" => "Question",
+            "name" => $f["q"],
+            "acceptedAnswer" => ["@type" => "Answer", "text" => $f["a"]],
+        ];
+    }, $home_faqs),
+];
+$ld_flags = JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT;
+$page_schema = '<script type="application/ld+json">' . json_encode($home_website_ld, $ld_flags) . "</script>\n"
+             . '<script type="application/ld+json">' . json_encode($home_faq_ld, $ld_flags) . "</script>\n";
+?>
 <?php require "common/header.php" ?>
 
 
@@ -53,7 +64,7 @@ url('assets/uploads/home-banner-1.jpeg');">
                 <div class="row align-items-center">
                     <div class="col-lg-9 col-md-7 col-12">
                         <div class="slider-content slider-animated-1 pt-230">
-                            <h1 class="animated">Empower. Educate. Excel.</h1>
+                            <div class="slider-title animated">Empower. Educate. Excel.</div>
                             <p class="animated">Maya Devi University offers quality education, expert guidance, and a vibrant campus life to prepare you for a successful future.</p>
                             <div class="slider-btn">
                                 <a class="animated default-btn btn-white-color" href="contact.php">CONTACT US</a>
@@ -79,7 +90,7 @@ url('assets/uploads/index-banner.jpeg');">
                 <div class="row align-items-center">
                     <div class="col-lg-9 col-md-7 col-12">
                         <div class="slider-content slider-animated-1 pt-230">
-                            <h1 class="animated">Celebrate. Connect. Create Memories.</h1>
+                            <div class="slider-title animated">Celebrate. Connect. Create Memories.</div>
                             <p class="animated">
                                 Experience the pulse of Maya Devi University through electrifying fests, cultural events, competitions, and celebrations that bring talent, creativity, and campus life together.
                             </p>
@@ -149,7 +160,7 @@ linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url('assets/uploads/campus-1
                 <div class="row align-items-center">
                     <div class="col-lg-9 col-md-7 col-12">
                         <div class="slider-content slider-animated-1 pt-230">
-                            <h1 class="animated">Shaping Future Leaders.</h1>
+                            <div class="slider-title animated">Shaping Future Leaders.</div>
                             <p class="animated">Maya Devi University blends innovation, academic excellence, and real-world skills to prepare students for success in every field.</p>
                             <div class="slider-btn">
                                 <a class="animated default-btn btn-white-color" href="contact.php">CONTACT US</a>
@@ -1645,10 +1656,10 @@ document.addEventListener("DOMContentLoaded", function() {
         <!-- Header -->
         <div class="row align-items-center mb-5">
             <div class="col-lg-6">
-                <h1 class="mdu-title">
+                <h2 class="mdu-title">
                     Best University in Dehradun
                     <span>Why Maya Devi University Stands Out?</span>
-                </h1>
+                </h2>
 
                 <p>
                     At Maya Devi University, Dehradun, we deliver world-class education
@@ -1701,16 +1712,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
         <!-- Hexagonal Gallery -->
         <div class="hex-gallery">
-            <div class="hex"><img loading="lazy" src="assets/uploads/maya-1.jpeg"></div>
-            <div class="hex"><img loading="lazy" src="assets/uploads/maya-2.jpeg"></div>
-            <div class="hex"><img loading="lazy" src="assets/uploads/maya-3.jpeg"></div>
-            <div class="hex"><img loading="lazy" src="assets/uploads/maya-4.jpeg"></div>
-            <div class="hex"><img loading="lazy" src="assets/uploads/maya-5.jpeg"></div>
-            <div class="hex"><img loading="lazy" src="assets/uploads/maya-6.jpeg"></div>
-            <div class="hex"><img loading="lazy" src="assets/uploads/maya-7.jpeg"></div>
-            <div class="hex"><img loading="lazy" src="assets/uploads/maya-8.jpeg"></div>
-            <div class="hex"><img loading="lazy" src="assets/uploads/maya-9.jpeg"></div>
-            <div class="hex"><img loading="lazy" src="assets/uploads/maya-10.jpeg"></div>
+            <div class="hex"><img alt="Three Maya Devi University students in uniform outside a campus building" loading="lazy" src="assets/uploads/maya-1.jpeg"></div>
+            <div class="hex"><img alt="Maya Devi University students in grey uniforms on campus" loading="lazy" src="assets/uploads/maya-2.jpeg"></div>
+            <div class="hex"><img alt="Students working at computers in a lab at Maya Devi University" loading="lazy" src="assets/uploads/maya-3.jpeg"></div>
+            <div class="hex"><img alt="Students in uniform walking across the Maya Devi University campus" loading="lazy" src="assets/uploads/maya-4.jpeg"></div>
+            <div class="hex"><img alt="Hotel management students preparing food in the training kitchen" loading="lazy" src="assets/uploads/maya-5.jpeg"></div>
+            <div class="hex"><img alt="Group photo of Maya Devi University students on campus" loading="lazy" src="assets/uploads/maya-6.jpeg"></div>
+            <div class="hex"><img alt="Students playing chess at Maya Devi University" loading="lazy" src="assets/uploads/maya-7.jpeg"></div>
+            <div class="hex"><img alt="Students playing on the sports ground at Maya Devi University" loading="lazy" src="assets/uploads/maya-8.jpeg"></div>
+            <div class="hex"><img alt="Students in a tug of war on the campus lawn" loading="lazy" src="assets/uploads/maya-9.jpeg"></div>
+            <div class="hex"><img alt="Students using microscopes in a science laboratory at Maya Devi University" loading="lazy" src="assets/uploads/maya-10.jpeg"></div>
         </div>
 
     </div>
@@ -1723,6 +1734,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     .mdu-title {
         font-size: 40px;
+        line-height: 42px;
         font-weight: 800;
         color: #00a651;
     }
@@ -1825,23 +1837,23 @@ document.addEventListener("DOMContentLoaded", function() {
         </h2>
         <div class="container-cat">
             <div class="cat-card">
-                <img loading="lazy" src="assets/uploads/nursing-1.jpg">
+                <img alt="Group of nurses and healthcare professionals in uniform" loading="lazy" src="assets/uploads/nursing-1.jpg">
                 <div class="cat-card__head">Nursing</div>
             </div>
             <div class="cat-card">
-                <img loading="lazy" src="assets/uploads/b.tech-electric-3.webp">
+                <img alt="Student working on a solar panel setup in the electrical engineering lab" loading="lazy" src="assets/uploads/b.tech-electric-3.webp">
                 <div class="cat-card__head">Mechanical</div>
             </div>
             <div class="cat-card">
-                <img loading="lazy" src="assets/uploads/nursing.webp">
+                <img alt="Nurse in blue scrubs with a stethoscope" loading="lazy" src="assets/uploads/nursing.webp">
                 <div class="cat-card__head">Pharmacy</div>
             </div>
             <div class="cat-card">
-                <img loading="lazy" src="assets/uploads/b.tech-electric-2.webp">
+                <img alt="Students working with equipment in the electrical engineering lab" loading="lazy" src="assets/uploads/b.tech-electric-2.webp">
                 <div class="cat-card__head">Electronics</div>
             </div>
             <div class="cat-card">
-                <img loading="lazy" src="assets/uploads/b.tech-mechanic-2.webp">
+                <img alt="Students with machinery in the mechanical engineering workshop" loading="lazy" src="assets/uploads/b.tech-mechanic-2.webp">
                 <div class="cat-card__head">Civil</div>
             </div>
         </div>
@@ -1915,14 +1927,14 @@ document.addEventListener("DOMContentLoaded", function() {
     <div class="row mb-5 text-center">
         <div class="col-lg-12">
             <p class="text-uppercase text-muted fw-semibold mb-2">Excellence & Innovation</p>
-            <h1 class="fw-bold mb-3" style="
-    font-size: 40px; 
+            <h2 class="fw-bold mb-3" style="
+    font-size: 40px; line-height: 42px; 
     background: linear-gradient(90deg, #00B894, #28a745, #006400); 
     -webkit-background-clip: text; 
     background-clip: text; 
     color: transparent;">
                 Why Choose Maya Devi University?
-            </h1>
+            </h2>
 
             <p class="fs-5 text-secondary">
                 Discover a world of opportunities where excellence meets innovation and tradition meets the future.
@@ -2197,7 +2209,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="single-blog">
                         <div class="blog-img" style="height:200px; overflow:hidden;">
                             <a href="best-universities-for-phd-in-dehradun.php">
-                                <img loading="lazy" src="assets/uploads/phd-blog.png" alt="Best Universities for PhD in Dehradun (2026 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth" style="width:100%; height:100%; object-fit:cover;">
+                                <img loading="lazy" src="assets/uploads/phd-blog.png" alt="Best Universities for PhD in Dehradun (2027 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth" style="width:100%; height:100%; object-fit:cover;">
                             </a>
                         </div>
 
@@ -2206,7 +2218,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                             <div class="blog-content" style="flex-grow:1;">
                                 <h4>
-                                    <a href="best-universities-for-phd-in-dehradun.php">Best Universities for PhD in Dehradun (2026 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth</a>
+                                    <a href="best-universities-for-phd-in-dehradun.php">Best Universities for PhD in Dehradun (2027 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth</a>
                                 </h4>
                                 <p>Looking for the best universities for PhD in Dehradun? Explore Maya Devi University and other top PhD colleges in Dehradun with details on eligibility, admission process...</p>
 
@@ -2227,7 +2239,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="single-blog">
                         <div class="blog-img" style="height:200px; overflow:hidden;">
                             <a href="best-nursing-college-in-dehradun-bsc-gnm.php">
-                                <img loading="lazy" src="assets/uploads/nursing-gnm-blog.png" alt="Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2026)" style="width:100%; height:100%; object-fit:cover;">
+                                <img loading="lazy" src="assets/uploads/nursing-gnm-blog.png" alt="Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2027)" style="width:100%; height:100%; object-fit:cover;">
                             </a>
                         </div>
 
@@ -2236,7 +2248,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                             <div class="blog-content" style="flex-grow:1;">
                                 <h4>
-                                    <a href="best-nursing-college-in-dehradun-bsc-gnm.php">Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2026)</a>
+                                    <a href="best-nursing-college-in-dehradun-bsc-gnm.php">Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2027)</a>
                                 </h4>
                                 <p>Explore the best nursing college in Dehradun offering B.Sc Nursing, GNM, ANM & M.Sc Nursing. Compare courses, eligibility, admission process, placements & career scope...</p>
 
@@ -2257,7 +2269,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="single-blog">
                         <div class="blog-img" style="height:200px; overflow:hidden;">
                             <a href="btech-civil-engineering-uttarakhand.php">
-                                <img loading="lazy" src="assets/uploads/civil-blog.png" alt="B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2026)" style="width:100%; height:100%; object-fit:cover;">
+                                <img loading="lazy" src="assets/uploads/civil-blog.png" alt="B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2027)" style="width:100%; height:100%; object-fit:cover;">
                             </a>
                         </div>
 
@@ -2266,7 +2278,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                             <div class="blog-content" style="flex-grow:1;">
                                 <h4>
-                                    <a href="btech-civil-engineering-uttarakhand.php">B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2026)</a>
+                                    <a href="btech-civil-engineering-uttarakhand.php">B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2027)</a>
                                 </h4>
                                 <p>Explore B.Tech in Civil Engineering in Uttarakhand. Learn about course structure, career scope, fees, admission process, and top colleges including IIT Roorkee and MDU...</p>
 
@@ -2287,7 +2299,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="single-blog">
                         <div class="blog-img" style="height:200px; overflow:hidden;">
                             <a href="private-bed-colleges-dehradun.php">
-                                <img loading="lazy" src="assets/uploads/bed-blog.png" alt="Best Private B.Ed Colleges in Dehradun: Admission, Fees, Eligibility, Entrance Exams & Career Scope (2026)" style="width:100%; height:100%; object-fit:cover;">
+                                <img loading="lazy" src="assets/uploads/bed-blog.png" alt="Best Private B.Ed Colleges in Dehradun: Admission, Fees, Eligibility, Entrance Exams & Career Scope (2027)" style="width:100%; height:100%; object-fit:cover;">
                             </a>
                         </div>
 
@@ -2296,9 +2308,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
                             <div class="blog-content" style="flex-grow:1;">
                                 <h4>
-                                    <a href="private-bed-colleges-dehradun.php">Best Private B.Ed Colleges in Dehradun: Admission, Fees, Eligibility, Entrance Exams & Career Scope (2026)</a>
+                                    <a href="private-bed-colleges-dehradun.php">Best Private B.Ed Colleges in Dehradun: Admission, Fees, Eligibility, Entrance Exams & Career Scope (2027)</a>
                                 </h4>
-                                <p>Explore the best private B.Ed colleges in Dehradun for 2026. Check eligibility, admission process, fees, entrance exams, placements, and career opportunities...</p>
+                                <p>Explore the best private B.Ed colleges in Dehradun for 2027. Check eligibility, admission process, fees, entrance exams, placements, and career opportunities...</p>
 
                                 <div class="blog-meta">
                                     <ul>
@@ -2317,7 +2329,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="single-blog">
                         <div class="blog-img" style="height:200px; overflow:hidden;">
                             <a href="bba-colleges-in-dehradun.php">
-                                <img loading="lazy" src="assets/uploads/bba-blog.png" alt="BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2026)" style="width:100%; height:100%; object-fit:cover;">
+                                <img loading="lazy" src="assets/uploads/bba-blog.png" alt="BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2027)" style="width:100%; height:100%; object-fit:cover;">
                             </a>
                         </div>
 
@@ -2326,9 +2338,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
                             <div class="blog-content" style="flex-grow:1;">
                                 <h4>
-                                    <a href="bba-colleges-in-dehradun.php">BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2026)</a>
+                                    <a href="bba-colleges-in-dehradun.php">BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2027)</a>
                                 </h4>
-                                <p>Explore the best BBA colleges in Dehradun for 2026 with a detailed focus on Maya Devi University. Know BBA course structure, fees, placements, and career scope...</p>
+                                <p>Explore the best BBA colleges in Dehradun for 2027 with a detailed focus on Maya Devi University. Know BBA course structure, fees, placements, and career scope...</p>
 
                                 <div class="blog-meta">
                                     <ul>
@@ -3018,5 +3030,40 @@ document.addEventListener("DOMContentLoaded", function() {
         min-height: 65px;
     }
 </style>
+
+<!-- ========== HOMEPAGE FAQ (matches the FAQPage schema in the head) ========== -->
+<style>
+    .home-faq { padding: 70px 0; background: #f5f6f8; }
+    .home-faq h2 { font-size: 36px; line-height: 42px; font-weight: 800; color: #203058; text-align: center; margin-bottom: 10px; }
+    .home-faq .home-faq-sub { text-align: center; font-size: 16px; color: #555; margin-bottom: 35px; }
+    .home-faq-list { max-width: 900px; margin: 0 auto; }
+    .home-faq-item { background: #fff; border: 1px solid #e3e6ea; border-radius: 10px; margin-bottom: 14px; overflow: hidden; }
+    .home-faq-item summary { list-style: none; cursor: pointer; padding: 18px 56px 18px 22px; position: relative; font-size: 17px; font-weight: 700; color: #203058; }
+    .home-faq-item summary::-webkit-details-marker { display: none; }
+    .home-faq-item summary::after { content: "+"; position: absolute; right: 22px; top: 50%; transform: translateY(-50%); width: 26px; height: 26px; line-height: 26px; text-align: center; border-radius: 50%; background: #00a651; color: #fff; font-size: 18px; font-weight: 700; }
+    .home-faq-item[open] summary::after { content: "\2212"; }
+    .home-faq-item[open] summary { color: #00a651; }
+    .home-faq-item p { padding: 0 22px 20px; margin: 0; font-size: 15px; line-height: 26px; color: #444; }
+    @media (max-width: 767px) {
+        .home-faq { padding: 50px 0; }
+        .home-faq h2 { font-size: 28px; line-height: 34px; }
+        .home-faq-item summary { font-size: 15px; padding: 16px 52px 16px 16px; }
+        .home-faq-item p { padding: 0 16px 16px; }
+    }
+</style>
+<section class="home-faq" aria-labelledby="home-faq-title">
+    <div class="container">
+        <h2 id="home-faq-title">Frequently Asked Questions</h2>
+        <p class="home-faq-sub">Quick answers about Maya Devi University, Dehradun</p>
+        <div class="home-faq-list">
+            <?php foreach ($home_faqs as $i => $faq): ?>
+                <details class="home-faq-item"<?php echo $i === 0 ? ' open' : ''; ?>>
+                    <summary><?php echo htmlspecialchars($faq["q"]); ?></summary>
+                    <p><?php echo htmlspecialchars($faq["a"]); ?></p>
+                </details>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</section>
 
 <?php require "common/footer.php" ?>

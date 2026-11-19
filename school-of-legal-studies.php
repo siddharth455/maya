@@ -1,6 +1,6 @@
 <?php
-$page_title = "School of Legal Studies | Maya Devi University Dehradun";
-$page_description = "School of Legal Studies at Maya Devi University, Dehradun offering LLB and LLM programs.";
+$page_title = "Law College in Dehradun 2027 | LLB, BA LLB, BBA LLB | MDU";
+$page_description = "Law admission 2027 at Maya Devi University, Dehradun: 5-year BA LLB and BBA LLB, and 3-year LLB, with moot court, internships and global exposure.";
 $canonical_url = "https://maya.edu.in/school-of-legal-studies.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 $page_schema = <<<SCHEMA
@@ -110,31 +110,12 @@ $page_schema = <<<SCHEMA
  ]
 }
 </script>
-<script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@type": "FAQPage",
- "mainEntity": [
-  {
-   "@type": "Question",
-   "name": "Is the Law program at Maya Devi University approved by BCI?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Yes. The LLB and integrated law programs at Maya Devi University are approved by the Bar Council of India (BCI), making graduates eligible to practice law across India."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "What law programs does Maya Devi University offer?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Maya Devi University offers LLB (3-year), BA LLB (5-year integrated), BBA LLB (5-year integrated), and LLM at the postgraduate level through the School of Law & Legal Studies."
-   }
-  }
- ]
-}
-</script>
 SCHEMA;
+
+// Batch 2 SEO content: intro, at-a-glance table, why-choose list and FAQs (schema matches visible FAQs)
+require_once "common/course-seo.php";
+$seo = course_seo("law");
+$page_schema .= seo_faq_schema($seo);
 ?>
 <?php require "common/header.php"?>
 
@@ -148,17 +129,13 @@ SCHEMA;
   <!-- About Section -->
 <section class="container py-5">
 <div class="section-title  pb-20">
-    <h2>School <span>Overview</h2>
+    <?php echo seo_css(); ?>
+    <h1 class="seo-h1">Law College in Dehradun <span>– School of Law &amp; Legal Studies, Maya Devi University</span></h1>
     </div>
   <div class="row">
     <!-- Left Text -->
     <div class="col-md-7">
-      <p>
-      The School of Law & Legal Studies at Maya Devi University is a premier institution dedicated to nurturing future leaders in the legal profession. Established with a vision to uphold justice and legal excellence, the department emphasizes a blend of theoretical knowledge and practical application. 
-      </p>
-      <p>
-      Our mission is to cultivate critical thinking, ethical values, and a deep understanding of the law to empower students to become agents of change in society.In an increasingly interconnected world, the School of Law & Legal Studies ensures that students gain a global perspective in their legal education.
-      </p>
+      <?php echo seo_intro($seo); ?>
       <p>Maya Devi University has established multiple international collaborations and exchange programs that directly benefit law students, including international collaborations, exchange programs, global internships, and a curriculum with global perspective.</p>
       <a class="default-btn btn-block" href="assets/uploads/fee/Law_Legal_Studies_m.pdf">Download fee structure</a>
     </div>
@@ -172,6 +149,12 @@ SCHEMA;
   </div>
 </div>
 
+</section>
+
+<!-- At a glance + Why choose (Batch 2 SEO) -->
+<section class="container">
+<?php echo seo_glance($seo); ?>
+<?php echo seo_why($seo); ?>
 </section>
 
   <!-- Achievements Section -->
@@ -287,7 +270,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="ba-llb.php">
-              <img src="assets/uploads/llb.jpg" alt="">
+              <img src="assets/uploads/llb.jpg" alt="BA LLB (Hons.) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -307,7 +290,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="bba-llb.php">
-              <img src="assets/uploads/llb-2.webp" alt="">
+              <img src="assets/uploads/llb-2.webp" alt="BBA LLB (Hons.) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -327,7 +310,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="llb.php">
-              <img src="assets/uploads/llb-3.jpeg" alt="">
+              <img src="assets/uploads/llb-3.jpeg" alt="LLB (Bachelor of Law) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -357,7 +340,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="llm.php">
-              <img src="assets/uploads/llm.jpg" alt="">
+              <img src="assets/uploads/llm.jpg" alt="LLM (Master of Law) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -387,7 +370,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="best-university-for-phd-in-dehradun-uttarakhand.php">
-              <img src="assets/uploads/phd.webp" alt="">
+              <img src="assets/uploads/phd.webp" alt="PhD Program at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -922,27 +905,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 </script>
-<section class="mdu-faq-section" id="faq">
-  <style>
-    .mdu-faq-section{max-width:900px;margin:60px auto;padding:0 20px;font-family:inherit;}
-    .mdu-faq-section h2{font-size:28px;font-weight:700;margin-bottom:24px;color:#0a1628;}
-    .mdu-faq-item{background:#ffffff;border:1px solid #e2e6ef;border-radius:10px;
-      padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04);}
-    .mdu-faq-q{font-weight:600;font-size:16px;color:#0a1628;cursor:pointer;list-style:none;}
-    .mdu-faq-q::-webkit-details-marker{display:none;}
-    .mdu-faq-q::after{content:"+";float:right;font-weight:700;color:#0f62fe;}
-    .mdu-faq-item[open] .mdu-faq-q::after{content:"\2212";}
-    .mdu-faq-a{margin-top:10px;color:#4a5568;line-height:1.7;font-size:15px;}
-  </style>
-  <h2>Frequently Asked Questions</h2>
-    <details class="mdu-faq-item">
-      <summary class="mdu-faq-q">Is the Law program at Maya Devi University approved by BCI?</summary>
-      <p class="mdu-faq-a">Yes. The LLB and integrated law programs at Maya Devi University are approved by the Bar Council of India (BCI), making graduates eligible to practice law across India.</p>
-    </details>
-    <details class="mdu-faq-item">
-      <summary class="mdu-faq-q">What law programs does Maya Devi University offer?</summary>
-      <p class="mdu-faq-a">Maya Devi University offers LLB (3-year), BA LLB (5-year integrated), BBA LLB (5-year integrated), and LLM at the postgraduate level through the School of Law &amp; Legal Studies.</p>
-    </details>
-</section>
+<?php echo seo_faq($seo); ?>
 
 <?php require "common/footer.php"?>

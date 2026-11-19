@@ -80,6 +80,18 @@ FileETag None
 # Rewrites
 # =============================
 RewriteEngine On
+
+# Retired test / duplicate pages -> live pages (301), SEO batch 1, Nov 2026.
+# Not applied on local dev hosts so the design drafts can still be previewed there.
+RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1|maya\.test)(:[0-9]+)?$ [NC]
+RewriteRule ^(home|new-home|new-home-2|new-home-3|new-home-4|newhome-4|new-index)\.php/?$ https://maya.edu.in/ [R=301,L,NC]
+RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1|maya\.test)(:[0-9]+)?$ [NC]
+RewriteRule ^new-best-computer-engineering-college-in-dehradun-uttarakhand\.php$ https://maya.edu.in/best-computer-engineering-college-in-dehradun-uttarakhand.php [R=301,L,NC]
+RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1|maya\.test)(:[0-9]+)?$ [NC]
+RewriteRule ^new-bachelor-of-computer-application-ai-and-ml\.php$ https://maya.edu.in/bachelor-of-computer-application-ai-and-ml.php [R=301,L,NC]
+RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1|maya\.test)(:[0-9]+)?$ [NC]
+RewriteRule ^library\.php$ https://maya.edu.in/university-library.php [R=301,L,NC]
+
 RewriteRule ^sitemap\.xml$ sitemap.php [L]
 
 RewriteRule ^blog/([a-zA-Z0-9-]+)$ blog-single.php?slug=$1 [L,QSA]

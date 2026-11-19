@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/maya.webp);">
         <div class="container">
-            <h2>About Committees</h2>
+            <h1>About Committees</h1>
             <p>Specialized committees working together to ensure excellence in every aspect of university operations</p>
         </div>
     </div>

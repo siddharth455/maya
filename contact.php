@@ -1,6 +1,6 @@
 <?php
-$page_title = "Contact Maya Devi University | Dehradun";
-$page_description = "Get in touch with Maya Devi University, Dehradun for admissions, courses, and general inquiries.";
+$page_title = "Contact Maya Devi University, Dehradun | Admissions Helpline";
+$page_description = "Contact Maya Devi University, Selaqui, Dehradun for admissions, fees and campus visits. Phone, email, address and map.";
 $canonical_url = "https://maya.edu.in/contact.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-3 pt-100 pb-95" style="background-image:url(assets/uploads/contact-banner.webp);">
         <div class="container">
-            <h2>Contact Us</h2>
+            <h1>Contact Us</h1>
             <p>Have a question? Use this form for general inquiries. For admission-related queries.</p>
         </div>
     </div>

@@ -280,7 +280,7 @@ SCHEMA;
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.voc-agriculture.php"><img src="assets/uploads/agri.webp" alt=""></a>
+            <a href="b.voc-agriculture.php"><img src="assets/uploads/agri.webp" alt="B.Voc Agriculture at Maya Devi University"></a>
           </div>
           <div class="course-body">
             <h4>B.Voc Agriculture</h4>
@@ -295,7 +295,7 @@ SCHEMA;
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.voc-aviation.php"><img src="assets/uploads/aviation.webp" alt=""></a>
+            <a href="b.voc-aviation.php"><img src="assets/uploads/aviation.webp" alt="B.Voc Aviation at Maya Devi University"></a>
           </div>
           <div class="course-body">
             <h4>B.Voc Aviation</h4>
@@ -310,7 +310,7 @@ SCHEMA;
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.voc-food-production.php"><img src="assets/uploads/food-production.webp" alt=""></a>
+            <a href="b.voc-food-production.php"><img src="assets/uploads/food-production.webp" alt="B.Voc Food Production at Maya Devi University"></a>
           </div>
           <div class="course-body">
             <h4>B.Voc Food Production</h4>
@@ -325,7 +325,7 @@ SCHEMA;
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.voc-welding.php"><img src="assets/uploads/welding.webp" alt=""></a>
+            <a href="b.voc-welding.php"><img src="assets/uploads/welding.webp" alt="B.Voc Welding at Maya Devi University"></a>
           </div>
           <div class="course-body">
             <h4>B.Voc Welding</h4>
@@ -340,7 +340,7 @@ SCHEMA;
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.voc-sales-marketing.php"><img src="assets/uploads/sales.webp" alt=""></a>
+            <a href="b.voc-sales-marketing.php"><img src="assets/uploads/sales.webp" alt="B.Voc Sales &amp; Marketing at Maya Devi University"></a>
           </div>
           <div class="course-body">
             <h4>B.Voc Sales & Marketing</h4>
@@ -355,7 +355,7 @@ SCHEMA;
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.voc-pharma-assistance.php"><img src="assets/uploads/pharmacy.webp" alt=""></a>
+            <a href="b.voc-pharma-assistance.php"><img src="assets/uploads/pharmacy.webp" alt="B.Voc Pharma Assistance at Maya Devi University"></a>
           </div>
           <div class="course-body">
             <h4>B.Voc Pharma Assistance</h4>
@@ -370,7 +370,7 @@ SCHEMA;
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.voc-bakery-pastry.php"><img src="assets/uploads/bakery.webp" alt=""></a>
+            <a href="b.voc-bakery-pastry.php"><img src="assets/uploads/bakery.webp" alt="B.Voc Bakery &amp; Pastry Arts at Maya Devi University"></a>
           </div>
           <div class="course-body">
             <h4>B.Voc Bakery & Pastry Arts</h4>
@@ -385,7 +385,7 @@ SCHEMA;
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.voc-aiml-data-analysis.php"><img src="assets/uploads/data-science.webp" alt=""></a>
+            <a href="b.voc-aiml-data-analysis.php"><img src="assets/uploads/data-science.webp" alt="B.Voc AIML &amp; Data Analysis at Maya Devi University"></a>
           </div>
           <div class="course-body">
             <h4>B.Voc AIML & Data Analysis</h4>
@@ -400,7 +400,7 @@ SCHEMA;
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.voc-computer-technology.php"><img src="assets/uploads/computer.webp" alt=""></a>
+            <a href="b.voc-computer-technology.php"><img src="assets/uploads/computer.webp" alt="B.Voc Computer Technology at Maya Devi University"></a>
           </div>
           <div class="course-body">
             <h4>B.Voc Computer Technology</h4>
@@ -415,7 +415,7 @@ SCHEMA;
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.voc-mass-media-production.php"><img src="assets/uploads/media.webp" alt=""></a>
+            <a href="b.voc-mass-media-production.php"><img src="assets/uploads/media.webp" alt="B.Voc Mass Media &amp; Production at Maya Devi University"></a>
           </div>
           <div class="course-body">
             <h4>B.Voc Mass Media & Production</h4>
@@ -430,7 +430,7 @@ SCHEMA;
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.voc-finance-taxation-accounting.php"><img src="assets/uploads/tax.webp" alt=""></a>
+            <a href="b.voc-finance-taxation-accounting.php"><img src="assets/uploads/tax.webp" alt="B.Voc Finance, Taxation &amp; Accounting at Maya Devi University"></a>
           </div>
           <div class="course-body">
             <h4>B.Voc Finance, Taxation & Accounting</h4>
@@ -445,7 +445,7 @@ SCHEMA;
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.voc-ecommerce-digital-marketing.php"><img src="assets/uploads/digital.webp" alt=""></a>
+            <a href="b.voc-ecommerce-digital-marketing.php"><img src="assets/uploads/digital.webp" alt="B.Voc E-commerce &amp; Digital Marketing at Maya Devi University"></a>
           </div>
           <div class="course-body">
             <h4>B.Voc E-commerce & Digital Marketing</h4>
@@ -460,7 +460,7 @@ SCHEMA;
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.voc-hotel-hospitality.php"><img src="assets/uploads/hotel.webp" alt=""></a>
+            <a href="b.voc-hotel-hospitality.php"><img src="assets/uploads/hotel.webp" alt="B.Voc Hotel &amp; Hospitality Management at Maya Devi University"></a>
           </div>
           <div class="course-body">
             <h4>B.Voc Hotel & Hospitality Management</h4>
@@ -475,7 +475,7 @@ SCHEMA;
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.voc-patient-healthcare.php"><img src="assets/uploads/patient.webp" alt=""></a>
+            <a href="b.voc-patient-healthcare.php"><img src="assets/uploads/patient.webp" alt="B.Voc Patient &amp; Health Care Management at Maya Devi University"></a>
           </div>
           <div class="course-body">
             <h4>B.Voc Patient & Health Care Management</h4>
@@ -490,7 +490,7 @@ SCHEMA;
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.voc-food-processing-nutrition.php"><img src="assets/uploads/food-1.png" alt=""></a>
+            <a href="b.voc-food-processing-nutrition.php"><img src="assets/uploads/food-1.png" alt="B.Voc Food Processing &amp; Nutrition Management at Maya Devi University"></a>
           </div>
           <div class="course-body">
             <h4>B.Voc Food Processing & Nutrition Management</h4>

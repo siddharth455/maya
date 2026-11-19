@@ -3,12 +3,21 @@ $page_title = "B.Tech Civil Structural Engineering in Dehradun | Maya Devi Unive
 $page_description = "Join B.Tech Civil Structural Engineering at Maya Devi University, Dehradun with advanced labs, practical training, and strong placement support.";
 $canonical_url = "https://maya.edu.in/b-tech-civil-structural-engineering.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.tech Civil Engineering (Structural Engineering)',
+    "description" => 'This specialization prepares students for advanced and rewarding careers in Structural Engineering. Graduates can work as Structural Engineers, Design Engineers, Project Managers, Consultants, Academicians, or pursue higher research in areas such as earthquake-resistant design, bridge engineering, high-rise structures, and sustainable construction.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/b.tech-civil.jpg);">
         <div class="container">
-            <h2>B.Tech in Civil Engineering (Structural Engineering)</h2>
+            <h1>B.Tech in Civil Engineering (Structural Engineering)</h1>
             <p>The Civil Engineering program with a specialization in Structural Engineering focuses on designing, analyzing, and constructing safe and sustainable structures. Students gain a strong foundation in engineering mathematics, mechanics, and materials science. Core subjects include Structural Analysis, Reinforced Concrete Design, Steel Structures, and Geotechnical Engineering.</p>
         </div>
     </div>

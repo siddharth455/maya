@@ -1,8 +1,32 @@
 <?php
-$page_title = "Admission Process 2026 | Maya Devi University Dehradun";
-$page_description = "Learn about the admission process at Maya Devi University, Dehradun including eligibility, documents required, and how to apply.";
-$canonical_url = "https://maya.edu.in/application-process.php";
-$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+// Shared "how to apply" block, included near the end of every course page.
+// Opened on its own (/application-process.php) it renders as a full page with
+// its own title, description and H1 (SEO batch 3, Nov 2026).
+$ap_standalone = (basename($_SERVER['SCRIPT_FILENAME'] ?? '') === 'application-process.php');
+if ($ap_standalone) {
+    $page_title = "Application Process 2027 | How to Apply to Maya Devi University";
+    $page_description = "Step-by-step guide to applying to Maya Devi University, Dehradun for 2027: registration, documents, fees and counselling.";
+    $canonical_url = "https://maya.edu.in/application-process.php";
+    $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+    require "common/header.php";
+?>
+<div class="breadcrumb-area">
+    <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/campus-2.jpeg);">
+        <div class="container">
+            <h1>Application Process 2027</h1>
+            <p>Applying to Maya Devi University, Dehradun for the 2027 session takes four steps: register, fill in the application form and upload your documents, pay the application fee, and complete verification to receive your admission instructions. Our admission counselling team can help at any stage through the <a href="contact.php" style="color:#fff;text-decoration:underline;">Contact Us</a> page.</p>
+        </div>
+    </div>
+    <div class="breadcrumb-bottom">
+        <div class="container">
+            <ul>
+                <li><a href="index.php">Home</a> <span><i class="fa fa-angle-double-right"></i>Application Process</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<?php
+}
 ?>
 <section class="applyFlow-wrap">
   <div class="applyFlow-inner">
@@ -332,3 +356,4 @@ tiles.forEach(tile => {
   });
 });
 </script>
+<?php if ($ap_standalone) { require "common/footer.php"; } ?>

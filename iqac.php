@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <div class="breadcrumb-area">
   <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/maya.webp);">
     <div class="container">
-      <h2>Internal Quality Assurance Cell (IQAC)</h2>
+      <h1>Internal Quality Assurance Cell (IQAC)</h1>
       <p>The Internal Quality Assurance Cell (IQAC) is a quality monitoring and enhancement mechanism established to ensure continuous improvement in the quality of education and academic performance.</p>
     </div>
   </div>

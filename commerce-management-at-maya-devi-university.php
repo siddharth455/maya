@@ -1,5 +1,5 @@
 <?php
-$page_title = "Best MBA & BBA College in Dehradun | Maya Devi University";
+$page_title = "Management at Maya Devi University – Campus & Industry Links";
 $page_description = "Study BBA, B.Com & MBA at Maya Devi University, a top commerce & management college in Dehradun, Uttarakhand with industry projects & placements.";
 $canonical_url = "https://maya.edu.in/commerce-management-at-maya-devi-university.php";
 $og_image = "https://maya.edu.in/assets/uploads/management-blog.png";
@@ -68,6 +68,8 @@ $og_image = "https://maya.edu.in/assets/uploads/management-blog.png";
                             <h1 class="blog-main-title my-3">Shaping Business Leaders: The School of Commerce & Management at Maya Devi University</h1>
 
                             <p>Every successful organization runs on good management, and every economy grows on the strength of its entrepreneurs, finance professionals, and business leaders. For students who dream of leading teams, launching ventures, or mastering the world of commerce, the School of Commerce & Management at Maya Devi University is a standout choice for a <strong>management college in Dehradun</strong>, Uttarakhand.</p>
+
+                            <p class="mdu-main-link">For MBA specialisations, eligibility and admissions, visit our <a href="management-and-commerce.php">MBA and BBA college in Dehradun</a> page.</p>
 
                             <h2>Why Commerce and Management Careers Are Thriving</h2>
                             <p>Business is the engine of every industry. As the Indian economy grows and diversifies, organizations need professionals who can manage finance, marketing, human resources, operations, and strategy. Startups, corporations, banks, consultancies, and e-commerce companies are all competing for talent that understands both the numbers and the people behind them.</p>

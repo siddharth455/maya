@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <div class="breadcrumb-area">
   <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/maya.webp);">
     <div class="container">
-      <h2>Examination Ordinance</h2>
+      <h1>Examination Ordinance</h1>
       <p>Our Examination Ordinance outlines the rules, regulations, and procedures governing the conduct of examinations, evaluation, and assessment within the university.</p>
     </div>
   </div>

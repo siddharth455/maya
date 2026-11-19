@@ -1,6 +1,6 @@
 <?php
-$page_title = "Best Nursing College in Dehradun for BSc & GNM 2026 | Maya Devi University";
-$page_description = "Explore the best nursing college in Dehradun offering B.Sc Nursing, GNM, ANM & M.Sc Nursing. Compare courses, eligibility, admission process, placements & career scope at Maya Devi University for 2026 admissions.";
+$page_title = "B.Sc Nursing & GNM Admission 2027 in Dehradun | Maya Devi University";
+$page_description = "Explore the best nursing college in Dehradun offering B.Sc Nursing, GNM, ANM & M.Sc Nursing. Compare courses, eligibility, admission process, placements & career scope at Maya Devi University for 2027 admissions.";
 $canonical_url = "https://maya.edu.in/best-nursing-college-in-dehradun-bsc-gnm.php";
 $og_image = "https://maya.edu.in/assets/uploads/nursing-gnm-blog.png";
 ?>
@@ -14,14 +14,15 @@ $og_image = "https://maya.edu.in/assets/uploads/nursing-gnm-blog.png";
       "@type": "WebPage",
       "@id": "https://maya.edu.in/best-nursing-college-in-dehradun-bsc-gnm.php",
       "url": "https://maya.edu.in/best-nursing-college-in-dehradun-bsc-gnm.php",
-      "name": "Best Nursing College in Dehradun for BSc & GNM 2026 | Maya Devi University",
-      "description": "Explore the best nursing college in Dehradun offering B.Sc Nursing, GNM, ANM & M.Sc Nursing. Compare courses, eligibility, admission process, placements & career scope at Maya Devi University for 2026 admissions."
+      "name": "B.Sc Nursing & GNM Admission 2027 in Dehradun | Maya Devi University",
+      "description": "Explore the best nursing college in Dehradun offering B.Sc Nursing, GNM, ANM & M.Sc Nursing. Compare courses, eligibility, admission process, placements & career scope at Maya Devi University for 2027 admissions."
     },
     {
       "@type": "BlogPosting",
-      "headline": "Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2026)",
+      "headline": "Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2027)",
       "image": ["https://maya.edu.in/assets/uploads/nursing-gnm-blog.png"],
       "datePublished": "2026-05-05",
+      "dateModified": "2026-11-13",
       "author": {
         "@type": "Organization",
         "name": "Maya Devi University"
@@ -34,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/nursing-gnm-blog.png";
           "url": "https://maya.edu.in/assets/img/logo.png"
         }
       },
-      "description": "Explore the best nursing college in Dehradun offering B.Sc Nursing, GNM, ANM & M.Sc Nursing. Compare courses, eligibility, admission process, placements & career scope at Maya Devi University for 2026 admissions.",
+      "description": "Explore the best nursing college in Dehradun offering B.Sc Nursing, GNM, ANM & M.Sc Nursing. Compare courses, eligibility, admission process, placements & career scope at Maya Devi University for 2027 admissions.",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://maya.edu.in/best-nursing-college-in-dehradun-bsc-gnm.php"
@@ -125,9 +126,11 @@ $og_image = "https://maya.edu.in/assets/uploads/nursing-gnm-blog.png";
                                 <span class="badge-tag-category">Nursing</span>
                             </div>
 
-                            <h1 class="blog-main-title my-3">Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2026)</h1>
+                            <h1 class="blog-main-title my-3">Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2027)</h1>
 
                             <p class="lead">Explore the best nursing college in Dehradun offering B.Sc Nursing, GNM, and ANM courses with top facilities, expert faculty, and excellent placements.</p>
+
+                            <p class="mdu-main-link">For full programme details, see the School of Nursing, the <a href="Nursing.php">best nursing college in Dehradun</a>.</p>
 
                             <h2>Why Choose Dehradun for Nursing Education?</h2>
                             <p>Dehradun, often called the “Education Hub of North India”, has earned its reputation for hosting some of the most prestigious colleges and universities in the country. One of the leading institutions that stand out here is <a href="Nursing.php" class="text-success font-weight-bold">Maya Devi University – Nursing Programmes</a>, known for its quality education, advanced infrastructure, and industry-ready curriculum.</p>

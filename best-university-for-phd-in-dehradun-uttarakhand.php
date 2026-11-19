@@ -1,23 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+$page_title = "PhD Admission 2027 at Maya Devi University, Dehradun";
+$page_description = "PhD admission 2027 at Maya Devi University, Dehradun. Doctoral research across five disciplines with expert supervisors, labs and publication support.";
+$canonical_url = "https://maya.edu.in/best-university-for-phd-in-dehradun-uttarakhand.php";
+$og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Best University for PhD in Dehradun Uttarakhand | Maya Devi University</title>
-  <meta name="description"
-    content="Maya Devi University is among the best universities for PhD in Dehradun, Uttarakhand." />
-  <link rel="canonical" href="https://maya.edu.in/best-university-for-phd-in-dehradun-uttarakhand.php" />
-  <meta property="og:title" content="Best University for PhD in Dehradun Uttarakhand | Maya Devi University" />
-  <meta property="og:description" content="Maya Devi University is among the best universities for PhD in Dehradun, Uttarakhand." />
-  <meta property="og:url" content="https://maya.edu.in/best-university-for-phd-in-dehradun-uttarakhand.php" />
-  <meta property="og:image" content="https://maya.edu.in/assets/uploads/campus-2.jpeg" />
-  <link rel="shortcut icon" type="image/x-icon" href="assets/uploads/logo/favicon-CqYW0pAm.ico">
-</head>
-
-<body>
-
-  <?php require "common/header.php" ?>
+// Batch 2 SEO content: intro, at-a-glance table, why-choose list and FAQs (schema matches visible FAQs)
+require_once "common/course-seo.php";
+$seo = course_seo("phd");
+$page_schema = seo_faq_schema($seo);
+?>
+<?php require "common/header.php" ?>
 
   <!-- ==========================================
      SECTION 1 â€“ HERO
@@ -34,20 +26,19 @@
             <!-- Badge -->
             <div class="hero-badge mb-4">
               <span class="hero-badge-dot"></span>
-              Doctoral Research Program - Admissions Open 2026
+              Doctoral Research Program - Admissions Open 2027
             </div>
 
             <!-- Heading -->
             <h1 class="hero-heading mb-4">
-              <span class="h-white">Best University</span>
-              <span class="h-white">for PhD in</span>
-              <span class="h-gray">Dehradun,</span>
-              <span class="h-green">Uttarakhand</span>
+              <span class="h-white">PhD Admission 2027</span>
+              <span class="h-white">at Maya Devi University,</span>
+              <span class="h-green">Dehradun</span>
             </h1>
 
             <!-- Description -->
-            <p class="hero-desc mb-4">Maya Devi University offers world-class doctoral programs designed to inspire
-              innovation, foster analytical thinking, and enable impactful research at national and global levels.</p>
+            <p class="hero-desc mb-3"><?php echo $seo["intro"][0]; ?></p>
+            <p class="hero-desc mb-4"><?php echo $seo["intro"][1]; ?></p>
 
             <!-- Buttons -->
             <div class="hero-cta-group mb-5">
@@ -127,6 +118,15 @@
       </div>
     </div>
   </section>
+
+<!-- At a glance + Why choose (Batch 2 SEO) -->
+<section class="py-5">
+  <div class="container-xxl">
+<?php echo seo_glance($seo); ?>
+<?php echo seo_why($seo); ?>
+    <p class="mdu-main-link">Comparing options? Read our guide to <a href="best-universities-for-phd-in-dehradun.php">PhD universities in Dehradun</a>.</p>
+  </div>
+</section>
 
 
 <!-- ==========================================
@@ -928,40 +928,8 @@
         </div>
 
         <?php
-        $faqs = [
-          [
-            'q' => 'What is the eligibility criteria to apply for PhD at Maya Devi University?',
-            'a' => 'Candidates must hold a Masters degree with a minimum of 55% aggregate marks from a recognised university. SC/ST/OBC candidates are eligible with 50% aggregate marks.'
-          ],
-          [
-            'q' => 'Is there an entrance test for PhD admission?',
-            'a' => 'Yes. Candidates must qualify in Maya Devi University Research Entrance Test (NRET). Candidates who have qualified in UGC-NET, CSIR-NET, GATE, or CEED are exempted from NRET and proceed directly to the interview stage.'
-          ],
-          [
-            'q' => 'What is the duration of the PhD program?',
-            'a' => 'The PhD Research Program has a minimum duration of 3 years. Candidates can pursue it on a full-time or part-time basis depending on their availability.'
-          ],
-          [
-            'q' => 'Which research disciplines are available for PhD?',
-            'a' => 'We offer PhD programs across five disciplines: Science and Technology, Management and Commerce, Law and Public Policy, Humanities and Social Sciences, and Healthcare and Life Sciences.'
-          ],
-          [
-            'q' => 'What are the career prospects after a PhD from Maya Devi University?',
-            'a' => 'PhD graduates can pursue careers in academia (faculty/professor), corporate research and development, government research organisations, think tanks, policy-making bodies, and international research institutes.'
-          ],
-          [
-            'q' => 'Are scholarships available for PhD scholars?',
-            'a' => 'Yes. Merit-based scholarships and research fellowships are available. Government scholarships (SC/ST/OBC) and national fellowship schemes are also applicable. Contact the admissions office for details.'
-          ],
-          [
-            'q' => 'How do I apply for PhD admission?',
-            'a' => 'Applications can be submitted online through our official admission portal at admissions.maya.edu.in. Upload required documents, appear for NRET (if applicable), followed by an interview and research proposal review.'
-          ],
-          [
-            'q' => 'Is hostel facility available for PhD scholars?',
-            'a' => 'Yes, fully furnished hostel facilities are available for male and female scholars with 24/7 security, high-speed Wi-Fi, a well-stocked library, and a nutritious mess to support uninterrupted research.'
-          ],
-        ];
+        // Same text as the FAQPage schema (common/course-seo.php)
+        $faqs = array_map(function ($f) { return ["q" => $f[0], "a" => $f[1]]; }, $seo["faqs"]);
 
         foreach ($faqs as $i => $faq): ?>
           <div class="faq-item">
@@ -996,7 +964,7 @@
           </div>
           <div class="dept-blog-body">
             <h4 class="dept-blog-title">
-              <a href="best-universities-for-phd-in-dehradun.php">Best Universities for PhD in Dehradun (2026 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth</a>
+              <a href="best-universities-for-phd-in-dehradun.php">Best Universities for PhD in Dehradun (2027 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth</a>
             </h4>
             <p class="dept-blog-excerpt">Looking for the best universities for PhD in Dehradun? Explore Maya Devi University and other top PhD colleges in Dehradun with details on eligibility, admission process...</p>
             <div class="dept-blog-footer">

@@ -9,7 +9,7 @@ $og_image = "https://maya.edu.in/assets/uploads/maya.webp";
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-3 pt-100 pb-95" style="background-image:url(assets/uploads/maya.webp);">
         <div class="container">
-            <h2>Blogs</h2>
+            <h1>Blogs</h1>
             <p>Explore the latest insights, campus stories, and academic innovations from Maya Devi University — where ideas shape the future.</p>
         </div>
     </div>
@@ -39,14 +39,14 @@ $og_image = "https://maya.edu.in/assets/uploads/maya.webp";
                             <div class="single-blog d-flex flex-column" style="flex:1;">
                                 <div class="blog-img">
                                     <a href="best-universities-for-phd-in-dehradun.php">
-                                        <img src="assets/uploads/phd-blog.png" alt="Best Universities for PhD in Dehradun (2026 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth">
+                                        <img src="assets/uploads/phd-blog.png" alt="Best Universities for PhD in Dehradun (2027 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth">
                                     </a>
                                 </div>
                                 <div class="blog-content-wrap d-flex flex-column flex-grow-1">
                                     <span>Research & Doctoral Studies</span>
                                     <div class="blog-content flex-grow-1">
                                         <h4>
-                                            <a href="best-universities-for-phd-in-dehradun.php">Best Universities for PhD in Dehradun (2026 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth</a>
+                                            <a href="best-universities-for-phd-in-dehradun.php">Best Universities for PhD in Dehradun (2027 Guide): Top Doctoral Programs, Research Scope, Admissions, Scholarships & Career Growth</a>
                                         </h4>
                                         <p>Looking for the best universities for PhD in Dehradun? Explore Maya Devi University and other top PhD colleges in Dehradun with details on eligibility, admission process, research areas...</p>
                                     </div>
@@ -67,14 +67,14 @@ $og_image = "https://maya.edu.in/assets/uploads/maya.webp";
                             <div class="single-blog d-flex flex-column" style="flex:1;">
                                 <div class="blog-img">
                                     <a href="best-nursing-college-in-dehradun-bsc-gnm.php">
-                                        <img src="assets/uploads/nursing-gnm-blog.png" alt="Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2026)">
+                                        <img src="assets/uploads/nursing-gnm-blog.png" alt="Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2027)">
                                     </a>
                                 </div>
                                 <div class="blog-content-wrap d-flex flex-column flex-grow-1">
                                     <span>Nursing</span>
                                     <div class="blog-content flex-grow-1">
                                         <h4>
-                                            <a href="best-nursing-college-in-dehradun-bsc-gnm.php">Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2026)</a>
+                                            <a href="best-nursing-college-in-dehradun-bsc-gnm.php">Best Nursing College in Dehradun for BSc & GNM: Admission, Fees, Courses, Eligibility & Career Opportunities (2027)</a>
                                         </h4>
                                         <p>Explore the best nursing college in Dehradun offering B.Sc Nursing, GNM, ANM & M.Sc Nursing. Compare courses, eligibility, admission process, placements & career scope...</p>
                                     </div>
@@ -95,14 +95,14 @@ $og_image = "https://maya.edu.in/assets/uploads/maya.webp";
                             <div class="single-blog d-flex flex-column" style="flex:1;">
                                 <div class="blog-img">
                                     <a href="btech-civil-engineering-uttarakhand.php">
-                                        <img src="assets/uploads/civil-blog.png" alt="B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2026)">
+                                        <img src="assets/uploads/civil-blog.png" alt="B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2027)">
                                     </a>
                                 </div>
                                 <div class="blog-content-wrap d-flex flex-column flex-grow-1">
                                     <span>Engineering</span>
                                     <div class="blog-content flex-grow-1">
                                         <h4>
-                                            <a href="btech-civil-engineering-uttarakhand.php">B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2026)</a>
+                                            <a href="btech-civil-engineering-uttarakhand.php">B.Tech in Civil Engineering in Uttarakhand Colleges: Course Details, Top Colleges, Admission Process, Fees & Career Scope (2027)</a>
                                         </h4>
                                         <p>Explore B.Tech in Civil Engineering in Uttarakhand. Learn about course structure, career scope, fees, admission process, and top colleges including IIT Roorkee and MDU...</p>
                                     </div>
@@ -123,16 +123,16 @@ $og_image = "https://maya.edu.in/assets/uploads/maya.webp";
                             <div class="single-blog d-flex flex-column" style="flex:1;">
                                 <div class="blog-img">
                                     <a href="private-bed-colleges-dehradun.php">
-                                        <img src="assets/uploads/bed-blog.png" alt="Best Private B.Ed Colleges in Dehradun: Admission, Fees, Eligibility, Entrance Exams & Career Scope (2026)">
+                                        <img src="assets/uploads/bed-blog.png" alt="Best Private B.Ed Colleges in Dehradun: Admission, Fees, Eligibility, Entrance Exams & Career Scope (2027)">
                                     </a>
                                 </div>
                                 <div class="blog-content-wrap d-flex flex-column flex-grow-1">
                                     <span>Education</span>
                                     <div class="blog-content flex-grow-1">
                                         <h4>
-                                            <a href="private-bed-colleges-dehradun.php">Best Private B.Ed Colleges in Dehradun: Admission, Fees, Eligibility, Entrance Exams & Career Scope (2026)</a>
+                                            <a href="private-bed-colleges-dehradun.php">Best Private B.Ed Colleges in Dehradun: Admission, Fees, Eligibility, Entrance Exams & Career Scope (2027)</a>
                                         </h4>
-                                        <p>Explore the best private B.Ed colleges in Dehradun for 2026. Check eligibility, admission process, fees, entrance exams, placements, and career opportunities...</p>
+                                        <p>Explore the best private B.Ed colleges in Dehradun for 2027. Check eligibility, admission process, fees, entrance exams, placements, and career opportunities...</p>
                                     </div>
                                     <div class="blog-meta d-flex justify-content-between align-items-center mt-auto">
                                         <ul>
@@ -151,16 +151,16 @@ $og_image = "https://maya.edu.in/assets/uploads/maya.webp";
                             <div class="single-blog d-flex flex-column" style="flex:1;">
                                 <div class="blog-img">
                                     <a href="bba-colleges-in-dehradun.php">
-                                        <img src="assets/uploads/bba-blog.png" alt="BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2026)">
+                                        <img src="assets/uploads/bba-blog.png" alt="BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2027)">
                                     </a>
                                 </div>
                                 <div class="blog-content-wrap d-flex flex-column flex-grow-1">
                                     <span>Commerce & Management</span>
                                     <div class="blog-content flex-grow-1">
                                         <h4>
-                                            <a href="bba-colleges-in-dehradun.php">BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2026)</a>
+                                            <a href="bba-colleges-in-dehradun.php">BBA Colleges in Dehradun: Course Details, Admission Process, Fees, Placements & Career Scope (2027)</a>
                                         </h4>
-                                        <p>Explore the best BBA colleges in Dehradun for 2026 with a detailed focus on Maya Devi University. Know BBA course structure, fees, placements, and career scope...</p>
+                                        <p>Explore the best BBA colleges in Dehradun for 2027 with a detailed focus on Maya Devi University. Know BBA course structure, fees, placements, and career scope...</p>
                                     </div>
                                     <div class="blog-meta d-flex justify-content-between align-items-center mt-auto">
                                         <ul>

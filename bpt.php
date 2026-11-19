@@ -3,12 +3,21 @@ $page_title = "BPT Course in Dehradun | Maya Devi University";
 $page_description = "Study BPT at Maya Devi University, Dehradun with hands-on physiotherapy training and clinical practice exposure.";
 $canonical_url = "https://maya.edu.in/bpt.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Bachelor of Physiotherapy (BPT)',
+    "description" => 'Core subjects include human anatomy, physiology, kinesiology, exercise therapy, and rehabilitation techniques. Students learn to assess patients, design treatment plans, and apply physiotherapy interventions effectively. The curriculum emphasizes practical training, clinical procedures, and managing patient recovery safely.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P5Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/bpt.webp);">
         <div class="container">
-            <h2>Bachelor of Physiotherapy (BPT)</h2>
+            <h1>Bachelor of Physiotherapy (BPT)</h1>
             <p>The BPT program prepares students to become skilled rehabilitation professionals. Core areas include Anatomy & Physiology, Exercise Therapy, Electrotherapy, Orthopedics, Neurology, and Clinical Physiotherapy.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/bpt.webp" alt="">
+                        <img src="assets/uploads/bpt.webp" alt="Bachelor of Physiotherapy (BPT) at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -116,7 +125,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                <a href="dialysis-technology.php"><img class="animated" src="assets/uploads/dialysis.webp" alt=""></a>
+                                <a href="dialysis-technology.php"><img class="animated" src="assets/uploads/dialysis.webp" alt="Diploma in Dialysis Technology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="dialysis-technology.php">Diploma in Dialysis Technology</a></h4>
@@ -140,7 +149,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bmlt.php"><img class="animated" src="assets/uploads/bmlt.webp" alt=""></a>
+                                    <a href="bmlt.php"><img class="animated" src="assets/uploads/bmlt.webp" alt="Bachelor of Medical Laboratory Technology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="bmlt.php">Bachelor of Medical Laboratory Technology
@@ -165,7 +174,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bmrit.php"><img class="animated" src="assets/uploads/bmrit.webp" alt=""></a>
+                                    <a href="bmrit.php"><img class="animated" src="assets/uploads/bmrit.webp" alt="Bachelor of Medical Radiology &amp; Imaging Technology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="bmrit.php">Bachelor of Medical Radiology & Imaging Technology</a></h4>

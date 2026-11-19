@@ -3,12 +3,21 @@ $page_title = "B.Tech Aerospace Engineering in Dehradun | Maya Devi University";
 $page_description = "Pursue B.Tech Aerospace Engineering at Maya Devi University, Dehradun with cutting-edge labs, research opportunities, and industry-focused curriculum.";
 $canonical_url = "https://maya.edu.in/b.tech-aerospace-engineering.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.tech Aerospace Engineering',
+    "description" => 'Our Aerospace Engineering degrees from Maya Devi University are aligned with the dynamic advancements in aviation, space exploration, and the rapidly evolving aerospace industry. Students gain knowledge and skills across a broad spectrum of aerospace engineering topics.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/aero.jpg);">
         <div class="container">
-            <h2>B.Tech in Aerospace Engineering</h2>
+            <h1>B.Tech in Aerospace Engineering</h1>
             <p>B. Tech in Aerospace Engineering is a 4-year undergraduate program that deals with the design, development, testing, and maintenance of aircraft, spacecraft, missiles, and related systems and equipment.</p>
         </div>
     </div>

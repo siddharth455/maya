@@ -3,12 +3,21 @@ $page_title = "M.Sc Forensic Science in Dehradun | Maya Devi University";
 $page_description = "Enroll in M.Sc Forensic Science at Maya Devi University, Dehradun with advanced forensic lab training.";
 $canonical_url = "https://maya.edu.in/msc-forensic-science.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'M.Sc. Forensic Science',
+    "description" => 'The M.Sc. Forensic Science program at Maya Devi University provides specialized and comprehensive training in modern forensic techniques. The curriculum includes forensic biology, forensic chemistry, toxicology, DNA profiling, serology, ballistics, fingerprint analysis, cyber forensics, questioned document examination, forensic psychology, and crime scene management.',
+    "credential" => 'Master\'s degree',
+    "time" => "P2Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/forensic-3.webp);">
         <div class="container">
-            <h2>M.Sc. Forensic Science</h2>
+            <h1>M.Sc. Forensic Science</h1>
             <p>The M.Sc. Forensic Science program is designed to provide advanced expertise in crime investigation, evidence analysis, forensic biology, forensic chemistry, toxicology, and criminalistics. It emphasizes laboratory research, scientific accuracy, and investigative skills, preparing graduates for professional roles in forensic labs, law enforcement agencies, research institutions, and higher studies in India and abroad.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/forensic-3.webp" alt="">
+                        <img src="assets/uploads/forensic-3.webp" alt="M.Sc. Forensic Science at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -85,7 +94,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="msc-chemistry.php"><img class="animated" src="assets/uploads/chemistry.webp" alt=""></a>
+                                    <a href="msc-chemistry.php"><img class="animated" src="assets/uploads/chemistry.webp" alt="M.Sc. Chemistry at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="msc-chemistry.php">M.Sc. Chemistry</a></h4>
@@ -109,7 +118,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="msc-botany.php"><img class="animated" src="assets/uploads/botany-3.webp" alt=""></a>
+                                    <a href="msc-botany.php"><img class="animated" src="assets/uploads/botany-3.webp" alt="M.Sc. Botany at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="msc-botany.php">M.Sc. Botany</a></h4>
@@ -133,7 +142,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="msc-microbiology.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt=""></a>
+                                    <a href="msc-microbiology.php"><img class="animated" src="assets/uploads/bsc-pcm-img1.jpg" alt="M.Sc. Microbiology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="msc-microbiology.php">M.Sc. Microbiology</a></h4>

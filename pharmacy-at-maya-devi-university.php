@@ -1,5 +1,5 @@
 <?php
-$page_title = "Best Pharmacy College in Dehradun | Maya Devi University";
+$page_title = "Pharmacy at Maya Devi University – Labs, Faculty & Campus";
 $page_description = "Study D.Pharm, B.Pharm & M.Pharm at Maya Devi University, a leading pharmacy college in Dehradun, Uttarakhand with modern labs & industry links.";
 $canonical_url = "https://maya.edu.in/pharmacy-at-maya-devi-university.php";
 $og_image = "https://maya.edu.in/assets/uploads/pharmacy-blog.png";
@@ -68,6 +68,8 @@ $og_image = "https://maya.edu.in/assets/uploads/pharmacy-blog.png";
                             <h1 class="blog-main-title my-3">A Career in Healthcare Innovation: The School of Pharmacy at Maya Devi University</h1>
 
                             <p>Pharmacists sit at the heart of modern healthcare, ensuring that medicines are safe, effective, and reach the people who need them. As India strengthens its position as the pharmacy of the world, the demand for qualified pharmacy professionals keeps rising. For students seeking a respected <strong>pharmacy college in Dehradun</strong>, the School of Pharmacy at Maya Devi University offers the education, training, and industry exposure to build a rewarding career.</p>
+
+                            <p class="mdu-main-link">Planning to study pharmacy? See eligibility and admission details for our <a href="best-b-pharma-colleges-in-dehradun-uttarakhand.php">B.Pharm college in Dehradun</a>.</p>
 
                             <h2>Why Pharmacy Is a Smart Career Choice</h2>
                             <p>India is one of the largest producers of generic medicines in the world, and Dehradun sits within a region known for its pharmaceutical industry, with the university itself located in Selaqui's Pharma City. This gives pharmacy students a genuine advantage: proximity to manufacturing units, research facilities, and a thriving job market.</p>

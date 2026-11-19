@@ -3,12 +3,21 @@ $page_title = "M.Tech Structural Engineering in Dehradun | Maya Devi University"
 $page_description = "Enroll in M.Tech Structural Engineering at Maya Devi University, Dehradun with advanced civil research and design training.";
 $canonical_url = "https://maya.edu.in/m.tech-structural-engineering.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'M.Tech Program (Structural Engineering)',
+    "description" => 'The Faculty of Engineering offers Two-year M. Tech Program in Structural Engineering aiming to equip students with the knowledge and skills necessary for construction and building design. The Civil Department boasts a team of expert faculty members and resources from prestigious institutions, committed to providing students with both a solid theoretical foundation and practical engineering experience.',
+    "credential" => 'Master\'s degree',
+    "time" => "P2Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/m-structure.webp);">
         <div class="container">
-            <h2>M.Tech Program (Structural Engineering)</h2>
+            <h1>M.Tech Program (Structural Engineering)</h1>
             <p>The importance of construction projects in the context of sustainable development has been steadily increasing, leading to a growing demand for civil engineering professionals.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/m-structure.webp" alt="">
+                        <img src="assets/uploads/m-structure.webp" alt="M.Tech Program (Structural Engineering) at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -85,7 +94,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                    <a href="mechanical-engineering-le.php"><img class="animated" src="assets/uploads/mechanical-le.webp" alt=""></a>
+                                    <a href="mechanical-engineering-le.php"><img class="animated" src="assets/uploads/mechanical-le.webp" alt="B.tech Mechanical Engineering (Lateral Entry) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="mechanical-engineering-le.php">B.tech Mechanical Engineering (Lateral Entry)</a></h4>
@@ -109,7 +118,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                              <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-mechatronics-and-robotics.php"><img class="animated" src="assets/uploads/robots.jpeg" alt=""></a>
+                                    <a href="b.tech-mechatronics-and-robotics.php"><img class="animated" src="assets/uploads/robots.jpeg" alt="B.Tech Mechanical Engineering (Mechatronics) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="b.tech-mechatronics-and-robotics.php">B.Tech Mechanical Engineering (Mechatronics)
@@ -134,7 +143,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                              <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b-tech-civil-structural-engineering.php"><img class="animated" src="assets/uploads/b.tech-civil.jpg" alt=""></a>
+                                    <a href="b-tech-civil-structural-engineering.php"><img class="animated" src="assets/uploads/b.tech-civil.jpg" alt="B.tech Civil Engineering (Structural Engineering) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="b-tech-civil-structural-engineering.php">B.tech Civil Engineering (Structural Engineering)</a></h4>

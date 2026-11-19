@@ -3,12 +3,21 @@ $page_title = "MA Clinical Psychology in Dehradun | Maya Devi University";
 $page_description = "Study MA Clinical Psychology at Maya Devi University, Dehradun with advanced mental health training and research exposure.";
 $canonical_url = "https://maya.edu.in/ma-clinical-psychology.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'M.A. in Clinical Psychology',
+    "description" => 'The course prepares students to become skilled clinical psychologists, researchers, and mental health professionals. Through lectures, seminars, workshops, supervised practical training, and clinical exposure, learners develop diagnostic skills, therapeutic insight, and a deep understanding of mental health and psychological disorders. Graduates can pursue careers in hospitals, mental health clinics, rehabilitation centers, NGOs, research organizations, and healthcare institutions.',
+    "credential" => 'Master\'s degree',
+    "time" => "P2Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/ma-3.webp);">
         <div class="container">
-            <h2>M.A. in Clinical Psychology</h2>
+            <h1>M.A. in Clinical Psychology</h1>
             <p>The School of Arts and Humanities at Maya Devi University offers a two year full-time M.A. in Clinical Psychology, divided into four semesters.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/ma-3.webp" alt="">
+                        <img src="assets/uploads/ma-3.webp" alt="M.A. in Clinical Psychology at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -99,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                <a href="ma-psychology.php"><img class="animated" src="assets/uploads/ma-2.webp" alt=""></a>
+                                <a href="ma-psychology.php"><img class="animated" src="assets/uploads/ma-2.webp" alt="MA Psychology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="ma-psychology.php">MA Psychology</a></h4>
@@ -123,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                <a href="ma-political-science.php"><img class="animated" src="assets/uploads/ma-1.webp" alt=""></a>
+                                <a href="ma-political-science.php"><img class="animated" src="assets/uploads/ma-1.webp" alt="MA Political Science at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="ma-political-science.php">MA Political Science</a></h4>
@@ -147,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="ma-sociology.php"><img class="animated" src="assets/uploads/ma-6.webp" alt=""></a>
+                                    <a href="ma-sociology.php"><img class="animated" src="assets/uploads/ma-6.webp" alt="MA Sociology at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="ma-sociology.php">MA Sociology</a></h4>

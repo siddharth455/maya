@@ -3,12 +3,20 @@ $page_title = "Prosthetics & Orthotics Course in Dehradun | Maya Devi University
 $page_description = "Enroll in Prosthetics and Orthotics program at Maya Devi University, Dehradun with practical rehabilitation training.";
 $canonical_url = "https://maya.edu.in/prosthetics-orthotics.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Diploma in Prosthetics and Orthotics',
+    "description" => 'The Diploma in Prosthetics and Orthotics is typically a 2-year full-time program designed as per Rehabilitation Council of India (RCI) guidelines. The curriculum covers foundational sciences such as anatomy, physiology, biomechanics, and pathology, followed by advanced subjects related to prosthetic and orthotic systems. Students receive hands-on training in fabricating artificial limbs, braces, splints, and mobility aids using modern tools, machinery, and materials. The course includes modules on gait analysis, patient assessment, casting techniques, alignment procedures, material science, workshop safety, and rehabilitation processes.',
+    "credential" => 'Diploma',
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/paramedical.webp);">
         <div class="container">
-            <h2>Diploma in Prosthetics and Orthotics</h2>
+            <h1>Diploma in Prosthetics and Orthotics</h1>
             <p>The Diploma in Prosthetics and Orthotics (DPO) is a specialized paramedical program focused on the design, fabrication, fitting, and maintenance of artificial limbs (prostheses) and supportive devices (orthoses). The course trains students to support individuals with limb loss, deformities, neuromuscular conditions, and mobility impairments by creating customized devices that restore function, improve mobility, and enhance quality of life.</p>
         </div>
     </div>
@@ -26,7 +34,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/paramedical.webp" alt="">
+                        <img src="assets/uploads/paramedical.webp" alt="Diploma in Prosthetics and Orthotics at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -100,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="indian-sign-language.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="indian-sign-language.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Indian Sign Language at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="indian-sign-language.php">Indian Sign Language</a></h4>
@@ -124,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="early-child-special-edu.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="early-child-special-edu.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Early Child Special Edu. (Hearing Impairment) at Maya Devi University"></a>
                                     <span>Diploma Programs</span>
                                 </div>
                                 <div class="course-content">
@@ -149,7 +157,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="early-rehabilitation-therapy.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt=""></a>
+                                    <a href="early-rehabilitation-therapy.php"><img class="animated" src="assets/uploads/maya_devi_img_bnr.jpeg" alt="Early Rehabilitation Therapy Rehabilitation (Mental Retardation) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="early-rehabilitation-therapy.php">Early Rehabilitation Therapy Rehabilitation (Mental Retardation)</a></h4>

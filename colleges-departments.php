@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
 <section class="hero-section" style="background: url('assets/uploads/home-banner.webp') center/cover no-repeat; height:70vh !important;">
   <div class="hero-content">
-      <h3 class="display-5 fw-bold text-white">Schools & Departments</h3>
+      <h1 class="display-5 fw-bold text-white">Schools & Departments</h1>
       <p class="lead text-white">
         At Maya Devi University, our Placement Cell is dedicated to guiding students toward <br>
         successful careers by connecting them with leading industries and fostering professional excellence.

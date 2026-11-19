@@ -3,12 +3,21 @@ $page_title = "B.Voc Aviation in Dehradun | Maya Devi University";
 $page_description = "Join B.Voc Aviation at Maya Devi University, Dehradun and build a career in aviation management and airport operations.";
 $canonical_url = "https://maya.edu.in/b.voc-aviation.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Voc Aviation',
+    "description" => 'The Bachelor of Vocation (B.Voc) in Aviation program focuses on equipping students with industry-relevant knowledge and practical skills essential for success in the dynamic aviation and airline industry. The curriculum integrates theoretical learning with hands-on training in aviation operations, airport management, air traffic handling, ground services, and customer relations. Students develop strong technical, managerial, and communication skills, preparing them to meet the growing demands of global aviation.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/aviation.webp);">
         <div class="container">
-            <h2>B.Voc Aviation</h2>
+            <h1>B.Voc Aviation</h1>
             <p>The Aviation program prepares students for dynamic careers in the airline and airport industry. It covers ground operations, customer service, safety protocols, and aviation regulations.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/aviation.webp" alt="">
+                        <img src="assets/uploads/aviation.webp" alt="B.Voc Aviation at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -99,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                <a href="b.voc-agriculture.php"><img class="animated" src="assets/uploads/agri.webp" alt=""></a>
+                                <a href="b.voc-agriculture.php"><img class="animated" src="assets/uploads/agri.webp" alt="B.Voc Agriculture at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.voc-agriculture.php">B.Voc Agriculture</a></h4>
@@ -123,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                <a href="b.voc-welding.php"><img class="animated" src="assets/uploads/welding.webp" alt=""></a>
+                                <a href="b.voc-welding.php"><img class="animated" src="assets/uploads/welding.webp" alt="B.Voc Welding at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.voc-welding.php">B.Voc Welding</a></h4>
@@ -147,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.voc-food-production.php"><img class="animated" src="assets/uploads/food-production.webp" alt=""></a>
+                                    <a href="b.voc-food-production.php"><img class="animated" src="assets/uploads/food-production.webp" alt="B.Voc Food Production at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.voc-food-production.php">B.Voc Food Production</a></h4>

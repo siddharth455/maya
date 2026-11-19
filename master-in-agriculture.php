@@ -3,12 +3,21 @@ $page_title = "Master in Agriculture in Dehradun | Maya Devi University";
 $page_description = "Join Master in Agriculture at Maya Devi University, Dehradun with advanced research and modern agricultural practices.";
 $canonical_url = "https://maya.edu.in/master-in-agriculture.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Master of Science in Agriculture',
+    "description" => 'The Master of Science in Agriculture program provides advanced knowledge and research-oriented expertise in modern agricultural practices, including crop production, soil science, horticulture, agricultural economics, and farm management. Students gain both theoretical insights and practical skills essential for careers in agriculture research, agribusiness, and academia.',
+    "credential" => 'Master\'s degree',
+    "time" => "P2Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/agriculture.webp);">
         <div class="container">
-            <h2>Master of Science in Agriculture</h2>
+            <h1>Master of Science in Agriculture</h1>
             <p>Master of Science (M.Sc.) in Agronomy is an advanced postgraduate program designed for those passionate about shaping the future of agriculture.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/agriculture.webp" alt="">
+                        <img src="assets/uploads/agriculture.webp" alt="Master of Science in Agriculture at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -99,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                    <a href="horticulture-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/horticulture.webp" alt=""></a>
+                                    <a href="horticulture-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/horticulture.webp" alt="Master in Horticulture at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="horticulture-colleges-in-dehradun-uttarakhand.php">Master in Horticulture</a></h4>
@@ -123,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="food-technology.php"><img class="animated" src="assets/uploads/food.webp" alt=""></a>
+                                    <a href="food-technology.php"><img class="animated" src="assets/uploads/food.webp" alt="Bachelor in Food Technology (Hons.) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="food-technology.php">Bachelor in Food Technology (Hons.)</a></h4>
@@ -147,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/agri.webp" alt=""></a>
+                                    <a href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/agri.webp" alt="B.Sc in Agriculture at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php">B.Sc in Agriculture</a></h4>

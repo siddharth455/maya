@@ -3,12 +3,21 @@ $page_title = "B.Tech CSE (IBM) in Dehradun | Maya Devi University";
 $page_description = "Study B.Tech Computer Science Engineering with IBM collaboration at Maya Devi University, Dehradun with industry-driven curriculum.";
 $canonical_url = "https://maya.edu.in/b-tech-cs-ibm.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Tech CS with IBM Associated Programs (AI/ML, Data Science, Cyber Security)',
+    "description" => 'The B.Tech in Computer Science with IBM-associated specializations in Artificial Intelligence & Machine Learning (AI & ML), Data Science, and Cyber Security is an industry-integrated undergraduate program designed to equip students with advanced technical knowledge and practical skills. This program bridges academic learning with real-world application through IBM’s global expertise, enabling students to gain hands-on experience with industry-standard tools, platforms, and methodologies.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/ibm.webp);">
         <div class="container">
-            <h2>B.Tech CS with IBM Associated Programs with Specialization</h2>
+            <h1>B.Tech CS with IBM Associated Programs with Specialization</h1>
            <p>Industry-integrated undergraduate programs in B.Tech Computer Science with IBM-associated specializations in Artificial Intelligence & Machine Learning, Data Science, and Cyber Security are designed to equip students with cutting-edge technical knowledge and practical skills.</p>
         </div>
     </div>

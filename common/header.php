@@ -1,7 +1,8 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="en">
 
 <head>
+<meta charset="UTF-8">
 <!-- UTM Parameter & Source Tracker -->
 <script src="assets/js/utm-tracker.js"></script>
 
@@ -22,6 +23,14 @@
 <meta property="og:image" content="<?php echo $og_image ?? "https://maya.edu.in/assets/uploads/campus-2.jpeg"; ?>" />
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
+<?php
+$og_image_src = $og_image ?? "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+$og_image_types = ["jpg" => "image/jpeg", "jpeg" => "image/jpeg", "png" => "image/png", "webp" => "image/webp"];
+$og_image_ext = strtolower(pathinfo(parse_url($og_image_src, PHP_URL_PATH), PATHINFO_EXTENSION));
+if (isset($og_image_types[$og_image_ext])) {
+    echo '<meta property="og:image:type" content="' . $og_image_types[$og_image_ext] . '" />' . "\n";
+}
+?>
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="<?php echo $page_title ?? "Maya Devi University"; ?>">
@@ -82,7 +91,7 @@
 <?php
 // Site-wide BreadcrumbList schema (Home > current page), built from the
 // $page_title / $canonical_url already set at the top of every page.
-if (!empty($canonical_url) && !empty($page_title)) {
+if (!empty($canonical_url) && !empty($page_title) && empty($no_breadcrumb)) {
     $breadcrumb_label = trim(explode('|', $page_title)[0]);
     $breadcrumb = [
         "@context" => "https://schema.org",
@@ -138,7 +147,7 @@ window.addEventListener('load', function() {
 <body>
   <!-- Meta Pixel noscript -->
   <noscript>
-    <img height="1" width="1" style="display:none"
+    <img alt="" height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=244750689907885&ev=PageView&noscript=1"/>
   </noscript>
 
@@ -181,7 +190,7 @@ $base_url = $protocol . $host . $projectFolder;
                     <div class="col-lg-auto col-md-6 col-4">
                         <div class="logo">
                             <a href="index.php">
-                                <img alt="" src="assets/uploads/logo/logo-2.png">
+                                <img alt="Maya Devi University logo" src="assets/uploads/logo/logo-2.png">
                             </a>
                         </div>
                     </div>
@@ -246,7 +255,7 @@ $base_url = $protocol . $host . $projectFolder;
                                                 <li><a href="https://admissions.maya.edu.in" target="_blank">Apply Now</a></li>
                                                 <li><a href="campus-life.php">Campus Life</a></li>
                                                 <li><a href="scholarship.php">Scholarships</a></li>
-                                                <li><a href="assets/uploads/pdf/List_of_Holidays_2026.pdf" download="List_of_Holidays_2025.pdf">List of Holidays</a></li>
+                                                <li><a href="assets/uploads/pdf/List_of_Holidays_2026.pdf" download="List_of_Holidays_2026.pdf">List of Holidays</a></li>
                                                 <!-- <li><a href="assets/uploads/pdf/Academic-Calender_2026-27.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calendar<br> Even Sem 2024-25</a></li> -->
                                                 <li><a href="refund-policy.php">Refund Policy</a></li>
                                             </ul>
@@ -323,7 +332,7 @@ $base_url = $protocol . $host . $projectFolder;
                                         <li><a href="fee-structure.php">Fee Structure</a></li>
                                         <li><a href="https://admissions.maya.edu.in" target="_blank">Apply Now</a></li>
                                         <li><a href="campus-life.php">Campus Life</a></li>
-                                        <li><a href="assets/uploads/pdf/List_of_Holidays_2025.pdf" download="List_of_Holidays_2025.pdf">List of Holidays</a></li>
+                                        <li><a href="assets/uploads/pdf/List_of_Holidays_2026.pdf" download="List_of_Holidays_2026.pdf">List of Holidays</a></li>
                                         <!-- <li><a href="assets/uploads/pdf/Academic_Calender_Even_Sem_2024-25.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calendar Even Sem 2024-25</a></li> -->
                                         <li><a href="refund-policy.php">Refund Policy</a></li>
                                     </ul>

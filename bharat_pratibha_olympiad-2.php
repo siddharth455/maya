@@ -1,11 +1,485 @@
 <?php
 $page_title = "Bharat Pratibha Olympiad Registration | Maya Devi University";
-$page_description = "Register for Bharat Pratibha Olympiad at Maya Devi University and compete with students across India.";
+$page_description = "Bharat Pratibha Olympiad is an all-India academic and skills competition by the All India Principal Association (AIPA) and Maya Devi University, Dehradun, open to school students of Classes 6 to 12.";
 $canonical_url = "https://maya.edu.in/bharat_pratibha_olympiad-2.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $page_title; ?></title>
+    <meta name="description" content="<?php echo htmlspecialchars($page_description); ?>">
+    <link rel="canonical" href="<?php echo $canonical_url; ?>">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<?php echo htmlspecialchars($page_title); ?>">
+    <meta property="og:description" content="<?php echo htmlspecialchars($page_description); ?>">
+    <meta property="og:url" content="<?php echo $canonical_url; ?>">
+    <meta property="og:image" content="<?php echo $og_image; ?>">
+    <style>
+        .logo-container {
+            max-width: 300px;
+            margin: 0 auto 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
 
-<section id="objective" class="section">
+        .logo {
+            width: 100%;
+            height: auto;
+        }
+
+        .tagline {
+            font-size: 1.3em;
+            color: #FF6600;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        .organizers {
+            font-size: 1.1em;
+            color: #555;
+            font-weight: 500;
+        }
+
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .timeline {
+            position: relative;
+            padding: 30px 0;
+        }
+
+        .timeline-item {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 5px solid #FF6600;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .timeline-item:hover {
+            transform: translateX(10px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+
+        .timeline-date {
+            font-size: 1.3em;
+            color: #003366;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .timeline-day {
+            display: inline-block;
+            background: #FF6600;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .timeline-content {
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .syllabus-accordion {
+            margin: 20px 0;
+        }
+
+        .accordion-item {
+            background: white;
+            margin: 15px 0;
+            border-radius: 8px;
+            border: 2px solid #e9ecef;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+
+        .accordion-header {
+            background: linear-gradient(135deg, #003366 0%, #004d99 100%);
+            color: white;
+            padding: 20px;
+            cursor: pointer;
+            font-size: 1.2em;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s;
+        }
+
+        .accordion-header:hover {
+            background: linear-gradient(135deg, #004d99 0%, #0066cc 100%);
+        }
+
+        .accordion-icon {
+            font-size: 1.5em;
+            transition: transform 0.3s;
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            background: #f8f9fa;
+        }
+
+        .accordion-content-inner {
+            padding: 25px;
+        }
+
+        .accordion-item.active .accordion-content {
+            max-height: 2000px;
+        }
+
+        .accordion-item.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+
+        .syllabus-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .syllabus-list li {
+            padding: 12px 0;
+            padding-left: 35px;
+            position: relative;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .syllabus-list li:last-child {
+            border-bottom: none;
+        }
+
+        .syllabus-list li:before {
+            content: "📚";
+            position: absolute;
+            left: 0;
+            font-size: 1.2em;
+        }
+
+        .important-dates-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .date-card {
+            background: linear-gradient(135deg, #FFF5E6 0%, #FFE5B4 100%);
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 5px solid #FF6600;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .date-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .date-card h4 {
+            color: #003366;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+        }
+
+        .date-card .date {
+            font-size: 2em;
+            color: #FF6600;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .date-card .day {
+            font-size: 1.1em;
+            color: #555;
+            font-style: italic;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            color: #003366;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-left: 5px solid #FF6600;
+            padding-left: 15px;
+        }
+
+        .section h3 {
+            color: #FF6600;
+            font-size: 1.5em;
+            margin: 25px 0 15px;
+        }
+
+        .objective-box {
+            background: linear-gradient(135deg, #FFF5E6 0%, #E6F7FF 100%);
+            padding: 30px;
+            border-radius: 8px;
+            border-left: 5px solid #138808;
+            margin: 20px 0;
+        }
+
+        .olympiad-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .olympiad-card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #003366;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .olympiad-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+
+        .olympiad-card h4 {
+            color: #003366;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .olympiad-card p {
+            color: #555;
+            font-size: 0.95em;
+        }
+
+        .level-badge {
+            display: inline-block;
+            background: #FF6600;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .special-olympiad {
+            background: linear-gradient(135deg, #FFE5B4 0%, #FFD4A3 100%);
+            border-left-color: #FF6600;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, #003366 0%, #004d99 100%);
+            color: white;
+            text-align: center;
+            padding: 50px;
+            border-radius: 10px;
+            margin: 40px 0;
+        }
+
+        .cta-section h2 {
+            color: white;
+            border: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #FF6600;
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.2em;
+            font-weight: 600;
+            margin: 10px;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .cta-button:hover {
+            background: #FF8533;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 50px;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-links {
+            margin: 20px 0;
+        }
+
+        .footer-links a {
+            color: #FFD700;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .icon {
+            display: inline-block;
+            margin-right: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .tagline {
+                font-size: 1em;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .section {
+                padding: 20px;
+            }
+
+            .olympiad-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .highlight {
+            background: #FFFACD;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+
+        ul.feature-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul.feature-list li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        ul.feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #138808;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        /* Important dates (moved into the page body, Nov 2026) */
+        .important-dates-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 20px; }
+        .date-card { background: linear-gradient(135deg, #003366 0%, #004d99 100%); color: #fff; border-radius: 12px; padding: 22px; text-align: center; }
+        .date-card h4 { color: #FFD700; margin-bottom: 10px; font-size: 1.05em; }
+        .date-card .date { font-size: 1.4em; font-weight: 700; }
+        .date-card .day { opacity: 0.85; margin-top: 4px; }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <svg class="logo" viewBox="0 0 200 200" xmlns="https://www.w3.org/2000/svg">
+                <!-- Outer circle with tricolor -->
+                <circle cx="100" cy="100" r="95" fill="none" stroke="#FF9933" stroke-width="10"/>
+                <circle cx="100" cy="100" r="85" fill="white"/>
+                
+                <!-- Torch flame in tricolor -->
+                <path d="M 100 40 Q 90 50 95 65 Q 100 55 105 65 Q 110 50 100 40" fill="#FF9933"/>
+                <path d="M 95 65 Q 100 75 105 65 Q 100 70 95 65" fill="white"/>
+                <path d="M 95 65 L 105 65 L 103 75 L 97 75 Z" fill="#138808"/>
+                
+                <!-- Torch body -->
+                <rect x="95" y="75" width="10" height="30" fill="#003366"/>
+                
+                <!-- Rays -->
+                <g stroke="#003366" stroke-width="2" fill="none">
+                    <line x1="100" y1="105" x2="100" y2="125"/>
+                    <line x1="100" y1="105" x2="85" y2="120" transform="rotate(-20 100 105)"/>
+                    <line x1="100" y1="105" x2="115" y2="120" transform="rotate(20 100 105)"/>
+                    <line x1="100" y1="105" x2="75" y2="120" transform="rotate(-40 100 105)"/>
+                    <line x1="100" y1="105" x2="125" y2="120" transform="rotate(40 100 105)"/>
+                    <line x1="100" y1="105" x2="65" y2="115" transform="rotate(-60 100 105)"/>
+                    <line x1="100" y1="105" x2="135" y2="115" transform="rotate(60 100 105)"/>
+                </g>
+                
+                <!-- Text -->
+                <text x="100" y="150" text-anchor="middle" font-size="18" font-weight="bold" fill="#003366">BHARAT</text>
+                <text x="100" y="168" text-anchor="middle" font-size="16" font-weight="bold" fill="#003366">PRATIBHA</text>
+            </svg>
+        </div>
+        <h1>🎓 Bharat Pratibha Olympiad 2025</h1>
+        <p class="tagline">"Nurturing Young Minds, Celebrating Indian Talents"</p>
+        <p class="organizers">An All India Principal Association (AIPA) & Maya Devi University, Dehradun Initiative</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#objective">Objective</a></li>
+            <li><a href="#dates">Important Dates</a></li>
+            <li><a href="#syllabus">Syllabus</a></li>
+            <li><a href="#academic">Academic Olympiads</a></li>
+            <li><a href="#skill">Skill-Based</a></li>
+            <li><a href="#thematic">Thematic</a></li>
+            <li><a href="#register">Register</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>🎓 About the Olympiad</h2>
+            <p>The <strong>Bharat Pratibha Olympiad 2025</strong> celebrates India's young minds by recognizing academic excellence and practical skills across disciplines. Designed to nurture curiosity, creativity, and competence, this initiative brings together students from across the nation to test, learn, and grow.</p>
+            
+            <div style="margin-top: 30px;">
+                <h3>📚 Eligibility</h3>
+                <ul class="feature-list">
+                    <li><strong>Classes 6th to 8th</strong> - Middle Level</li>
+                    <li><strong>Classes 9th & 10th</strong> - Secondary Level</li>
+                    <li><strong>Classes 11th & 12th</strong> - Senior Secondary (Science | Commerce | Humanities)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="objective" class="section">
             <h2>🌟 Objective</h2>
             <div class="objective-box">
                 <p style="font-size: 1.1em; text-align: center; font-weight: 500;">
@@ -419,475 +893,13 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                                 <li>Business Model Canvas</li>
                                 <li>Start-up Ecosystem</li>
                                 <li>Social Entrepreneurship</li>
-                <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bharat Pratibha Olympiad 2025</title>
-    <style>
-        .logo-container {
-            max-width: 300px;
-            margin: 0 auto 20px;
-            padding: 20px;
-            background: white;
-            border-radius: 50%;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-        }
-
-        .logo {
-            width: 100%;
-            height: auto;
-        }
-
-        .tagline {
-            font-size: 1.3em;
-            color: #FF6600;
-            font-style: italic;
-            margin-bottom: 15px;
-        }
-
-        .organizers {
-            font-size: 1.1em;
-            color: #555;
-            font-weight: 500;
-        }
-
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .timeline {
-            position: relative;
-            padding: 30px 0;
-        }
-
-        .timeline-item {
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            padding: 25px;
-            margin: 20px 0;
-            border-radius: 8px;
-            border-left: 5px solid #FF6600;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        .timeline-item:hover {
-            transform: translateX(10px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-        }
-
-        .timeline-date {
-            font-size: 1.3em;
-            color: #003366;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        .timeline-day {
-            display: inline-block;
-            background: #FF6600;
-            color: white;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            margin-bottom: 10px;
-        }
-
-        .timeline-content {
-            color: #555;
-            line-height: 1.8;
-        }
-
-        .syllabus-accordion {
-            margin: 20px 0;
-        }
-
-        .accordion-item {
-            background: white;
-            margin: 15px 0;
-            border-radius: 8px;
-            border: 2px solid #e9ecef;
-            overflow: hidden;
-            transition: all 0.3s;
-        }
-
-        .accordion-header {
-            background: linear-gradient(135deg, #003366 0%, #004d99 100%);
-            color: white;
-            padding: 20px;
-            cursor: pointer;
-            font-size: 1.2em;
-            font-weight: 600;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: background 0.3s;
-        }
-
-        .accordion-header:hover {
-            background: linear-gradient(135deg, #004d99 0%, #0066cc 100%);
-        }
-
-        .accordion-icon {
-            font-size: 1.5em;
-            transition: transform 0.3s;
-        }
-
-        .accordion-content {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s ease-out;
-            background: #f8f9fa;
-        }
-
-        .accordion-content-inner {
-            padding: 25px;
-        }
-
-        .accordion-item.active .accordion-content {
-            max-height: 2000px;
-        }
-
-        .accordion-item.active .accordion-icon {
-            transform: rotate(180deg);
-        }
-
-        .syllabus-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        .syllabus-list li {
-            padding: 12px 0;
-            padding-left: 35px;
-            position: relative;
-            border-bottom: 1px solid #dee2e6;
-        }
-
-        .syllabus-list li:last-child {
-            border-bottom: none;
-        }
-
-        .syllabus-list li:before {
-            content: "📚";
-            position: absolute;
-            left: 0;
-            font-size: 1.2em;
-        }
-
-        .important-dates-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin: 30px 0;
-        }
-
-        .date-card {
-            background: linear-gradient(135deg, #FFF5E6 0%, #FFE5B4 100%);
-            padding: 25px;
-            border-radius: 10px;
-            border-left: 5px solid #FF6600;
-            text-align: center;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        .date-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-        }
-
-        .date-card h4 {
-            color: #003366;
-            font-size: 1.3em;
-            margin-bottom: 15px;
-        }
-
-        .date-card .date {
-            font-size: 2em;
-            color: #FF6600;
-            font-weight: bold;
-            margin: 10px 0;
-        }
-
-        .date-card .day {
-            font-size: 1.1em;
-            color: #555;
-            font-style: italic;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        .section {
-            background: white;
-            margin-bottom: 30px;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-
-        .section h2 {
-            color: #003366;
-            font-size: 2em;
-            margin-bottom: 20px;
-            border-left: 5px solid #FF6600;
-            padding-left: 15px;
-        }
-
-        .section h3 {
-            color: #FF6600;
-            font-size: 1.5em;
-            margin: 25px 0 15px;
-        }
-
-        .objective-box {
-            background: linear-gradient(135deg, #FFF5E6 0%, #E6F7FF 100%);
-            padding: 30px;
-            border-radius: 8px;
-            border-left: 5px solid #138808;
-            margin: 20px 0;
-        }
-
-        .olympiad-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            margin: 20px 0;
-        }
-
-        .olympiad-card {
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            padding: 20px;
-            border-radius: 8px;
-            border-left: 4px solid #003366;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        .olympiad-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-        }
-
-        .olympiad-card h4 {
-            color: #003366;
-            font-size: 1.2em;
-            margin-bottom: 10px;
-        }
-
-        .olympiad-card p {
-            color: #555;
-            font-size: 0.95em;
-        }
-
-        .level-badge {
-            display: inline-block;
-            background: #FF6600;
-            color: white;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            font-weight: 600;
-            margin-bottom: 15px;
-        }
-
-        .special-olympiad {
-            background: linear-gradient(135deg, #FFE5B4 0%, #FFD4A3 100%);
-            border-left-color: #FF6600;
-        }
-
-        .cta-section {
-            background: linear-gradient(135deg, #003366 0%, #004d99 100%);
-            color: white;
-            text-align: center;
-            padding: 50px;
-            border-radius: 10px;
-            margin: 40px 0;
-        }
-
-        .cta-section h2 {
-            color: white;
-            border: none;
-            padding: 0;
-            margin-bottom: 20px;
-        }
-
-        .cta-button {
-            display: inline-block;
-            background: #FF6600;
-            color: white;
-            padding: 15px 40px;
-            text-decoration: none;
-            border-radius: 30px;
-            font-size: 1.2em;
-            font-weight: 600;
-            margin: 10px;
-            transition: background 0.3s, transform 0.3s;
-        }
-
-        .cta-button:hover {
-            background: #FF8533;
-            transform: scale(1.05);
-        }
-
-        footer {
-            background: #003366;
-            color: white;
-            text-align: center;
-            padding: 30px 20px;
-            margin-top: 50px;
-        }
-
-        .footer-content {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .footer-links {
-            margin: 20px 0;
-        }
-
-        .footer-links a {
-            color: #FFD700;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-
-        .icon {
-            display: inline-block;
-            margin-right: 8px;
-        }
-
-        @media (max-width: 768px) {
-            .header h1 {
-                font-size: 1.8em;
-            }
-
-            .tagline {
-                font-size: 1em;
-            }
-
-            nav ul {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .section {
-                padding: 20px;
-            }
-
-            .olympiad-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        .highlight {
-            background: #FFFACD;
-            padding: 2px 6px;
-            border-radius: 3px;
-        }
-
-        ul.feature-list {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        ul.feature-list li {
-            padding: 10px 0;
-            padding-left: 30px;
-            position: relative;
-        }
-
-        ul.feature-list li:before {
-            content: "✓";
-            position: absolute;
-            left: 0;
-            color: #138808;
-            font-weight: bold;
-            font-size: 1.2em;
-        }
-    </style>
-</head>
-<body>
-    <header class="header">
-        <div class="logo-container">
-            <svg class="logo" viewBox="0 0 200 200" xmlns="https://www.w3.org/2000/svg">
-                <!-- Outer circle with tricolor -->
-                <circle cx="100" cy="100" r="95" fill="none" stroke="#FF9933" stroke-width="10"/>
-                <circle cx="100" cy="100" r="85" fill="white"/>
-                
-                <!-- Torch flame in tricolor -->
-                <path d="M 100 40 Q 90 50 95 65 Q 100 55 105 65 Q 110 50 100 40" fill="#FF9933"/>
-                <path d="M 95 65 Q 100 75 105 65 Q 100 70 95 65" fill="white"/>
-                <path d="M 95 65 L 105 65 L 103 75 L 97 75 Z" fill="#138808"/>
-                
-                <!-- Torch body -->
-                <rect x="95" y="75" width="10" height="30" fill="#003366"/>
-                
-                <!-- Rays -->
-                <g stroke="#003366" stroke-width="2" fill="none">
-                    <line x1="100" y1="105" x2="100" y2="125"/>
-                    <line x1="100" y1="105" x2="85" y2="120" transform="rotate(-20 100 105)"/>
-                    <line x1="100" y1="105" x2="115" y2="120" transform="rotate(20 100 105)"/>
-                    <line x1="100" y1="105" x2="75" y2="120" transform="rotate(-40 100 105)"/>
-                    <line x1="100" y1="105" x2="125" y2="120" transform="rotate(40 100 105)"/>
-                    <line x1="100" y1="105" x2="65" y2="115" transform="rotate(-60 100 105)"/>
-                    <line x1="100" y1="105" x2="135" y2="115" transform="rotate(60 100 105)"/>
-                </g>
-                
-                <!-- Text -->
-                <text x="100" y="150" text-anchor="middle" font-size="18" font-weight="bold" fill="#003366">BHARAT</text>
-                <text x="100" y="168" text-anchor="middle" font-size="16" font-weight="bold" fill="#003366">PRATIBHA</text>
-            </svg>
-        </div>
-        <h1>🎓 Bharat Pratibha Olympiad 2025</h1>
-        <p class="tagline">"Nurturing Young Minds, Celebrating Indian Talents"</p>
-        <p class="organizers">An All India Principal Association (AIPA) & Maya Devi University, Dehradun Initiative</p>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#objective">Objective</a></li>
-            <li><a href="#dates">Important Dates</a></li>
-            <li><a href="#syllabus">Syllabus</a></li>
-            <li><a href="#academic">Academic Olympiads</a></li>
-            <li><a href="#skill">Skill-Based</a></li>
-            <li><a href="#thematic">Thematic</a></li>
-            <li><a href="#register">Register</a></li>
-        </ul>
-    </nav>
-
-    <div class="container">
-        <section id="about" class="section">
-            <h2>🎓 About the Olympiad</h2>
-            <p>The <strong>Bharat Pratibha Olympiad 2025</strong> celebrates India's young minds by recognizing academic excellence and practical skills across disciplines. Designed to nurture curiosity, creativity, and competence, this initiative brings together students from across the nation to test, learn, and grow.</p>
-            
-            <div style="margin-top: 30px;">
-                <h3>📚 Eligibility</h3>
-                <ul class="feature-list">
-                    <li><strong>Classes 6th to 8th</strong> - Middle Level</li>
-                    <li><strong>Classes 9th & 10th</strong> - Secondary Level</li>
-                    <li><strong>Classes 11th & 12th</strong> - Senior Secondary (Science | Commerce | Humanities)</li>
-                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="objective" class="section">
-            <h2>🌟 Objective</h2>
-            <div class="objective-box">
-                <p style="font-size: 1.1em; text-align: center; font-weight: 500;">
-                    To build a generation of learners who combine <span class="highlight">academic strength</span> with <span class="highlight">practical, creative, and ethical skills</span> — shaping India's future innovators and leaders.
-                </p>
-            </div>
-        </section>
 
         <section id="academic" class="section">
             <h2>📚 A. Academic Subject Olympiads</h2>
@@ -1183,5 +1195,12 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <p style="margin-top: 15px; color: #FFD700;">© 2025 Bharat Pratibha Olympiad. All Rights Reserved.</p>
         </div>
     </footer>
+<script>
+// Syllabus accordion (was called by the headers but never defined)
+function toggleAccordion(header) {
+    var item = header.parentElement;
+    item.classList.toggle('active');
+}
+</script>
 </body>
 </html>

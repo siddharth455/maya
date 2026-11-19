@@ -46,7 +46,7 @@ $base_path = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\') . '/';
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95"
          style="background-image:url(assets/img/bg/breadcrumb-bg-2.jpg);">
         <div class="container">
-            <h2>Event Details</h2>
+            <h1>Event Details</h1>
             <p>Learn more about this event and its details.</p>
         </div>
     </div>

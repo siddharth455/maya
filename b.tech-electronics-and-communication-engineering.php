@@ -3,12 +3,21 @@ $page_title = "B.Tech Electronics & Communication Engineering in Dehradun | Maya
 $page_description = "Enroll in B.Tech Electronics and Communication Engineering at Maya Devi University, Dehradun with advanced labs and industry-focused training.";
 $canonical_url = "https://maya.edu.in/b.tech-electronics-and-communication-engineering.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Tech in Electronics and Communication Engineering',
+    "description" => 'The department offers a four-year degree program designed to equip students with the skills needed to keep pace with the evolving trends in digital communication technology. The curriculum is crafted to offer a well-rounded educational experience, ensuring students gain a thorough understanding of the subject. Specialized labs and hands-on training are emphasized, and expert faculty provide a highly engaging and practical learning experience.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/b.tech-electric-2.webp);">
         <div class="container">
-            <h2>B.Tech in Electronics and Communication Engineering</h2>
+            <h1>B.Tech in Electronics and Communication Engineering</h1>
             <p>Electronics and Communication Engineering combines electronics and networking systems to create efficient communication channels.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/b.tech-electric-2.webp" alt="">
+                        <img src="assets/uploads/b.tech-electric-2.webp" alt="Students working with equipment in the electrical engineering lab">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -100,7 +109,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-electronics-and-communication-engineering-vlsi-embedded.php"><img class="animated" src="assets/uploads/b.tech-electric.webp" alt=""></a>
+                                    <a href="b.tech-electronics-and-communication-engineering-vlsi-embedded.php"><img class="animated" src="assets/uploads/b.tech-electric.webp" alt="B.Tech in EC Engineering (VLSI and Embedded System) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="b.tech-electronics-and-communication-engineering-vlsi-embedded.php">B.Tech in EC Engineering (VLSI and Embedded System)</a></h4>
@@ -124,7 +133,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-electronics-and-communication-engineering-robotics-ai.php"><img class="animated" src="assets/uploads/b.tech-electric-3.webp" alt=""></a>
+                                    <a href="b.tech-electronics-and-communication-engineering-robotics-ai.php"><img class="animated" src="assets/uploads/b.tech-electric-3.webp" alt="Student working on a solar panel setup in the electrical engineering lab"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="b.tech-electronics-and-communication-engineering-robotics-ai.php">B.tech CE Engineering (Robotics & AI)</a></h4>
@@ -148,7 +157,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-electronics-and-communication-engineering-le.php"><img class="animated" src="assets/uploads/b.tech-electric-2.webp" alt=""></a>
+                                    <a href="b.tech-electronics-and-communication-engineering-le.php"><img class="animated" src="assets/uploads/b.tech-electric-2.webp" alt="Students working with equipment in the electrical engineering lab"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="b.tech-electronics-and-communication-engineering-le.php">B.Tech EC Engineering (Lateral Entry)

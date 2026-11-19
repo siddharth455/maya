@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/b.tech-electric.webp);">
         <div class="container">
-            <h2>B.Tech in Electronics and <br>Communication Engineering<br>(VLSI and Embedded System)</h2>
+            <h1>B.Tech in Electronics and <br>Communication Engineering<br>(VLSI and Embedded System)</h1>
             <p>This program provides a strong foundation in electronics, communication systems, and signal processing. It emphasizes core principles of semiconductor devices and circuit design. Students gain hands-on experience in VLSI design using industry-standard tools.</p>
         </div>
     </div>
@@ -26,7 +26,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/b.tech-electric.webp" alt="">
+                        <img src="assets/uploads/b.tech-electric.webp" alt="Student soldering a circuit board in the electronics lab">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -99,7 +99,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.tech-electronics-and-communication-engineering.php"><img class="animated" src="assets/uploads/b.tech-electric-2.webp" alt=""></a>
+                                    <a href="b.tech-electronics-and-communication-engineering.php"><img class="animated" src="assets/uploads/b.tech-electric-2.webp" alt="Students working with equipment in the electrical engineering lab"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="b.tech-electronics-and-communication-engineering.php">B.Tech in electronic and communication Engineering</a></h4>
@@ -123,7 +123,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b-tech-civil-structural-engineering.php"><img class="animated" src="assets/uploads/b.tech-civil.jpg" alt=""></a>
+                                    <a href="b-tech-civil-structural-engineering.php"><img class="animated" src="assets/uploads/b.tech-civil.jpg" alt="B.tech Civil Engineering (Structural Engineering) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="b-tech-civil-structural-engineering.php">B.tech Civil Engineering (Structural Engineering)</a></h4>
@@ -147,7 +147,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                            <div class="single-course">
                                 <div class="course-img">
-                                    <a href="mechanical-engineering-le.php"><img class="animated" src="assets/uploads/mechanical-le.webp" alt=""></a>
+                                    <a href="mechanical-engineering-le.php"><img class="animated" src="assets/uploads/mechanical-le.webp" alt="B.tech Mechanical Engineering (Lateral Entry) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="mechanical-engineering-le.php">B.tech Mechanical Engineering (Lateral Entry)</a></h4>

@@ -154,14 +154,14 @@
   <!-- Admissions Panel -->
   <div class="mobile-panel" id="panel-admissions">
     <div class="panel-header">
-      <h3 class="text-white">Admissions 2026</h3>
+      <h3 class="text-white">Admissions 2027</h3>
       <button class="close-panel">✕</button>
     </div>
 
     <ul class="panel-list">
       <li><a href="assets/uploads/pdf/MDU_COMBINED_Brochure.pdf" download="MDU_COMBINED_Brochure.pdf">MDU Brochure</a></li>
-      <li><a href="assets/uploads/pdf/MDU_Fee_Structure.pdf" download="MDU_Fee_Structure.pdf">Fee Structure (2026-27)</a></li>
-      <li><a href="assets/uploads/pdf/List_of_Holidays_2025.pdf" download="List_of_Holidays_2025.pdf">List of Holidays</a></li>
+      <li><a href="fee-structure.php">Fee Structure</a></li>
+      <li><a href="assets/uploads/pdf/List_of_Holidays_2026.pdf" download="List_of_Holidays_2026.pdf">List of Holidays</a></li>
       <!-- <li><a href="assets/uploads/pdf/Academic_Calender_Even_Sem_2024-25.pdf" download="Academic_Calender_Even_Sem_2024-25.pdf">Academic Calendar Even Sem 2024-25</a></li> -->
       <li><a href="refund-policy.php">Refund Policy</a></li>
       <li style="background-color: #307ad5;"><a href="https://admissions.maya.edu.in">Apply Now</a></li>
@@ -730,7 +730,7 @@
   <div id="eeAdmissionModal" class="ee-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="eeModalTitle">
       <div class="ee-modal-dialog">
           <div class="ee-modal-header">
-              <h3 id="eeModalTitle">Admission Enquiry 2026</h3>
+              <h3 id="eeModalTitle">Admission Enquiry 2027</h3>
               <p>Apply Now &amp; Explore Top Programs</p>
               <button type="button" class="ee-modal-close" id="closeEeModal" aria-label="Close Admission Form">&times;</button>
           </div>

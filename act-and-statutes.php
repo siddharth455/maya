@@ -8,7 +8,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/maya.webp);">
         <div class="container">
-            <h2>Act and Statutes</h2>
+            <h1>Act and Statutes</h1>
             <p>The Act and Statutes of Maya Devi University establish the legal framework, governance structure, and regulatory provisions that guide our institution's operations and academic excellence.</p>
         </div>
     </div>

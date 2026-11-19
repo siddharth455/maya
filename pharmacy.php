@@ -284,7 +284,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <!-- ================= DIPLOMA PROGRAMS ================= -->
     <div class="section-title text-center mb-50">
       <h2>Diploma <span>Programs</span></h2>
-      <p>Foundation-level programs focused on practical pharmaceutical education.</p>
+      <p>Foundation-level programs focused on practical pharmaceutical education. Explore our <a href="best-d-pharma-college-in-dehradun-uttarakhand.php">D.Pharm college in Dehradun</a>.</p>
     </div>
 
     <div class="row">
@@ -293,7 +293,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="best-d-pharma-college-in-dehradun-uttarakhand.php">
-              <img src="assets/uploads/d.pharmacy.jpeg" alt="">
+              <img src="assets/uploads/d.pharmacy.jpeg" alt="Diploma in Pharmacy at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -322,7 +322,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="best-b-pharma-colleges-in-dehradun-uttarakhand.php">
-              <img src="assets/uploads/pharmacy.webp" alt="">
+              <img src="assets/uploads/pharmacy.webp" alt="Bachelor of Pharmacy at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -341,7 +341,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="bachelor-pharmacy-lateral-entry.php">
-              <img src="assets/uploads/pharmacy-le.jpg" alt="">
+              <img src="assets/uploads/pharmacy-le.jpg" alt="B.Pharm (Lateral Entry) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -370,7 +370,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="master-pharmacy-pharmaceutics.php">
-              <img src="assets/uploads/mpharm.jpg" alt="">
+              <img src="assets/uploads/mpharm.jpg" alt="Master of Pharmacy at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -389,7 +389,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="master-pharmacy-pharmacology.php">
-              <img src="assets/uploads/pharma-cology.jpg" alt="">
+              <img src="assets/uploads/pharma-cology.jpg" alt="M.Pharm – Pharmacology at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -408,7 +408,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="master-pharmacy-pharmaceutics-chemistry.php">
-              <img src="assets/uploads/pharmacy.webp" alt="">
+              <img src="assets/uploads/pharmacy.webp" alt="M.Pharm – Pharmaceutical Chemistry at Maya Devi University">
             </a>
           </div>
           <div class="course-body">
@@ -437,7 +437,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="course-card">
           <div class="course-img">
             <a href="doctor-pharmacy.php">
-              <img src="assets/uploads/pharm-d.webp" alt="">
+              <img src="assets/uploads/pharm-d.webp" alt="Doctor of Pharmacy (Pharm D) at Maya Devi University">
             </a>
           </div>
           <div class="course-body">

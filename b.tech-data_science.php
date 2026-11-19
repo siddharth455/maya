@@ -3,12 +3,21 @@ $page_title = "B.Tech Data Science in Dehradun | Maya Devi University";
 $page_description = "Study B.Tech Data Science at Maya Devi University, Dehradun with AI tools, machine learning labs, and real-world project training.";
 $canonical_url = "https://maya.edu.in/b.tech-data_science.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Tech CSE with Specialization Data Science',
+    "description" => 'This specialization focuses on key areas such as data analysis, statistics, machine learning, big data technologies, data visualization, and data-driven decision-making.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/data-science.webp);">
         <div class="container">
-            <h2>B.Tech CSE with Specialization Data Science</h2>
+            <h1>B.Tech CSE with Specialization Data Science</h1>
             <p>The Bachelor of Technology (B.Tech) in Computer Science with a Specialization in Data Science is an advanced undergraduate program that combines the core principles of computer science with the analytical techniques of data science.</p>
         </div>
     </div>

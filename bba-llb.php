@@ -3,12 +3,21 @@ $page_title = "BBA LLB in Dehradun | Maya Devi University";
 $page_description = "Join BBA LLB at Maya Devi University, Dehradun with integrated legal and business education and practical courtroom exposure.";
 $canonical_url = "https://maya.edu.in/bba-llb.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'BBA LLB (Bachelor of Business Administration + Bachelor of Law)',
+    "description" => 'This specialization prepares students for versatile careers at the intersection of business and law. Graduates can work as Corporate Lawyers, Legal Advisors, Compliance Officers, Consultants, or Academicians, and may also pursue higher studies in law or specialize in fields such as corporate law, international trade law, intellectual property rights, or business management.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P5Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/llb-2.webp);">
         <div class="container">
-            <h2>BBA LLB <br> (Bachelor of Business Administration <br> + Bachelor of Law)</h2>
+            <h1>BBA LLB <br> (Bachelor of Business Administration <br> + Bachelor of Law)</h1>
             <p>The BBA LLB program is a 5-year integrated course that merges legal education with core business and management studies. It is ideal for students aiming to pursue careers in corporate law, compliance, and business consulting.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/llb-2.webp" alt="">
+                        <img src="assets/uploads/llb-2.webp" alt="BBA LLB (Bachelor of Business Administration + Bachelor of Law) at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -108,7 +117,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                    <a href="ba-llb.php"><img class="animated" src="assets/uploads/llb.jpg" alt=""></a>
+                                    <a href="ba-llb.php"><img class="animated" src="assets/uploads/llb.jpg" alt="BA LLB at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                 <h4><a href="ba-llb.php">BA LLB</a></h4>
@@ -132,7 +141,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="llb.php"><img class="animated" src="assets/uploads/llb-3.jpeg" alt=""></a>
+                                    <a href="llb.php"><img class="animated" src="assets/uploads/llb-3.jpeg" alt="LLB (Bachelor of Law) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="llb.php">LLB (Bachelor of Law)</a></h4>
@@ -156,7 +165,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="llm.php"><img class="animated" src="assets/uploads/llm.jpg" alt=""></a>
+                                    <a href="llm.php"><img class="animated" src="assets/uploads/llm.jpg" alt="LLM (Master of Law) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="llm.php">LLM (Master of Law)</a></h4>

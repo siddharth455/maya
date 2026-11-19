@@ -3,12 +3,21 @@ $page_title = "B.Sc Dialysis Technology in Dehradun | Maya Devi University";
 $page_description = "Study B.Sc Dialysis Technology at Maya Devi University, Dehradun with clinical exposure, modern labs, and hospital-based practical training.";
 $canonical_url = "https://maya.edu.in/b.sc-dialysis-technology.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Sc. in Dialysis Technology',
+    "description" => 'Core subjects include human anatomy, physiology, dialysis technology, infection control, and patient care. Students learn to operate dialysis machines, monitor patients, and manage dialysis procedures safely. The curriculum emphasizes practical training, clinical procedures, and handling emergency situations in dialysis care.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/dialysis.webp);">
         <div class="container">
-            <h2>B.Sc. in Dialysis Technology</h2>
+            <h1>B.Sc. in Dialysis Technology</h1>
             <p>The B.Sc. in Dialysis Technology program trains students in dialysis procedures, equipment management, and patient care for renal treatment.</p>
         </div>
     </div>

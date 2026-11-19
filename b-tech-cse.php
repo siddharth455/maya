@@ -3,12 +3,21 @@ $page_title = "B.Tech Computer Science Engineering in Dehradun | Maya Devi Unive
 $page_description = "Join B.Tech CSE at Maya Devi University, Dehradun with specializations in AI, ML, Cyber Security and Data Science.";
 $canonical_url = "https://maya.edu.in/b-tech-cse.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Tech CSE',
+    "description" => 'Students develop proficiency in a wide range of areas including programming languages, database management, software engineering, artificial intelligence, machine learning, cybersecurity, and cloud computing, among other advanced subjects. The curriculum integrates theoretical knowledge with hands- on projects and industry internships, ensuring graduates are well-prepared to meet current and future industry needs.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P4Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/computer.webp);">
         <div class="container">
-            <h2>B.Tech CSE</h2>
+            <h1>B.Tech CSE</h1>
             <p>The Bachelor of Technology in Computer Science and Engineering (B.Tech CSE) is a comprehensive undergraduate program designed to provide students with both a strong theoretical foundation and practical skills necessary to thrive in the fast-evolving world of computing and technology. This program emphasizes the design, development, and implementation of software systems, computer networks, algorithms, and hardware technologies.</p>
         </div>
     </div>

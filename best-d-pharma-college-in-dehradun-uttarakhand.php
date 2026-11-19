@@ -1,15 +1,29 @@
 <?php
-$page_title = "Best D.Pharm College in Dehradun Uttarakhand | Maya Devi University";
-$page_description = "Maya Devi University is one of the best D.Pharm colleges in Dehradun, Uttarakhand with practical training and advanced pharmaceutical labs.";
+$page_title = "Best D.Pharm College in Dehradun 2027 | PCI Approved | MDU";
+$page_description = "D.Pharm admission 2027 at Maya Devi University, Dehradun. 2-year PCI-approved Diploma in Pharmacy with 500 hours of practical training. Check eligibility.";
 $canonical_url = "https://maya.edu.in/best-d-pharma-college-in-dehradun-uttarakhand.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Batch 2 SEO content: intro, at-a-glance table, why-choose list and FAQs (schema matches visible FAQs)
+require_once "common/course-seo.php";
+$seo = course_seo("dpharm");
+$page_schema = ($page_schema ?? "") . seo_faq_schema($seo);
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Diploma in Pharmacy (D.Pharm)',
+    "description" => seo_plain($seo["intro"][0]),
+    "credential" => 'Diploma',
+    "time" => "P2Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/d.pharmacy.jpeg);">
         <div class="container">
-            <h2>Diploma in Pharmacy</h2>
-            <p>School of Pharmacy at Maya Devi University is running a two year full time Diploma course divided into two annual sessions, Approved by Pharmacy Council of India(PCI), New Delhi.</p>
+            <h1 class="seo-banner-h1">Best D.Pharm College in Dehradun – Diploma in Pharmacy at Maya Devi University</h1>
+            <p><?php echo $seo["intro"][0]; ?></p>
         </div>
     </div>
     <div class="breadcrumb-bottom">
@@ -26,7 +40,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/d.pharmacy.jpeg" alt="">
+                        <img src="assets/uploads/d.pharmacy.jpeg" alt="Diploma in Pharmacy at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -36,8 +50,10 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             <div class="over-view-content">
                                 <h4>COURSE DETAILS</h4>
                                 <h5>Course Name : Diploma in Pharmacy</h5>
-                                <p>Our Diploma in Pharmacy program at Maya Devi University is designed to meet the growing needs of the healthcare and pharmaceutical sector. Students gain knowledge and practical skills in pharmaceutical sciences, drug formulation, and patient care.</p>
-                                <p>A Diploma in Pharmacy provides a strong foundation for careers in community and hospital pharmacies, pharmaceutical companies, and healthcare organizations. Core subjects such as Pharmacology, Pharmaceutics, Pharmaceutical Chemistry, and Pharmacognosy form the backbone of the program and prepare students for professional practice in pharmacy.</p>
+                                <?php echo seo_css(); ?>
+                                <div class="seo-intro"><p><?php echo $seo["intro"][1]; ?></p></div>
+                                <?php echo seo_glance($seo); ?>
+                                <?php echo seo_why($seo); ?>
 
                                 <div class="over-view-list">
                                     <h2>Eligibility Criteria</h2>
@@ -109,7 +125,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="best-b-pharma-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/pharmacy.webp" alt=""></a>
+                                    <a href="best-b-pharma-colleges-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/pharmacy.webp" alt="Bachelor in pharmacy at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="best-b-pharma-colleges-in-dehradun-uttarakhand.php">Bachelor in pharmacy</a></h4>
@@ -133,7 +149,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bachelor-pharmacy-lateral-entry.php"><img class="animated" src="assets/uploads/pharmacy-le.jpg" alt=""></a>
+                                    <a href="bachelor-pharmacy-lateral-entry.php"><img class="animated" src="assets/uploads/pharmacy-le.jpg" alt="Bachelor of pharmacy (Lateral Entry) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="bachelor-pharmacy-lateral-entry.php">Bachelor of pharmacy (Lateral Entry)</a></h4>
@@ -223,52 +239,54 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
         </div>
     </div>
 </div>
+<?php echo seo_faq($seo); ?>
+
 <?php require "application-process.php" ?>
 <div class="brand-logo-area pt-45 pb-130">
     <div class="container">
         <h2 class="text-center mt-3 mb-3">Industry Partner</h2>
         <div class="brand-logo-active owl-carousel">
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/1.webp" alt="">
+                <img src="assets/img/brand-logo/1.webp" alt="Max Healthcare – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/2.webp" alt="">
+                <img src="assets/img/brand-logo/2.webp" alt="Abbott – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/3.webp" alt="">
+                <img src="assets/img/brand-logo/3.webp" alt="Aloha on the Ganges – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/4.webp" alt="">
+                <img src="assets/img/brand-logo/4.webp" alt="Apollo Pharmacy – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/5.webp" alt="">
+                <img src="assets/img/brand-logo/5.webp" alt="Bajaj Finserv – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/6.webp" alt="">
+                <img src="assets/img/brand-logo/6.webp" alt="Four Points by Sheraton – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/7.webp" alt="">
+                <img src="assets/img/brand-logo/7.webp" alt="Geetanjali Homestate – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/8.webp" alt="">
+                <img src="assets/img/brand-logo/8.webp" alt="Jagran Solutions – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/9.webp" alt="">
+                <img src="assets/img/brand-logo/9.webp" alt="Justdial – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/10.webp" alt="">
+                <img src="assets/img/brand-logo/10.webp" alt="Marriott International – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/11.webp" alt="">
+                <img src="assets/img/brand-logo/11.webp" alt="Nectar Lifesciences (NecLife) – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/12.webp" alt="">
+                <img src="assets/img/brand-logo/12.webp" alt="PAN Seeds – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/13.webp" alt="">
+                <img src="assets/img/brand-logo/13.webp" alt="Paytm – recruiter at Maya Devi University">
             </div>
             <div class="single-brand-logo">
-                <img src="assets/img/brand-logo/14.webp" alt="">
+                <img src="assets/img/brand-logo/14.webp" alt="PlanetSpark – recruiter at Maya Devi University">
             </div>
         </div>
     </div>

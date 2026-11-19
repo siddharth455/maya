@@ -1,5 +1,5 @@
 <?php
-$page_title = "Best Agriculture College in Dehradun | Maya Devi University";
+$page_title = "Agriculture at Maya Devi University – Farms, Labs & Programmes";
 $page_description = "Study B.Sc & M.Sc Agriculture at Maya Devi University, a leading agriculture college in Dehradun, Uttarakhand with research & practical field training.";
 $canonical_url = "https://maya.edu.in/agriculture-at-maya-devi-university.php";
 $og_image = "https://maya.edu.in/assets/uploads/agriculture-blog.png";
@@ -68,6 +68,8 @@ $og_image = "https://maya.edu.in/assets/uploads/agriculture-blog.png";
                             <h1 class="blog-main-title my-3">Cultivating Change: The School of Agriculture & Technology at Maya Devi University</h1>
 
                             <p>Agriculture feeds the world, sustains rural economies, and sits at the centre of some of the biggest challenges of our time, from food security to climate resilience. For students who want a career that blends science, sustainability, and real impact, the School of Agriculture & Technology at Maya Devi University is a forward-looking <strong>agriculture college in Dehradun</strong>, Uttarakhand.</p>
+
+                            <p class="mdu-main-link">For eligibility and admission details, see our <a href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php">B.Sc Agriculture college in Dehradun</a> page.</p>
 
                             <h2>Why Agriculture Is a Career of the Future</h2>
                             <p>Far from being a traditional field, modern agriculture is a science-driven, technology-enabled industry. Precision farming, biotechnology, sustainable practices, agri-business, and food processing are transforming how the world grows and manages food. India, with its vast agricultural base, needs skilled professionals who can improve crop yields, manage resources responsibly, and drive innovation across the agri-value chain.</p>

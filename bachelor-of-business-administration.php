@@ -3,12 +3,21 @@ $page_title = "BBA College in Dehradun | Maya Devi University";
 $page_description = "Join BBA at Maya Devi University, Dehradun with industry-focused curriculum, leadership training, and strong placement support.";
 $canonical_url = "https://maya.edu.in/bachelor-of-business-administration.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'Bachelor of business administration (BBA)',
+    "description" => 'The Bachelor of Business Administration (BBA) program at Maya Devi University is designed to prepare students for leadership roles in business, management, and entrepreneurship. The program combines theoretical knowledge with practical skills to develop competent professionals for the corporate world.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php"?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/bba.jpg);">
         <div class="container">
-            <h2>Bachelor of Business Administration (BBA)</h2>
+            <h1>Bachelor of Business Administration (BBA)</h1>
             <p>The BBA is a three-year undergraduate program designed to develop students’ skills in business management, leadership, and entrepreneurship.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/bba.jpg" alt="">
+                        <img src="assets/uploads/bba.jpg" alt="Bachelor of business administration (BBA) at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>

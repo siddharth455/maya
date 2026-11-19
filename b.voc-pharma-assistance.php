@@ -3,12 +3,21 @@ $page_title = "B.Voc Pharma Assistance in Dehradun | Maya Devi University";
 $page_description = "Join B.Voc Pharma Assistance at Maya Devi University, Dehradun with practical pharmaceutical training and industry-ready curriculum.";
 $canonical_url = "https://maya.edu.in/b.voc-pharma-assistance.php";
 $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
+
+// Course schema (Batch 3): name, overview, credential and duration from this page
+require_once "common/course-schema.php";
+$page_schema = ($page_schema ?? "") . course_schema([
+    "name" => 'B.Voc Pharma Assistance',
+    "description" => 'The Bachelor of Vocation (B.Voc) in Pharma Assistance program equips students with practical knowledge and technical expertise essential for supporting pharmaceutical operations and healthcare services. The curriculum combines theoretical learning with hands-on training in drug formulation, dispensing techniques, pharmacology, pharmaceutical calculations, and patient care. Students develop accuracy, ethical responsibility, and communication skills vital for assisting pharmacists and ensuring safe and effective medication management.',
+    "credential" => 'Bachelor\'s degree',
+    "time" => "P3Y",
+]);
 ?>
 <?php require "common/header.php" ?>
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/uploads/pharmacy.webp);">
         <div class="container">
-            <h2>B.Voc Pharma Assistance</h2>
+            <h1>B.Voc Pharma Assistance</h1>
             <p>The Pharma Assistance program trains students in the essential operations of pharmaceutical services, including drug dispensing, inventory management, and patient care.</p>
         </div>
     </div>
@@ -26,7 +35,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
             <div class="col-xl-9 col-lg-8">
                 <div class="course-left-wrap mr-40">
                     <div class="apply-area">
-                        <img src="assets/uploads/pharmacy.webp" alt="">
+                        <img src="assets/uploads/pharmacy.webp" alt="B.Voc Pharma Assistance at Maya Devi University">
                         <div class="course-apply-btn">
                             <a href="https://admissions.maya.edu.in" class="default-btn">APPLY NOW</a>
                         </div>
@@ -99,7 +108,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                         <div class="related-slider-active">
                         <div class="single-course">
                                 <div class="course-img">
-                                <a href="b.voc-agriculture.php"><img class="animated" src="assets/uploads/agri.webp" alt=""></a>
+                                <a href="b.voc-agriculture.php"><img class="animated" src="assets/uploads/agri.webp" alt="B.Voc Agriculture at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.voc-agriculture.php">B.Voc Agriculture</a></h4>
@@ -123,7 +132,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                <a href="b.voc-aviation.php"><img class="animated" src="assets/uploads/aviation.webp" alt=""></a>
+                                <a href="b.voc-aviation.php"><img class="animated" src="assets/uploads/aviation.webp" alt="B.Voc Aviation at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.voc-aviation.php">B.Voc Aviation</a></h4>
@@ -147,7 +156,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="b.voc-bakery-pastry.php"><img class="animated" src="assets/uploads/bakery.webp" alt=""></a>
+                                    <a href="b.voc-bakery-pastry.php"><img class="animated" src="assets/uploads/bakery.webp" alt="B.Voc Bakery &amp; Pastry Arts at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
                                     <h4><a href="b.voc-bakery-pastry.php">B.Voc Bakery & Pastry Arts</a></h4>
