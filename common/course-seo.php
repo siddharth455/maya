@@ -22,7 +22,7 @@ function course_seo_data()
 {
     return [
 
-    // 1. Nursing — /Nursing.php
+    // 1. Nursing — /best-nursing-college-in-dehradun-uttarakhand.php
     "nursing" => [
         "intro" => [
             "Looking for the best nursing college in Dehradun? The School of Nursing at Maya Devi University, Selaqui, offers <strong>B.Sc Nursing</strong> (4-year degree) and <strong>GNM</strong> (General Nursing and Midwifery diploma), with hands-on clinical training, modern nursing labs and guidance for nursing careers in India and abroad.",
@@ -152,7 +152,7 @@ function course_seo_data()
         ],
     ],
 
-    // 5. B.Sc Agriculture — /bsc-agriculture-colleges-in-dehradun-uttarakhand.php
+    // 5. B.Sc Agriculture — /best-b-sc-agriculture-college-in-dehradun-uttarakhand.php
     "agriculture" => [
         "intro" => [
             "Maya Devi University offers <strong>B.Sc Agriculture (Hons.)</strong> in Dehradun, with practical training on farms, in laboratories and through research projects. The programme covers crop production, soil science, horticulture, agricultural economics and farm management, with a strong focus on sustainable farming.",
@@ -213,7 +213,7 @@ function course_seo_data()
         ],
     ],
 
-    // 7. MBA & BBA — /management-and-commerce.php
+    // 7. MBA & BBA — /best-management-and-commerce-college-in-dehradun-uttarakhand.php
     "management" => [
         "intro" => [
             "Maya Devi University’s School of Commerce &amp; Management offers <strong>BBA, MBA and M.Com</strong> in Dehradun, with MBA specialisations in Marketing, Human Resources, FinTech, Digital Marketing, Business Analytics, Logistics, Travel &amp; Tourism, Pharmaceutical Management and Agri Business Management.",
@@ -243,7 +243,7 @@ function course_seo_data()
         ],
     ],
 
-    // 8. Hotel Management — /hotel-management-and-tourism.php
+    // 8. Hotel Management — /best-hotel-management-college-in-dehradun-uttarakhand.php
     "hotel" => [
         "intro" => [
             "Maya Devi University’s School of Hotel &amp; Tourism Management offers <strong>BHM, BHMCT, diploma, certificate and master’s programmes</strong> in Dehradun, with practical training in food production, front office, housekeeping and food &amp; beverage service.",
@@ -273,7 +273,7 @@ function course_seo_data()
         ],
     ],
 
-    // 9. Law — /school-of-legal-studies.php
+    // 9. Law — /best-law-college-in-dehradun-uttarakhand.php
     "law" => [
         "intro" => [
             "Maya Devi University’s School of Law &amp; Legal Studies offers the <strong>5-year integrated BA LLB and BBA LLB</strong> and the <strong>3-year LLB</strong> in Dehradun. The programmes build legal reasoning, advocacy and research skills, with a strong emphasis on ethics and practical training.",
@@ -303,7 +303,7 @@ function course_seo_data()
         ],
     ],
 
-    // 10. BCA — /bachelor-of-computer-application.php
+    // 10. BCA — /best-bca-college-in-dehradun-uttarakhand.php
     "bca" => [
         "intro" => [
             "Maya Devi University offers a <strong>three-year, industry-integrated BCA</strong> in Dehradun, with specialisations in <strong>AI &amp; Machine Learning, Data Science and Cyber Security</strong>. The curriculum covers programming, databases and web development alongside machine learning, neural networks and data science.",

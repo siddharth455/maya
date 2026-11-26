@@ -117,7 +117,7 @@ $og_image = "https://maya.edu.in/assets/uploads/arts-blog.png";
 
                             <p class="mt-4">
                                 <a href="https://admissions.maya.edu.in" target="_blank" class="btn btn-primary px-4 py-2 mr-2">Apply Now</a> 
-                                or explore the <a href="Arts-and-humanities.php" class="text-success font-weight-bold">School of Arts & Humanities</a>.
+                                or explore the <a href="best-arts-and-humanities-college-in-dehradun-uttarakhand.php" class="text-success font-weight-bold">School of Arts & Humanities</a>.
                             </p>
 
                             <div class="blog-share-tags mt-5">

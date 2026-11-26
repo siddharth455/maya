@@ -117,7 +117,7 @@ $og_image = "https://maya.edu.in/assets/uploads/paramedical-blog.png";
 
                             <p class="mt-4">
                                 <a href="https://admissions.maya.edu.in" target="_blank" class="btn btn-primary px-4 py-2 mr-2">Apply Now</a> 
-                                or explore the <a href="School-Of-Paramedical-Sciences.php" class="text-success font-weight-bold">School of Paramedical Sciences</a>.
+                                or explore the <a href="best-paramedical-college-in-dehradun-uttarakhand.php" class="text-success font-weight-bold">School of Paramedical Sciences</a>.
                             </p>
 
                             <div class="blog-share-tags mt-5">

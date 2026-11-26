@@ -69,7 +69,7 @@ $og_image = "https://maya.edu.in/assets/uploads/agriculture-blog.png";
 
                             <p>Agriculture feeds the world, sustains rural economies, and sits at the centre of some of the biggest challenges of our time, from food security to climate resilience. For students who want a career that blends science, sustainability, and real impact, the School of Agriculture & Technology at Maya Devi University is a forward-looking <strong>agriculture college in Dehradun</strong>, Uttarakhand.</p>
 
-                            <p class="mdu-main-link">For eligibility and admission details, see our <a href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php">B.Sc Agriculture college in Dehradun</a> page.</p>
+                            <p class="mdu-main-link">For eligibility and admission details, see our <a href="best-b-sc-agriculture-college-in-dehradun-uttarakhand.php">B.Sc Agriculture college in Dehradun</a> page.</p>
 
                             <h2>Why Agriculture Is a Career of the Future</h2>
                             <p>Far from being a traditional field, modern agriculture is a science-driven, technology-enabled industry. Precision farming, biotechnology, sustainable practices, agri-business, and food processing are transforming how the world grows and manages food. India, with its vast agricultural base, needs skilled professionals who can improve crop yields, manage resources responsibly, and drive innovation across the agri-value chain.</p>
@@ -119,7 +119,7 @@ $og_image = "https://maya.edu.in/assets/uploads/agriculture-blog.png";
 
                             <p class="mt-4">
                                 <a href="https://admissions.maya.edu.in" target="_blank" class="btn btn-primary px-4 py-2 mr-2">Apply Now</a> 
-                                or explore the <a href="agriculture.php" class="text-success font-weight-bold">School of Agriculture & Technology</a>.
+                                or explore the <a href="best-agriculture-college-in-dehradun-uttarakhand.php" class="text-success font-weight-bold">School of Agriculture & Technology</a>.
                             </p>
 
                             <div class="blog-share-tags mt-5">

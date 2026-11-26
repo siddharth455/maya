@@ -24,10 +24,10 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Hotel Management and Tourism</h2>
       <ul class="courses-list">
-        <li><a href="diploma-in-hotel-management.php">DHM - Diploma in Hotel Management</a></li>
-        <li><a href="diploma-in-food-production.php">DFP - Diploma in Food Production</a></li>
-        <li><a href="diploma-in-confectionary.php">Diploma in Bakery & Confectionery</a></li>
-        <li><a href="certification-in-hotel-management.php">CHM - Certification in Hotel Management</a></li>
+        <li><a href="best-diploma-in-hotel-management-college-in-dehradun-uttarakhand.php">DHM - Diploma in Hotel Management</a></li>
+        <li><a href="best-diploma-in-food-production-college-in-dehradun-uttarakhand.php">DFP - Diploma in Food Production</a></li>
+        <li><a href="best-diploma-in-confectionery-college-in-dehradun-uttarakhand.php">Diploma in Bakery & Confectionery</a></li>
+        <li><a href="best-certificate-in-hotel-management-college-in-dehradun-uttarakhand.php">CHM - Certification in Hotel Management</a></li>
       </ul>
     </div>
 
@@ -35,8 +35,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Nursing</h2>
       <ul class="courses-list">
-        <li><a href="gnm.php">GNM - General Nursing & Midwifery</a></li>
-        <li><a href="nursing-assistant.php">Nursing Assistant</a></li>
+        <li><a href="best-gnm-college-in-dehradun-uttarakhand.php">GNM - General Nursing & Midwifery</a></li>
+        <li><a href="best-nursing-assistant-college-in-dehradun-uttarakhand.php">Nursing Assistant</a></li>
       </ul>
     </div>
 
@@ -44,7 +44,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Paramedical Sciences</h2>
       <ul class="courses-list">
-        <li><a href="dialysis-technology.php">Diploma in Dialysis Technology</a></li>
+        <li><a href="best-diploma-in-dialysis-technology-college-in-dehradun-uttarakhand.php">Diploma in Dialysis Technology</a></li>
       </ul>
     </div>
 
@@ -52,12 +52,12 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">Ashtavakra School of Rehabilitation</h2>
       <ul class="courses-list">
-        <li><a href="early-child-special-edu.php">Early Childhood Special Education (Hearing Impairment)</a></li>
-        <li><a href="early-rehabilitation-therapy.php">Early Rehabilitation Therapy (Mental Retardation)</a></li>
-        <li><a href="prosthetics-orthotics.php">Diploma in Prosthetics & Orthotics</a></li>
-        <li><a href="hearing-language-speech.php">Diploma in Hearing Language & Speech (DHLS)</a></li>
-        <li><a href="indian-sign-language.php">Diploma in Indian Sign Language (DISLI)</a></li>
-        <li><a href="care-giving.php">Certificate Course in Care Giving</a></li>
+        <li><a href="best-diploma-early-childhood-special-education-college-in-dehradun-uttarakhand.php">Early Childhood Special Education (Hearing Impairment)</a></li>
+        <li><a href="best-diploma-in-early-rehabilitation-therapy-college-in-dehradun-uttarakhand.php">Early Rehabilitation Therapy (Mental Retardation)</a></li>
+        <li><a href="best-diploma-in-prosthetics-and-orthotics-college-in-dehradun-uttarakhand.php">Diploma in Prosthetics & Orthotics</a></li>
+        <li><a href="best-diploma-in-hearing-language-and-speech-college-in-dehradun-uttarakhand.php">Diploma in Hearing Language & Speech (DHLS)</a></li>
+        <li><a href="best-diploma-in-indian-sign-language-college-in-dehradun-uttarakhand.php">Diploma in Indian Sign Language (DISLI)</a></li>
+        <li><a href="best-certificate-in-care-giving-college-in-dehradun-uttarakhand.php">Certificate Course in Care Giving</a></li>
       </ul>
     </div>
 

@@ -69,7 +69,7 @@ $og_image = "https://maya.edu.in/assets/uploads/law-blog.png";
 
                             <p>Law shapes every aspect of society, from personal rights and business contracts to governance, justice, and human dignity. For students who want to argue, advocate, and uphold the rule of law, the School of Law & Legal Studies at Maya Devi University offers a rigorous and practice-oriented path as a respected <strong>law college in Dehradun</strong>, Uttarakhand.</p>
 
-                            <p class="mdu-main-link">For BA LLB, BBA LLB and LLB eligibility and admissions, visit our <a href="school-of-legal-studies.php">law college in Dehradun</a> page.</p>
+                            <p class="mdu-main-link">For BA LLB, BBA LLB and LLB eligibility and admissions, visit our <a href="best-law-college-in-dehradun-uttarakhand.php">law college in Dehradun</a> page.</p>
 
                             <h2>Why a Law Degree Opens So Many Doors</h2>
                             <p>A legal education is one of the most versatile qualifications a student can earn. Beyond the courtroom, law graduates build careers in corporate legal departments, litigation, judiciary services, civil services, legal consulting, compliance, human rights, academia, and policy. As businesses grow more complex and regulation expands, skilled legal professionals are in steady demand across the public and private sectors.</p>
@@ -119,7 +119,7 @@ $og_image = "https://maya.edu.in/assets/uploads/law-blog.png";
 
                             <p class="mt-4">
                                 <a href="https://admissions.maya.edu.in" target="_blank" class="btn btn-primary px-4 py-2 mr-2">Apply Now</a> 
-                                or explore the <a href="school-of-legal-studies.php" class="text-success font-weight-bold">School of Law & Legal Studies</a>.
+                                or explore the <a href="best-law-college-in-dehradun-uttarakhand.php" class="text-success font-weight-bold">School of Law & Legal Studies</a>.
                             </p>
 
                             <div class="blog-share-tags mt-5">

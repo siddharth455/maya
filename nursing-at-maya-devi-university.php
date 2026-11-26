@@ -69,7 +69,7 @@ $og_image = "https://maya.edu.in/assets/uploads/nursing-blog.png";
 
                             <p>Nursing is one of the most respected and needed professions in the world. Nurses are the backbone of every hospital, clinic, and community health system, combining clinical skill with compassion to care for people at their most vulnerable. For students called to this vital work, the School of Nursing at Maya Devi University is a trusted <strong>nursing college in Dehradun</strong>, Uttarakhand.</p>
 
-                            <p class="mdu-main-link">For B.Sc Nursing and GNM eligibility, fees and admissions, visit our page on the <a href="Nursing.php">best nursing college in Dehradun</a>.</p>
+                            <p class="mdu-main-link">For B.Sc Nursing and GNM eligibility, fees and admissions, visit our page on the <a href="best-nursing-college-in-dehradun-uttarakhand.php">best nursing college in Dehradun</a>.</p>
 
                             <h2>Why Nursing Is a Career With Real Impact</h2>
                             <p>The world needs more nurses. Global and national health systems face ongoing shortages, and qualified nursing professionals enjoy strong job security, meaningful work, and opportunities to serve at home and abroad. Beyond the bedside, nursing opens pathways into community health, teaching, research, administration, and specialized clinical roles.</p>
@@ -119,7 +119,7 @@ $og_image = "https://maya.edu.in/assets/uploads/nursing-blog.png";
 
                             <p class="mt-4">
                                 <a href="https://admissions.maya.edu.in" target="_blank" class="btn btn-primary px-4 py-2 mr-2">Apply Now</a> 
-                                or explore the <a href="Nursing.php" class="text-success font-weight-bold">School of Nursing</a>.
+                                or explore the <a href="best-nursing-college-in-dehradun-uttarakhand.php" class="text-success font-weight-bold">School of Nursing</a>.
                             </p>
 
                             <div class="blog-share-tags mt-5">

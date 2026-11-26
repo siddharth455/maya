@@ -69,7 +69,7 @@ $og_image = "https://maya.edu.in/assets/uploads/hotel-blog.png";
 
                             <p>Hospitality and tourism form one of the world's largest and most exciting industries, offering careers that span hotels, restaurants, airlines, cruise lines, event management, and travel across the globe. For students with a love of service, food, travel, and people, the School of Hotel & Tourism Management at Maya Devi University is an outstanding <strong>hotel management college in Dehradun</strong>, Uttarakhand.</p>
 
-                            <p class="mdu-main-link">For BHM, BHMCT and other courses, eligibility and admissions, visit our <a href="hotel-management-and-tourism.php">hotel management college in Dehradun</a> page.</p>
+                            <p class="mdu-main-link">For BHM, BHMCT and other courses, eligibility and admissions, visit our <a href="best-hotel-management-college-in-dehradun-uttarakhand.php">hotel management college in Dehradun</a> page.</p>
 
                             <h2>Why Hospitality and Tourism Offer Global Careers</h2>
                             <p>Tourism is booming. As travel rebounds and grows worldwide, and as India promotes its own rich tourism potential, the demand for trained hospitality and tourism professionals continues to rise. This is an industry that never truly stands still, and it rewards skilled people with opportunities that are genuinely global.</p>
@@ -119,7 +119,7 @@ $og_image = "https://maya.edu.in/assets/uploads/hotel-blog.png";
 
                             <p class="mt-4">
                                 <a href="https://admissions.maya.edu.in" target="_blank" class="btn btn-primary px-4 py-2 mr-2">Apply Now</a> 
-                                or explore the <a href="hotel-management-and-tourism.php" class="text-success font-weight-bold">School of Hotel & Tourism Management</a>.
+                                or explore the <a href="best-hotel-management-college-in-dehradun-uttarakhand.php" class="text-success font-weight-bold">School of Hotel & Tourism Management</a>.
                             </p>
 
                             <div class="blog-share-tags mt-5">

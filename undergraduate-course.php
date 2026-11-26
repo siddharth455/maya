@@ -15,20 +15,20 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name my-3">School of Computer Engineering & Applications</h2>
       <ul class="courses-list">
-      <li><a href="bachelor-of-computer-application.php">Bachelor of Computer Application</a></li>
-        <li><a href="bachelor-of-computer-application-ai-and-ml.php">Bachelor of Computer Application in AIML</a></li>
-        <li><a href="bachelor-of-computer-application-data-science.php">Bachelor of Computer Application in Data Science</a></li>
-        <li><a href="bachelor-of-computer-application-cyber-security.php">Bachelor of Computer Application in Cyber Security</a></li>
-        <li><a href="bachelor-of-science-in-information-technology.php">B.Sc IT</a></li>
-        <li><a href="bachelor-of-science-in-computer-science.php">B.Sc Computer Science</a></li>
-        <li><a href="b-tech-le.php">B.Tech (LE)</a></li>
-        <li><a href="b-tech-cse.php">B.Tech CSE</a></li>
-        <li><a href="b-tech-ai-ml.php">B.Tech AI & ML</a></li>
-        <li><a href="b-tech-evt.php">B.Tech EVT</a></li>
-        <li><a href="b-tech-hfct.php">B.Tech HFCT</a></li>
-        <li><a href="b.tech-data_science.php">B.Tech Data Science</a></li>
-        <li><a href="b.tech-cyber_security.php">B.Tech Cyber Security</a></li>
-        <li><a href="b-tech-cs-ibm.php">B.Tech CS with IBM Program (AIML, Data Science, Cyber Security & Forensics)</a></li>
+      <li><a href="best-bca-college-in-dehradun-uttarakhand.php">Bachelor of Computer Application</a></li>
+        <li><a href="best-bca-ai-ml-college-in-dehradun-uttarakhand.php">Bachelor of Computer Application in AIML</a></li>
+        <li><a href="best-bca-data-science-college-in-dehradun-uttarakhand.php">Bachelor of Computer Application in Data Science</a></li>
+        <li><a href="best-bca-cyber-security-college-in-dehradun-uttarakhand.php">Bachelor of Computer Application in Cyber Security</a></li>
+        <li><a href="best-b-sc-information-technology-college-in-dehradun-uttarakhand.php">B.Sc IT</a></li>
+        <li><a href="best-b-sc-computer-science-college-in-dehradun-uttarakhand.php">B.Sc Computer Science</a></li>
+        <li><a href="best-b-tech-cse-lateral-entry-college-in-dehradun-uttarakhand.php">B.Tech (LE)</a></li>
+        <li><a href="best-b-tech-cse-college-in-dehradun-uttarakhand.php">B.Tech CSE</a></li>
+        <li><a href="best-b-tech-ai-ml-college-in-dehradun-uttarakhand.php">B.Tech AI & ML</a></li>
+        <li><a href="best-b-tech-electric-vehicle-technology-college-in-dehradun-uttarakhand.php">B.Tech EVT</a></li>
+        <li><a href="best-b-tech-hydrogen-fuel-cell-technology-college-in-dehradun-uttarakhand.php">B.Tech HFCT</a></li>
+        <li><a href="best-b-tech-data-science-college-in-dehradun-uttarakhand.php">B.Tech Data Science</a></li>
+        <li><a href="best-b-tech-cyber-security-college-in-dehradun-uttarakhand.php">B.Tech Cyber Security</a></li>
+        <li><a href="best-b-tech-cse-ibm-college-in-dehradun-uttarakhand.php">B.Tech CS with IBM Program (AIML, Data Science, Cyber Security & Forensics)</a></li>
       </ul>
     </div>
 
@@ -36,17 +36,17 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Engineering</h2>
       <ul class="courses-list">
-      <li><a href="b-tech-civil-structural-engineering.php">B.Tech - Civil Engineering (Structural Engineering)</a></li>
-      <li><a href="b.tech-civil-engineering.php">B.Tech - Civil Engineering</a></li>
-        <li><a href="b.tech-civil-engineering-le.php">B.Tech - Civil Engineering (Lateral Entry)</a></li>
-        <li><a href="b.tech-mechanical-engineering.php">B.Tech - Mechanical Engineering</a></li>
-        <li><a href="b.tech-mechatronics-and-robotics.php">B.Tech - Mechanical Engineering (Mechatronics)</a></li>
-        <li><a href="mechanical-engineering-le.php">B.Tech - Mechanical Engineering (LE)</a></li>
-        <li><a href="b.tech-electronics-and-communication-engineering.php">B.Tech -Electronics & Communication Engineering</a></li>
-        <li><a href="b.tech-electronics-and-communication-engineering-vlsi-embedded.php">B.Tech -Electronics & Communication Engineering (VLSI & Embedded System)</a></li>
-        <li><a href="b.tech-electronics-and-communication-engineering-le.php">B.Tech -Electronics & Communication Engineering (LE)</a></li>
-        <li><a href="b.tech-electronics-and-communication-engineering-robotics-ai.php">B.Tech -Electronics & Communication Engineering (Robotics & AI)</a></li>
-        <li><a href="b.tech-aerospace-engineering.php">B.Tech - Aerospace Engineering</a></li>
+      <li><a href="best-b-tech-civil-structural-engineering-college-in-dehradun-uttarakhand.php">B.Tech - Civil Engineering (Structural Engineering)</a></li>
+      <li><a href="best-b-tech-civil-engineering-college-in-dehradun-uttarakhand.php">B.Tech - Civil Engineering</a></li>
+        <li><a href="best-b-tech-civil-engineering-lateral-entry-college-in-dehradun-uttarakhand.php">B.Tech - Civil Engineering (Lateral Entry)</a></li>
+        <li><a href="best-b-tech-mechanical-engineering-college-in-dehradun-uttarakhand.php">B.Tech - Mechanical Engineering</a></li>
+        <li><a href="best-b-tech-mechatronics-and-robotics-college-in-dehradun-uttarakhand.php">B.Tech - Mechanical Engineering (Mechatronics)</a></li>
+        <li><a href="best-b-tech-mechanical-engineering-lateral-entry-college-in-dehradun-uttarakhand.php">B.Tech - Mechanical Engineering (LE)</a></li>
+        <li><a href="best-b-tech-electronics-and-communication-engineering-college-in-dehradun-uttarakhand.php">B.Tech -Electronics & Communication Engineering</a></li>
+        <li><a href="best-b-tech-ece-vlsi-embedded-systems-college-in-dehradun-uttarakhand.php">B.Tech -Electronics & Communication Engineering (VLSI & Embedded System)</a></li>
+        <li><a href="best-b-tech-ece-lateral-entry-college-in-dehradun-uttarakhand.php">B.Tech -Electronics & Communication Engineering (LE)</a></li>
+        <li><a href="best-b-tech-ece-robotics-ai-college-in-dehradun-uttarakhand.php">B.Tech -Electronics & Communication Engineering (Robotics & AI)</a></li>
+        <li><a href="best-b-tech-aerospace-engineering-college-in-dehradun-uttarakhand.php">B.Tech - Aerospace Engineering</a></li>
       </ul>
     </div>
 
@@ -55,8 +55,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
       <h2 class="school-name">School of Pharmacy</h2>
       <ul class="courses-list">
         <li><a href="best-b-pharma-colleges-in-dehradun-uttarakhand.php">B.Pharm - Pharmacy</a></li>
-        <li><a href="bachelor-pharmacy-lateral-entry.php">B.Pharm - Pharmacy (Lateral Entry)</a></li>
-        <li><a href="doctor-pharmacy.php">Pharm.D - Doctor of Pharmacy</a></li>
+        <li><a href="best-b-pharma-lateral-entry-college-in-dehradun-uttarakhand.php">B.Pharm - Pharmacy (Lateral Entry)</a></li>
+        <li><a href="best-pharm-d-college-in-dehradun-uttarakhand.php">Pharm.D - Doctor of Pharmacy</a></li>
       </ul>
     </div>
 
@@ -64,16 +64,16 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Management and Commerce</h2>
       <ul class="courses-list">
-        <li><a href="bachelor-of-business-administration.php">BBA - Business Administration (HR)</a></li>
-        <li><a href="bachelor-of-business-administration.php">BBA - Business Administration (Marketing Management)</a></li>
-        <li><a href="bachelor-of-business-administration.php">BBA - Business Administration (Finance Management)</a></li>
-        <li><a href="bachelor-of-business-administration.php">BBA - Business Administration (Digital Marketing)</a></li>
-        <li><a href="bachelor-of-business-administration.php">BBA - Business Administration (Aviation Management)</a></li>
-        <li><a href="bachelor-of-business-administration.php">BBA - Business Administration (Retail Management)</a></li>
-        <li><a href="bba-hospitality-management.php">BBA - Hospitality Management</a></li>
-        <li><a href="bachelor-of-commerce.php">B.com (Hons) - Finance</a></li>
-        <li><a href="bachelor-of-commerce.php">B.com (Hons) - Accounting</a></li>
-        <li><a href="bachelor-of-commerce.php">B.com (Hons) - Taxation</a></li>
+        <li><a href="best-bba-college-in-dehradun-uttarakhand.php">BBA - Business Administration (HR)</a></li>
+        <li><a href="best-bba-college-in-dehradun-uttarakhand.php">BBA - Business Administration (Marketing Management)</a></li>
+        <li><a href="best-bba-college-in-dehradun-uttarakhand.php">BBA - Business Administration (Finance Management)</a></li>
+        <li><a href="best-bba-college-in-dehradun-uttarakhand.php">BBA - Business Administration (Digital Marketing)</a></li>
+        <li><a href="best-bba-college-in-dehradun-uttarakhand.php">BBA - Business Administration (Aviation Management)</a></li>
+        <li><a href="best-bba-college-in-dehradun-uttarakhand.php">BBA - Business Administration (Retail Management)</a></li>
+        <li><a href="best-bba-hospitality-management-college-in-dehradun-uttarakhand.php">BBA - Hospitality Management</a></li>
+        <li><a href="best-b-com-college-in-dehradun-uttarakhand.php">B.com (Hons) - Finance</a></li>
+        <li><a href="best-b-com-college-in-dehradun-uttarakhand.php">B.com (Hons) - Accounting</a></li>
+        <li><a href="best-b-com-college-in-dehradun-uttarakhand.php">B.com (Hons) - Taxation</a></li>
       </ul>
     </div>
 
@@ -81,11 +81,11 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Hotel Management and Tourism</h2>
       <ul class="courses-list">
-        <li><a href="bhm-colleges-in-dehradun-uttarakhand.php">BHM - Hotel Management</a></li>
-        <li><a href="bhm-lateral-entry-colleges-in-dehradun-uttarakhand.php">BHM - Hotel Management (LE)</a></li>
-        <li><a href="bhmct-colleges-in-dehradun-uttarakhand.php">BHM - Hotel Management & Catering Technology (BHMCT)</a></li>
-        <li><a href="bhmct-lateral-entry-colleges-in-dehradun-uttarakhand.php">BHM - Hotel Management & Catering Technology (LE)</a></li>
-        <li><a href="bba-hospitality-management.php">BBA - Hospitality Management</a></li>
+        <li><a href="best-bhm-college-in-dehradun-uttarakhand.php">BHM - Hotel Management</a></li>
+        <li><a href="best-bhm-lateral-entry-college-in-dehradun-uttarakhand.php">BHM - Hotel Management (LE)</a></li>
+        <li><a href="best-bhmct-college-in-dehradun-uttarakhand.php">BHM - Hotel Management & Catering Technology (BHMCT)</a></li>
+        <li><a href="best-bhmct-lateral-entry-college-in-dehradun-uttarakhand.php">BHM - Hotel Management & Catering Technology (LE)</a></li>
+        <li><a href="best-bba-hospitality-management-college-in-dehradun-uttarakhand.php">BBA - Hospitality Management</a></li>
       </ul>
     </div>
 
@@ -93,17 +93,17 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Life and Applied Sciences</h2>
       <ul class="courses-list">
-        <li><a href="bsc-environmental-science-hons.php">B.Sc - Environmental Science (Hons.)</a></li>
-        <li><a href="bsc-physics-hons.php">B.Sc - Physics (Hons.)</a></li>
-        <li><a href="bsc-botany-hons.php">B.Sc - Botany (Hons.)</a></li>
-        <li><a href="bsc-zoology-hons.php">B.Sc - Zoology (Hons.)</a></li>
-        <li><a href="bsc-chemistry-hons.php">B.Sc - Chemistry (Hons.)</a></li>
-        <li><a href="bsc-mathematics-hons.php">B.Sc - Mathematics (Hons.)</a></li>
-        <li><a href="bsc-forensic-hons.php">B.Sc - Forensic Science (Hons.)</a></li>
-        <li><a href="bsc-biotechnology-hons.php">B.Sc - Biotechnology (Hons.)</a></li>
-        <li><a href="bsc-microbiology-hons.php">B.Sc - Microbiology (Hons.)</a></li>
-        <li><a href="bsc-pcm.php">B.Sc - PCM (Physics, Chemistry, Mathematics)</a></li>
-        <li><a href="bsc-cbz.php">B.Sc - CBZ (Chemistry, Botany, Zoology)</a></li>
+        <li><a href="best-b-sc-environmental-science-hons-college-in-dehradun-uttarakhand.php">B.Sc - Environmental Science (Hons.)</a></li>
+        <li><a href="best-b-sc-physics-hons-college-in-dehradun-uttarakhand.php">B.Sc - Physics (Hons.)</a></li>
+        <li><a href="best-b-sc-botany-hons-college-in-dehradun-uttarakhand.php">B.Sc - Botany (Hons.)</a></li>
+        <li><a href="best-b-sc-zoology-hons-college-in-dehradun-uttarakhand.php">B.Sc - Zoology (Hons.)</a></li>
+        <li><a href="best-b-sc-chemistry-hons-college-in-dehradun-uttarakhand.php">B.Sc - Chemistry (Hons.)</a></li>
+        <li><a href="best-b-sc-mathematics-hons-college-in-dehradun-uttarakhand.php">B.Sc - Mathematics (Hons.)</a></li>
+        <li><a href="best-b-sc-forensic-science-hons-college-in-dehradun-uttarakhand.php">B.Sc - Forensic Science (Hons.)</a></li>
+        <li><a href="best-b-sc-biotechnology-hons-college-in-dehradun-uttarakhand.php">B.Sc - Biotechnology (Hons.)</a></li>
+        <li><a href="best-b-sc-microbiology-hons-college-in-dehradun-uttarakhand.php">B.Sc - Microbiology (Hons.)</a></li>
+        <li><a href="best-b-sc-pcm-college-in-dehradun-uttarakhand.php">B.Sc - PCM (Physics, Chemistry, Mathematics)</a></li>
+        <li><a href="best-b-sc-cbz-college-in-dehradun-uttarakhand.php">B.Sc - CBZ (Chemistry, Botany, Zoology)</a></li>
       </ul>
     </div>
 
@@ -111,7 +111,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Education</h2>
       <ul class="courses-list">
-        <li><a href="bachelor-education.php">B.Ed - Bachelor of Education</a></li>
+        <li><a href="best-b-ed-college-in-dehradun-uttarakhand.php">B.Ed - Bachelor of Education</a></li>
       </ul>
     </div>
 
@@ -119,10 +119,10 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Agriculture & Technology</h2>
       <ul class="courses-list">
-        <li><a href="bsc-agriculture-colleges-in-dehradun-uttarakhand.php">B.Sc - Agriculture (Hons.)</a></li>
-        <li><a href="bsc-horticulture-colleges-in-dehradun-uttarakhand.php">B.Sc - Horticulture (Hons.)</a></li>
-        <li><a href="b-tech-food-technology.php">B.Tech - Food Technology</a></li>
-        <li><a href="food-technology.php">B.Tech - Food Technology (Hons.)</a></li>
+        <li><a href="best-b-sc-agriculture-college-in-dehradun-uttarakhand.php">B.Sc - Agriculture (Hons.)</a></li>
+        <li><a href="best-b-sc-horticulture-college-in-dehradun-uttarakhand.php">B.Sc - Horticulture (Hons.)</a></li>
+        <li><a href="best-b-tech-food-technology-college-in-dehradun-uttarakhand.php">B.Tech - Food Technology</a></li>
+        <li><a href="best-b-sc-food-technology-college-in-dehradun-uttarakhand.php">B.Tech - Food Technology (Hons.)</a></li>
       </ul>
     </div>
 
@@ -130,7 +130,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Nursing</h2>
       <ul class="courses-list">
-        <li><a href="bsc-nursing.php">B.Sc - Nursing</a></li>
+        <li><a href="best-b-sc-nursing-college-in-dehradun-uttarakhand.php">B.Sc - Nursing</a></li>
       </ul>
     </div>
 
@@ -138,8 +138,8 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Health Sciences</h2>
       <ul class="courses-list">
-        <li><a href="hospital-administration.php">Bachelor in Hospital Administration (BHA)</a></li>
-        <li><a href="public-health.php">Bachelor in Public Health (BPH)</a></li>
+        <li><a href="best-bha-hospital-administration-college-in-dehradun-uttarakhand.php">Bachelor in Hospital Administration (BHA)</a></li>
+        <li><a href="best-bph-public-health-college-in-dehradun-uttarakhand.php">Bachelor in Public Health (BPH)</a></li>
       </ul>
     </div>
 
@@ -147,14 +147,14 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Paramedical Sciences</h2>
       <ul class="courses-list">
-        <li><a href="bpt.php">Bachelor of Physiotherapy (BPT)</a></li>
-        <li><a href="bmlt.php">Bachelor of Medical Laboratory Technology (BMLT)</a></li>
-        <li><a href="bmrit.php">Bachelor of Radiology & Imaging Technology (BMRIT)</a></li>
-        <li><a href="bott.php">Bachelor of Operation Theatre Technology (BOTT)</a></li>
-        <li><a href="b.sc-dialysis-technology.php">B.Sc - Dialysis Technology</a></li>
-        <li><a href="anaesthesia-technology.php">B.Sc - Anaesthesia Technology</a></li>
-        <li><a href="cardiac-care-technology.php">B.Sc - Cardiac Care Technology</a></li>
-        <li><a href="Bachelor-of-Physical-Education-and-Sports.php">Bachelor of Physical Education and Sports (BPES)</a></li>
+        <li><a href="best-bpt-college-in-dehradun-uttarakhand.php">Bachelor of Physiotherapy (BPT)</a></li>
+        <li><a href="best-bmlt-college-in-dehradun-uttarakhand.php">Bachelor of Medical Laboratory Technology (BMLT)</a></li>
+        <li><a href="best-bmrit-college-in-dehradun-uttarakhand.php">Bachelor of Radiology & Imaging Technology (BMRIT)</a></li>
+        <li><a href="best-bott-college-in-dehradun-uttarakhand.php">Bachelor of Operation Theatre Technology (BOTT)</a></li>
+        <li><a href="best-b-sc-dialysis-technology-college-in-dehradun-uttarakhand.php">B.Sc - Dialysis Technology</a></li>
+        <li><a href="best-b-sc-anaesthesia-technology-college-in-dehradun-uttarakhand.php">B.Sc - Anaesthesia Technology</a></li>
+        <li><a href="best-b-sc-cardiac-care-technology-college-in-dehradun-uttarakhand.php">B.Sc - Cardiac Care Technology</a></li>
+        <li><a href="best-physical-education-and-sports-college-in-dehradun-uttarakhand.php">Bachelor of Physical Education and Sports (BPES)</a></li>
       </ul>
     </div>
 
@@ -162,19 +162,19 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Arts and Humanities</h2>
       <ul class="courses-list">
-        <li><a href="ba-english-literature.php">BA - English Literature</a></li>
-        <li><a href="ba-history.php">BA - History</a></li>
-        <li><a href="ba-psychology.php">BA - Psychology</a></li>
-        <li><a href="ba-clinical-psychology.php">BA - Clinical Psychology</a></li>
-        <li><a href="ba-hindi-literature.php">BA - Hindi Literature</a></li>
-        <li><a href="ba-sociology.php">BA - Sociology</a></li>
-        <li><a href="ba-political-science.php">BA - Political Science</a></li>
-        <li><a href="ba-economics.php">BA - Economics</a></li>
-        <li><a href="ba-yoga.php">BA - Yoga</a></li>
-        <li><a href="ba-geography.php">BA - Geography</a></li>
-        <li><a href="ba-fine-arts.php">BA - Fine & Arts</a></li>
-        <li><a href="ba-mathematics.php">BA - Maths</a></li>
-        <li><a href="ba-journalism-and-mass-communication.php">BA - Journalism & Mass Communication</a></li>
+        <li><a href="best-ba-english-literature-college-in-dehradun-uttarakhand.php">BA - English Literature</a></li>
+        <li><a href="best-ba-history-college-in-dehradun-uttarakhand.php">BA - History</a></li>
+        <li><a href="best-ba-psychology-college-in-dehradun-uttarakhand.php">BA - Psychology</a></li>
+        <li><a href="best-ba-clinical-psychology-college-in-dehradun-uttarakhand.php">BA - Clinical Psychology</a></li>
+        <li><a href="best-ba-hindi-literature-college-in-dehradun-uttarakhand.php">BA - Hindi Literature</a></li>
+        <li><a href="best-ba-sociology-college-in-dehradun-uttarakhand.php">BA - Sociology</a></li>
+        <li><a href="best-ba-political-science-college-in-dehradun-uttarakhand.php">BA - Political Science</a></li>
+        <li><a href="best-ba-economics-college-in-dehradun-uttarakhand.php">BA - Economics</a></li>
+        <li><a href="best-ba-yoga-college-in-dehradun-uttarakhand.php">BA - Yoga</a></li>
+        <li><a href="best-ba-geography-college-in-dehradun-uttarakhand.php">BA - Geography</a></li>
+        <li><a href="best-ba-fine-arts-college-in-dehradun-uttarakhand.php">BA - Fine & Arts</a></li>
+        <li><a href="best-ba-mathematics-college-in-dehradun-uttarakhand.php">BA - Maths</a></li>
+        <li><a href="best-ba-journalism-and-mass-communication-college-in-dehradun-uttarakhand.php">BA - Journalism & Mass Communication</a></li>
       </ul>
     </div>
 
@@ -182,9 +182,9 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Law & Legal Studies</h2>
       <ul class="courses-list">
-        <li><a href="ba-llb.php">BA LLB - Integrated Law</a></li>
-        <li><a href="llb.php">LLB - Bachelor of Law</a></li>
-        <li><a href="bba-llb.php">BBA LLB - Bachelor of Law</a></li>
+        <li><a href="best-ba-llb-college-in-dehradun-uttarakhand.php">BA LLB - Integrated Law</a></li>
+        <li><a href="best-llb-college-in-dehradun-uttarakhand.php">LLB - Bachelor of Law</a></li>
+        <li><a href="best-bba-llb-college-in-dehradun-uttarakhand.php">BBA LLB - Bachelor of Law</a></li>
       </ul>
     </div>
 
@@ -192,21 +192,21 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">School of Skill Development and Vocational Studies</h2>
       <ul class="courses-list">
-        <li><a href="b.voc-agriculture.php">B.Voc - Agriculture</a></li>
-        <li><a href="b.voc-aviation.php">B.Voc - Aviation</a></li>
-        <li><a href="b.voc-welding.php">B.Voc - Welding</a></li>
-        <li><a href="b.voc-food-production.php">B.Voc - Food Production</a></li>
-        <li><a href="b.voc-sales-marketing.php">B.Voc - Sales & Marketing</a></li>
-        <li><a href="b.voc-pharma-assistance.php">B.Voc - Pharma Assistance</a></li>
-        <li><a href="b.voc-bakery-pastry.php">B.Voc - Bakery & Pastry Arts</a></li>
-        <li><a href="b.voc-aiml-data-analysis.php">B.Voc - AIML & Data Analysis</a></li>
-        <li><a href="b.voc-computer-technology.php">B.Voc - Computer Technology</a></li>
-        <li><a href="b.voc-mass-media-production.php">B.Voc - Mass media & Production</a></li>
-        <li><a href="b.voc-finance-taxation-accounting.php">B.Voc - Finance,Taxation & Accounting</a></li>
-        <li><a href="b.voc-ecommerce-digital-marketing.php">B.Voc - E-commerce & Digital Marketing</a></li>
-        <li><a href="b.voc-hotel-hospitality.php">B.Voc - Hotel & Hospital Management</a></li>
-        <li><a href="b.voc-patient-healthcare.php">B.Voc - Patient & Health Care Management</a></li>
-        <li><a href="b.voc-food-processing-nutrition.php">B.Voc - Food processing & Nutrition Management</a></li>
+        <li><a href="best-b-voc-agriculture-college-in-dehradun-uttarakhand.php">B.Voc - Agriculture</a></li>
+        <li><a href="best-b-voc-aviation-college-in-dehradun-uttarakhand.php">B.Voc - Aviation</a></li>
+        <li><a href="best-b-voc-welding-technology-college-in-dehradun-uttarakhand.php">B.Voc - Welding</a></li>
+        <li><a href="best-b-voc-food-production-college-in-dehradun-uttarakhand.php">B.Voc - Food Production</a></li>
+        <li><a href="best-b-voc-sales-marketing-college-in-dehradun-uttarakhand.php">B.Voc - Sales & Marketing</a></li>
+        <li><a href="best-b-voc-pharma-assistance-college-in-dehradun-uttarakhand.php">B.Voc - Pharma Assistance</a></li>
+        <li><a href="best-b-voc-bakery-pastry-college-in-dehradun-uttarakhand.php">B.Voc - Bakery & Pastry Arts</a></li>
+        <li><a href="best-b-voc-ai-ml-data-analysis-college-in-dehradun-uttarakhand.php">B.Voc - AIML & Data Analysis</a></li>
+        <li><a href="best-b-voc-computer-technology-college-in-dehradun-uttarakhand.php">B.Voc - Computer Technology</a></li>
+        <li><a href="best-b-voc-mass-media-production-college-in-dehradun-uttarakhand.php">B.Voc - Mass media & Production</a></li>
+        <li><a href="best-b-voc-finance-taxation-accounting-college-in-dehradun-uttarakhand.php">B.Voc - Finance,Taxation & Accounting</a></li>
+        <li><a href="best-b-voc-ecommerce-digital-marketing-college-in-dehradun-uttarakhand.php">B.Voc - E-commerce & Digital Marketing</a></li>
+        <li><a href="best-b-voc-hotel-hospitality-college-in-dehradun-uttarakhand.php">B.Voc - Hotel & Hospital Management</a></li>
+        <li><a href="best-b-voc-patient-healthcare-college-in-dehradun-uttarakhand.php">B.Voc - Patient & Health Care Management</a></li>
+        <li><a href="best-b-voc-food-processing-nutrition-college-in-dehradun-uttarakhand.php">B.Voc - Food processing & Nutrition Management</a></li>
       </ul>
     </div>
 
@@ -214,7 +214,7 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
     <div class="school">
       <h2 class="school-name">Ashtavakra School of Rehabilitation</h2>
       <ul class="courses-list">
-        <li><a href="clinical-psychology.php">B.Sc - Clinical Psychology (Hons.)</a></li>
+        <li><a href="best-b-sc-clinical-psychology-college-in-dehradun-uttarakhand.php">B.Sc - Clinical Psychology (Hons.)</a></li>
       </ul>
     </div>
 

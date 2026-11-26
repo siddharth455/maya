@@ -220,29 +220,29 @@ $base_url = $protocol . $host . $projectFolder;
                                                         <li><a href=""></a></li>
                                                         <li><a href="best-computer-engineering-college-in-dehradun-uttarakhand.php">School of Computer Engineering &<br> Applications</a></li>
                                                         <li><a href="best-engineering-college-in-dehradun-uttarakhand.php">School of Engineering</a></li>
-                                                        <li><a href="pharmacy.php">School of Pharmacy</a></li>
-                                                        <li><a href="management-and-commerce.php">School of Commerce & Management</a></li>
-                                                        <li><a href="hotel-management-and-tourism.php">School of Hotel & Tourism Management</a></li>
-                                                        <li><a href="sciences.php">School of Life & Applied Science</a></li>
+                                                        <li><a href="best-pharmacy-college-in-dehradun-uttarakhand.php">School of Pharmacy</a></li>
+                                                        <li><a href="best-management-and-commerce-college-in-dehradun-uttarakhand.php">School of Commerce & Management</a></li>
+                                                        <li><a href="best-hotel-management-college-in-dehradun-uttarakhand.php">School of Hotel & Tourism Management</a></li>
+                                                        <li><a href="best-life-and-allied-sciences-college-in-dehradun-uttarakhand.php">School of Life & Applied Science</a></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <ul>
                                                         <li><a href=""></a></li>
-                                                        <li><a href="school-of-education.php">School of Education</a></li>
-                                                        <li><a href="agriculture.php">School of Agriculture & Technology</a></li>
-                                                        <li><a href="Nursing.php">School of Nursing</a></li>
-                                                        <li><a href="school-of-health-sciences.php">School of Health Sciences</a></li>
-                                                        <li><a href="School-Of-Paramedical-Sciences.php">School of Paramedical Sciences</a></li>
-                                                        <li><a href="Arts-and-humanities.php">School of Arts & Humanities</a></li>
+                                                        <li><a href="best-education-college-in-dehradun-uttarakhand.php">School of Education</a></li>
+                                                        <li><a href="best-agriculture-college-in-dehradun-uttarakhand.php">School of Agriculture & Technology</a></li>
+                                                        <li><a href="best-nursing-college-in-dehradun-uttarakhand.php">School of Nursing</a></li>
+                                                        <li><a href="best-health-sciences-college-in-dehradun-uttarakhand.php">School of Health Sciences</a></li>
+                                                        <li><a href="best-paramedical-college-in-dehradun-uttarakhand.php">School of Paramedical Sciences</a></li>
+                                                        <li><a href="best-arts-and-humanities-college-in-dehradun-uttarakhand.php">School of Arts & Humanities</a></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <ul>
                                                         <li><a href=""></a></li>
-                                                        <li><a href="school-of-legal-studies.php">School of Law & Legal Studies</a></li>
-                                                        <li><a href="school-of-skill-development-and-vocational-studies.php">School of Skill Development & Vocational Studies</a></li>
-                                                        <li><a href="school-of-rehabilitation-sciences.php">Ashtvakra School of Rehabilitation</a></li>
+                                                        <li><a href="best-law-college-in-dehradun-uttarakhand.php">School of Law & Legal Studies</a></li>
+                                                        <li><a href="best-skill-development-and-vocational-college-in-dehradun-uttarakhand.php">School of Skill Development & Vocational Studies</a></li>
+                                                        <li><a href="best-rehabilitation-sciences-college-in-dehradun-uttarakhand.php">Ashtvakra School of Rehabilitation</a></li>
                                                     </ul>
                                                 </li>
 
@@ -311,19 +311,19 @@ $base_url = $protocol . $host . $projectFolder;
                                     <ul class="submenu">
                                         <li><a href="best-computer-engineering-college-in-dehradun-uttarakhand.php">School of Computer Engineering & Applications</a></li>
                                         <li><a href="best-engineering-college-in-dehradun-uttarakhand.php">School of Engineering</a></li>
-                                        <li><a href="pharmacy.php">School of Pharmacy</a></li>
-                                        <li><a href="management-and-commerce.php">School of Commerce & Management</a></li>
-                                        <li><a href="hotel-management-and-tourism.php">School of Hotel & Tourism Management </a></li>
-                                        <li><a href="sciences.php">School of Life & Applied Science</a></li>
-                                        <li><a href="school-of-education.php">School of Education</a></li>
-                                        <li><a href="agriculture.php">School of Agriculture & Technology</a></li>
-                                        <li><a href="Nursing.php">School of Nursing</a></li>
-                                        <li><a href="school-of-health-sciences.php">School of Health Sciences</a></li>
-                                        <li><a href="School-Of-Paramedical-Sciences.php">School of Paramedical Sciences</a></li>
-                                        <li><a href="Arts-and-humanities.php">School of Arts & Humanities</a></li>
-                                        <li><a href="school-of-legal-studies.php">School of Law & Legal Studies</a></li>
-                                        <li><a href="school-of-skill-development-and-vocational-studies.php">School of Skill Development & Vocational Studies</a></li>
-                                        <li><a href="school-of-rehabilitation-sciences.php">Ashtvakra School of Rehabilitation</a></li>
+                                        <li><a href="best-pharmacy-college-in-dehradun-uttarakhand.php">School of Pharmacy</a></li>
+                                        <li><a href="best-management-and-commerce-college-in-dehradun-uttarakhand.php">School of Commerce & Management</a></li>
+                                        <li><a href="best-hotel-management-college-in-dehradun-uttarakhand.php">School of Hotel & Tourism Management </a></li>
+                                        <li><a href="best-life-and-allied-sciences-college-in-dehradun-uttarakhand.php">School of Life & Applied Science</a></li>
+                                        <li><a href="best-education-college-in-dehradun-uttarakhand.php">School of Education</a></li>
+                                        <li><a href="best-agriculture-college-in-dehradun-uttarakhand.php">School of Agriculture & Technology</a></li>
+                                        <li><a href="best-nursing-college-in-dehradun-uttarakhand.php">School of Nursing</a></li>
+                                        <li><a href="best-health-sciences-college-in-dehradun-uttarakhand.php">School of Health Sciences</a></li>
+                                        <li><a href="best-paramedical-college-in-dehradun-uttarakhand.php">School of Paramedical Sciences</a></li>
+                                        <li><a href="best-arts-and-humanities-college-in-dehradun-uttarakhand.php">School of Arts & Humanities</a></li>
+                                        <li><a href="best-law-college-in-dehradun-uttarakhand.php">School of Law & Legal Studies</a></li>
+                                        <li><a href="best-skill-development-and-vocational-college-in-dehradun-uttarakhand.php">School of Skill Development & Vocational Studies</a></li>
+                                        <li><a href="best-rehabilitation-sciences-college-in-dehradun-uttarakhand.php">Ashtvakra School of Rehabilitation</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#"> ADMISSION <i class="fa fa-angle-down"></i> </a>

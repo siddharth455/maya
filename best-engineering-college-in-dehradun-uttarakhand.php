@@ -185,7 +185,7 @@ $page_schema = <<<SCHEMA
    "item": {
     "@type": "Course",
     "name": "M.Tech Structural Engineering",
-    "url": "https://maya.edu.in/m.tech-structural-engineering.php",
+    "url": "https://maya.edu.in/best-m-tech-structural-engineering-college-in-dehradun-uttarakhand.php",
     "description": "M.Tech Structural Engineering offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
     "provider": {
      "@type": "CollegeOrUniversity",
@@ -209,7 +209,7 @@ $page_schema = <<<SCHEMA
    "item": {
     "@type": "Course",
     "name": "M.Tech Mechanical Engineering",
-    "url": "https://maya.edu.in/m.tech-mechanical-engineering.php",
+    "url": "https://maya.edu.in/best-m-tech-mechanical-engineering-college-in-dehradun-uttarakhand.php",
     "description": "M.Tech Mechanical Engineering offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
     "provider": {
      "@type": "CollegeOrUniversity",
@@ -388,7 +388,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.tech-civil-engineering.php">
+            <a href="best-b-tech-civil-engineering-college-in-dehradun-uttarakhand.php">
               <img src="assets/uploads/civil.webp" alt="B.Tech Civil Engineering at Maya Devi University">
             </a>
           </div>
@@ -396,7 +396,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>B.Tech Civil Engineering</h4>
             <p>Training students in civil engineering, structural design, and professional engineering skills.</p>
             <div class="course-meta"><span>Credits: 176</span><span>4 Years</span></div>
-            <a class="default-btn btn-block" href="b.tech-civil-engineering.php">Apply Now</a>
+            <a class="default-btn btn-block" href="best-b-tech-civil-engineering-college-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div>
@@ -405,7 +405,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <!-- <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b-tech-civil-structural-engineering.php">
+            <a href="best-b-tech-civil-structural-engineering-college-in-dehradun-uttarakhand.php">
               <img src="assets/uploads/b.tech-civil.jpg" alt="B.Tech Civil (Structural Engineering) at Maya Devi University">
             </a>
           </div>
@@ -413,7 +413,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>B.Tech Civil (Structural Engineering)</h4>
             <p>Focused on structural design, analysis, and construction skills.</p>
             <div class="course-meta"><span>Credits: 125</span><span>4 Years</span></div>
-            <a class="default-btn btn-block" href="b-tech-civil-structural-engineering.php">Apply Now</a>
+            <a class="default-btn btn-block" href="best-b-tech-civil-structural-engineering-college-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div> -->
@@ -422,7 +422,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.tech-civil-engineering-le.php">
+            <a href="best-b-tech-civil-engineering-lateral-entry-college-in-dehradun-uttarakhand.php">
               <img src="assets/uploads/civil-le.webp" alt="B.Tech Civil (Lateral Entry) at Maya Devi University">
             </a>
           </div>
@@ -430,7 +430,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>B.Tech Civil (Lateral Entry)</h4>
             <p>Focused on structural design, analysis, and construction skills.</p>
             <div class="course-meta"><span>Credits: 132</span><span>3 Years</span></div>
-            <a class="default-btn btn-block" href="b.tech-civil-engineering-le.php">Apply Now</a>
+            <a class="default-btn btn-block" href="best-b-tech-civil-engineering-lateral-entry-college-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div>
@@ -439,7 +439,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <!-- <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.tech-mechanical-engineering.php">
+            <a href="best-b-tech-mechanical-engineering-college-in-dehradun-uttarakhand.php">
               <img src="assets/uploads/b.tech-mechanical.webp" alt="B.Tech Mechanical Engineering at Maya Devi University">
             </a>
           </div>
@@ -447,7 +447,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>B.Tech Mechanical Engineering</h4>
             <p>Mechanical systems, electronics, and professional engineering skills.</p>
             <div class="course-meta"><span>Credits: 176</span><span>4 Years</span></div>
-            <a class="default-btn btn-block" href="b.tech-mechanical-engineering.php">Apply Now</a>
+            <a class="default-btn btn-block" href="best-b-tech-mechanical-engineering-college-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div> -->
@@ -456,7 +456,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.tech-mechatronics-and-robotics.php">
+            <a href="best-b-tech-mechatronics-and-robotics-college-in-dehradun-uttarakhand.php">
               <img src="assets/uploads/robots.jpeg" alt="B.Tech Mechanical (Mechatronics) at Maya Devi University">
             </a>
           </div>
@@ -464,7 +464,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>B.Tech Mechanical (Mechatronics)</h4>
             <p>Mechanical systems integrated with electronics and robotics.</p>
             <div class="course-meta"><span>Credits: 176</span><span>4 Years</span></div>
-            <a class="default-btn btn-block" href="b.tech-mechatronics-and-robotics.php">Apply Now</a>
+            <a class="default-btn btn-block" href="best-b-tech-mechatronics-and-robotics-college-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div>
@@ -473,7 +473,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="mechanical-engineering-le.php">
+            <a href="best-b-tech-mechanical-engineering-lateral-entry-college-in-dehradun-uttarakhand.php">
               <img src="assets/uploads/mechanical-le.webp" alt="B.Tech Mechanical (Lateral Entry) at Maya Devi University">
             </a>
           </div>
@@ -481,7 +481,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>B.Tech Mechanical (Lateral Entry)</h4>
             <p>Advanced mechanical systems and design skills.</p>
             <div class="course-meta"><span>Credits: 132</span><span>3 Years</span></div>
-            <a class="default-btn btn-block" href="mechanical-engineering-le.php">Apply Now</a>
+            <a class="default-btn btn-block" href="best-b-tech-mechanical-engineering-lateral-entry-college-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div>
@@ -490,7 +490,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.tech-electronics-and-communication-engineering.php">
+            <a href="best-b-tech-electronics-and-communication-engineering-college-in-dehradun-uttarakhand.php">
               <img src="assets/uploads/b.tech-electric-2.webp" alt="Students working with equipment in the electrical engineering lab">
             </a>
           </div>
@@ -498,7 +498,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>B.Tech Electronics & Communication</h4>
             <p>Communication systems, electronics, and embedded engineering.</p>
             <div class="course-meta"><span>Credits: 176</span><span>4 Years</span></div>
-            <a class="default-btn btn-block" href="b.tech-electronics-and-communication-engineering.php">Apply Now</a>
+            <a class="default-btn btn-block" href="best-b-tech-electronics-and-communication-engineering-college-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div>
@@ -507,7 +507,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.tech-electronics-and-communication-engineering-vlsi-embedded.php">
+            <a href="best-b-tech-ece-vlsi-embedded-systems-college-in-dehradun-uttarakhand.php">
               <img src="assets/uploads/b.tech-electric.webp" alt="B.Tech ECE (VLSI &amp; Embedded) at Maya Devi University">
             </a>
           </div>
@@ -515,7 +515,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>B.Tech ECE (VLSI & Embedded)</h4>
             <p>VLSI design, embedded systems, and electronics engineering.</p>
             <div class="course-meta"><span>Credits: 176</span><span>4 Years</span></div>
-            <a class="default-btn btn-block" href="b.tech-electronics-and-communication-engineering-vlsi-embedded.php">Apply Now</a>
+            <a class="default-btn btn-block" href="best-b-tech-ece-vlsi-embedded-systems-college-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div>
@@ -524,7 +524,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.tech-electronics-and-communication-engineering-robotics-ai.php">
+            <a href="best-b-tech-ece-robotics-ai-college-in-dehradun-uttarakhand.php">
               <img src="assets/uploads/b.tech-electric-3.webp" alt="Student working on a solar panel setup in the electrical engineering lab">
             </a>
           </div>
@@ -532,7 +532,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>B.Tech ECE (Robotics & AI)</h4>
             <p>Robotics systems, artificial intelligence, and automation.</p>
             <div class="course-meta"><span>Credits: 176</span><span>4 Years</span></div>
-            <a class="default-btn btn-block" href="b.tech-electronics-and-communication-engineering-robotics-ai.php">Apply Now</a>
+            <a class="default-btn btn-block" href="best-b-tech-ece-robotics-ai-college-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div>
@@ -541,7 +541,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.tech-aerospace-engineering.php">
+            <a href="best-b-tech-aerospace-engineering-college-in-dehradun-uttarakhand.php">
               <img src="assets/uploads/aero.jpg" alt="B.Tech Aerospace Engineering at Maya Devi University">
             </a>
           </div>
@@ -549,7 +549,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>B.Tech Aerospace Engineering</h4>
             <p>Aerodynamics, propulsion, aircraft structures, and space technology.</p>
             <div class="course-meta"><span>Credits: 176</span><span>4 Years</span></div>
-            <a class="default-btn btn-block" href="b.tech-aerospace-engineering.php">Apply Now</a>
+            <a class="default-btn btn-block" href="best-b-tech-aerospace-engineering-college-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div>
@@ -558,7 +558,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="b.tech-electronics-and-communication-engineering-le.php">
+            <a href="best-b-tech-ece-lateral-entry-college-in-dehradun-uttarakhand.php">
               <img src="assets/uploads/b.tech-electric-2.webp" alt="Students working with equipment in the electrical engineering lab">
             </a>
           </div>
@@ -566,7 +566,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>B.Tech ECE (Lateral Entry)</h4>
             <p>Electronics and networking systems for communication.</p>
             <div class="course-meta"><span>Credits: 132</span><span>3 Years</span></div>
-            <a class="default-btn btn-block" href="b.tech-electronics-and-communication-engineering-le.php">Apply Now</a>
+            <a class="default-btn btn-block" href="best-b-tech-ece-lateral-entry-college-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div>
@@ -586,7 +586,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="m.tech-structural-engineering.php">
+            <a href="best-m-tech-structural-engineering-college-in-dehradun-uttarakhand.php">
               <img src="assets/uploads/b.tech-civil.jpg" alt="M.Tech Structural Engineering at Maya Devi University">
             </a>
            
@@ -595,7 +595,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>M.Tech Structural Engineering</h4>
             <p>Advanced structural design, analysis, and construction.</p>
             <div class="course-meta"><span>Credits: 80</span><span>2 Years</span></div>
-            <a class="default-btn btn-block" href="m.tech-structural-engineering.php">Apply Now</a>
+            <a class="default-btn btn-block" href="best-m-tech-structural-engineering-college-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div>
@@ -603,7 +603,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col-lg-3 col-md-6 mb-30">
         <div class="course-card">
           <div class="course-img">
-            <a href="m.tech-mechanical-engineering.php">
+            <a href="best-m-tech-mechanical-engineering-college-in-dehradun-uttarakhand.php">
               <img src="assets/uploads/mtech-mechanical.webp" alt="M.Tech Mechanical Engineering at Maya Devi University">
             </a>
            
@@ -612,7 +612,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h4>M.Tech Mechanical Engineering</h4>
             <p>Advanced mechanical systems, design, and research.</p>
             <div class="course-meta"><span>Credits: 80</span><span>2 Years</span></div>
-            <a class="default-btn btn-block" href="m.tech-mechanical-engineering.php">Apply Now</a>
+            <a class="default-btn btn-block" href="best-m-tech-mechanical-engineering-college-in-dehradun-uttarakhand.php">Apply Now</a>
           </div>
         </div>
       </div>

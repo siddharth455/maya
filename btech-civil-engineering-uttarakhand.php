@@ -364,7 +364,7 @@ $og_image = "https://maya.edu.in/assets/uploads/civil-blog.png";
 
                             <p class="mt-4">
                                 <a href="https://admissions.maya.edu.in" target="_blank" class="btn btn-primary px-4 py-2 mr-2">Apply Now</a> 
-                                or explore <a href="b-tech-civil-structural-engineering.php" class="text-success font-weight-bold">B.Tech Civil Engineering at MDU</a>.
+                                or explore <a href="best-b-tech-civil-structural-engineering-college-in-dehradun-uttarakhand.php" class="text-success font-weight-bold">B.Tech Civil Engineering at MDU</a>.
                             </p>
 
                             <div class="blog-share-tags mt-5">

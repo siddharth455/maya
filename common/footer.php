@@ -65,14 +65,14 @@
             <div class="footer-list">
               <ul>
                 <li><a href="best-computer-engineering-college-in-dehradun-uttarakhand.php">School of Computer Engineering & Applications</a></li>
-                <li><a href="sciences.php">School of Life & Applied sciences</a></li>
-                <li><a href="pharmacy.php">School of Pharmacy</a></li>
-                <li><a href="agriculture.php">School of Agriculture and Technology</a></li>
+                <li><a href="best-life-and-allied-sciences-college-in-dehradun-uttarakhand.php">School of Life & Applied sciences</a></li>
+                <li><a href="best-pharmacy-college-in-dehradun-uttarakhand.php">School of Pharmacy</a></li>
+                <li><a href="best-agriculture-college-in-dehradun-uttarakhand.php">School of Agriculture and Technology</a></li>
                 <li><a href="best-engineering-college-in-dehradun-Uttarakhand.php">School of Engineering</a></li>
-                <li><a href="management-and-commerce.php">School of Commerce & Management</a></li>
-                <li><a href="hotel-management-and-tourism.php">School of Hotel & Tourism Management</a></li>
-                <li><a href="school-of-education.php">School of Education</a></li>
-                <li><a href="Nursing.php">School of Nursing</a></li>
+                <li><a href="best-management-and-commerce-college-in-dehradun-uttarakhand.php">School of Commerce & Management</a></li>
+                <li><a href="best-hotel-management-college-in-dehradun-uttarakhand.php">School of Hotel & Tourism Management</a></li>
+                <li><a href="best-education-college-in-dehradun-uttarakhand.php">School of Education</a></li>
+                <li><a href="best-nursing-college-in-dehradun-uttarakhand.php">School of Nursing</a></li>
               </ul>
             </div>
           </div>

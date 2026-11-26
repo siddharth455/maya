@@ -26,19 +26,19 @@ $og_image = "https://maya.edu.in/assets/uploads/campus-2.jpeg";
 
     <a href="best-computer-engineering-college-in-dehradun-uttarakhand.php" class="dept-card">School of Computer Engineering & Applications</a>
     <a href="best-engineering-college-in-dehradun-uttarakhand.php" class="dept-card">School of Engineering</a>
-    <a href="pharmacy.php" class="dept-card">School of Pharmacy</a>
-    <a href="management-and-commerce.php" class="dept-card">School of Commerce & Management</a>
-    <a href="sciences.php" class="dept-card">School of Life & Applied Science</a>
-    <a href="hotel-management-and-tourism.php" class="dept-card">School of Hotel Management & Tourism</a>
-    <a href="school-of-education.php" class="dept-card">School of Education</a>
-    <a href="Nursing.php" class="dept-card">School of Nursing</a>
-    <a href="agriculture.php" class="dept-card">School of Agriculture & Technology</a>
-    <a href="School-Of-Paramedical-Sciences.php" class="dept-card">School of Paramedical Sciences</a>
-    <a href="school-of-health-sciences.php" class="dept-card">School of Health Science</a>
-    <a href="arts-and-humanities.php" class="dept-card">School of Arts & Humanities</a>
-    <a href="school-of-legal-studies.php" class="dept-card">School of Law & Legal Studies</a>
-    <a href="school-of-rehabilitation-sciences.php" class="dept-card">Ashtvakra School of Rehabilitation</a>
-    <a href="school-of-skill-development-and-vocational-studies.php" class="dept-card">School of Skill Development & Vocational Studies</a>
+    <a href="best-pharmacy-college-in-dehradun-uttarakhand.php" class="dept-card">School of Pharmacy</a>
+    <a href="best-management-and-commerce-college-in-dehradun-uttarakhand.php" class="dept-card">School of Commerce & Management</a>
+    <a href="best-life-and-allied-sciences-college-in-dehradun-uttarakhand.php" class="dept-card">School of Life & Applied Science</a>
+    <a href="best-hotel-management-college-in-dehradun-uttarakhand.php" class="dept-card">School of Hotel Management & Tourism</a>
+    <a href="best-education-college-in-dehradun-uttarakhand.php" class="dept-card">School of Education</a>
+    <a href="best-nursing-college-in-dehradun-uttarakhand.php" class="dept-card">School of Nursing</a>
+    <a href="best-agriculture-college-in-dehradun-uttarakhand.php" class="dept-card">School of Agriculture & Technology</a>
+    <a href="best-paramedical-college-in-dehradun-uttarakhand.php" class="dept-card">School of Paramedical Sciences</a>
+    <a href="best-health-sciences-college-in-dehradun-uttarakhand.php" class="dept-card">School of Health Science</a>
+    <a href="best-arts-and-humanities-college-in-dehradun-uttarakhand.php" class="dept-card">School of Arts & Humanities</a>
+    <a href="best-law-college-in-dehradun-uttarakhand.php" class="dept-card">School of Law & Legal Studies</a>
+    <a href="best-rehabilitation-sciences-college-in-dehradun-uttarakhand.php" class="dept-card">Ashtvakra School of Rehabilitation</a>
+    <a href="best-skill-development-and-vocational-college-in-dehradun-uttarakhand.php" class="dept-card">School of Skill Development & Vocational Studies</a>
 
   </div>
 </section>

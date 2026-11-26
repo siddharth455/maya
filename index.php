@@ -1346,10 +1346,10 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="diploma-in-confectionary.php"><img loading="lazy" class="animated" src="assets/uploads/bakery.webp" alt="Course image"></a>
+                    <a href="best-diploma-in-confectionery-college-in-dehradun-uttarakhand.php"><img loading="lazy" class="animated" src="assets/uploads/bakery.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
-                    <h4><a href="diploma-in-confectionary.php">Diploma in Bakery & Confectionary</a></h4>
+                    <h4><a href="best-diploma-in-confectionery-college-in-dehradun-uttarakhand.php">Diploma in Bakery & Confectionary</a></h4>
                     <p>The Diploma in Bakery and Confectionery program is a two-year course focusing on baking techniques, pastry arts, confectionery production, and dessert presentation.</p>
                 </div>
                 <div class="course-position-content">
@@ -1364,16 +1364,16 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="diploma-in-confectionary.php">APPLY NOW</a>
+                        <a class="default-btn" href="best-diploma-in-confectionery-college-in-dehradun-uttarakhand.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="diploma-in-food-production.php"><img loading="lazy" class="animated" src="assets/uploads/dhm.webp" alt="Course image"></a>
+                    <a href="best-diploma-in-food-production-college-in-dehradun-uttarakhand.php"><img loading="lazy" class="animated" src="assets/uploads/dhm.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
-                    <h4><a href="diploma-in-food-production.php">Diploma in Food Production</a></h4>
+                    <h4><a href="best-diploma-in-food-production-college-in-dehradun-uttarakhand.php">Diploma in Food Production</a></h4>
                     <p>The Diploma in Food Production is a two-year program focusing on culinary techniques, kitchen operations, food preparation, and professional cookery standards.</p>
                 </div>
                 <div class="course-position-content">
@@ -1388,16 +1388,16 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="diploma-in-food-production.php">APPLY NOW</a>
+                        <a class="default-btn" href="best-diploma-in-food-production-college-in-dehradun-uttarakhand.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="gnm.php"><img loading="lazy" class="animated" src="assets/uploads/gnm.webp" alt="Course image"></a>
+                    <a href="best-gnm-college-in-dehradun-uttarakhand.php"><img loading="lazy" class="animated" src="assets/uploads/gnm.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
-                    <h4><a href="gnm.php">General Nursing and Midwifery (GNM)</a></h4>
+                    <h4><a href="best-gnm-college-in-dehradun-uttarakhand.php">General Nursing and Midwifery (GNM)</a></h4>
                     <p>The GNM program is a diploma course for training students in professional nursing and care.</p>
                 </div>
                 <div class="course-position-content">
@@ -1412,7 +1412,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="gnm.php">APPLY NOW</a>
+                        <a class="default-btn" href="best-gnm-college-in-dehradun-uttarakhand.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
@@ -1425,11 +1425,11 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="course-slider-active nav-style-1 owl-carousel">
             <div class="single-course">
                 <div class="course-img">
-                    <a href="b-tech-ai-ml.php"><img loading="lazy" class="animated" src="assets/uploads/ai.jpeg" alt="Course image"></a>
+                    <a href="best-b-tech-ai-ml-college-in-dehradun-uttarakhand.php"><img loading="lazy" class="animated" src="assets/uploads/ai.jpeg" alt="Course image"></a>
 
                 </div>
                 <div class="course-content">
-                    <h4><a href="b-tech-ai-ml.php">B.tech With Specialization in AI & ML</a></h4>
+                    <h4><a href="best-b-tech-ai-ml-college-in-dehradun-uttarakhand.php">B.tech With Specialization in AI & ML</a></h4>
                     <p>Focused program in AI and Machine Learning, covering neural networks and intelligent systems.</p>
                 </div>
                 <div class="course-position-content">
@@ -1444,16 +1444,16 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="b-tech-ai-ml.php">APPLY NOW</a>
+                        <a class="default-btn" href="best-b-tech-ai-ml-college-in-dehradun-uttarakhand.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="b.tech-cyber_security.php"><img loading="lazy" class="animated" src="assets/uploads/cyber-security.webp" alt="Course image"></a>
+                    <a href="best-b-tech-cyber-security-college-in-dehradun-uttarakhand.php"><img loading="lazy" class="animated" src="assets/uploads/cyber-security.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
-                    <h4><a href="b.tech-cyber_security.php">B.tech With Specialization in Cyber Security</a></h4>
+                    <h4><a href="best-b-tech-cyber-security-college-in-dehradun-uttarakhand.php">B.tech With Specialization in Cyber Security</a></h4>
                     <p>Specialized program in cyber security and digital forensics with IBM, focusing on threat detection and mitigation.</p>
                 </div>
                 <div class="course-position-content">
@@ -1468,16 +1468,16 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="b.tech-cyber_security.php">APPLY NOW</a>
+                        <a class="default-btn" href="best-b-tech-cyber-security-college-in-dehradun-uttarakhand.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="b-tech-cse.php"><img loading="lazy" class="animated" src="assets/uploads/computer.webp" alt="Course image"></a>
+                    <a href="best-b-tech-cse-college-in-dehradun-uttarakhand.php"><img loading="lazy" class="animated" src="assets/uploads/computer.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
-                    <h4><a href="b-tech-cse.php">B.Tech. Computer Science & Engineering</a></h4>
+                    <h4><a href="best-b-tech-cse-college-in-dehradun-uttarakhand.php">B.Tech. Computer Science & Engineering</a></h4>
                     <p>Core program in computer science, covering programming, algorithms, and system design.</p>
                 </div>
                 <div class="course-position-content">
@@ -1492,17 +1492,17 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="b-tech-cse.php">APPLY NOW</a>
+                        <a class="default-btn" href="best-b-tech-cse-college-in-dehradun-uttarakhand.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="b.tech-data_science.php"><img loading="lazy" class="animated" src="assets/uploads/data-science.webp" alt="Course image"></a>
+                    <a href="best-b-tech-data-science-college-in-dehradun-uttarakhand.php"><img loading="lazy" class="animated" src="assets/uploads/data-science.webp" alt="Course image"></a>
 
                 </div>
                 <div class="course-content">
-                    <h4><a href="b.tech-data_science.php">B.tech With Specialization in Data Science</a></h4>
+                    <h4><a href="best-b-tech-data-science-college-in-dehradun-uttarakhand.php">B.tech With Specialization in Data Science</a></h4>
                     <p>Focused program on data science with IBM, covering data analysis, visualization, and predictive modeling.</p>
                 </div>
                 <div class="course-position-content">
@@ -1517,7 +1517,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="b.tech-data_science.php">APPLY NOW</a>
+                        <a class="default-btn" href="best-b-tech-data-science-college-in-dehradun-uttarakhand.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
@@ -1529,10 +1529,10 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="course-slider-active nav-style-1 owl-carousel">
             <div class="single-course">
                 <div class="course-img">
-                    <a href="m.tech-structural-engineering.php"><img loading="lazy" class="animated" src="assets/uploads/b.tech-civil.jpg" alt="Course image"></a>
+                    <a href="best-m-tech-structural-engineering-college-in-dehradun-uttarakhand.php"><img loading="lazy" class="animated" src="assets/uploads/b.tech-civil.jpg" alt="Course image"></a>
                 </div>
                 <div class="course-content">
-                    <h4><a href="m.tech-mechanical-engineering.php">M.Tech in Structural Engineering</a></h4>
+                    <h4><a href="best-m-tech-mechanical-engineering-college-in-dehradun-uttarakhand.php">M.Tech in Structural Engineering</a></h4>
                     <p>The M.Tech Structural Engineering is a two-year program focusing on advanced structural design, analysis, and construction technologies.</p>
                 </div>
                 <div class="course-position-content">
@@ -1547,16 +1547,16 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="m.tech-mechanical-engineering.php">APPLY NOW</a>
+                        <a class="default-btn" href="best-m-tech-mechanical-engineering-college-in-dehradun-uttarakhand.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="m.tech-mechanical-engineering.php"><img loading="lazy" class="animated" src="assets/uploads/mtech-mechanical.webp" alt="Course image"></a>
+                    <a href="best-m-tech-mechanical-engineering-college-in-dehradun-uttarakhand.php"><img loading="lazy" class="animated" src="assets/uploads/mtech-mechanical.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
-                    <h4><a href="m.tech-mechanical-engineering.php">M.Tech in Mechanical Engineering</a></h4>
+                    <h4><a href="best-m-tech-mechanical-engineering-college-in-dehradun-uttarakhand.php">M.Tech in Mechanical Engineering</a></h4>
                     <p>Mechanical Engineering is one of the major streams in the engineering profession and its principles are involved in the design, study, development and construction of nearly all of the physical devices and systems.</p>
                 </div>
                 <div class="course-position-content">
@@ -1571,16 +1571,16 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="m.tech-mechanical-engineering.php">APPLY NOW</a>
+                        <a class="default-btn" href="best-m-tech-mechanical-engineering-college-in-dehradun-uttarakhand.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="master-in-agriculture.php"><img loading="lazy" class="animated" src="assets/uploads/agriculture.webp" alt="Course image"></a>
+                    <a href="best-m-sc-agriculture-college-in-dehradun-uttarakhand.php"><img loading="lazy" class="animated" src="assets/uploads/agriculture.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
-                    <h4><a href="master-in-agriculture.php">Master in agriculture</a></h4>
+                    <h4><a href="best-m-sc-agriculture-college-in-dehradun-uttarakhand.php">Master in agriculture</a></h4>
                     <p>The Master in Agriculture program offers advanced training in crop production, soil management, and sustainable farming, preparing graduates for research and leadership roles in agriculture.</p>
                 </div>
                 <div class="course-position-content">
@@ -1595,16 +1595,16 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="master-in-agriculture.php">APPLY NOW</a>
+                        <a class="default-btn" href="best-m-sc-agriculture-college-in-dehradun-uttarakhand.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>
             <div class="single-course">
                 <div class="course-img">
-                    <a href="genetics-and-plant-breeding.php"><img loading="lazy" class="animated" src="assets/uploads/genetics.webp" alt="Course image"></a>
+                    <a href="best-m-sc-genetics-and-plant-breeding-college-in-dehradun-uttarakhand.php"><img loading="lazy" class="animated" src="assets/uploads/genetics.webp" alt="Course image"></a>
                 </div>
                 <div class="course-content">
-                    <h4><a href="genetics-and-plant-breeding.php">M.Sc. in Genetics and Plant Breeding</a></h4>
+                    <h4><a href="best-m-sc-genetics-and-plant-breeding-college-in-dehradun-uttarakhand.php">M.Sc. in Genetics and Plant Breeding</a></h4>
                     <p>The M.Sc. in Genetics and Plant Breeding program focuses on advanced plant genetics, crop improvement, and research skills for modern agriculture.</p>
                 </div>
                 <div class="course-position-content">
@@ -1619,7 +1619,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                     <div class="course-btn">
-                        <a class="default-btn" href="genetics-and-plant-breeding.php">APPLY NOW</a>
+                        <a class="default-btn" href="best-m-sc-genetics-and-plant-breeding-college-in-dehradun-uttarakhand.php">APPLY NOW</a>
                     </div>
                 </div>
             </div>

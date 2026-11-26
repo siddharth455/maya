@@ -126,10 +126,10 @@ $page_schema = ($page_schema ?? "") . course_schema([
                         <div class="related-slider-active">
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="bachelor-pharmacy-lateral-entry.php"><img class="animated" src="assets/uploads/pharmacy-le.jpg" alt="Bachelor of pharmacy (Lateral Entry) at Maya Devi University"></a>
+                                    <a href="best-b-pharma-lateral-entry-college-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/pharmacy-le.jpg" alt="Bachelor of pharmacy (Lateral Entry) at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
-                                    <h4><a href="bachelor-pharmacy-lateral-entry.php">Bachelor of pharmacy (Lateral Entry)</a></h4>
+                                    <h4><a href="best-b-pharma-lateral-entry-college-in-dehradun-uttarakhand.php">Bachelor of pharmacy (Lateral Entry)</a></h4>
                                     <p>The B.Pharm Lateral Entry program is a three-year course focusing on pharmaceutical sciences, drug development, and pharmacy practice.</p>
                                 </div>
                                 <div class="course-position-content">
@@ -144,7 +144,7 @@ $page_schema = ($page_schema ?? "") . course_schema([
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="bachelor-pharmacy-lateral-entry.php">APPLY NOW</a>
+                                        <a class="default-btn" href="best-b-pharma-lateral-entry-college-in-dehradun-uttarakhand.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>
@@ -174,10 +174,10 @@ $page_schema = ($page_schema ?? "") . course_schema([
                             </div>
                             <div class="single-course">
                                 <div class="course-img">
-                                    <a href="master-pharmacy-pharmaceutics.php"><img class="animated" src="assets/uploads/mpharm.jpg" alt="Master in Pharmacy at Maya Devi University"></a>
+                                    <a href="best-m-pharma-pharmaceutics-college-in-dehradun-uttarakhand.php"><img class="animated" src="assets/uploads/mpharm.jpg" alt="Master in Pharmacy at Maya Devi University"></a>
                                 </div>
                                 <div class="course-content">
-                                    <h4><a href="master-pharmacy-pharmaceutics.php">Master in Pharmacy</a></h4>
+                                    <h4><a href="best-m-pharma-pharmaceutics-college-in-dehradun-uttarakhand.php">Master in Pharmacy</a></h4>
                                     <p>The M.Pharm program offers advanced training in pharmaceutical sciences and drug development for careers in pharmacy and research.</p>
                                 </div>
                                 <div class="course-position-content">
@@ -192,7 +192,7 @@ $page_schema = ($page_schema ?? "") . course_schema([
                                         </div>
                                     </div>
                                     <div class="course-btn">
-                                        <a class="default-btn" href="master-pharmacy-pharmaceutics.php">APPLY NOW</a>
+                                        <a class="default-btn" href="best-m-pharma-pharmaceutics-college-in-dehradun-uttarakhand.php">APPLY NOW</a>
                                     </div>
                                 </div>
                             </div>
@@ -220,10 +220,10 @@ $page_schema = ($page_schema ?? "") . course_schema([
                         <div class="category-list">
                             <ul>
                                 <li><a href="best-engineering-college-in-dehradun-Uttarakhand.php">School of Engineering <span>13</span></a></li>
-                                <li><a href="pharmacy.php">School of Pharmacy <span>07</span></a></li>
-                                <li><a href="Nursing.php">School of Nursing <span>03</span></a></li>
-                                <li><a href="management-and-commerce.php">School of Commerce & Management <span>09</span></a></li>
-                                <li><a href="school-of-health-sciences.php">School of Health Sciences <span>10</span></a></li>
+                                <li><a href="best-pharmacy-college-in-dehradun-uttarakhand.php">School of Pharmacy <span>07</span></a></li>
+                                <li><a href="best-nursing-college-in-dehradun-uttarakhand.php">School of Nursing <span>03</span></a></li>
+                                <li><a href="best-management-and-commerce-college-in-dehradun-uttarakhand.php">School of Commerce & Management <span>09</span></a></li>
+                                <li><a href="best-health-sciences-college-in-dehradun-uttarakhand.php">School of Health Sciences <span>10</span></a></li>
                             </ul>
                         </div>
                     </div>

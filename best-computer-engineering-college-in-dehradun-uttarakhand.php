@@ -17,7 +17,7 @@ $page_schema = <<<SCHEMA
    "item": {
     "@type": "Course",
     "name": "B.Tech Computer Science & Engineering",
-    "url": "https://maya.edu.in/b-tech-cse.php",
+    "url": "https://maya.edu.in/best-b-tech-cse-college-in-dehradun-uttarakhand.php",
     "description": "B.Tech Computer Science & Engineering offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
     "provider": {
      "@type": "CollegeOrUniversity",
@@ -41,7 +41,7 @@ $page_schema = <<<SCHEMA
    "item": {
     "@type": "Course",
     "name": "B.Tech CSE with Specialization in AI & ML",
-    "url": "https://maya.edu.in/b-tech-ai-ml.php",
+    "url": "https://maya.edu.in/best-b-tech-ai-ml-college-in-dehradun-uttarakhand.php",
     "description": "B.Tech CSE with Specialization in AI & ML offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
     "provider": {
      "@type": "CollegeOrUniversity",
@@ -65,7 +65,7 @@ $page_schema = <<<SCHEMA
    "item": {
     "@type": "Course",
     "name": "B.Tech CSE with Specialization in Data Science",
-    "url": "https://maya.edu.in/b.tech-data_science.php",
+    "url": "https://maya.edu.in/best-b-tech-data-science-college-in-dehradun-uttarakhand.php",
     "description": "B.Tech CSE with Specialization in Data Science offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
     "provider": {
      "@type": "CollegeOrUniversity",
@@ -89,7 +89,7 @@ $page_schema = <<<SCHEMA
    "item": {
     "@type": "Course",
     "name": "B.Tech CSE with Specialization in Cyber Security",
-    "url": "https://maya.edu.in/b.tech-cyber_security.php",
+    "url": "https://maya.edu.in/best-b-tech-cyber-security-college-in-dehradun-uttarakhand.php",
     "description": "B.Tech CSE with Specialization in Cyber Security offered by Maya Devi University, Selaqui, Dehradun, Uttarakhand. UGC-recognised private university with IBM partnership and strong placement record.",
     "provider": {
      "@type": "CollegeOrUniversity",
@@ -932,7 +932,7 @@ SCHEMA;
           <h4>BCA in AI & Machine Learning</h4>
           <p>Shaping tech leaders with expertise in Artificial Intelligence and Machine Learning.</p>
           <div class="course-meta-maya"><span>⚡ 120 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-computer-application-ai-and-ml.php" class="course-cta">Apply Now</a>
+          <a href="best-bca-ai-ml-college-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-2">
@@ -942,7 +942,7 @@ SCHEMA;
           <h4>BCA in Data Science</h4>
           <p>Future tech & data leaders with expertise in Analytics and Data Science.</p>
           <div class="course-meta-maya"><span>⚡ 120 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-computer-application-data-science.php" class="course-cta">Apply Now</a>
+          <a href="best-bca-data-science-college-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-3">
@@ -952,7 +952,7 @@ SCHEMA;
           <h4>BCA in Cyber Security</h4>
           <p>An undergraduate program focused on computer applications and digital security.</p>
           <div class="course-meta-maya"><span>⚡ 120 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-computer-application-cyber-security.php" class="course-cta">Apply Now</a>
+          <a href="best-bca-cyber-security-college-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-4">
@@ -962,7 +962,7 @@ SCHEMA;
           <h4>B.Sc Information Technology</h4>
           <p>An undergraduate program focused on information technology and its applications.</p>
           <div class="course-meta-maya"><span>⚡ 120 Credits</span><span>📅 3 Years</span></div>
-          <a href="bachelor-of-science-in-information-technology.php" class="course-cta">Apply Now</a>
+          <a href="best-b-sc-information-technology-college-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-1">
@@ -972,7 +972,7 @@ SCHEMA;
           <h4>B.Tech Computer Science Engineering</h4>
           <p>An undergraduate program focused on information technology and its applications.</p>
           <div class="course-meta-maya"><span>⚡ 177 Credits</span><span>📅 4 Years</span></div>
-          <a href="b-tech-cse.php" class="course-cta">Apply Now</a>
+          <a href="best-b-tech-cse-college-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-2">
@@ -982,7 +982,7 @@ SCHEMA;
           <h4>B.Tech AI & ML</h4>
           <p>An undergraduate program focused on artificial intelligence and machine learning.</p>
           <div class="course-meta-maya"><span>⚡ 177 Credits</span><span>📅 4 Years</span></div>
-          <a href="b-tech-ai-ml.php" class="course-cta">Apply Now</a>
+          <a href="best-b-tech-ai-ml-college-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-3">
@@ -992,7 +992,7 @@ SCHEMA;
           <h4>B.Tech CSE with IBM</h4>
           <p>An undergraduate program combining CS fundamentals with IBM industry training.</p>
           <div class="course-meta-maya"><span>⚡ 177 Credits</span><span>📅 4 Years</span></div>
-          <a href="b-tech-cs-ibm.php" class="course-cta">Apply Now</a>
+          <a href="best-b-tech-cse-ibm-college-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-4">
@@ -1002,7 +1002,7 @@ SCHEMA;
           <h4>B.Tech Cyber Security</h4>
           <p>An undergraduate program focused on digital security and cyber defence.</p>
           <div class="course-meta-maya"><span>⚡ 177 Credits</span><span>📅 4 Years</span></div>
-          <a href="b.tech-cyber_security.php" class="course-cta">Apply Now</a>
+          <a href="best-b-tech-cyber-security-college-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
         </div>
       </div>
     </div>
@@ -1016,7 +1016,7 @@ SCHEMA;
           <h4>MCA AI & Machine Learning</h4>
           <p>Advanced program in artificial intelligence and machine learning applications.</p>
           <div class="course-meta-maya"><span>⚡ 88 Credits</span><span>📅 2 Years</span></div>
-          <a href="mca-aiml.php" class="course-cta">Apply Now</a>
+          <a href="best-mca-ai-ml-college-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-2">
@@ -1026,7 +1026,7 @@ SCHEMA;
           <h4>MCA Data Science</h4>
           <p>Advanced program focused on data analytics, visualization, and big data.</p>
           <div class="course-meta-maya"><span>⚡ 88 Credits</span><span>📅 2 Years</span></div>
-          <a href="mca-data-science.php" class="course-cta">Apply Now</a>
+          <a href="best-mca-data-science-college-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-3">
@@ -1036,7 +1036,7 @@ SCHEMA;
           <h4>MCA Cyber Security</h4>
           <p>Advanced program focused on information security and ethical hacking.</p>
           <div class="course-meta-maya"><span>⚡ 88 Credits</span><span>📅 2 Years</span></div>
-          <a href="mca-cyber-security.php" class="course-cta">Apply Now</a>
+          <a href="best-mca-cyber-security-college-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-4">
@@ -1046,7 +1046,7 @@ SCHEMA;
           <h4>M.Tech CSE (AI/DS/Cyber)</h4>
           <p>Advanced engineering with specializations in AI, Data Science, and Cybersecurity.</p>
           <div class="course-meta-maya"><span>⚡ 88 Credits</span><span>📅 2 Years</span></div>
-          <a href="mtech-specializations-cse-ai-ml.php" class="course-cta">Apply Now</a>
+          <a href="best-m-tech-cse-ai-ml-college-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-5">
@@ -1056,7 +1056,7 @@ SCHEMA;
           <h4>M.Sc Computer Science</h4>
           <p>An advanced program focused on computer science theory and applications.</p>
           <div class="course-meta-maya"><span>⚡ 88 Credits</span><span>📅 2 Years</span></div>
-          <a href="msc-computer-science.php" class="course-cta">Apply Now</a>
+          <a href="best-m-sc-computer-science-college-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
         </div>
       </div>
       <div class="course-card-maya reveal delay-6">
@@ -1066,7 +1066,7 @@ SCHEMA;
           <h4>MCA — Master of Computer Applications</h4>
           <p>An advanced program focused on computer applications and management.</p>
           <div class="course-meta-maya"><span>⚡ 88 Credits</span><span>📅 2 Years</span></div>
-          <a href="mca.php" class="course-cta">Apply Now</a>
+          <a href="best-mca-college-in-dehradun-uttarakhand.php" class="course-cta">Apply Now</a>
         </div>
       </div>
     </div>
@@ -1095,7 +1095,7 @@ SCHEMA;
           <span class="ibm-chip">Cybersecurity</span>
           <span class="ibm-chip">Robotics & AI</span>
         </div>
-        <a href="b-tech-cs-ibm.php" class="btn-primary">Explore IBM Program →</a>
+        <a href="best-b-tech-cse-ibm-college-in-dehradun-uttarakhand.php" class="btn-primary">Explore IBM Program →</a>
       </div>
       <div class="ibm-features-grid reveal-right">
         <div class="ibm-feat">

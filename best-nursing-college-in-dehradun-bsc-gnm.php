@@ -130,10 +130,10 @@ $og_image = "https://maya.edu.in/assets/uploads/nursing-gnm-blog.png";
 
                             <p class="lead">Explore the best nursing college in Dehradun offering B.Sc Nursing, GNM, and ANM courses with top facilities, expert faculty, and excellent placements.</p>
 
-                            <p class="mdu-main-link">For full programme details, see the School of Nursing, the <a href="Nursing.php">best nursing college in Dehradun</a>.</p>
+                            <p class="mdu-main-link">For full programme details, see the School of Nursing, the <a href="best-nursing-college-in-dehradun-uttarakhand.php">best nursing college in Dehradun</a>.</p>
 
                             <h2>Why Choose Dehradun for Nursing Education?</h2>
-                            <p>Dehradun, often called the “Education Hub of North India”, has earned its reputation for hosting some of the most prestigious colleges and universities in the country. One of the leading institutions that stand out here is <a href="Nursing.php" class="text-success font-weight-bold">Maya Devi University – Nursing Programmes</a>, known for its quality education, advanced infrastructure, and industry-ready curriculum.</p>
+                            <p>Dehradun, often called the “Education Hub of North India”, has earned its reputation for hosting some of the most prestigious colleges and universities in the country. One of the leading institutions that stand out here is <a href="best-nursing-college-in-dehradun-uttarakhand.php" class="text-success font-weight-bold">Maya Devi University – Nursing Programmes</a>, known for its quality education, advanced infrastructure, and industry-ready curriculum.</p>
 
                             <h4 class="font-weight-bold mt-4">Why Nursing in Dehradun?</h4>
                             <ul>
@@ -455,7 +455,7 @@ $og_image = "https://maya.edu.in/assets/uploads/nursing-gnm-blog.png";
 
                             <p class="mt-4">
                                 <a href="https://admissions.maya.edu.in" target="_blank" class="btn btn-primary px-4 py-2 mr-2">Apply Now</a> 
-                                or explore <a href="Nursing.php" class="text-success font-weight-bold">Nursing Programs at MDU</a>.
+                                or explore <a href="best-nursing-college-in-dehradun-uttarakhand.php" class="text-success font-weight-bold">Nursing Programs at MDU</a>.
                             </p>
 
                             <div class="blog-share-tags mt-5">

@@ -1,5 +1,5 @@
 <?php
 // 301 redirect: old mixed-case URL -> standardized lowercase-hyphenated URL
 header("HTTP/1.1 301 Moved Permanently");
-header("Location: https://maya.edu.in/b-tech-hfct.php");
+header("Location: https://maya.edu.in/best-b-tech-hydrogen-fuel-cell-technology-college-in-dehradun-uttarakhand.php");
 exit;

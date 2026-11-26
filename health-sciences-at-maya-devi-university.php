@@ -117,7 +117,7 @@ $og_image = "https://maya.edu.in/assets/uploads/health-blog.png";
 
                             <p class="mt-4">
                                 <a href="https://admissions.maya.edu.in" target="_blank" class="btn btn-primary px-4 py-2 mr-2">Apply Now</a> 
-                                or explore the <a href="school-of-health-sciences.php" class="text-success font-weight-bold">School of Health Sciences</a>.
+                                or explore the <a href="best-health-sciences-college-in-dehradun-uttarakhand.php" class="text-success font-weight-bold">School of Health Sciences</a>.
                             </p>
 
                             <div class="blog-share-tags mt-5">
